@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="zh-HK" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceWatch - 照妖鏡終極判決書 (Serverless 直連版)</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f7f6; padding: 20px; color: #333; margin: 0; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 20px;}
+        
+        #stats { display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
+        .stat-box { background: #fff; padding: 15px 20px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #34495e; font-size: 14px; min-width: 150px; }
+        .stat-box strong { font-size: 18px; display: block; margin-top: 5px; color: #2c3e50; }
+
+        /* 🛡️ 戰略濾鏡 */
+        .controls { background: #fff; padding: 15px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 20px; display: flex; gap: 15px; align-items: flex-end; flex-wrap: wrap; border-left: 4px solid #3498db; justify-content: space-between;}
+        .filters-left { display: flex; gap: 15px; flex-wrap: wrap; flex-grow: 1;}
+        .control-group { display: flex; flex-direction: column; gap: 5px; }
+        label { font-size: 12px; font-weight: bold; color: #7f8c8d; }
+        select, input { padding: 8px 12px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 13px; outline: none; min-width: 200px; height: 35px; box-sizing: border-box;}
+        select:focus, input:focus { border-color: #3498db; }
+
+        /* 🧹 按鈕 */
+        .btn-action { padding: 0 15px; color: #fff; border: none; border-radius: 4px; font-size: 13px; font-weight: bold; cursor: pointer; transition: background 0.2s; white-space: nowrap; height: 35px; display: flex; align-items: center; justify-content: center;}
+        .btn-clear { background: #7f8c8d; }
+        .btn-clear:hover { background: #95a5a6; }
+        .btn-upload { background: #e67e22; font-size: 13px; padding: 0 15px; box-shadow: 0 2px 5px rgba(230,126,34,0.3);}
+        .btn-upload:hover { background: #d35400; transform: translateY(-1px);}
+        .btn-fetch { background: #27ae60; font-size: 14px; padding: 0 20px; box-shadow: 0 2px 5px rgba(39,174,96,0.3);}
+        .btn-fetch:hover { background: #2ecc71; transform: translateY(-1px);}
+        .btn-action:active { transform: translateY(1px);}
+
+        /* 📜 判決書卡片網格 */
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 20px; }
+        
+        .verdict-card { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden; display: flex; flex-direction: column; border-top: 5px solid #95a5a6; transition: transform 0.2s; }
+        .verdict-card:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        
+        .card-header { padding: 15px; background: #f8f9fa; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: flex-start;}
+        .card-title { font-size: 16px; font-weight: bold; color: #2c3e50; margin: 0 0 5px 0;}
+        .card-subtitle { font-size: 12px; color: #7f8c8d; margin: 0; }
+        .code-badge { background: #ecf0f1; border: 1px solid #bdc3c7; color: #7f8c8d; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 11px; margin-top: 5px; display: inline-block;}
+        .sm-badge { background: #34495e; color: #fff; padding: 3px 6px; border-radius: 3px; font-size: 11px; font-weight: bold; }
+
+        .card-body { padding: 15px; flex-grow: 1; }
+        .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: #fdfefe; padding: 10px; border-radius: 5px; border: 1px dashed #bdc3c7; margin-bottom: 15px; }
+        .comp-col { display: flex; flex-direction: column; gap: 5px; }
+        .comp-header { font-size: 11px; font-weight: bold; color: #7f8c8d; text-transform: uppercase; border-bottom: 1px solid #eee; padding-bottom: 3px; margin-bottom: 5px;}
+        .data-row { font-size: 13px; display: flex; justify-content: space-between; }
+        .bold-label { color: #95a5a6; }
+        .data-value { font-weight: bold; color: #2c3e50; }
+        
+        .competitors-box { background: #f1f2f6; border-radius: 5px; padding: 10px; margin-top: 10px; font-size: 12px; border-left: 3px solid #7f8c8d;}
+        .comp-item { display: inline-block; margin-right: 15px; margin-top: 5px; }
+        
+        .price-up { color: #e74c3c; font-weight: bold; }
+        .price-down { color: #2ecc71; font-weight: bold; }
+        .pct-badge { font-size: 11px; padding: 1px 4px; border-radius: 3px; margin-left: 4px; display: inline-block;}
+        .pct-up { background: #fadbd8; color: #c0392b; }
+        .pct-down { background: #d5f5e3; color: #27ae60; }
+        
+        .card-footer { padding: 12px 15px; background: #fbfcfc; border-top: 1px solid #eee; font-size: 12px; line-height: 1.5; }
+        
+        .manual-badge { padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; display: inline-flex; align-items: center; gap: 5px; border: 1px solid; margin-bottom: 8px;}
+        
+        .badge-true-drop { background: #e8f8f5; color: #27ae60; border-color: #a3e4d7; }
+        .badge-new-offer { background: #ebf5fb; color: #2980b9; border-color: #a9cce3; }
+        .badge-fake-promo { background: #fef9e7; color: #f39c12; border-color: #f9e79f; }
+        .badge-price-up { background: #fdedec; color: #c0392b; border-color: #f5b7b1; }
+        .badge-maintained { background: #f4f6f7; color: #7f8c8d; border-color: #d5d8dc; }
+        .badge-new-added { background: #f0f3f4; color: #34495e; border-color: #ccd1d1; }
+    </style>
+</head>
+<body>
+
+    <h1>🔍 PriceWatch 照妖鏡 (雲端直連版)</h1>
+    
+    <div class="alert alert-info alert-dismissible fade show fw-bold text-dark mb-4 shadow-sm" role="alert" style="border-left: 5px solid #3498db; background-color: #e2f8fc;">
+        ☁️ 系統提示：目前已啟用 Serverless 網頁直連模式，自動讀取同目錄下的 <code class="fs-6 bg-dark text-light px-2 py-1 rounded">env.txt</code>，免跑 Node.js 服務。
+    </div>
+
+    <div id="stats">
+        <div class="stat-box">狀態: <strong id="loadStatus" style="color:#7f8c8d;">請點擊右方按鈕載入資料...</strong></div>
+        <div class="stat-box">總數據量: <strong id="totalCount">0</strong></div>
+        <div class="stat-box">當前顯示: <strong id="filteredCount">0</strong></div>
+    </div>
+
+    <div class="controls">
+        <div class="filters-left">
+            <div class="control-group">
+                <label>用戶手冊分類 (Manual Status)</label>
+                <select id="filterStatus">
+                    <option value="ALL">顯示所有貨品</option>
+                    <option value="ALL_CHANGED">🔥 只顯示有變動 (過濾價格維持)</option>
+                    <option value="真降價">📉 真降價 (今日折實 &lt; 上次)</option>
+                    <option value="假促銷">⚠️ 假促銷 (有標籤但無平過)</option>
+                    <option value="價格暗升">📈 價格暗升 (今日折實 &gt; 上次)</option>
+                    <option value="換新優惠">🏷️ 換新優惠 (價錢一樣換字眼)</option>
+                    <option value="首次上架">🆕 首次上架 (無歷史數據)</option>
+                    <option value="價格維持">⏸️ 價格維持</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label>超市鎖定 (Supermarket)</label>
+                <select id="filterSupermarket">
+                    <option value="ALL">全部超市</option>
+                </select>
+            </div>
+            <div class="control-group" style="flex-grow: 1;">
+                <label>精確雷達 (支援 Name, Brand, ID)</label>
+                <div style="display: flex; gap: 10px;">
+                    <input type="text" id="searchInput" placeholder="輸入關鍵字..." style="width: 100%;">
+                    <button id="clearFiltersBtn" class="btn-action btn-clear" title="清除條件">🧹 清除濾鏡</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="control-group" style="display: flex; flex-direction: row; gap: 10px; align-items: flex-end;">
+            <input type="file" id="fileInput" accept=".json" style="display:none;" onchange="handleLocalFile(event)">
+            <button onclick="document.getElementById('fileInput').click()" class="btn-action btn-upload" title="備用：手動上傳本地 JSON">
+                📂 本地載入
+            </button>
+            
+            <button onclick="fetchFromNeon()" class="btn-action btn-fetch">
+                ☁️ 從 Neon 直連最新快照
+            </button>
+        </div>
+    </div>
+
+    <div class="grid-container" id="cardsContainer">
+        <div style="grid-column: 1 / -1; padding: 40px; text-align: center; color: #95a5a6; border: 2px dashed #bdc3c7; border-radius: 8px;">
+            <h2>尚未載入數據</h2>
+            <p>點擊右上角的綠色按鈕 ☁️ 自動從 Neon 雲端資料庫直連獲取最新報價</p>
+        </div>
+    </div>
+
+   <script>
+        let globalData = []; 
+
+        // ☁️ 雲端直連核心讀取引擎 (Serverless)
+        async function fetchFromNeon() {
+            document.getElementById('loadStatus').textContent = '⏳ 正穿越網絡直連 Neon 提取數據...';
+            document.getElementById('loadStatus').style.color = '#f39c12';
+
+            try {
+                // 1. 動態匯入官方支援瀏覽器的 Serverless 驅動器
+                const { neon } = await import('https://esm.sh/@neondatabase/serverless@1.0.0');
+                
+                // 2. 透過 Live Server 載入同級目錄下的 env.txt
+                const envResponse = await fetch('./env.txt');
+                if (!envResponse.ok) {
+                    throw new Error("無法讀取同目錄下的 env.txt 檔案，請確認檔案已建立。");
+                }
+                const envText = await envResponse.text();
+                
+                // 正則解析連線字串
+                const match = envText.match(/NEON_DATABASE_URL\s*=\s*["']?([^"'\r\n]+)["']?/);
+                if (!match || !match[1]) {
+                    throw new Error("在 env.txt 檔案中找不到或無法解析 NEON_DATABASE_URL 欄位。");
+                }
+                const DATABASE_URL = match[1].trim();
+                
+                // 3. 建立連線實例
+                const sql = neon(DATABASE_URL);
+                
+                // 4. 嚴格遵循物理限制：直連終極命脈表，自動鎖定最新快照日期
+                const rawData = await sql`
+                    SELECT 
+                        supermarket_code, product_code, name_zh_hant, brand_zh_hant, cat1_zh_hant,
+                        last_seen_date, last_changed_date, last_drop_out_date, change_status, previous_change_status,
+                        current_base_price, current_effective_price, current_offer_en, current_offer_zh_hant, current_offer_zh_hans,
+                        previous_base_price, previous_effective_price, previous_offer_en, previous_offer_zh_hant, previous_offer_zh_hans
+                    FROM product_status_daily_snapshot 
+                    WHERE snapshot_date = (SELECT MAX(snapshot_date) FROM product_status_daily_snapshot)
+                    ORDER BY last_seen_date DESC, change_status ASC
+                `;
+                
+                processData(rawData, '線上大腦快照同步完成');
+
+            } catch (error) {
+                console.error("Fetch Error:", error);
+                document.getElementById('loadStatus').textContent = `❌ 同步失敗`;
+                document.getElementById('loadStatus').style.color = '#c0392b';
+                alert('無法直連 Neon 雲端資料庫，請稍後再試或使用本地載入：\n' + error.message);
+            }
+        }
+
+        // 📂 本地讀取引擎 (Backup 保持完好)
+        function handleLocalFile(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            document.getElementById('loadStatus').textContent = '⏳ 本地解析中...';
+            document.getElementById('loadStatus').style.color = '#f39c12';
+
+            const reader = new FileReader();
+            reader.onload = function(evt) {
+                try {
+                    const rawData = JSON.parse(evt.target.result);
+                    processData(rawData, '本地檔案載入完成');
+                } catch (err) {
+                    console.error("解析 Error:", err);
+                    document.getElementById('loadStatus').textContent = `❌ 解析失敗`;
+                    document.getElementById('loadStatus').style.color = '#c0392b';
+                    alert('JSON 解析失敗，請確保檔案格式正確：\n' + err.message);
+                }
+            };
+            reader.readAsText(file);
+            e.target.value = '';
+        }
+
+        // 🛡️ 共用數據處理引擎 (無敵剝殼機 + 直連相容優化)
+        function processData(rawData, successMsg) {
+            if (!Array.isArray(rawData) && (rawData.results || rawData.data)) {
+                rawData = rawData.results || rawData.data;
+            }
+            if (!Array.isArray(rawData)) rawData = [rawData];
+            
+            if (rawData.length > 0) {
+                if (rawData[0].json && rawData[0].json.snapshot_data) {
+                     rawData = rawData[0].json.snapshot_data;
+                } else if (rawData[0].snapshot_data) {
+                     rawData = rawData[0].snapshot_data;
+                } else if (rawData[0].json) {
+                     rawData = rawData.map(i => i.json);
+                }
+            }
+            
+            if (rawData.length === 1 && rawData[0].snapshot_data) {
+                rawData = rawData[0].snapshot_data;
+            }
+
+            if (!Array.isArray(rawData) && rawData.columns && Array.isArray(rawData.data)) {
+                const cols = rawData.columns;
+                rawData = rawData.data.map(row => {
+                    let obj = {};
+                    cols.forEach((col, index) => obj[col] = row[index]);
+                    return obj;
+                });
+            }
+
+            // 🛠️ DATA NORMALIZATION FIX: 核心相容，且安全排除 Date 物件導致的 split 錯誤
+            rawData = rawData.map(item => {
+                const rawLcDate = item.lc_date || item.last_changed_date;
+                let cleanLcDate = '未知';
+                if (rawLcDate) {
+                    const dateStr = rawLcDate instanceof Date ? rawLcDate.toISOString() : String(rawLcDate);
+                    cleanLcDate = dateStr.split('T')[0];
+                }
+
+                return {
+                    ...item,
+                    id: item.id || item.code || item.product_code || '未知ID',
+                    sm: item.sm || item.supermarket_code || '未知超市',
+                    n: item.n || item.name_zh_hant || '未知貨品名稱',
+                    b: item.b || item.brand_zh_hant || '未知品牌',
+                    c1: item.c1 || item.cat1_zh_hant || '未分類',
+                    cb_p: item.cb_p || item.current_base_price || item.pb_p || item.previous_base_price || 0,
+                    ce_p: item.ce_p || item.current_effective_price || 0,
+                    pb_p: item.pb_p || item.previous_base_price || 0,
+                    pe_p: item.pe_p || item.previous_effective_price,
+                    co: item.co || item.current_offer_zh_hant || '',
+                    po: item.po || item.previous_offer_zh_hant || '',
+                    status: item.status || item.change_status || '價格維持',
+                    lc_date: cleanLcDate
+                };
+            });
+
+            globalData = rawData;
+
+            if (!globalData || globalData.length === 0) {
+                throw new Error('拆解後無有效數據');
+            }
+
+            document.getElementById('loadStatus').textContent = `✅ ${successMsg}`;
+            document.getElementById('loadStatus').style.color = '#27ae60';
+            document.getElementById('totalCount').textContent = globalData.length.toLocaleString();
+            
+            populateSupermarkets();
+            renderCards(); 
+        }
+
+        function populateSupermarkets() {
+            const smSelect = document.getElementById('filterSupermarket');
+            smSelect.innerHTML = '<option value="ALL">全部超市</option>';
+            const uniqueSmCodes = [...new Set(globalData.map(item => item.sm).filter(Boolean))].sort();
+            uniqueSmCodes.forEach(code => {
+                const option = document.createElement('option');
+                option.value = code;
+                option.textContent = code;
+                smSelect.appendChild(option);
+            });
+        }
+
+        document.getElementById('clearFiltersBtn').addEventListener('click', () => {
+            document.getElementById('filterStatus').value = 'ALL';
+            document.getElementById('filterSupermarket').value = 'ALL';
+            document.getElementById('searchInput').value = '';
+            renderCards(); 
+        });
+
+        // 🧠 核心渲染引擎 (維持完全不變)
+        function renderCards() {
+            if (globalData.length === 0) return;
+
+            const statusFilter = document.getElementById('filterStatus').value;
+            const smFilter = document.getElementById('filterSupermarket').value;
+            const searchText = document.getElementById('searchInput').value.toLowerCase().trim();
+
+            const container = document.getElementById('cardsContainer');
+            container.innerHTML = ''; 
+            
+            const fragment = document.createDocumentFragment();
+            let displayCount = 0;
+
+            for (let i = 0; i < globalData.length; i++) {
+                const item = globalData[i];
+                
+                const currEff = parseFloat(item.ce_p) || 0;
+                const prevEff = parseFloat(item.pe_p); 
+                const currBase = parseFloat(item.cb_p) || parseFloat(item.pb_p) || 0;
+                const prevBase = parseFloat(item.pb_p) || 0;
+                
+                const currOffer = item.co || '';
+                const prevOffer = item.po || '';
+                
+                const hasPromo = (currOffer !== '' && currOffer !== '無優惠' && currOffer !== 'null');
+                
+                let manualStatus = '';
+                let badgeClass = '';
+                let logicDesc = '';
+                let borderColor = '';
+
+                if (item.status === 'NEW_ADDED') {
+                    manualStatus = '首次上架';
+                    badgeClass = 'badge-new-added';
+                    logicDesc = '自 2025年底以來，系統首次記錄到該貨品於此超市之報價。';
+                    borderColor = '#95a5a6';
+                } else if (item.status === 'BASELINE' || isNaN(prevEff)) {
+                    manualStatus = '價格維持';
+                    badgeClass = 'badge-maintained';
+                    logicDesc = '創世基準貨品或未有變動，價格與促銷活動維持不變。';
+                    borderColor = '#bdc3c7';
+                } else if (currEff < prevEff) {
+                    manualStatus = '真降價';
+                    badgeClass = 'badge-true-drop';
+                    logicDesc = '今日折實價 <strong>低於</strong> 上次紀錄之折實價。';
+                    borderColor = '#27ae60';
+                } else if (hasPromo && currEff >= prevEff) {
+                    manualStatus = '假促銷';
+                    badgeClass = 'badge-fake-promo';
+                    logicDesc = '超市掛上促銷標籤，但計算後發現單件折實價 <strong>大於或等於</strong> 先前常規價，毫無實質優惠。';
+                    borderColor = '#f39c12';
+                } else if (currEff > prevEff) {
+                    manualStatus = '價格暗升';
+                    badgeClass = 'badge-price-up';
+                    logicDesc = '今日折實價 <strong>高於</strong> 上次紀錄之折實價。';
+                    borderColor = '#c0392b';
+                } else if (currEff === prevEff && currOffer !== prevOffer) {
+                    manualStatus = '換新優惠';
+                    badgeClass = 'badge-new-offer';
+                    logicDesc = '折實價不變，但超市更換了促銷手段。';
+                    borderColor = '#2980b9';
+                } else {
+                    manualStatus = '價格維持';
+                    badgeClass = 'badge-maintained';
+                    logicDesc = '價格與促銷活動與上次紀錄完全相同。';
+                    borderColor = '#bdc3c7';
+                }
+
+                if (statusFilter === 'ALL_CHANGED' && manualStatus === '價格維持') continue;
+                if (statusFilter !== 'ALL' && statusFilter !== 'ALL_CHANGED' && manualStatus !== statusFilter) continue;
+                if (smFilter !== 'ALL' && item.sm !== smFilter) continue;
+                
+                if (searchText !== '') {
+                    const searchSpace = `${item.n || ''} ${item.b || ''} ${item.id || ''} ${item.sm || ''}`.toLowerCase();
+                    const keywords = searchText.split(/\s+/);
+                    const isMatch = keywords.every(kw => searchSpace.includes(kw));
+                    if (!isMatch) continue;
+                }
+
+                const competitors = globalData.filter(d => d.id === item.id && d.sm !== item.sm);
+                let compHtml = '';
+                if (competitors.length > 0) {
+                    compHtml = `<div class="competitors-box"><strong>🛒 跨超市今日折實價對撞：</strong><br>`;
+                    competitors.forEach(c => {
+                        const cEff = parseFloat(c.ce_p) || parseFloat(c.cb_p) || 0;
+                        const diff = cEff - currEff;
+                        let diffText = '';
+                        
+                        if (diff > 0) {
+                            const compPct = ((diff / currEff) * 100).toFixed(1);
+                            diffText = `<span style="color:#e74c3c; font-size:10px;">(貴 $${diff.toFixed(2)} / +${compPct}%)</span>`;
+                        } else if (diff < 0) {
+                            const compPct = ((Math.abs(diff) / currEff) * 100).toFixed(1);
+                            diffText = `<span style="color:#27ae60; font-size:10px;">(平 $${Math.abs(diff).toFixed(2)} / -${compPct}%)</span>`;
+                        } else {
+                            diffText = `<span style="color:#7f8c8d; font-size:10px;">(同價)</span>`;
+                        }
+                        
+                        compHtml += `<div class="comp-item">
+                            <span class="sm-badge" style="background:#7f8c8d;">${c.sm}</span> 
+                            <strong style="color:#2c3e50;">$${cEff.toFixed(2)}</strong> ${diffText}
+                        </div>`;
+                    });
+                    compHtml += `</div>`;
+                } else {
+                    compHtml = `<div class="competitors-box" style="color:#95a5a6;">🛒 全網掃描：無其他超市出售此貨品</div>`;
+                }
+
+                displayCount++;
+                const card = document.createElement('div');
+                card.className = `verdict-card`;
+                card.style.borderTopColor = borderColor;
+                
+                let effDiffHtml = '';
+                if (manualStatus !== '首次上架' && prevEff > 0) {
+                    const diff = currEff - prevEff;
+                    const pctChange = ((diff / prevEff) * 100).toFixed(1); 
+                    
+                    if (diff > 0) {
+                        effDiffHtml = `<span class="price-up">▲ +$${diff.toFixed(2)}</span> <span class="pct-badge pct-up">(+${pctChange}%)</span>`;
+                    } else if (diff < 0) {
+                        effDiffHtml = `<span class="price-down">▼ -$${Math.abs(diff).toFixed(2)}</span> <span class="pct-badge pct-down">(${pctChange}%)</span>`;
+                    } else {
+                        effDiffHtml = `<span style="color:#7f8c8d;">無變動 <span class="pct-badge" style="background:#eee;">(0.0%)</span></span>`;
+                    }
+                } else {
+                    effDiffHtml = `<span style="color:#7f8c8d;">-</span>`;
+                }
+
+                card.innerHTML = `
+                    <div class="card-header">
+                        <div>
+                            <h3 class="card-title">${item.n}</h3>
+                            <p class="card-subtitle">${item.b || '未知品牌'} | ${item.c1 || '未分類'}</p>
+                            <div class="code-badge">ID: ${item.id || 'N/A'}</div>
+                        </div>
+                        <span class="sm-badge">${item.sm}</span>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div style="font-size:11px; color:#7f8c8d; margin-bottom:5px;">
+                            最後變價紀錄日: <strong>${item.lc_date || '未知'}</strong>
+                        </div>
+                        
+                        <div class="comparison-grid">
+                            <div class="comp-col" style="border-right: 1px solid #eee; padding-right: 5px;">
+                                <div class="comp-header">⏳ 尋日記憶</div>
+                                ${manualStatus === '首次上架' ? 
+                                  `<div style="font-size:12px; color:#95a5a6; padding-top:10px;">無歷史紀錄</div>` : 
+                                  `
+                                  <div class="data-row"><span class="bold-label">底價:</span> <span class="data-value">$${prevBase.toFixed(2)}</span></div>
+                                  <div class="data-row"><span class="bold-label">折實:</span> <span class="data-value">$${prevEff.toFixed(2)}</span></div>
+                                  <div class="data-row"><span class="bold-label">優惠:</span> <span class="data-value" style="font-size:11px;">${prevOffer || '無優惠'}</span></div>
+                                  `
+                                }
+                            </div>
+                            <div class="comp-col" style="padding-left: 5px;">
+                                <div class="comp-header">💥 今日快照</div>
+                                <div class="data-row"><span class="bold-label">底價:</span> <span class="data-value">$${currBase.toFixed(2)}</span></div>
+                                <div class="data-row"><span class="bold-label">折實:</span> <span class="data-value">$${currEff.toFixed(2)}</span></div>
+                                <div class="data-row"><span class="bold-label">優惠:</span> <span class="data-value" style="font-size:11px; color:#e74c3c;">${currOffer || '無優惠'}</span></div>
+                            </div>
+                        </div>
+                        
+                        <div style="text-align: right; font-size:13px; font-weight:bold; display: flex; justify-content: flex-end; align-items: center;">
+                            實質折實波幅： ${effDiffHtml}
+                        </div>
+                        
+                        ${compHtml}
+                    </div>
+                    
+                    <div class="card-footer">
+                        <div class="manual-badge ${badgeClass}">${manualStatus}</div>
+                        <div style="color: #34495e;">${logicDesc}</div>
+                    </div>
+                `;
+                fragment.appendChild(card);
+            }
+            
+            container.appendChild(fragment);
+            document.getElementById('filteredCount').textContent = displayCount.toLocaleString();
+        }
+
+        ['filterStatus', 'filterSupermarket'].forEach(id => {
+            document.getElementById(id).addEventListener('change', renderCards);
+        });
+        
+        document.getElementById('searchInput').addEventListener('input', renderCards);
+   </script>
+</body>
+</html>

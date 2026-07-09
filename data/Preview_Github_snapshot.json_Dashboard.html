@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceWatch - BI 商業智能儀表板</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #2563eb; --bg: #f4f7f6; --text-main: #2c3e50; 
+            --success: #2ecc71; --danger: #e74c3c;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); padding: 20px; color: #333; margin: 0; }
+        
+        .header { background: #fff; padding: 15px 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 20px; border-left: 4px solid var(--primary); display: flex; justify-content: space-between; align-items: center;}
+        .header h1 { margin: 0; font-size: 22px; color: var(--text-main); }
+        
+        .status-badge { background: #e2e8f0; padding: 6px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; color: #334155; display: flex; align-items: center; gap: 10px;}
+        
+        /* 語系切換按鈕樣式 */
+        .lang-btn { padding: 4px 10px; border: none; border-radius: 4px; background: #cbd5e1; color: #334155; cursor: pointer; font-weight: bold; font-size: 12px; transition: 0.2s;}
+        .lang-btn.active { background: var(--primary); color: white; }
+
+        .control-panel { background: #fff; padding: 15px 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 20px; display: flex; gap: 15px; align-items: center; border-left: 4px solid #34495e;}
+        select { padding: 8px 12px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 14px; outline: none; min-width: 200px; font-weight: bold;}
+        select:focus { border-color: var(--primary); }
+        
+        .total-badge { margin-left: auto; background-color: var(--danger); color: white; padding: 8px 20px; border-radius: 20px; font-size: 16px; font-weight: bold; box-shadow: 0 2px 4px rgba(230, 57, 70, 0.4); }
+        
+        .charts-container { display: flex; gap: 20px; flex-wrap: wrap; }
+        .chart-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex: 1; min-width: 400px; display: flex; flex-direction: column; align-items: center; }
+        .chart-box h3 { margin-top: 0; color: #34495e; width: 100%; text-align: left; font-size: 16px; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px;}
+        canvas { max-width: 100%; }
+        
+        .summary-list { margin-top: 30px; width: 100%; border-top: 2px solid #eee; padding-top: 15px; max-height: 400px; overflow-y: auto; display: grid; grid-template-columns: 1fr; gap: 8px; }
+        .summary-item { display: flex; justify-content: space-between; padding: 12px 18px; border-bottom: 1px solid #eee; background-color: #f8fafc; border-radius: 6px; cursor: pointer; transition: 0.2s; align-items: center;}
+        .summary-item:hover { background-color: #eff6ff; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.05);}
+        .summary-item span { font-weight: bold; font-size: 15px; }
+        .summary-item strong { font-size: 16px; background: white; padding: 4px 10px; border-radius: 12px; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+        
+        .hint { font-size: 13px; color: #64748b; margin-top: 20px; width: 100%; text-align: center; font-weight: bold;}
+
+
+         /* 分析狀態總覽卡片樣式 */
+        .status-summary-container { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+        .status-card { background: #fff; padding: 12px 16px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid var(--primary); display: flex; flex-direction: column; min-width: 120px; transition: 0.2s; }
+        .status-card:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .status-card span { font-size: 12px; color: #64748b; font-weight: bold; margin-bottom: 4px;}
+        .status-card strong { font-size: 18px; color: #1e293b; }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>📊 PriceWatch BI 商業智能儀表板</h1>
+        <div style="display: flex; gap: 15px; align-items: center;">
+            <div>
+                <button id="btn-lang-zh-Hant" class="lang-btn active" onclick="switchLang('zh-Hant')">繁中</button>
+                <button id="btn-lang-en" class="lang-btn" onclick="switchLang('en')">EN</button>
+            </div>
+            <div id="status-bar" class="status-badge">⏳ 等待初始化...</div>
+        </div>
+    </div>
+
+    <div class="control-panel">
+        <label for="verdictSelector" style="font-size: 14px; font-weight: bold; color: #475569;" id="lblVerdict">🔍 選擇分析狀態：</label>
+        <select id="verdictSelector" disabled>
+            <option value="ALL" selected>🌐 顯示所有貨品 / All Records</option>
+            <option value="真降價">📉 真降價 / True Drop</option>
+            <option value="次平真降價">🥈 次平真降價 / Sec. Drop</option>
+            <option value="隱性加價">📈 隱性加價 / Hidden Increase</option>
+            <option value="無效促銷">⚠️ 無效促銷 / Invalid Promo</option>
+            <option value="促銷包裝更改">🟣 促銷包裝更改 / Terms Changed</option>
+            <option value="底價變動">📊 底價變動 / Base Changed</option>
+            <option value="首次上架">🆕 首次上架 / Newly Added</option>
+            <option value="價格維持">⏸️ 價格維持 / Maintained</option>
+        </select>
+        <div id="totalRecordsBadge" class="total-badge">總記錄數：0 件</div>
+        <div id="statusSummaryPanel" class="status-summary-container"></div>
+    </div>
+
+    <div class="charts-container">
+        <div class="chart-box">
+            <h3 id="titleSmChart">🏢 第一層：超市分佈佔比</h3>
+            <div style="width: 100%; max-width: 450px; margin: 0 auto; position: relative;">
+                <canvas id="smChart"></canvas>
+            </div>
+            <div class="hint" id="hintDrill">💡 點擊下方超市數據，即可向右下鑽查看該超市的分類明細 👇</div>
+            <div id="smSummaryList" class="summary-list"></div>
+        </div>
+
+        <div class="chart-box">
+            <h3 id="categoryTitle">📁 第二層：分類數量分析 (請先選擇超市)</h3>
+            <canvas id="catChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // ==========================================
+        // 📚 全域字典注入 (i18n & Styles)
+        // ==========================================
+        window.supermarketDict = window.supermarketDict || {};
+        window.supermarketDict['en'] = { 
+            'WELLCOME': 'Wellcome', 'PARKNSHOP': 'PARKnSHOP', 'JASONS': 'Market Place (Jasons)',
+            'MARKETPLACE': 'Market Place (Jasons)', 'AEON': 'AEON', 'WATSONS': 'Watsons', 
+            'MANNINGS': 'Mannings', 'USELECT': 'U-Select', 'LUNGFUNG': 'Lung Fung',
+            'DCHFOOD': 'DCH Food Mart', 'SASA': 'Sa Sa'
+        };
+
+        window.categoryDict = window.categoryDict || {};
+        window.categoryDict['en'] = {
+            '飲品': 'Beverages',
+            '米 / 食油 / 罐頭 / 蔬果 / 肉類': 'Rice / Oil / Canned / Veg / Meat',
+            '家居用品 / 寵物食品及用品': 'Household / Pet Supplies',
+            '粉麵 / 煮食用料 / 冷凍加工食品': 'Noodles / Cooking / Frozen',
+            '奶類及乳製品 / 大豆製品 / 蛋類': 'Dairy / Soy / Eggs',
+            '糖果 / 餅乾 / 小食': 'Snacks / Biscuits / Candies',
+            '麵包蛋糕 / 穀類早餐 / 麵包醬': 'Bakery / Cereal / Spreads',
+            '酒類': 'Alcohol',
+            '個人護理': 'Personal Care',
+            '奶粉 / 嬰兒用品': 'Baby Powder / Supplies'
+        };
+
+        const smHexColors = {
+            'WELLCOME': '#dc2626',   
+            'LUNGFUNG': '#ef4444',   
+            'PARKNSHOP': '#2563eb',  
+            'WATSONS': '#0d9488',    
+            'HKTVMALL': '#16a34a',   
+            'JASONS': '#059669',     
+            'MARKETPLACE': '#059669',
+            'MANNINGS': '#f97316',   
+            'AEON': '#c026d3',       
+            'SASA': '#db2777',       
+            'DCHFOOD': '#eab308',    
+            'DEFAULT': '#475569'     
+        };
+
+        function getChartColor(smCode) { return smHexColors[smCode] || smHexColors['DEFAULT']; }
+        function getSmDisplayName(code, lang) { return (lang === 'en' && window.supermarketDict['en'][code]) ? window.supermarketDict['en'][code] : code; }
+        function getCatDisplayName(cat, lang) { return (lang === 'en' && window.categoryDict['en'][cat]) ? window.categoryDict['en'][cat] : cat; }
+
+        // ==========================================
+        // 💾 原生架構：資料庫引擎 (共用 PriceWatchDB)
+        // ==========================================
+        let currentLang = 'zh-Hant';
+        let currentDataList = []; 
+        let englishDataMap = new Map();
+        let processedDataList = [];
+        
+        let smChartInstance = null;
+        let catChartInstance = null;
+        let currentSelectedVerdict = 'ALL';
+
+        const DB_NAME = 'PriceWatchDB';
+        const STORE_NAME = 'DailySnapshots';
+
+        function initDB() {
+            return new Promise((resolve, reject) => {
+                const request = indexedDB.open(DB_NAME); 
+                request.onupgradeneeded = (e) => {
+                    const db = e.target.result;
+                    if (!db.objectStoreNames.contains(STORE_NAME)) db.createObjectStore(STORE_NAME, { keyPath: 'cacheKey' });
+                };
+                request.onsuccess = () => resolve(request.result);
+                request.onerror = () => reject(request.error);
+            });
+        }
+
+        async function getCachedData(cacheKey) {
+            const db = await initDB();
+            return new Promise((resolve) => {
+                const tx = db.transaction(STORE_NAME, 'readonly');
+                const store = tx.objectStore(STORE_NAME);
+                const request = store.get(cacheKey);
+                request.onsuccess = () => resolve(request.result ? request.result.data : null);
+                request.onerror = () => resolve(null);
+            });
+        }
+
+        function updateStatus(msg, color) {
+            const sb = document.getElementById('status-bar');
+            sb.style.color = color;
+            sb.innerHTML = msg;
+        }
+
+       // ==========================================
+        // 🧠 數據處理邏輯 (與主網頁 100% 同步)
+        // ==========================================
+        function calculateSimilarity(s1, s2) {
+            if (!s1 || !s2) return 0;
+            const s1Len = s1.length, s2Len = s2.length;
+            if (s1Len === 0 && s2Len === 0) return 1;
+            if (s1Len === 0 || s2Len === 0) return 0;
+            const matrix = Array(s2Len + 1).fill(null).map(() => Array(s1Len + 1).fill(null));
+            for (let i = 0; i <= s1Len; i++) matrix[0][i] = i;
+            for (let j = 0; j <= s2Len; j++) matrix[j][0] = j;
+            for (let j = 1; j <= s2Len; j++) {
+                for (let i = 1; i <= s1Len; i++) {
+                    const indicator = s1[i - 1] === s2[j - 1] ? 0 : 1;
+                    matrix[j][i] = Math.min(matrix[j][i - 1] + 1, matrix[j - 1][i] + 1, matrix[j - 1][i - 1] + indicator);
+                }
+            }
+            const distance = matrix[s2Len][s1Len];
+            return (Math.max(s1Len, s2Len) - distance) / Math.max(s1Len, s2Len);
+        }
+
+        async function loadData() {
+            const hkTime = new Date(new Date().getTime() + 8 * 60 * 60 * 1000);
+            const targetDate = hkTime.toISOString().split('T')[0];
+            const cacheKey = `zh-Hant_${targetDate}`; 
+            const cacheKeyEn = `en_${targetDate}`; 
+            
+            try {
+                updateStatus('🔍 正在連接 PriceWatchDB...', '#34495e');
+                let data = await getCachedData(cacheKey);
+                let enData = await getCachedData(cacheKeyEn); 
+                
+                if (data) {
+                    updateStatus(`⚡ 極速就緒！已讀取主系統快取`, '#2ecc71');
+                    
+                    englishDataMap.clear();
+                    if (enData) {
+                        enData.forEach(item => {
+                            // 🚨 完美還原 Unique Key 識別
+                            const pCode = item.id || item.code || item.product_code || item.product_id || '';
+                            const smCode = item.sm || item.supermarket_code || item.supermarket || '';
+                            englishDataMap.set(`${pCode}_${smCode}`, { po_en: item.po, co_en: item.co });
+                        });
+                    }
+
+                    // 🚨 完美還原主網頁過濾器
+                    currentDataList = data.filter(item => {
+                        return !(item.ls === null || item.ls === 'null' || item.last_seen === null || item.last_seen === 'null' || item.last_seen_date === null || item.last_seen_date === 'null');
+                    });
+                    
+                   // ... 前面代碼 ...
+                    processCoreLogic();
+                    renderStatusSummary(); // <--- 你漏咗加呢句！
+                    
+                    document.getElementById('verdictSelector').disabled = false;
+                    renderSupermarketChart(document.getElementById('verdictSelector').value);
+                    // ... 後面代碼 ...
+                } else {
+                    updateStatus(`❌ 請先打開一次主介面，讓系統載入大數據。`, '#e74c3c');
+                }
+            } catch (error) {
+                updateStatus(`❌ 連線失敗: ${error.message}`, '#e74c3c');
+            }
+        }
+
+        function processCoreLogic() {
+            const globalBasePriceMap = new Map();
+            const globalWinnerMap = new Map();
+            
+            currentDataList.forEach(d => {
+                // 🚨 完美還原 ID 讀取
+                const id = d.id || d.code || d.product_code || '未知ID';
+                const base = parseFloat(d.cb_p) || parseFloat(d.pb_p) || 0;
+                if (!globalBasePriceMap.has(id)) globalBasePriceMap.set(id, { sum: 0, count: 0 });
+                globalBasePriceMap.get(id).sum += base;
+                globalBasePriceMap.get(id).count++;
+            });
+
+            currentDataList.forEach(d => {
+                const id = d.id || d.code || d.product_code || '未知ID';
+                const effRaw = parseFloat(d.ce_p) || parseFloat(d.cb_p) || 0;
+                const base = parseFloat(d.cb_p) || parseFloat(d.pb_p) || 0;
+                const sm = d.sm || '';
+                const avgStats = globalBasePriceMap.get(id);
+                const marketAvgBasePrice = avgStats ? (avgStats.sum / avgStats.count) : base;
+
+                if (!globalWinnerMap.has(id)) {
+                    globalWinnerMap.set(id, { sm: sm, eff: effRaw, base: base });
+                } else {
+                    const currWin = globalWinnerMap.get(id);
+                    if (effRaw < currWin.eff) {
+                        globalWinnerMap.set(id, { sm: sm, eff: effRaw, base: base });
+                    } else if (effRaw === currWin.eff) {
+                        const currentDiff = Math.abs(base - marketAvgBasePrice);
+                        const winDiff = Math.abs(currWin.base - marketAvgBasePrice);
+                        
+                        // 🚨 完美還原巢狀贏家判斷，唔再亂縮寫
+                        if (currentDiff < winDiff) {
+                            globalWinnerMap.set(id, { sm: sm, eff: effRaw, base: base });
+                        } else if (currentDiff === winDiff) {
+                            if (base < currWin.base) {
+                                globalWinnerMap.set(id, { sm: sm, eff: effRaw, base: base });
+                            } else if (base === currWin.base) {
+                                if (sm.localeCompare(currWin.sm) < 0) {
+                                    globalWinnerMap.set(id, { sm: sm, eff: effRaw, base: base });
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            processedDataList = currentDataList.map(item => {
+                const currEffRaw = parseFloat(item.ce_p) || 0;
+                const prevEffRaw = parseFloat(item.pe_p);
+                const currEffCompare = Math.round(currEffRaw * 10) / 10;
+                const prevEffCompare = Math.round(prevEffRaw * 10) / 10;
+                const currBase = parseFloat(item.cb_p) || parseFloat(item.pb_p) || 0;
+                const prevBase = parseFloat(item.pb_p) || 0;
+                const currOffer = item.co || '';
+                const prevOffer = item.po || '';
+                const hasPromo = (currOffer !== '' && currOffer !== '無優惠' && currOffer !== 'null');
+                
+                const id = item.id || item.code || item.product_code || '未知ID';
+                const winStats = globalWinnerMap.get(id);
+                const isLowestPrice = (winStats && winStats.sm === item.sm);
+                
+                const pCode = item.id || item.code || item.product_code || item.product_id || '';
+                const smCode = item.sm || item.supermarket_code || item.supermarket || '';
+                const uniqueKeyLdo = `${pCode}_${smCode}`;
+                
+                let poEnStr = prevOffer, coEnStr = currOffer;
+                let isOfferExactlyMatch = (currOffer === prevOffer); 
+                const enRef = englishDataMap.get(uniqueKeyLdo);
+                if (enRef) {
+                    poEnStr = String(enRef.po_en || '');
+                    coEnStr = String(enRef.co_en || '');
+                    if (poEnStr !== '' || coEnStr !== '') isOfferExactlyMatch = (poEnStr === coEnStr);
+                }
+
+                let manualStatus = '';
+                
+                if (item.status === 'NEW_ADDED') {
+                    manualStatus = isLowestPrice ? '首次上架' : '次平首次上架';
+                } else if (item.status === 'BASELINE' || isNaN(prevEffCompare)) {
+                    manualStatus = '價格維持';
+                } else if (currEffCompare > prevEffCompare) {
+                    manualStatus = '隱性加價';
+                } else if (currEffCompare < prevEffCompare) {
+                    manualStatus = isLowestPrice ? '真降價' : '次平真降價';
+                } else {
+                    if (!isOfferExactlyMatch) {
+                        const hadPromoBefore = (prevOffer !== '' && prevOffer !== '無優惠' && prevOffer !== 'null' && prevOffer !== '-');
+                        if (hasPromo && hadPromoBefore) {
+                            if (calculateSimilarity(poEnStr, coEnStr) >= 0.5) manualStatus = '促銷字眼微調';
+                            else manualStatus = '促銷包裝更改';
+                        } else if (hasPromo && !hadPromoBefore) {
+                            manualStatus = '無效促銷';
+                        } else if (!hasPromo && hadPromoBefore) {
+                            manualStatus = '優惠完結';
+                        } else {
+                            manualStatus = '資料微調';
+                        }
+                    } else {
+                        if (currBase !== prevBase) manualStatus = '底價變動';
+                        else manualStatus = '資料微調';
+                    }
+                }
+
+                item.computedManualStatus = manualStatus;
+                return item;
+            });
+        }
+
+        // ==========================================
+        // 📊 自訂 Chart.js 插件區 (免 Hover 顯示數值)
+        // ==========================================
+        
+        // 1. 圓餅圖中心文字插件
+        const centerTextPlugin = {
+            id: 'centerText',
+            beforeDraw: function(chart) {
+                if (chart.data.datasets.length === 0) return;
+                const ctx = chart.ctx;
+                const chartArea = chart.chartArea;
+                const total = chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+                
+                if (total === 0) return;
+                
+                ctx.restore();
+                // 找出圓餅圖正中心座標
+                const centerX = chartArea.left + (chartArea.right - chartArea.left) / 2;
+                const centerY = chartArea.top + (chartArea.bottom - chartArea.top) / 2;
+
+                const labelStr = currentLang === 'en' ? 'Total' : '總計';
+                const totalStr = total.toLocaleString();
+
+                // 畫 "總計" 字眼
+                ctx.font = "bold 14px sans-serif";
+                ctx.fillStyle = "#64748b";
+                ctx.textAlign = "center";
+                ctx.textBaseline = "middle";
+                ctx.fillText(labelStr, centerX, centerY - 15);
+
+                // 畫 巨大數字
+                ctx.font = "bold 28px sans-serif";
+                ctx.fillStyle = "#1e293b";
+                ctx.fillText(totalStr, centerX, centerY + 12);
+                ctx.save();
+            }
+        };
+
+        // 2. 長條圖尾部數字標籤插件
+        const barLabelPlugin = {
+            id: 'barLabel',
+            afterDraw: chart => {
+                const ctx = chart.ctx;
+                ctx.save();
+                ctx.font = 'bold 13px sans-serif';
+                ctx.textAlign = 'left';
+                ctx.textBaseline = 'middle';
+                
+                const meta = chart.getDatasetMeta(0);
+                if (!meta.data || meta.data.length === 0) return;
+                
+                meta.data.forEach((bar, index) => {
+                    const data = chart.data.datasets[0].data[index];
+                    if(data > 0) {
+                        ctx.fillStyle = '#334155'; // 統一深灰色標籤
+                        // 喺 Bar 嘅右邊偏移 6px 印出數值
+                        ctx.fillText(data.toLocaleString(), bar.x + 6, bar.y);
+                    }
+                });
+                ctx.restore();
+            }
+        };
+
+        // ==========================================
+        // 📊 BI 渲染引擎
+        // ==========================================
+        function aggregateData(data, groupByField) {
+            return data.reduce((acc, item) => {
+                const key = item[groupByField] || '未知';
+                acc[key] = (acc[key] || 0) + 1;
+                return acc;
+            }, {});
+        }
+
+     function renderStatusSummary() {
+            const counts = aggregateData(processedDataList, 'computedManualStatus');
+            const total = processedDataList.length;
+            
+            // 🚨 完美母子結構：計出大 Group 條總數
+            const invalidGroupTotal = (counts['無效促銷'] || 0) + (counts['促銷包裝更改'] || 0) + (counts['促銷字眼微調'] || 0);
+            
+            const presentationMap = {
+                '真降價': { emoji: '📉', label: '真降價' },
+                '次平真降價': { emoji: '🥈', label: '次平真降價' },
+                '隱性加價': { emoji: '📈', label: '隱性加價' },
+                '首次上架': { emoji: '🆕', label: '首次上架' },
+                '次平首次上架': { emoji: '🆕', label: '次平首次上架' },
+                '優惠完結': { emoji: '🏷️', label: '優惠完結' },
+                '底價變動': { emoji: '📊', label: '底價變動' },
+                '資料微調': { emoji: '🟡', label: '資料微調' },
+                '價格維持': { emoji: '⏸️', label: '價格維持' },
+                // 子狀態標籤
+                '無效促銷': { emoji: '🟠', label: '純無效促銷' },
+                '促銷包裝更改': { emoji: '🟣', label: '包裝更改 (<50%)' },
+                '促銷字眼微調': { emoji: '🟢', label: '字眼微調 (≥50%)' }
+            };
+
+            // 抽起 3 個子狀態，淨低嘅正常排序
+            const mainStatuses = Object.keys(counts).filter(s => s !== '無效促銷' && s !== '促銷包裝更改' && s !== '促銷字眼微調');
+            
+            // 1. 動態重建 Dropdown (加入母子層級結構)
+            const select = document.getElementById('verdictSelector');
+            select.innerHTML = `<option value="ALL">🌐 顯示所有貨品 / All Records (${total.toLocaleString()})</option>`;
+            
+            if (invalidGroupTotal > 0) {
+                // 加入大 Group 選項
+                select.innerHTML += `<option value="GROUP_INVALID">⚠️ 無效促銷 (總類別) (${invalidGroupTotal.toLocaleString()})</option>`;
+                // 加入子狀態選項 (縮排顯示)
+                ['無效促銷', '促銷包裝更改', '促銷字眼微調'].forEach(sub => {
+                    if (counts[sub] > 0) {
+                        select.innerHTML += `<option value="${sub}">&nbsp;&nbsp;&nbsp;↳ ${presentationMap[sub].emoji} ${presentationMap[sub].label} (${counts[sub].toLocaleString()})</option>`;
+                    }
+                });
+            }
+
+            mainStatuses.sort((a, b) => counts[b] - counts[a]).forEach(status => {
+                const config = presentationMap[status] || { emoji: '📋', label: status };
+                select.innerHTML += `<option value="${status}">${config.emoji} ${config.label} (${counts[status].toLocaleString()})</option>`;
+            });
+            select.value = currentSelectedVerdict;
+
+            // 2. 渲染橫向總覽卡片
+            const panel = document.getElementById('statusSummaryPanel');
+            if (!panel) return;
+            
+            // 用 Array 裝住所有卡片，方便最後一齊由大至小排序
+            let cardData = mainStatuses.map(s => {
+                const config = presentationMap[s] || { emoji: '📋', label: s };
+                return {
+                    count: counts[s],
+                    html: `
+                    <div class="status-card" style="cursor: pointer;" onclick="document.getElementById('verdictSelector').value='${s}'; renderSupermarketChart('${s}');">
+                        <span>${config.emoji} ${config.label}</span>
+                        <strong>${counts[s].toLocaleString()}</strong>
+                    </div>`
+                };
+            });
+
+            // 加入「無效促銷」大卡片 (內置明細 Breakdown)
+            if (invalidGroupTotal > 0) {
+                cardData.push({
+                    count: invalidGroupTotal,
+                    html: `
+                    <div class="status-card" style="cursor: pointer; border-left-color: #f59e0b;" onclick="document.getElementById('verdictSelector').value='GROUP_INVALID'; renderSupermarketChart('GROUP_INVALID');">
+                        <span style="color: #d97706;">⚠️ 無效促銷 (總類別)</span>
+                        <strong style="color: #b45309;">${invalidGroupTotal.toLocaleString()}</strong>
+                        <div style="font-size: 11px; margin-top: 8px; color: #64748b; border-top: 1px dashed #cbd5e1; padding-top: 6px; line-height: 1.5;">
+                            ${counts['無效促銷'] ? `🟠 純無效: <b>${counts['無效促銷']}</b><br>` : ''}
+                            ${counts['促銷包裝更改'] ? `🟣 包裝變: <b>${counts['促銷包裝更改']}</b><br>` : ''}
+                            ${counts['促銷字眼微調'] ? `🟢 字眼變: <b>${counts['促銷字眼微調']}</b>` : ''}
+                        </div>
+                    </div>`
+                });
+            }
+
+            // 確保所有卡片按總數由大至小排好
+            cardData.sort((a, b) => b.count - a.count);
+            panel.innerHTML = cardData.map(c => c.html).join('');
+        }
+
+        function renderSupermarketChart(selectedVerdict) {
+            currentSelectedVerdict = selectedVerdict;
+            
+            let filteredData = processedDataList;
+            if (selectedVerdict !== 'ALL') {
+                // 🚨 如果揀咗大 Group，就一次過抽齊 3 隻貨
+                if (selectedVerdict === 'GROUP_INVALID') {
+                    filteredData = processedDataList.filter(item => 
+                        item.computedManualStatus === '無效促銷' || 
+                        item.computedManualStatus === '促銷包裝更改' || 
+                        item.computedManualStatus === '促銷字眼微調'
+                    );
+                } else {
+                    // 如果揀咗子項目或其他狀態，就精準 1 對 1 篩選
+                    filteredData = processedDataList.filter(item => item.computedManualStatus === selectedVerdict);
+                }
+            }
+            
+            const totalPrefix = currentLang === 'en' ? 'Total Records: ' : '總記錄數：';
+            document.getElementById('totalRecordsBadge').innerText = `${totalPrefix}${filteredData.length.toLocaleString()}`;
+
+            const smCounts = aggregateData(filteredData, 'sm');
+            const smCodes = Object.keys(smCounts);
+            smCodes.sort((a, b) => smCounts[b] - smCounts[a]);
+
+            const summaryContainer = document.getElementById('smSummaryList');
+            summaryContainer.innerHTML = ''; 
+            
+            const chartLabels = smCodes.map(sm => getSmDisplayName(sm, currentLang));
+            const chartDataValues = smCodes.map(sm => smCounts[sm]);
+            const chartColors = smCodes.map(sm => getChartColor(sm));
+
+            if (smCodes.length > 0) {
+                smCodes.forEach(sm => {
+                    const displayName = getSmDisplayName(sm, currentLang);
+                    const smColor = getChartColor(sm);
+                    summaryContainer.innerHTML += `
+                        <div class="summary-item" onclick="renderCategoryChart('${sm}', '${selectedVerdict}')">
+                            <span style="color: ${smColor};">🏬 ${displayName}</span>
+                            <strong style="color: ${smColor}; border: 1px solid ${smColor}40;">${smCounts[sm].toLocaleString()}</strong>
+                        </div>
+                    `;
+                });
+            } else {
+                summaryContainer.innerHTML = `<div class="summary-item" style="justify-content: center; color: #888;">${currentLang === 'en' ? 'No Data' : '無相關數據'}</div>`;
+            }
+
+            const ctx = document.getElementById('smChart').getContext('2d');
+            if (smChartInstance) smChartInstance.destroy();
+            if (catChartInstance) catChartInstance.destroy();
+            
+            document.getElementById('categoryTitle').innerText = currentLang === 'en' ? '📁 Level 2: Categories (Click Supermarket First)' : '📁 第二層：分類數量分析 (請先選擇超市)';
+
+            if (smCodes.length === 0) return;
+
+            smChartInstance = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: chartLabels, 
+                    datasets: [{
+                        data: chartDataValues,
+                        backgroundColor: chartColors,
+                        borderWidth: 2,
+                        borderColor: '#ffffff',
+                        hoverOffset: 10
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    cutout: '60%', 
+                    plugins: { 
+                        legend: { display: false } 
+                    },
+                    onClick: (event, elements) => {
+                        if (elements.length > 0) {
+                            const clickedIndex = elements[0].index;
+                            const selectedSmCode = smCodes[clickedIndex]; 
+                            renderCategoryChart(selectedSmCode, selectedVerdict);
+                        }
+                    }
+                },
+                plugins: [centerTextPlugin] 
+            });
+            
+            if(smCodes.length > 0) renderCategoryChart(smCodes[0], selectedVerdict);
+        }
+
+        window.renderCategoryChart = function(targetSmCode, verdict) {
+            const smSpecificData = processedDataList.filter(item => {
+                return item.sm === targetSmCode && (verdict === 'ALL' || item.computedManualStatus === verdict);
+            });
+            
+            const catCounts = aggregateData(smSpecificData, 'c1');
+
+            const rawCatNames = Object.keys(catCounts);
+            const rawCatValues = Object.values(catCounts);
+            
+            const sortedIndices = rawCatValues.map((val, ind) => {return {ind, val}}).sort((a, b) => b.val - a.val);
+            const sortedLabels = sortedIndices.map(obj => getCatDisplayName(rawCatNames[obj.ind], currentLang));
+            const sortedValues = sortedIndices.map(obj => obj.val);
+
+            const displayName = getSmDisplayName(targetSmCode, currentLang);
+            const smColor = getChartColor(targetSmCode);
+            const titleText = currentLang === 'en' ? `📁 ${displayName} - Category Breakdown (${smSpecificData.length} items)` : `📁 ${displayName} - 分類明細 (共 ${smSpecificData.length} 件)`;
+            
+            document.getElementById('categoryTitle').innerHTML = `<span style="color:${smColor};">${titleText}</span>`;
+
+            const ctx = document.getElementById('catChart').getContext('2d');
+            if (catChartInstance) catChartInstance.destroy();
+
+            catChartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: sortedLabels,
+                    datasets: [{
+                        label: currentLang === 'en' ? 'Item Count' : '商品數量',
+                        data: sortedValues,
+                        backgroundColor: smColor,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    indexAxis: 'y',
+                    layout: {
+                        // 右邊預留 45px 空間，防止數字被切斷
+                        padding: { right: 45 } 
+                    },
+                    scales: { 
+                        x: { 
+                            beginAtZero: true, 
+                            ticks: { stepSize: 1 },
+                            grid: { display: false }
+                        },
+                        y: {
+                            grid: { display: false }
+                        }
+                    },
+                    plugins: { legend: { display: false } }
+                },
+                // 掛載長條圖尾部數字插件
+                plugins: [barLabelPlugin]
+            });
+        }
+
+        // ==========================================
+        // 🌐 多國語言介面切換 (i18n UI)
+        // ==========================================
+        function switchLang(lang) {
+            currentLang = lang;
+            document.getElementById('btn-lang-zh-Hant').classList.toggle('active', lang === 'zh-Hant');
+            document.getElementById('btn-lang-en').classList.toggle('active', lang === 'en');
+            
+            document.getElementById('lblVerdict').innerText = lang === 'en' ? '🔍 Select Status:' : '🔍 選擇分析狀態：';
+            document.getElementById('titleSmChart').innerText = lang === 'en' ? '🏢 Level 1: Supermarket Market Share' : '🏢 第一層：超市分佈佔比';
+            document.getElementById('hintDrill').innerText = lang === 'en' ? '💡 Click data below to drill down categories 👇' : '💡 點擊下方超市數據，即可向右下鑽查看該超市的分類明細 👇';
+            
+            if(processedDataList.length > 0) {
+                renderSupermarketChart(currentSelectedVerdict);
+            }
+        }
+
+        document.getElementById('verdictSelector').addEventListener('change', function(e) {
+            renderSupermarketChart(e.target.value);
+        });
+
+        window.onload = loadData;
+    </script>
+</body>
+</html>

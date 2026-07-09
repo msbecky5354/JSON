@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceWatch - 全城平均公價審核矩陣 (純貨品基準版)</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8fafc; padding: 20px; color: #334155; margin: 0; }
+        h1 { color: #0f172a; border-bottom: 3px solid #2563eb; padding-bottom: 10px; margin-top: 0;}
+        .panel { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); margin-bottom: 20px; }
+        
+        .controls { display: flex; gap: 10px; margin-bottom: 20px; align-items: center; flex-wrap: wrap;}
+        input, select { padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 13px; outline: none; }
+        input:focus, select:focus { border-color: #2563eb; }
+        
+        .counter-badge { background: #eff6ff; padding: 8px 15px; border-radius: 6px; font-weight: bold; color: #1d4ed8; border: 1px solid #bfdbfe; font-size: 13px;}
+        
+        table { width: 100%; border-collapse: collapse; font-size: 12px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden;}
+        th { background: #1e293b; color: #f8fafc; padding: 12px 8px; text-align: left; font-weight: 600; white-space: nowrap; cursor: pointer; user-select: none;}
+        th:hover { background: #334155; }
+        th .sort-icon { font-size: 10px; color: #94a3b8; margin-left: 5px; }
+        th.active-sort .sort-icon { color: #38bdf8; }
+
+        td { padding: 10px 8px; border-bottom: 1px solid #e2e8f0; color: #334155; vertical-align: top;}
+        tr:hover { background-color: #f1f5f9; }
+        
+        .alg-col { font-family: monospace; font-size: 13px; font-weight: bold; }
+        .col-1 { color: #1e293b; background: #f8fafc; } 
+        .col-2 { color: #0ea5e9; } 
+        .col-3 { color: #16a34a; background: #f0fdf4;} 
+        
+        .badge { padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: bold; background: #e2e8f0; color: #475569; display: inline-block; white-space: nowrap;}
+        .badge-sm { background: #34495e; color: #fff; }
+        .promo-alert { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: bold; margin-top: 4px; display: inline-block;}
+        .diff-alert { color: #dc2626; font-weight: bold; font-size: 11px; margin-left: 5px; }
+        .remark-alert { color: #b45309; font-weight: bold; font-size: 11px; background: #fef3c7; padding: 4px; border-radius: 4px; display: inline-block; border: 1px dashed #f59e0b;}
+
+        .competitor-list { margin: 0; padding-left: 15px; font-size: 11px; color: #64748b; }
+        .competitor-list li { margin-bottom: 2px; }
+
+        .pagination-container { display: flex; justify-content: center; gap: 15px; margin-top: 20px; padding: 15px; background: #f8fafc; border-radius: 8px; border: 1px dashed #cbd5e1;}
+        .btn { padding: 10px 20px; border: none; border-radius: 6px; font-size: 13px; font-weight: bold; cursor: pointer; transition: 0.2s; }
+        .btn-primary { background: #2563eb; color: white; box-shadow: 0 2px 4px rgba(37,99,235,0.2);}
+        .btn-primary:hover { background: #1d4ed8; transform: translateY(-1px);}
+        .btn-danger { background: #e2e8f0; color: #475569; }
+        .btn-danger:hover { background: #cbd5e1; color: #dc2626;}
+    </style>
+</head>
+<body>
+
+    <h1>⚖️ 全城平均公價 - 審核矩陣 (純貨品歷史基準版)</h1>
+    
+    <div class="panel">
+        <p style="margin-top:0; font-size:13px; color:#475569; line-height:1.6;">
+            <strong>全城平均公價 (算法1)</strong>：【大盤大總管】今日全城有售超市底價總和 ÷ N。<br>
+            <strong>全城平均公價 (修剪防禦後)</strong>：[N>4] 啟動 Trimmed Mean 斬頭斬尾；[N≤4] 剔除偏離均價 >30% 數據。<br>
+            <strong>全城平均公價 (歷史防禦基準)</strong>：【純貨品ID導向】全港所有超市 2026 年以來非促銷歷史眾數（平手自動拉平均）。
+        </p>
+        
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="搜尋 ID、品牌 或名稱..." style="width: 250px;">
+            <select id="smFilter"><option value="ALL">所有超市主體</option></select>
+            <select id="brandFilter"><option value="ALL">所有品牌</option></select>
+            <select id="anomalyFilter">
+                <option value="ALL">所有狀態 (含正常)</option>
+                <option value="ANOMALY">⚠️ 只看觸發防禦剔除之紀錄</option>
+            </select>
+            <div class="counter-badge">
+                顯示中：<span id="displayCount">0</span> / 總數：<span id="totalCount">0</span> 筆
+            </div>
+            <button class="btn btn-danger" style="padding: 6px 12px; margin-left: auto;" onclick="resetFilters()">🧹 清除過濾</button>
+        </div>
+
+        <div style="overflow-x: auto;">
+            <table id="auditTable">
+                <thead>
+                    <tr>
+                        <th onclick="handleSort('id')">ID <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('b')">品牌 <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('n')">貨品名稱 <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('sm')">超市 (主體) <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('cb_p')">今日標示底價 <span class="sort-icon"></span></th>
+                        <th>各店底價明細 (對手)</th>
+                        <th onclick="handleSort('N')">N <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('calc1_avg')" class="alg-col col-1">全城平均公價<br>(今日動態) <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('calc2_avg')" class="alg-col col-2">全城平均公價<br>(修剪防禦後) <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('calc3_avg')" class="alg-col col-3">全城平均公價<br>(歷史防禦基準) <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('diff')">本店發水溢價<br>(本店標價 vs 算法1) <span class="sort-icon"></span></th>
+                        <th onclick="handleSort('remark')">系統備註 (Remarks) <span class="sort-icon"></span></th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr><td colspan="12" style="text-align:center; padding: 20px;">⏳ 正在載入 report_data.json...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="paginationControls" class="pagination-container" style="display: none;">
+            <button class="btn btn-primary" onclick="loadMore()">⏬ 載入多 100 筆</button>
+            <button class="btn btn-danger" onclick="loadAll()">⚠️ 載入全部</button>
+        </div>
+    </div>
+
+    <script>
+        let rawReportData = [];  
+        let enhancedData = [];   
+        let filteredData = [];   
+        let currentIndex = 100;  
+        const PAGE_SIZE = 100;   
+        
+        let sortCol = 'diff';    
+        let sortDesc = true;     
+
+        const formatPrc = (val) => {
+            if (isNaN(val) || val === 0) return '-';
+            const str = Number(val).toFixed(2);
+            return str.endsWith('0') ? Number(val).toFixed(1) : str;
+        };
+
+        async function loadAuditData() {
+            try {
+                const response = await fetch('./report_data.json');
+                if (!response.ok) throw new Error('找不到 report_data.json，請先執行 node build_report.js');
+                
+                rawReportData = await response.json();
+
+                enhancedData = rawReportData.map(d => {
+                    const currentPrice = parseFloat(d.cb_p) || 0;
+                    const c1 = d.calc1_avg || 0;
+                    
+                    // 🚨 終極捉鬼邏輯：本店標價 減去 今日全城均價 🚨
+                    // 若本店標價高於均價，結果為正數 (發水/偏貴)
+                    const diff = currentPrice - c1; 
+                    
+                    return { ...d, diff: diff };
+                });
+
+                populateFilters();
+                renderTable(true);
+            } catch (err) {
+                document.getElementById('tableBody').innerHTML = `<tr><td colspan="12" style="color:red; text-align:center;">❌ ${err.message}</td></tr>`;
+            }
+        }
+
+        function populateFilters() {
+            const smSelect = document.getElementById('smFilter');
+            const brandSelect = document.getElementById('brandFilter');
+            
+            const sms = [...new Set(enhancedData.map(d => d.sm).filter(Boolean))].sort();
+            const brands = [...new Set(enhancedData.map(d => d.b).filter(Boolean))].sort();
+            
+            sms.forEach(s => smSelect.innerHTML += `<option value="${s}">${s}</option>`);
+            brands.forEach(b => brandSelect.innerHTML += `<option value="${b}">${b}</option>`);
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('smFilter').value = 'ALL';
+            document.getElementById('brandFilter').value = 'ALL';
+            document.getElementById('anomalyFilter').value = 'ALL';
+            sortCol = 'diff';
+            sortDesc = true;
+            renderTable(true);
+        }
+
+        window.handleSort = function(colName) {
+            if (sortCol === colName) {
+                sortDesc = !sortDesc; 
+            } else {
+                sortCol = colName;
+                sortDesc = true;      
+            }
+            renderTable(true);
+        }
+
+        function updateSortIcons() {
+            document.querySelectorAll('th').forEach(th => {
+                th.classList.remove('active-sort');
+                const icon = th.querySelector('.sort-icon');
+                if (icon) icon.innerText = '';
+            });
+
+            const thList = document.querySelectorAll('th');
+            for (let th of thList) {
+                if (th.getAttribute('onclick') === `handleSort('${sortCol}')`) {
+                    th.classList.add('active-sort');
+                    th.querySelector('.sort-icon').innerText = sortDesc ? '▼' : '▲';
+                    break;
+                }
+            }
+        }
+
+        function renderTable(reset = false) {
+            if (reset) currentIndex = PAGE_SIZE;
+
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const sm = document.getElementById('smFilter').value;
+            const brand = document.getElementById('brandFilter').value;
+            const anomaly = document.getElementById('anomalyFilter').value;
+            
+            filteredData = enhancedData.filter(d => {
+                if (sm !== 'ALL' && d.sm !== sm) return false;
+                if (brand !== 'ALL' && d.b !== brand) return false;
+                if (anomaly === 'ANOMALY' && !d.remark) return false;
+                if (search && !`${d.id} ${d.n} ${d.b} ${d.sm}`.toLowerCase().includes(search)) return false;
+                return true;
+            });
+
+            filteredData.sort((a, b) => {
+                let valA = a[sortCol];
+                let valB = b[sortCol];
+                if (typeof valA === 'string' || typeof valB === 'string') {
+                    valA = String(valA || '').toLowerCase();
+                    valB = String(valB || '').toLowerCase();
+                    if (valA < valB) return sortDesc ? 1 : -1;
+                    if (valA > valB) return sortDesc ? -1 : 1;
+                    return 0;
+                }
+                valA = parseFloat(valA) || 0;
+                valB = parseFloat(valB) || 0;
+                return sortDesc ? (valB - valA) : (valA - valB);
+            });
+
+            updateSortIcons();
+
+            const itemsToShow = filteredData.slice(0, currentIndex);
+            document.getElementById('displayCount').innerText = itemsToShow.length;
+            document.getElementById('totalCount').innerText = filteredData.length;
+
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+            
+            if (itemsToShow.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="12" style="text-align:center; padding: 20px;">無符合條件的數據</td></tr>`;
+                document.getElementById('paginationControls').style.display = 'none';
+                return;
+            }
+
+            let htmlString = '';
+            itemsToShow.forEach(d => {
+                let diffHtml = '-';
+                // 🚨 顯示邏輯：大過 0 係紅色發水，細過 0 係綠色抵買
+                if (Math.abs(d.diff) > 0.01 && d.calc1_avg > 0) {
+                    const pct = ((d.diff / d.calc1_avg) * 100).toFixed(1);
+                    diffHtml = d.diff > 0 
+                        ? `<span class="diff-alert">+$${formatPrc(d.diff)}<br>(+${pct}%)</span>` 
+                        : `<span style="color:#16a34a; font-weight:bold; font-size:11px;">-$${formatPrc(Math.abs(d.diff))}<br>(${pct}%)</span>`;
+                }
+
+                const offerEn = String(d.co || '').toLowerCase().trim();
+                const hasPromo = (offerEn && offerEn !== '-' && offerEn !== 'null' && offerEn !== '無優惠');
+                const promoHtml = hasPromo ? `<br><span class="promo-alert">⚠️ 促銷: ${d.co}</span>` : '';
+
+                let compHtml = '<ul class="competitor-list">';
+                if (d.competitors && d.competitors.length > 0) {
+                    d.competitors.forEach(c => {
+                        compHtml += `<li><strong>${c.sm}</strong>: $${formatPrc(c.price)}</li>`;
+                    });
+                } else {
+                    compHtml += `<li>無其他對手數據</li>`;
+                }
+                compHtml += '</ul>';
+
+                const remarkHtml = d.remark ? `<span class="remark-alert">${d.remark}</span>` : `<span style="color:#94a3b8;">-</span>`;
+
+                htmlString += `
+                    <tr>
+                        <td><span class="badge">${d.id}</span></td>
+                        <td>${d.b || '-'}</td>
+                        <td style="max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${d.n}">${d.n || '-'}</td>
+                        <td><span class="badge badge-sm">${d.sm}</span></td>
+                        <td><strong>$${formatPrc(parseFloat(d.cb_p))}</strong>${promoHtml}</td>
+                        <td>${compHtml}</td>
+                        <td style="text-align:center;"><strong>${d.N || 0}</strong></td>
+                        <td class="alg-col col-1">$${formatPrc(d.calc1_avg)}</td>
+                        <td class="alg-col col-2">$${formatPrc(d.calc2_avg)}</td>
+                        <td class="alg-col col-3" style="background:#e8f5e9;">$${formatPrc(d.calc3_avg)}</td>
+                        <td>${diffHtml}</td>
+                        <td>${remarkHtml}</td>
+                    </tr>
+                `;
+            });
+            tbody.innerHTML = htmlString;
+
+            const btnContainer = document.getElementById('paginationControls');
+            if (currentIndex < filteredData.length) {
+                btnContainer.style.display = 'flex';
+            } else {
+                btnContainer.style.display = 'none';
+            }
+        }
+
+        window.loadMore = function() { currentIndex += PAGE_SIZE; renderTable(false); }
+        window.loadAll = function() { currentIndex = filteredData.length; renderTable(false); }
+
+        document.getElementById('searchInput').addEventListener('input', () => renderTable(true));
+        document.getElementById('smFilter').addEventListener('change', () => renderTable(true));
+        document.getElementById('brandFilter').addEventListener('change', () => renderTable(true));
+        document.getElementById('anomalyFilter').addEventListener('change', () => renderTable(true));
+
+        window.onload = loadAuditData;
+    </script>
+</body>
+</html>

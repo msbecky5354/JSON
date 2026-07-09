@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer String Debugger - 促銷字串幽靈差異排查器</title>
+    <style>
+        :root {
+            --primary: #4f46e5; --primary-hover: #4338ca;
+            --bg: #0f172a; --panel-bg: #1e293b; --table-bg: #0f172a;
+            --text-main: #f8fafc; --text-muted: #94a3b8;
+            --border: #334155; 
+            --danger: #ef4444; --success: #10b981; --warning: #f59e0b; --info: #3b82f6;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); padding: 20px; color: var(--text-main); margin: 0; }
+        h1 { color: #818cf8; border-bottom: 2px solid var(--primary); padding-bottom: 10px; margin-bottom: 20px; font-size: 24px;}
+        
+        .controls { background: var(--panel-bg); padding: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); margin-bottom: 20px; display: flex; gap: 15px; align-items: flex-end; flex-wrap: wrap; border-left: 4px solid var(--primary); }
+        .control-group { display: flex; flex-direction: column; gap: 5px; }
+        label { font-size: 12px; font-weight: bold; color: var(--text-muted); text-transform: uppercase; }
+        select, input { padding: 8px 12px; border: 1px solid var(--border); border-radius: 4px; font-size: 13px; outline: none; min-width: 250px; height: 35px; box-sizing: border-box; background: #0f172a; color: white; }
+        select:focus, input:focus { border-color: #818cf8; }
+        
+        /* DataTable Styles */
+        .table-container { width: 100%; overflow-x: auto; background: var(--panel-bg); border-radius: 8px; border: 1px solid var(--border); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; }
+        th, td { padding: 10px 12px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+        th { background: #334155; color: #e2e8f0; font-weight: bold; position: sticky; top: 0; z-index: 10; font-size: 12px; text-transform: uppercase; }
+        tr:hover td { background: #1e293b; filter: brightness(1.2); }
+        
+        .code-col { font-family: 'Courier New', Courier, monospace; color: #93c5fd; font-weight: bold; }
+        .sm-badge { background: #475569; color: #fff; padding: 3px 6px; border-radius: 3px; font-size: 11px; font-weight: bold; }
+        
+        /* SQL Validation Visual Styles */
+        .visual-string { font-family: 'Consolas', 'Monaco', monospace; background: #000; color: #a7f3d0; padding: 4px 6px; border-radius: 4px; border: 1px solid #064e3b; letter-spacing: 0px; font-size: 12px; }
+        .visual-string.null-val { color: #fca5a5; border-color: #7f1d1d; background: #450a0a; }
+        .len-badge { font-size: 10px; background: #334155; padding: 2px 5px; border-radius: 10px; color: #cbd5e1; margin-left: 5px; }
+        
+        .status-badge { padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-align: center; display: inline-block; min-width: 80px; }
+        .match-exact { background: #064e3b; color: #34d399; border: 1px solid #059669; }
+        .match-diff { background: #1e3a8a; color: #60a5fa; border: 1px solid #2563eb; }
+        .match-ghost { background: #7f1d1d; color: #f87171; border: 1px solid #dc2626; animation: pulse 2s infinite; }
+
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); } 70% { box-shadow: 0 0 0 6px rgba(220, 38, 38, 0); } 100% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); } }
+
+        .stat-panel { display: flex; gap: 15px; margin-bottom: 15px; flex-wrap: wrap;}
+        .s-box { background: var(--panel-bg); border: 1px solid var(--border); padding: 10px 15px; border-radius: 6px; border-left: 4px solid var(--primary); min-width: 140px;}
+        .s-box span { display: block; font-size: 11px; color: var(--text-muted); text-transform: uppercase; }
+        .s-box strong { font-size: 18px; color: white; }
+    </style>
+</head>
+<body>
+
+    <h1>🕵️ Offer String Debugger (促銷字串幽靈差異排查器)</h1>
+    
+    <div class="stat-panel">
+        <div class="s-box"><span>總商品數</span><strong id="statTotal">0</strong></div>
+        <div class="s-box" style="border-left-color: var(--success);"><span>✅ 雙語皆無變更 (TRUE)</span><strong id="statExactTrue">0</strong></div>
+        <div class="s-box" style="border-left-color: var(--info);"><span>❌ 包含促銷變更 (FALSE)</span><strong id="statDiff">0</strong></div>
+        <div class="s-box" style="border-left-color: var(--warning);"><span>⚠️ 中英不同步 (ASYNC)</span><strong id="statAsync">0</strong></div>
+        <div class="s-box" style="border-left-color: var(--danger);"><span>🚨 幽靈字元 (GHOST)</span><strong id="statGhost">0</strong></div>
+    </div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>排查模式 (Debug Filter for IS_EXACT_MATCH)</label>
+            <select id="filterMode">
+                <option value="ALL">🌐 顯示全部 (Show All)</option>
+                <option value="EXACT_TRUE">✅ 雙語皆無變更 (Both EXACT_MATCH = TRUE)</option>
+                <option value="EXACT_FALSE">❌ 包含促銷變更 (Any EXACT_MATCH = FALSE)</option>
+                <option value="ASYNC_EN_FALSE">⚠️ 中英不同步: 僅英文變更 (EN = FALSE, CHI = TRUE)</option>
+                <option value="ASYNC_CHI_FALSE">⚠️ 中英不同步: 僅中文變更 (CHI = FALSE, EN = TRUE)</option>
+                <option value="GHOST">🚨 僅顯示幽靈空白異常 (Ghost Spaces Only)</option>
+            </select>
+        </div>
+        <div class="control-group" style="flex-grow: 1;">
+            <label>精確雷達 (ID / Supermarket)</label>
+            <input type="text" id="searchInput" placeholder="輸入 Product Code 或 超市...">
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table id="debugTable">
+            <thead>
+                <tr>
+                    <th style="width: 150px;">Product Code</th>
+                    <th style="width: 80px;">SM</th>
+                    <th>Language</th>
+                    <th>visual_previous <span class="len-badge">previous_len</span></th>
+                    <th>visual_current <span class="len-badge">current_len</span></th>
+                    <th style="text-align: center;">is_exact_match</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr><td colspan="6" style="text-align:center; padding: 30px; color: #94a3b8;">正在從 GitHub 雙軌同步 中文與英文 快照數據... ⏳</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        let mergedData = [];
+
+        // 模擬 SQL 的 COALESCE 與字串拼接邏輯
+        function processOffer(rawOffer) {
+            if (rawOffer === null || rawOffer === undefined || rawOffer === 'null' || rawOffer === '') {
+                return { text: '', visual: '>NULL<', len: 0, isNull: true };
+            }
+            const str = String(rawOffer);
+            return { text: str, visual: `>${str}<`, len: str.length, isNull: false };
+        }
+
+        function checkMatch(prev, curr) {
+            const isExact = (prev.text === curr.text);
+            // 如果嚴格不相等，但去除前後空白後相等，即判定為包含幽靈空白字元 (Ghost Space)
+            const isGhost = (!isExact && prev.text.trim() === curr.text.trim());
+            return { isExact, isGhost };
+        }
+
+        async function initApp() {
+            try {
+                const hkTime = new Date(new Date().getTime() + 8 * 60 * 60 * 1000);
+                const targetDate = hkTime.toISOString().split('T')[0];
+                
+                const urlZh = `https://raw.githubusercontent.com/msbecky5354/JSON/main/data/snapshot_zh-Hant.json?v=${targetDate}`;
+                const urlEn = `https://raw.githubusercontent.com/msbecky5354/JSON/main/data/snapshot_en.json?v=${targetDate}`;
+
+                const [resZh, resEn] = await Promise.all([fetch(urlZh), fetch(urlEn)]);
+                const dataZh = await resZh.json();
+                const dataEn = await resEn.json();
+
+                // 建立 EN 資料的 HashMap 方便關聯 (Key: id_sm)
+                const enMap = new Map();
+                dataEn.forEach(item => {
+                    enMap.set(`${item.id}_${item.sm}`, item);
+                });
+
+                // 雙軌合併資料
+                dataZh.forEach(zhItem => {
+                    const key = `${zhItem.id}_${zhItem.sm}`;
+                    const enItem = enMap.get(key) || {};
+
+                    const poZh = processOffer(zhItem.po);
+                    const coZh = processOffer(zhItem.co);
+                    const poEn = processOffer(enItem.po);
+                    const coEn = processOffer(enItem.co);
+
+                    const matchZh = checkMatch(poZh, coZh);
+                    const matchEn = checkMatch(poEn, coEn);
+
+                    mergedData.push({
+                        id: zhItem.id,
+                        sm: zhItem.sm,
+                        zh: { po: poZh, co: coZh, match: matchZh },
+                        en: { po: poEn, co: coEn, match: matchEn },
+                        hasDiff: !matchZh.isExact || !matchEn.isExact,
+                        hasGhost: matchZh.isGhost || matchEn.isGhost,
+                        isAsync: matchZh.isExact !== matchEn.isExact // ⚡ 標記中英不同步
+                    });
+                });
+
+                renderTable();
+
+            } catch (error) {
+                document.getElementById('tableBody').innerHTML = `<tr><td colspan="6" style="color: #ef4444; text-align:center;">連線失敗: ${error.message}</td></tr>`;
+            }
+        }
+
+        function renderTable() {
+            const filterMode = document.getElementById('filterMode').value;
+            const searchTxt = document.getElementById('searchInput').value.toLowerCase().trim();
+            const tbody = document.getElementById('tableBody');
+            
+            let html = '';
+            
+            // ⚡ 面板統計數據初始歸零
+            let statExactTrue = 0;
+            let statDiff = 0;
+            let statAsync = 0;
+            let statGhost = 0;
+            let renderCount = 0;
+
+            mergedData.forEach(row => {
+                // 統計數據核心計算
+                if (!row.hasDiff) statExactTrue++;
+                if (row.hasDiff) statDiff++;
+                if (row.isAsync) statAsync++;
+                if (row.hasGhost) statGhost++;
+
+                // ⚡ 實裝：IS_EXACT_MATCH 高階陣列過濾器
+                if (filterMode === 'EXACT_TRUE' && row.hasDiff) return; // 只要有任何一個 FALSE 就攔截
+                if (filterMode === 'EXACT_FALSE' && !row.hasDiff) return; // 必須要有 FALSE 才放行
+                if (filterMode === 'ASYNC_EN_FALSE' && !(row.zh.match.isExact === true && row.en.match.isExact === false)) return; // 抓出截圖案例：CHI=TRUE, EN=FALSE
+                if (filterMode === 'ASYNC_CHI_FALSE' && !(row.zh.match.isExact === false && row.en.match.isExact === true)) return;
+                if (filterMode === 'GHOST' && !row.hasGhost) return;
+                
+                // 搜尋雷達
+                if (searchTxt && !row.id.toLowerCase().includes(searchTxt) && !row.sm.toLowerCase().includes(searchTxt)) return;
+
+                renderCount++;
+
+                // 渲染中文列
+                html += generateRowHtml(row.id, row.sm, 'CHI', row.zh, true);
+                // 渲染英文列
+                html += generateRowHtml(row.id, row.sm, 'EN', row.en, false);
+            });
+
+            if (renderCount === 0) {
+                html = `<tr><td colspan="6" style="text-align:center; padding: 20px;">無符合條件的數據</td></tr>`;
+            }
+
+            tbody.innerHTML = html;
+            
+            // 渲染統計數字面板
+            document.getElementById('statTotal').textContent = mergedData.length;
+            document.getElementById('statExactTrue').textContent = statExactTrue;
+            document.getElementById('statDiff').textContent = statDiff;
+            document.getElementById('statAsync').textContent = statAsync;
+            document.getElementById('statGhost').textContent = statGhost;
+        }
+
+        function generateRowHtml(id, sm, langLabel, langData, isFirstRow) {
+            const { po, co, match } = langData;
+            
+            let statusHtml = '';
+            if (match.isGhost) {
+                statusHtml = '<span class="status-badge match-ghost">GHOST_SPACE</span>';
+            } else if (match.isExact) {
+                statusHtml = '<span class="status-badge match-exact">TRUE</span>';
+            } else {
+                statusHtml = '<span class="status-badge match-diff">FALSE</span>';
+            }
+
+            // Row spanning & borders for visual grouping
+            const borderStyle = isFirstRow ? 'border-top: 2px solid #334155;' : '';
+            const idHtml = isFirstRow ? `<td rowspan="2" class="code-col" style="border-right: 1px solid #334155;">${id}</td><td rowspan="2" style="border-right: 1px solid #334155;"><span class="sm-badge">${sm}</span></td>` : '';
+
+            return `
+                <tr style="${borderStyle}">
+                    ${idHtml}
+                    <td style="color: #94a3b8; font-weight: bold;">${langLabel}</td>
+                    <td><span class="visual-string ${po.isNull ? 'null-val' : ''}">${po.visual}</span><span class="len-badge">L:${po.len}</span></td>
+                    <td><span class="visual-string ${co.isNull ? 'null-val' : ''}">${co.visual}</span><span class="len-badge">L:${co.len}</span></td>
+                    <td style="text-align: center;">${statusHtml}</td>
+                </tr>
+            `;
+        }
+
+        // Event Listeners
+        document.getElementById('filterMode').addEventListener('change', renderTable);
+        document.getElementById('searchInput').addEventListener('input', renderTable);
+
+        // 啟動程式
+        window.onload = initApp;
+
+    </script>
+</body>
+</html>

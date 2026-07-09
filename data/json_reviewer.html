@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n8n JSON 數據驗證分析器 (Data Reviewer)</title>
+    <style>
+        :root {
+            --primary: #4f46e5; --bg: #0f172a; --panel-bg: #1e293b; 
+            --text-main: #f8fafc; --text-muted: #94a3b8;
+            --border: #334155; --success: #10b981; --danger: #ef4444; --warning: #f59e0b;
+        }
+        body { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; background: var(--bg); color: var(--text-main); padding: 20px; margin: 0; }
+        
+        .header { background: var(--panel-bg); padding: 20px; border-radius: 8px; border-left: 5px solid var(--primary); margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;}
+        h1 { margin: 0; font-size: 20px; color: #fff; }
+        
+        .upload-area { display: flex; gap: 15px; align-items: center; background: #0f172a; padding: 15px; border-radius: 6px; border: 1px dashed var(--primary);}
+        input[type="file"] { color: var(--text-main); font-size: 14px; }
+        input[type="text"] { padding: 8px 12px; border: 1px solid var(--border); border-radius: 4px; background: #000; color: #fff; width: 350px; font-family: inherit;}
+        input[type="text"]:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3); }
+        
+        .stats-bar { display: flex; gap: 20px; margin-bottom: 20px; padding: 10px; background: var(--panel-bg); border-radius: 6px; font-size: 14px; color: var(--text-muted); align-items: center;}
+        .stats-bar strong { color: #fff; font-size: 16px; margin-left: 5px;}
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); gap: 20px; }
+        .card { background: var(--panel-bg); border: 1px solid var(--border); border-radius: 6px; display: flex; flex-direction: column; overflow: hidden;}
+        .card-header { padding: 12px 15px; border-bottom: 1px solid var(--border); background: #1b2436; display: flex; justify-content: space-between; align-items: flex-start;}
+        .card-title { font-size: 15px; font-weight: bold; color: #60a5fa; margin: 0 0 5px 0;}
+        .code-badge { background: #000; color: #34d399; padding: 3px 6px; border-radius: 4px; font-size: 12px; border: 1px solid #064e3b;}
+        
+        .card-body { padding: 15px; display: flex; gap: 15px;}
+        .col-main { flex: 1; border-right: 1px dashed var(--border); padding-right: 15px;}
+        .col-comp { flex: 1; }
+        
+        .data-row { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 8px; line-height: 1.4;}
+        .lbl { color: var(--text-muted); }
+        .val { color: #fff; font-weight: bold;}
+        .val.highlight { color: #fbbf24; font-size: 16px;}
+        
+        .winner-badge { background: var(--primary); padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; display: inline-block; margin-bottom: 10px;}
+        .comp-box { background: #000; border: 1px solid #334155; padding: 8px; border-radius: 4px; margin-top: 5px;}
+        .comp-item { display: flex; justify-content: space-between; font-size: 12px; padding: 4px 0; border-bottom: 1px solid #1e293b;}
+        .comp-item:last-child { border-bottom: none; }
+        .comp-sm { color: #94a3b8; }
+        .comp-price { color: #f87171; font-weight: bold;}
+        
+        .alert { background: rgba(239, 68, 68, 0.1); border-left: 3px solid var(--danger); padding: 10px; font-size: 12px; margin-top: 10px; color: #fca5a5;}
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>🛠️ n8n JSON 數據驗證分析器</h1>
+        <div class="upload-area">
+            <label for="jsonFile" style="font-weight:bold; color: #60a5fa;">📁 載入 n8n 輸出的 JSON：</label>
+            <input type="file" id="jsonFile" accept=".json" />
+        </div>
+    </div>
+
+    <div class="stats-bar">
+        <div>報告日期: <strong id="reportDate">-</strong></div>
+        <div>載入總數: <strong id="totalCount">0</strong> 件</div>
+        <div style="margin-left: auto;">
+            <input type="text" id="searchInput" placeholder="🔍 搜尋貨品名稱、品牌、ID 或 超市..." disabled />
+        </div>
+    </div>
+
+    <div class="grid" id="dataGrid"></div>
+
+    <script>
+        let jsonData = [];
+
+        // 解析多語系欄位或純字串，確保不會報錯
+        function extractText(field) {
+            if (!field) return '';
+            if (typeof field === 'string') return field;
+            if (typeof field === 'object') return field['zh-Hant'] || field['zh-Hans'] || field.en || '';
+            return String(field);
+        }
+
+        document.getElementById('jsonFile').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                try {
+                    const parsed = JSON.parse(event.target.result);
+                    
+                    document.getElementById('reportDate').innerText = parsed.report_date || parsed.generated_at || '未知';
+                    
+                    // 兼容 {"data": [...]} 或 直接是 [...]
+                    jsonData = parsed.data ? parsed.data : (Array.isArray(parsed) ? parsed : []);
+                    
+                    document.getElementById('totalCount').innerText = jsonData.length;
+                    document.getElementById('searchInput').disabled = false;
+                    document.getElementById('searchInput').value = ''; // 清空搜尋框
+                    
+                    renderGrid(jsonData);
+                } catch (err) {
+                    alert("JSON 解析失敗！請確保檔案格式正確。\n錯誤訊息: " + err.message);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const term = e.target.value.toLowerCase().trim();
+            if (term === '') {
+                renderGrid(jsonData);
+                return;
+            }
+            
+            const filtered = jsonData.filter(item => {
+                const codeStr = String(item.code || '').toLowerCase();
+                const smStr = String(item.smCode || '').toLowerCase();
+                const nameStr = extractText(item.name).toLowerCase();
+                const brandStr = extractText(item.brand).toLowerCase();
+                
+                return codeStr.includes(term) || 
+                       nameStr.includes(term) || 
+                       brandStr.includes(term) || 
+                       smStr.includes(term);
+            });
+            
+            renderGrid(filtered);
+        });
+
+        function renderGrid(data) {
+            const container = document.getElementById('dataGrid');
+            container.innerHTML = '';
+
+            if (data.length === 0) {
+                container.innerHTML = '<div style="color: #94a3b8; padding: 20px;">找不到符合的貨品...</div>';
+                return;
+            }
+
+            data.forEach(item => {
+                const nameStr = extractText(item.name) || 'Unknown';
+                const brandStr = extractText(item.brand) || '-';
+                
+                // 解析對手價格 (驗證 n8n SQL 的 otherPricesRaw)
+                let compHtml = '';
+                let hasWellcome = false;
+                let wellcomePrice = 0;
+                
+                let rawPrices = item.otherPricesRaw;
+                if (typeof rawPrices === 'string') {
+                    try { rawPrices = JSON.parse(rawPrices); } catch(e) { rawPrices = []; }
+                }
+
+                if (rawPrices && Array.isArray(rawPrices) && rawPrices.length > 0) {
+                    rawPrices.forEach(comp => {
+                        compHtml += `
+                            <div class="comp-item">
+                                <span class="comp-sm">${comp.smCode}</span>
+                                <span class="comp-price">$${comp.price}</span>
+                            </div>
+                        `;
+                        if(comp.smCode === 'WELLCOME') {
+                            hasWellcome = true;
+                            wellcomePrice = comp.price;
+                        }
+                    });
+                } else {
+                    compHtml = '<div style="color:#64748b; font-size:12px;">無對手數據 (獨家/缺貨)</div>';
+                }
+
+                // 針對三效脫脂奶粉 (P000002672) 提供專屬驗證警告
+                let alertHtml = '';
+                if (item.code === 'P000002672') {
+                    if (item.smCode === 'PARKNSHOP' && hasWellcome) {
+                        alertHtml = `
+                            <div class="alert">
+                                <strong>⚠️ 驗證警告：</strong><br>
+                                此貨品被 n8n 判定由 <strong>${item.smCode}</strong> 勝出。<br>
+                                留意右方對手數據，惠康 (WELLCOME) 於 JSON 中傳入的價格為 <strong>$${wellcomePrice}</strong>。<br>
+                                由於 $149 ≧ $149，因此程式邏輯自動根據字母排序判了 PARKNSHOP 勝出。
+                            </div>
+                        `;
+                    }
+                }
+
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div class="card-header">
+                        <div style="flex:1;">
+                            <h3 class="card-title">${nameStr}</h3>
+                            <div style="font-size:12px; color:#94a3b8; margin-bottom:5px;">品牌: ${brandStr}</div>
+                            <span class="code-badge">ID: ${item.code || item.id || '-'}</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="col-main">
+                            <div class="winner-badge">🏆 JSON 判定: ${item.smCode}</div>
+                            
+                            <div class="data-row"><span class="lbl">今日折實價:</span> <span class="val highlight">$${item.effectivePrice}</span></div>
+                            <div class="data-row"><span class="lbl">昨日折實價:</span> <span class="val">$${item.prevEffPrice || '-'}</span></div>
+                            <div class="data-row"><span class="lbl">今日底價:</span> <span class="val">$${item.originalPrice || item.cb_p || '-'}</span></div>
+                            <div class="data-row"><span class="lbl">宣傳字眼:</span> <span class="val" style="font-size:11px; color:#f87171;">${item.currentOfferZh || item.curr_offer || '無優惠'}</span></div>
+                            <div class="data-row"><span class="lbl">Status Key:</span> <span class="val">${item.statusKey || item.db_status || '-'}</span></div>
+                            <div class="data-row"><span class="lbl">SQL 排名 (rn):</span> <span class="val highlight">${item.rn || '-'}</span></div>
+<div class="data-row"><span class="lbl">SQL 擊穿市價:</span> <span class="val text-danger">${item.marketDropPct || 0}% (基於底價)</span></div>
+                        </div>
+                        
+                        <div class="col-comp">
+                            <div style="font-size:12px; font-weight:bold; color:#94a3b8; margin-bottom:5px;">🛒 JSON 內的對手價格:</div>
+                            <div class="comp-box">
+                                ${compHtml}
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 0 15px 15px 15px;">
+                        ${alertHtml}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+    </script>
+</body>
+</html>
