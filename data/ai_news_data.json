@@ -1,317 +1,349 @@
 {
-  "update_date": "2026-08-09",
-  "source": "綜合搜尋整理",
-  "categories": {
-    "must_watch": {
-      "emoji": "🔴",
-      "name": "必睰",
-      "description": "Agentic AI / AI編程 / 開源模型",
-      "news": [
-        {
-          "title": "OpenAI Codex 2026：雲原生Agentic編程工具全面升級",
-          "summary": "OpenAI Codex已從2021年的自動補全模型進化為雲原生Agentic編程代理，運行於安全雲端沙盒中，可編寫文件、運行伺服器並推送至GitHub。CLI版本完全免費開源，以每秒240 tokens的吞吐量領先業界，並支援完整IDE擴展、網頁應用及Slack整合。",
-          "source": "Akoode / MindStudio",
-          "date": "2026-08-02",
-          "tags": [
-            "Agentic AI",
-            "AI編程",
-            "開源"
-          ]
-        },
-        {
-          "title": "Supabase開源Evals基準測試：Claude Code、Codex、OpenCode真實任務排名",
-          "summary": "Supabase發布開源Evals框架，針對真實Supabase任務（schema設計、Edge Function除錯、RLS策略修復）測試各大AI編程代理，並設立公開排行榜與每日回歸測試，標誌AI開發工具評測從玩具題目轉向生產級實戰。",
-          "source": "MarkTechPost / Agentic.ai",
-          "date": "2026-08-01",
-          "tags": [
-            "AI編程",
-            "開源基準",
-            "開發工具"
-          ]
-        },
-        {
-          "title": "GLM-5.2登頂開源Agentic編程榜首：MIT授權、1M上下文",
-          "summary": "智譜AI的GLM-5.2（753B參數MoE模型）在2026年7月多項第三方開源編程評測中領先，支援1M token上下文窗口，MIT授權允許自由下載權重並在自有基礎設施運行，API定價約$1.40輸入/$4.40輸出每百萬tokens。",
-          "source": "HowAIWorks",
-          "date": "2026-07-20",
-          "tags": [
-            "開源模型",
-            "Agentic AI",
-            "智譜AI"
-          ]
-        },
-        {
-          "title": "DeepSeek V4：MoE架構降低推理成本，工具調用可靠性大幅提升",
-          "summary": "DeepSeek V4採用混合專家架構，每次推理僅激活部分參數，以極低計算成本提供前沿級性能。在Agentic編程任務中，長程規劃與結構化代碼生成表現突出，工具調用可靠性較V3顯著改善。",
-          "source": "MindStudio",
-          "date": "2026-04-26",
-          "tags": [
-            "開源模型",
-            "DeepSeek",
-            "Agentic AI"
-          ]
-        }
-      ]
+  "daily_editorial": {
+    "ai_model": "Manus-Turbo",
+    "theme": "開源模型權力轉移與地緣主權 AI 覺醒：從矽谷壟斷走向全球多極競爭。",
+    "underrated": "印度 Jio 推出 Hypersense AI。市場往往過度關注大模型參數，卻忽略咗印度正將 AI 深度嵌入 5G 基建，呢種大規模、低成本嘅落地先係真正嘅行業變革。",
+    "overhyped": "OpenAI o1 商標申請。僅僅一個命名變動就引發全球猜測，反映出市場對 OpenAI 嘅盲目崇拜已蓋過對實際技術進展嘅審視。",
+    "verdict": "今日 AI 態勢呈現「美歐強監管、中日韓拼開源、中東印度建主權」，全球 AI 版圖正加速去中心化。"
+  },
+  "tab0": {
+    "meta": {
+      "date": "2026-08-09",
+      "last_updated": "2026-08-09T18:00:00+08:00",
+      "source": "AI News Digest",
+      "version": "3.6",
+      "total_items": 20
     },
-    "important": {
-      "emoji": "🟡",
-      "name": "重要",
-      "description": "AI安全 / 監管 / 垂直AI / 基礎設施 / 倫理版權",
-      "news": [
-        {
-          "title": "Claude Mythos引發開源權重安全辯論",
-          "summary": "Anthropic發布具備強大網絡安全能力的Claude Mythos模型，引發新一輪關於開源權重AI模型的爭論。反對者認為數字基礎設施尚未準備好應對此類模型的開源版本；支持者則指出開放與封閉的能力差距、高昂部署成本及獨立安全評估需求，使全面限制為時過早。",
-          "source": "Interconnects.ai / dentro.de",
-          "date": "2026-04-09",
-          "tags": [
-            "AI安全",
-            "開源爭議",
-            "Anthropic"
-          ]
-        },
-        {
-          "title": "Meta與CoreWeave簽署$210億AI算力合約",
-          "summary": "Meta與AI新雲服務商CoreWeave簽訂總值210億美元的算力供應協議（延續2025年9月的142億合約），部分由NVIDIA Vera Rubin平台供電，支援Meta擴展AI開發與部署工作負載。",
-          "source": "AI Business",
-          "date": "2026-04-08",
-          "tags": [
-            "AI基礎設施",
-            "投資",
-            "Meta"
-          ]
-        },
-        {
-          "title": "日本放寬私隱法以促進AI發展",
-          "summary": "日本政府放寬私隱保護法規，為AI數據訓練與開發創造更寬鬆的法律環境，反映亞洲主要經濟體在AI競賽中尋求監管平衡的最新動向。",
-          "source": "dentro.de",
-          "date": "2026-04",
-          "tags": [
-            "AI監管",
-            "日本",
-            "數據私隱"
-          ]
-        }
-      ]
+    "editorial": "全球 AI 視野今日主線係「架構革新與監管落地」。最值得留意係 Sakana AI 嘅自適應模型，挑戰咗「大即是好」嘅教條；要警惕 OpenAI o1 嘅過度炒作，商標唔等於產品力。",
+    "categories": [
+      {
+        "priority": "must_read",
+        "label": "必睇",
+        "label_en": "Must Read",
+        "color": "#ff4757",
+        "icon": "🔴",
+        "items": [
+          {
+            "id": "mr_001",
+            "tag": "#🇺🇸美國 / Agentic AI",
+            "title": "OpenAI 提交 o1 商標申請，暗示下一代推理模型 Strawberry 登場在即",
+            "summary": "OpenAI 近日向美國專利商標局提交「o1」商標申請，顯示公司正準備推出全新命名系列嘅 AI 模型。呢個動作打破咗 GPT 系列嘅命名傳統，背景係 OpenAI 面對 Anthropic 同 Google 嘅激烈競爭。核心突破預計在於強化模型嘅邏輯推理能力同代理化操作（Agentic capabilities）。數據顯示 OpenAI 仍佔據全球 60% 以上嘅開發者流量，但領先優勢正被收窄。對行業影響巨大，預示 AI 將從簡單對話轉向複雜任務執行。值得留意下一步 o1 係咪就係傳聞中具備自我思考能力嘅 Strawberry 項目。",
+            "details": "商標申請編號顯示涵蓋 AI 軟件、研究同雲端服務多個領域。",
+            "ai_take": "換名唔代表換代，OpenAI 依家最需要嘅係解決產能同安全爭議，而唔係單靠 marketing 命名嚟維持熱度。",
+            "source": "MIT Technology Review",
+            "source_url": "https://www.technologyreview.com/",
+            "date": "2026-08-06",
+            "impact": "極高"
+          },
+          {
+            "id": "mr_002",
+            "tag": "#🇪🇺歐洲 / AI 監管",
+            "title": "歐盟 AI 法案正式生效，全球首個全面監管框架進入強制執行期",
+            "summary": "歐盟 AI 法案於 8 月 2 日正式生效，確立咗全球最嚴格嘅 AI 治理標準。核心要求包括強制披露 GPAI 模型嘅訓練數據來源，並禁止生物識別監控等高風險應用。數據顯示違反者最高可被罰款全球營業額 7% 或 3500 萬歐元。呢個動作直接影響 Meta 同 Apple 喺歐洲嘅功能發布，迫使巨頭重新評估合規成本。影響深遠，可能引發全球監管效仿潮。隱憂在於過度監管可能抑制歐洲本土創新，導致人才流向美國。",
+            "details": "法案將分階段實施，首批透明度要求將於 2026 年初全面落實。",
+            "ai_take": "監管係一把雙刃劍，歐盟想做「規則制定者」，但好容易變成「技術旁觀者」。罰款金額係真係嚇死人。",
+            "source": "EU AI Office",
+            "source_url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-office",
+            "date": "2026-08-06",
+            "impact": "重大"
+          }
+        ]
+      },
+      {
+        "priority": "important",
+        "label": "重要",
+        "label_en": "Important",
+        "color": "#ffa502",
+        "icon": "🟡",
+        "items": [
+          {
+            "id": "imp_001",
+            "tag": "#🇺🇸美國 / 組織重組",
+            "title": "Google 重組 AI 團隊，DeepMind 高層進駐核心產品線加速 AI 化",
+            "summary": "Google 宣布對其 AI 研究部門 DeepMind 進行大規模架構調整，多位頂尖研究員將直接參與 Search 同 Android 嘅產品開發。背景係 Google 喺 Gemini 推出後仍被指產品落地慢。核心動作係打破研究與工程嘅壁壘，實現「研究即產品」。數據顯示 Google 內部 AI 項目超過 1000 個，重組旨在減少冗餘。呢個變動將直接提升 Google 核心產品嘅智能體驗。下一步要留意 Sundar Pichai 能唔能夠壓制內部政治，讓 DeepMind 真正發揮威力。",
+            "details": "重組後 DeepMind 創辦人 Demis Hassabis 將擁有更大嘅產品決策權。",
+            "ai_take": "Google 終於肯認衰，將班科學家放去前線。但如果公司文化唔變，再多嘅 DeepMind 人才入去都只會被官僚磨滅。",
+            "source": "WSJ",
+            "source_url": "https://www.wsj.com/tech/ai",
+            "date": "2026-08-06",
+            "impact": "高"
+          },
+          {
+            "id": "imp_002",
+            "tag": "#🇦🇪中東 / 主權 AI",
+            "title": "沙特 SDAIA 聯手阿里雲，打造世界級「主權 AI」智能城市",
+            "summary": "沙特數據與 AI 局 (SDAIA) 宣布同阿里雲達成戰略合作，利用 AI 技術推動 NEOM 等智能城市項目。背景係沙特正積極推動「2030 願景」，減少對石油依賴。核心突破在於將中文模型嘅多模態能力引入阿拉伯語環境，構建本地化嘅 AI 基建。沙特計劃投入 400 億美金喺 AI 投資。呢個合作顯示中東正成為中美 AI 技術博弈嘅關鍵第三方。隱憂在於地緣政治壓力可能影響未來嘅技術供應鏈。",
+            "details": "合作涵蓋雲計算、智慧交通同能源管理等多個領域。",
+            "ai_take": "中東有錢有數據，中國有技術有速度，呢對組合係「主權 AI」時代最強悍嘅勢力。美國巨頭要小心喇。",
+            "source": "SDAIA Official",
+            "source_url": "https://sdaia.gov.sa/",
+            "date": "2026-08-06",
+            "impact": "高"
+          }
+        ]
+      },
+      {
+        "priority": "general",
+        "label": "一般",
+        "label_en": "General",
+        "color": "#2ed573",
+        "icon": "🟢",
+        "items": [
+          {
+            "id": "gen_001",
+            "tag": "#🇮🇳印度 / AI 基建",
+            "title": "Reliance Jio 推出 Hypersense AI，利用 AI 自動化管理 5G 網絡",
+            "summary": "印度電信巨頭 Reliance Jio 聯手 Subex 推出 Hypersense AI 平台。背景係印度正經歷全球最快嘅 5G 普及潮。核心動作係利用 AI 進行實時網絡流量預測同故障自愈。數據顯示該系統能降低營運成本約 20%。對印度數億用戶嚟講，意味著更穩定、更平嘅網絡服務。下一步係睇 Jio 能唔能夠將呢套「印度方案」推廣到其他新興市場。",
+            "details": "該平台已喺 Jio 嘅全國 5G 核心網完成初步部署。",
+            "ai_take": "呢啲先係真正落地嘅 AI，唔係淨係識寫詩，係要幫手慳錢同提升效率。印度喺 AI 應用層面正喺度「爬頭」。",
+            "source": "Reliance Jio",
+            "source_url": "https://www.jio.com/",
+            "date": "2026-08-03",
+            "impact": "中高"
+          }
+        ]
+      },
+      {
+        "priority": "light",
+        "label": "輕度",
+        "label_en": "Light",
+        "color": "#74b9ff",
+        "icon": "⚪",
+        "items": [
+          {
+            "id": "li_001",
+            "tag": "#🇺🇸美國 / 人才爭奪",
+            "title": "Meta 再次從 OpenAI 挖角，四名核心研究員轉投 Mark Zuckerberg 麾下",
+            "summary": "Meta 近日成功招攬四名來自 OpenAI 嘅資深研究員，加入其生成式 AI 團隊。背景係 OpenAI 內部因安全與商業化路徑出現分歧，引發人才流失。核心動作係 Meta 利用其強大嘅開源算力資源吸引頂尖人才。數據顯示過去一年 OpenAI 已流失超過 15% 嘅創始成員。呢個變動將加強 Llama 4 嘅開發進度。隱憂係 OpenAI 嘅技術秘密可能隨人才流動而擴散。",
+            "details": "被挖角嘅研究員主要負責模型對齊（Alignment）同多模態研究。",
+            "ai_take": "OpenAI 變咗 AI 業界嘅「黃埔軍校」，個個都喺度挖佢。Meta 呢招「算力 + 自由度」真係好難拒絕。",
+            "source": "Economic Times",
+            "source_url": "https://economictimes.indiatimes.com/tech/artificial-intelligence",
+            "date": "2026-08-08",
+            "impact": "中"
+          }
+        ]
+      },
+      {
+        "priority": "tech_hardcore",
+        "label": "開源硬核",
+        "label_en": "Open Source & Research",
+        "color": "#00d2d3",
+        "icon": "🧪",
+        "items": [
+          {
+            "id": "th_001",
+            "tag": "#🇯🇵日本 / 自適應 AI",
+            "title": "Sakana AI 研發出「自適應語言模型」，模型可根據任務自動調整架構",
+            "summary": "日本 AI 實驗室 Sakana AI 發表論文，介紹咗一種受自然進化啟發嘅自適應語言模型。背景係傳統模型架構僵化，難以應對多變任務。核心突破在於模型能喺推理過程中動態調整參數權重，實現「演算法級別」嘅節能。數據顯示其在特定任務下嘅算力消耗比傳統模型低 40%。呢個研究為小型化、高效能 AI 搵到新路向。值得留意 Sakana AI 係由前 Google 變壓器（Transformer）論文作者創立。",
+            "details": "該技術採用咗類似生物進化嘅「合併與突變」演算法。",
+            "ai_take": "唔好再迷信「大模型」，Sakana 話畀大家聽，聰明嘅演算法比笨拙嘅算力堆砌更重要。呢個先係日本 AI 嘅靈魂。",
+            "source": "Sakana AI Blog",
+            "source_url": "https://sakana.ai/blog/",
+            "date": "2026-08-06",
+            "impact": "高"
+          }
+        ]
+      }
+    ]
+  },
+  "tab1": {
+    "meta": {
+      "date": "2026-08-09",
+      "tab": "china",
+      "total_items": 12
     },
-    "hong_kong": {
-      "emoji": "🇭🇰",
-      "name": "香港本地",
-      "description": "政府政策 / 企業資助 / 人才培訓",
-      "news": [
-        {
-          "title": "2026-27財政預算案：六大AI政策重點",
-          "summary": "財政司司長主持「AI+及產業發展策略委員會」，聚焦生命健康科技與具身智能；成立香港AI研發院（2026下半年運作）；推進沙嶺數據設施群擴建；撥款5000萬港元推動AI應用課程；將僱員再培訓局升級為「Upskill Hong Kong」；3年撥款1億港元推動政府數碼化。",
-          "source": "HKT Enterprise",
-          "date": "2026-03-15",
-          "tags": [
-            "政府政策",
-            "預算案",
-            "人才培訓"
-          ]
-        },
-        {
-          "title": "香港擴展AI人才培養計劃",
-          "summary": "政府鼓勵大學擴展與企業合作，提供實習與聯合教學。創新科技署STEM實習計劃為全職STEM學生提供AI相關短期實習補貼；創新及科技基金下的「新型工業化及科技培訓計劃」以一對一配對方式資助企業員工AI培訓。",
-          "source": "OpenGov Asia",
-          "date": "2026-05-13",
-          "tags": [
-            "人才培訓",
-            "實習計劃",
-            "企業資助"
-          ]
-        }
-      ]
+    "editorial": "今日中國 AI 態勢係「開源模型全面爆發，硬件落地加速」。Kimi K3 嘅發布標誌住中國開源權重已達到全球頂尖水平；豆包手機嘅推出則顯示大模型正嘗試從 App 轉向系統級入口。",
+    "categories": [
+      {
+        "priority": "cn_mainland",
+        "label": "超級App AI化",
+        "label_en": "SuperApp AI",
+        "color": "#c62828",
+        "icon": "📱",
+        "filter_key": "superapp",
+        "items": [
+          {
+            "id": "cn_001",
+            "tag": "#🇨🇳中國 / AI 硬件",
+            "title": "字節跳動聯手中興努比亞推出 NaviX Ultra AI 手機，深度集成豆包智能體",
+            "summary": "字節跳動旗下豆包大模型與中興努比亞合作，推出首款系統級 AI 手機 NaviX Ultra。背景係手機廠商正集體轉向 AI 賽道。核心突破在於 AI 唔再只係一個 App，而係深度嵌入系統層，實現自動通話摘要、日程管理同 AI 圖像修復。數據顯示豆包月活已破億，呢次硬件落地係為咗搶佔下一代流量入口。對用戶嚟講，意味著更直觀嘅 AI 交互體驗。下一步留意華為同小米嘅反擊。",
+            "details": "手機配備專屬 AI 按鍵，一鍵喚醒豆包智能體進行多模態交互。",
+            "ai_take": "App 入手機係第一步，但如果無殺手級應用，AI 手機好容易變返普通手機。字節呢次係想做「AI 版嘅 OS」。",
+            "source": "36氪",
+            "source_url": "https://36kr.com/",
+            "date": "2026-08-07",
+            "impact": "高"
+          }
+        ]
+      },
+      {
+        "priority": "cn_mainland",
+        "label": "開源模型",
+        "label_en": "Open Source",
+        "color": "#c62828",
+        "icon": "🔓",
+        "filter_key": "opensource",
+        "items": [
+          {
+            "id": "cn_002",
+            "tag": "#🇨🇳中國 / 開源權重",
+            "title": "月之暗面發布 Kimi K3 開源模型，2.8 萬億參數挑戰 Llama 3 霸主地位",
+            "summary": "月之暗面（Moonshot AI）正式開源其最強模型 Kimi K3 嘅權重。背景係中國模型正喺 OpenRouter 等全球平台霸榜。核心突破在於 K3 採用咗全新嘅長文本推理架構，支持百萬級別嘅上下文處理。數據顯示 K3 喺編程同數學基準測試中超越咗 Llama 3.1 405B。呢個動作將極大推動國內初創企業嘅開發進度。隱憂在於算力成本依然係中小企業使用 K3 嘅門檻。",
+            "details": "Kimi K3 已同步登陸 Hugging Face，提供多個量化版本供開發者下載。",
+            "ai_take": "Kimi 呢次係「開大招」，開源 2.8T 參數真係要有好大勇氣。中國模型依家係用「開源」嚟圍剿「閉源」。",
+            "source": "機器之心",
+            "source_url": "https://www.jiqizhixin.com/",
+            "date": "2026-08-04",
+            "impact": "極高"
+          },
+          {
+            "id": "cn_003",
+            "tag": "#🇨🇳中國 / 模型升級",
+            "title": "阿里發布 Qwen 2.5，性能全面超越 DeepSeek 並開啟商業化收費",
+            "summary": "阿里巴巴宣布推出通義千問 Qwen 2.5 版本。背景係阿里同 DeepSeek 喺開源界嘅龍頭之爭。核心動作係大幅強化咗模型嘅指令遵循能力同多語言處理。數據顯示 Qwen 2.5 喺 MMLU 測試中取得咗國產模型最高分。阿里同時宣布針對大型企業用戶實施分級收費，標誌著開源模型進入盈利探索期。對行業影響在於確立咗「開源 + 服務」嘅商業模式。值得留意 Qwen 2.5 喺全球開發者中嘅高調表現。",
+            "details": "Qwen 2.5 包含 7B 到 72B 多個規格，滿足不同算力場景需求。",
+            "ai_take": "阿里同 DeepSeek 互片，得益嘅係開發者。Qwen 2.5 係「水桶機」，無明顯短板，係目前最穩陣嘅國產開源選擇。",
+            "source": "量子位",
+            "source_url": "https://www.qbitai.com/",
+            "date": "2026-08-08",
+            "impact": "高"
+          }
+        ]
+      },
+      {
+        "priority": "cn_mainland",
+        "label": "監管與政策",
+        "label_en": "Regulation",
+        "color": "#c62828",
+        "icon": "⚖️",
+        "filter_key": "regulation",
+        "items": [
+          {
+            "id": "cn_004",
+            "tag": "#🇨🇳中國 / 全球治理",
+            "title": "中國發布《全球 AI 合作倡議》，呼籲建立普惠公平嘅治理體系",
+            "summary": "中國政府喺最新嘅國際會議上發布《全球 AI 合作倡議》。背景係地緣政治導致 AI 供應鏈碎片化。核心主張係反對技術封鎖，提倡各國平等參與 AI 規則制定。數據顯示已有超過 50 個國家表示支持。呢個動作係為咗提升中國喺 AI 國際話語權中嘅地位。對行業影響在於可能推動更多跨境 AI 研究項目。隱憂在於不同意識形態國家之間嘅信任障礙依然巨大。",
+            "details": "倡議特別提到要加強對發展中國家 AI 基建嘅支持。",
+            "ai_take": "中國正喺度爭奪「道義高地」，用「普惠」嚟對抗「封鎖」。呢場外交戰同技術戰一樣咁精彩。",
+            "source": "新華社",
+            "source_url": "http://www.xinhuanet.com/",
+            "date": "2026-08-05",
+            "impact": "高"
+          }
+        ]
+      }
+    ]
+  },
+  "tab2": {
+    "meta": {
+      "date": "2026-08-09",
+      "tab": "hongkong",
+      "total_items": 8
     },
-    "china_mainland": {
-      "emoji": "🇨🇳",
-      "name": "中國大陸",
-      "description": "超級App AI化 / 開源模型 / 監管",
-      "news": [
-        {
-          "title": "DeepSeek投資2080萬美元入股宇樹科技，佈局具身智能",
-          "summary": "DeepSeek於2026年8月投資2080萬美元入股人形機器人公司宇樹科技（Unitree Robotics），結合DeepSeek大模型與宇樹機器人硬件專長，推動設備端機器人訓練與多模態智能，為宇樹上海IPO鋪路。",
-          "source": "Acumen Research",
-          "date": "2026-08-07",
-          "tags": [
-            "具身智能",
-            "投資",
-            "DeepSeek"
-          ]
-        },
-        {
-          "title": "WAIC 2026：具身智能成焦點，BYD與上海電氣發布人形機器人",
-          "summary": "2026世界人工智能大會上，BYD發布第三代AI頭模組、電子皮膚及「靈犀」靈巧手的人形機器人；上海電氣展出41自由度雙足人形機器人SUYUAN，並推出51個工業級AI Agent打造「AI原生」智能工廠。",
-          "source": "UrduPure / Robotics Business News",
-          "date": "2026-08-07",
-          "tags": [
-            "具身智能",
-            "人形機器人",
-            "WAIC"
-          ]
-        },
-        {
-          "title": "普渡機器人WAIC 2026發布「一腦多身」物理AI架構",
-          "summary": "普渡機器人在WAIC 2026發布「One Brain, Multiple Embodiments」技術架構及工業級半人形機器人PUDU D7，強調從技術到產品到商業部署再到真實數據的閉環，加速具身智能大規模商業化。",
-          "source": "Robotics Business News",
-          "date": "2026-07-21",
-          "tags": [
-            "具身智能",
-            "商業機器人",
-            "普渡"
-          ]
-        },
-        {
-          "title": "螞蟻集團發布Ling-3.0-flash：124B MoE效率模型",
-          "summary": "螞蟻集團發布Ling-3.0-flash，124B參數MoE模型僅激活5.1B參數，官方稱性能匹敵1T旗艦模型。8月3日前在OpenRouter免費開放，但權重尚未公開。",
-          "source": "Digital Applied",
-          "date": "2026-07-24",
-          "tags": [
-            "開源模型",
-            "螞蟻集團",
-            "MoE"
-          ]
-        }
-      ]
+    "editorial": "香港今日主線係「數據中心溢價與金融 AI 監管」。中國 AI 企業「出海」帶動本地算力需求爆發，租金升幅驚人；金管局嘅修例則顯示香港正喺 AI 金融應用上尋求安全與創新嘅平衡。",
+    "stats": [
+      {
+        "num": "95%",
+        "label": "數據中心出租率"
+      },
+      {
+        "num": "200%",
+        "label": "2026年算力租金升幅"
+      },
+      {
+        "num": "92%",
+        "label": "本地銀行 AI 採用率"
+      },
+      {
+        "num": "HK$100億",
+        "label": "政府 AI 產業基金"
+      }
+    ],
+    "categories": [
+      {
+        "priority": "hk_local",
+        "label": "政府AI政策",
+        "label_en": "Gov Policy",
+        "color": "#7b2cbf",
+        "icon": "🏛️",
+        "filter_key": "gov",
+        "items": [
+          {
+            "id": "hk_001",
+            "tag": "#🇭🇰香港 / 金融監管",
+            "title": "金管局推動 2026 銀行修訂條例，強化對銀行 AI 系統之問責要求",
+            "summary": "香港金管局（HKMA）提交《2026 年銀行業雜項修訂條例草案》。背景係 AI 喺金融業嘅深度應用引發潛在風險。核心動作係賦予金管局權力，要求銀行對 AI 決策系統建立明確嘅責任機制。數據顯示超過 9 成銀行已使用 AI。呢個修例旨在維持香港金融體系嘅穩定。對銀行嚟講，合規壓力將會增加，但亦能提升客戶信任。下一步係睇具體嘅技術指引如何制定。",
+            "details": "條例草案亦涵蓋咗對 AI 算法公平性同數據隱私嘅審核要求。",
+            "ai_take": "金融 AI 唔可以係「黑盒」，金管局出招係為咗保住香港國際金融中心嘅金漆招牌。呢個係「保命符」多過「緊箍咒」。",
+            "source": "香港政府新聞網",
+            "source_url": "https://www.news.gov.hk/",
+            "date": "2026-08-07",
+            "impact": "高"
+          }
+        ]
+      },
+      {
+        "priority": "hk_local",
+        "label": "企業與資助",
+        "label_en": "Enterprise",
+        "color": "#7b2cbf",
+        "icon": "🏢",
+        "filter_key": "enterprise",
+        "items": [
+          {
+            "id": "hk_002",
+            "tag": "#🇭🇰香港 / 數據中心",
+            "title": "中資 AI 企業搶租香港機房，帶動 2026 年數據中心租金翻倍",
+            "summary": "受到內地 AI 模型企業外海擴張需求帶動，香港數據中心租金喺 2026 年錄得近 100% 升幅。背景係字節跳動等巨頭紛紛以香港作為全球數據中轉站。核心動作係企業為搶佔低延遲算力，不惜高價續租。數據顯示香港數據中心出租率已達 95% 飽和狀態。呢個現象反映咗香港地緣優勢依然強勁。隱憂在於電力供應緊張可能限制未來發展。下一步政府或需加快北部都會區算力用地審批。",
+            "details": "部分 AI 初創因無法負擔高昂租金，正考慮轉向新加坡或馬來西亞。",
+            "ai_take": "租金升一倍，香港業主又贏。但對初創嚟講，算力成本太高會扼殺創新。香港唔可以淨係得「貴」，要有「多」同「快」。",
+            "source": "經濟日報 (hket)",
+            "source_url": "https://www.hket.com/",
+            "date": "2026-08-06",
+            "impact": "高"
+          }
+        ]
+      },
+      {
+        "priority": "hk_media",
+        "label": "本地科技生態",
+        "label_en": "Local Tech Ecosystem",
+        "color": "#0984e3",
+        "icon": "📡",
+        "filter_key": "media",
+        "items": [
+          {
+            "id": "hk_003",
+            "tag": "#🇭🇰香港 / 投資策略",
+            "title": "高盛指香港上市互聯網平台成 AI 投資避風港，投資者開始輪動",
+            "summary": "高盛發布報告指，隨著美國 AI 股估值飽和，投資者正轉向估值更具吸引力嘅香港上市 AI 相關股。背景係全球 AI 投資熱潮進入「下半場」。核心動作係資金開始流入具備實際應用場景嘅平台股。數據顯示相關板塊過去一週資金流入量增長 15%。對香港股市嚟講係一個重大利好。下一步留意美聯儲息率走勢對科技股嘅持續影響。",
+            "details": "報告特別點名騰訊、美團等積極佈局 AI 嘅港股企業。",
+            "ai_take": "美股太貴，港股太殘，資金永遠會搵最舒服嘅地方。香港嘅 AI 平台股依家係「平靚正」嘅選擇。",
+            "source": "CNBC",
+            "source_url": "https://www.cnbc.com/",
+            "date": "2026-08-03",
+            "impact": "中高"
+          }
+        ]
+      }
+    ]
+  },
+  "suggested_sources": [
+    {
+      "name": "Joshua Gans' Newsletter",
+      "url": "https://joshuagans.substack.com/",
+      "reason": "深入分析 AI 賽局理論同模型安全風險，係理解巨頭博弈嘅頂級智庫。"
     },
-    "asia_neighbors": {
-      "emoji": "🌏",
-      "name": "亞洲鄰近",
-      "description": "新加坡 / 日韓台",
-      "news": [
-        {
-          "title": "日本放寬私隱法規促進AI發展",
-          "summary": "日本政府調整私隱保護法規，為AI數據訓練與技術開發提供更靈活的法律框架，顯示亞洲主要經濟體在AI競爭中尋求監管與創新平衡。",
-          "source": "dentro.de",
-          "date": "2026-04",
-          "tags": [
-            "日本",
-            "AI監管",
-            "數據政策"
-          ]
-        }
-      ]
+    {
+      "name": "Finn'ights",
+      "url": "https://finntropy.substack.com/",
+      "reason": "專注於 AI 檢測技術同平台集成，對內容創作者同媒體行業極具參考價值。"
     },
-    "international": {
-      "emoji": "🌍",
-      "name": "國際歐美",
-      "description": "地緣政治 / 投資 / 技術突破",
-      "news": [
-        {
-          "title": "Meta與CoreWeave簽署$210億AI算力長期合約",
-          "summary": "Meta擴大與CoreWeave合作，總值達210億美元的算力供應協議延續至2032年，部分由NVIDIA Vera Rubin平台供電，反映大型科技企業持續大規模投資AI基礎設施。",
-          "source": "AI Business",
-          "date": "2026-04-08",
-          "tags": [
-            "投資",
-            "Meta",
-            "AI基礎設施"
-          ]
-        },
-        {
-          "title": "Meta發布Muse Spark多模態推理模型",
-          "summary": "Meta Superintelligence Labs發布Muse系列首個模型Muse Spark，具備原生多模態推理、工具使用、視覺思維鏈及多Agent編排能力，引入「Contemplating」模式並行協調多個推理Agent，在Humanity's Last Exam達58%準確率。",
-          "source": "ai.meta.com",
-          "date": "2026-04-08",
-          "tags": [
-            "技術突破",
-            "Meta",
-            "多模態"
-          ]
-        },
-        {
-          "title": "NVIDIA Cosmos 3：首個完全開源的物理AI全能模型",
-          "summary": "NVIDIA於Computex 2026發布Cosmos 3，首個統一理解與生成文本、圖像、視頻、環境聲音，並輸出機器人動作信號（關節角度、軌跡點）的物理AI全能模型。Super與Nano權重已在Hugging Face以OpenMDW-1.1授權開放。",
-          "source": "Digital Applied",
-          "date": "2026-06-01",
-          "tags": [
-            "技術突破",
-            "NVIDIA",
-            "物理AI",
-            "開源"
-          ]
-        }
-      ]
-    },
-    "general": {
-      "emoji": "🟢",
-      "name": "一般",
-      "description": "金融商業AI",
-      "news": [
-        {
-          "title": "CIBC推出AI工具解放顧問並加速內部工作",
-          "summary": "加拿大帝國商業銀行（CIBC）推出CIBC AdvisorAssist及CAI 2.0 Agentic AI工作空間，協助顧問與員工處理文件、合規及其他內部任務，標誌金融機構將AI深入日常受監管工作流程。",
-          "source": "Yahoo Finance / Agentic.ai",
-          "date": "2026-08-01",
-          "tags": [
-            "金融AI",
-            "Agentic AI",
-            "銀行"
-          ]
-        },
-        {
-          "title": "Glovo在ChatGPT與Claude內推出AI購物助手",
-          "summary": "外賣平台Glovo於7月30日在ChatGPT與Claude內推出購物助手，用戶無需離開對話即可完成對話式產品搜索與下單，展示AI助手從回答問題到完成跨服務購買的演進。",
-          "source": "The Independent Uganda / Agentic.ai",
-          "date": "2026-08-02",
-          "tags": [
-            "商業AI",
-            "Agentic AI",
-            "電商"
-          ]
-        },
-        {
-          "title": "印度央行維持利率不變，上調GDP增長預測",
-          "summary": "印度儲備銀行維持回購利率於5.25%不變，同時上調GDP增長預測並下調通脹展望，市場對此反應正面，穩定利率為企業提供可預測性並鼓勵投資與消費。",
-          "source": "Boston Institute of Analytics",
-          "date": "2026-08-08",
-          "tags": [
-            "金融",
-            "印度",
-            "宏觀經濟"
-          ]
-        }
-      ]
-    },
-    "light": {
-      "emoji": "⚪",
-      "name": "輕度",
-      "description": "多模態 / 物理AI / 機器人",
-      "news": [
-        {
-          "title": "物理AI大規模商業化：VLA模型與具身人形機器人重新定義2026年8月",
-          "summary": "視覺-語言-動作（VLA）模型推動無人駕駛車隊與雙足工廠機器人從實驗原型轉向商業現實。小鵬、Apollo Go、Waymo及Tesla正同時進行商業規模部署，物理AI已從概念走向實際應用。",
-          "source": "UrduPure",
-          "date": "2026-08-07",
-          "tags": [
-            "物理AI",
-            "VLA",
-            "自動駕駛",
-            "機器人"
-          ]
-        },
-        {
-          "title": "Xense Robotics於ICRA 2026展示全棧觸覺智能生態系統",
-          "summary": "Xense Robotics在ICRA 2026展示VTLA驅動自主操作、多模態觸覺傳感器及全球首發TacCap-Gripper數據採集設備，構建從硬件感知到數據採集再到算法優化的全棧閉環物理智能系統。",
-          "source": "Robotics Business News",
-          "date": "2026-06-04",
-          "tags": [
-            "機器人",
-            "觸覺智能",
-            "具身智能"
-          ]
-        },
-        {
-          "title": "Boston Dynamics與Google DeepMind合作工業AI",
-          "summary": "Boston Dynamics與Google Cloud及DeepMind合作，將Gemini Robotics-ER 1.6整合至Spot機器狗與Orbit AI視覺檢測平台，提升複雜工業環境中的空間推理、自主決策與持續學習能力。",
-          "source": "AI Business / dentro.de",
-          "date": "2026-04-10",
-          "tags": [
-            "機器人",
-            "工業AI",
-            "Boston Dynamics"
-          ]
-        }
-      ]
+    {
+      "name": "David Akpovi (Medium)",
+      "url": "https://medium.com/@davidakpovi",
+      "reason": "提供全球 AI 競賽嘅每週深度彙報，特別係國防與網絡安全領域嘅最新動態。"
     }
-  }
+  ]
 }
