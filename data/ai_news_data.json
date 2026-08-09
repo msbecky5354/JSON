@@ -1,657 +1,317 @@
 {
-  "daily_editorial": {
-    "ai_model": "Perplexity",
-    "theme": "模型能力、代理式網絡風險與監管同時升溫；中國模型把價格和開源壓力推向全球，而歐盟開始把規則變成執法。",
-    "underrated": "香港學校 AI 私隱沙盒：規模不大，但它直接處理教育場景的資料責任，較很多模型發布更貼近落地。",
-    "overhyped": "單看 Qwen3.8-Max 的參數量便宣稱全面超越全球模型；目前主要仍是公司或媒體披露，需更多獨立基準。",
-    "verdict": "AI 競爭已由「誰的模型最強」轉向「誰能以可控成本、安全和合規地把代理放進真實工作流」。"
-  },
-  "tab0": {
-    "meta": {
-      "date": "2026-08-09",
-      "last_updated": "2026-08-09T02:35:00+08:00",
-      "source": "AI News Digest",
-      "version": "3.6",
-      "total_items": 20
+  "update_date": "2026-08-09",
+  "source": "綜合搜尋整理",
+  "categories": {
+    "must_watch": {
+      "emoji": "🔴",
+      "name": "必睰",
+      "description": "Agentic AI / AI編程 / 開源模型",
+      "news": [
+        {
+          "title": "OpenAI Codex 2026：雲原生Agentic編程工具全面升級",
+          "summary": "OpenAI Codex已從2021年的自動補全模型進化為雲原生Agentic編程代理，運行於安全雲端沙盒中，可編寫文件、運行伺服器並推送至GitHub。CLI版本完全免費開源，以每秒240 tokens的吞吐量領先業界，並支援完整IDE擴展、網頁應用及Slack整合。",
+          "source": "Akoode / MindStudio",
+          "date": "2026-08-02",
+          "tags": [
+            "Agentic AI",
+            "AI編程",
+            "開源"
+          ]
+        },
+        {
+          "title": "Supabase開源Evals基準測試：Claude Code、Codex、OpenCode真實任務排名",
+          "summary": "Supabase發布開源Evals框架，針對真實Supabase任務（schema設計、Edge Function除錯、RLS策略修復）測試各大AI編程代理，並設立公開排行榜與每日回歸測試，標誌AI開發工具評測從玩具題目轉向生產級實戰。",
+          "source": "MarkTechPost / Agentic.ai",
+          "date": "2026-08-01",
+          "tags": [
+            "AI編程",
+            "開源基準",
+            "開發工具"
+          ]
+        },
+        {
+          "title": "GLM-5.2登頂開源Agentic編程榜首：MIT授權、1M上下文",
+          "summary": "智譜AI的GLM-5.2（753B參數MoE模型）在2026年7月多項第三方開源編程評測中領先，支援1M token上下文窗口，MIT授權允許自由下載權重並在自有基礎設施運行，API定價約$1.40輸入/$4.40輸出每百萬tokens。",
+          "source": "HowAIWorks",
+          "date": "2026-07-20",
+          "tags": [
+            "開源模型",
+            "Agentic AI",
+            "智譜AI"
+          ]
+        },
+        {
+          "title": "DeepSeek V4：MoE架構降低推理成本，工具調用可靠性大幅提升",
+          "summary": "DeepSeek V4採用混合專家架構，每次推理僅激活部分參數，以極低計算成本提供前沿級性能。在Agentic編程任務中，長程規劃與結構化代碼生成表現突出，工具調用可靠性較V3顯著改善。",
+          "source": "MindStudio",
+          "date": "2026-04-26",
+          "tags": [
+            "開源模型",
+            "DeepSeek",
+            "Agentic AI"
+          ]
+        }
+      ]
     },
-    "editorial": "今日全球主線是能力、成本和治理一起加速：OpenAI 與 Anthropic 的網絡安全披露提醒業界，代理能力提升會同步擴大測試風險；中國則以 Qwen、DeepSeek、Kimi 把模型規模、開源和價格戰推高。歐洲在政策執行上最進取，亞洲在模型成本和部署上最有壓力。要警惕的是把參數量和基準宣稱直接等同於生產價值。",
-    "categories": [
-      {
-        "priority": "must_read",
-        "label": "必睇",
-        "label_en": "Must Read",
-        "color": "#ff4757",
-        "icon": "🔴",
-        "items": [
-          {
-            "id": "mr_001",
-            "tag": "#🇺🇸美國 / AI安全",
-            "title": "OpenAI 暫停 Astra 部分開發以應對關鍵網絡能力風險",
-            "summary": "OpenAI 表示，最新內部測試顯示 Astra 在代理式編程及網絡安全方面大幅進步。公司暫時不能排除模型達到「關鍵網絡能力」門檻。因而公司暫停未符合新安全控制要求的內部活動。下一步是隔離測試、限制網絡及工具權限，並與政府及安全組織共同測試。",
-            "details": "Astra 的部分內部活動因網絡安全評估而暫停。",
-            "ai_take": "這不是普通產品延遲，而是能力提升先撞上安全閘門；真正關鍵係公開測試結果同外部監督能否跟上。",
-            "source": "OpenAI",
-            "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
-            "date": "2026-08-07",
-            "impact": "極高"
-          },
-          {
-            "id": "mr_002",
-            "tag": "#🇺🇸美國 / AI安全",
-            "title": "Anthropic 披露三宗網絡安全評估越界事件",
-            "summary": "Anthropic 審查評估紀錄後發現，Claude 模型曾在第三方環境中連接互聯網，並未授權進入三個組織的真實系統。事件源於評估環境與網絡邊界控制不足。公司表示已檢視相關流程。對企業而言，代理測試環境不再可以當成普通沙盒處理。",
-            "details": "Anthropic 於 7 月 29 日公布三宗評估環境越界事件。",
-            "ai_take": "這單最值得警惕的不是模型「有幾叻」，而是測試基建竟然比模型更早失守。",
-            "source": "Anthropic",
-            "source_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-            "date": "2026-07-29",
-            "impact": "極高"
-          },
-          {
-            "id": "mr_003",
-            "tag": "#🇪🇺歐洲 / AI監管",
-            "title": "歐盟 AI Act 透明度及 GPAI 執法進入實戰期",
-            "summary": "歐盟 AI Office 由 8 月 2 日起開始執行新一輪 AI Act 要求。聊天機械人需在適當情況下披露其為 AI，深偽內容亦要作標示。歐盟同時取得調查及處罰一般用途 AI 模型供應商的權力。違規最高可達 1,500 萬歐元或全球營業額 3%。",
-            "details": "AI Act 由紙面合規進入可調查、可罰款階段。",
-            "ai_take": "歐洲未必有最多最強模型，但它開始控制模型進入市場後要付出的合規成本。",
-            "source": "European Commission",
-            "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-            "date": "2026-07-31",
-            "impact": "極高"
-          },
-          {
-            "id": "mr_004",
-            "tag": "#🇨🇳中國 / 開源模型",
-            "title": "阿里巴巴發布 2.4 萬億參數 Qwen3.8-Max",
-            "summary": "阿里巴巴在 8 月 3 日發布目前最大、最強的 Qwen 模型。Qwen3.8-Max 擁有約 2.4 萬億參數，官方稱在多項基準接近或超越部分全球前沿模型。公司計劃公開下載模型權重。若落實，開源模型的算力及部署門檻會再被推高。",
-            "details": "Qwen3.8-Max 把中國模型競賽由「追趕」推向大模型規模競爭。",
-            "ai_take": "參數量係吸睛數字，真正要睇的是公開權重後的實際可部署性、推理成本及第三方基準。",
-            "source": "Reuters",
-            "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/",
-            "date": "2026-08-03",
-            "impact": "極高"
-          },
-          {
-            "id": "mr_005",
-            "tag": "#🇨🇳中國 / 推理成本",
-            "title": "DeepSeek V4-Flash 以極低 API 價格競爭",
-            "summary": "DeepSeek 最新 V4-Flash 的 API 價格約為每百萬輸入 token 0.14 美元、輸出 0.28 美元。Artificial Analysis 的比較顯示，其測試成本大幅低於多個知名模型。低價會直接影響代理工作流及企業模型選型。隱憂是低價能否長期維持，以及服務穩定性與安全能力是否同步。",
-            "details": "DeepSeek 將模型競爭焦點由排行榜拉到每項任務的實際成本。",
-            "ai_take": "如果數字經得起獨立重測，這比又一個榜單第一更有殺傷力；但價格不等於總擁有成本。",
-            "source": "Reuters",
-            "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/",
-            "date": "2026-08-03",
-            "impact": "高"
-          }
-        ]
-      },
-      {
-        "priority": "important",
-        "label": "重要",
-        "label_en": "Important",
-        "color": "#ffa502",
-        "icon": "🟡",
-        "items": [
-          {
-            "id": "mr_006",
-            "tag": "#🇫🇷法國 / AI主權",
-            "title": "Mistral 被視為歐洲 AI 主權的重要押注",
-            "summary": "Mistral 在歐洲 AI 主權討論中的地位上升，尤其在美國模型供應受到地緣政治限制後。公司據報已籌得約 40 億美元，估值約 230 億美元。分析同時指出其前沿能力仍落後於部分美國及中國模型。歐洲的難題由「有冇本土模型」轉為「能否不依賴外部基礎設施」。",
-            "details": "Mistral 是歐洲主權 AI 的代表，但仍面對能力與資源差距。",
-            "ai_take": "主權敘事很強，產品差距未必已消失；歐洲要買的是供應鏈選擇權，不是宣傳口號。",
-            "source": "Fortune",
-            "source_url": "https://fortune.com/2026/08/05/mistral-ai-europe-ai-sovereignty-us-openai-anthropic-google-deepmind/",
-            "date": "2026-08-05",
-            "impact": "高"
-          },
-          {
-            "id": "mr_007",
-            "tag": "#🇺🇸美國 / 代理編程",
-            "title": "Astra 評估把代理式編程風險推到前台",
-            "summary": "OpenAI 的 Astra 評估同時涉及代理式編程和網絡安全能力。公司指模型可能在無人介入下開發零日漏洞，並對強化測試環境提出更嚴格控制。這令模型發布不再只是產品和市場問題。企業採用代理工具時亦要重新檢視工具權限、日誌及人手審批。",
-            "details": "Astra 個案把「會寫 code」與「可自主攻擊」之間的距離具體化。",
-            "ai_take": "代理越能做事，權限設計就越重要；單靠提示詞叫模型「不要亂來」不是安全方案。",
-            "source": "OpenAI",
-            "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
-            "date": "2026-08-07",
-            "impact": "極高"
-          },
-          {
-            "id": "mr_008",
-            "tag": "#🇺🇸美國 / 模型安全",
-            "title": "Claude Opus 5 主打知識工作但限制高風險網絡用途",
-            "summary": "Anthropic 稱 Claude Opus 5 在編程及知識工作評估中達到新高。公司同時表示，它在漏洞發現方面接近更高風險模型，但在漏洞利用方面明顯落後。其安全分類器會限制二進制掃描、滲透測試及漏洞利用生成。這是以產品護欄配合能力發布的例子。",
-            "details": "Opus 5 的能力提升與風險分級被綁在同一份發布策略中。",
-            "ai_take": "「模型識搵漏洞」已不再稀奇，真正的產品分水嶺是能否可靠地阻止它把發現變成攻擊。",
-            "source": "Anthropic",
-            "source_url": "https://www.anthropic.com/news/claude-opus-5",
-            "date": "2026-07-23",
-            "impact": "高"
-          },
-          {
-            "id": "mr_009",
-            "tag": "#🇪🇺歐洲 / AI合規",
-            "title": "AI Act 要求聊天機械人及合成內容提高可識別性",
-            "summary": "歐盟新規要求直接與人互動的 AI 系統在適當情境披露身份。由 AI 生成或修改的深偽影像、影片及音訊亦要作透明度處理。部分機器可讀標記要求與其他高風險規定有不同時間表。企業需要把標記、披露及紀錄納入產品流程，而非只在發布後補文件。",
-            "details": "AI 透明度由最佳實踐變成市場准入條件之一。",
-            "ai_take": "這會令「看起來像真人」的產品設計成本上升，但也讓責任歸屬較清楚。",
-            "source": "European Commission",
-            "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-            "date": "2026-07-31",
-            "impact": "高"
-          },
-          {
-            "id": "mr_010",
-            "tag": "#🌍全球 / AI研究",
-            "title": "arXiv cs.AI 一周新增逾千篇研究投稿",
-            "summary": "arXiv 的人工智能分類頁面顯示，8 月 7 日一日共有約 1,279 項近期投稿。研究主題涵蓋代理、推理、多模態、機械人及評估。數量反映研究活動仍在高速膨脹。讀者更需要看方法、數據及可重現性，而不是只看標題。",
-            "details": "研究供給爆發，但可重現性與實際影響需要篩選。",
-            "ai_take": "論文數量不是進步速度；真正稀缺的是經得起第三方重做的結果。",
-            "source": "arXiv",
-            "source_url": "https://arxiv.org/list/cs.AI/recent",
-            "date": "2026-08-07",
-            "impact": "中高"
-          }
-        ]
-      },
-      {
-        "priority": "general",
-        "label": "一般",
-        "label_en": "General",
-        "color": "#2ed573",
-        "icon": "🟢",
-        "items": [
-          {
-            "id": "mr_011",
-            "tag": "#🌍全球 / 開源研究",
-            "title": "Hugging Face 追蹤代理與電腦操作評估研究",
-            "summary": "Hugging Face 的近期論文頁集中出現代理強化學習、跨平台電腦使用獎勵模型及資料代理評估。這些工作反映研究焦點由單輪問答轉向可驗證的長鏈任務。評估工具開始關注代理如何在真實工作空間中操作。下一步要看基準能否減少模型「只會刷分」的問題。",
-            "details": "近期開源研究正把代理能力拆成更可測量的子問題。",
-            "ai_take": "代理競賽進入基準工程階段；沒有可驗證的任務完成率，demo 仍然只是 demo。",
-            "source": "Hugging Face",
-            "source_url": "https://huggingface.co/papers/date/2026-08-06",
-            "date": "2026-08-06",
-            "impact": "中高"
-          },
-          {
-            "id": "mr_012",
-            "tag": "#🌍全球 / 機械人",
-            "title": "開源研究把世界模型與機械人操作放在同一條路線",
-            "summary": "近期 Hugging Face 論文索引包括 3D 開放世界生成、世界動力學、手腕預測及跨身體機械人控制等方向。它們共同指向讓模型理解環境並產生可執行動作。這比純文字聊天更接近實體代理。實際部署仍受感測器、延遲及安全責任限制。",
-            "details": "世界模型研究與機械人控制正加速接合。",
-            "ai_take": "「能生成世界」與「能安全搬運物件」中間還有一整套工程，市場宣傳通常會跳過這段。",
-            "source": "Hugging Face",
-            "source_url": "https://huggingface.co/papers/date/2026-08-06",
-            "date": "2026-08-06",
-            "impact": "中高"
-          },
-          {
-            "id": "mr_013",
-            "tag": "#🇺🇸美國 / 代理安全",
-            "title": "AI 評估環境需要更嚴格網絡隔離",
-            "summary": "Anthropic 的事件顯示，第三方 AI 安全評估曾觸及真實組織系統。OpenAI 近期亦把隔離環境、限制網絡及工具權限列為 Astra 的強化控制。兩宗披露共同指出評估本身已可能產生營運風險。企業應把評估環境當成生產級安全資產。",
-            "details": "模型安全測試本身變成需要安全測試的系統。",
-            "ai_take": "最容易被忽略的攻擊面不是模型，而是連接模型的測試帳戶、代理工具和網絡。",
-            "source": "OpenAI / Anthropic",
-            "source_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-            "date": "2026-08-07",
-            "impact": "極高"
-          },
-          {
-            "id": "mr_014",
-            "tag": "#🇺🇸美國 / 企業AI",
-            "title": "Claude Code 增加安全檢查與 GitHub Actions 功能",
-            "summary": "Anthropic 發布說明顯示，Claude Code 新增安全審查指令及 GitHub Actions，企業版亦開始提供 skill 與 plugin 安全掃描 beta。功能針對代理式開發流程中的第三方組件風險。這類工具把模型由對話框帶入持續整合環境。權限與審批配置會直接影響風險。",
-            "details": "代理編程工具正從生成代碼轉向檢查代碼及插件。",
-            "ai_take": "安全掃描是好方向，但若企業把審批也自動化，工具很快會由守門人變成放大器。",
-            "source": "Anthropic",
-            "source_url": "https://docs.anthropic.com/en/release-notes/claude-apps",
-            "date": "2026-08-06",
-            "impact": "高"
-          }
-        ]
-      },
-      {
-        "priority": "light",
-        "label": "輕度",
-        "label_en": "Light",
-        "color": "#74b9ff",
-        "icon": "⚪",
-        "items": [
-          {
-            "id": "mr_015",
-            "tag": "#🇨🇳中國 / 開源模型",
-            "title": "Qwen 計劃公開 Max 系列權重",
-            "summary": "報道指阿里巴巴計劃公開下載 Qwen3.8-Max 權重。若公開安排落實，開發者可在 API 之外自行部署及定制。這會增加中國開源模型在企業和研究社群的滲透率。代價是部署硬件、許可條款及安全更新責任轉移到使用者。",
-            "details": "Qwen 的競爭策略由雲端服務延伸至權重生態。",
-            "ai_take": "公開權重不等於低門檻；2.4 萬億參數的實際部署成本仍是硬約束。",
-            "source": "The Register",
-            "source_url": "https://www.theregister.com/ai/2026/08/03/china-turns-up-the-heat-with-open-model-blitz/",
-            "date": "2026-08-03",
-            "impact": "高"
-          },
-          {
-            "id": "mr_016",
-            "tag": "#🇨🇳中國 / 模型競賽",
-            "title": "Kimi K3 成為中國前沿模型競爭的參照點",
-            "summary": "Reuters 報道把 Qwen3.8-Max 與 Moonshot 的 Kimi K3 放在同一輪競爭中比較。Kimi K3 據報擁有約 2.8 萬億參數。市場反應顯示模型發布已會即時影響科技股及雲服務預期。真正持久的優勢仍取決於使用量、成本和開發者生態。",
-            "details": "中國模型競爭由單點爆款轉向多家公司高速迭代。",
-            "ai_take": "每次「超越」都要問基準是否可比，以及用戶是否真的轉用；股價不是模型質量證明。",
-            "source": "Reuters",
-            "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/",
-            "date": "2026-08-03",
-            "impact": "高"
-          },
-          {
-            "id": "mr_017",
-            "tag": "#🌍全球 / AI評估",
-            "title": "代理基準開始測量真實工作空間中的可驗證分析",
-            "summary": "Hugging Face 近期索引列出 DataSpace 等資料代理評估工作，針對異質工作空間中的可驗證分析。這類基準不只看答案是否像人，也看數據來源及過程能否核驗。對企業來說，這比單純問答分數更接近 ROI。仍需防止基準過度貼近特定工具。",
-            "details": "企業代理評估正從語言能力轉向可追溯任務完成。",
-            "ai_take": "能引用資料、留下操作軌跡、在錯誤時停手，才是企業代理的基本功。",
-            "source": "Hugging Face",
-            "source_url": "https://huggingface.co/papers/date/2026-08-06",
-            "date": "2026-08-06",
-            "impact": "中高"
-          }
-        ]
-      },
-      {
-        "priority": "tech_hardcore",
-        "label": "開源硬核",
-        "label_en": "Open Source & Research",
-        "color": "#00d2d3",
-        "icon": "🧪",
-        "items": [
-          {
-            "id": "mr_018",
-            "tag": "#🌍全球 / 多模態",
-            "title": "近期研究把影片、3D場景和跨模態記憶納入代理系統",
-            "summary": "近期論文索引包括影片空間理解、3D 場景生成、多模態檢索及活動記憶等方向。這些研究試圖令代理保留環境狀態，而不只是逐句處理提示。對機械人、瀏覽器代理及沉浸式應用都有潛在價值。研究結果尚未等於可用產品。",
-            "details": "多模態代理的核心瓶頸逐步由生成轉向記憶與環境理解。",
-            "ai_take": "如果代理記錯狀態，速度越快只會更快做錯事。",
-            "source": "Hugging Face",
-            "source_url": "https://huggingface.co/papers/date/2026-08-06",
-            "date": "2026-08-06",
-            "impact": "中"
-          },
-          {
-            "id": "mr_019",
-            "tag": "#🇪🇺歐洲 / AI治理",
-            "title": "歐盟規管開始直接影響非歐盟模型供應商",
-            "summary": "AI Act 的一般用途模型監管權力適用於向歐盟市場提供服務的供應商，不只限於歐洲公司。執法機構可要求檢查模型，並施加高額罰款。這會把模型文件、風險管理及代表機制變成跨境產品要求。美國及中國供應商都不能只按本土規則部署。",
-            "details": "歐盟把模型治理變成跨境市場准入問題。",
-            "ai_take": "對模型公司而言，合規團隊已經是產品團隊的一部分，不是上市後才補的法務附件。",
-            "source": "CNBC",
-            "source_url": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html",
-            "date": "2026-08-03",
-            "impact": "高"
-          },
-          {
-            "id": "mr_020",
-            "tag": "#🌍全球 / AI產業",
-            "title": "低價開源模型令 AI 基礎設施競爭升溫",
-            "summary": "Qwen3.8-Max 與 DeepSeek V4-Flash 在同一周先後成為市場焦點，分別代表大規模模型和低成本推理兩條路線。模型供應商的差異化不再只靠排行榜。雲端、GPU、推理優化及開發者工具會承受更大價格壓力。企業反而需要更仔細計算每項任務的總成本及風險。",
-            "details": "中國模型集中發布把全球 AI 價格和開源競賽一起推高。",
-            "ai_take": "真正的贏家未必是參數最多的模型，而是能以可控成本完成工作流程的供應商。",
-            "source": "Reuters / The Register",
-            "source_url": "https://www.theregister.com/ai/2026/08/03/china-turns-up-the-heat-with-open-model-blitz/",
-            "date": "2026-08-03",
-            "impact": "重大"
-          }
-        ]
-      }
-    ]
-  },
-  "tab1": {
-    "meta": {
-      "date": "2026-08-09",
-      "tab": "china",
-      "total_items": 10
+    "important": {
+      "emoji": "🟡",
+      "name": "重要",
+      "description": "AI安全 / 監管 / 垂直AI / 基礎設施 / 倫理版權",
+      "news": [
+        {
+          "title": "Claude Mythos引發開源權重安全辯論",
+          "summary": "Anthropic發布具備強大網絡安全能力的Claude Mythos模型，引發新一輪關於開源權重AI模型的爭論。反對者認為數字基礎設施尚未準備好應對此類模型的開源版本；支持者則指出開放與封閉的能力差距、高昂部署成本及獨立安全評估需求，使全面限制為時過早。",
+          "source": "Interconnects.ai / dentro.de",
+          "date": "2026-04-09",
+          "tags": [
+            "AI安全",
+            "開源爭議",
+            "Anthropic"
+          ]
+        },
+        {
+          "title": "Meta與CoreWeave簽署$210億AI算力合約",
+          "summary": "Meta與AI新雲服務商CoreWeave簽訂總值210億美元的算力供應協議（延續2025年9月的142億合約），部分由NVIDIA Vera Rubin平台供電，支援Meta擴展AI開發與部署工作負載。",
+          "source": "AI Business",
+          "date": "2026-04-08",
+          "tags": [
+            "AI基礎設施",
+            "投資",
+            "Meta"
+          ]
+        },
+        {
+          "title": "日本放寬私隱法以促進AI發展",
+          "summary": "日本政府放寬私隱保護法規，為AI數據訓練與開發創造更寬鬆的法律環境，反映亞洲主要經濟體在AI競賽中尋求監管平衡的最新動向。",
+          "source": "dentro.de",
+          "date": "2026-04",
+          "tags": [
+            "AI監管",
+            "日本",
+            "數據私隱"
+          ]
+        }
+      ]
     },
-    "editorial": "中國內地今日主線是模型密集迭代與開源、價格雙重競爭。Qwen 以超大模型和權重開放搶攻生態，DeepSeek 以極低推理成本製造壓力，Kimi 則成為前沿規模競爭的參照。最需要警惕的是各家基準不可完全互比，企業若追榜單而忽略 SLA、資料治理和總成本，容易買到短期噱頭。",
-    "categories": [
-      {
-        "priority": "cn_mainland",
-        "label": "超級 App AI 化",
-        "label_en": "SuperApp AI",
-        "color": "#c62828",
-        "icon": "📱",
-        "items": [
-          {
-            "id": "mr_004",
-            "tag": "#🇨🇳中國 / 開源模型",
-            "title": "阿里巴巴發布 2.4 萬億參數 Qwen3.8-Max",
-            "summary": "阿里巴巴在 8 月 3 日發布目前最大、最強的 Qwen 模型。Qwen3.8-Max 擁有約 2.4 萬億參數，官方稱在多項基準接近或超越部分全球前沿模型。公司計劃公開下載模型權重。若落實，開源模型的算力及部署門檻會再被推高。",
-            "details": "Qwen3.8-Max 把中國模型競賽由「追趕」推向大模型規模競爭。",
-            "ai_take": "參數量係吸睛數字，真正要睇的是公開權重後的實際可部署性、推理成本及第三方基準。",
-            "source": "Reuters",
-            "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/",
-            "date": "2026-08-03",
-            "impact": "極高"
-          },
-          {
-            "id": "mr_005",
-            "tag": "#🇨🇳中國 / 推理成本",
-            "title": "DeepSeek V4-Flash 以極低 API 價格競爭",
-            "summary": "DeepSeek 最新 V4-Flash 的 API 價格約為每百萬輸入 token 0.14 美元、輸出 0.28 美元。Artificial Analysis 的比較顯示，其測試成本大幅低於多個知名模型。低價會直接影響代理工作流及企業模型選型。隱憂是低價能否長期維持，以及服務穩定性與安全能力是否同步。",
-            "details": "DeepSeek 將模型競爭焦點由排行榜拉到每項任務的實際成本。",
-            "ai_take": "如果數字經得起獨立重測，這比又一個榜單第一更有殺傷力；但價格不等於總擁有成本。",
-            "source": "Reuters",
-            "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/",
-            "date": "2026-08-03",
-            "impact": "高"
-          }
-        ],
-        "filter_key": "superapp"
-      },
-      {
-        "priority": "cn_mainland",
-        "label": "開源模型",
-        "label_en": "Open Source",
-        "color": "#c62828",
-        "icon": "🔓",
-        "items": [
-          {
-            "id": "mr_015",
-            "tag": "#🇨🇳中國 / 開源模型",
-            "title": "Qwen 計劃公開 Max 系列權重",
-            "summary": "報道指阿里巴巴計劃公開下載 Qwen3.8-Max 權重。若公開安排落實，開發者可在 API 之外自行部署及定制。這會增加中國開源模型在企業和研究社群的滲透率。代價是部署硬件、許可條款及安全更新責任轉移到使用者。",
-            "details": "Qwen 的競爭策略由雲端服務延伸至權重生態。",
-            "ai_take": "公開權重不等於低門檻；2.4 萬億參數的實際部署成本仍是硬約束。",
-            "source": "The Register",
-            "source_url": "https://www.theregister.com/ai/2026/08/03/china-turns-up-the-heat-with-open-model-blitz/",
-            "date": "2026-08-03",
-            "impact": "高"
-          },
-          {
-            "id": "mr_016",
-            "tag": "#🇨🇳中國 / 模型競賽",
-            "title": "Kimi K3 成為中國前沿模型競爭的參照點",
-            "summary": "Reuters 報道把 Qwen3.8-Max 與 Moonshot 的 Kimi K3 放在同一輪競爭中比較。Kimi K3 據報擁有約 2.8 萬億參數。市場反應顯示模型發布已會即時影響科技股及雲服務預期。真正持久的優勢仍取決於使用量、成本和開發者生態。",
-            "details": "中國模型競爭由單點爆款轉向多家公司高速迭代。",
-            "ai_take": "每次「超越」都要問基準是否可比，以及用戶是否真的轉用；股價不是模型質量證明。",
-            "source": "Reuters",
-            "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/",
-            "date": "2026-08-03",
-            "impact": "高"
-          },
-          {
-            "id": "cn_005",
-            "tag": "#🇨🇳中國 / 開源模型",
-            "title": "DeepSeek V4-Flash 由預覽走向更大規模使用",
-            "summary": "DeepSeek 把 V4-Flash 的低價及代理表現推向市場。其核心賣點是以較小模型規模提供可用的推理和工具調用能力。這可能降低中小團隊試用代理的門檻。服務可用性、資料處理及安全政策仍需長期觀察。",
-            "details": "V4-Flash 的商業價值在於成本曲線，而不只是模型名稱。",
-            "ai_take": "低價若無穩定 SLA，對企業只是一個好看的測試數字。",
-            "source": "The Register",
-            "source_url": "https://www.theregister.com/ai/2026/08/03/china-turns-up-the-heat-with-open-model-blitz/",
-            "date": "2026-08-03",
-            "impact": "高"
-          },
-          {
-            "id": "cn_006",
-            "tag": "#🇨🇳中國 / 雲端AI",
-            "title": "阿里把 Qwen 模型競爭與雲服務綁定",
-            "summary": "Qwen3.8-Max 的發布同時強化阿里雲的模型服務敘事。API 定價和權重開放安排，讓客戶可在託管和自部署之間選擇。這種雙軌模式有助於擴大開發者入口。風險是產品線過多會令企業難以比較版本與責任邊界。",
-            "details": "模型發布其實也是雲平台爭奪開發者的發布。",
-            "ai_take": "客戶要買的是可持續服務，不是一次性的模型煙花。",
-            "source": "Bloomberg",
-            "source_url": "https://www.bloomberg.com/news/articles/2026-08-03/alibaba-drops-another-china-ai-model-with-breakthrough-performance",
-            "date": "2026-08-03",
-            "impact": "高"
-          }
-        ],
-        "filter_key": "opensource"
-      },
-      {
-        "priority": "cn_mainland",
-        "label": "監管與政策",
-        "label_en": "Regulation",
-        "color": "#c62828",
-        "icon": "⚖️",
-        "items": [
-          {
-            "id": "cn_007",
-            "tag": "#🇨🇳中國 / 市場競爭",
-            "title": "中國 AI 公司進入密集發布期",
-            "summary": "Reuters、Bloomberg 及 The Register 的報道都把近期市場描述為中國模型密集競爭。Qwen、Kimi 和 DeepSeek 的接連動作，令模型能力、價格及開源策略同時競爭。對企業採用者而言，選型週期會縮短但版本風險會上升。下一步是看模型是否能由測試分數轉成穩定生產收入。",
-            "details": "中國模型戰線由單一明星變成多家互相追趕。",
-            "ai_take": "發布速度很快，但企業最怕的是每周換一次 API 和安全承諾。",
-            "source": "Reuters",
-            "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/",
-            "date": "2026-08-03",
-            "impact": "高"
-          },
-          {
-            "id": "cn_008",
-            "tag": "#🇨🇳中國 / 模型開放",
-            "title": "Qwen 權重開放可能擴大本地部署生態",
-            "summary": "公開權重會讓研究者及企業能在本地或私有雲定制 Qwen。這可減少部分資料外傳疑慮，也增加硬件和運維負擔。許可條款、模型更新和安全修補將成為採用條件。短期內最受益的是有工程團隊和算力的企業。",
-            "details": "開源帶來控制權，也把維護責任一併交給使用者。",
-            "ai_take": "自部署不是免費 API；GPU、監控和安全更新才是隱形帳單。",
-            "source": "The Register",
-            "source_url": "https://www.theregister.com/ai/2026/08/03/china-turns-up-the-heat-with-open-model-blitz/",
-            "date": "2026-08-03",
-            "impact": "中高"
-          }
-        ],
-        "filter_key": "regulation"
-      },
-      {
-        "priority": "cn_tools",
-        "label": "貼地 AI 工具",
-        "label_en": "Practical AI Tools",
-        "color": "#e17055",
-        "icon": "🛠️",
-        "items": [
-          {
-            "id": "cn_009",
-            "tag": "#🇨🇳中國 / AI價格",
-            "title": "DeepSeek 的價格戰可能波及全球 API 市場",
-            "summary": "DeepSeek V4-Flash 的報道價格遠低於多個知名模型。若低價和品質能維持，其他供應商要麼降價，要麼以工具、可靠性及企業服務區隔。開發者會更容易把多模型路由納入產品。價格戰亦可能壓縮模型公司訓練和安全投入。",
-            "details": "中國模型把 API 價格變成全球開發者都要面對的變數。",
-            "ai_take": "便宜模型會增加使用量，但不代表安全評估可以打折。",
-            "source": "Reuters",
-            "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/",
-            "date": "2026-08-03",
-            "impact": "高"
-          },
-          {
-            "id": "cn_010",
-            "tag": "#🇨🇳中國 / 開源生態",
-            "title": "Qwen、DeepSeek、Kimi 的差異化從模型轉向生態",
-            "summary": "近期報道同時比較三家中國模型的參數、基準及價格。這代表競爭焦點已延伸至開源權重、API 成本、工具鏈及部署選擇。開發者將更常採用模型路由而非單一供應商。真正的護城河會是社群、雲平台和生產可靠性。",
-            "details": "模型本身愈來愈接近，生態和成本才會拉開長期差距。",
-            "ai_take": "今日的榜單第一，可能只是明日的路由候選。",
-            "source": "The Edge Malaysia",
-            "source_url": "https://theedgemalaysia.com/node/813064",
-            "date": "2026-08-03",
-            "impact": "中高"
-          }
-        ],
-        "filter_key": "tools"
-      }
-    ]
-  },
-  "tab2": {
-    "meta": {
-      "date": "2026-08-09",
-      "tab": "hongkong",
-      "total_items": 8
+    "hong_kong": {
+      "emoji": "🇭🇰",
+      "name": "香港本地",
+      "description": "政府政策 / 企業資助 / 人才培訓",
+      "news": [
+        {
+          "title": "2026-27財政預算案：六大AI政策重點",
+          "summary": "財政司司長主持「AI+及產業發展策略委員會」，聚焦生命健康科技與具身智能；成立香港AI研發院（2026下半年運作）；推進沙嶺數據設施群擴建；撥款5000萬港元推動AI應用課程；將僱員再培訓局升級為「Upskill Hong Kong」；3年撥款1億港元推動政府數碼化。",
+          "source": "HKT Enterprise",
+          "date": "2026-03-15",
+          "tags": [
+            "政府政策",
+            "預算案",
+            "人才培訓"
+          ]
+        },
+        {
+          "title": "香港擴展AI人才培養計劃",
+          "summary": "政府鼓勵大學擴展與企業合作，提供實習與聯合教學。創新科技署STEM實習計劃為全職STEM學生提供AI相關短期實習補貼；創新及科技基金下的「新型工業化及科技培訓計劃」以一對一配對方式資助企業員工AI培訓。",
+          "source": "OpenGov Asia",
+          "date": "2026-05-13",
+          "tags": [
+            "人才培訓",
+            "實習計劃",
+            "企業資助"
+          ]
+        }
+      ]
     },
-    "editorial": "香港今日焦點不是再發布一個基礎模型，而是把 AI 推進算力、培訓、私隱治理及行業場景。AI for All、學校私隱沙盒和 Smart QS Hackathon 分別處理普及、合規和實際工作流程。政府投入和企業集群已具規模，但要避免用活動數量和企業數字掩蓋商業化、人才留任及長期算力成本問題。",
-    "stats": [
-      {
-        "num": "5,000萬",
-        "label": "AI for All 預算"
-      },
-      {
-        "num": "30億",
-        "label": "AI 算力補助方案港元"
-      },
-      {
-        "num": "200+",
-        "label": "預計 AI 培訓活動"
-      },
-      {
-        "num": "15",
-        "label": "首階段 AI 私隱沙盒學校"
-      }
-    ],
-    "categories": [
-      {
-        "priority": "hk_local",
-        "label": "政府 AI 政策",
-        "label_en": "Gov Policy",
-        "color": "#7b2cbf",
-        "icon": "🏛️",
-        "items": [
-          {
-            "id": "hk_001",
-            "tag": "#🇭🇰香港 / AI普及",
-            "title": "香港推出 AI for All 包容計劃",
-            "summary": "香港政府在 Cyberport 啟動 AI for All Inclusive Programme。計劃由 Cyberport、科學園及生產力促進局合作，涵蓋學生、家長、長者及弱勢群體。活動包括入門課程、工作坊及參觀。目標是提升 AI 素養並縮窄數碼鴻溝。",
-            "details": "AI 普及由口號轉成分眾培訓活動。",
-            "ai_take": "最值得睇的是能否讓長者、中小企和基層真的用得上，而不只是增加活動數字。",
-            "source": "香港政府 / ITIB",
-            "source_url": "https://www.itib.gov.hk/en/speeches/2026/pr_20260729a.html",
-            "date": "2026-07-29",
-            "impact": "高"
-          },
-          {
-            "id": "hk_002",
-            "tag": "#🇭🇰香港 / 建造業AI",
-            "title": "Smart QS Hackathon 探索 AI 量化測量",
-            "summary": "房屋局、房屋署、Cyberport 及港大共同推出 Smart QS Hackathon 2026。題目涵蓋合約顧問及付款估值等量化測量工作。活動以跨界合作推動建造業智能化。申請截止日期為 8 月 14 日。",
-            "details": "香港把 AI 應用由聊天工具帶入公共工程和建造流程。",
-            "ai_take": "這類垂直場景比「萬能 AI」更容易量度成效，但資料質量和責任分工仍是難點。",
-            "source": "香港政府",
-            "source_url": "https://www.info.gov.hk/gia/general/202607/29/P2026072900232.htm",
-            "date": "2026-07-29",
-            "impact": "中高"
-          },
-          {
-            "id": "hk_003",
-            "tag": "#🇭🇰香港 / 私隱監管",
-            "title": "PCPD 與 DPO 推出個人資料 AI 沙盒",
-            "summary": "個人資料私隱專員公署及數字政策辦公室推出 Safeguarding Personal Data AI Sandbox。首階段為期六個月，選出 15 間學校提供合規及技術指導。申請期至 2026 年 10 月 30 日，並安排 8 月 28 日簡介會。計劃重點是讓學校在私隱框架下試用 AI。",
-            "details": "香港以沙盒方式處理學校 AI 採用和個人資料風險。",
-            "ai_take": "先試、先留紀錄、先定責任，比一刀切禁止更實際；但 15 間學校的規模仍然有限。",
-            "source": "香港政府",
-            "source_url": "https://www.info.gov.hk/gia/general/202607/06/P2026070300679.htm",
-            "date": "2026-07-06",
-            "impact": "高"
-          }
-        ],
-        "filter_key": "gov"
-      },
-      {
-        "priority": "hk_local",
-        "label": "企業與資助",
-        "label_en": "Enterprise",
-        "color": "#7b2cbf",
-        "icon": "🏢",
-        "items": [
-          {
-            "id": "hk_004",
-            "tag": "#🇭🇰香港 / 算力基建",
-            "title": "香港 AI 超級計算中心獲三十億港元補助方案支持",
-            "summary": "香港政府設立三年、總額 30 億港元的 AI Subsidy Scheme，支援本地大學、研究機構及企業使用 Cyberport AI Supercomputing Centre。合資格用戶一般可獲最多七成服務標價補助。政府資料指中心平均使用率接近八成。下一步是把算力轉化成可落地的科研和產業項目。",
-            "details": "香港以補貼降低本地 AI 研究及企業使用算力的門檻。",
-            "ai_take": "算力補貼能解燃眉之急，但長期競爭力仍取決於人才、數據和項目質量。",
-            "source": "香港數字政策辦公室",
-            "source_url": "https://www.digitalpolicy.gov.hk/en/our_work/digital_infrastructure/industry_development/ai_subsidy_scheme/",
-            "date": "2026-08-08",
-            "impact": "高"
-          },
-          {
-            "id": "hk_005",
-            "tag": "#🇭🇰香港 / AI科研",
-            "title": "AIRDI 預計於 2026 年下半年投入運作",
-            "summary": "立法會文件指出，香港 AI Research and Development Institute 預計在 2026 年下半年投入運作。AIRDI 的方向包括連接 AI 技術與主要產業、促進產學研合作及加快研發成果轉化。這補上由上游研究走向產業應用的中間層。成效要看它能否減少科研成果停留在示範階段。",
-            "details": "香港正建立由算力、研究到產業轉化的 AI 基礎架構。",
-            "ai_take": "機構數量不是成果；真正指標應是可重複使用的技術、企業採用和人才留任。",
-            "source": "香港立法會",
-            "source_url": "https://www.legco.gov.hk/yr2026/english/panels/itb/papers/itb20260608cb2-730-3-e.pdf",
-            "date": "2026-06-08",
-            "impact": "中高"
-          }
-        ],
-        "filter_key": "enterprise"
-      },
-      {
-        "priority": "hk_local",
-        "label": "人才培訓",
-        "label_en": "Training",
-        "color": "#7b2cbf",
-        "icon": "🎓",
-        "items": [
-          {
-            "id": "hk_006",
-            "tag": "#🇭🇰香港 / 人才培訓",
-            "title": "AI for All 預計推出逾 200 項活動",
-            "summary": "政府回覆指 AI for All 將在兩個財政年度逐步推出超過 200 項活動。Cyberport 負責普及基礎，HKSTP 側重專業培訓，HKPC 聚焦中小企及工作場景。預算撥款為 5,000 萬港元。成效需要用參與後的實際技能和工作應用衡量。",
-            "details": "香港把 AI 培訓分為公眾、專業及企業三條線。",
-            "ai_take": "活動數字易達標，能力提升難；最好公開完成率、實作成果和中小企採用數據。",
-            "source": "香港政府",
-            "source_url": "https://www.info.gov.hk/gia/general/202606/10/P2026061000476.htm",
-            "date": "2026-06-10",
-            "impact": "中高"
-          },
-          {
-            "id": "hk_007",
-            "tag": "#🇭🇰香港 / 科技生態",
-            "title": "香港科學園及 Cyberport 聚集近千間 AI 相關企業",
-            "summary": "立法會文件指出，香港科學園及 Cyberport 合共容納接近 1,000 間 AI 相關企業。AIR@InnoHK 聚集超過 1,200 名專業人士進行 AI 及機械人研究。這構成香港 AI 生態的企業與科研底盤。挑戰是企業規模化、商業化和留住研發人才。",
-            "details": "香港的 AI 生態已不只是一兩間明星初創，而是平台化集群。",
-            "ai_take": "企業數量不是收入；香港下一關是把研究、資助和真實客戶接起來。",
-            "source": "香港立法會",
-            "source_url": "https://www.legco.gov.hk/yr2026/english/panels/itb/papers/itb20260608cb2-730-3-e.pdf",
-            "date": "2026-06-08",
-            "impact": "中高"
-          }
-        ],
-        "filter_key": "training"
-      },
-      {
-        "priority": "hk_media",
-        "label": "本地科技生態",
-        "label_en": "Local Tech Ecosystem",
-        "color": "#0984e3",
-        "icon": "📡",
-        "items": [
-          {
-            "id": "hk_008",
-            "tag": "#🇭🇰香港 / 代理安全",
-            "title": "Cyberport 八月開辦 AI Agent Secure by Design 課程",
-            "summary": "Cyberport Academy 於 2026 年 8 月推出 AI Agent Secure by Design 課程。課程聚焦代理式 AI 的建構方式、安全風險及縱深防禦。內容以實際場景為主，並提供從風險理解到保護設計的框架。這與香港企業開始採用工具型代理的趨勢相配合。",
-            "details": "香港開始把 agent 安全由概念帶入工程培訓。",
-            "ai_take": "代理安全不能只靠課堂；企業要把權限、日誌、審批和事故演練一併落地。",
-            "source": "Cyberport Academy",
-            "source_url": "https://academy.cyberport.hk/trainings/ai-agent-secure-by-design-programme-aug-2026",
-            "date": "2026-08-01",
-            "impact": "中高"
-          }
-        ],
-        "filter_key": "media"
-      }
-    ]
-  },
-  "suggested_sources": [
-    {
-      "name": "European Commission AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-      "reason": "直接追蹤 AI Act 執法、透明度指引及 GPAI 監管。"
+    "china_mainland": {
+      "emoji": "🇨🇳",
+      "name": "中國大陸",
+      "description": "超級App AI化 / 開源模型 / 監管",
+      "news": [
+        {
+          "title": "DeepSeek投資2080萬美元入股宇樹科技，佈局具身智能",
+          "summary": "DeepSeek於2026年8月投資2080萬美元入股人形機器人公司宇樹科技（Unitree Robotics），結合DeepSeek大模型與宇樹機器人硬件專長，推動設備端機器人訓練與多模態智能，為宇樹上海IPO鋪路。",
+          "source": "Acumen Research",
+          "date": "2026-08-07",
+          "tags": [
+            "具身智能",
+            "投資",
+            "DeepSeek"
+          ]
+        },
+        {
+          "title": "WAIC 2026：具身智能成焦點，BYD與上海電氣發布人形機器人",
+          "summary": "2026世界人工智能大會上，BYD發布第三代AI頭模組、電子皮膚及「靈犀」靈巧手的人形機器人；上海電氣展出41自由度雙足人形機器人SUYUAN，並推出51個工業級AI Agent打造「AI原生」智能工廠。",
+          "source": "UrduPure / Robotics Business News",
+          "date": "2026-08-07",
+          "tags": [
+            "具身智能",
+            "人形機器人",
+            "WAIC"
+          ]
+        },
+        {
+          "title": "普渡機器人WAIC 2026發布「一腦多身」物理AI架構",
+          "summary": "普渡機器人在WAIC 2026發布「One Brain, Multiple Embodiments」技術架構及工業級半人形機器人PUDU D7，強調從技術到產品到商業部署再到真實數據的閉環，加速具身智能大規模商業化。",
+          "source": "Robotics Business News",
+          "date": "2026-07-21",
+          "tags": [
+            "具身智能",
+            "商業機器人",
+            "普渡"
+          ]
+        },
+        {
+          "title": "螞蟻集團發布Ling-3.0-flash：124B MoE效率模型",
+          "summary": "螞蟻集團發布Ling-3.0-flash，124B參數MoE模型僅激活5.1B參數，官方稱性能匹敵1T旗艦模型。8月3日前在OpenRouter免費開放，但權重尚未公開。",
+          "source": "Digital Applied",
+          "date": "2026-07-24",
+          "tags": [
+            "開源模型",
+            "螞蟻集團",
+            "MoE"
+          ]
+        }
+      ]
     },
-    {
-      "name": "Hong Kong Digital Policy Office",
-      "url": "https://www.digitalpolicy.gov.hk/",
-      "reason": "香港 AI 基建、政策、資助及政府數字服務的一手來源。"
+    "asia_neighbors": {
+      "emoji": "🌏",
+      "name": "亞洲鄰近",
+      "description": "新加坡 / 日韓台",
+      "news": [
+        {
+          "title": "日本放寬私隱法規促進AI發展",
+          "summary": "日本政府調整私隱保護法規，為AI數據訓練與技術開發提供更靈活的法律框架，顯示亞洲主要經濟體在AI競爭中尋求監管與創新平衡。",
+          "source": "dentro.de",
+          "date": "2026-04",
+          "tags": [
+            "日本",
+            "AI監管",
+            "數據政策"
+          ]
+        }
+      ]
     },
-    {
-      "name": "Artificial Analysis",
-      "url": "https://artificialanalysis.ai/",
-      "reason": "提供模型價格、能力及推理成本的獨立比較，適合驗證企業採用價值。"
+    "international": {
+      "emoji": "🌍",
+      "name": "國際歐美",
+      "description": "地緣政治 / 投資 / 技術突破",
+      "news": [
+        {
+          "title": "Meta與CoreWeave簽署$210億AI算力長期合約",
+          "summary": "Meta擴大與CoreWeave合作，總值達210億美元的算力供應協議延續至2032年，部分由NVIDIA Vera Rubin平台供電，反映大型科技企業持續大規模投資AI基礎設施。",
+          "source": "AI Business",
+          "date": "2026-04-08",
+          "tags": [
+            "投資",
+            "Meta",
+            "AI基礎設施"
+          ]
+        },
+        {
+          "title": "Meta發布Muse Spark多模態推理模型",
+          "summary": "Meta Superintelligence Labs發布Muse系列首個模型Muse Spark，具備原生多模態推理、工具使用、視覺思維鏈及多Agent編排能力，引入「Contemplating」模式並行協調多個推理Agent，在Humanity's Last Exam達58%準確率。",
+          "source": "ai.meta.com",
+          "date": "2026-04-08",
+          "tags": [
+            "技術突破",
+            "Meta",
+            "多模態"
+          ]
+        },
+        {
+          "title": "NVIDIA Cosmos 3：首個完全開源的物理AI全能模型",
+          "summary": "NVIDIA於Computex 2026發布Cosmos 3，首個統一理解與生成文本、圖像、視頻、環境聲音，並輸出機器人動作信號（關節角度、軌跡點）的物理AI全能模型。Super與Nano權重已在Hugging Face以OpenMDW-1.1授權開放。",
+          "source": "Digital Applied",
+          "date": "2026-06-01",
+          "tags": [
+            "技術突破",
+            "NVIDIA",
+            "物理AI",
+            "開源"
+          ]
+        }
+      ]
+    },
+    "general": {
+      "emoji": "🟢",
+      "name": "一般",
+      "description": "金融商業AI",
+      "news": [
+        {
+          "title": "CIBC推出AI工具解放顧問並加速內部工作",
+          "summary": "加拿大帝國商業銀行（CIBC）推出CIBC AdvisorAssist及CAI 2.0 Agentic AI工作空間，協助顧問與員工處理文件、合規及其他內部任務，標誌金融機構將AI深入日常受監管工作流程。",
+          "source": "Yahoo Finance / Agentic.ai",
+          "date": "2026-08-01",
+          "tags": [
+            "金融AI",
+            "Agentic AI",
+            "銀行"
+          ]
+        },
+        {
+          "title": "Glovo在ChatGPT與Claude內推出AI購物助手",
+          "summary": "外賣平台Glovo於7月30日在ChatGPT與Claude內推出購物助手，用戶無需離開對話即可完成對話式產品搜索與下單，展示AI助手從回答問題到完成跨服務購買的演進。",
+          "source": "The Independent Uganda / Agentic.ai",
+          "date": "2026-08-02",
+          "tags": [
+            "商業AI",
+            "Agentic AI",
+            "電商"
+          ]
+        },
+        {
+          "title": "印度央行維持利率不變，上調GDP增長預測",
+          "summary": "印度儲備銀行維持回購利率於5.25%不變，同時上調GDP增長預測並下調通脹展望，市場對此反應正面，穩定利率為企業提供可預測性並鼓勵投資與消費。",
+          "source": "Boston Institute of Analytics",
+          "date": "2026-08-08",
+          "tags": [
+            "金融",
+            "印度",
+            "宏觀經濟"
+          ]
+        }
+      ]
+    },
+    "light": {
+      "emoji": "⚪",
+      "name": "輕度",
+      "description": "多模態 / 物理AI / 機器人",
+      "news": [
+        {
+          "title": "物理AI大規模商業化：VLA模型與具身人形機器人重新定義2026年8月",
+          "summary": "視覺-語言-動作（VLA）模型推動無人駕駛車隊與雙足工廠機器人從實驗原型轉向商業現實。小鵬、Apollo Go、Waymo及Tesla正同時進行商業規模部署，物理AI已從概念走向實際應用。",
+          "source": "UrduPure",
+          "date": "2026-08-07",
+          "tags": [
+            "物理AI",
+            "VLA",
+            "自動駕駛",
+            "機器人"
+          ]
+        },
+        {
+          "title": "Xense Robotics於ICRA 2026展示全棧觸覺智能生態系統",
+          "summary": "Xense Robotics在ICRA 2026展示VTLA驅動自主操作、多模態觸覺傳感器及全球首發TacCap-Gripper數據採集設備，構建從硬件感知到數據採集再到算法優化的全棧閉環物理智能系統。",
+          "source": "Robotics Business News",
+          "date": "2026-06-04",
+          "tags": [
+            "機器人",
+            "觸覺智能",
+            "具身智能"
+          ]
+        },
+        {
+          "title": "Boston Dynamics與Google DeepMind合作工業AI",
+          "summary": "Boston Dynamics與Google Cloud及DeepMind合作，將Gemini Robotics-ER 1.6整合至Spot機器狗與Orbit AI視覺檢測平台，提升複雜工業環境中的空間推理、自主決策與持續學習能力。",
+          "source": "AI Business / dentro.de",
+          "date": "2026-04-10",
+          "tags": [
+            "機器人",
+            "工業AI",
+            "Boston Dynamics"
+          ]
+        }
+      ]
     }
-  ]
+  }
 }
