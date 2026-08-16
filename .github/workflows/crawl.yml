@@ -1,0 +1,40 @@
+name: crawl
+on:
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "選填：指定 source_id（空格分隔），留空 = 跑全部"
+        required: false
+        default: ""
+permissions:
+  contents: write
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install beautifulsoup4
+      - name: Run crawler
+        env:
+          SRC: ${{ github.event.inputs.sources }}
+        run: |
+          cd ai-jobs-intel
+          mkdir -p output
+          if [ -n "$SRC" ]; then
+            set --
+            for s in $SRC; do set -- "$@" --source-id "$s"; done
+            python3 job_crawler.py --sources sources.csv --output-dir output "$@"
+          else
+            python3 job_crawler.py --sources sources.csv --output-dir output
+          fi
+      - name: Commit results
+        run: |
+          git config user.name "crawl-bot"
+          git config user.email "crawl-bot@users.noreply.github.com"
+          git add ai-jobs-intel/output/jobs_latest.csv ai-jobs-intel/output/errors_latest.csv
+          git diff --cached --quiet || git commit -m "chore: crawl $(date -u +%Y-%m-%d)"
+          git push
