@@ -1,6 +1,6 @@
 {
   "schema_version": "ainews.frontend.four_region_congress.v1",
-  "exported_at": "2026-09-04T04:04:58.233Z",
+  "exported_at": "2026-09-04T04:23:26.948Z",
   "report_type": "four_region_congress",
   "scope": {
     "from": "2026-09-03",
@@ -13,10 +13,10 @@
     ]
   },
   "generation": {
-    "ai_model": "Manus",
-    "record_scope_key": "snapshot.all.2026-09-03.2026-09-04.manus",
+    "ai_model": "ChatGPT",
+    "record_scope_key": "snapshot.all.2026-09-03.2026-09-04.chatgpt",
     "record_type": "snapshot",
-    "recorded_at": "2026-09-04T04:04:59.049642+00:00",
+    "recorded_at": "2026-09-04T04:23:27.545845+00:00",
     "source_count": 181,
     "source_item_ids": [
       "9729",
@@ -204,23 +204,24 @@
     "publication_status": "publishable",
     "provenance": {
       "status": "complete",
-      "captured_at": "2026-09-04T04:04:56.842Z",
+      "captured_at": "2026-09-04T04:23:24.964Z",
       "missing_fields": [],
       "summary_omitted": [
         "香港 ITEM_ID 9730（按相似度規則只保留 Title）",
+        "台灣 ITEM_ID 9780（按相似度規則只保留 Title）",
         "中國 ITEM_ID 9751（按相似度規則只保留 Title）"
       ],
       "missing_evidence": []
     }
   },
   "reader_report": {
-    "picture_title": "四區總會 · 2026-09-03 至 2026-09-04 香港讀者行動指南",
-    "objective": "從香港、中國、台灣、全球四份 L1 Dynamic Audience Picture 找出香港讀者需要優先知道的跨區共通訊號，以及同一主題在不同來源地區的實質差異；只保留有足夠證據支持的訊號。",
+    "picture_title": "四區 AI 共通訊號與地域差異 · 2026-09-03 至 2026-09-04",
+    "objective": "從四份已完成的 L1 Dynamic Audience Picture 找出香港讀者需要優先知道的跨區共通訊號，以及同一主題在香港、中國、台灣、全球的實質差異。",
     "common_signals": [
       {
         "l1": "safety_trust",
-        "signal": "AI 與數碼服務的風險已由抽象的技術問題，變成服務中斷、系統停擺、帳號被挾持及輸出錯誤等即時營運問題。香港出現主要 AI 平台集體宕機；台灣有勒索病毒令 ERP 停擺及新型攻擊手法公開；全球則出現 ChatGPT 工作模式錯誤率上升。",
-        "why_now": "相關風險均已出現實際事故、公開漏洞或明顯的使用品質變化，香港讀者不能只依賴單一服務或假設現有備援措施足夠。",
+        "signal": "AI 及數碼系統的可靠性與安全風險正在直接轉化為服務中斷、系統停擺、帳號安全及工作錯誤等實際問題。香港出現主要 AI 平台集體宕機；台灣則出現 ERP 遭勒索病毒攻擊及新型 Web 攻擊手法。",
+        "why_now": "兩個地區均有近期具體事件證明，AI 及相關數碼系統的風險已不只是理論問題，而是可以直接影響企業營運及使用者安全。",
         "evidence": [
           {
             "l1": "safety_trust",
@@ -263,53 +264,83 @@
             "item_date": "2026-09-03",
             "raw_found": true,
             "source_url": "https://www.ithome.com.tw/news/178684"
-          },
-          {
-            "l1": "safety_trust",
-            "l2": "tools_access",
-            "ref": "90",
-            "title": "ChatGPT Work Mode High Error Rates - OpenAI",
-            "region": "global",
-            "source": "OpenAI",
-            "item_id": "9906",
-            "summary": "ChatGPT Work Mode High Error Rates",
-            "fact_used": "ChatGPT Work Mode High Error Rates",
-            "item_date": "2026-09-03",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzM2pDelR3OXhFVUpLeVhCUURRM18xWEVveklWSEJYSjlZQldfMk90ZTNHa0ppTnVsYWZIRmRfakl0V2I0bmR4MEN1bjdUcnE3b2VxRWkwSQ?oc=5"
           }
         ],
         "audiences": [
-          "香港企業 IT 及業務決策者",
-          "香港 AI 工具用戶",
-          "香港中小企資安管理者"
+          "香港企業 IT／營運決策者",
+          "香港 AI 工具使用者",
+          "香港中小企 IT 管理者"
         ],
-        "action_guide": "香港企業應即時盤點關鍵 AI 及資訊系統的供應商依賴、備份、斷網隔離、災難復原及替代方案；個人用戶在高風險工作中應保留人工覆核，並立即更新受影響軟件及檢查帳戶安全設定。",
-        "audience_focus": "需要確保 AI 及關鍵數碼系統穩定、安全運作的香港用戶與企業",
+        "action_guide": "企業應檢視關鍵 AI 服務及資訊系統的備援、更新、帳號安全及災難復原機制；同時避免對單一 AI 供應商或單一系統形成無備援依賴。",
+        "audience_focus": "依賴 AI 及數碼系統處理日常工作的香港用戶與企業",
         "regions_supported": [
           "hongkong",
-          "tw",
-          "global"
+          "tw"
         ]
       },
       {
-        "l1": "tools_access",
-        "signal": "AI 採用的門檻正在由單純購買服務，轉向比較開放模型、本地推理、內容感知基礎設施及平台依賴風險。香港可直接受惠於較便宜的模型及新工具，但亦要留意平台整合或供應商變動帶來的控制權風險。",
-        "why_now": "全球市場同時出現開放模型投資、模型價格下調、本地 AI 推理工具及平台收購等變化，香港企業與家庭已有實際的成本及部署選擇需要重新評估。",
+        "l1": "learning_family",
+        "signal": "AI 普及正在同時推高家庭對 AI 實用技能及資訊辨識能力的需求。香港機械人學院近三年招生人數增加兩倍；台灣調查則顯示僅約三成三長者能辨識 AI 內容真偽。",
+        "why_now": "兩個地區均有近期具體訊號反映 AI 普及帶來的新能力需求，但一方面是學習及培訓需求增加，另一方面是使用者面對 AI 生成內容時的辨識能力不足。",
         "evidence": [
           {
-            "l1": "tools_access",
-            "l2": "general",
-            "ref": "49",
-            "title": "NGINX開源版路由不再只看網址，1.31.5可先解析JSON請求內容再分流",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "9816",
-            "summary": "Web伺服器與反向代理NGINX釋出1.31.5版本，擴充開源版的請求路由能力，現在可在將請求交給後端服務前，先讀取JSON格式的HTTP請求內容，擷取指定欄位，再依內容選擇對應的後端服務，另外，新版也將原先提供給NGINX Plus的Control API帶入開源版。",
-            "fact_used": "NGINX開源版路由不再只看網址，1.31.5可先解析JSON請求內容再分流",
+            "l1": "learning_family",
+            "l2": "work_sme",
+            "ref": "4",
+            "title": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍 - 星島頭條",
+            "region": "hongkong",
+            "source": "星島頭條",
+            "item_id": "9732",
+            "summary": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍",
+            "fact_used": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍",
             "item_date": "2026-09-03",
             "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/178665"
+            "source_url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQOTd1TnNyNUVuM1FWWmhVaHhjVnRuTXV2Q185djdhTmlQMWJjbFhpbld1VC1aNllMNzBwWkpJX19Ndjk2aDJUNFZxdHF0UzJMdWR3Nk82SXR0Q0lsNG9lcjQ3SkpMT1FxRzF2QmItQ1BVWGpLaXFEOEtIeXVmanp3MnNmeW1vVTdtY2pPcWhxODdUU1NpX0ZhX3FtZGtMYUhQb2xvblpXcHR4blQ1Nm9EMHJSZzl1NW5BRjQ3bEZxTVh4elZ2MTFHYUNvV3p2QXFPeVd3WFZGb0lpV3ZlUGZPYnR6bGN3RVlXN3NQc21PZUVnbGRHODdEbmN6TWZ2eEZZajdHRU5sd0J0a0FZajQzYW5tTUVxekUtZTd2QWk5OFl6Y0lZWGhqTGZLWWF6cjZXb21PUHFCTVZ1UTZtSDhjQnhWOVpKVjV5RTJYb21SVG9XRjhtak1SMWN5YWhPM1BrM3dHNzZiUWU2d0swY1RXc2syZ1VBb2toX1dUVnpn?oc=5"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "learning_family",
+            "ref": "37",
+            "title": "長者AI調查 僅3成3能辨真偽 - Yahoo新聞",
+            "region": "tw",
+            "source": "Yahoo新聞",
+            "item_id": "9780",
+            "summary": "",
+            "fact_used": "長者AI調查 僅3成3能辨真偽",
+            "item_date": "2026-09-03",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeUk4ZWM2WUhfT2U1WWZGUEQxdjMwM0RZUHVuS2FfMG4wc3FyQS11b2o2NGVKcnJONzJGZVFEcUZEbDJ4NW5nbWl1dU5ra2xmZ0lGNmFvd1NrWHhYOG5UYnRWYlZTSnJiQVdIcVYwd0kxWWFmekw3NHI2dnF1eHo1aEo4dTlIZTZMWUdIY29MQ0dNazBIaG9JTWNPN1Z6N2lmbS1VS0VOWGJlMmZxaEtrSU8wcG5EWVFTVEdlTWJtMDg5UkxXOThiSEhsb2RDMGxfa0E?oc=5"
+          }
+        ],
+        "audiences": [
+          "香港家長",
+          "香港長者家庭"
+        ],
+        "action_guide": "香港家庭選擇 AI 或機械人課程時，可同時重視實際應用及資訊判讀能力；家庭亦應建立查證 AI 生成內容的習慣，尤其協助較少接觸 AI 的長者辨識可疑資訊及連結。",
+        "audience_focus": "香港家庭需要同時提升 AI 實用技能及 AI 資訊辨識能力",
+        "regions_supported": [
+          "hongkong",
+          "tw"
+        ]
+      },
+      {
+        "l1": "work_sme",
+        "signal": "AI 採用成本及門檻正在出現下降或支援增加的訊號。中國推出針對 AI 中小企業的創業支持計劃，提供資金及雲算力支援；全球則出現開放 AI 模型的大額投入及商業模型快取代幣價格大幅下調。",
+        "why_now": "中國及全球 Picture 均有近期具體變化指向降低 AI 採用成本或門檻，香港中小企有必要重新比較現有 AI 方案的實際成本，而不是只沿用原有服務。",
+        "evidence": [
+          {
+            "l1": "work_sme",
+            "l2": "work_sme",
+            "ref": "4",
+            "title": "人工智能中小企业创业支持计划启动 - china.zjol.com.cn",
+            "region": "china",
+            "source": "china.zjol.com.cn",
+            "item_id": "9751",
+            "summary": "",
+            "fact_used": "人工智能中小企业创业支持计划启动",
+            "item_date": "2026-09-04",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kZG1oTkx2ZmMyZDk4dm1aUElEazhobmhleHgtQmFuVGpKbXRCUHJCSkJQVl9XOGRzUklCMXBaUkJzdThZLVpydHBrZUM3QzgxMkhPLWJ3VGNHeDV3NVFOamFicnJaMFJPV3E2Sg?oc=5"
           },
           {
             "l1": "price_free",
@@ -338,32 +369,16 @@
             "item_date": "2026-09-03",
             "raw_found": true,
             "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV1ZsMVhNazlxc0h6LUJDTFlacUxMNXV6Z1lVdFI1eU10ak5XcFBRM1JzaHdlV1daRU5xN2JBbk9oWkpFcHFYWW1YWkV1NU40dDA1ZWtiX0k5dGJUU3QwdFQ4TnB2Y0Rma0g3elFGdGpPUm0xOEVjalJkZ2paQ3NMSFVUNk1DUi1pcmRyU0x5UGZ1YTFUUmgyVDhmaVNsRm1PSXpPUjBNMmw0Zw?oc=5"
-          },
-          {
-            "l1": "tools_access",
-            "l2": "general",
-            "ref": "31",
-            "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
-            "region": "global",
-            "source": "AI | The Verge",
-            "item_id": "9843",
-            "summary": "Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio. Let's get the obvious thing out of the way, despite what its name might imply: PAIR is not a hardware router. It's open-so",
-            "fact_used": "Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks",
-            "item_date": "2026-09-03",
-            "raw_found": true,
-            "source_url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
           }
         ],
         "audiences": [
-          "香港中小企 IT 決策者",
-          "香港本地 AI 開發者",
-          "香港家庭 AI 使用者"
+          "香港中小企業主",
+          "香港 IT 決策者"
         ],
-        "action_guide": "先以測試環境比較商業 API、開放模型及本地推理的成本、效能、私隱與授權條款；重要流程應保留多供應商或替代平台，避免因單一平台價格、條款或可用性變化而被動。",
-        "audience_focus": "希望以較低成本或更靈活方式採用 AI 的香港企業、開發者及家庭",
+        "action_guide": "重新盤點現有 AI 使用量及成本，比較商業 API、開放模型及其他方案；如有合適支援計劃或價格調整，應核對正式條款、授權、安全要求及實際節省幅度後再決定。",
+        "audience_focus": "香港中小企需要重新評估 AI 採用成本及取得支援的方式",
         "regions_supported": [
-          "hongkong",
-          "tw",
+          "china",
           "global"
         ]
       }
@@ -371,7 +386,7 @@
     "regional_differences": [
       {
         "l1": "safety_trust",
-        "topic": "AI 及數碼系統的可靠性與安全風險",
+        "topic": "AI 及數碼系統可靠性與安全",
         "evidence": [
           {
             "l1": "safety_trust",
@@ -414,20 +429,6 @@
             "item_date": "2026-09-03",
             "raw_found": true,
             "source_url": "https://www.ithome.com.tw/news/178684"
-          },
-          {
-            "l1": "safety_trust",
-            "l2": "general",
-            "ref": "21",
-            "title": "Google發布Chrome 152更新，修補已遭利用的V8漏洞",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "9764",
-            "summary": "9月3日Google發布電腦版與Android版Chrome 152更新，總共修補12個資安漏洞，其中10個為高風險等級、2個為中等風險弱點。",
-            "fact_used": "Google發布Chrome 152更新，修補已遭利用的V8漏洞",
-            "item_date": "2026-09-04",
-            "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/178687"
           },
           {
             "l1": "safety_trust",
@@ -459,17 +460,16 @@
           }
         ],
         "audiences": [
-          "香港企業 IT 決策者",
-          "香港中小企資安管理者",
-          "香港普通 AI 工具用戶"
+          "香港企業 IT／營運決策者",
+          "香港中小企 IT 管理者"
         ],
-        "difference": "香港的主要訊號是美國 AI 平台集體宕機，反映供應商集中及服務可用性風險；台灣的訊號集中於勒索病毒、HTTP 標頭攻擊、瀏覽器高風險漏洞及 AI 程式代理漏洞，反映企業端點、網絡及開發流程的直接攻擊面；全球的訊號則是 ChatGPT 工作模式錯誤率上升，較偏向模型或功能品質不穩定。中國來源 Picture 沒有提供足夠的同類安全或可靠性證據，因此不作推論。",
-        "audience_focus": "需要按不同地區的 AI 風險型態制定應對措施的香港讀者",
-        "hongkong_reader_meaning": "香港企業應同時準備服務中斷備援與資安防護，不應只針對單一類型風險；使用 AI 處理重要工作時，必須保留人工覆核、替代工具及可恢復的工作流程。"
+        "difference": "香港的近期訊號主要集中於主要 AI 平台服務中斷；台灣則較集中於勒索病毒、Web 攻擊、瀏覽器漏洞及 AI 程式代理漏洞等主動攻擊面；全球 Picture 則出現 ChatGPT 工作模式錯誤率上升。即同一個安全與可靠性主題，在香港較突出的是服務供應商可用性，在台灣較突出的是企業及開發環境防護，而全球則突出 AI 工具本身的使用可靠性。",
+        "audience_focus": "香港企業評估 AI 系統可靠性及資安風險",
+        "hongkong_reader_meaning": "香港企業除了檢查 AI 供應商的服務穩定性及備援，亦應把企業內部系統、網站、AI 開發工具及帳號安全納入風險檢查。"
       },
       {
-        "l1": "real_use",
-        "topic": "AI 採用的推動方式",
+        "l1": "work_sme",
+        "topic": "降低 AI 採用成本",
         "evidence": [
           {
             "l1": "work_sme",
@@ -486,33 +486,46 @@
             "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kZG1oTkx2ZmMyZDk4dm1aUElEazhobmhleHgtQmFuVGpKbXRCUHJCSkJQVl9XOGRzUklCMXBaUkJzdThZLVpydHBrZUM3QzgxMkhPLWJ3VGNHeDV3NVFOamFicnJaMFJPV3E2Sg?oc=5"
           },
           {
-            "l1": "real_use",
-            "l2": "tech_hardcore",
-            "ref": "11",
-            "title": "營造業缺工不只靠移工！工總喊話「AI進工地」 機械施工、預鑄先上場 - PChome Online新聞",
-            "region": "tw",
-            "source": "PChome Online新聞",
-            "item_id": "9806",
-            "summary": "營造業缺工不只靠移工！工總喊話「AI進工地」 機械施工、預鑄先上場",
-            "fact_used": "營造業缺工不只靠移工！工總喊話「AI進工地」 機械施工、預鑄先上場",
+            "l1": "price_free",
+            "l2": "general",
+            "ref": "10",
+            "title": "Nvidia bets $13 billion on open AI models with Hugging Face deal - Reuters",
+            "region": "global",
+            "source": "Reuters",
+            "item_id": "9824",
+            "summary": "Nvidia bets $13 billion on open AI models with Hugging Face deal",
+            "fact_used": "Nvidia bets $13 billion on open AI models with Hugging Face deal",
             "item_date": "2026-09-03",
             "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSUl0bnhWWFFpVGdERlZmYkVNTzFnVkZLOTZ4SDM0LWt4M0tIVl8yWkxCWkQzV2FZcjk2anZrdV83NHNDS2hfNFI3anROWENyTVdobjNqRzNLZDc3d3hCUkxNLU1HUEg1LWdfZEhDd3k4M2dlQ0x6VWt6ZlplZURtTVdILVZoak5QejlhOGxoaE5lZw?oc=5"
+            "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSktMTEFzVUpJM09CZGMxcnEtMVJHTElxMllESE9QbHdMbjl4MmQ2TjJvSjRXY1Q3RUVmNGMxQ2xIMTVtOWhnVHYyWGluNmNDektRcVloUmZfTmdWMDJyMFRrTjZHYzl6aUYyd1JYM3hQenBmeFJ1N3FleW01SF9HeFVSZ3oxMlBsS3BrcHZiblZBWTNSWDQyMzdSWGMwMnJ3NnNTbG14R3FTb1BUdGc?oc=5"
           },
           {
-            "l1": "learning_family",
-            "l2": "work_sme",
-            "ref": "4",
-            "title": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍 - 星島頭條",
-            "region": "hongkong",
-            "source": "星島頭條",
-            "item_id": "9732",
-            "summary": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍",
-            "fact_used": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍",
+            "l1": "price_free",
+            "l2": "must_read",
+            "ref": "73",
+            "title": "Anthropic Releases Claude Fable 5.1 and Cuts Cached Token Pricing by 75% - gHacks",
+            "region": "global",
+            "source": "gHacks",
+            "item_id": "9888",
+            "summary": "Anthropic Releases Claude Fable 5.1 and Cuts Cached Token Pricing by 75%",
+            "fact_used": "Anthropic Releases Claude Fable 5.1 and Cuts Cached Token Pricing by 75%",
             "item_date": "2026-09-03",
             "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQOTd1TnNyNUVuM1FWWmhVaHhjVnRuTXV2Q185djdhTmlQMWJjbFhpbld1VC1aNllMNzBwWkpJX19Ndjk2aDJUNFZxdHF0UzJMdWR3Nk82SXR0Q0lsNG9lcjQ3SkpMT1FxRzF2QmItQ1BVWGpLaXFEOEtIeXVmanp3MnNmeW1vVTdtY2pPcWhxODdUU1NpX0ZhX3FtZGtMYUhQb2xvblpXcHR4blQ1Nm9EMHJSZzl1NW5BRjQ3bEZxTVh4elZ2MTFHYUNvV3p2QXFPeVd3WFZGb0lpV3ZlUGZPYnR6bGN3RVlXN3NQc21PZUVnbGRHODdEbmN6TWZ2eEZZajdHRU5sd0J0a0FZajQzYW5tTUVxekUtZTd2QWk5OFl6Y0lZWGhqTGZLWWF6cjZXb21PUHFCTVZ1UTZtSDhjQnhWOVpKVjV5RTJYb21SVG9XRjhtak1SMWN5YWhPM1BrM3dHNzZiUWU2d0swY1RXc2syZ1VBb2toX1dUVnpn?oc=5"
-          },
+            "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV1ZsMVhNazlxc0h6LUJDTFlacUxMNXV6Z1lVdFI1eU10ak5XcFBRM1JzaHdlV1daRU5xN2JBbk9oWkpFcHFYWW1YWkV1NU40dDA1ZWtiX0k5dGJUU3QwdFQ4TnB2Y0Rma0g3elFGdGpPUm0xOEVjalJkZ2paQ3NMSFVUNk1DUi1pcmRyU0x5UGZ1YTFUUmgyVDhmaVNsRm1PSXpPUjBNMmw0Zw?oc=5"
+          }
+        ],
+        "audiences": [
+          "香港中小企業主",
+          "香港 IT 決策者"
+        ],
+        "difference": "中國的成本訊號來自政府直接推出 AI 中小企業創業支持計劃，以資金及雲算力支援降低創業門檻；全球的成本訊號則主要來自開放模型投資增加及商業 AI 服務價格下降，屬於市場供應及產品價格變化。",
+        "audience_focus": "香港中小企評估 AI 採用成本及支援方式",
+        "hongkong_reader_meaning": "香港中小企可把 AI 採用成本分開比較：一是政策或資助帶來的直接支援，二是模型價格及開放模型帶來的市場成本變化。現有 Picture 沒有香港本地對應資助證據，因此不能推論香港已有相同政策。"
+      },
+      {
+        "l1": "tools_access",
+        "topic": "AI 工具及平台依賴",
+        "evidence": [
           {
             "l1": "tools_access",
             "l2": "general",
@@ -528,18 +541,18 @@
             "source_url": "https://www.ithome.com.tw/news/178665"
           },
           {
-            "l1": "price_free",
+            "l1": "safety_trust",
             "l2": "general",
-            "ref": "10",
-            "title": "Nvidia bets $13 billion on open AI models with Hugging Face deal - Reuters",
-            "region": "global",
-            "source": "Reuters",
-            "item_id": "9824",
-            "summary": "Nvidia bets $13 billion on open AI models with Hugging Face deal",
-            "fact_used": "Nvidia bets $13 billion on open AI models with Hugging Face deal",
-            "item_date": "2026-09-03",
+            "ref": "22",
+            "title": "背景Git檢查成攻擊入口，GitSpawn漏洞波及Claude Code等7款AI程式代理",
+            "region": "tw",
+            "source": "iThome 新聞",
+            "item_id": "9765",
+            "summary": "資安業者Manifold Security揭露AI程式開發代理的GitSpawn安全問題，涵蓋Claude Code、OpenAI Codex、Cursor、Goose、Hermes Agent、Qwen Code與Grok Build等7款工具，共發現8項問題。GitSpawn問題出在代理會自行使用Git取得專案資訊，卻未排除專案本身的Git設定，攻擊者可藉此讓惡意程式在安全核准前執行。",
+            "fact_used": "背景Git檢查成攻擊入口，GitSpawn漏洞波及Claude Code等7款AI程式代理",
+            "item_date": "2026-09-04",
             "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSktMTEFzVUpJM09CZGMxcnEtMVJHTElxMllESE9QbHdMbjl4MmQ2TjJvSjRXY1Q3RUVmNGMxQ2xIMTVtOWhnVHYyWGluNmNDektRcVloUmZfTmdWMDJyMFRrTjZHYzl6aUYyd1JYM3hQenBmeFJ1N3FleW01SF9HeFVSZ3oxMlBsS3BrcHZiblZBWTNSWDQyMzdSWGMwMnJ3NnNTbG14R3FTb1BUdGc?oc=5"
+            "source_url": "https://www.ithome.com.tw/news/178683"
           },
           {
             "l1": "tools_access",
@@ -554,16 +567,70 @@
             "item_date": "2026-09-03",
             "raw_found": true,
             "source_url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
+          },
+          {
+            "l1": "tools_access",
+            "l2": "general",
+            "ref": "55",
+            "title": "Nvidia is buying Hugging Face for almost $13 billion",
+            "region": "global",
+            "source": "AI | The Verge｜Bloomberg.com",
+            "item_id": "9868",
+            "summary": "Nvidia has agreed to buy Hugging Face for $12.93 billion, bringing one of the most popular hosting platforms for open-source AI models, datasets, and tools under the ownership of the world's biggest AI chipmaker. Hugging Face is an online platform founded in 2016 that gives AI developers a space to ",
+            "fact_used": "Nvidia has agreed to buy Hugging Face for $12.93 billion, bringing one of the most popular hosting platforms for open-source AI models, data",
+            "item_date": "2026-09-03",
+            "raw_found": true,
+            "source_url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal | https://news.google.com/rss/articles/CBMisgFBVV95cUxOM1dYREIzM1Btc0JjU3k2aGlaZGhuODBxQXRYTGtEZnFlTmpmeW4xWnY5RGJfbUEzaHhBQm1tMnBROHZDTDNNdDlpSmZuY2Z3UWxuWDkxSHl3WjVNZHJBVXFEVXZlcEV5RGc0cTNrXzIweVNHSXA4UlprOWFlQzNLMEwxaXJDVjFPTHlsbkdOZFBqQVlzdlR1YVdCeXFkY3Jpa2JkanJVYjJyRTFNaFFIbW1R?oc=5"
           }
         ],
         "audiences": [
-          "香港中小企負責人",
           "香港 AI 開發者",
-          "香港家庭及教育決策者"
+          "香港初創企業"
         ],
-        "difference": "中國來源顯示政府以創業支持計劃、資金及雲算力降低 AI 創業門檻；台灣來源顯示 AI 由建築業缺工問題推動，先在機械施工及預鑄等具體工序試點；香港來源較突出本地教育需求、開源基礎設施及企業服務備援等採用條件；全球來源則顯示模型價格下調、本地推理及大型平台整合，主要改變成本與技術取得方式。",
-        "audience_focus": "希望判斷 AI 應如何落地，而不是只追蹤模型新聞的香港企業及家庭",
-        "hongkong_reader_meaning": "香港讀者應按自身場景選擇切入點：企業可先做低成本、可量度的流程試點，家庭可比較本地學習與推理工具，開發者則要同步評估平台依賴、授權及供應商變動，而不應單靠追逐最新模型。"
+        "difference": "台灣的工具訊號較偏向開發基礎設施及安全，包括 NGINX 開源版內容感知路由及 AI 程式代理的 Git 漏洞；全球則較集中於 AI 模型取得方式及平台生態，包括本地 AI 推理工具、開放模型，以及 Hugging Face 所涉及的平台所有權變化。",
+        "audience_focus": "香港開發者決定 AI 工具及部署方式",
+        "hongkong_reader_meaning": "香港開發者選擇 AI 工具時，除了比較模型能力及價格，亦應考慮部署位置、開源程度、平台依賴及安全維護責任。現有 Picture 沒有足夠證據證明上述工具變化已在香港形成相同規模的實際採用。"
+      },
+      {
+        "l1": "learning_family",
+        "topic": "AI 普及下的家庭能力需求",
+        "evidence": [
+          {
+            "l1": "learning_family",
+            "l2": "work_sme",
+            "ref": "4",
+            "title": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍 - 星島頭條",
+            "region": "hongkong",
+            "source": "星島頭條",
+            "item_id": "9732",
+            "summary": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍",
+            "fact_used": "AI大時代｜家長子女齊學AI 香港機械人學院收生人數三年增2倍",
+            "item_date": "2026-09-03",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQOTd1TnNyNUVuM1FWWmhVaHhjVnRuTXV2Q185djdhTmlQMWJjbFhpbld1VC1aNllMNzBwWkpJX19Ndjk2aDJUNFZxdHF0UzJMdWR3Nk82SXR0Q0lsNG9lcjQ3SkpMT1FxRzF2QmItQ1BVWGpLaXFEOEtIeXVmanp3MnNmeW1vVTdtY2pPcWhxODdUU1NpX0ZhX3FtZGtMYUhQb2xvblpXcHR4blQ1Nm9EMHJSZzl1NW5BRjQ3bEZxTVh4elZ2MTFHYUNvV3p2QXFPeVd3WFZGb0lpV3ZlUGZPYnR6bGN3RVlXN3NQc21PZUVnbGRHODdEbmN6TWZ2eEZZajdHRU5sd0J0a0FZajQzYW5tTUVxekUtZTd2QWk5OFl6Y0lZWGhqTGZLWWF6cjZXb21PUHFCTVZ1UTZtSDhjQnhWOVpKVjV5RTJYb21SVG9XRjhtak1SMWN5YWhPM1BrM3dHNzZiUWU2d0swY1RXc2syZ1VBb2toX1dUVnpn?oc=5"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "learning_family",
+            "ref": "37",
+            "title": "長者AI調查 僅3成3能辨真偽 - Yahoo新聞",
+            "region": "tw",
+            "source": "Yahoo新聞",
+            "item_id": "9780",
+            "summary": "",
+            "fact_used": "長者AI調查 僅3成3能辨真偽",
+            "item_date": "2026-09-03",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeUk4ZWM2WUhfT2U1WWZGUEQxdjMwM0RZUHVuS2FfMG4wc3FyQS11b2o2NGVKcnJONzJGZVFEcUZEbDJ4NW5nbWl1dU5ra2xmZ0lGNmFvd1NrWHhYOG5UYnRWYlZTSnJiQVdIcVYwd0kxWWFmekw3NHI2dnF1eHo1aEo4dTlIZTZMWUdIY29MQ0dNazBIaG9JTWNPN1Z6N2lmbS1VS0VOWGJlMmZxaEtrSU8wcG5EWVFTVEdlTWJtMDg5UkxXOThiSEhsb2RDMGxfa0E?oc=5"
+          }
+        ],
+        "audiences": [
+          "香港家長",
+          "香港長者家庭"
+        ],
+        "difference": "香港的訊號是機械人及 AI 教育需求快速增加，近三年招生人數增長兩倍；台灣的訊號則是長者辨識 AI 生成內容能力不足，調查中僅約三成三能辨識真偽。兩者同樣反映 AI 普及帶來家庭能力需求，但香港目前較突出的是學習及培訓需求，台灣則較突出資訊辨識及防誤導需求。",
+        "audience_focus": "香港家庭判斷 AI 教育及資訊辨識能力需求",
+        "hongkong_reader_meaning": "香港家庭在考慮 AI 教育時，不應只看編程或機械人技能，亦可把 AI 內容辨識及資訊查證視為 AI 素養的一部分；但現有 Picture 沒有香港長者辨識能力的直接數據，因此不能把台灣數字套用到香港。"
       }
     ]
   }
