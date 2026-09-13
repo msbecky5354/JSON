@@ -5,10 +5,10 @@
     "source_name": "unwire",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Provides HK gamers and developers insight on upcoming AI-driven game features, benefiting Developers and Students. 提供香港玩家同開發者對新AI遊戲功能嘅了解，有助開發者同學生。",
+    "reason": "Provides gamers and developers insight on upcoming AI-driven game features, benefiting Office Workers & Developers in HK. 提供玩家同開發者了解AI遊戲新功能，對香港上班族同開發者有利。",
     "micro_personas": [
-      "Developers – testing AI game integration",
-      "Students – studying AI in gaming"
+      "Game Developer – integrating AI NPCs",
+      "Office Worker – using AI tools for game analytics"
     ],
     "agent_signal": false,
     "automation_level": 2,
@@ -23,52 +23,52 @@
     "source_name": "香港01",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Shows how media AI adoption can streamline content creation for Office Workers and HR. 展示媒體AI應用點樣幫打工仔同HR提升內容製作效率。",
+    "reason": "Shows media AI adoption, useful for HR Professionals & Employers to improve internal communications via AI. 展示媒體AI應用，對香港人力資源專業人士同僱主提升內部溝通有用。",
     "micro_personas": [
-      "Office Workers – automating reports",
-      "HR – AI‑assisted recruitment content"
+      "HR Manager – deploying AI chatbots",
+      "Employer – AI-driven content creation"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Hong Kong media AI tools",
-      "AI content creation HK"
+      "Hong Kong 01 AI media",
+      "AI in corporate communications"
     ]
   },
   {
     "i": 3,
     "title": "立法會議員．陳文宜｜推動「AI＋社福」 共建關愛創科之城 - 香港01",
     "source_name": "香港01",
-    "evidence_status": "independent_report",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Highlights AI‑social welfare projects useful for Parents and Elderly accessing services. 突顯AI社福項目，幫家長同長者更易使用服務。",
+    "reason": "Highlights AI+social welfare projects, relevant for Professionals & Seniors to access AI-enabled community services. 突顯AI+社福項目，對香港專業人士同長者使用AI社區服務有幫助。",
     "micro_personas": [
-      "Parents – AI‑enabled child support platforms",
-      "Elderly – AI health assistance"
+      "Social Worker – AI case management",
+      "Senior – AI health monitoring"
     ],
-    "agent_signal": false,
-    "automation_level": 2,
+    "agent_signal": true,
+    "automation_level": 4,
     "history_queries": [
-      "AI social welfare HK",
-      "AI services for elderly Hong Kong"
+      "AI social welfare Hong Kong",
+      "AI community services"
     ]
   },
   {
     "i": 4,
     "title": "The US and China are racing to build ‘self-improving AI’. Here’s what’s at stake",
     "source_name": "Tech - South China Morning Post",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "independent_report",
     "decision": "accept",
-    "reason": "Provides strategic insight on AI competition affecting tech investors, relevant to Entrepreneurs and SMEs. 提供AI競爭嘅策略資訊，對創業者同中小企有參考價值。",
+    "reason": "Analyzes US-China AI race, informing Entrepreneurs & SMEs about geopolitical risks affecting AI supply chains. 分析美中AI競賽，提醒香港創業者同中小企供應鏈風險。",
     "micro_personas": [
-      "Entrepreneurs – assessing AI market risks",
-      "SMEs – planning AI investment"
+      "Entrepreneur – AI vendor selection",
+      "SME Owner – risk assessment"
     ],
-    "agent_signal": false,
-    "automation_level": 1,
+    "agent_signal": true,
+    "automation_level": 3,
     "history_queries": [
-      "US China AI race impact",
-      "AI investment Hong Kong"
+      "US China AI competition impact",
+      "AI supply chain risk Hong Kong"
     ]
   },
   {
@@ -77,16 +77,16 @@
     "source_name": "unwire",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Details misuse categories of Claude model, giving security warnings for Professionals and Developers. 詳細說明Claude模型濫用類別，為專業人士同開發者提供安全警示。",
+    "reason": "Details misuse categories of Claude, crucial for Developers & Professionals to implement safety safeguards. 詳述Claude濫用類別，對開發者同專業人士設置安全防護至關重要。",
     "micro_personas": [
-      "Developers – avoiding model misuse",
-      "Professionals – compliance checks"
+      "Developer – AI model auditing",
+      "Professional – compliance monitoring"
     ],
-    "agent_signal": false,
-    "automation_level": 2,
+    "agent_signal": true,
+    "automation_level": 4,
     "history_queries": [
-      "Claude model misuse cases",
-      "AI safety Hong Kong"
+      "Claude misuse cases",
+      "AI safety guidelines"
     ]
   },
   {
@@ -95,34 +95,34 @@
     "source_name": "unwire",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Reveals AI surveillance risks relevant to HR and Employers for data privacy compliance. 揭示AI監控風險，對HR同僱主嘅數據私隱合規有幫助。",
+    "reason": "Reveals AI data leakage to US systems, alerting Parents & Elderly about privacy risks in smart devices. 揭示AI資料外洩，提醒家長同長者智能設備隱私風險。",
     "micro_personas": [
-      "HR – monitoring employee data privacy",
-      "Employers – ensuring compliance"
+      "Parent – child device monitoring",
+      "Elderly – secure smart home"
     ],
-    "agent_signal": false,
-    "automation_level": 1,
+    "agent_signal": true,
+    "automation_level": 3,
     "history_queries": [
-      "AI surveillance HK",
-      "Claude military CCTV incident"
+      "AI data leakage China",
+      "Smart device privacy Hong Kong"
     ]
   },
   {
     "i": 8,
     "title": "新 Apple Watch Ultra 定位系統剩四個 悄悄移除 GLONASS 支援 - unwire",
     "source_name": "unwire",
-    "evidence_status": "official",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Apple Watch Ultra GPS change impacts pricing and API costs for Consumers and Developers in HK. Apple Watch Ultra GPS變更影響香港消費者同開發者嘅價格同API成本。",
+    "reason": "Watch Ultra GPS change affects Developers & Students using location AI services in HK. Apple Watch定位變更影響香港開發者同學生使用位置AI服務。",
     "micro_personas": [
-      "Developers – adjusting location API usage",
-      "Parents – budgeting wearable devices"
+      "Student – AI mapping project",
+      "Developer – location-based app"
     ],
     "agent_signal": false,
-    "automation_level": 1,
+    "automation_level": 2,
     "history_queries": [
-      "Apple Watch Ultra GLONASS removal",
-      "HK wearable GPS pricing"
+      "Apple Watch Ultra GPS removal",
+      "Location AI Hong Kong"
     ]
   },
   {
@@ -131,16 +131,16 @@
     "source_name": "Minichart",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Partnership on copyright large model informs SMEs and Professionals about licensing costs. 合作開發版權大型模型，為中小企同專業人士提供授權成本資訊。",
+    "reason": "Partnership builds copyright large model, valuable for SMEs & Creators needing AI content licensing. 合作打造版權大模型，對香港中小企同創作者的AI內容授權有益。",
     "micro_personas": [
-      "SMEs – evaluating AI licensing",
-      "Professionals – legal compliance on AI content"
+      "SME – AI content generation",
+      "Creator – licensing AI assets"
     ],
-    "agent_signal": false,
-    "automation_level": 2,
+    "agent_signal": true,
+    "automation_level": 3,
     "history_queries": [
-      "Vobile Ant Digital copyright model",
-      "AI licensing costs HK"
+      "Vobile Ant AI copyright",
+      "Large model licensing Hong Kong"
     ]
   },
   {
@@ -148,18 +148,8 @@
     "title": "白宮稱 Truth Social 全球最強 數據卻顯示日活躍用戶不足 X 五百分之一 - unwire",
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Truth Social usage data offers cautionary insight for Entrepreneurs on platform viability. Truth Social使用數據提供創業者對平台可行性嘅警示。",
-    "micro_personas": [
-      "Entrepreneurs – assessing social media AI platforms",
-      "Retirees – understanding digital safety"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "Truth Social user stats",
-      "AI social platform viability HK"
-    ]
+    "decision": "reject",
+    "reject_reason": "Irrelevant to HK AI utility; focuses on US social platform metrics, no local actionable insight. 同香港AI實用性無關，僅討論美國平台數據，缺乏本地可執行資訊。"
   },
   {
     "i": 11,
@@ -167,33 +157,34 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Leak of Project Phoenix design informs Developers and Professionals about upcoming mixed‑reality hardware. Project Phoenix設計圖外洩，為開發者同專業人士提供混合實境硬件前瞻。",
+    "reason": "Project Phoenix mixed-reality headset offers Developers & Professionals new AI hardware for HK projects. Project Phoenix混合實境眼鏡為香港開發者同專業人士提供新AI硬件。",
     "micro_personas": [
-      "Developers – preparing for MR SDKs",
-      "Professionals – evaluating new hardware for work"
+      "Developer – AR/VR AI app",
+      "Professional – immersive training"
     ],
-    "agent_signal": false,
-    "automation_level": 2,
+    "agent_signal": true,
+    "automation_level": 4,
     "history_queries": [
-      "Project Phoenix MR glasses",
-      "Meta mixed reality hardware HK"
+      "Project Phoenix headset specs",
+      "AR AI hardware Hong Kong"
     ]
   },
   {
     "i": 12,
     "title": "開源下載神器 OmniGet 崛起 貼上連結即可下載 大量插件擴充功能 - hkepc.com",
     "source_name": "hkepc.com",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Provides Hong Kong office workers and developers with free AI‑enhanced plugins, boosting productivity and toolset. 提供香港打工仔同軟件開發者免費AI插件，提升工作效率。",
+    "reason": "OmniGet plugin ecosystem aids Developers & Students in automating AI tool integration locally. OmniGet插件生態幫助香港開發者同學生自動化AI工具整合。",
     "micro_personas": [
-      "Office Workers using AI plugins – 打工仔用AI插件",
-      "Developers integrating extensions – 開發者整合擴充功能"
+      "Developer – plugin integration",
+      "Student – AI workflow automation"
     ],
-    "agent_signal": false,
-    "automation_level": 1,
+    "agent_signal": true,
+    "automation_level": 5,
     "history_queries": [
-      "OmniGet download\",\"AI plugins integration"
+      "OmniGet download Hong Kong",
+      "AI plugin automation"
     ]
   },
   {
@@ -201,18 +192,8 @@
     "title": "彭博記者揭 Tim Cook 內幕 iPhone Duo 在他 2020 年亞洲之行後拍板開發 - unwire",
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Highlights upcoming AI‑driven iPhone Duo features relevant to Hong Kong tech enthusiasts and entrepreneurs. 提示香港科技愛好者同創業者留意iPhone Duo AI功能。",
-    "micro_personas": [
-      "Tech enthusiasts exploring AI devices – 科技愛好者探索AI裝置",
-      "Entrepreneurs evaluating new AI products – 創業者評估新AI產品"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "iPhone Duo AI features",
-      "Tim Cook AI announcement"
-    ]
+    "decision": "reject",
+    "reject_reason": "Speculative product rumor without concrete AI application for HK users; lacks actionable content. 只係產品傳聞，未提供具體AI應用，缺乏可執行內容。"
   },
   {
     "i": 14,
@@ -220,125 +201,65 @@
     "source_name": "香港經濟日報HKET",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Oracle's AI data‑center cuts affect Hong Kong SMEs and HR planning, offering cost‑saving insights. Oracle AI數據中心削減影響香港中小企同HR規劃，提供節省成本資訊。",
+    "reason": "Oracle's AI data center restructuring cuts costs, creating AI job opportunities for office workers and SMEs in Hong Kong. Oracle 重組 AI 數據中心減成本，為本港辦公室員工及中小企創造 AI 工作機會。",
     "micro_personas": [
-      "SMEs managing AI budgets – 中小企管理AI預算",
-      "HR strategists handling layoffs – HR策劃裁員"
+      "Office Workers – evaluating AI project budgets",
+      "SMEs – planning AI infrastructure adoption"
     ],
     "agent_signal": false,
     "automation_level": 2,
     "history_queries": [
-      "Oracle AI data centre cost",
-      "AI layoffs Hong Kong"
+      "Oracle AI restructuring",
+      "HK SME AI cost analysis"
     ]
   },
   {
     "i": 15,
     "title": "生產力局參展ReThink HK 2026 展示創新低碳及ESG解決方案 - IT PRO Magazine",
     "source_name": "IT PRO Magazine",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "ReThink HK showcase offers Hong Kong entrepreneurs low‑carbon AI solutions for ESG compliance. ReThink HK展示低碳AI解決方案，幫香港創業者符合ESG要求。",
-    "micro_personas": [
-      "Entrepreneurs seeking ESG AI tools – 創業者尋找ESG AI工具",
-      "SMEs adopting green AI – 中小企採用綠色AI"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "ReThink HK AI ESG",
-      "low carbon AI solutions Hong Kong"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Content focuses on low‑carbon ESG solutions, lacking direct AI relevance for Hong Kong users. 內容主要講 ESG 低碳，未涉及 AI，對本港用戶實用性不足。"
   },
   {
     "i": 16,
     "title": "Windows 9 月安全更新傳災情 Remote Desktop 癱瘓、連線死鎖無回應 - hkepc.com",
     "source_name": "hkepc.com",
     "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Windows Remote Desktop security issue alerts Hong Kong IT staff and retirees using remote work tools. Windows遠端桌面安全漏洞提醒香港IT人員同退休人士遠程工作安全。",
-    "micro_personas": [
-      "IT staff securing remote desktops – IT人員保安遠端桌面",
-      "Retirees using remote access – 退休人士使用遠端存取"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "Windows Remote Desktop security",
-      "Remote work safety Hong Kong"
-    ]
+    "decision": "reject",
+    "reject_reason": "Security update about Windows Remote Desktop, not AI‑related, thus no actionable AI insight for Hong Kong audience. Windows 安全更新與 AI 無關，無法提供本港 AI 可執行資訊。"
   },
   {
     "i": 17,
     "title": "經典音樂遊戲登陸任天堂紅白機 利用 Assembly 語言開發 還原街機節奏體驗 - hkepc.com",
     "source_name": "hkepc.com",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Assembly‑based music game demonstrates AI‑enhanced retro development for Hong Kong developers and students. 用Assembly開發音樂遊戲示範AI提升復古開發，適合香港開發者同學生。",
-    "micro_personas": [
-      "Developers experimenting with AI code – 開發者試驗AI程式碼",
-      "Students learning retro game dev – 學生學習復古遊戲開發"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "Assembly music game AI",
-      "retro game development Hong Kong"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Classic music game development using Assembly lacks AI component, irrelevant for Hong Kong AI utility. 使用 Assembly 開發音樂遊戲，未涉及 AI，與本港 AI 應用無關。"
   },
   {
     "i": 18,
     "title": "iPhone Duo 雙螢幕睇波畫面曝光 同時睇波+睇數據超正 但被指球落地前數據已更新 - unwire",
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "iPhone Duo dual‑screen sports view offers Hong Kong sports fans real‑time AI data overlay. iPhone Duo雙螢幕提供即時AI運動數據，適合香港球迷。",
-    "micro_personas": [
-      "Sports fans using AI overlays – 體育迷使用AI數據層",
-      "Tech‑savvy users exploring dual screens – 科技潮人探索雙螢幕"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "iPhone Duo sports AI",
-      "dual screen sports data Hong Kong"
-    ]
+    "decision": "reject",
+    "reject_reason": "iPhone Duo dual‑screen feature is hardware‑centric, no AI element for Hong Kong practical use. iPhone 雙螢幕屬硬件功能，未提供 AI 應用價值，故拒絕。"
   },
   {
     "i": 19,
     "title": "Win11 正式徹底移除 WMIC 工具 部份程式因此失效 微軟官方留有後手 - hkepc.com",
     "source_name": "hkepc.com",
     "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Removal of WMIC impacts Hong Kong system admins and retirees managing legacy Windows setups. WMIC移除影響香港系統管理員同退休人士管理舊版Windows。",
-    "micro_personas": [
-      "System admins updating scripts – 系統管理員更新腳本",
-      "Retirees maintaining personal PCs – 退休人士維護個人電腦"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "WMIC removal impact",
-      "Windows legacy admin Hong Kong"
-    ]
+    "decision": "reject",
+    "reject_reason": "Removal of WMIC is a Windows change, not an AI development, thus irrelevant for HK AI strategy. WMIC 移除屬 Windows 更新，與 AI 無關，無本港實用性。"
   },
   {
     "i": 20,
     "title": "九巴貼地玩「摺」 借輪椅斜板抽水摺機熱潮 - unwire",
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "KMB’s wheelchair‑board innovation shows AI‑enabled accessibility for Hong Kong elderly and parents. 九巴輪椅斜板創新展示AI無障礙，惠及長者同家長。",
-    "micro_personas": [
-      "Elderly using accessible transport – 長者使用無障礙交通",
-      "Parents caring for disabled kids – 家長照顧有需要的孩子"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "KMB wheelchair AI",
-      "accessible transport Hong Kong"
-    ]
+    "decision": "reject",
+    "reject_reason": "KMB wheelchair ramp initiative is a transport tool story, not AI‑related, so excluded. 九巴輪椅斜板屬交通工具改造，未涉及 AI，故拒絕。"
   },
   {
     "i": 21,
@@ -346,16 +267,16 @@
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "independent_report",
     "decision": "accept",
-    "reason": "AGI debate informs Hong Kong professionals and entrepreneurs about AI risk and opportunity. AGI討論為香港專業人士同創業者提供AI風險與機會資訊。",
+    "reason": "Discussion on AGI and OpenAI Astra informs developers and professionals about emerging AI models, guiding HK tech strategy. 討論 AGI 與 OpenAI Astra 為本港開發者及專業人士提供前瞻 AI 模型資訊。",
     "micro_personas": [
-      "Professionals assessing AI strategy – 專業人士評估AI策略",
-      "Entrepreneurs evaluating AGI impact – 創業者評估AGI影響"
+      "Developers – assessing new model capabilities",
+      "Professionals – shaping AI product roadmaps"
     ],
-    "agent_signal": false,
-    "automation_level": 2,
+    "agent_signal": true,
+    "automation_level": 3,
     "history_queries": [
-      "AGI debate Hong Kong",
-      "China AI firms catching up"
+      "OpenAI Astra release",
+      "HK AGI research impact"
     ]
   },
   {
@@ -364,16 +285,16 @@
     "source_name": "香港01",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "AI tools help solo entrepreneurs streamline operations, boosting startup success for Entrepreneurs and SMEs in Hong Kong. AI提升創業效率，幫助創業者同中小企。",
+    "reason": "LegCo member promotes AI tools for solo‑entrepreneur ventures, offering practical guidance to Hong Kong entrepreneurs and SMEs. 立法會議員推 AI 助一人公司，為本港創業者及中小企提供實用指引。",
     "micro_personas": [
-      "Entrepreneurs - AI‑driven business planning",
-      "SMEs - Automated admin workflows"
+      "Entrepreneurs – using AI for business setup",
+      "SMEs – integrating AI workflow tools"
     ],
     "agent_signal": false,
-    "automation_level": 3,
+    "automation_level": 2,
     "history_queries": [
-      "AI startup tools",
-      "solo company automation"
+      "HK solo company AI tools",
+      "AI startup support Hong Kong"
     ]
   },
   {
@@ -382,7 +303,7 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article focuses on a luxury car launch, not AI utility for Hong Kong users. 內容係講豪華車，與香港AI實用性無關。"
+    "reject_reason": "Jony Ive's Ferrari design article is product‑design news, not AI‑focused, thus not actionable for Hong Kong AI users. Jony Ive 設計 Ferrari 為產品設計新聞，未涉及 AI，無本港可執行性。"
   },
   {
     "i": 24,
@@ -390,34 +311,34 @@
     "source_name": "PChome Online 新聞",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "K3 AI model drives revenue growth, offering data analytics insights for Investors and Professionals in Hong Kong. K3 AI模型提升營收，為投資者同專業人士提供數據分析。",
+    "reason": "K3 model leveraging Palantir tactics shows AI‑driven revenue growth, valuable for Hong Kong SMEs and entrepreneurs seeking AI scaling. K3 模型運用 Palantir 策略提升營收，對本港中小企及創業者具 AI 成長參考價值。",
     "micro_personas": [
-      "Professionals - AI‑enhanced market analysis",
-      "Investors - Predictive revenue modeling"
+      "SMEs – adopting AI revenue models",
+      "Entrepreneurs – scaling AI products"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "K3 AI revenue model",
-      "AI analytics Hong Kong"
+      "K3 AI model revenue",
+      "Palantir strategy Hong Kong"
     ]
   },
   {
     "i": 25,
     "title": "關於AI立法美國有新動作涉及未成年上癮- 國際 - 香港文匯報",
     "source_name": "香港文匯報",
-    "evidence_status": "official",
+    "evidence_status": "independent_report",
     "decision": "accept",
-    "reason": "US AI legislation on minors warns Hong Kong parents and educators about addiction risks, informing family safety measures. 美國AI法例提醒香港家長同教育者防止未成年上癮。",
+    "reason": "US AI legislation on teen addiction alerts Hong Kong parents and elderly about potential risks, supporting local privacy and safety measures. 美國 AI 立法關注未成年上癮，為本港家長及長者提供風險警示與安全建議。",
     "micro_personas": [
-      "Parents - Monitoring AI usage",
-      "Students - Safe AI learning environment"
+      "Parents – monitoring teen AI use",
+      "Elderly – understanding AI safety concerns"
     ],
     "agent_signal": false,
-    "automation_level": 2,
+    "automation_level": 1,
     "history_queries": [
-      "AI addiction regulations",
-      "minor AI safety Hong Kong"
+      "AI teen addiction law US",
+      "HK parental AI safety guidelines"
     ]
   }
 ]
