@@ -1,140 +1,276 @@
 [
   {
     "i": 1,
-    "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助 - Sohu",
-    "source_name": "Sohu",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "No clear HK applicability; content is China‑centric AI tool cost claim, not actionable for Hong Kong users. 無明顯香港適用性，內容偏中國，對本地用戶無實際可執行性。"
+    "title": "大模型牌桌上，蚂蚁如何出牌？ - 雷峰网",
+    "source_name": "雷峰网",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Shows Ant Group's model deployment strategies, useful for Entrepreneurs and Developers in HK to adopt cost‑effective large‑model solutions. 展示蚂蚁模型部署策略，创业者與開發者可降低成本使用大型模型。",
+    "micro_personas": [
+      "Entrepreneur developing AI SaaS – 創業者開發AI SaaS",
+      "Developer integrating LLM APIs – 開發者整合大型語言模型API"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Ant Group model deployment",
+      "Large model cost optimization",
+      "AI SaaS integration"
+    ]
   },
   {
     "i": 2,
-    "title": "AI 何时停止过度思考？ - 新浪网",
+    "title": "Ox Alpha揭晓：智谱开源GLM-5.3-Flash，跑在国产芯片上 - 新浪网",
     "source_name": "新浪网",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Abstract discussion on AI overthinking lacks concrete HK use‑case or operational value. 抽象討論AI思考，缺乏香港具體應用或操作價值。"
-  },
-  {
-    "i": 3,
-    "title": "AI正在降低创业门槛 - 新浪财经",
-    "source_name": "新浪财经",
-    "evidence_status": "case_or_test",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Shows AI reducing startup barriers, directly benefiting Hong Kong SMEs and entrepreneurs by lowering tech costs. 展示AI降低創業門檻，直接惠及香港中小企與創業者，減少技術成本。",
+    "reason": "Open‑source GLM‑5.3‑Flash runs on domestic chips, enabling SMEs and Developers in HK to build AI services without foreign cloud dependence. 開源GLM‑5.3‑Flash可於本地芯片運行，幫助中小企與開發者自行建置AI服務。",
     "micro_personas": [
-      "SME owner seeking affordable AI tools – 中小企業主想找平價AI工具",
-      "Entrepreneur prototyping product with AI – 創業者用AI快速原型"
+      "SME IT manager deploying AI locally – 中小企IT經理本地部署AI",
+      "Developer prototyping on domestic hardware – 開發者使用本地硬件原型"
     ],
     "agent_signal": false,
     "automation_level": 2,
     "history_queries": [
-      "AI startup cost reduction",
-      "Hong Kong SME AI tools"
+      "GLM-5.3-Flash chip compatibility",
+      "Open source LLM on Chinese silicon",
+      "Local AI deployment guide"
+    ]
+  },
+  {
+    "i": 3,
+    "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助 - 新浪财经",
+    "source_name": "新浪财经",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Cost‑reduction in inference lowers pricing for AI tools, benefiting Office Workers and Parents using educational apps in HK. 推理成本下降降低AI工具價格，辦公室員工與家長使用教育應用受惠。",
+    "micro_personas": [
+      "Office worker using AI writing assistant – 辦公室員工使用AI寫作助手",
+      "Parent selecting AI tutoring apps – 家長挑選AI輔導應用"
+    ],
+    "agent_signal": false,
+    "automation_level": 4,
+    "history_queries": [
+      "Inference cost reduction LLM",
+      "AI tool pricing HK",
+      "Affordable AI services"
     ]
   },
   {
     "i": 4,
-    "title": "皇冠体育注册入口2026年最新评测：AI赋能个性化学习，助力百万学子提分 - 体坛加",
-    "source_name": "体坛加",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Focuses on Chinese learning platform; no evidence of HK deployment or relevance to local families. 重點在中國學習平台，缺乏香港部署或本地家庭相關性。"
+    "title": "AI 何时停止过度思考？ - 新浪网",
+    "source_name": "新浪网",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Safety insights guide HR Professionals and Employers in HK to set AI governance policies, preventing over‑use risks. 安全洞見指導HR與雇主制定AI治理政策，防止過度使用風險。",
+    "micro_personas": [
+      "HR professional drafting AI policy – HR專員制定AI政策",
+      "Employer evaluating AI tools – 雇主評估AI工具"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "AI safety guidelines",
+      "Overthinking AI risk",
+      "HR AI governance"
+    ]
   },
   {
     "i": 5,
-    "title": "Anthropic指控中国大模型蒸馏：议程陷阱、技术伦理与地缘风险 - 虎嗅网",
-    "source_name": "虎嗅网",
-    "evidence_status": "official",
-    "decision": "reject",
-    "reject_reason": "Regulatory/ethical issue about Chinese models; not directly actionable for Hong Kong compliance. 關於中國模型的監管與倫理問題，對香港合規無直接可執行性。"
-  },
-  {
-    "i": 6,
-    "title": "支付宝AI就业助手“晓叶”升级，可上阿宝一句话找工作 - 新浪财经",
+    "title": "AI正在降低创业门槛 - 新浪财经",
     "source_name": "新浪财经",
-    "evidence_status": "case_or_test",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Alipay AI job assistant can aid Hong Kong job seekers and HR professionals with localized job matching. 支付寶AI就業助手可協助香港求職者與HR進行本地化職位匹配。",
+    "reason": "Shows AI lowering startup barriers, directly relevant to Entrepreneurs and SMEs in HK seeking rapid prototyping. 展示AI降低創業門檻，創業者與中小企可快速原型開發。",
     "micro_personas": [
-      "Job seeker using AI to find HK roles – 求職者用AI找香港職位",
-      "HR professional screening candidates with AI – HR利用AI篩選候選人"
+      "Entrepreneur launching AI product – 創業者推出AI產品",
+      "SME exploring AI automation – 中小企探索AI自動化"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Alipay AI job search Hong Kong",
-      "AI recruitment tool HK"
+      "AI startup cost HK",
+      "SME AI adoption",
+      "Rapid AI prototyping"
+    ]
+  },
+  {
+    "i": 6,
+    "title": "皇冠体育注册入口2026年最新评测：AI赋能个性化学习，助力百万学子提分 - 体坛加",
+    "source_name": "体坛加",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "AI‑personalized learning platform benefits Students and Parents in HK by improving study efficiency. AI個性化學習平台提升學生與家長的學習效率。",
+    "micro_personas": [
+      "Student using AI tutoring – 學生使用AI輔導",
+      "Parent monitoring AI learning progress – 家長監測AI學習進度"
+    ],
+    "agent_signal": false,
+    "automation_level": 4,
+    "history_queries": [
+      "AI personalized learning HK",
+      "Student AI tutoring platforms",
+      "Parent education AI tools"
     ]
   },
   {
     "i": 7,
-    "title": "自然交互：EMC188易倍体育80+应用全面上线，重塑智能体育新体验 - 体坛加",
-    "source_name": "体坛加",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Sports AI application specific to Chinese market; no clear HK sports or fitness integration. 體育AI應用僅針對中國市場，缺乏香港體育或健身的明確整合。"
+    "title": "对战6亿用户竞技手游：聚焦复杂游戏中的多智能体博弈 - 雷峰网",
+    "source_name": "雷峰网",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Multi‑agent game AI research offers Developers and Entrepreneurs in HK new techniques for interactive apps and gamified services. 多智能體遊戲AI研究為開發者與創業者提供互動應用新技術。",
+    "micro_personas": [
+      "Game developer integrating multi‑agent AI – 遊戲開發者整合多智能體AI",
+      "Entrepreneur building gamified marketing – 創業者打造遊戲化行銷"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Multi-agent AI gaming",
+      "AI for interactive apps",
+      "Game AI research China"
+    ]
   },
   {
     "i": 8,
-    "title": "产业AI落地加速：澳门永利备用网站以“端侧智能+全栈协同”助力企业降本增效 - 体坛加",
-    "source_name": "体坛加",
-    "evidence_status": "case_or_test",
+    "title": "Anthropic指控中国大模型蒸馏：议程陷阱、技术伦理与地缘风险 - 虎嗅网",
+    "source_name": "虎嗅网",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Edge‑AI solution for enterprise cost reduction can be adopted by Hong Kong firms to boost efficiency. 端側AI解決方案可被香港企業採用，降低成本提升效率。",
+    "reason": "Regulatory warning on model distillation informs Professionals and HR about compliance risks in HK AI projects. 模型蒸餾的監管警示提醒專業人士與HR在香港AI項目中的合規風險。",
     "micro_personas": [
-      "Enterprise IT manager implementing edge AI – 企業IT經理部署端側AI",
-      "Operations director seeking efficiency gains – 營運總監追求效率提升"
+      "Compliance officer assessing AI risk – 合規官評估AI風險",
+      "HR evaluating AI vendor ethics – HR評估AI供應商倫理"
     ],
-    "agent_signal": true,
-    "automation_level": 4,
+    "agent_signal": false,
+    "automation_level": 1,
     "history_queries": [
-      "Edge AI enterprise Hong Kong",
-      "AI cost reduction HK businesses"
+      "AI model distillation regulation",
+      "Ethical AI compliance HK",
+      "Anthropic China model issues"
     ]
   },
   {
     "i": 9,
-    "title": "基金行业首个大模型技术应用规范发布，安全管理是重中之重 - yicai.com",
-    "source_name": "yicai.com",
+    "title": "59博综合平台官方网站发布AI个性化学习平台 智能教育规模化落地进入新阶段 - 体坛加",
+    "source_name": "体坛加",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "First AI model governance standard for funds offers Hong Kong financial firms a compliance framework. 基金行業首個AI模型規範為香港金融機構提供合規框架。",
+    "reason": "Large‑scale AI education platform rollout offers scalable tools for Schools, Students and Parents in HK. 大規模AI教育平台提供可擴展工具給學校、學生與家長。",
     "micro_personas": [
-      "Fund manager ensuring AI compliance – 基金經理確保AI合規",
-      "Compliance officer drafting AI policies – 合規官制定AI政策"
+      "School admin deploying AI curriculum – 學校管理員部署AI課程",
+      "Student accessing AI study portal – 學生使用AI學習平台"
     ],
     "agent_signal": false,
-    "automation_level": 2,
+    "automation_level": 5,
     "history_queries": [
-      "AI model governance finance HK",
-      "Fund industry AI standards"
+      "AI education platform scale",
+      "HK school AI integration",
+      "Student AI learning portal"
     ]
   },
   {
     "i": 10,
-    "title": "从认路到「跌倒再战」，机器人也在重走大模型的Scaling之路？ - 新浪财经",
-    "source_name": "新浪财经",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Robotics scaling discussion lacks specific HK deployment or practical guidance for local users. 討論機器人擴展，缺乏香港具體部署或實用指引。"
-  },
-  {
-    "i": 11,
-    "title": "通用大模型C端遇瓶颈，字节、阿里、腾讯押注AI办公智能体，争夺下一代办公入口！ - blog.csdn.net",
-    "source_name": "blog.csdn.net",
-    "evidence_status": "case_or_test",
+    "title": "AI驱动流媒体节目回放入口升级：贝博在线体育投注在2026全球流媒体技术大会详解技术赋能与出海策略 - 体坛加",
+    "source_name": "体坛加",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "AI office assistants from major Chinese firms can inform Hong Kong office workers on next‑gen productivity tools. 中國大廠AI辦公助手可為香港辦公族提供新一代生產力工具資訊。",
+    "reason": "AI‑enhanced streaming tech can be adopted by Media Professionals and Entrepreneurs in HK for localized content delivery. AI增強的流媒體技術可供媒體專業人士與創業者本地化內容傳播。",
     "micro_personas": [
-      "Office worker adopting AI assistant – 辦公室員工使用AI助理",
-      "HR professional evaluating AI office tools – HR評估AI辦公工具"
+      "Media producer using AI video replay – 媒體製作人使用AI回放",
+      "Entrepreneur launching streaming service – 創業者推出流媒體服務"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "AI office assistant Hong Kong",
-      "Productivity AI tools HK"
+      "AI streaming technology",
+      "Content replay AI",
+      "HK media AI tools"
     ]
+  },
+  {
+    "i": 11,
+    "title": "支付宝AI就业助手“晓叶”升级，可上阿宝一句话找工作 - 新浪财经",
+    "source_name": "新浪财经",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "AI job‑search assistant offers Office Workers and Job‑seekers in HK faster matching and resume optimization. AI求職助手為辦公室員工與求職者提供快速匹配與履歷優化。",
+    "micro_personas": [
+      "Office worker searching new role – 辦公室員工尋找新工作",
+      "Job seeker using AI resume tool – 求職者使用AI履歷工具"
+    ],
+    "agent_signal": false,
+    "automation_level": 4,
+    "history_queries": [
+      "AI job assistant HK",
+      "Resume optimization AI",
+      "Job matching chatbot"
+    ]
+  },
+  {
+    "i": 12,
+    "title": "自然交互：EMC188易倍体育80+应用全面上线，重塑智能体育新体验 - 体坛加",
+    "source_name": "体坛加",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Smart sports AI applications can be used by Elderly and Retirees in HK for health monitoring and activity planning. 智能體育AI應用可供長者與退休人士進行健康監測與活動規劃。",
+    "micro_personas": [
+      "Elderly using AI fitness tracker – 長者使用AI健身追蹤",
+      "Retiree planning daily exercise – 退休人士規劃日常運動"
+    ],
+    "agent_signal": false,
+    "automation_level": 2,
+    "history_queries": [
+      "AI sports health HK",
+      "Elderly fitness AI",
+      "Retiree activity planning AI"
+    ]
+  },
+  {
+    "i": 13,
+    "title": "产业AI落地加速：澳门永利备用网站以“端侧智能+全栈协同”助力企业降本增效 - 体坛加",
+    "source_name": "体坛加",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Shows how edge AI + full-stack collaboration cuts costs and boosts efficiency for Hong Kong SMEs and entrepreneurs, enabling office workers to automate routine tasks. 展示邊緣AI同全棧協作幫本地中小企同創業者降本增效，辦公室員工可自動化日常工作。",
+    "micro_personas": [
+      "SME owner automating inventory reporting - 中小企業主自動化庫存報表",
+      "Office worker using on‑device AI for document summarisation - 辦公室員工使用本地AI做文件摘要"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Edge AI + Cost Reduction",
+      "Full‑stack AI Collaboration Hong Kong",
+      "On‑device AI document summarisation"
+    ]
+  },
+  {
+    "i": 14,
+    "title": "基金行业首个大模型技术应用规范发布，安全管理是重中之重 - 第一财经",
+    "source_name": "第一财经",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The new large‑model usage standards for fund firms give Hong Kong financial professionals clear compliance steps, helping employers and HR teams manage AI risk. 新的大模型應用規範為本地金融專業人士提供合規指引，協助僱主與人力資源部門管理AI風險。",
+    "micro_personas": [
+      "Fund manager ensuring model compliance - 基金經理確保模型合規",
+      "HR professional drafting AI governance policy - 人力資源專員制定AI治理政策"
+    ],
+    "agent_signal": false,
+    "automation_level": 2,
+    "history_queries": [
+      "Fund industry AI compliance Hong Kong",
+      "Large model governance guidelines",
+      "AI risk management for employers"
+    ]
+  },
+  {
+    "i": 15,
+    "title": "从认路到「跌倒再战」，机器人也在重走大模型的Scaling之路？ - finance.sina.com.cn",
+    "source_name": "finance.sina.com.cn",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Content is abstract discussion of model scaling without concrete HK use cases; lacks actionable value for any target group. 內容係抽象模型擴展討論，冇本地實用案例，無法為目標群體提供具體價值。"
   }
 ]
