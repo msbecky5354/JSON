@@ -1,0 +1,245 @@
+[
+  {
+    "i": 1,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 2,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 3,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 4,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 5,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 7,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 8,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 9,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 10,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 11,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 12,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 13,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 14,
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Office Workers and SMEs can leverage AI data center cost cuts to negotiate better cloud pricing, enhancing budget efficiency. 打工仔同中小企可利用AI數據中心減成本，談更好雲端價錢。",
+    "micro_personas": [
+      "Office Workers optimizing IT spend - 打工仔優化IT開支",
+      "SME owners negotiating cloud contracts - 中小企老闆談雲端合約"
+    ],
+    "agent_signal": false,
+    "automation_level": 2,
+    "history_queries": [
+      "Oracle AI cost reduction",
+      "HK cloud pricing negotiation",
+      "AI data center savings"
+    ]
+  },
+  {
+    "i": 15,
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "SMEs and Entrepreneurs can adopt low‑carbon ESG solutions showcased at ReThink HK for sustainability branding. 中小企同創業者可採用低碳ESG方案提升品牌形象。",
+    "micro_personas": [
+      "SME sustainability officer - 中小企可持續發展主管",
+      "Entrepreneur seeking ESG funding - 創業者尋求ESG資金"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "ReThink HK ESG solutions",
+      "Low carbon tech HK",
+      "Sustainability grants Hong Kong"
+    ]
+  },
+  {
+    "i": 16,
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "IT staff and Developers need to patch Remote Desktop vulnerability to protect corporate networks. IT人員同開發者需即時更新遠端桌面安全補丁。",
+    "micro_personas": [
+      "IT support fixing RDP issue - IT支援修復RDP問題",
+      "Developer ensuring secure dev environment - 開發者確保安全開發環境"
+    ],
+    "agent_signal": false,
+    "automation_level": 3,
+    "history_queries": [
+      "Windows September security update",
+      "Remote Desktop vulnerability HK",
+      "Patch RDP issue"
+    ]
+  },
+  {
+    "i": 17,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Content is niche retro gaming tech, not actionable for HK work or business. 內容係懷舊遊戲技術，對香港工作或商業無實際應用。"
+  },
+  {
+    "i": 18,
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Sports fans and Parents can use dual‑screen iPhone for live scores and data, enhancing family viewing experience. 體育迷同家長可用iPhone雙螢幕睇波同數據，提升家庭觀賽體驗。",
+    "micro_personas": [
+      "Parent watching live sports with kids - 家長同小朋友睇波",
+      "Sports enthusiast tracking stats - 體育迷追蹤數據"
+    ],
+    "agent_signal": false,
+    "automation_level": 0,
+    "history_queries": [
+      "iPhone dual screen sports app",
+      "Live score multi‑screen HK",
+      "iPhone sports data display"
+    ]
+  },
+  {
+    "i": 19,
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Developers and IT admins must adapt scripts after WMIC removal, ensuring continued automation. 開發者同IT管理員需調整腳本以應對WMIC移除，保持自動化。",
+    "micro_personas": [
+      "Developer updating scripts - 開發者更新腳本",
+      "IT admin maintaining automation - IT管理員維持自動化"
+    ],
+    "agent_signal": false,
+    "automation_level": 4,
+    "history_queries": [
+      "WMIC removal Windows 11",
+      "Alternative to WMIC HK",
+      "Script migration WMIC"
+    ]
+  },
+  {
+    "i": 20,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Story about a novelty wheelchair gadget lacks AI relevance or HK business impact. 故事係新奇輪椅裝置，與AI或香港商業無關。"
+  },
+  {
+    "i": 21,
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "Tech professionals can assess AGI claims to guide R&D investment decisions in HK firms. 科技專業人士可評估AGI聲稱，指導香港公司研發投資決策。",
+    "micro_personas": [
+      "Tech analyst evaluating AI trends - 科技分析師評估AI趨勢",
+      "R&D manager planning projects - 研發經理規劃項目"
+    ],
+    "agent_signal": false,
+    "automation_level": 2,
+    "history_queries": [
+      "OpenAI Astra AGI impact",
+      "AGI market analysis HK",
+      "AI research investment Hong Kong"
+    ]
+  },
+  {
+    "i": 22,
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Entrepreneurs and SMEs can use AI tools to streamline single‑person company setup, boosting startup rates. 創業者同中小企可用AI簡化一人公司設立，提高創業率。",
+    "micro_personas": [
+      "Solo founder using AI registration - 一人公司創辦人用AI註冊",
+      "SME owner automating compliance - 中小企老闆自動化合規"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "AI company registration HK",
+      "One‑person business AI tools",
+      "Startup automation Hong Kong"
+    ]
+  },
+  {
+    "i": 23,
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focus on car design without AI or HK practical use; not relevant to target groups. 重點係汽車設計，無AI或香港實用性，與目標群體無關。"
+  },
+  {
+    "i": 24,
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Financial analysts and Investors can apply K3 model insights to evaluate HK IPO prospects, improving decision‑making. 金融分析師同投資者可用K3模型評估香港IPO，提升決策質素。",
+    "micro_personas": [
+      "Equity analyst assessing IPOs - 股票分析師評估IPO",
+      "Investor using AI valuation - 投資者使用AI估值"
+    ],
+    "agent_signal": false,
+    "automation_level": 2,
+    "history_queries": [
+      "K3 model IPO analysis",
+      "HK IPO valuation AI",
+      "Palantir strategy Hong Kong"
+    ]
+  },
+  {
+    "i": 25,
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Parents and Educators need to understand US AI legislation on minors to protect HK children from similar risks. 家長同教育者需了解美國AI未成年立法，防止香港兒童面臨類似風險。",
+    "micro_personas": [
+      "Parent monitoring child tech use - 家長監察子女使用科技",
+      "School counselor reviewing AI policies - 學校輔導員審視AI政策"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "US AI minors legislation",
+      "Child online safety AI HK",
+      "AI addiction prevention Hong Kong"
+    ]
+  }
+]
