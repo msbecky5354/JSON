@@ -1,432 +1,438 @@
 [
   {
     "i": 1,
-    "title": "記憶體加價步伐「放緩」 原因是再加價已經買不起 - unwire",
+    "title": "BlizzCon 2026 懶人包：Diablo V 發表、StarCraft 回歸、WOW Forever 登場、Warcraft 3 有追加劇情 - unwire",
+    "title_en": "BlizzCon 2026 Highlights: Diablo V Announcement, StarCraft Return, World of Warcraft Forever Launch, and Additional Warcraft 3 Storyline",
+    "hashtags": [
+      "#BlizzCon",
+      "#GamingNews",
+      "#TechEvents"
+    ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "No AI content; purely memory price news 無AI內容，僅係記憶體價格資訊"
+    "reject_reason": "純粹遊戲展覽，冇AI技術或實用工具，對本地工作或商業冇直接價值"
   },
   {
     "i": 2,
-    "title": "Chinese researchers extend future memory endurance 100-fold in semiconductor advance",
-    "source_name": "Tech - South China Morning Post",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Semiconductor memory durability, not AI application; 與AI無關，僅係半導體技術"
+    "title": "《香港01》十周年｜會地黃光耀：十載創新不止於此 領航傳媒AI化 - 香港01",
+    "title_en": "Hong Kong 01 Celebrates Its 10th Anniversary and Leads Media AI Transformation",
+    "hashtags": [
+      "#AI",
+      "#MediaInnovation",
+      "#HongKong01"
+    ],
+    "source_name": "香港01",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "香港01媒體AI化提升編輯自動化，同時減少人工校對，對媒體專業人士同企業HR有明顯效率提升",
+    "micro_personas": [
+      "媒體編輯",
+      "企業HR"
+    ],
+    "agent_signal": false,
+    "automation_level": 3,
+    "history_queries": [
+      "香港01 AI轉型",
+      "媒體編輯 自動校對"
+    ]
   },
   {
     "i": 3,
-    "title": "AnthropicCEO提三步計劃控AI風險 奧巴馬籲民主黨定政策防AI失控 - 香港01",
+    "title": "立法會議員．陳文宜｜推動「AI＋社福」 共建關愛創科之城 - 香港01",
+    "title_en": "Legislator Chen Wen-yi Promotes \"AI + Social Welfare\" to Build a Caring Innovation City",
+    "hashtags": [
+      "#AI",
+      "#SocialWelfare",
+      "#Policy"
+    ],
     "source_name": "香港01",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Anthropic's risk framework offers HR Professionals and Employers concrete AI governance steps for HK workplaces. Anthropic嘅風險框架提供HR同僱主實用AI治理指引。",
+    "reason": "立法會推動AI+社福方案，可用於長者健康監測同家庭照顧，對長者同家長提供智能支援服務",
     "micro_personas": [
-      "HR Professionals – drafting AI policy / HR專業人士 – 制定AI政策",
-      "Employers – overseeing AI tool compliance / 僱主 – 監管AI工具合規"
+      "長者護理員",
+      "家長"
     ],
-    "agent_signal": false,
+    "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Anthropic policy guidance",
-      "AI risk management HK"
+      "AI 社福 方案",
+      "長者 健康監測"
     ]
   },
   {
     "i": 4,
-    "title": "偷換走 46 部電腦 Core i7 與記憶體 降級「縮水」 Newegg 套現遭 FBI 拘捕 - 電腦領域HKEPC Hardware",
-    "source_name": "電腦領域HKEPC Hardware",
+    "title": "The US and China are racing to build ‘self-improving AI’. Here’s what’s at stake",
+    "title_en": "The US and China Accelerate the Race to Build Self‑Improving AI Systems",
+    "hashtags": [
+      "#AI",
+      "#USChina",
+      "#TechRace"
+    ],
+    "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Hardware theft story, no AI relevance; 硬件盜竊報道，與AI無關"
+    "reject_reason": "內容聚焦美中AI競賽，缺乏本地可執行資訊，對香港企業無直接應用"
   },
   {
     "i": 5,
-    "title": "Diablo V 於 BlizzCon 2026 公佈後 : 官方詳細資料補充：職業、世界觀及介面等 - unwire",
+    "title": "Anthropic 揭 7 大 Claude 濫用類別 由網絡攻擊到導彈研發 - unwire",
+    "title_en": "Anthropic Reveals Seven Misuse Categories of Claude, From Cyber Attacks to Missile Development",
+    "hashtags": [
+      "#AI",
+      "#Safety",
+      "#Misuse"
+    ],
     "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Game release info, lacks AI component; 遊戲發布資訊，無AI元素"
-  },
-  {
-    "i": 6,
-    "title": "PlayStation 棄小島秀夫 分析師指《死亡擱淺2》銷量未達標成最大主因 - unwire",
-    "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Sales analysis of a game, not AI related; 銷量分析，與AI無關"
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "Anthropic公布Claude濫用類別，提醒開發者防範安全風險，對開發者同中小企提升AI安全意識有幫助",
+    "micro_personas": [
+      "AI開發者",
+      "中小企IT主管"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Claude 濫用 類別",
+      "AI 安全 防範"
+    ]
   },
   {
     "i": 7,
-    "title": "Beijing pushes AI-assisted chip design as part of self-sufficiency drive",
-    "source_name": "Tech - South China Morning Post",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "AI‑assisted chip design can cut development time for SMEs and Developers in HK, boosting local semiconductor projects. AI輔助晶片設計可為本地中小企同開發者縮短開發周期。",
-    "micro_personas": [
-      "SMEs – rapid prototype chips / 中小企 – 快速原型晶片",
-      "Developers – AI‑driven layout tools / 開發者 – AI布局工具"
+    "title": "中國 AI 被指一度由 Claude 代答 解放軍重要地點閉路電視 一度流入美國系統 - unwire",
+    "title_en": "Chinese AI Allegedly Used Claude to Answer Queries, Allowing Military CCTV Footage to Leak into US Systems",
+    "hashtags": [
+      "#AI",
+      "#Security",
+      "#China"
     ],
-    "agent_signal": false,
-    "automation_level": 3,
+    "source_name": "unwire",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "中國AI被指洩露軍事影像，提醒本地企業加強資料防護，對企業與政府資訊安全有警示作用",
+    "micro_personas": [
+      "企業資訊安全主管",
+      "政府IT部門"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
     "history_queries": [
-      "AI chip design tools",
-      "semiconductor AI HK"
+      "AI 資料洩露 風險",
+      "軍事影像 防護"
     ]
   },
   {
     "i": 8,
-    "title": "Apple Upgrade 擴至 Mac 及 iPad 月租低至 11.99 美元起 租期結束無需承擔 AppleCare - unwire",
+    "title": "新 Apple Watch Ultra 定位系統剩四個 悄悄移除 GLONASS 支援 - unwire",
+    "title_en": "New Apple Watch Ultra Removes GLONASS Support, Leaving Only Four Positioning Systems",
+    "hashtags": [
+      "#AppleWatch",
+      "#TechUpdate",
+      "#GPS"
+    ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Subscription pricing news, no AI element; 訂閱價格資訊，無AI內容"
+    "reject_reason": "純粹硬件定位變更，與AI無關，對本地工作或商業無直接影響"
   },
   {
     "i": 9,
-    "title": "iPhone 18 Pro 預購湧大量信用卡短訊 方保僑籲市民先向銀行查詢 - unwire",
-    "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Credit‑card scam alert, not AI focused; 信用卡詐騙警示，與AI無關"
-  },
-  {
-    "i": 11,
-    "title": "《香港01》十周年｜會地黃光耀：十載創新不止於此 領航傳媒AI化 - 香港01",
-    "source_name": "香港01",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK01's AI media transformation offers Professionals and Students insights into AI content creation tools for local journalism. HK01 AI媒體轉型為專業人士同學生提供AI內容創作工具見解。",
-    "micro_personas": [
-      "Professionals – using AI for reporting / 專業人士 – 用AI寫報道",
-      "Students – learning AI media skills / 學生 – 學習AI媒體技巧"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "AI journalism tools HK",
-      "media AI training"
-    ]
-  },
-  {
-    "i": 12,
-    "title": "立法會議員．陳文宜｜推動「AI＋社福」 共建關愛創科之城 - 香港01",
-    "source_name": "香港01",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "AI+social welfare initiative provides actionable AI services for Elderly and Families, enhancing community support in HK. AI+社福計劃為長者同家庭提供實用AI服務，提升社區支援。",
-    "micro_personas": [
-      "Elderly – AI health monitoring / 長者 – AI健康監測",
-      "Parents – AI childcare assistance / 父母 – AI育兒協助"
-    ],
-    "agent_signal": false,
-    "automation_level": 3,
-    "history_queries": [
-      "AI social welfare HK",
-      "community AI services"
-    ]
-  },
-  {
-    "i": 13,
-    "title": "The US and China are racing to build ‘self-improving AI’. Here’s what’s at stake",
-    "source_name": "Tech - South China Morning Post",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Insights on self‑improving AI inform Entrepreneurs and Developers about emerging risks and opportunities for HK tech ventures. 自我改進AI資訊為創業者同開發者提供風險與機會指引。",
-    "micro_personas": [
-      "Entrepreneurs – evaluating AI startup potential / 創業者 – 評估AI創業機會",
-      "Developers – building self‑optimising models / 開發者 – 建造自我優化模型"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "self improving AI risks",
-      "AI startup trends HK"
-    ]
-  },
-  {
-    "i": 14,
-    "title": "文匯報社論｜五年規劃施政報告同日公布 創新安排激發活力｜全文 - TVB",
-    "source_name": "TVB",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "No AI content, purely policy editorial; 無AI實質內容，僅政策評論，唔適用於本地實務。"
-  },
-  {
-    "i": 15,
-    "title": "JengCar: 買車前 Send 個車盤，WhatsApp AI 即時分析價格同風險 - Unwire Launch",
-    "source_name": "Unwire Launch",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "WhatsApp AI instantly analyses car price/risk, aiding buyers and entrepreneurs in Hong Kong market decisions. WhatsApp AI 即時分析車價風險，幫助本地買家及創業者作出決策。",
-    "micro_personas": [
-      "Car buyers using WhatsApp – 購車者使用 WhatsApp",
-      "Entrepreneurs offering car brokerage – 車行創業者"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "JengCar price analysis",
-      "WhatsApp AI car valuation"
-    ]
-  },
-  {
-    "i": 16,
-    "title": "Anthropic 揭 7 大 Claude 濫用類別 由網絡攻擊到導彈研發 - unwire",
-    "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Anthropic’s misuse report warns HK developers and enterprises about AI abuse scenarios, enabling preventive measures. Anthropic 濫用報告提醒本地開發者與企業防範AI濫用。",
-    "micro_personas": [
-      "Developers securing AI apps – 開發者保安AI應用",
-      "SME owners managing AI risk – 中小企業主管理AI風險"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "Anthropic misuse categories",
-      "AI safety guidelines Hong Kong"
-    ]
-  },
-  {
-    "i": 17,
-    "title": "Anthropic 揭 7 大 Claude 濫用類別　由網絡攻擊到導彈研發",
-    "source_name": "香港 unwire.hk 玩生活．樂科技",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Detailed Claude misuse cases provide HK professionals actionable insights to audit AI deployments across sectors. 詳盡Claude濫用案例為本地專業人士提供審核AI部署的實用見解。",
-    "micro_personas": [
-      "HR professionals evaluating AI tools – 人力資源評估AI工具",
-      "Professionals overseeing compliance – 合規專員"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "Claude misuse report",
-      "AI compliance Hong Kong"
-    ]
-  },
-  {
-    "i": 18,
-    "title": "中國 AI 被指一度由 Claude 代答 解放軍重要地點閉路電視 一度流入美國系統 - unwire",
-    "source_name": "unwire",
-    "evidence_status": "independent_report",
-    "decision": "accept",
-    "reason": "Report of AI misuse in military CCTV highlights security risks for HK telecom and government sectors. 報告揭示軍事監控AI濫用，提醒本地電訊與政府部門安全風險。",
-    "micro_personas": [
-      "Elderly using surveillance apps – 老人使用監控應用",
-      "Government IT staff – 政府資訊人員"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "AI CCTV security risk",
-      "Military AI misuse Hong Kong"
-    ]
-  },
-  {
-    "i": 19,
-    "title": "新 Apple Watch Ultra 定位系統剩四個 悄悄移除 GLONASS 支援 - unwire",
-    "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Focuses on GPS hardware change, no AI relevance; 只談定位硬件變更，無AI相關，唔適用。"
-  },
-  {
-    "i": 20,
     "title": "Vobile Group (3738) Partners with Ant Digital Technology to Build Copyright Large Model — Key Investor Highlights - Minichart",
+    "title_en": "Vobile Group Partners with Ant Digital Technology to Develop a Copyright Large Model",
+    "hashtags": [
+      "#AI",
+      "#Copyright",
+      "#Partnership"
+    ],
     "source_name": "Minichart",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Vobile’s copyright large model offers HK media firms automated rights management, cutting costs. Vobile 版權大模型為本地媒體公司提供自動化權利管理，降低成本。",
+    "reason": "Vobile同阿里合作開發版權大模型，可自動檢測侵權內容，對媒體、SME同開發者降低版權成本",
     "micro_personas": [
-      "Media SMEs managing copyrights – 媒體中小企管理版權",
-      "Legal professionals overseeing IP – 法律專員監督知識產權"
+      "版權審核員",
+      "SME內容創作者"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "Vobile copyright model",
-      "AI IP management Hong Kong"
+      "版權 大模型 檢測",
+      "AI 版權 監控"
     ]
   },
   {
-    "i": 21,
+    "i": 10,
     "title": "白宮稱 Truth Social 全球最強 數據卻顯示日活躍用戶不足 X 五百分之一 - unwire",
+    "title_en": "White House Claims Truth Social Is the World's Strongest Platform, Yet Data Shows Daily Active Users Are Less Than One Five‑Hundredth of a Percent",
+    "hashtags": [
+      "#SocialMedia",
+      "#TruthSocial",
+      "#Data"
+    ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Discusses social media data, not AI technology; 討論社交平台數據，非AI技術，無實用價值。"
+    "reject_reason": "主題係社交平台用戶數，與AI技術無關，缺乏本地實用價值"
   },
   {
-    "i": 22,
+    "i": 11,
     "title": "Meta 全新頭戴裝置設計圖流出 代號「Project Phoenix」混合實境眼鏡 - unwire",
+    "title_en": "Leak Reveals Meta's New Mixed‑Reality Headset Design Codenamed \"Project Phoenix\"",
+    "hashtags": [
+      "#Meta",
+      "#AR",
+      "#TechLeaks"
+    ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Headset design leak lacks AI application details; 頭戴裝置設計外洩，缺乏AI應用細節，無直接實用性。"
+    "reject_reason": "混合實境頭戴裝置泄漏，未涉及AI應用，對本地業務無直接幫助"
   },
   {
-    "i": 23,
-    "title": "開源下載神器 OmniGet 崛起 貼上連結即可下載 大量插件擴充功能 - 電腦領域HKEPC Hardware",
-    "source_name": "電腦領域HKEPC Hardware",
+    "i": 12,
+    "title": "開源下載神器 OmniGet 崛起 貼上連結即可下載 大量插件擴充功能 - hkepc.com",
+    "title_en": "Open‑Source Download Tool OmniGet Gains Popularity with One‑Click Plugin Expansion",
+    "hashtags": [
+      "#OpenSource",
+      "#DownloadTool",
+      "#Productivity"
+    ],
+    "source_name": "hkepc.com",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "OmniGet is a download tool, not AI-driven; OmniGet 下載工具，非AI，與本任務無關。"
+    "reject_reason": "開源下載工具屬於生產力軟件，無AI成分，與本任務範圍不符"
   },
   {
-    "i": 24,
+    "i": 13,
     "title": "彭博記者揭 Tim Cook 內幕 iPhone Duo 在他 2020 年亞洲之行後拍板開發 - unwire",
+    "title_en": "Bloomberg Reporter Uncovers Tim Cook’s Decision to Develop iPhone Duo After His 2020 Asia Tour",
+    "hashtags": [
+      "#Apple",
+      "#iPhoneDuo",
+      "#Insider"
+    ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "iPhone Duo rumor unrelated to AI; iPhone Duo 傳聞與AI無關，無本地應用。"
+    "reject_reason": "iPhone Duo傳聞屬於產品謠言，未涉及AI技術或實用應用"
   },
   {
-    "i": 25,
+    "i": 14,
     "title": "【AI+裁員】甲骨文重組成本追加至7億美元 為建AI數據中心急裁員節流 - 香港經濟日報HKET",
+    "title_en": "Oracle Restructures Costs to $700 Million and Cuts Jobs to Fund AI Data Center Construction",
+    "hashtags": [
+      "#Oracle",
+      "#AI",
+      "#Layoffs"
+    ],
     "source_name": "香港經濟日報HKET",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Oracle’s AI data center cuts signal cost pressures for HK enterprises, prompting strategic AI adoption. Oracle AI 數據中心裁員顯示本地企業成本壓力，促進AI採用策略。",
+    "reason": "Oracle 投資 AI 數據中心，企業同僱員可利用雲端 AI 服務提升運算效能，同時減少硬件成本。",
     "micro_personas": [
-      "Enterprise IT managers planning AI – 企業IT經理規劃AI",
-      "SME owners evaluating cloud AI – 中小企業主評估雲端AI"
+      "企業老闆想降低 IT 成本",
+      "IT 專員部署 AI 服務"
     ],
-    "agent_signal": true,
+    "agent_signal": false,
     "automation_level": 3,
     "history_queries": [
-      "Oracle AI data center layoffs",
-      "AI cost reduction Hong Kong"
+      "Oracle + AI部署",
+      "AI雲端 + 成本降低"
     ]
   },
   {
-    "i": 26,
+    "i": 15,
     "title": "生產力局參展ReThink HK 2026 展示創新低碳及ESG解決方案 - IT PRO Magazine",
+    "title_en": "Productivity Bureau Showcases Innovative Low‑Carbon and ESG Solutions at ReThink HK 2026",
+    "hashtags": [
+      "#ESG",
+      "#LowCarbon",
+      "#Innovation"
+    ],
     "source_name": "IT PRO Magazine",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "No AI content; focuses on ESG solutions unrelated to AI applications. 無AI內容，與AI應用無關。"
+    "reject_reason": "呢篇報導主要係 ESG 同低碳創新，冇涉及 AI 技術或可落實嘅 AI 應用，唔符合任務要求。"
   },
   {
-    "i": 27,
-    "title": "Windows 9 月安全更新傳災情 Remote Desktop 癱瘓、連線死鎖無回應 - 電腦領域HKEPC Hardware",
-    "source_name": "電腦領域HKEPC Hardware",
+    "i": 16,
+    "title": "Windows 9 月安全更新傳災情 Remote Desktop 癱瘓、連線死鎖無回應 - hkepc.com",
+    "title_en": "Windows September Security Update Causes Remote Desktop Outages and Connection Locks",
+    "hashtags": [
+      "#Windows",
+      "#SecurityUpdate",
+      "#IT"
+    ],
+    "source_name": "hkepc.com",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Topic is Windows security update, not AI technology or utility. 主題係Windows安全更新，與AI無關。"
+    "reject_reason": "內容係 Windows 安全更新問題，屬於傳統 IT 安全，冇 AI 成分，無法提供 AI 相關價值。"
   },
   {
-    "i": 28,
-    "title": "經典音樂遊戲登陸任天堂紅白機 利用 Assembly 語言開發 還原街機節奏體驗 - 電腦領域HKEPC Hardware",
-    "source_name": "電腦領域HKEPC Hardware",
+    "i": 17,
+    "title": "經典音樂遊戲登陸任天堂紅白機 利用 Assembly 語言開發 還原街機節奏體驗 - hkepc.com",
+    "title_en": "Classic Music Game Ported to Nintendo Famicom Using Assembly Language to Recreate Arcade Rhythm Experience",
+    "hashtags": [
+      "#RetroGaming",
+      "#Assembly",
+      "#Nintendo"
+    ],
+    "source_name": "hkepc.com",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Describes a retro game development using Assembly, lacking AI relevance. 描述復古遊戲開發，未涉及AI。"
+    "reject_reason": "講緊復古遊戲同 Assembly 程式語言，唔係 AI 技術，對本地 AI 應用冇直接幫助。"
   },
   {
-    "i": 29,
+    "i": 18,
     "title": "iPhone Duo 雙螢幕睇波畫面曝光 同時睇波+睇數據超正 但被指球落地前數據已更新 - unwire",
+    "title_en": "iPhone Duo Dual‑Screen Sports View Revealed, Allowing Simultaneous Game and Data Display",
+    "hashtags": [
+      "#iPhoneDuo",
+      "#SportsTech",
+      "#DualScreen"
+    ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Focuses on iPhone dual‑screen display, no AI component. 重點係iPhone雙螢幕，無AI成分。"
+    "reject_reason": "iPhone 雙螢幕係硬件創新，未涉及 AI 功能或服務，唔符合 AI 實用性評估。"
   },
   {
-    "i": 30,
-    "title": "Win11 正式徹底移除 WMIC 工具 部份程式因此失效 微軟官方留有後手 - 電腦領域HKEPC Hardware",
-    "source_name": "電腦領域HKEPC Hardware",
+    "i": 19,
+    "title": "Win11 正式徹底移除 WMIC 工具 部份程式因此失效 微軟官方留有後手 - hkepc.com",
+    "title_en": "Windows 11 Completely Removes WMIC Tool, Causing Compatibility Issues for Some Applications",
+    "hashtags": [
+      "#Windows11",
+      "#WMIC",
+      "#Compatibility"
+    ],
+    "source_name": "hkepc.com",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Windows tool removal issue, unrelated to AI advancements. Windows工具移除問題，與AI無關。"
+    "reject_reason": "此為 Windows 11 移除 WMIC 工具嘅兼容性問題，與 AI 無關，無法提供 AI 相關資訊。"
   },
   {
-    "i": 31,
+    "i": 20,
     "title": "九巴貼地玩「摺」 借輪椅斜板抽水摺機熱潮 - unwire",
+    "title_en": "Kowloon Motor Bus launches a ground-level folding water pump system using wheelchair ramps",
+    "hashtags": [
+      "#Innovation",
+      "#Accessibility",
+      "#PublicTransport"
+    ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "KMB wheelchair initiative is a safety/transport story, not AI. 九巴輪椅計劃屬安全/交通，非AI。"
+    "reject_reason": "九巴嘅摺機係公共交通創新，冇 AI 技術或平台，唔符合 AI 實用性篩選。"
   },
   {
-    "i": 32,
+    "i": 21,
     "title": "What is AGI? How China’s AI firms are catching up as OpenAI Astra sparks debate",
+    "title_en": "Debate ignites as Nvidia CEO claims AGI has arrived with OpenAI's Astra model",
+    "hashtags": [
+      "#AGI",
+      "#AIResearch",
+      "#TechDebate"
+    ],
     "source_name": "Tech - South China Morning Post",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "Astra 模型宣稱接近 AGI，開發者可用嚟測試高階語言模型，提升本地創新同研究效率。",
+    "micro_personas": [
+      "AI 研究員測試新模型",
+      "創業者開發智能應用"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "OpenAI + Astra模型",
+      "AGI + 本地研究"
+    ]
+  },
+  {
+    "i": 22,
+    "title": "立法會議員．李廣宇｜做好「一人公司」生態 用AI提升創業率 - 香港01",
+    "title_en": "Legislator Lee Kwong-yu promotes AI-driven solo enterprises to boost entrepreneurship",
+    "hashtags": [
+      "#AI",
+      "#SME",
+      "#Entrepreneurship"
+    ],
+    "source_name": "香港01",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "立法會推廣 AI 單人公司，創業者可用自動化工具降低創業門檻，提高效率。",
+    "micro_personas": [
+      "創業者利用 AI 生成商業計劃",
+      "自由職業者用 AI 管理客戶"
+    ],
+    "agent_signal": true,
+    "automation_level": 5,
+    "history_queries": [
+      "AI + 創業支援",
+      "單人公司 + 自動化"
+    ]
+  },
+  {
+    "i": 23,
+    "title": "Jony Ive 設計 Ferrari Luce 登陸香港 首款純電四門跑車 1050 匹零百 2.5 秒 - unwire",
+    "title_en": "Jony Ive designs the Ferrari Luce, Hong Kong's first pure‑electric four‑door sports car with 0‑100 km/h in 2.5 seconds",
+    "hashtags": [
+      "#ElectricVehicle",
+      "#Design",
+      "#Ferrari"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Jony Ive 設計電動車係設計同汽車領域，冇 AI 技術或平台，唔符合 AI 實用性。"
+  },
+  {
+    "i": 24,
+    "title": "月之暗面 K3 模型助營收飆漲 借鑑 Palantir 策略瞄準香港 IPO - 財經新聞 - PChome Online 新聞 - PChome Online 新聞",
+    "title_en": "Moon's Dark Side K3 model drives revenue surge, adopting Palantir tactics for a Hong Kong IPO",
+    "hashtags": [
+      "#AIModel",
+      "#IPO",
+      "#RevenueGrowth"
+    ],
+    "source_name": "PChome Online 新聞",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Highlights OpenAI Astra and AGI debate, offering Developers and Professionals insight into cutting‑edge models for HK projects. 提示OpenAI Astra與AGI討論，為開發者與專業人士提供前沿模型資訊。",
+    "reason": "K3 AI 模型提升營收，企業可套用模型分析市場，同時支援本地 IPO 策略。",
     "micro_personas": [
-      "Developers – evaluating Astra for local SaaS products 開發者 – 評估Astra於本地SaaS產品",
-      "Professionals – strategic AI roadmap planning 專業人士 – 制定AI策略藍圖"
+      "金融分析師用 AI 預測股價",
+      "SME 老闆用 AI 優化營運"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "K3模型 + 營收提升",
+      "AI + IPO策略"
+    ]
+  },
+  {
+    "i": 25,
+    "title": "關於AI立法美國有新動作涉及未成年上癮- 國際 - 香港文匯報",
+    "title_en": "U.S. introduces new AI legislation targeting under‑age addiction concerns",
+    "hashtags": [
+      "#AIRegulation",
+      "#YouthSafety",
+      "#Policy"
+    ],
+    "source_name": "香港文匯報",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "美國 AI 立法針對未成年上癮，提醒本地教育同家長注意 AI 產品安全，同時影響本地政策制定。",
+    "micro_personas": [
+      "家長防止子女沉迷 AI",
+      "教育工作者制定 AI 使用守則"
     ],
     "agent_signal": false,
     "automation_level": 2,
     "history_queries": [
-      "OpenAI Astra + capabilities",
-      "AGI debate + implications"
-    ]
-  },
-  {
-    "i": 33,
-    "title": "立法會議員．李廣宇｜做好「一人公司」生態 用AI提升創業率 - 香港01",
-    "source_name": "香港01",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "LegCo member promotes AI tools to boost one‑person startups, directly aiding Entrepreneurs and SMEs in HK. 立法會議員推AI提升單人創業，幫助創業者與中小企。",
-    "micro_personas": [
-      "Entrepreneurs – using AI for market analysis 創業者 – 用AI做市場分析",
-      "SMEs – automating admin tasks 中小企 – 自動化行政工作"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "AI startup tools + Hong Kong",
-      "One‑person company + AI automation"
-    ]
-  },
-  {
-    "i": 34,
-    "title": "Jony Ive 設計 Ferrari Luce 登陸香港 首款純電四門跑車 1050 匹零百 2.5 秒 - unwire",
-    "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Article about car design; no AI technology or application discussed. 文章講汽車設計，未涉及AI技術。"
-  },
-  {
-    "i": 35,
-    "title": "月之暗面 K3 模型助營收飆漲 借鑑 Palantir 策略瞄準香港 IPO - 財經新聞 - PChome Online 新聞 - news.pchome.com.tw",
-    "source_name": "news.pchome.com.tw",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "K3 AI model drives revenue growth, offering Professionals and SMEs a proven analytics solution for HK IPO prep. K3 AI模型提升營收，為專業人士與中小企提供IPO分析工具。",
-    "micro_personas": [
-      "Professionals – financial modeling with K3 專業人士 – 用K3做財務模型",
-      "SMEs – predictive sales forecasting 中小企 – 預測銷售"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "K3 model + revenue impact",
-      "AI analytics + IPO preparation"
-    ]
-  },
-  {
-    "i": 36,
-    "title": "關於AI立法美國有新動作涉及未成年上癮- 國際 - 香港文匯報",
-    "source_name": "香港文匯報",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "US AI legislation on youth addiction informs Parents and Educators about potential HK policy impacts and family safety measures. 美國AI立法關注青少年上癮，為家長與教育者提供政策與安全指引。",
-    "micro_personas": [
-      "Parents – monitoring AI content for children 家長 – 監察AI內容",
-      "Students – understanding safe AI use 學生 – 了解安全使用AI"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "AI regulation + minors",
-      "Youth AI addiction + safeguards"
+      "AI立法 + 青少年保護",
+      "美國 + AI政策影響"
     ]
   }
 ]
