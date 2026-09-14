@@ -2,277 +2,165 @@
   {
     "i": 1,
     "title": "从认路到「跌倒再战」，机器人也在重走大模型的Scaling之路？|GPT-3|ChatGPT|具身智能|Qwen|OpenAI_手机新浪网 - 新浪财经",
-    "title_en": "Robots Are Retracing the Scaling Path of Large Models, From Navigation to Falling and Recovering",
+    "title_en": "Robots are also retracing the scaling path of large models, moving from learning to 'fall and fight again'.",
     "hashtags": [
       "#Robotics",
       "#LargeModels",
-      "#AIResearch"
+      "#AI",
+      "#EmbodiedIntelligence",
+      "#Scaling"
     ],
     "source_name": "新浪财经",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "機械人學習大模型縮放，可幫辦公室員工自動化路徑規劃同故障恢復",
-    "micro_personas": [
-      "辦公室員工 - 自動化路徑規劃"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "機械人 + 路徑規劃",
-      "大模型 + 故障恢復"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
   },
   {
     "i": 2,
     "title": "DeepSeek V4.1-Flash最新资讯 - 雷峰网",
-    "title_en": "Latest Updates on DeepSeek V4.1-Flash",
+    "title_en": "Here are the latest updates on DeepSeek V4.1-Flash.",
     "hashtags": [
       "#DeepSeek",
-      "#AIUpdates",
-      "#TechNews"
+      "#AIModel",
+      "#TechNews",
+      "#Tools",
+      "#Update"
     ],
     "source_name": "雷峰网",
-    "evidence_status": "official",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "DeepSeek V4.1-Flash 提供高效推理，適合中小企開發客製化AI服務，減低成本",
+    "reason": "開發者 同 中小企 可 用 DeepSeek V4.1-Flash 提升 AI 應用 效能 減低 運算 成本 快速 部署 聊天 機械人 或 自動 回覆 服務 提升 客戶 體驗 降低 人力 需求 適用 多 種 行業",
     "micro_personas": [
-      "中小企 - AI服務開發"
+      "開發者：使用DeepSeek V4.1-Flash開發聊天機械人",
+      "中小企：利用DeepSeek V4.1-Flash自動化客戶支援"
     ],
     "agent_signal": false,
-    "automation_level": 2,
+    "automation_level": 3,
     "history_queries": [
-      "DeepSeek + 推理效能",
-      "AI模型 + 成本降低"
+      "DeepSeek V4.1-Flash + 下載",
+      "DeepSeek V4.1-Flash + 性能 測試",
+      "DeepSeek V4.1-Flash + 價格"
     ]
   },
   {
     "i": 3,
     "title": "全球媒体聚焦 | 巴拿马媒体：中国经验给拉美国家带来发展启示 - Sohu",
-    "title_en": "Global Media Focus on Panama: How China’s Experience Offers Development Insights for Latin America",
+    "title_en": "Panama media highlights how China's experience offers development lessons for Latin American countries.",
     "hashtags": [
-      "#Media",
       "#China",
-      "#LatinAmerica"
+      "#LatinAmerica",
+      "#Development",
+      "#Policy",
+      "#InternationalRelations"
     ],
     "source_name": "Sohu",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "內容主要係國際媒體報導，無直接AI技術或本地應用價值"
+    "reject_reason": "呢條 新聞 冇 人工智能 內容，對 香港 本地 工作 或 商業 冇 實際 應用 價值，唔 適合 列入"
   },
   {
     "i": 4,
     "title": "中美AI对话谈什么？美智库：双方应讨论给前沿AI“降速” - 虎嗅网",
-    "title_en": "What Is Discussed in the US‑China AI Dialogue? Think Tanks Say Both Sides Should Talk About Slowing Down Frontier AI",
+    "title_en": "A US think tank urges both sides to discuss slowing down frontier AI in the US-China AI dialogue.",
     "hashtags": [
-      "#AIPolicy",
+      "#AI",
       "#USChina",
+      "#Policy",
+      "#Regulation",
       "#ThinkTank"
     ],
     "source_name": "虎嗅网",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "聚焦政策對話，缺乏具體AI工具或實作資訊，對本地實務幫助有限"
+    "reject_reason": "呢篇 只係 美國 智庫 提出 政策 建議， 冇 具體 AI 工具 或 成本 資訊， 對 香港 本地 企業 同 工作者 冇 直接 實用 價值。"
   },
   {
     "i": 5,
+    "title": "对战6亿用户竞技手游：聚焦复杂游戏中的多智能体博弈 - 雷峰网",
+    "title_en": "Competing with 600 million users in mobile games: focusing on multi-agent interactions in complex gaming environments.",
+    "hashtags": [
+      "#MobileGames",
+      "#MultiAgent",
+      "#AI",
+      "#Gaming",
+      "#RealWorldAI"
+    ],
+    "source_name": "雷峰网",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 6,
     "title": "大模型牌桌上，蚂蚁如何出牌？ - 雷峰网",
-    "title_en": "How Ant Group Plays Its Cards on the Large‑Model Table",
+    "title_en": "Ant Group's strategic moves on the large model table.",
     "hashtags": [
       "#AntGroup",
       "#LargeModels",
-      "#Strategy"
+      "#AIStrategy",
+      "#TechBusiness",
+      "#Innovation"
     ],
     "source_name": "雷峰网",
-    "evidence_status": "case_or_test",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "內容只係講蚂蚁AI策略，冇具體產品資訊，香港無直接可用價值。"
+  },
+  {
+    "i": 7,
+    "title": "Ox Alpha揭晓：智谱开源GLM-5.3-Flash，跑在国产芯片上 - 新浪网",
+    "title_en": "Ox Alpha announces Zhipu's open-source GLM-5.3-Flash running on domestic chips.",
+    "hashtags": [
+      "#GLM5_3",
+      "#OpenSource",
+      "#AI",
+      "#DomesticChips",
+      "#TechNews"
+    ],
+    "source_name": "新浪网",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+  },
+  {
+    "i": 8,
+    "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助 - 新浪财经",
+    "title_en": "",
+    "hashtags": [],
+    "source_name": "新浪财经",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "螞蟻金服運用大模型提升金融風控，對企業主同HR有實務參考價值",
+    "reason": "中小企同創業者用小模型減96%推理成本，提升效能，加速AI服務部署。",
     "micro_personas": [
-      "企業主 - 風控優化",
-      "HR專業人士 - 風險評估"
+      "中小企老闆用AI模型降低客服成本",
+      "創業者用小模型加速產品原型"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "螞蟻金服 + 大模型",
-      "金融風控 + AI"
-    ]
-  },
-  {
-    "i": 6,
-    "title": "Ox Alpha揭晓：智谱开源GLM-5.3-Flash，跑在国产芯片上 - 新浪网",
-    "title_en": "Ox Alpha Reveals Zhipu’s Open‑Source GLM‑5.3‑Flash Running on Domestic Chips",
-    "hashtags": [
-      "#GLM5.3",
-      "#OpenSource",
-      "#DomesticChips"
-    ],
-    "source_name": "新浪网",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "GLM-5.3-Flash 可跑本地芯片，適合本地開發者自行部署，降低雲端成本",
-    "micro_personas": [
-      "開發者 - 本地模型部署"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "GLM-5.3 + 本地部署",
-      "開源模型 + 芯片效能"
-    ]
-  },
-  {
-    "i": 7,
-    "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助 - 新浪财经",
-    "title_en": "Left‑Hand Inference Cost Drops 96% While Right‑Hand Performance Surpasses Large Models as Small Models Learn When to Seek Help",
-    "hashtags": [
-      "#Inference",
-      "#CostReduction",
-      "#SmallModels"
-    ],
-    "source_name": "新浪财经",
-    "evidence_status": "independent_report",
-    "decision": "accept",
-    "reason": "小模型推理成本下降96%，適合SME使用，減少運算開支",
-    "micro_personas": [
-      "SME - 成本控制"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "小模型 + 成本下降",
-      "推理效能 + 優化"
-    ]
-  },
-  {
-    "i": 8,
-    "title": "AI 何时停止过度思考？|Token|强化学习|大模型|模型|推理_手机新浪网 - 新浪财经",
-    "title_en": "When Will AI Stop Overthinking? Tokens, Reinforcement Learning, and Large‑Model Inference",
-    "hashtags": [
-      "#AI",
-      "#ReinforcementLearning",
-      "#Tokens"
-    ],
-    "source_name": "新浪财经",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "探討Token與強化學習，可幫學生同研究者了解模型效能調校",
-    "micro_personas": [
-      "學生 - 模型學習"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "Token + 強化學習",
-      "大模型 + 推理優化"
+      "小模型 成本下降",
+      "AI 推理 性能提升",
+      "中小企 AI 部署"
     ]
   },
   {
     "i": 9,
-    "title": "AI正在降低创业门槛 - 新浪财经",
-    "title_en": "AI Is Lowering the Barriers to Entrepreneurship",
-    "hashtags": [
-      "#AI",
-      "#Startups",
-      "#Entrepreneurship"
-    ],
+    "title": "AI 何时停止过度思考？|Token|强化学习|大模型|模型|推理_手机新浪网 - 新浪财经",
+    "title_en": "",
+    "hashtags": [],
     "source_name": "新浪财经",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "AI降低創業門檻，創業者可利用生成式工具快速原型開發",
-    "micro_personas": [
-      "創業者 - 產品原型"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "AI + 創業門檻",
-      "生成式AI + 原型開發"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "內容 只係 概念性 討論， 冇 具體 工具 或 實務 應用， 對 香港 本地 無 直接 可行 價值。"
   },
   {
     "i": 10,
-    "title": "对战6亿用户竞技手游：聚焦复杂游戏中的多智能体博弈 - 雷峰网",
-    "title_en": "Competing with 600 Million Users in a Competitive Mobile Game: Focusing on Multi‑Agent Games in Complex Environments",
-    "hashtags": [
-      "#MobileGames",
-      "#MultiAgent",
-      "#GameAI"
-    ],
-    "source_name": "雷峰网",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "多智能體遊戲AI技術可應用於教育模擬，同時提升開發者的AI實作能力",
-    "micro_personas": [
-      "開發者 - 多智能體開發",
-      "學生 - 教育模擬"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "多智能體 + 教育模擬",
-      "遊戲AI + 開發工具"
-    ]
-  },
-  {
-    "i": 11,
-    "title": "Anthropic指控中国大模型蒸馏：议程陷阱、技术伦理与地缘风险 - 虎嗅网",
-    "title_en": "Anthropic Accuses Chinese Large‑Model Distillation of Agenda Traps, Technical Ethics, and Geopolitical Risks",
-    "hashtags": [
-      "#Anthropic",
-      "#Ethics",
-      "#Geopolitics"
-    ],
-    "source_name": "虎嗅网",
+    "title": "AI正在降低创业门槛 - 新浪财经",
+    "title_en": "",
+    "hashtags": [],
+    "source_name": "新浪财经",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "主要討論倫理與地緣政治，缺乏可落地AI工具或本地實務指引"
-  },
-  {
-    "i": 12,
-    "title": "支付宝AI就业助手“晓叶”升级，可上阿宝一句话找工作 - 新浪财经",
-    "title_en": "Alipay’s AI Employment Assistant “Xiaoye” Upgraded, Allowing Users to Find Jobs with a Single Command",
-    "hashtags": [
-      "#Alipay",
-      "#AIJobAssistant",
-      "#Employment"
-    ],
-    "source_name": "新浪财经",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "支付寶AI就業助手可幫求職者快速搜尋職位，對在職員工同畢業生有直接幫助",
-    "micro_personas": [
-      "求職者 - 快速找工",
-      "學生 - 求職輔助"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "AI就業助手 + 求職",
-      "支付寶 + 工作搜尋"
-    ]
-  },
-  {
-    "i": 13,
-    "title": "基金行业首个大模型技术应用规范发布，安全管理是重中之重 - 第一财经",
-    "title_en": "First Fund‑Industry Large‑Model Technical Application Standard Released, Emphasizing Safety Management",
-    "hashtags": [
-      "#FundIndustry",
-      "#AIStandards",
-      "#SafetyManagement"
-    ],
-    "source_name": "第一财经",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "基金行業大模型標準可幫助香港金融專業人士同企業合規使用AI，降低風險同提升投資決策效率。",
-    "micro_personas": [
-      "金融分析師使用AI模型做風險評估",
-      "基金經理利用AI優化投資組合"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "基金 行業 標準",
-      "AI 風險 管理"
-    ]
+    "reject_reason": "AI#2 未完成判斷，直接 Reject"
   }
 ]
