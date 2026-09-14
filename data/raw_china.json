@@ -2,165 +2,216 @@
   {
     "i": 1,
     "title": "从认路到「跌倒再战」，机器人也在重走大模型的Scaling之路？|GPT-3|ChatGPT|具身智能|Qwen|OpenAI_手机新浪网 - 新浪财经",
-    "title_en": "Robots are also retracing the scaling path of large models, moving from learning to 'fall and fight again'.",
+    "title_en": "From Navigation to 'Fall and Fight Again': Robots Retrace the Scaling Path of Large Models",
     "hashtags": [
       "#Robotics",
       "#LargeModels",
-      "#AI",
-      "#EmbodiedIntelligence",
-      "#Scaling"
+      "#AIScaling",
+      "#EmbodiedIntelligence"
     ],
     "source_name": "新浪财经",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+    "decision": "accept",
+    "reason": "Robotics scaling insights can help HK developers and elderly‑care operators adopt large‑model‑driven assistants, reducing manual workload and improving safety.",
+    "micro_personas": [
+      "Robotics developer building assistive bots",
+      "Elderly care facility manager evaluating robot assistants"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Robotics + Scaling",
+      "Large Models + Embodied AI"
+    ]
   },
   {
     "i": 2,
     "title": "DeepSeek V4.1-Flash最新资讯 - 雷峰网",
-    "title_en": "Here are the latest updates on DeepSeek V4.1-Flash.",
+    "title_en": "DeepSeek V4.1-Flash: Latest Updates",
     "hashtags": [
       "#DeepSeek",
       "#AIModel",
-      "#TechNews",
-      "#Tools",
-      "#Update"
+      "#ReleaseNotes",
+      "#TechNews"
     ],
     "source_name": "雷峰网",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "開發者 同 中小企 可 用 DeepSeek V4.1-Flash 提升 AI 應用 效能 減低 運算 成本 快速 部署 聊天 機械人 或 自動 回覆 服務 提升 客戶 體驗 降低 人力 需求 適用 多 種 行業",
+    "reason": "DeepSeek V4.1‑Flash offers a locally‑hostable LLM, enabling HK developers and SMEs to cut API fees while maintaining data sovereignty.",
     "micro_personas": [
-      "開發者：使用DeepSeek V4.1-Flash開發聊天機械人",
-      "中小企：利用DeepSeek V4.1-Flash自動化客戶支援"
+      "Backend developer integrating DeepSeek into internal tools",
+      "SME owner using self‑hosted LLM for customer support"
     ],
-    "agent_signal": false,
-    "automation_level": 3,
+    "agent_signal": true,
+    "automation_level": 4,
     "history_queries": [
-      "DeepSeek V4.1-Flash + 下載",
-      "DeepSeek V4.1-Flash + 性能 測試",
-      "DeepSeek V4.1-Flash + 價格"
+      "DeepSeek + Release",
+      "LLM + Self‑hosting"
     ]
   },
   {
     "i": 3,
     "title": "全球媒体聚焦 | 巴拿马媒体：中国经验给拉美国家带来发展启示 - Sohu",
-    "title_en": "Panama media highlights how China's experience offers development lessons for Latin American countries.",
+    "title_en": "Global Media Spotlight on Panama: Chinese Experience Offers Development Lessons for Latin America",
     "hashtags": [
-      "#China",
-      "#LatinAmerica",
-      "#Development",
-      "#Policy",
+      "#ChinaLatinAmerica",
+      "#MediaInsights",
+      "#DevelopmentPolicy",
       "#InternationalRelations"
     ],
     "source_name": "Sohu",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "呢條 新聞 冇 人工智能 內容，對 香港 本地 工作 或 商業 冇 實際 應用 價值，唔 適合 列入"
+    "reject_reason": "The article provides no AI technology details or actionable impact for Hong Kong audiences, focusing solely on geopolitical media coverage."
   },
   {
     "i": 4,
     "title": "中美AI对话谈什么？美智库：双方应讨论给前沿AI“降速” - 虎嗅网",
-    "title_en": "A US think tank urges both sides to discuss slowing down frontier AI in the US-China AI dialogue.",
+    "title_en": "What Will US‑China AI Dialogues Cover? Think Tank Says Both Sides Should Discuss Slowing Down Frontier AI",
     "hashtags": [
-      "#AI",
-      "#USChina",
-      "#Policy",
-      "#Regulation",
+      "#USChinaAI",
+      "#PolicyDialogue",
+      "#AIRegulation",
       "#ThinkTank"
     ],
     "source_name": "虎嗅网",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "呢篇 只係 美國 智庫 提出 政策 建議， 冇 具體 AI 工具 或 成本 資訊， 對 香港 本地 企業 同 工作者 冇 直接 實用 價值。"
+    "reject_reason": "Content discusses policy dialogue without concrete AI tools or cost implications, offering little practical value to Hong Kong target groups."
   },
   {
     "i": 5,
     "title": "对战6亿用户竞技手游：聚焦复杂游戏中的多智能体博弈 - 雷峰网",
-    "title_en": "Competing with 600 million users in mobile games: focusing on multi-agent interactions in complex gaming environments.",
+    "title_en": "Competing with 600 Million Mobile Gamers: Focusing on Multi‑Agent Competition in Complex Games",
     "hashtags": [
-      "#MobileGames",
-      "#MultiAgent",
-      "#AI",
-      "#Gaming",
-      "#RealWorldAI"
+      "#MobileGaming",
+      "#MultiAgentSystems",
+      "#GameAI",
+      "#CompetitivePlay"
     ],
     "source_name": "雷峰网",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+    "decision": "accept",
+    "reason": "Multi‑agent game AI research can be repurposed for HK game studios and training simulators, automating NPC behavior and improving player matchmaking.",
+    "micro_personas": [
+      "Game AI programmer designing NPC behavior",
+      "Indie studio founder exploring AI‑driven matchmaking"
+    ],
+    "agent_signal": false,
+    "automation_level": 3,
+    "history_queries": [
+      "Game AI + Multi‑Agent",
+      "Simulation + Competitive Play"
+    ]
   },
   {
     "i": 6,
     "title": "大模型牌桌上，蚂蚁如何出牌？ - 雷峰网",
-    "title_en": "Ant Group's strategic moves on the large model table.",
+    "title_en": "How Ant Group Plays Its Cards in the Large Model Arena",
     "hashtags": [
-      "#AntGroup",
       "#LargeModels",
       "#AIStrategy",
-      "#TechBusiness",
-      "#Innovation"
+      "#AntGroup"
     ],
     "source_name": "雷峰网",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "內容只係講蚂蚁AI策略，冇具體產品資訊，香港無直接可用價值。"
+    "decision": "accept",
+    "reason": "Ant Group's large‑model services may alter API pricing and data‑privacy options, giving Hong Kong fintech firms and SMEs cost‑effective AI tools for customer interaction and risk analysis.",
+    "micro_personas": [
+      "Fintech product manager integrating AI payment verification",
+      "SME owner deploying AI chatbot for website"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Ant Group + API pricing",
+      "Ant Group + AI services"
+    ]
   },
   {
     "i": 7,
     "title": "Ox Alpha揭晓：智谱开源GLM-5.3-Flash，跑在国产芯片上 - 新浪网",
-    "title_en": "Ox Alpha announces Zhipu's open-source GLM-5.3-Flash running on domestic chips.",
+    "title_en": "Ox Alpha Reveals: Zhipu Open‑Source GLM‑5.3‑Flash Running on Domestic Chips",
     "hashtags": [
-      "#GLM5_3",
-      "#OpenSource",
-      "#AI",
+      "#OpenSourceAI",
       "#DomesticChips",
-      "#TechNews"
+      "#GLM5.3"
     ],
     "source_name": "新浪网",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "AI#2 未完成判斷，直接 Reject"
-  },
-  {
-    "i": 8,
-    "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助 - 新浪财经",
-    "title_en": "",
-    "hashtags": [],
-    "source_name": "新浪财经",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "中小企同創業者用小模型減96%推理成本，提升效能，加速AI服務部署。",
+    "reason": "The open‑source GLM‑5.3‑Flash model runs on domestic chips, enabling Hong Kong developers and enterprises to self‑host large models locally, reducing cloud costs and meeting data‑residency requirements.",
     "micro_personas": [
-      "中小企老闆用AI模型降低客服成本",
-      "創業者用小模型加速產品原型"
+      "AI developer deploying on‑prem inference service",
+      "SME IT manager evaluating on‑site AI platform"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "小模型 成本下降",
-      "AI 推理 性能提升",
-      "中小企 AI 部署"
+      "GLM-5.3 + self‑host",
+      "Domestic chips + AI deployment"
+    ]
+  },
+  {
+    "i": 8,
+    "title": "左手推理成本暴降96%，右手性能反超大模型！当小模型学会了何时求助 - 新浪财经",
+    "title_en": "Inference Cost Drops 96% on the Left Hand, Right Hand Performance Surpasses Large Models – When Small Models Know When to Ask for Help",
+    "hashtags": [
+      "#InferenceCost",
+      "#ModelEfficiency",
+      "#SmallModels"
+    ],
+    "source_name": "新浪财经",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "A 96% inference‑cost reduction technique lets Hong Kong SMEs and office workers run affordable AI assistants while delegating complex tasks to larger models only when needed.",
+    "micro_personas": [
+      "Office worker using AI summarizer for reports",
+      "SME manager automating customer support with low‑cost AI"
+    ],
+    "agent_signal": true,
+    "automation_level": 5,
+    "history_queries": [
+      "Inference cost reduction + SMEs",
+      "Small model delegation + HK businesses"
     ]
   },
   {
     "i": 9,
     "title": "AI 何时停止过度思考？|Token|强化学习|大模型|模型|推理_手机新浪网 - 新浪财经",
-    "title_en": "",
-    "hashtags": [],
+    "title_en": "When Will AI Stop Overthinking? Tokens, Reinforcement Learning, and Large Model Reasoning",
+    "hashtags": [
+      "#AIThinking",
+      "#ReinforcementLearning",
+      "#TokenEconomics"
+    ],
     "source_name": "新浪财经",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "內容 只係 概念性 討論， 冇 具體 工具 或 實務 應用， 對 香港 本地 無 直接 可行 價值。"
+    "reject_reason": "The discussion is theoretical about token economics and reinforcement learning, offering no concrete tool or cost impact for Hong Kong users."
   },
   {
     "i": 10,
     "title": "AI正在降低创业门槛 - 新浪财经",
-    "title_en": "",
-    "hashtags": [],
+    "title_en": "AI Is Lowering the Barrier to Entrepreneurship",
+    "hashtags": [
+      "#AIStartups",
+      "#Entrepreneurship",
+      "#Innovation"
+    ],
     "source_name": "新浪财经",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "AI#2 未完成判斷，直接 Reject"
+    "decision": "accept",
+    "reason": "AI‑driven content creation and market analysis tools lower startup expenses, helping Hong Kong entrepreneurs and retirees launch new ventures with minimal technical overhead.",
+    "micro_personas": [
+      "Entrepreneur drafting pitch deck using AI",
+      "Retiree building an online tutoring platform with AI assistance"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "AI tools + entrepreneurship",
+      "AI startup assistance + Hong Kong"
+    ]
   }
 ]
