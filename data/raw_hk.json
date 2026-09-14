@@ -2,66 +2,93 @@
   {
     "i": 1,
     "title": "【最後名額】 EDUtech Asia 2026 新加坡高增值學術交流團| 誠邀正積極實現Future Ready School 的香港教育領袖報名 - unwire",
-    "title_en": "Final Slots Available: EDUtech Asia 2026 Singapore High-Value Academic Exchange Program Invites Hong Kong Education Leaders Pursuing Future‑Ready Schools",
+    "title_en": "Final Slots Available for EDUtech Asia 2026 Singapore High-Value Academic Exchange Program – Invitation to Hong Kong Education Leaders Pursuing Future‑Ready Schools",
     "hashtags": [
       "#EDUtechAsia",
       "#FutureReadySchool",
       "#EducationLeadership",
-      "#Singapore",
-      "#ProfessionalDevelopment"
+      "#SingaporeEvent"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "reject_reason": "Event focuses on education leadership exchange without concrete AI product or operational benefit for Hong Kong target groups."
   },
   {
     "i": 2,
     "title": "AI年代：港建超算中心 商湯：電費成本遇樽頸 較內地貴一倍 倡電企分類收費助AI發展 - 20260914 - 港聞 - news.mingpao.com",
-    "title_en": "AI Era: Hong Kong’s New Supercomputing Centre Faces Electricity Costs Double Those in Mainland, Prompting Calls for Tiered Power Pricing to Support AI Development",
+    "title_en": "AI Era: Hong Kong’s Supercomputer Centre Faces Electricity Costs Double Those in Mainland, Prompting Calls for Tiered Power Pricing to Support AI Development",
     "hashtags": [
       "#Supercomputing",
       "#AIInfrastructure",
       "#EnergyCosts",
-      "#HongKongTech",
-      "#PowerPricing"
+      "#HongKongTech"
     ],
     "source_name": "news.mingpao.com",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The report reveals Hong Kong’s supercomputer centre faces electricity costs double mainland rates, prompting tiered power pricing proposals that could raise AI compute expenses for local developers, SMEs and enterprise professionals.",
+    "micro_personas": [
+      "IT manager in a fintech SME planning AI model training",
+      "Data scientist at a large corporation evaluating on‑premise supercomputing"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Supercomputing + Cost",
+      "AI Infrastructure + Pricing",
+      "Data Center + Energy"
+    ]
   },
   {
     "i": 3,
     "title": "河套港園區收6標書 晶片及AI公司入標 創科局：評標側重科企「技術含金量」 - 大公文匯網",
-    "title_en": "Heitao Port Zone Receives Six Bids; Chip and AI Companies Win Contracts as Innovation Bureau Emphasizes Technical Merit in Evaluation",
+    "title_en": "Heitao Port Zone Receives Six Bids, Chip and AI Companies Win Contracts; Innovation Bureau Emphasizes Technical Merit in Evaluation",
     "hashtags": [
       "#HeitaoPort",
       "#ChipIndustry",
       "#AIProjects",
-      "#InnovationBureau",
-      "#TechEvaluation"
+      "#InnovationBureau"
     ],
     "source_name": "大公文匯網",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "decision": "accept",
+    "reason": "Award of chip and AI contracts in Heitao Port signals new hardware supply opportunities, enabling Hong Kong developers and SMEs to access advanced AI chips for on‑premise solutions and product acceleration.",
+    "micro_personas": [
+      "Hardware engineer at a Hong Kong AI startup seeking chip suppliers",
+      "Procurement officer at a Hong Kong SME evaluating AI hardware"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "AI Chip + Procurement",
+      "Hardware Supply + Hong Kong"
+    ]
   },
   {
     "i": 4,
     "title": "警惕美國藉AI「蒸餾」實施科技霸權- 評論 - 香港文匯報",
-    "title_en": "Beware of U.S. AI ‘Distillation’ Tactics Aiming to Cement Technological Dominance – Commentary",
+    "title_en": "Beware of U.S. AI ‘Distillation’ Tactics as a Means to Enforce Technological Dominance – Commentary",
     "hashtags": [
-      "#AI",
+      "#AIethics",
       "#TechDominance",
       "#USPolicy",
-      "#Security",
-      "#Distillation"
+      "#Security"
     ],
     "source_name": "香港文匯報",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "decision": "accept",
+    "reason": "Commentary warns that U.S. AI model ‘distillation’ could be used to enforce tech dominance, urging Hong Kong enterprises and professionals to audit model provenance and strengthen security controls.",
+    "micro_personas": [
+      "Chief security officer at a multinational corporation in Hong Kong",
+      "AI product manager evaluating US‑sourced models"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Policy + Security",
+      "Model Distillation + Compliance"
+    ]
   },
   {
     "i": 5,
@@ -71,13 +98,12 @@
       "#AIRegulation",
       "#Trump",
       "#USChinaTechRace",
-      "#Policy",
-      "#ArtificialIntelligence"
+      "#PolicyDebate"
     ],
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "reject_reason": "Pure political commentary lacking specific AI technology details or actionable impact for Hong Kong stakeholders."
   },
   {
     "i": 6,
@@ -87,13 +113,12 @@
       "#YOASOBI",
       "#Overwatch",
       "#MusicCollaboration",
-      "#GameMusic",
-      "#CreativeProcess"
+      "#GameSoundtrack"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "reject_reason": "Content focuses on music collaboration without AI relevance, offering no operational benefit or security insight for Hong Kong target groups."
   },
   {
     "i": 7,
@@ -103,13 +128,22 @@
       "#MetaAI",
       "#HongKong",
       "#TechLaunch",
-      "#ArtificialIntelligence",
-      "#Apps"
+      "#AIApps"
     ],
     "source_name": "香港經濟日報HKET",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Meta AI's five new applications, now available in Hong Kong, enable office workers to automate routine tasks and developers to prototype AI features, boosting productivity across SMEs.",
+    "micro_personas": [
+      "Office Worker - automating email drafting",
+      "Developer - prototyping chatbot using Meta AI SDK"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Meta AI + Launch",
+      "AI Applications + Adoption"
+    ]
   },
   {
     "i": 8,
@@ -119,45 +153,52 @@
       "#iPhone18",
       "#CreditCardFraud",
       "#CyberSecurity",
-      "#ConsumerProtection",
-      "#DataBreach"
+      "#ConsumerProtection"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "reject_reason": "Incident reports credit‑card fraud linked to iPhone pre‑order, lacking AI content or actionable insight for Hong Kong audiences."
   },
   {
     "i": 9,
     "title": "美參議員提案封殺「超級 AI」 違者最高 20 年監禁 比照非法研製核武 - 電腦領域HKEPC Hardware",
-    "title_en": "U.S. Senator Proposes Ban on “Super AI” with Penalties Up to 20 Years, Mirroring Illegal Nuclear Weapon Development Laws",
+    "title_en": "U.S. Senator Proposes Ban on “Super AI” with Penalties Up to 20 Years, Mirroring Nuclear Weapon Restrictions",
     "hashtags": [
       "#SuperAI",
       "#Legislation",
       "#AIRegulation",
-      "#NationalSecurity",
-      "#LegalRisk"
+      "#NationalSecurity"
     ],
     "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Proposed U.S. ban on ‘Super AI’ signals heightened regulatory scrutiny, prompting Hong Kong AI developers and enterprise legal teams to review compliance frameworks and risk mitigation strategies.",
+    "micro_personas": [
+      "AI Developer - compliance roadmap planning",
+      "Enterprise Legal Officer - monitoring AI legislation"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Super AI + Regulation",
+      "AI Compliance + Strategy"
+    ]
   },
   {
     "i": 10,
     "title": "Seeking cash for AI, China’s Z.ai eyes new US$5b fundraising push after July share sale",
-    "title_en": "China’s Z.ai Seeks US$2 Billion in New Funding After July Share Sale",
+    "title_en": "China’s Z.ai Seeks Up to US$2 Billion in New Funding After July Share Sale",
     "hashtags": [
-      "#Zai",
-      "#AIStartup",
+      "#ZAI",
       "#Fundraising",
-      "#HongKongMarket",
-      "#TechInvestment"
+      "#ArtificialIntelligence",
+      "#ChinaTech"
     ],
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "reject_reason": "Funding announcement lacks concrete AI product details, offering no immediate operational advantage or security implication for Hong Kong stakeholders."
   },
   {
     "i": 11,
@@ -171,22 +212,22 @@
     "source_name": "unwire",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Shows legal risk of unvetted AI drafting; HK lawyers, compliance officers and HR must verify AI‑generated documents to avoid contempt penalties and protect corporate governance.",
+    "reason": "Shows legal risk of AI‑generated court documents; Hong Kong lawyers and compliance officers must implement verification workflows to avoid contempt sanctions and protect professional liability.",
     "micro_personas": [
-      "Corporate lawyer drafting litigation briefs",
-      "Compliance officer reviewing AI‑generated contracts"
+      "Lawyer drafting appeals",
+      "Legal compliance officer reviewing AI‑generated filings"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Lawyer + DraftAppeal",
-      "Court + ContemptFine"
+      "Lawyer + AI Drafting",
+      "Court + Contempt"
     ]
   },
   {
     "i": 13,
     "title": "Zettabyte 與 Raku Advanced Tech 簽署諒解備忘錄，攜手拓展亞洲綠色 AI 數據中心 - 香港財經時報HKBT",
-    "title_en": "Zettabyte and Raku Advanced Tech Sign MOU to Expand Green AI Data Centers in Asia",
+    "title_en": "Zettabyte and Raku Advanced Tech Sign MOU to Expand Green AI Data Centers Across Asia",
     "hashtags": [
       "#GreenAI",
       "#DataCenters",
@@ -195,79 +236,89 @@
     "source_name": "香港財經時報HKBT",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Green AI data centers promise locally hosted, energy‑efficient compute; HK startups and developers can self‑host models, reducing cloud fees and aligning with sustainability mandates.",
+    "reason": "Green AI data‑center partnership may bring lower‑cost, sustainable compute to Hong Kong; SMEs and developers can plan future cloud migration to reduce energy expenses and carbon footprint.",
     "micro_personas": [
-      "Startup founder needing GPU compute",
-      "Developer deploying large language models"
+      "SME CTO evaluating cloud providers",
+      "Developer seeking eco‑friendly GPU instances"
     ],
-    "agent_signal": false,
+    "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "Startup + DataCenter",
-      "Developer + ModelHosting"
+      "DataCenter + GreenAI",
+      "Cloud + Sustainability"
     ]
   },
   {
     "i": 14,
     "title": "南韓 AI 發展面臨缺電危機 最快 2030 年代初需求相當於 20 座核電廠 - unwire",
-    "title_en": "South Korea's AI Development Faces Power Shortage Crisis, Demand by Early 2030s Equals 20 Nuclear Plants",
+    "title_en": "South Korea's AI Development Faces Power Shortage Crisis, Demand by 2030 Equivalent to 20 Nuclear Plants",
     "hashtags": [
       "#AIEnergy",
       "#PowerCrisis",
       "#SouthKorea"
     ],
     "source_name": "unwire",
-    "evidence_status": "independent_report",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "South Korea’s power crunch warns HK enterprises that AI workloads may strain electricity grids; SMEs should prioritize energy‑efficient models and monitor utility costs.",
+    "reason": "South Korea's projected AI power demand warns Hong Kong enterprises of rising API costs and potential service throttling, prompting local data‑center investment and on‑premise AI hosting strategies.",
     "micro_personas": [
-      "SME IT manager planning AI services",
-      "Enterprise architect evaluating AI infrastructure"
+      "Enterprise IT manager budgeting AI services",
+      "Developer relying on external AI APIs"
     ],
-    "agent_signal": false,
-    "automation_level": 1,
+    "agent_signal": true,
+    "automation_level": 2,
     "history_queries": [
-      "AI + PowerDemand",
-      "Enterprise + EnergyCost"
+      "AI + EnergyDemand",
+      "Cloud + Cost"
     ]
   },
   {
     "i": 16,
     "title": "深圳研發、香港合規、東盟應用……會說38種語言的AI智能體終端亮相服貿會- 神州 - 香港文匯報",
-    "title_en": "AI Agent Terminal Supporting 38 Languages Showcased at Cross-Strait Trade Fair, Developed in Shenzhen, Compliant in Hong Kong, Targeting ASEAN",
+    "title_en": "Multilingual AI Agent Supporting 38 Languages Unveiled at Shenzhen-Hong Kong-ASEAN Trade Expo",
     "hashtags": [
       "#MultilingualAI",
-      "#ASEANTech",
-      "#TradeFair"
+      "#AIInnovation",
+      "#TradeExpo"
     ],
     "source_name": "香港文匯報",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Multilingual AI agent terminal supports 38 languages, compliant in HK; enables office workers and SMEs to automate cross‑border customer interactions, reducing translation overhead.",
+    "reason": "A 38‑language AI agent can automate multilingual customer support and internal communications for Hong Kong offices, HR, and SMEs, improving efficiency and reducing translation expenses.",
     "micro_personas": [
       "Customer support rep using AI chatbot",
-      "SME owner handling multilingual inquiries"
+      "HR professional handling multilingual recruitment"
     ],
     "agent_signal": true,
-    "automation_level": 4,
+    "automation_level": 3,
     "history_queries": [
-      "AI Agent + MultilingualSupport",
-      "SME + CustomerServiceAutomation"
+      "AI Agent + Multilingual",
+      "TradeExpo + AI"
     ]
   },
   {
     "i": 17,
     "title": "記憶體加價步伐「放緩」 原因是再加價已經買不起 - unwire",
-    "title_en": "Memory Price Increases Slow Down as Further Hikes Become Unaffordable",
+    "title_en": "Memory Price Hikes Slow as Further Increases Become Unaffordable for Consumers",
     "hashtags": [
-      "#MemoryMarket",
-      "#PriceTrends",
-      "#TechEconomics"
+      "#MemoryPricing",
+      "#TechCosts",
+      "#MarketTrends"
     ],
     "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Topic concerns memory market pricing, not AI technology or its application for Hong Kong stakeholders."
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Slowing memory price hikes signal tighter budgets for AI model training; Hong Kong hardware buyers and developers must reassess procurement cycles and explore cost‑effective memory alternatives.",
+    "micro_personas": [
+      "Hardware procurement manager for AI projects",
+      "Developer building large‑scale models"
+    ],
+    "agent_signal": false,
+    "automation_level": 0,
+    "history_queries": [
+      "Memory + Pricing",
+      "Hardware + AI"
+    ]
   },
   {
     "i": 19,
@@ -282,16 +333,16 @@
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Enables Hong Kong data‑center operators and hardware startups to deploy far more durable memory, reducing downtime and maintenance costs for high‑performance computing workloads.",
+    "reason": "The 100‑fold durability boost in emerging memory chips can lower replacement cycles for Hong Kong data‑center operators, SME IT managers and developers building high‑performance applications, improving cost efficiency and system reliability.",
     "micro_personas": [
-      "Data Center Operations Engineer",
-      "Hardware Startup CTO"
+      "Data Center Engineer optimizing server hardware",
+      "SME IT Manager evaluating storage solutions"
     ],
     "agent_signal": true,
-    "automation_level": 1,
+    "automation_level": 2,
     "history_queries": [
       "Memory Chip + Durability",
-      "Semiconductor + Data Center Cost"
+      "Semiconductor + Cost Reduction"
     ]
   },
   {
@@ -307,16 +358,16 @@
     "source_name": "香港01",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Provides Hong Kong HR leaders and corporate executives with a concrete three‑step AI risk framework, facilitating policy drafting and safe deployment of generative AI tools across the workplace.",
+    "reason": "Anthropic’s three‑step AI risk framework offers Hong Kong employers, HR professionals and corporate risk officers concrete measures to audit models, enforce usage policies, and monitor compliance, strengthening governance and protecting business continuity.",
     "micro_personas": [
-      "HR Director implementing AI governance",
-      "Corporate Compliance Officer evaluating AI vendor contracts"
+      "HR Compliance Officer drafting AI usage policy",
+      "Corporate Risk Manager assessing AI vendor contracts"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 1,
     "history_queries": [
-      "AI Risk Management + Policy",
-      "Generative AI + Workplace Governance"
+      "Anthropic + Risk Management",
+      "AI Governance + Policy Implementation"
     ]
   },
   {
@@ -332,16 +383,16 @@
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Alerts Hong Kong SMEs, office workers and retirees to a hardware‑theft and component‑swap scam, prompting immediate asset tracking and verification procedures to protect IT investments.",
+    "reason": "The large‑scale hardware theft and component swapping case highlights a supply‑chain vulnerability that Hong Kong office workers, SME owners and IT administrators must address through asset tagging, verification procedures and vendor vetting.",
     "micro_personas": [
-      "SME IT Manager securing equipment",
-      "Office Worker verifying laptop components"
+      "Office IT Administrator managing inventory",
+      "SME Owner overseeing procurement security"
     ],
     "agent_signal": true,
-    "automation_level": 1,
+    "automation_level": 0,
     "history_queries": [
       "Hardware Theft + Prevention",
-      "Asset Verification + IT Security"
+      "Supply Chain Security + Alerts"
     ]
   },
   {
@@ -357,7 +408,7 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Pure gaming announcement lacks AI relevance or operational benefit for Hong Kong target groups."
+    "reject_reason": "Entertainment‑focused game announcement provides no AI relevance or operational benefit for Hong Kong’s office workers, SMEs, HR or other listed target groups."
   },
   {
     "i": 23,
@@ -372,7 +423,7 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Game industry news provides no AI substance or actionable insight for local professionals or enterprises."
+    "reject_reason": "News about PlayStation’s partnership change and sales figures is purely gaming industry information, offering no actionable AI or productivity advantage for the defined Hong Kong personas."
   },
   {
     "i": 24,
@@ -384,9 +435,20 @@
       "#ChinaTech"
     ],
     "source_name": "Tech - South China Morning Post",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "AI‑assisted chip design lowers R&D costs and speeds time‑to‑market, enabling Hong Kong hardware startups, SME semiconductor suppliers, and developer teams to prototype ASICs locally without overseas tools.",
+    "micro_personas": [
+      "Hardware startup CTO designing ASICs",
+      "SME semiconductor supplier engineer"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "AI Chip Design + Adoption",
+      "Semiconductor Firms + Cost Reduction",
+      "Hardware Startups + Prototype Acceleration"
+    ]
   },
   {
     "i": 25,
@@ -398,28 +460,50 @@
       "#TechPricing"
     ],
     "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Subscription‑based Mac and iPad access offers predictable budgeting for office workers, freelancers, and students, reducing upfront capital outlay and simplifying device upgrades in Hong Kong’s fast‑paced work environment.",
+    "micro_personas": [
+      "Freelance graphic designer renting a Mac",
+      "University student using an iPad for coursework"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "Apple Subscription + Adoption",
+      "Device Leasing + HK Professionals",
+      "Office Workers + Cost‑Effective Hardware"
+    ]
   },
   {
     "i": 26,
     "title": "iPhone 18 Pro 預購湧大量信用卡短訊 方保僑籲市民先向銀行查詢 - unwire",
-    "title_en": "Massive Credit‑Card SMS Spam Targets iPhone 18 Pro Pre‑Orders, Officials Urge Consumers to Verify with Banks First",
+    "title_en": "Massive Surge in iPhone 18 Pro Pre‑Orders Triggers Credit‑Card SMS Scams; Officials Urge Consumers to Verify with Banks",
     "hashtags": [
-      "#iPhone18Pro",
-      "#ScamAlert",
-      "#ConsumerSafety"
+      "#iPhoneScam",
+      "#ConsumerSafety",
+      "#CreditCardFraud"
     ],
     "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Alert on iPhone pre‑order SMS scams provides essential fraud‑prevention guidance for Hong Kong parents, elderly consumers, and general shoppers, helping them verify offers and avoid financial loss.",
+    "micro_personas": [
+      "Elderly consumer receiving suspicious SMS",
+      "Parent purchasing iPhone for teenager"
+    ],
+    "agent_signal": false,
+    "automation_level": 0,
+    "history_queries": [
+      "iPhone Preorder + Scam",
+      "Credit Card Fraud + HK Consumers",
+      "Consumer Safety + Mobile Purchases"
+    ]
   },
   {
     "i": 27,
     "title": "BlizzCon 2026 懶人包：Diablo V 發表、StarCraft 回歸、WOW Forever 登場、Warcraft 3 有追加劇情 - unwire",
-    "title_en": "BlizzCon 2026 Highlights: Diablo V Reveal, StarCraft Return, World of Warcraft Forever Launch, and New Warcraft 3 Story Content",
+    "title_en": "BlizzCon 2026 Highlights: Diablo V Announcement, StarCraft Return, World of Warcraft Forever Launch, and New Warcraft 3 Story Content",
     "hashtags": [
       "#BlizzCon2026",
       "#GamingNews",
@@ -428,7 +512,7 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "reject_reason": "Pure gaming news lacks AI content, operational benefit, or security relevance for Hong Kong target groups."
   },
   {
     "i": 28,
@@ -440,9 +524,20 @@
       "#Anniversary"
     ],
     "source_name": "香港01",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Media AI rollout at Hong Kong 01 demonstrates practical AI tools for content generation, editing, and personalization, benefitting journalists, digital marketers, and developers seeking to automate newsroom workflows.",
+    "micro_personas": [
+      "Digital journalist using AI summarization",
+      "Startup founder leveraging AI for content marketing"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Media AI + Adoption",
+      "Content Automation + HK",
+      "Journalism Workflow + AI Tools"
+    ]
   },
   {
     "i": 29,
@@ -454,22 +549,32 @@
       "#HongKong"
     ],
     "source_name": "香港01",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Enables Hong Kong social service agencies to deploy AI‑driven case‑matching and resource allocation, benefiting elderly and low‑income families by reducing manual workload and improving timely assistance.",
+    "micro_personas": [
+      "Elderly care coordinator using AI triage",
+      "Social worker automating benefit eligibility checks"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "AI + Social Welfare",
+      "Legislator + Policy"
+    ]
   },
   {
     "i": 30,
     "title": "The US and China are racing to build ‘self-improving AI’. Here’s what’s at stake",
-    "title_en": "The US and China Race to Develop Self‑Improving AI: Stakes and Implications",
+    "title_en": "The US and China Race to Build Self‑Improving AI: Stakes and Implications",
     "hashtags": [
       "#AICompetition",
-      "#USChinaTech",
-      "#SelfImprovingAI"
+      "#SelfImprovingAI",
+      "#USChinaTech"
     ],
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": " AI#2 未完成判斷，直接 Reject"
+    "reject_reason": "Article discusses geopolitical AI competition without concrete product details or actionable implications for Hong Kong enterprises or local user groups."
   }
 ]
