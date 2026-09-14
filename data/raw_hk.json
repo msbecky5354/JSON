@@ -17,17 +17,17 @@
     "source_name": "news.mingpao.com",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Developers and SMEs can leverage the upcoming Hong Kong supercomputing center to run large AI models locally, reducing reliance on costly overseas cloud services and mitigating high electricity expenses.",
+    "reason": "Developers and SMEs can use Hong Kong's new supercomputing center to run large AI models locally, cutting latency and mainland cloud reliance, while electricity pricing reforms lower operational costs.",
     "micro_personas": [
-      "Machine Learning Engineer (Developer)",
-      "SME IT Manager (SME)"
+      "SME AI developer",
+      "Startup entrepreneur"
     ],
     "agent_signal": false,
-    "automation_level": 0,
+    "automation_level": 1,
     "history_queries": [
-      "Hong Kong supercomputing center build",
-      "Electricity cost AI compute",
-      "Tiered electricity pricing for AI"
+      "Hong Kong supercomputing center launch",
+      "AI model training electricity cost",
+      "SME AI compute resource access"
     ]
   },
   {
@@ -36,19 +36,19 @@
     "title_en": "",
     "hashtags": [],
     "source_name": "大公文匯網",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Entrepreneurs and SMEs can tap the new He Tao Port AI hub to partner with chip and AI firms, gaining access to cutting‑edge technology and cost‑effective solutions for product innovation.",
+    "reason": "Entrepreneurs and SMEs can leverage the He Tao Port development zone, now prioritizing AI and chip firms, to access subsidized infrastructure, talent pools, and government support for AI projects.",
     "micro_personas": [
-      "Entrepreneur – seeking AI partnership",
-      "SME owner – sourcing AI solutions"
+      "SME founder planning AI product development",
+      "Entrepreneur establishing AI R&D hub"
     ],
     "agent_signal": false,
     "automation_level": 0,
     "history_queries": [
-      "He Tao Port + AI company bids",
-      "Hong Kong Innovation Bureau + evaluate AI projects",
-      "SME + partner with AI firms"
+      "He Tao Port development zone + apply for AI company",
+      "Hong Kong Innovation and Technology Bureau + AI project support",
+      "SME + locate AI R&D hub Hong Kong"
     ]
   },
   {
@@ -89,17 +89,17 @@
     "source_name": "香港經濟日報HKET",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Office workers can leverage Meta AI Copilot to draft emails and summarize documents, saving time; SMEs can deploy Meta AI chatbot for 24/7 customer support, reducing staffing costs.",
+    "reason": "Office workers and SMEs can use Meta AI’s five new apps to automate routine documentation, boost data analysis, and streamline communication, achieving productivity improvements and cost reductions in Hong Kong.",
     "micro_personas": [
-      "Office Worker drafting emails with Meta AI Copilot",
-      "SME owner handling customer inquiries via Meta AI chatbot"
+      "Office worker – automating report generation",
+      "SME manager – enhancing data-driven decision making"
     ],
     "agent_signal": false,
     "automation_level": 3,
     "history_queries": [
-      "Meta AI Hong Kong launch",
-      "Meta AI Copilot office workers",
-      "Meta AI chatbot SMEs"
+      "Meta AI + launch Hong Kong",
+      "Meta AI apps + office productivity",
+      "Meta AI + SME cost reduction"
     ]
   },
   {
@@ -120,7 +120,7 @@
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The entry discusses US legislative proposal, lacking actionable AI tool or technology for Hong Kong groups."
+    "reject_reason": "The entry discusses US legislative proposal, lacking concrete AI technology or actionable relevance for Hong Kong groups."
   },
   {
     "i": 10,
@@ -138,19 +138,19 @@
     "title_en": "",
     "hashtags": [],
     "source_name": "unwire",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Professionals (lawyers) gain awareness of AI drafting risks, enabling compliance checks and avoiding costly contempt fines, improving legal document quality while mitigating regulatory penalties.",
+    "reason": "Lawyers and other professionals in Hong Kong can learn from this case that using AI to draft court documents may breach contempt rules, prompting stricter compliance and risk mitigation.",
     "micro_personas": [
-      "Lawyer drafting appeals",
-      "Legal assistant using AI for document preparation"
+      "Lawyer drafting a criminal appeal",
+      "Legal consultant reviewing AI-generated filings"
     ],
-    "agent_signal": true,
-    "automation_level": 3,
+    "agent_signal": false,
+    "automation_level": 0,
     "history_queries": [
-      "Lawyer + Use AI for legal drafting",
-      "Hong Kong law firms + AI compliance guidelines",
-      "Legal AI tool + Contempt of court risk"
+      "Hong Kong lawyer AI drafting guidelines",
+      "Hong Kong courts AI document policy",
+      "Legal AI compliance Hong Kong"
     ]
   },
   {
@@ -161,17 +161,18 @@
     "source_name": "香港財經時報HKBT",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "SME IT managers and startup founders can plan to use green AI data centers to cut compute costs, improve latency, and meet sustainability goals for AI projects in Hong Kong.",
+    "reason": "Developers and SMEs can use the new green AI data center to obtain low‑latency, energy‑efficient compute, cutting costs and supporting sustainable AI workloads in Hong Kong.",
     "micro_personas": [
-      "SME IT manager",
-      "Startup founder"
+      "Developer building AI models",
+      "SME deploying AI‑enhanced services"
     ],
     "agent_signal": false,
-    "automation_level": 2,
+    "automation_level": 4,
     "history_queries": [
-      "Zettabyte expand AI data center",
-      "Raku Advanced Tech green AI partnership",
-      "Hong Kong green AI data center cost"
+      "Zettabyte data center expansion",
+      "Raku Advanced Tech AI infrastructure",
+      "Green AI data center Hong Kong",
+      "AI compute cost reduction"
     ]
   },
   {
@@ -180,19 +181,19 @@
     "title_en": "",
     "hashtags": [],
     "source_name": "unwire",
-    "evidence_status": "independent_report",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "SME IT managers can anticipate rising AI compute power costs, enabling proactive budgeting and adoption of energy‑efficient AI solutions, reducing operational expenses and ensuring sustainable AI deployment in Hong Kong.",
+    "reason": "Developers and SMEs can anticipate rising AI compute energy costs, prompting them to adopt energy‑efficient models or schedule workloads to off‑peak hours, thereby reducing operational expenses.",
     "micro_personas": [
-      "SME IT manager planning AI workloads",
-      "Developer optimizing AI model for energy efficiency"
+      "SME IT manager planning AI compute schedules",
+      "Freelance developer optimizing model training energy usage"
     ],
     "agent_signal": false,
     "automation_level": 0,
     "history_queries": [
-      "Hong Kong data center power consumption forecast",
-      "HK AI startup energy cost analysis",
-      "Hong Kong AI workload power budgeting"
+      "South Korea AI energy demand",
+      "AI compute energy cost mitigation",
+      "Hong Kong AI workload scheduling"
     ]
   },
   {
@@ -201,19 +202,19 @@
     "title_en": "",
     "hashtags": [],
     "source_name": "香港文匯報",
-    "evidence_status": "case_or_test",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "SMEs can deploy the multilingual AI terminal to handle customer inquiries in 38 languages, reducing translation costs, improving service speed, and enhancing brand reputation across regional markets.",
+    "reason": "SMEs can deploy the multilingual AI terminal to handle customer inquiries in 38 languages, reducing translation costs, improving service efficiency, and expanding market reach within Hong Kong's diverse consumer base.",
     "micro_personas": [
-      "SME owner managing multilingual client communications",
-      "Office worker translating documents for cross-border projects"
+      "SME owner handling multilingual customer service",
+      "Office worker translating documents for cross-border partners"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "AI terminal purchase",
-      "Multilingual AI agent cost",
-      "AI translation device Hong Kong"
+      "AI multilingual terminal + purchase",
+      "38 language AI device + Hong Kong market",
+      "AI agent terminal + SME customer service"
     ]
   },
   {
@@ -232,9 +233,20 @@
     "title_en": "",
     "hashtags": [],
     "source_name": "Tech - South China Morning Post",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The entry describes a research breakthrough in memory chips without a concrete AI product or immediate applicability for Hong Kong users."
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Developers in Hong Kong can leverage the 100‑fold memory endurance boost to run larger AI models locally, reducing reliance on costly cloud services and accelerating prototype cycles.",
+    "micro_personas": [
+      "AI developer prototyping models",
+      "SME CTO evaluating AI hardware costs"
+    ],
+    "agent_signal": false,
+    "automation_level": 0,
+    "history_queries": [
+      "Hong Kong AI developers + Test memory endurance",
+      "SME AI startups + Reduce cloud costs",
+      "Data center operators + Upgrade memory hardware"
+    ]
   },
   {
     "i": 20,
@@ -244,17 +256,17 @@
     "source_name": "香港01",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Provides HK employers and HR professionals with a concise three‑step AI risk‑mitigation framework, enabling them to establish governance policies, reduce compliance costs, safeguard workforce data, and improve overall AI governance.",
+    "reason": "HR Professionals can use the outlined AI risk‑control steps to shape internal governance policies, ensuring compliant AI deployment, safeguarding employee data, and reducing liability from uncontrolled AI systems.",
     "micro_personas": [
       "HR manager drafting AI usage policy",
-      "SME owner evaluating AI tools for operations"
+      "HR compliance officer reviewing AI vendor contracts"
     ],
     "agent_signal": false,
-    "automation_level": 1,
+    "automation_level": 0,
     "history_queries": [
-      "Anthropic CEO + propose AI risk control steps",
-      "Barack Obama + call for AI policy",
-      "HK employers + implement AI governance"
+      "Anthropic CEO risk control steps",
+      "Obama AI policy recommendations",
+      "HR AI governance guidelines"
     ]
   },
   {
@@ -265,7 +277,7 @@
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article concerns a hardware theft case without AI content, offering no actionable AI utility for Hong Kong target groups."
+    "reject_reason": "The article concerns a hardware theft case, contains no AI technology or applicability for Hong Kong groups, thus irrelevant to mission."
   },
   {
     "i": 22,
@@ -275,7 +287,7 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The entry discusses a video game release without AI content, offering no actionable value for Hong Kong target groups."
+    "reject_reason": "The entry discusses a game announcement without AI relevance or actionable value for Hong Kong target groups."
   },
   {
     "i": 23,
@@ -285,7 +297,7 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article discusses PlayStation's business decision and game sales, lacking any AI content or actionable AI relevance for Hong Kong groups."
+    "reject_reason": "The article discusses game sales and corporate decisions without any AI content, thus not applicable to Hong Kong AI utility analysis."
   },
   {
     "i": 24,
@@ -295,7 +307,7 @@
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article describes a macro trend without specific tools or actionable details for Hong Kong users, limiting direct applicability."
+    "reject_reason": "The entry describes a policy trend without specific AI tool or actionable insight for Hong Kong groups."
   },
   {
     "i": 25,
@@ -304,8 +316,19 @@
     "hashtags": [],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The entry discusses a hardware lease service without any AI component, thus not relevant to the AI-focused mission."
+    "decision": "accept",
+    "reason": "Office workers and SMEs in Hong Kong can obtain Mac or iPad devices through a $11.99 monthly subscription, cutting upfront costs and avoiding AppleCare fees after lease, improving budgeting flexibility.",
+    "micro_personas": [
+      "Office worker using Mac for daily productivity",
+      "SME owner provisioning iPads for staff"
+    ],
+    "agent_signal": false,
+    "automation_level": 0,
+    "history_queries": [
+      "Apple Upgrade subscription cost",
+      "Mac lease pricing Hong Kong",
+      "iPad monthly rent Apple HK"
+    ]
   },
   {
     "i": 26,
@@ -325,7 +348,7 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The entry discusses gaming announcements without AI relevance, offering no actionable AI utility for Hong Kong target groups."
+    "reject_reason": "The entry lacks AI content and offers no actionable AI utility for Hong Kong target groups."
   },
   {
     "i": 28,
@@ -335,16 +358,17 @@
     "source_name": "香港01",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "The AI-driven workflow at Hong Kong 01 shows SMEs can adopt generative AI for rapid content creation, cutting production costs and accelerating marketing cycles, directly benefiting small business marketing teams.",
+    "reason": "Office Workers can adopt the AI-powered content creation platform showcased by Hong Kong 01, automating article drafting and editing, cutting writing time by up to 50% and boosting newsroom productivity.",
     "micro_personas": [
-      "SME marketing manager drafting blog posts",
-      "SME content creator generating video scripts"
+      "Newsroom reporter drafting articles",
+      "Content editor reviewing AI-generated drafts"
     ],
     "agent_signal": true,
-    "automation_level": 4,
+    "automation_level": 3,
     "history_queries": [
-      "Hong Kong 01 AI adoption",
-      "SME media AI tools"
+      "Hong Kong 01 AI transformation",
+      "AI content creation platform for newsrooms",
+      "Automated article drafting tools"
     ]
   },
   {
@@ -355,7 +379,7 @@
     "source_name": "香港01",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article is a policy announcement without concrete AI tools or actionable details for Hong Kong groups, thus lacking direct operational relevance."
+    "reject_reason": "The entry is a policy announcement lacking specific AI tools or actionable benefits for Hong Kong target groups."
   },
   {
     "i": 30,
@@ -365,6 +389,6 @@
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article is a high‑level geopolitical overview without concrete AI tools or actionable insights for Hong Kong users."
+    "reject_reason": "The article is a high‑level geopolitical overview without concrete AI tools or actionable insights for Hong Kong stakeholders."
   }
 ]
