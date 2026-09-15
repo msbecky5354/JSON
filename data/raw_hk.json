@@ -10,19 +10,9 @@
       "#TechPolicy"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Provides a clear AI ethics framework that Hong Kong professionals and elderly can reference to assess AI services, enhancing trust and guiding safe adoption.",
-    "micro_personas": [
-      "Corporate compliance officer reviewing AI vendor contracts",
-      "Elderly user evaluating AI-powered assistants"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Microsoft + Publish Code of Conduct",
-      "Anthropic + Criticized by Microsoft"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Pure ethical policy announcement without specific security warnings or actionable measures for local users, offering limited practical safety utility."
   },
   {
     "i": 2,
@@ -37,7 +27,7 @@
     "source_name": "香港商报",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The discussion is abstract ecosystem policy without concrete tools or security implications for Hong Kong developers, offering limited practical utility."
+    "reject_reason": "High‑level discussion lacks concrete technical details or actionable insights for Hong Kong developers, providing minimal immediate utility."
   },
   {
     "i": 3,
@@ -52,16 +42,16 @@
     "source_name": "Singtaousa",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Highlights co‑creation investment model enabling Hong Kong SMEs and entrepreneurs to access early‑stage AI funding and partnership opportunities for rapid product rollout.",
+    "reason": "The co‑creation model highlighted at the summit offers Hong Kong SMEs and entrepreneurs concrete partnership pathways and early‑stage funding opportunities, enabling faster product validation and market entry.",
     "micro_personas": [
       "Startup founder seeking seed funding",
-      "SME product manager exploring AI co‑creation partnership"
+      "SME product manager exploring co‑creation partnerships"
     ],
     "agent_signal": true,
-    "automation_level": 0,
+    "automation_level": 1,
     "history_queries": [
-      "Hong Kong Science Park + Promote Co‑Creation",
-      "Startup + Early‑Stage Investment"
+      "Hong Kong Science Park + Promote",
+      "Startup + SeekFunding"
     ]
   },
   {
@@ -77,16 +67,16 @@
     "source_name": "unwire",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Reveals widespread AI‑driven dating scams, alerting Hong Kong elderly and professionals to verify interactions, reducing fraud risk and enhancing digital safety.",
+    "reason": "Anthropic’s disclosure of AI‑driven dating scams provides a clear warning for Hong Kong’s elderly and professionals, prompting immediate adoption of verification tools and user‑education to mitigate fraud.",
     "micro_personas": [
-      "Elderly individual using dating apps",
-      "HR professional educating staff about AI scams"
+      "Elderly user receiving dating messages",
+      "Professional using AI chat for networking"
     ],
     "agent_signal": true,
-    "automation_level": 1,
+    "automation_level": 2,
     "history_queries": [
-      "Anthropic + Expose AI Scam",
-      "Dating apps + AI fraud warning"
+      "Anthropic + ExposeScam",
+      "AI + DatingScam"
     ]
   }
 ]
