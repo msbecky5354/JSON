@@ -2,8 +2,168 @@
   {
     "i": 1,
     "category": "tech_background",
+    "title": "Bessent Touts American AI Superiority, But Has Beefs With Its Champs - Bloomberg.com",
+    "title_en": "Bessent Claims American AI Superiority While Facing Conflicts With Its Champions",
+    "hashtags": [
+      "#AILeadership",
+      "#TechCompetition",
+      "#USInnovation"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article discusses AI leadership claims without concrete technical details or tools, offering no actionable benefit for HK developers or local AI initiatives."
+  },
+  {
+    "i": 2,
+    "category": "safety_trust",
+    "title": "Pondero Brief: Anthropic, OpenAI, and Google built a safety-standards body in secret - Buttondown",
+    "title_en": "Anthropic, OpenAI, and Google Secretly Formed a Safety-Standards Organization",
+    "hashtags": [
+      "#AI Ethics",
+      "#SafetyStandards",
+      "#IndustryCollaboration"
+    ],
+    "source_name": "Buttondown",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "While highlighting a new safety body, the piece lacks specific security vulnerabilities or guidelines, providing limited direct warning for HK elderly or professional users."
+  },
+  {
+    "i": 3,
+    "category": "price_free",
+    "title": "Liner launches 'Model API' AI orchestration, cuts LLM costs by 50 percent - 디지털투데이",
+    "title_en": "Liner Introduces 'Model API' to Orchestrate AI and Halve LLM Expenses",
+    "hashtags": [
+      "#CostReduction",
+      "#LLMAPI",
+      "#AIOrchestration"
+    ],
+    "source_name": "디지털투데이",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK SMEs and freelance developers can integrate Liner’s Model API to orchestrate multiple LLM providers, cutting subscription fees by up to 50%, enabling faster prototyping and cost‑effective AI services.",
+    "micro_personas": [
+      "SME CTO evaluating AI services",
+      "Freelance developer building SaaS product"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Liner + LaunchModelAPI",
+      "LLM + ReduceCost"
+    ]
+  },
+  {
+    "i": 4,
+    "category": "work_sme",
+    "title": "Wall Street Delivers Verdict on AI Slowdown’s Winners and Losers - The Information",
+    "title_en": "Wall Street Analyzes Winners and Losers Amid AI Slowdown",
+    "hashtags": [
+      "#MarketImpact",
+      "#AITrends",
+      "#InvestmentInsights"
+    ],
+    "source_name": "The Information",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The market analysis offers macro trends but no concrete AI tool or workflow improvement, limiting its practical relevance for HK office workers or SMEs."
+  },
+  {
+    "i": 5,
+    "category": "work_sme",
+    "title": "GPT-6 Astra: The next generation in intelligence for work - OpenAI",
+    "title_en": "GPT-6 Astra: The Next Generation Intelligence Platform for the Workplace",
+    "hashtags": [
+      "#GPT6",
+      "#EnterpriseAI",
+      "#ProductivityBoost"
+    ],
+    "source_name": "OpenAI",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "OpenAI’s GPT‑6 Astra offers enterprise‑grade AI assistants that automate document drafting, data analysis and meeting summarisation, giving HK office workers, HR teams and entrepreneurs a productivity boost with scalable pricing.",
+    "micro_personas": [
+      "HR manager automating candidate screening",
+      "Office worker using AI assistant for report drafting"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "OpenAI + ReleaseGPT6",
+      "Enterprise + AdoptAI"
+    ]
+  },
+  {
+    "i": 6,
+    "category": "tech_background",
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems - OpenAI",
+    "title_en": "Perplexity Places Trust in GPT-6 Astra for End-to-End Systems",
+    "hashtags": [
+      "#AIModels",
+      "#EnterpriseAI",
+      "#Perplexity"
+    ],
+    "source_name": "OpenAI",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "HK developers can start planning integration of the upcoming GPT‑6 Astra model, which promises higher throughput and lower latency for enterprise AI services, giving a competitive edge.",
+    "micro_personas": [
+      "AI Platform Engineer integrating LLM APIs",
+      "Product Manager evaluating next‑gen language models"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "GPT-6 Astra + API Integration",
+      "Perplexity + End-to-End Systems"
+    ]
+  },
+  {
+    "i": 7,
+    "category": "safety_trust",
+    "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+    "title_en": "Is the Big Tech AI Slowdown a Safety Pact or a Cartel?",
+    "hashtags": [
+      "#AIRegulation",
+      "#IndustryCollaboration",
+      "#SafetyDebate"
+    ],
+    "source_name": "AI | The Verge",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Provides only high‑level industry policy debate without concrete security or privacy risk details actionable for Hong Kong users."
+  },
+  {
+    "i": 8,
+    "category": "real_use",
+    "title": "AI’s best coding agent fails 60% of the time — and the data backs it up - The New Stack",
+    "title_en": "AI Coding Agent Fails 60% of the Time, Data Confirms the Shortfall",
+    "hashtags": [
+      "#AICoding",
+      "#PerformanceMetrics",
+      "#DeveloperTools"
+    ],
+    "source_name": "The New Stack",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "The 60% failure rate of the AI coding agent signals HK developers to benchmark alternatives before adopting, preventing wasted time and potential code quality issues.",
+    "micro_personas": [
+      "Junior Developer using AI code assistant",
+      "DevOps Engineer automating code generation"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Coding Agent + Failure Rate",
+      "Developer Productivity + AI Tools"
+    ]
+  },
+  {
+    "i": 9,
+    "category": "tech_background",
     "title": "Making sovereign, open-weight AI the technology frontier - mistral.ai",
-    "title_en": "Making Sovereign, Open-Weight AI the Technology Frontier",
+    "title_en": "Advancing Sovereign, Open-Weight AI as the Next Technology Frontier",
     "hashtags": [
       "#OpenAI",
       "#SovereignTech",
@@ -12,803 +172,566 @@
     "source_name": "mistral.ai",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Open‑weight models from Mistral enable Hong Kong developers and startups to self‑host AI, reducing reliance on foreign clouds and lowering operational costs for local AI services.",
+    "reason": "Open‑weight sovereign AI models enable HK startups and SMEs to self‑host LLMs, reducing reliance on foreign APIs and aligning with local data‑sovereignty requirements.",
     "micro_personas": [
-      "AI Developer building custom models",
-      "Startup CTO evaluating open‑source AI stack"
+      "Startup CTO evaluating self‑hosted LLM",
+      "Research Engineer building custom AI services"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Mistral AI + Release",
-      "Hong Kong Developers + Adopt"
+      "Open-weight AI + Self-Hosting",
+      "Sovereign AI + Data Privacy"
     ]
   },
   {
-    "i": 2,
-    "category": "tools_access",
-    "title": "Alchip Technologies Showcases Advanced ASIC Design and Packaging at AI Infra Summit 2026 - Yahoo Finance Singapore",
-    "title_en": "Alchip Technologies Showcases Advanced ASIC Design and Packaging at AI Infra Summit 2026",
+    "i": 10,
+    "category": "real_use",
+    "title": "Asian Stocks to Fall on AI, Key US Yield Tops 5%: Markets Wrap - Bloomberg.com",
+    "title_en": "Asian Stocks Expected to Decline on AI Concerns as US Yield Surpasses 5%",
     "hashtags": [
-      "#ASIC",
-      "#AIHardware",
-      "#TechSummit"
+      "#MarketTrends",
+      "#AIImpact",
+      "#YieldCurve"
     ],
-    "source_name": "Yahoo Finance Singapore",
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focuses on macro‑financial market speculation rather than concrete AI deployment or operational benefit for Hong Kong target groups."
+  },
+  {
+    "i": 11,
+    "category": "price_free",
+    "title": "Vera Rubin NVL72 Agentic Inference: 67x better Performance per Dollar - SemiAnalysis",
+    "title_en": "Vera Rubin NVL72 Agentic Inference: 67x Better Performance per Dollar - SemiAnalysis",
+    "hashtags": [
+      "#AIPerformance",
+      "#CostEfficiency",
+      "#TechInnovation"
+    ],
+    "source_name": "SemiAnalysis",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Alchip’s advanced ASIC designs give Hong Kong SMEs and hardware startups accessible high‑performance AI inference chips, accelerating product timelines and competitive edge.",
+    "reason": "HK SMEs and freelance developers can cut AI inference spend by up to 67×, enabling affordable deployment of chatbots, analytics, and automation tools without sacrificing performance, directly boosting competitiveness.",
     "micro_personas": [
-      "Hardware Engineer at HK startup",
-      "SME Product Manager evaluating AI accelerator"
+      "SME CTO evaluating AI services",
+      "Freelance developer building SaaS product"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "NVL72 + CostReduction",
+      "AI Inference + Pricing"
+    ]
+  },
+  {
+    "i": 12,
+    "category": "safety_trust",
+    "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’ - TechCrunch",
+    "title_en": "Nvidia CEO Jensen Huang Tells Trump ‘We’re Not Going to Let an AI Slowdown Happen’ - TechCrunch",
+    "hashtags": [
+      "#AILeadership",
+      "#Policy",
+      "#IndustryResponse"
+    ],
+    "source_name": "TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The statement is a political reassurance lacking concrete safety or privacy details, offering no actionable security guidance for Hong Kong enterprises or users."
+  },
+  {
+    "i": 13,
+    "category": "regulation_public",
+    "title": "AI Cyber Benchmark 2026: Governance matures, operational security lags - Wavestone",
+    "title_en": "AI Cyber Benchmark 2026: Governance Matures, Operational Security Lags - Wavestone",
+    "hashtags": [
+      "#AIGovernance",
+      "#CyberSecurity",
+      "#Compliance"
+    ],
+    "source_name": "Wavestone",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "The benchmark reveals operational security gaps in AI deployments, prompting HK firms to tighten controls, update policies, and ensure compliance with PDPO, protecting data across finance and health sectors.",
+    "micro_personas": [
+      "Compliance officer in a bank",
+      "IT manager of a mid-sized enterprise"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Alchip + Showcase",
-      "Hong Kong Chip Designers + Source"
-    ]
-  },
-  {
-    "i": 3,
-    "category": "safety_trust",
-    "title": "Microsoft Joins Calls for AI “Pacing,” Pledges to Build Kill Switches Into AI Products - The Information",
-    "title_en": "Microsoft Calls for AI Pacing and Commits to Building Kill Switches into AI Products",
-    "hashtags": [
-      "#AIEthics",
-      "#KillSwitch",
-      "#Microsoft"
-    ],
-    "source_name": "The Information",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Microsoft’s built‑in kill‑switch provides a safety net for Hong Kong enterprises and elderly users, allowing rapid shutdown of rogue AI services and enhancing trust.",
-    "micro_personas": [
-      "IT Security Officer in HK bank",
-      "Elderly user of AI home assistant"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Microsoft + KillSwitch",
-      "Hong Kong Enterprises + Deploy"
-    ]
-  },
-  {
-    "i": 4,
-    "category": "safety_trust",
-    "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
-    "title_en": "Microsoft Emphasizes People Over AI, Releases 37‑Page Humanist AI Code of Conduct Amid Safety Concerns",
-    "hashtags": [
-      "#HumanCentricAI",
-      "#AIsafety",
-      "#CodeOfConduct"
-    ],
-    "source_name": "AI | The Verge",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "The 37‑page humanist AI code of conduct guides Hong Kong HR professionals and corporate leaders to implement ethical AI, mitigating compliance and reputational risks.",
-    "micro_personas": [
-      "HR Manager implementing AI recruiting tools",
-      "Professional consultant advising AI ethics"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Microsoft + CodeOfConduct",
-      "Hong Kong Companies + Adopt Ethics"
-    ]
-  },
-  {
-    "i": 5,
-    "category": "regulation_public",
-    "title": "Xi’s Open-Source AI Pitch Puts India’s ‘Third Way’ Strategy to the Test - Pragativadi",
-    "title_en": "Xi’s Open‑Source AI Pitch Challenges India’s ‘Third Way’ Strategy",
-    "hashtags": [
-      "#OpenSourceAI",
-      "#Geopolitics",
-      "#IndiaPolicy"
-    ],
-    "source_name": "Pragativadi",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Primarily discusses India’s AI policy; offers no direct regulatory or operational impact for Hong Kong businesses or target groups."
-  },
-  {
-    "i": 6,
-    "category": "real_use",
-    "title": "US stocks on course for lower open as AI jitters hit Nvidia, chipmakers - Reuters",
-    "title_en": "US stocks on course for lower open as AI jitters hit Nvidia, chipmakers - Reuters",
-    "hashtags": [
-      "#StockMarket",
-      "#AIImpact",
-      "#Nvidia",
-      "#Chipmakers"
-    ],
-    "source_name": "Reuters",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Market commentary without concrete AI tool or operational impact for Hong Kong target groups."
-  },
-  {
-    "i": 7,
-    "category": "tech_background",
-    "title": "Elon Musk Drops a Bombshell: Grok 5 Could Be the AGI Breakthrough - BeInCrypto",
-    "title_en": "Elon Musk Drops a Bombshell: Grok 5 Could Be the AGI Breakthrough - BeInCrypto",
-    "hashtags": [
-      "#ElonMusk",
-      "#Grok5",
-      "#AGI",
-      "#ArtificialIntelligence"
-    ],
-    "source_name": "BeInCrypto",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Speculative AGI claim lacks concrete model details or deployment guidance, offering no immediate utility for HK developers."
-  },
-  {
-    "i": 8,
-    "category": "regulation_public",
-    "title": "ASEAN Weekly: AI drives nuclear push in Thailand and Vietnam; Philippines steps up geothermal, waste-to-energy - Reccessary",
-    "title_en": "ASEAN Weekly: AI drives nuclear push in Thailand and Vietnam; Philippines steps up geothermal, waste-to-energy - Reccessary",
-    "hashtags": [
-      "#ASEAN",
-      "#AI",
-      "#NuclearEnergy",
-      "#Geothermal",
-      "#WasteToEnergy"
-    ],
-    "source_name": "Reccessary",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Focuses on ASEAN energy policies; does not address Hong Kong regulatory environment or actionable compliance measures."
-  },
-  {
-    "i": 9,
-    "category": "safety_trust",
-    "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes - MIT Technology Review",
-    "title_en": "The Download: AI’s real extinction threat and age-reversal tech for eyes - MIT Technology Review",
-    "hashtags": [
-      "#AIThreat",
-      "#ExtinctionRisk",
-      "#AgeReversal",
-      "#TechEthics"
-    ],
-    "source_name": "MIT Technology Review",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Discusses existential AI risks and medical tech without specific safety vulnerabilities or mitigation steps relevant to HK elderly or professionals."
-  },
-  {
-    "i": 10,
-    "category": "tools_access",
-    "title": "Migrate to GPT-Live - OpenAI Developers",
-    "title_en": "Migrate to GPT-Live - OpenAI Developers",
-    "hashtags": [
-      "#GPTLive",
-      "#OpenAI",
-      "#Migration",
-      "#DeveloperTools"
-    ],
-    "source_name": "OpenAI Developers",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "OpenAI’s GPT‑Live streaming API becomes publicly available, letting Hong Kong developers and SMEs embed real‑time AI responses, boosting productivity and reducing latency.",
-    "micro_personas": [
-      "Backend developer building live chat assistant",
-      "SME product manager launching AI‑powered customer support"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "GPT-Live + Migration",
-      "OpenAI + RealTimeAPI"
-    ]
-  },
-  {
-    "i": 11,
-    "category": "safety_trust",
-    "title": "EU set to propose kids act to strengthen social media safety - Firstpost",
-    "title_en": "EU Set to Propose Kids Act to Strengthen Social Media Safety",
-    "hashtags": [
-      "#ChildSafety",
-      "#SocialMediaRegulation",
-      "#EUPolicy"
-    ],
-    "source_name": "Firstpost",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK parents and elderly can learn from the EU Kids Act proposal to demand stronger social‑media safety features locally, prompting platforms to tighten privacy controls and protect vulnerable users.",
-    "micro_personas": [
-      "HK parent managing child's social media",
-      "HK elderly user wary of online scams"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "EU + ProposeKidsAct",
-      "SocialMediaPlatforms + AdjustSafetyPolicies"
-    ]
-  },
-  {
-    "i": 13,
-    "category": "tech_background",
-    "title": "Gemini 4 Could Autonomously Refine Code via Leaked RSI - Geeky Gadgets",
-    "title_en": "Gemini 4 Could Autonomously Refine Code via Leaked RSI",
-    "hashtags": [
-      "#AIProgramming",
-      "#AutonomousCoding",
-      "#Gemini4"
-    ],
-    "source_name": "Geeky Gadgets",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "HK developers can explore Gemini 4’s autonomous code‑refinement capability to accelerate prototype building, reduce manual debugging, and experiment with self‑improving AI assistants in local software projects.",
-    "micro_personas": [
-      "HK startup developer prototyping MVP",
-      "HK AI research engineer testing code generation"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Gemini4 + RefineCode",
-      "Developers + EvaluateAutonomousCoding"
+      "AI Governance + Benchmark",
+      "Operational Security + Gaps"
     ]
   },
   {
     "i": 14,
-    "category": "work_sme",
-    "title": "GPT-6 Astra: The next generation in intelligence for work - OpenAI",
-    "title_en": "GPT-6 Astra: The Next Generation in Intelligence for Work",
+    "category": "safety_trust",
+    "title": "COMMENTARY: Trading Day: AI-pocalypse now - Reuters",
+    "title_en": "COMMENTARY: Trading Day: AI‑pocalypse Now - Reuters",
     "hashtags": [
-      "#GPT6",
-      "#WorkplaceAI",
-      "#ProductivityTools"
+      "#AIImpact",
+      "#MarketRisk",
+      "#FutureOfWork"
     ],
-    "source_name": "OpenAI",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK office workers and SME leaders can deploy GPT‑6 Astra to automate report drafting, email composition, and data analysis, delivering measurable productivity gains and freeing staff for higher‑value tasks.",
-    "micro_personas": [
-      "HK office administrator automating reports",
-      "HK SME manager creating sales proposals"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "OpenAI + LaunchGPT6",
-      "Businesses + AdoptWorkAI"
-    ]
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Commentary provides speculative AI risk narrative without specific vulnerabilities or mitigation steps, limiting practical safety relevance for Hong Kong audiences."
   },
   {
     "i": 15,
-    "category": "regulation_public",
-    "title": "Germany says halting AI development not viable, calls for US, China involvement - Reuters",
-    "title_en": "Germany Says Halting AI Development Not Viable, Calls for US, China Involvement",
+    "category": "safety_trust",
+    "title": "What execs and politicians are saying about slowing down AI development",
+    "title_en": "What Executives and Politicians Are Saying About Slowing Down AI Development",
     "hashtags": [
-      "#AIRegulation",
-      "#InternationalCooperation",
-      "#Germany"
+      "#AISafety",
+      "#Regulation",
+      "#PublicPolicy"
     ],
-    "source_name": "Reuters",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK policymakers and corporate legal teams can reference Germany’s stance on continued AI development to shape balanced regulations that encourage innovation while ensuring cross‑border cooperation and risk mitigation.",
-    "micro_personas": [
-      "HK government AI policy advisor",
-      "HK corporate legal counsel for tech firms"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "Germany + AIPolicyStatement",
-      "International + AIDevelopmentCooperation"
-    ]
+    "source_name": "AI | The Verge",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The piece summarizes political opinions on AI slowdown, not delivering concrete safety warnings or technical measures applicable to Hong Kong stakeholders."
   },
   {
     "i": 16,
-    "category": "tools_access",
-    "title": "Intel-Backed Construction AI Firm Buildots Raises $130 Million - Bloomberg.com",
-    "title_en": "Intel-Backed Construction AI Firm Buildots Raises $130 Million",
+    "category": "tech_background",
+    "title": "Army Intelligence’s CAIO Talks Military AI Workforce Gaps - ExecutiveGov",
+    "title_en": "Army Intelligence’s Chief AI Officer Discusses Gaps in the Military AI Workforce",
     "hashtags": [
-      "#ConstructionAI",
-      "#FundingRound",
-      "#Buildots"
+      "#MilitaryAI",
+      "#WorkforceDevelopment",
+      "#AIRecruitment"
     ],
-    "source_name": "Bloomberg.com",
-    "evidence_status": "official",
+    "source_name": "ExecutiveGov",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "HK construction SMEs can adopt Buildots’ AI‑driven site monitoring tools to improve safety compliance, detect defects early, and streamline project workflows, leading to cost savings and higher productivity.",
+    "reason": "Provides Hong Kong developers insight into emerging military AI talent gaps and required skill sets, guiding curriculum design and recruitment for defense‑related AI projects.",
     "micro_personas": [
-      "HK construction project manager using AI site analytics",
-      "HK SME contractor optimizing workflow"
+      "AI research engineer targeting defense contracts",
+      "Curriculum designer for university AI programs"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Buildots + FundingRound",
-      "ConstructionAI + DeployInHK"
+      "AI Workforce + GapAnalysis",
+      "Military AI + SkillDemand"
     ]
   },
   {
     "i": 17,
-    "category": "tech_background",
-    "title": "Is Anthropic Really Worth $965 Billion? Anthropic IPO Valuation, Every Round, and Who Owns What - MEXC",
-    "title_en": "Is Anthropic Really Worth $965 Billion? Anthropic IPO Valuation, Funding Rounds, and Ownership Structure",
+    "category": "real_use",
+    "title": "Bellevue startup Temporal sees valuation jump to $12.6 billion with latest funding round - The Business Journals",
+    "title_en": "Bellevue Startup Temporal’s Valuation Soars to $12.6 Billion After Latest Funding Round",
     "hashtags": [
-      "#Anthropic",
+      "#StartupFunding",
       "#AIValuation",
-      "#TechInvestments"
+      "#TemporalTech"
     ],
-    "source_name": "MEXC",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The article focuses on Anthropic’s valuation and ownership without detailing technical models or tools, offering little actionable AI insight for Hong Kong target groups."
+    "source_name": "The Business Journals",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Temporal’s workflow orchestration platform enables Hong Kong SMEs and developers to automate complex AI pipelines, reducing integration time and operational costs while scaling services.",
+    "micro_personas": [
+      "DevOps engineer automating model deployment",
+      "SME IT manager streamlining data workflows"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Workflow Orchestration + Integration",
+      "AI Pipeline + CostReduction"
+    ]
   },
   {
     "i": 18,
-    "category": "tools_access",
-    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems - OpenAI",
-    "title_en": "Perplexity Integrates GPT-6 Astra for End-to-End System Capabilities",
+    "category": "safety_trust",
+    "title": "Nvidia CEO Puts Trump on Phone While Downplaying AI Risks - Bloomberg.com",
+    "title_en": "Nvidia CEO Calls Trump, Downplays Potential Risks of Artificial Intelligence",
     "hashtags": [
-      "#PerplexityAI",
-      "#GPT6",
-      "#AstraIntegration"
+      "#Nvidia",
+      "#AIrisks",
+      "#PoliticalDialogue"
     ],
-    "source_name": "OpenAI",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Perplexity’s integration of GPT‑6 Astra provides Hong Kong office workers and developers immediate access to advanced end‑to‑end AI capabilities, enabling faster research summarisation and intelligent application prototyping.",
-    "micro_personas": [
-      "Office worker using Perplexity for quick research",
-      "Developer building AI‑enhanced search features"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Perplexity + Integration",
-      "GPT-6 + End-to-End"
-    ]
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Lacks concrete safety or privacy details; merely a political statement, offering no actionable AI risk guidance for Hong Kong elderly or professionals."
   },
   {
     "i": 19,
-    "category": "price_free",
-    "title": "ChatGPT Rate Card (Enterprise token-based pricing) - OpenAI Help Center",
-    "title_en": "ChatGPT Enterprise Rate Card: Token‑Based Pricing Details",
+    "category": "safety_trust",
+    "title": "Trump dismisses AI safety alarm, says US already has tools to police industry - Reuters",
+    "title_en": "Trump Rejects AI Safety Concerns, Claims the United States Already Has Tools to Regulate the Industry",
     "hashtags": [
-      "#ChatGPTEnterprise",
-      "#Pricing",
-      "#TokenEconomics"
+      "#AIregulation",
+      "#Trump",
+      "#SafetyDebate"
     ],
-    "source_name": "OpenAI Help Center",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "The ChatGPT Enterprise token‑based rate card reveals cost structures that allow Hong Kong SMEs and developers to optimise AI spending, making large‑scale deployment financially viable.",
-    "micro_personas": [
-      "SME IT manager evaluating enterprise AI subscription",
-      "Developer budgeting API usage for a product"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "ChatGPT + Pricing",
-      "Enterprise + TokenEconomics"
-    ]
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Provides no specific security vulnerability or mitigation; only political dismissal, thus no practical safety guidance for Hong Kong stakeholders."
   },
   {
     "i": 20,
-    "category": "safety_trust",
-    "title": "BIS says global market AI momentum showing signs of vulnerability - Reuters",
-    "title_en": "BIS Warns Global AI Market Momentum Shows Signs of Vulnerability",
+    "category": "regulation_public",
+    "title": "Mathematicians are protesting that using mathematics in AI benchmarks is harmful. - gigazine.net",
+    "title_en": "Mathematicians Protest Use of Mathematics in AI Benchmarks, Calling It Harmful",
     "hashtags": [
-      "#BIS",
-      "#AIMarketRisk",
-      "#AIStability"
+      "#AIbenchmarks",
+      "#MathematicsProtest",
+      "#EthicalAI"
     ],
-    "source_name": "Reuters",
-    "evidence_status": "official",
+    "source_name": "gigazine.net",
+    "evidence_status": "independent_report",
     "decision": "accept",
-    "reason": "BIS’s warning of AI market vulnerabilities alerts Hong Kong elderly users and professionals to emerging security threats, prompting heightened vigilance against deepfake scams and unstable AI services.",
+    "reason": "Mathematicians’ protest highlights potential regulatory scrutiny over AI benchmark practices, prompting Hong Kong firms to reassess compliance and validation methods for AI models.",
     "micro_personas": [
-      "Elderly user seeking safe AI interactions",
-      "Professional risk officer monitoring AI stability"
+      "Compliance officer reviewing AI model validation",
+      "Research scientist selecting benchmark datasets"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "BIS + Vulnerability",
-      "AI + MarketRisk"
+      "AI Benchmarks + Regulation",
+      "Model Validation + Compliance"
     ]
   },
   {
     "i": 21,
     "category": "regulation_public",
-    "title": "China Rejects AI ‘Fearmongering’ After Amodei Urges Slowdown - Bloomberg.com",
-    "title_en": "China Dismisses AI ‘Fearmongering’ Following Amodei’s Call for a Slowdown",
+    "title": "Musk’s X, SpaceXAI drop antitrust claims against Apple - The American Bazaar",
+    "title_en": "Musk's X and SpaceX AI Withdraw Antitrust Lawsuits Against Apple",
     "hashtags": [
-      "#ChinaAI",
-      "#Regulation",
-      "#AIethics"
+      "#Antitrust",
+      "#TechIndustry",
+      "#Apple",
+      "#Regulation"
     ],
-    "source_name": "Bloomberg.com",
-    "evidence_status": "official",
+    "source_name": "The American Bazaar",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The antitrust withdrawal concerns US market regulation and offers no actionable impact on Hong Kong businesses or compliance requirements."
+  },
+  {
+    "i": 22,
+    "category": "tech_background",
+    "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+    "title_en": "OpenAI Acquires Smartphone Camera Maker Glass Imaging for $300 Million",
+    "hashtags": [
+      "#Acquisition",
+      "#CameraTech",
+      "#OpenAI",
+      "#GlassImaging"
+    ],
+    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "China’s dismissal of AI ‘fearmongering’ informs Hong Kong compliance teams and entrepreneurs about shifting regulatory attitudes, guiding cross‑border AI product strategies and risk assessments.",
+    "reason": "HK developers can leverage Glass Imaging’s portrait‑mode AI hardware integration to enhance mobile app camera features, enabling faster prototyping and localized computer‑vision solutions for SMEs and startups.",
     "micro_personas": [
-      "Compliance officer managing China‑related AI projects",
-      "Entrepreneur planning AI product launch with Chinese partners"
+      "Mobile app developer building AI‑enhanced camera filters",
+      "Computer‑vision researcher prototyping AR applications"
     ],
-    "agent_signal": true,
-    "automation_level": 1,
+    "agent_signal": false,
+    "automation_level": 2,
     "history_queries": [
-      "China + Regulation",
-      "AI + Slowdown"
+      "Glass Imaging + Acquire",
+      "OpenAI + Integrate"
     ]
   },
   {
     "i": 23,
-    "category": "tech_background",
-    "title": "Global Seagate Research Finds Nearly All Organizations Expect AI to Increase Storage Requirements, but Only 38% of Organizations Say They Are Fully Prepared - Business Wire",
-    "title_en": "Global Seagate Research Finds Nearly All Organizations Expect AI to Increase Storage Requirements, but Only 38% Say They Are Fully Prepared",
+    "category": "safety_trust",
+    "title": "Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion - The Information",
+    "title_en": "Defense Startup Shield AI Engages in Talks Valued at Minimum $20 Billion",
     "hashtags": [
-      "#AIStorage",
-      "#DataGrowth",
-      "#EnterpriseReadiness"
+      "#DefenseAI",
+      "#Valuation",
+      "#ShieldAI",
+      "#Security"
     ],
-    "source_name": "Business Wire",
+    "source_name": "The Information",
     "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Signals that AI workloads will dramatically increase storage demand, prompting Hong Kong developers and SMEs to adopt scalable, cost‑effective data architectures now to avoid future capacity bottlenecks.",
-    "micro_personas": [
-      "AI Platform Engineer planning data pipelines",
-      "DevOps Engineer managing storage capacity"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Seagate + Report",
-      "AI Storage + Forecast"
-    ]
+    "decision": "reject",
+    "reject_reason": "Defense‑oriented AI valuation lacks direct consumer relevance and does not present immediate safety or privacy concerns for Hong Kong elderly or professional users."
   },
   {
     "i": 24,
-    "category": "real_use",
-    "title": "Cloudera partners frontier AI lab Mistral to bolster AI readiness - ITWeb",
-    "title_en": "Cloudera Partners with Frontier AI Lab Mistral to Bolster AI Readiness",
+    "category": "tools_access",
+    "title": "ChatGPT Work and Codex - OpenAI Help Center",
+    "title_en": "ChatGPT Work and Codex – OpenAI Help Center Overview",
     "hashtags": [
-      "#Cloudera",
-      "#MistralAI",
-      "#AIReadiness"
+      "#ChatGPT",
+      "#Codex",
+      "#ProductGuide",
+      "#AItools"
     ],
-    "source_name": "ITWeb",
+    "source_name": "OpenAI Help Center",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Enables Hong Kong enterprises and SMEs to leverage Mistral’s open‑source models through Cloudera’s platform, delivering ready‑to‑deploy generative AI solutions that accelerate product innovation and operational efficiency.",
+    "reason": "ChatGPT Work and Codex documentation gives Hong Kong office workers and developers ready‑to‑use prompts and code generation guides, reducing task time and enabling immediate AI‑assisted productivity across SMEs.",
     "micro_personas": [
-      "Data Engineer deploying Mistral models on Cloudera",
-      "SME IT manager integrating AI services"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Cloudera + Partnership",
-      "MistralAI + Integration"
-    ]
-  },
-  {
-    "i": 25,
-    "category": "safety_trust",
-    "title": "King Charles to host AI executives as threat fears mount - Reuters",
-    "title_en": "King Charles to Host AI Executives as Threat Fears Mount",
-    "hashtags": [
-      "#AIRegulation",
-      "#Security",
-      "#RoyalSummit"
-    ],
-    "source_name": "Reuters",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Highlights heightened AI security concerns discussed at a royal summit, urging Hong Kong’s elderly and professional users to stay vigilant against deepfake scams and emerging AI‑driven threats.",
-    "micro_personas": [
-      "Elderly user concerned about deepfake scams",
-      "Professional cybersecurity analyst monitoring AI threats"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Royal Summit + AI Threats",
-      "AI Regulation + Discussion"
-    ]
-  },
-  {
-    "i": 26,
-    "category": "real_use",
-    "title": "Meta bets on agentic commerce with Stilla.ai acquisition - Performance Marketing World",
-    "title_en": "Meta Bets on Agentic Commerce with Stilla.ai Acquisition",
-    "hashtags": [
-      "#MetaAcquisition",
-      "#AgenticCommerce",
-      "#AdTech"
-    ],
-    "source_name": "Performance Marketing World",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Meta’s acquisition of Stilla.ai introduces agentic commerce tools, giving Hong Kong marketers and SME owners AI‑powered product recommendation and transaction automation to boost sales conversion and customer engagement.",
-    "micro_personas": [
-      "Digital Marketing Manager implementing agentic commerce bots",
-      "SME owner using AI-driven product recommendations"
+      "Office analyst automating report drafts",
+      "Junior developer generating boilerplate code"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "Meta + Acquisition",
-      "Stilla.ai + Agentic Commerce"
+      "ChatGPT + Launch",
+      "Codex + Documentation"
+    ]
+  },
+  {
+    "i": 25,
+    "category": "tech_background",
+    "title": "OpenAI’s ‘Top Priority’ for AI Agents is Automating AI Research, Says Noam Brown - The Information",
+    "title_en": "OpenAI Prioritizes Automating AI Research for Agents, Says Noam Brown",
+    "hashtags": [
+      "#AIResearch",
+      "#Automation",
+      "#OpenAI",
+      "#NoamBrown"
+    ],
+    "source_name": "The Information",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The statement about automating AI research is a strategic outlook without concrete tool releases or cost changes, offering limited immediate utility for Hong Kong target groups."
+  },
+  {
+    "i": 26,
+    "category": "tech_background",
+    "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance - TechCrunch",
+    "title_en": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance - TechCrunch",
+    "hashtags": [
+      "#AIInfrastructure",
+      "#Funding",
+      "#NvidiaCompetition"
+    ],
+    "source_name": "TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "HK developers can anticipate Cornelis’ GPU alternatives, potentially lowering compute costs and enabling on‑premise AI workloads for startups and SMEs, fostering local self‑hosting and reducing reliance on Nvidia.",
+    "micro_personas": [
+      "AI Startup CTO evaluating hardware options",
+      "Cloud Service Engineer planning GPU procurement"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Cornelis + Funding",
+      "AI Infrastructure + Market Entry"
     ]
   },
   {
     "i": 27,
-    "category": "regulation_public",
-    "title": "OpenAI’s Brockman Says an AI Pause Should Focus on Frontier - Bloomberg.com",
-    "title_en": "OpenAI’s Brockman Says an AI Pause Should Focus on Frontier",
-    "hashtags": [
-      "#AIPause",
-      "#FrontierAI",
-      "#PolicyDebate"
-    ],
-    "source_name": "Bloomberg.com",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "OpenAI’s call for a focused AI pause informs Hong Kong policymakers and startup founders about potential regulatory trajectories, helping them prepare compliance strategies for frontier AI developments.",
-    "micro_personas": [
-      "Policy analyst tracking AI regulation",
-      "Tech startup founder anticipating regulatory changes"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "OpenAI + Pause Debate",
-      "AI Policy + Recommendation"
-    ]
-  },
-  {
-    "i": 28,
     "category": "safety_trust",
-    "title": "How China is preparing for the risk of AI escaping human control - Reuters",
-    "title_en": "How China Is Preparing for the Risk of AI Escaping Human Control",
+    "title": "Iran, Yemeni Cell Used Claude in Developing Weapons, Threats: Anthropic - Security Boulevard",
+    "title_en": "Iran, Yemeni Cell Used Claude in Developing Weapons, Threats: Anthropic - Security Boulevard",
     "hashtags": [
-      "#AIethics",
-      "#riskmanagement",
-      "#ChinaTech",
-      "#AIcontrol"
+      "#AIWeaponization",
+      "#Security",
+      "#Anthropic"
     ],
-    "source_name": "Reuters",
+    "source_name": "Security Boulevard",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Highlights emerging AI control risks, prompting Hong Kong elderly users and professional security teams to adopt stricter safeguards and monitoring practices against potential AI misuse.",
+    "reason": "Alert for HK enterprises and professionals that Anthropic’s Claude is being weaponized, prompting immediate review of AI tool usage policies, monitoring, and stricter access controls to protect against misuse.",
     "micro_personas": [
-      "Elderly user concerned about AI scams",
-      "Enterprise security officer overseeing AI deployments"
+      "Corporate Security Officer assessing AI tool risks",
+      "Elderly User Advisor on safe AI usage"
     ],
     "agent_signal": true,
     "automation_level": 0,
     "history_queries": [
-      "AI risk + mitigation",
-      "China AI policy + impact"
+      "Anthropic + Weaponization",
+      "Claude + Misuse"
+    ]
+  },
+  {
+    "i": 29,
+    "category": "real_use",
+    "title": "FamilyMart hopes to quickly tap into trends with AI-developed sweets - Nikkei Asia",
+    "title_en": "FamilyMart hopes to quickly tap into trends with AI-developed sweets - Nikkei Asia",
+    "hashtags": [
+      "#AIProducts",
+      "#ConsumerGoods",
+      "#FoodTech"
+    ],
+    "source_name": "Nikkei Asia",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "FamilyMart’s AI‑crafted sweets showcase rapid product ideation, offering HK SMEs a blueprint to leverage generative AI for trend‑driven merchandise, accelerating time‑to‑market and reducing R&D expenses.",
+    "micro_personas": [
+      "SME Food Product Manager launching new snack",
+      "Retail Chain Buyer evaluating AI-generated concepts"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "FamilyMart + AI sweets",
+      "Retail + AI product development"
     ]
   },
   {
     "i": 30,
     "category": "tech_background",
-    "title": "Google Picks Four Indian Startups As Part Of AI For The Planet Accelerator - Inc42",
-    "title_en": "Google Selects Four Indian Startups for the AI for the Planet Accelerator",
+    "title": "What Happens When AI Starts Improving AI? — TITV [Video] - The Information",
+    "title_en": "What Happens When AI Starts Improving AI? — TITV [Video] - The Information",
     "hashtags": [
-      "#GoogleAI",
-      "#StartupAccelerator",
-      "#SustainabilityAI",
-      "#IndiaTech"
+      "#RecursiveAI",
+      "#AIResearch",
+      "#FutureTech"
     ],
-    "source_name": "Inc42",
+    "source_name": "The Information",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Focuses on Indian startup accelerator without concrete tools or cost changes, offering limited direct utility for Hong Kong developers or other target groups."
+    "reject_reason": "The article discusses speculative recursive AI research without concrete tools, cost impact, or security implications, offering no immediate practical benefit for Hong Kong developers or businesses."
   },
   {
     "i": 31,
-    "category": "tech_background",
-    "title": "Submer and Edgecore Partner on AI-Ready Data Centre Infrastructure Across META - TechAfrica News",
-    "title_en": "Submer and Edgecore Partner to Deliver AI‑Ready Data Centre Infrastructure Across META",
-    "hashtags": [
-      "#DataCenter",
-      "#AIInfrastructure",
-      "#Edgecore",
-      "#Submer",
-      "#META"
-    ],
-    "source_name": "TechAfrica News",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Announces AI‑ready data‑centre solutions that Hong Kong developers and SME IT managers can leverage to host large models locally, reducing latency and dependence on overseas clouds.",
-    "micro_personas": [
-      "Cloud architect deploying LLM services",
-      "SME IT manager planning AI workload expansion"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "AI infrastructure + deployment",
-      "Edgecore data centre + Hong Kong"
-    ]
-  },
-  {
-    "i": 32,
-    "category": "real_use",
-    "title": "UAE doctors turn to AI to explain why cancer treatments work for some but not others - thenationalnews.com",
-    "title_en": "UAE Doctors Use AI to Explain Why Cancer Treatments Work for Some Patients but Not Others",
-    "hashtags": [
-      "#AIinHealthcare",
-      "#CancerTreatment",
-      "#UAE",
-      "#PrecisionMedicine"
-    ],
-    "source_name": "thenationalnews.com",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Demonstrates AI‑driven cancer treatment explanations, enabling Hong Kong oncologists and elderly patients to understand therapy choices, improving trust and clinical decision quality.",
-    "micro_personas": [
-      "Oncologist using AI decision support",
-      "Elderly patient seeking treatment clarity"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "AI precision medicine + oncology",
-      "Patient education + AI"
-    ]
-  },
-  {
-    "i": 33,
-    "category": "work_sme",
-    "title": "AI at Work: Why Deeper Enterprise Use Produces Stronger Returns - PYMNTS.com",
-    "title_en": "AI at Work: How Deeper Enterprise Adoption Generates Stronger Returns",
-    "hashtags": [
-      "#EnterpriseAI",
-      "#BusinessValue",
-      "#Productivity",
-      "#SME",
-      "#AIadoption"
-    ],
-    "source_name": "PYMNTS.com",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Shows measurable ROI from deeper AI adoption, guiding Hong Kong SMEs and office workers to implement workflow automation and HR AI tools for productivity gains.",
-    "micro_personas": [
-      "SME HR manager automating recruitment",
-      "Office worker using AI scheduling assistant"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Enterprise AI adoption + ROI",
-      "SME workflow automation + AI"
-    ]
-  },
-  {
-    "i": 34,
-    "category": "tech_background",
-    "title": "Samsung partners with Mistral AI to advance chip infrastructure - evertiq.com",
-    "title_en": "Samsung Partners with Mistral AI to Advance Chip Infrastructure",
-    "hashtags": [
-      "#AIHardware",
-      "#ChipDesign",
-      "#StrategicPartnership"
-    ],
-    "source_name": "evertiq.com",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Provides Hong Kong developers and AI startups insight into new chip infrastructure partnership, enabling on‑prem model deployment and reducing reliance on foreign cloud GPUs, enhancing local compute capabilities.",
-    "micro_personas": [
-      "AI hardware engineer evaluating chip options",
-      "Startup CTO planning on‑prem AI deployment"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Mistral AI + Chip Partnership",
-      "Samsung + AI Infrastructure"
-    ]
-  },
-  {
-    "i": 35,
-    "category": "safety_trust",
-    "title": "AI Development Pause Cited by Anthropic CEO for Safety - The Cryptonomist",
-    "title_en": "Anthropic CEO Cites AI Development Pause for Safety Concerns",
-    "hashtags": [
-      "#AIethics",
-      "#SafetyFirst",
-      "#DevelopmentPause"
-    ],
-    "source_name": "The Cryptonomist",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Highlights Anthropic’s safety‑first pause, prompting Hong Kong enterprises and elderly‑focused services to reassess AI risk controls, implement stricter monitoring, and educate vulnerable users about potential hazards.",
-    "micro_personas": [
-      "Enterprise security officer assessing AI risk",
-      "Elderly user advocacy group leader"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "Anthropic + Development Pause",
-      "AI Safety Concerns + Corporate Policy"
-    ]
-  },
-  {
-    "i": 36,
     "category": "regulation_public",
-    "title": "Xi's open-source AI pitch: A reminder of why Delhi endorses a third way forward | Hindustan Times - hindustantimes.com",
-    "title_en": "Xi Promotes Open‑Source AI as India Supports a Third Way Forward",
+    "title": "US senators weigh requiring AI giants to commit to preventing catastrophe - Reuters",
+    "title_en": "US senators weigh requiring AI giants to commit to preventing catastrophe - Reuters",
     "hashtags": [
-      "#OpenSourceAI",
-      "#PolicyDebate",
-      "#IndiaTech"
+      "#AIRegulation",
+      "#Policy",
+      "#AISafety"
     ],
-    "source_name": "hindustantimes.com",
+    "source_name": "Reuters",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Shows India’s endorsement of open‑source AI policy, offering Hong Kong regulators and SMEs a precedent to shape local open‑source AI guidelines, encouraging cost‑effective adoption while managing compliance.",
+    "reason": "US Senate deliberations on AI safety commitments signal emerging global standards, urging HK firms to pre‑emptively align governance frameworks, data practices, and risk assessments with anticipated regulatory expectations.",
     "micro_personas": [
-      "HK policy analyst on AI regulation",
-      "SME founder evaluating open‑source AI solutions"
+      "Compliance Officer at multinational corporation",
+      "Legal Advisor for fintech startup"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "India + Open Source AI Policy",
-      "Xi + AI Regulation Debate"
+      "US Senate + AI regulation",
+      "AI giants + Safety commitments"
+    ]
+  },
+  {
+    "i": 32,
+    "category": "regulation_public",
+    "title": "Anthropic faces scrutiny over AI rules, data practices - The Express Tribune",
+    "title_en": "Anthropic faces scrutiny over AI rules, data practices - The Express Tribune",
+    "hashtags": [
+      "#Anthropic",
+      "#AIRegulation",
+      "#DataPrivacy"
+    ],
+    "source_name": "The Express Tribune",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Anthropic's regulatory scrutiny signals potential data‑privacy compliance changes, prompting HK fintech SMEs and developers to review API contracts and implement stricter data handling safeguards.",
+    "micro_personas": [
+      "Data protection officer at a fintech SME",
+      "Legal counsel for a tech startup"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Anthropic + Scrutiny",
+      "AI regulation + Hong Kong"
+    ]
+  },
+  {
+    "i": 33,
+    "category": "regulation_public",
+    "title": "EU is set to propose ban on social media and AI chatbots for under-15s - Reuters",
+    "title_en": "EU is set to propose ban on social media and AI chatbots for under-15s - Reuters",
+    "hashtags": [
+      "#EU",
+      "#SocialMediaBan",
+      "#AIChatbots",
+      "#ChildSafety"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "EU's proposed ban on AI chatbots for under‑15s highlights emerging child‑safety rules that HK edtech platforms must anticipate to avoid future restrictions.",
+    "micro_personas": [
+      "Product manager for a youth app",
+      "Compliance officer at an edtech startup"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "EU + Chatbot ban",
+      "Child safety AI + Hong Kong"
+    ]
+  },
+  {
+    "i": 34,
+    "category": "safety_trust",
+    "title": "Are We Losing Control of AI? What's Driving New Fears? - Bloomberg.com",
+    "title_en": "Are We Losing Control of AI? What's Driving New Fears? - Bloomberg.com",
+    "hashtags": [
+      "#AIControl",
+      "#TechFears",
+      "#FutureRisk"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article offers speculative fears without concrete security flaws or actionable mitigation steps for HK users, limiting practical safety‑trust value."
+  },
+  {
+    "i": 35,
+    "category": "tools_access",
+    "title": "Ads in ChatGPT: The Basics - OpenAI Help Center",
+    "title_en": "Ads in ChatGPT: The Basics - OpenAI Help Center",
+    "hashtags": [
+      "#ChatGPT",
+      "#Ads",
+      "#Monetization"
+    ],
+    "source_name": "OpenAI Help Center",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Introduction of ads in ChatGPT may shift free‑tier usability, urging HK office workers and SME owners to evaluate cost‑effective alternatives or ad‑free subscriptions.",
+    "micro_personas": [
+      "Office worker drafting client emails",
+      "SME owner using ChatGPT for marketing copy"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "ChatGPT + Ads",
+      "AI tool cost + Hong Kong"
+    ]
+  },
+  {
+    "i": 36,
+    "category": "safety_trust",
+    "title": "How China is preparing for the risk of AI escaping human control - Reuters",
+    "title_en": "How China is preparing for the risk of AI escaping human control - Reuters",
+    "hashtags": [
+      "#China",
+      "#AIRisk",
+      "#Control"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "China's AI risk mitigation policies signal regional security trends, prompting HK professionals and elderly users to scrutinize AI trustworthiness and adopt stricter privacy settings.",
+    "micro_personas": [
+      "Security analyst at a Hong Kong bank",
+      "Senior citizen using AI voice assistant"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "China + AI risk control",
+      "AI safety trust + Hong Kong"
     ]
   },
   {
     "i": 37,
-    "category": "work_sme",
-    "title": "EXCLUSIVE: IPO for humanoid robot maker Boston Dynamics unlikely in 2027, executive says - Reuters",
-    "title_en": "Boston Dynamics Unlikely to Pursue IPO by 2027, Executive Says",
-    "hashtags": [
-      "#Robotics",
-      "#IPO",
-      "#BusinessStrategy"
-    ],
-    "source_name": "Reuters",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The announcement concerns corporate IPO timing without delivering an AI tool or workflow benefit, offering no actionable insight for Hong Kong SMEs or workers."
-  },
-  {
-    "i": 38,
-    "category": "real_use",
-    "title": "Matrix Geo Solutions Wins 3-Year Adani Infra Contract - IT Voice Media",
-    "title_en": "Matrix Geo Solutions Secures Three‑Year Contract with Adani Infra",
-    "hashtags": [
-      "#GeospatialTech",
-      "#Infrastructure",
-      "#ContractWin"
-    ],
-    "source_name": "IT Voice Media",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Demonstrates successful AI‑driven geospatial analytics for large infrastructure projects, giving Hong Kong construction firms and city planners a proven model to improve project planning, monitoring, and cost efficiency.",
-    "micro_personas": [
-      "Urban planning analyst using geospatial AI",
-      "SME GIS service provider"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Matrix Geo Solutions + Adani Contract",
-      "Geospatial AI + Infrastructure Project"
-    ]
-  },
-  {
-    "i": 39,
     "category": "tech_background",
     "title": "LEAP 2026 was about more than AI. Here’s what unfolded - Fast Company Middle East",
     "title_en": "LEAP 2026 Covered More Than AI: Key Highlights and Developments",
@@ -820,23 +743,1854 @@
     "source_name": "Fast Company Middle East",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Developers can assess emerging AI architectures highlighted at LEAP 2026, informing local prototype design and infrastructure planning, enabling Hong Kong tech firms to align with global hardware trends.",
+    "reason": "Developers in Hong Kong can gauge emerging AI architectures highlighted at LEAP 2026, enabling early adoption of new frameworks and informing local product roadmaps for enterprise solutions.",
     "micro_personas": [
-      "AI platform engineer evaluating new hardware",
-      "ML researcher exploring emerging architectures"
+      "HK Startup Developer building AI SaaS",
+      "HK Enterprise Engineer evaluating model integration"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Developers + Review LEAP Highlights",
+      "Product Teams + Assess New Architectures"
+    ]
+  },
+  {
+    "i": 38,
+    "category": "safety_trust",
+    "title": "AI Labs Want Someone to Stop Them - Bloomberg.com",
+    "title_en": "AI Labs Seek a Whistleblower to Halt Their Activities",
+    "hashtags": [
+      "#AI Ethics",
+      "#Whistleblower",
+      "#Safety"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The whistleblower call spotlights potential AI misuse, prompting Hong Kong professionals and elderly users to demand stronger oversight and adopt verification practices for AI-generated content.",
+    "micro_personas": [
+      "HK Elderly user verifying AI news",
+      "HK Corporate Compliance Officer monitoring AI ethics"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "LEAP 2026 + Showcase",
-      "AI Architects + Present"
+      "Compliance Teams + Monitor AI Ethics",
+      "Elderly Users + Verify AI Content"
+    ]
+  },
+  {
+    "i": 39,
+    "category": "tech_background",
+    "title": "Musk Says Grok 5 Will Be xAI's First AGI Model, Even as He Backs AI Slowdown Calls - finance.biggo.com",
+    "title_en": "Musk Announces Grok‑5 as xAI’s First AGI Model While Advocating for AI Slowdown",
+    "hashtags": [
+      "#AGI",
+      "#xAI",
+      "#AIRegulation"
+    ],
+    "source_name": "finance.biggo.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Grok‑5’s AGI claim introduces a powerful API that Hong Kong developers can test, offering potential cost‑effective alternatives to existing large‑model services for local SaaS products.",
+    "micro_personas": [
+      "HK AI Startup Engineer prototyping with Grok‑5",
+      "HK SME IT Lead evaluating new model licensing"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Developers + Benchmark Grok‑5",
+      "SMEs + Compare Model Costs"
     ]
   },
   {
     "i": 40,
+    "category": "learning_family",
+    "title": "Trainocate Malaysia Launches AI Training Roadmap 2026, a 7-Level Framework to Close the Enterprise AI Skills Gap - markets.businessinsider.com",
+    "title_en": "Trainocate Malaysia Unveils 2026 AI Training Roadmap: A Seven‑Level Framework to Bridge Enterprise AI Skills Gap",
+    "hashtags": [
+      "#AITraining",
+      "#SkillsGap",
+      "#WorkforceDevelopment"
+    ],
+    "source_name": "markets.businessinsider.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Trainocate’s 7‑level AI training roadmap provides Hong Kong students and parents a clear pathway to acquire AI skills, supporting SMEs’ talent pipelines and family learning initiatives.",
+    "micro_personas": [
+      "HK University Student preparing AI career",
+      "HK Parent enrolling child in AI fundamentals"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Students + Enroll AI Course",
+      "SMEs + Upskill Workforce"
+    ]
+  },
+  {
+    "i": 41,
+    "category": "price_free",
+    "title": "Analyst Calls $40 XRP Inevitable, Citing AI Model's Capital Flow Math - finance.biggo.com",
+    "title_en": "Analyst Predicts $40 XRP as Inevitable, Citing AI Model Capital Flow Calculations",
+    "hashtags": [
+      "#XRP",
+      "#CryptoPricing",
+      "#AIModels"
+    ],
+    "source_name": "finance.biggo.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article discusses cryptocurrency price prediction using AI, not AI tool pricing or cost structures relevant to Hong Kong developers or SMEs."
+  },
+  {
+    "i": 42,
+    "category": "tech_background",
+    "title": "Trump 'not happy' with Google's Finland AI plan, urges tech giant to 'rethink' - Moneycontrol.com",
+    "title_en": "Trump Expresses Discontent with Google's AI Initiative in Finland, Urges the Company to Rethink Its Strategy",
+    "hashtags": [
+      "#AIPolicy",
+      "#Google",
+      "#Finland"
+    ],
+    "source_name": "Moneycontrol.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Political commentary lacks technical details or actionable AI insights for Hong Kong developers, offering no practical utility."
+  },
+  {
+    "i": 43,
     "category": "real_use",
+    "title": "Sakana AI, Turing among Japan startup winners as investors turn choosy - Nikkei Asia",
+    "title_en": "Sakana AI and Turing Among Winners in Japan Startup Competition as Investors Become More Selective",
+    "hashtags": [
+      "#JapanStartups",
+      "#AIInnovation",
+      "#VentureCapital"
+    ],
+    "source_name": "Nikkei Asia",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Japanese AI startups Sakana AI and Turing showcase ready‑to‑market solutions, giving Hong Kong SMEs and entrepreneurs concrete models for rapid product integration and competitive differentiation.",
+    "micro_personas": [
+      "AI startup founder seeking seed funding",
+      "SME tech lead evaluating AI vendor partnerships"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Sakana AI + Funding",
+      "Turing + MarketEntry"
+    ]
+  },
+  {
+    "i": 44,
+    "category": "real_use",
+    "title": "ASEAN Weekly: AI drives nuclear push in Thailand and Vietnam; Philippines steps up geothermal, waste-to-energy - Reccessary",
+    "title_en": "ASEAN Weekly: AI Accelerates Nuclear Energy Efforts in Thailand and Vietnam; Philippines Expands Geothermal and Waste‑to‑Energy Projects",
+    "hashtags": [
+      "#ASEANAI",
+      "#EnergyTransition",
+      "#NuclearPower"
+    ],
+    "source_name": "Reccessary",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "AI‑driven nuclear and renewable projects in Thailand, Vietnam, and the Philippines illustrate scalable energy‑optimization use cases that Hong Kong utility firms and policy analysts can adapt for local grid efficiency.",
+    "micro_personas": [
+      "Energy policy analyst evaluating AI impact",
+      "Utility company engineer implementing AI optimization"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "AI + NuclearEnergy",
+      "AI + RenewableGrid"
+    ]
+  },
+  {
+    "i": 45,
+    "category": "regulation_public",
+    "title": "House Speaker Risks Trump Ire on Any AI Guardrail Legislation - Bloomberg.com",
+    "title_en": "House Speaker Risks Provoking Trump's Anger Over Any Proposed AI Guardrail Legislation",
+    "hashtags": [
+      "#AIRegulation",
+      "#USPolitics",
+      "#Legislation"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "US AI guardrail debate signals potential regulatory shifts that Hong Kong compliance officers and legal teams must monitor to pre‑empt similar legislative pressures locally.",
+    "micro_personas": [
+      "Corporate compliance officer tracking AI law",
+      "In‑house counsel preparing policy response"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "US Congress + AI legislation",
+      "AI regulation + Global impact"
+    ]
+  },
+  {
+    "i": 46,
+    "category": "safety_trust",
+    "title": "The AI industry has taken a doomer turn. What now? - MIT Technology Review",
+    "title_en": "The AI Industry Has Adopted a Doomsday Outlook—What Should Be Done Next?",
+    "hashtags": [
+      "#AIethics",
+      "#FutureTech",
+      "#RiskManagement"
+    ],
+    "source_name": "MIT Technology Review",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "MIT analysis warns of AI‑induced security and trust risks, prompting Hong Kong elderly users and professional security managers to adopt stricter verification and privacy safeguards.",
+    "micro_personas": [
+      "Elderly user of voice‑assistant AI",
+      "Corporate security manager overseeing AI deployments"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "AI safety + MIT report",
+      "Deepfake risk + Elderly"
+    ]
+  },
+  {
+    "i": 47,
+    "category": "regulation_public",
+    "title": "Inside Anthropic, OpenAI and Google’s Secret AI Standards Talks, Anthropic’s $13.7B Compute Deal — TITV [Video] - The Information",
+    "title_en": "Inside Anthropic, OpenAI and Google’s Secret AI Standards Talks, Anthropic’s $13.7B Compute Deal",
+    "hashtags": [
+      "#AIStandards",
+      "#IndustryCollaboration",
+      "#ComputeDeal"
+    ],
+    "source_name": "The Information",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The disclosed AI standards talks signal upcoming compliance requirements that Hong Kong enterprises must prepare for, helping legal and compliance teams align with global norms.",
+    "micro_personas": [
+      "Compliance Officer at a multinational corporation",
+      "Legal counsel for a fintech startup"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Anthropic + Standards",
+      "OpenAI + Regulation",
+      "Google + AIPolicy"
+    ]
+  },
+  {
+    "i": 48,
+    "category": "safety_trust",
+    "title": "Investors Will Have To Wait For OpenAI's Blockbuster IPO. Sam Altman Says AI Safety Comes First. - International Business Times",
+    "title_en": "Investors Will Have To Wait For OpenAI's Blockbuster IPO; Sam Altman Says AI Safety Comes First",
+    "hashtags": [
+      "#OpenAIIPO",
+      "#AISafety",
+      "#InvestorDelay"
+    ],
+    "source_name": "International Business Times",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "OpenAI’s emphasis on safety before IPO warns Hong Kong professionals and elderly users about heightened risk controls, influencing trust decisions and adoption timelines for AI services.",
+    "micro_personas": [
+      "Elderly user relying on AI health assistant",
+      "Professional data analyst evaluating AI tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "OpenAI + Safety",
+      "IPO + Delay",
+      "AITrust + HongKong"
+    ]
+  },
+  {
+    "i": 49,
+    "category": "tools_access",
+    "title": "22 Best AI Tools in 2026: Complete Directory by Category - Memeburn",
+    "title_en": "22 Best AI Tools in 2026: Complete Directory by Category",
+    "hashtags": [
+      "#AITools",
+      "#TechDirectory",
+      "#2026Trends"
+    ],
+    "source_name": "Memeburn",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "A curated directory of 22 AI tools gives office workers and SMEs immediate access to usable solutions, accelerating tool adoption and workflow automation in Hong Kong businesses.",
+    "micro_personas": [
+      "Office worker seeking productivity chatbot",
+      "SME owner evaluating marketing AI"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "AI Tools + Directory",
+      "Productivity + AI",
+      "SME + Automation"
+    ]
+  },
+  {
+    "i": 50,
+    "category": "real_use",
+    "title": "With iOS 27, I’m actually using Siri again",
+    "title_en": "With iOS 27, I’m Actually Using Siri Again – Apple’s Long‑Delayed Siri Overhaul Arrives",
+    "hashtags": [
+      "#iOS27",
+      "#SiriUpdate",
+      "#VoiceAssistant"
+    ],
+    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "iOS 27’s Siri overhaul delivers a more reliable voice assistant, enabling office staff and elderly residents in Hong Kong to automate scheduling, reminders, and information queries via voice.",
+    "micro_personas": [
+      "Office worker using Siri for calendar management",
+      "Elderly user using voice commands for daily reminders"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "iOS27 + Siri",
+      "VoiceAssistant + Productivity",
+      "Apple + HKUsers"
+    ]
+  },
+  {
+    "i": 51,
+    "category": "safety_trust",
+    "title": "Where Sam Altman, Elon Musk And More Tech Execs Stand on AI Guardrails - Bloomberg.com",
+    "title_en": "Where Sam Altman, Elon Musk and Other Tech Executives Stand on AI Guardrails",
+    "hashtags": [
+      "#AIGuardrails",
+      "#TechLeaders",
+      "#AIRegulation"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Public positions on AI guardrails guide Hong Kong developers and risk managers on forthcoming safety constraints, shaping product design and compliance strategies locally.",
+    "micro_personas": [
+      "Developer building an AI-powered app",
+      "Risk manager assessing AI policy impact"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "AI Guardrails + Leaders",
+      "TechExecs + Regulation",
+      "SafetyPolicy + HKDevelopers"
+    ]
+  },
+  {
+    "i": 52,
+    "category": "real_use",
+    "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+    "title_en": "Fashion App Daydream Leverages Apple Intelligence to Turn Camera Roll Outfits into Shoppable Results",
+    "hashtags": [
+      "#AIShopping",
+      "#AppleIntelligence",
+      "#FashionTech"
+    ],
+    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The Daydream app leverages Apple Intelligence to instantly convert personal outfit photos into purchasable items, giving Hong Kong office workers and students a fast, AI‑driven shopping experience that saves time and expands style options.",
+    "micro_personas": [
+      "Office worker seeking business attire",
+      "Student looking for affordable trendy outfits"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Daydream + ShoppableSearch",
+      "AppleIntelligence + OutfitRecognition"
+    ]
+  },
+  {
+    "i": 53,
+    "category": "regulation_public",
+    "title": "Musk's xAI asks court to block Minnesota AI 'nudification' law during appeal - Reuters",
+    "title_en": "xAI Seeks Court Order to Halt Enforcement of Minnesota AI 'Nudification' Law During Appeal",
+    "hashtags": [
+      "#AIRegulation",
+      "#LegalBattle",
+      "#Privacy"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "xAI’s legal challenge against Minnesota’s AI nudification law highlights emerging content‑regulation risks, prompting Hong Kong tech firms and compliance officers to proactively review AI deployment policies and safeguard against potential liability.",
+    "micro_personas": [
+      "Corporate legal counsel",
+      "Compliance officer at a tech company"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "xAI + LegalChallenge",
+      "Minnesota + AIRegulation"
+    ]
+  },
+  {
+    "i": 54,
+    "category": "tech_background",
+    "title": "Where Does a Robot Think — On-Device vs Datacenter Inference - SemiAnalysis",
+    "title_en": "On‑Device vs. Datacenter Inference: Where Does a Robot ‘Think’?",
+    "hashtags": [
+      "#EdgeAI",
+      "#Inference",
+      "#Robotics"
+    ],
+    "source_name": "SemiAnalysis",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "The analysis of on‑device versus datacenter inference clarifies performance, latency, and privacy trade‑offs, enabling Hong Kong developers and robotics startups to choose optimal edge AI architectures for local manufacturing and service robots.",
+    "micro_personas": [
+      "Robotics startup engineer",
+      "IoT edge AI developer"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Robot + InferenceDecision",
+      "EdgeAI + DeploymentTradeoff"
+    ]
+  },
+  {
+    "i": 55,
+    "category": "work_sme",
+    "title": "Japan sees slower inflow of foreign professionals as AI crimps hiring - Nikkei Asia",
+    "title_en": "AI Constraints Slow Inflow of Foreign Professionals to Japan, Impacting Hiring Trends",
+    "hashtags": [
+      "#TalentShortage",
+      "#AIImpact",
+      "#JapanEconomy"
+    ],
+    "source_name": "Nikkei Asia",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Japan’s slowdown in foreign professional inflow due to AI‑driven hiring constraints signals similar talent‑availability challenges for Hong Kong SMEs, urging local entrepreneurs to diversify recruitment and invest in upskilling existing staff.",
+    "micro_personas": [
+      "SME HR manager",
+      "Entrepreneur hiring technical staff"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Japan + AIHiringImpact",
+      "SME + TalentStrategyAdjustment"
+    ]
+  },
+  {
+    "i": 56,
+    "category": "safety_trust",
+    "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans - TechCrunch",
+    "title_en": "Microsoft Introduces AI Code of Conduct Prohibiting Hacking and Human Deception",
+    "hashtags": [
+      "#AISafety",
+      "#EthicalAI",
+      "#Microsoft"
+    ],
+    "source_name": "TechCrunch",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Microsoft’s AI code of conduct bans model‑level hacking and deception, offering Hong Kong enterprises and elderly AI‑assistant users a concrete safety framework to mitigate misuse and build trust in AI applications.",
+    "micro_personas": [
+      "IT security officer",
+      "Elderly user of AI voice assistant"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Microsoft + AIConduct",
+      "AI + SafetyPolicyEnforcement"
+    ]
+  },
+  {
+    "i": 58,
+    "category": "safety_trust",
+    "title": "King Charles to host AI executives as threat fears mount - Reuters",
+    "title_en": "King Charles to Host AI Executives Amid Growing Threat Concerns",
+    "hashtags": [
+      "#AILeadership",
+      "#SecurityRisks",
+      "#RoyalSummit"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Highlights emerging AI‑generated misinformation threats, prompting Hong Kong elderly and professionals to adopt verification habits and security tools.",
+    "micro_personas": [
+      "Elderly user receiving suspicious AI‑generated calls",
+      "Corporate security officer monitoring deepfake risks"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "AI Threats + Verify Sources",
+      "Deepfake Detection + Deploy"
+    ]
+  },
+  {
+    "i": 60,
+    "category": "regulation_public",
+    "title": "Refounding America: The Tax Code Needs to Change in the Age of AI - The Information",
+    "title_en": "Refounding America: Reforming the Tax Code for the AI Era",
+    "hashtags": [
+      "#TaxReform",
+      "#AIEconomy",
+      "#PolicyChange"
+    ],
+    "source_name": "The Information",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Outlines potential AI‑related tax incentives, guiding Hong Kong SMEs and entrepreneurs to plan fiscal strategies for AI adoption.",
+    "micro_personas": [
+      "SME CFO evaluating AI investment budget",
+      "Government policy analyst reviewing AI tax frameworks"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "AI Tax Incentives + Assess",
+      "Fiscal Planning + AI Projects"
+    ]
+  },
+  {
+    "i": 61,
+    "category": "real_use",
+    "title": "AI agents blew the whistle on their cheating colleagues - MIT Technology Review",
+    "title_en": "AI Agents Expose Cheating Colleagues in Whistleblowing Incident",
+    "hashtags": [
+      "#AI Ethics",
+      "#Whistleblowing",
+      "#WorkplaceIntegrity"
+    ],
+    "source_name": "MIT Technology Review",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Demonstrates AI‑driven whistleblowing that can automate integrity checks for Hong Kong office workers and HR teams, reducing manual oversight.",
+    "micro_personas": [
+      "HR manager implementing AI monitoring",
+      "Office worker using AI to report misconduct"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "AI Whistleblowing + Deploy",
+      "Workplace Integrity + Automate"
+    ]
+  },
+  {
+    "i": 62,
+    "category": "safety_trust",
+    "title": "What Amodei, Altman and Musk have said about AI risks, stoking 'doom' fears - Reuters",
+    "title_en": "What Amodei, Altman, and Musk Have Said About AI Risks, Fueling Doom Narratives",
+    "hashtags": [
+      "#AI Risks",
+      "#ExpertOpinions",
+      "#DoomScenarios"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Provides only high‑level commentary without concrete security guidance applicable to Hong Kong audiences."
+  },
+  {
+    "i": 63,
+    "category": "tools_access",
+    "title": "Your AI Data Is Talking. Is Anyone Listening? Portal26 Launches Recon: Ask Any Plain Language Question To Deliver Immediate, Actionable Answers to Any Question about AI Use in the Enterprise. - TechBullion",
+    "title_en": "Portal26 Launches Recon: Ask Plain‑Language Questions for Immediate Enterprise AI Answers",
+    "hashtags": [
+      "#AI Tools",
+      "#EnterpriseSolutions",
+      "#DataInsights"
+    ],
+    "source_name": "TechBullion",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Portal26’s Recon offers plain‑language AI queries, enabling Hong Kong developers and business analysts to quickly obtain actionable enterprise AI insights.",
+    "micro_personas": [
+      "IT manager evaluating AI models",
+      "Business analyst seeking AI compliance info"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Query Tool + Test",
+      "Enterprise AI Insights + Retrieve"
+    ]
+  },
+  {
+    "i": 64,
+    "category": "regulation_public",
+    "title": "OpenAI may have violated California’s AI safety law with latest model releases, AI watchdog says - Fortune",
+    "title_en": "OpenAI May Have Violated California’s AI Safety Law with Latest Model Releases, AI Watchdog Says",
+    "hashtags": [
+      "#AIRegulation",
+      "#CaliforniaLaw",
+      "#OpenAI"
+    ],
+    "source_name": "Fortune",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Hong Kong employers, HR professionals and SMEs using OpenAI APIs must monitor this potential regulatory breach, as US compliance changes could affect licensing, data handling and cost structures locally.",
+    "micro_personas": [
+      "Compliance officer at a fintech firm",
+      "HR manager using AI recruiting tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "OpenAI + Regulation",
+      "HK Companies + AI Compliance"
+    ]
+  },
+  {
+    "i": 65,
+    "category": "real_use",
+    "title": "Can C3.ai (NYSE:AI) Rebound Change Its Valuation Story? - kalkinemedia.com",
+    "title_en": "Can C3.ai (NYSE:AI) Rebound and Change Its Valuation Story?",
+    "hashtags": [
+      "#C3AI",
+      "#Valuation",
+      "#TechStocks"
+    ],
+    "source_name": "kalkinemedia.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Lacks concrete AI deployment details or operational impact for Hong Kong businesses, focusing only on financial speculation."
+  },
+  {
+    "i": 66,
+    "category": "tech_background",
+    "title": "Oman’s O-Green targets 200MW of AI data centres - Middle East AI News",
+    "title_en": "Oman’s O‑Green Targets 200 MW of AI Data Centres",
+    "hashtags": [
+      "#AIInfrastructure",
+      "#OmanTech",
+      "#DataCenters"
+    ],
+    "source_name": "Middle East AI News",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The launch of 200 MW AI data centres in Oman signals new low‑latency compute options, enabling Hong Kong developers and startups to diversify hosting and reduce latency for AI services.",
+    "micro_personas": [
+      "DevOps engineer evaluating cloud providers",
+      "Startup CTO considering offshore AI compute"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "Oman + AI Data Centres",
+      "HK + Cloud Infrastructure"
+    ]
+  },
+  {
+    "i": 67,
+    "category": "real_use",
+    "title": "Doubao consumer launch puts system-level AI agents in focus in China’s smartphone race - Global Times",
+    "title_en": "Doubao Consumer Launch Puts System‑Level AI Agents in Focus in China’s Smartphone Race",
+    "hashtags": [
+      "#AIAgents",
+      "#Smartphones",
+      "#ChinaTech"
+    ],
+    "source_name": "Global Times",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Doubao’s system‑level AI agents on Chinese smartphones demonstrate advanced consumer AI, offering Hong Kong entrepreneurs and mobile developers concrete examples for integrating similar agents into local apps and devices.",
+    "micro_personas": [
+      "Mobile app developer integrating AI agents",
+      "Entrepreneur planning AI‑enhanced device accessories"
+    ],
+    "agent_signal": false,
+    "automation_level": 3,
+    "history_queries": [
+      "Doubao + AI Agents",
+      "HK Mobile Apps + AI Integration"
+    ]
+  },
+  {
+    "i": 68,
+    "category": "safety_trust",
+    "title": "AI Bosses Clash With Trump on Their Calls to Slow AI Development - Bloomberg.com",
+    "title_en": "AI Bosses Clash With Trump Over Calls to Slow AI Development",
+    "hashtags": [
+      "#AIethics",
+      "#PolicyDebate",
+      "#Trump"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Provides political commentary without specific security or privacy risks applicable to Hong Kong audiences."
+  },
+  {
+    "i": 69,
+    "category": "regulation_public",
+    "title": "Europe facing unprecedented risk of being cut off from AI, Lagarde warns - Reuters",
+    "title_en": "Europe Faces Unprecedented Risk of Being Cut Off from AI, Warns Lagarde",
+    "hashtags": [
+      "#AIRegulation",
+      "#EuropeTech",
+      "#DigitalSovereignty"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK SMEs and multinational firms must prepare for potential EU AI access restrictions, adjusting data residency and compliance processes to avoid service disruption and legal penalties.",
+    "micro_personas": [
+      "Compliance Officer in a Hong Kong‑based multinational",
+      "Legal counsel for a Hong Kong SaaS provider serving EU clients"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "EU AI Regulation + Compliance",
+      "Hong Kong Multinational + Data Residency"
+    ]
+  },
+  {
+    "i": 71,
+    "category": "safety_trust",
+    "title": "Palantir, Nvidia curb AI model use over data fears, The Information reports - Reuters",
+    "title_en": "Palantir and Nvidia Restrict AI Model Usage Over Data Privacy Concerns",
+    "hashtags": [
+      "#DataPrivacy",
+      "#AITrust",
+      "#ModelGovernance"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Recent data‑privacy restrictions by Palantir and Nvidia highlight model‑usage risks, prompting HK enterprises and professionals to audit AI pipelines and enforce stricter data governance.",
+    "micro_personas": [
+      "Data Security Manager at a Hong Kong bank",
+      "IT consultant developing AI tools for elderly care services"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Palantir Model Restrictions + Security Audit",
+      "Nvidia AI Usage + Privacy Policy"
+    ]
+  },
+  {
+    "i": 72,
+    "category": "real_use",
+    "title": "Watch Canada’s Carney on Capital Investment, AI, US Trade - Bloomberg.com",
+    "title_en": "Canada’s Carney Discusses Capital Investment, AI, and U.S. Trade",
+    "hashtags": [
+      "#AIInvestment",
+      "#TradePolicy",
+      "#CanadaEconomy"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The discussion is high‑level policy without concrete AI deployment examples, offering limited actionable insight for Hong Kong operational use."
+  },
+  {
+    "i": 73,
+    "category": "price_free",
+    "title": "Compute Capital and Markets: Who Funds the AI Buildout, and at What Price - SemiAnalysis",
+    "title_en": "Compute Capital and Markets: Funding the AI Buildout and Its Cost",
+    "hashtags": [
+      "#AIFunding",
+      "#ComputeCosts",
+      "#TechFinance"
+    ],
+    "source_name": "SemiAnalysis",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "Analysis of AI compute financing reveals declining cloud costs, enabling Hong Kong developers and startups to access larger models at lower prices, expanding prototype and product development capabilities.",
+    "micro_personas": [
+      "Startup founder budgeting AI infrastructure",
+      "Freelance developer selecting cloud GPU providers"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Compute Funding + Cost Trends",
+      "Hong Kong Developers + Cloud Pricing"
+    ]
+  },
+  {
+    "i": 74,
+    "category": "learning_family",
+    "title": "Learn how to build lasting AI defensibility at Disrupt 2026 - TechCrunch",
+    "title_en": "How to Build Lasting AI Defensibility at Disrupt 2026",
+    "hashtags": [
+      "#AIDefensibility",
+      "#TechConference",
+      "#InnovationStrategy"
+    ],
+    "source_name": "TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focuses on AI defensibility strategy rather than educational tools, providing minimal relevance to student or family learning needs in Hong Kong."
+  },
+  {
+    "i": 75,
+    "category": "tech_background",
+    "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+    "title_en": "Only at TechCrunch Disrupt 2026: What Happens When OpenAI Ships Your Roadmap?",
+    "hashtags": [
+      "#OpenAI",
+      "#TechCrunchDisrupt",
+      "#AIProductStrategy"
+    ],
+    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "HK developers gain early insight into OpenAI’s upcoming model roadmap, enabling timely prototype planning and infrastructure budgeting for local AI startups and enterprise teams.",
+    "micro_personas": [
+      "AI platform engineer planning API integration",
+      "Startup CTO evaluating product roadmap"
+    ],
+    "agent_signal": false,
+    "automation_level": 2,
+    "history_queries": [
+      "OpenAI + PublishRoadmap",
+      "TechCrunch + HostEvent"
+    ]
+  },
+  {
+    "i": 76,
+    "category": "real_use",
+    "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work - TechCrunch",
+    "title_en": "Superhuman Acquires YC‑Backed Notetaker Fathom as Productivity Platforms Push for Agentic Work",
+    "hashtags": [
+      "#Superhuman",
+      "#Fathom",
+      "#ProductivityAI"
+    ],
+    "source_name": "TechCrunch",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Superhuman’s integration of Fathom automates meeting transcription within email, letting Hong Kong office workers and SME founders capture actionable notes instantly, boosting productivity and reducing manual effort.",
+    "micro_personas": [
+      "Office worker using Superhuman email for meeting notes",
+      "SME founder managing client communications"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Superhuman + Acquire",
+      "Fathom + Integrate"
+    ]
+  },
+  {
+    "i": 78,
+    "category": "safety_trust",
+    "title": "Germany says halting AI development not 'viable' as Europe weighs safety of new tech - Reuters",
+    "title_en": "Germany Says Halting AI Development Is Not ‘Viable’ as Europe Weighs Safety of New Tech",
+    "hashtags": [
+      "#Germany",
+      "#AIRegulation",
+      "#TechSafety"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Germany’s statement warns that AI safety cannot be paused, highlighting global risk trends that Hong Kong professionals and elderly must monitor for deepfake scams and privacy breaches.",
+    "micro_personas": [
+      "Elderly user wary of AI‑generated scams",
+      "Corporate security officer overseeing AI risk"
+    ],
+    "agent_signal": false,
+    "automation_level": 0,
+    "history_queries": [
+      "Germany + IssueSafetyStatement",
+      "AICommunity + DiscussRegulation"
+    ]
+  },
+  {
+    "i": 79,
+    "category": "regulation_public",
+    "title": "Carney Calls for Global Tech Body to Boost AI Guardrails - Bloomberg.com",
+    "title_en": "Carney Calls for Global Tech Body to Boost AI Guardrails",
+    "hashtags": [
+      "#AIGuardrails",
+      "#GlobalTechPolicy",
+      "#Carney"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Carney’s push for global AI guardrails signals forthcoming compliance standards, prompting Hong Kong businesses to prepare data‑privacy measures and align with emerging international regulations.",
+    "micro_personas": [
+      "Compliance manager at a multinational firm",
+      "Legal counsel for a fintech startup"
+    ],
+    "agent_signal": false,
+    "automation_level": 0,
+    "history_queries": [
+      "Carney + AdvocateGuardrails",
+      "GlobalTechBody + DraftPolicy"
+    ]
+  },
+  {
+    "i": 80,
+    "category": "learning_family",
+    "title": "Hear how AI can engineer nature’s comeback at Disrupt 2026 - TechCrunch",
+    "title_en": "Hear How AI Can Engineer Nature’s Comeback at Disrupt 2026",
+    "hashtags": [
+      "#AIForGood",
+      "#NatureRestoration",
+      "#TechCrunchDisrupt"
+    ],
+    "source_name": "TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "AI tools that simulate ecosystem restoration provide Hong Kong students and parents with interactive learning experiences, supporting curriculum on climate change and fostering family‑centered environmental education.",
+    "micro_personas": [
+      "High school student exploring AI‑generated nature models",
+      "Parent teaching child about climate impact"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "TechCrunchDisrupt + ShowcaseAIForGood",
+      "AI + SimulateNatureRestoration"
+    ]
+  },
+  {
+    "i": 81,
+    "category": "real_use",
+    "title": "Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026",
+    "title_en": "Hear How AI Can Engineer Nature’s Comeback at TechCrunch Disrupt 2026",
+    "hashtags": [
+      "#AI",
+      "#ConservationTech",
+      "#TechCrunch"
+    ],
+    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Lacks concrete operational benefit for Hong Kong target groups; primarily speculative conservation application."
+  },
+  {
+    "i": 82,
+    "category": "tools_access",
+    "title": "ChatGPT Rate Card (Enterprise token-based pricing) - OpenAI Help Center",
+    "title_en": "ChatGPT Enterprise Rate Card – Token‑Based Pricing Overview",
+    "hashtags": [
+      "#ChatGPT",
+      "#EnterprisePricing",
+      "#OpenAI"
+    ],
+    "source_name": "OpenAI Help Center",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "OpenAI’s token‑based pricing gives Hong Kong enterprises, SMEs and developers transparent cost structures, enabling precise budgeting for AI‑driven assistants across office tasks and software development projects.",
+    "micro_personas": [
+      "IT manager planning AI assistant rollout",
+      "Full‑stack developer integrating ChatGPT API into SaaS product"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "OpenAI + PricingReview",
+      "Enterprise + BudgetPlanning"
+    ]
+  },
+  {
+    "i": 83,
+    "category": "safety_trust",
+    "title": "AI safety warnings hit ASML as Europe’s exposure to AI investment boom comes into focus - EU Today",
+    "title_en": "AI Safety Warnings Target ASML as Europe’s AI Investment Boom Raises Concerns",
+    "hashtags": [
+      "#AISafety",
+      "#ASML",
+      "#EURegulation"
+    ],
+    "source_name": "EU Today",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "EU safety warnings on ASML’s AI chips alert Hong Kong tech firms and financial institutions to potential supply‑chain and security risks, prompting enhanced risk assessments and mitigation strategies.",
+    "micro_personas": [
+      "Risk manager at a Hong Kong semiconductor startup",
+      "IT security officer in a Hong Kong financial services firm"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "ASML + SafetyAlert",
+      "FinancialFirm + RiskAssessment"
+    ]
+  },
+  {
+    "i": 84,
+    "category": "real_use",
+    "title": "Tech stocks slide on AI slowdown talks - Reuters",
+    "title_en": "Tech Stocks Decline Amid Discussions of an AI Slowdown",
+    "hashtags": [
+      "#TechStocks",
+      "#AIIndustry",
+      "#MarketTrends"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Only market sentiment, no actionable AI deployment insight for Hong Kong office workers, SMEs or other target groups."
+  },
+  {
+    "i": 85,
+    "category": "work_sme",
+    "title": "Why China’s Answer to Surge AI Got a $1 Billion Valuation On Just $30 Million in Orders - The Information",
+    "title_en": "China’s Answer to Surge AI Secures $1 B Valuation with $30 M in Orders",
+    "hashtags": [
+      "#AIStartup",
+      "#ChinaTech",
+      "#Valuation"
+    ],
+    "source_name": "The Information",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focuses on valuation, not on specific workflow or HR tools; provides little practical utility for Hong Kong SMEs."
+  },
+  {
+    "i": 86,
+    "category": "safety_trust",
+    "title": "Trump Attacks Anthropic CEO Over Call to Slow AI Development - Bloomberg.com",
+    "title_en": "Trump Criticizes Anthropic CEO for Urging Slower AI Development",
+    "hashtags": [
+      "#AIRegulation",
+      "#TechLeadership",
+      "#EthicalAI"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article discusses political criticism without concrete AI safety details, offering no actionable security or trust guidance for Hong Kong elderly or professionals."
+  },
+  {
+    "i": 87,
+    "category": "safety_trust",
+    "title": "Grok 5 Emerges As Musk’s AGI Target While AI Safety Warnings Intensify - Yellow.com",
+    "title_en": "Grok 5 Emerges as Musk’s AGI Goal Amid Growing AI Safety Concerns",
+    "hashtags": [
+      "#AGI",
+      "#AISafety",
+      "#MuskTech"
+    ],
+    "source_name": "Yellow.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "General safety warnings about a future AGI lack specific vulnerability information, providing no direct security or trust measures applicable to Hong Kong users."
+  },
+  {
+    "i": 88,
+    "category": "tech_background",
+    "title": "Global Seagate Research Finds Nearly All Organizations Expect AI to Increase Storage Requirements, but Only 38% of Organizations Say They Are Fully Prepared - Business Wire",
+    "title_en": "Seagate Research Shows Most Companies Anticipate AI‑Driven Storage Growth, Yet Few Are Ready",
+    "hashtags": [
+      "#DataStorage",
+      "#AIAdoption",
+      "#EnterpriseIT"
+    ],
+    "source_name": "Business Wire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Seagate’s global study shows AI workloads will surge storage demand; Hong Kong SMEs and developers must plan scalable infrastructure now to avoid costly upgrades and maintain service reliability.",
+    "micro_personas": [
+      "IT Infrastructure Manager at a Hong Kong SME",
+      "Cloud Engineer at a fintech startup in Hong Kong"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Seagate + Publish Report",
+      "HK SMEs + Assess Storage Needs",
+      "Developers + Optimize Data Pipelines"
+    ]
+  },
+  {
+    "i": 89,
+    "category": "work_sme",
+    "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
+    "title_en": "Only 5 Days Left to Secure an Exhibit Table at TechCrunch Disrupt 2026",
+    "hashtags": [
+      "#TechCrunchDisrupt",
+      "#StartupExpo",
+      "#FounderOpportunity"
+    ],
+    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The notice promotes an exhibition slot rather than an AI tool or workflow improvement, offering no direct operational benefit for Hong Kong office workers or SMEs."
+  },
+  {
+    "i": 90,
+    "category": "real_use",
+    "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
+    "title_en": "Former Spotify Executive Launches Vinyl Bar in Shibuya, Offering Interactive Music‑Making Apps",
+    "hashtags": [
+      "#MusicTech",
+      "#StartupInnovation",
+      "#UserGeneratedContent"
+    ],
+    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "The new AI‑driven music‑making app enables Hong Kong creators and students to generate tracks instantly, supporting classroom projects and boutique venues with interactive, low‑cost content.",
+    "micro_personas": [
+      "Hong Kong music student creating AI‑assisted compositions",
+      "Local café owner offering AI‑interactive music experiences"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Vinyl Bar + Launch Music App",
+      "HK creators + Adopt AI music tool",
+      "Students + Use AI composition"
+    ]
+  },
+  {
+    "i": 91,
+    "category": "tech_background",
+    "title": "Anthropic’s $2 Trillion IPO Talk Is Twice Its May Valuation - TechStock²",
+    "title_en": "Anthropic’s $2 Trillion IPO Talk Is Twice Its May Valuation - TechStock²",
+    "hashtags": [
+      "#AI",
+      "#IPO",
+      "#Valuation",
+      "#TechFinance"
+    ],
+    "source_name": "TechStock²",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Lacks technical AI details; focuses solely on financial valuation, offering no actionable insight for Hong Kong developers or businesses."
+  },
+  {
+    "i": 92,
+    "category": "regulation_public",
+    "title": "Xi’s Open-Source AI Pitch Puts India’s ‘Third Way’ Strategy to the Test - Pragativadi",
+    "title_en": "Xi’s Open-Source AI Pitch Puts India’s ‘Third Way’ Strategy to the Test - Pragativadi",
+    "hashtags": [
+      "#OpenSourceAI",
+      "#IndiaPolicy",
+      "#TechStrategy",
+      "#Geopolitics"
+    ],
+    "source_name": "Pragativadi",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Provides insight into open‑source AI policy shifts that could affect Hong Kong firms’ licensing strategies, enabling legal teams and product managers to anticipate compliance requirements and leverage community models cost‑effectively.",
+    "micro_personas": [
+      "Tech company legal counsel",
+      "Product manager evaluating open‑source AI"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Open-source AI + Policy Impact",
+      "China AI strategy + Market Response"
+    ]
+  },
+  {
+    "i": 93,
+    "category": "regulation_public",
+    "title": "AI governance is moving to runtime — and regulated industries are getting there first - VentureBeat",
+    "title_en": "AI governance is moving to runtime — and regulated industries are getting there first - VentureBeat",
+    "hashtags": [
+      "#AIGovernance",
+      "#Runtime",
+      "#RegulatedIndustries",
+      "#Compliance"
+    ],
+    "source_name": "VentureBeat",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Highlights emerging runtime AI governance frameworks, allowing Hong Kong regulated sectors such as finance and healthcare to embed real‑time compliance checks, reducing audit risk and improving operational trustworthiness.",
+    "micro_personas": [
+      "Bank compliance officer",
+      "Health‑tech AI engineer"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "AI governance + Runtime Monitoring",
+      "Regulated industry + Compliance Automation"
+    ]
+  },
+  {
+    "i": 94,
+    "category": "safety_trust",
+    "title": "Microsoft Joins AI Firms Calling for Caution With Cutting-Edge Models - Bloomberg.com",
+    "title_en": "Microsoft Joins AI Firms Calling for Caution With Cutting-Edge Models - Bloomberg.com",
+    "hashtags": [
+      "#AI",
+      "#Safety",
+      "#Microsoft",
+      "#ModelCaution"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Microsoft’s cautionary stance flags potential misuse of advanced models, prompting Hong Kong enterprises—especially senior executives and security teams—to strengthen vetting processes and safeguard against deepfake and data‑privacy threats.",
+    "micro_personas": [
+      "Corporate IT security manager",
+      "Senior executive overseeing AI adoption"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Microsoft + Model Caution",
+      "Cutting-edge AI + Safety Advisory"
+    ]
+  },
+  {
+    "i": 95,
+    "category": "safety_trust",
+    "title": "New warnings from OpenAI, Anthropic CEOs about the risks of AI to humanity revive a long-running debate - ABC7 Bay Area",
+    "title_en": "New warnings from OpenAI, Anthropic CEOs about the risks of AI to humanity revive a long-running debate - ABC7 Bay Area",
+    "hashtags": [
+      "#AIrisks",
+      "#Humanity",
+      "#OpenAI",
+      "#Anthropic"
+    ],
+    "source_name": "ABC7 Bay Area",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "OpenAI and Anthropic CEOs warn of existential AI risks, urging Hong Kong professionals and elderly users to adopt stricter usage policies and awareness training to mitigate manipulation and safety hazards.",
+    "micro_personas": [
+      "Elderly community tech trainer",
+      "Professional risk analyst in finance"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "OpenAI CEO + Risk Warning",
+      "Anthropic CEO + Humanity Threat Alert"
+    ]
+  },
+  {
+    "i": 97,
+    "category": "tech_background",
+    "title": "Alchip Technologies Showcases Advanced ASIC Design and Packaging at AI Infra Summit 2026 - Yahoo Finance Singapore",
+    "title_en": "Alchip Technologies Showcases Advanced ASIC Design and Packaging at AI Infra Summit 2026",
+    "hashtags": [
+      "#ASIC",
+      "#AIInfrastructure",
+      "#Semiconductor",
+      "#Packaging"
+    ],
+    "source_name": "Yahoo Finance Singapore",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Enables HK AI hardware startups and developers to assess cutting‑edge ASIC design and packaging options, accelerating local chip development for AI workloads and reducing time‑to‑market for enterprise solutions.",
+    "micro_personas": [
+      "AI hardware startup CTO",
+      "AI chip design engineer"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Alchip + ASIC design",
+      "AI Infra Summit + hardware trends"
+    ]
+  },
+  {
+    "i": 98,
+    "category": "safety_trust",
+    "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+    "title_en": "Microsoft Emphasizes People Over AI Amid Growing Safety Concerns, Releases Humanist AI Code of Conduct",
+    "hashtags": [
+      "#AIethics",
+      "#HumanCentricAI",
+      "#Safety",
+      "#Microsoft"
+    ],
+    "source_name": "AI | The Verge",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Provides a concrete ethical framework for AI deployment, helping HK professionals and elder‑care organizations mitigate safety risks, ensure trustworthy AI use, and align corporate policies with global best practices.",
+    "micro_personas": [
+      "Corporate AI ethics officer",
+      "Elderly digital safety advocate"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Microsoft + AI code of conduct",
+      "AI safety + corporate policy"
+    ]
+  },
+  {
+    "i": 99,
+    "category": "real_use",
+    "title": "China's Pony.ai unveils latest robotruck model as it targets European sales - Reuters",
+    "title_en": "Pony.ai Unveils New Robotruck Model Targeting European Market",
+    "hashtags": [
+      "#Robotruck",
+      "#AutonomousVehicles",
+      "#Europe",
+      "#PonyAI"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Shows functional autonomous truck technology that HK logistics SMEs and entrepreneurs can benchmark, guiding investment in AI‑driven freight automation and informing pilot projects for city‑wide delivery networks.",
+    "micro_personas": [
+      "Logistics startup founder",
+      "Fleet operations manager"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Pony.ai + robotruck deployment",
+      "Autonomous trucks + logistics automation"
+    ]
+  },
+  {
+    "i": 100,
+    "category": "regulation_public",
+    "title": "China Rejects AI ‘Fearmongering’ After Amodei Urges Slowdown - Bloomberg.com",
+    "title_en": "China Dismisses AI ‘Fearmongering’ After Amodei Calls for Development Slowdown",
+    "hashtags": [
+      "#AIRegulation",
+      "#China",
+      "#AIslowdown",
+      "#Policy"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Highlights Mainland China's regulatory posture on AI, allowing HK firms to anticipate compliance shifts, adjust cross‑border collaborations, and safeguard operations against sudden policy changes affecting AI product deployment.",
+    "micro_personas": [
+      "Cross‑border AI project manager",
+      "Technology legal counsel"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "China + AI regulation",
+      "Hong Kong + Mainland AI policy"
+    ]
+  },
+  {
+    "i": 101,
+    "category": "real_use",
+    "title": "Elon Musk Drops a Bombshell: Grok 5 Could Be the AGI Breakthrough - BeInCrypto",
+    "title_en": "Elon Musk Suggests Grok 5 May Represent a Breakthrough Toward AGI",
+    "hashtags": [
+      "#Grok5",
+      "#AGI",
+      "#ElonMusk",
+      "#AIAdvancement"
+    ],
+    "source_name": "BeInCrypto",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Lacks concrete deployment evidence; speculative AGI claim offers no immediate operational benefit for Hong Kong target groups."
+  },
+  {
+    "i": 102,
+    "category": "tech_background",
+    "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes - MIT Technology Review",
+    "title_en": "The Download: AI’s Real Extinction Threat and Age‑Reversal Technology for Eyes – MIT Technology Review",
+    "hashtags": [
+      "#AI",
+      "#ExtinctionRisk",
+      "#Biotech",
+      "#FutureTech"
+    ],
+    "source_name": "MIT Technology Review",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article discusses biotech eye age‑reversal and AI extinction risk, offering no model or infrastructure details useful for Hong Kong developers."
+  },
+  {
+    "i": 103,
+    "category": "tech_background",
+    "title": "Gemini 4 Could Autonomously Refine Code via Leaked RSI - geeky-gadgets.com",
+    "title_en": "Gemini 4 Could Autonomously Refine Code via Leaked RSI – geeky‑gadgets.com",
+    "hashtags": [
+      "#Gemini4",
+      "#CodeAutomation",
+      "#AI",
+      "#SoftwareDevelopment"
+    ],
+    "source_name": "geeky-gadgets.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Speculative leak about Gemini 4 code‑refinement lacks verified evidence, providing no concrete tool or cost information for local developers."
+  },
+  {
+    "i": 104,
+    "category": "regulation_public",
+    "title": "EU set to propose kids act to strengthen social media safety - Firstpost",
+    "title_en": "EU Set to Propose Kids Act to Strengthen Social Media Safety – Firstpost",
+    "hashtags": [
+      "#EU",
+      "#ChildSafety",
+      "#SocialMedia",
+      "#Regulation"
+    ],
+    "source_name": "Firstpost",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "EU's proposed Kids Act introduces stricter social‑media safety rules, prompting Hong Kong platforms to adapt policies; parents gain clearer controls, and compliance teams can pre‑empt cross‑border regulatory risks.",
+    "micro_personas": [
+      "Parent managing child's social media accounts",
+      "Compliance officer at a Hong Kong social media platform"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "EU + ProposeKidsAct",
+      "HK Platform + UpdatePolicy"
+    ]
+  },
+  {
+    "i": 106,
+    "category": "real_use",
+    "title": "Intel-Backed Construction AI Firm Buildots Raises $130 Million - Bloomberg.com",
+    "title_en": "Intel‑Backed Construction AI Firm Buildots Raises $130 Million – Bloomberg.com",
+    "hashtags": [
+      "#ConstructionAI",
+      "#Funding",
+      "#Intel",
+      "#Buildots"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Buildots' AI‑driven construction monitoring platform, now funded $130 M, offers Hong Kong SMEs real‑time site analytics, reducing delays and labor waste; office workers can automate progress reporting.",
+    "micro_personas": [
+      "Construction project manager using AI site analytics",
+      "SME owner optimizing labor allocation"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Buildots + Funding",
+      "HK Construction SME + DeployAI"
+    ]
+  },
+  {
+    "i": 107,
+    "category": "tech_background",
+    "title": "Is Anthropic Really Worth $965 Billion? Anthropic IPO Valuation, Every Round, and Who Owns What - MEXC",
+    "title_en": "Is Anthropic Really Worth $965 Billion? Anthropic IPO Valuation, Every Round, and Who Owns What – MEXC",
+    "hashtags": [
+      "#Anthropic",
+      "#Valuation",
+      "#AI",
+      "#IPO"
+    ],
+    "source_name": "MEXC",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Valuation analysis focuses on market capitalisation without revealing technical advancements or APIs, offering limited practical insight for Hong Kong developers."
+  },
+  {
+    "i": 108,
+    "category": "tech_background",
+    "title": "BIS says global market AI momentum showing signs of vulnerability - Reuters",
+    "title_en": "BIS Reports Global AI Market Momentum Showing Signs of Vulnerability",
+    "hashtags": [
+      "#AI",
+      "#MarketTrends",
+      "#Vulnerability",
+      "#BIS"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The report discusses global AI market trends without concrete tools, pricing changes, or security implications, offering limited actionable insight for Hong Kong’s target groups."
+  },
+  {
+    "i": 109,
+    "category": "work_sme",
+    "title": "Scottish Enterprise picks Insight to spearhead AI adoption programme - CRN UK",
+    "title_en": "Scottish Enterprise Selects Insight to Lead AI Adoption Programme",
+    "hashtags": [
+      "#AIAdoption",
+      "#ScottishEnterprise",
+      "#SME",
+      "#Insight"
+    ],
+    "source_name": "CRN UK",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "The Scottish AI adoption programme showcases a government‑backed model for SME AI integration, giving Hong Kong SMEs and HR teams practical guidance on workflow automation and vendor selection.",
+    "micro_personas": [
+      "SME owner evaluating AI tools",
+      "HR manager automating recruitment"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Scottish Enterprise + Launch AI Programme",
+      "Insight + Provide AI Adoption Support"
+    ]
+  },
+  {
+    "i": 110,
+    "category": "safety_trust",
+    "title": "COMMENTARY: Morning Bid: Go slow AI - Reuters",
+    "title_en": "Commentary: Morning Bid Advises to Proceed Slowly with AI",
+    "hashtags": [
+      "#AI",
+      "#Caution",
+      "#MorningBid",
+      "#RiskManagement"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Reuters’ caution highlights emerging AI security risks, urging Hong Kong’s elderly users and professional security officers to adopt stricter verification practices and monitor deep‑fake threats.",
+    "micro_personas": [
+      "Elderly user concerned about deepfake scams",
+      "Professional IT security officer"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Reuters + Issue AI Risk Advisory",
+      "Industry + React to Safety Concerns"
+    ]
+  },
+  {
+    "i": 112,
+    "category": "safety_trust",
+    "title": "PODCAST: AI go slow - Reuters",
+    "title_en": "Podcast: Advocating a Cautious Approach to AI Development",
+    "hashtags": [
+      "#AI",
+      "#Podcast",
+      "#SlowAI",
+      "#Safety"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The AI safety podcast reinforces the need for careful deployment, providing Hong Kong families and professionals with actionable advice on privacy safeguards and responsible AI usage.",
+    "micro_personas": [
+      "Parent managing children’s online safety",
+      "Corporate compliance officer"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Podcast Host + Discuss AI Caution",
+      "Listeners + Adopt Safety Practices"
+    ]
+  },
+  {
+    "i": 113,
+    "category": "tools_access",
+    "title": "Cloudera partners frontier AI lab Mistral to bolster AI readiness - ITWeb",
+    "title_en": "Cloudera Partners with Frontier AI Lab Mistral to Strengthen AI Readiness",
+    "hashtags": [
+      "#Cloudera",
+      "#Mistral",
+      "#AIReadiness",
+      "#Partnership"
+    ],
+    "source_name": "ITWeb",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Cloudera’s partnership with Mistral opens access to frontier models via enterprise‑grade platforms, enabling Hong Kong developers and SMEs to prototype advanced AI solutions with on‑premise options.",
+    "micro_personas": [
+      "Data engineer deploying Mistral models",
+      "SME IT admin integrating AI services"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Cloudera + Partner with Mistral",
+      "Mistral + Supply Frontier Models"
+    ]
+  },
+  {
+    "i": 114,
+    "category": "tech_background",
+    "title": "Meta bets on agentic commerce with Stilla.ai acquisition - Performance Marketing World",
+    "title_en": "Meta Invests in Agentic Commerce Through Acquisition of Stilla.ai",
+    "hashtags": [
+      "#Meta",
+      "#AgenticCommerce",
+      "#AIAcquisition",
+      "#TechInnovation"
+    ],
+    "source_name": "Performance Marketing World",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Acquisition details lack concrete tools or APIs for HK developers, offering no immediate operational benefit or cost insight."
+  },
+  {
+    "i": 115,
+    "category": "regulation_public",
+    "title": "Wall Street ends down, calls for AI slowdown pummel chipmakers - Reuters",
+    "title_en": "Wall Street Declines as Calls for AI Slowdown Pressure Chipmakers",
+    "hashtags": [
+      "#WallStreet",
+      "#AIRegulation",
+      "#Chipmakers",
+      "#MarketImpact"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "HK chip‑dependent SMEs and enterprise IT teams must anticipate tighter AI‑related export controls, which could raise hardware costs and delay AI projects. Monitoring market signals helps them adjust budgeting and sourcing strategies.",
+    "micro_personas": [
+      "SME IT Manager planning AI hardware",
+      "Enterprise Procurement Officer evaluating AI chip vendors"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Chipmakers + Market Impact",
+      "AI Regulation + Procurement"
+    ]
+  },
+  {
+    "i": 116,
+    "category": "regulation_public",
+    "title": "OpenAI’s Brockman Says an AI Pause Should Focus on Frontier - Bloomberg.com",
+    "title_en": "OpenAI’s Brockman Advocates Targeted Pause Focused on Frontier AI",
+    "hashtags": [
+      "#OpenAI",
+      "#AIpause",
+      "#FrontierAI",
+      "#Policy"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "OpenAI’s call for a targeted AI pause signals potential regulatory scrutiny, prompting HK enterprises and developers to embed compliance checkpoints into product roadmaps.",
+    "micro_personas": [
+      "AI Product Manager ensuring regulatory compliance",
+      "Software Engineer integrating compliance testing"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "OpenAI + Pause Advocacy",
+      "AI Regulation + Compliance Planning"
+    ]
+  },
+  {
+    "i": 118,
+    "category": "tech_background",
+    "title": "Google Picks Four Indian Startups As Part Of AI For The Planet Accelerator - Inc42",
+    "title_en": "Google Selects Four Indian Startups for AI for the Planet Accelerator",
+    "hashtags": [
+      "#Google",
+      "#AIAccelerator",
+      "#IndianStartups",
+      "#Sustainability"
+    ],
+    "source_name": "Inc42",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Program targets Indian startups; no accessible technology or partnership for HK developers, providing limited actionable insight for local tech ecosystem."
+  },
+  {
+    "i": 119,
+    "category": "tech_background",
+    "title": "Submer and Edgecore Partner on AI-Ready Data Centre Infrastructure Across META - TechAfrica News",
+    "title_en": "Submer and Edgecore Collaborate on AI-Ready Data Centre Infrastructure for META",
+    "hashtags": [
+      "#Submer",
+      "#Edgecore",
+      "#AIReady",
+      "#DataCentre"
+    ],
+    "source_name": "TechAfrica News",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "AI‑ready data centre solutions from Submer and Edgecore give HK cloud providers and enterprise developers a scalable, low‑latency infrastructure option, reducing latency for local AI workloads.",
+    "micro_personas": [
+      "Cloud Operations Engineer deploying AI services",
+      "Enterprise DevOps lead optimizing AI inference latency"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Submer + Data Centre Partnership",
+      "Edgecore + AI Infrastructure Deployment"
+    ]
+  },
+  {
+    "i": 120,
+    "category": "real_use",
+    "title": "UAE doctors turn to AI to explain why cancer treatments work for some but not others - thenationalnews.com",
+    "title_en": "UAE Doctors Turn to AI to Explain Why Cancer Treatments Work for Some Patients but Not Others",
+    "hashtags": [
+      "#AIinHealthcare",
+      "#CancerResearch",
+      "#PersonalizedMedicine"
+    ],
+    "source_name": "thenationalnews.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK oncologists can use the AI explanation tool to personalize cancer therapy decisions, improving patient outcomes and supporting elderly patients with clearer treatment insights, enhancing clinical efficiency.",
+    "micro_personas": [
+      "Oncologist tailoring treatment plans",
+      "Hospital administrator overseeing personalized oncology services"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "AI + ExplainTreatment",
+      "Hospital + DeployTool"
+    ]
+  },
+  {
+    "i": 121,
+    "category": "work_sme",
+    "title": "AI at Work: Why Deeper Enterprise Use Produces Stronger Returns - PYMNTS.com",
+    "title_en": "AI at Work: Why Deeper Enterprise Use Produces Stronger Returns",
+    "hashtags": [
+      "#EnterpriseAI",
+      "#Productivity",
+      "#BusinessGrowth",
+      "#ROI"
+    ],
+    "source_name": "PYMNTS.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK SMEs adopting deeper AI integration can boost productivity and ROI, automating routine tasks for office workers and HR staff, leading to measurable business growth.",
+    "micro_personas": [
+      "SME owner automating invoicing",
+      "HR manager using AI for candidate screening"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "SME + AdoptAI",
+      "HR + UseAI"
+    ]
+  },
+  {
+    "i": 122,
+    "category": "tech_background",
+    "title": "Samsung partners with Mistral AI to advance chip infrastructure - Evertiq",
+    "title_en": "Samsung Partners with Mistral AI to Advance Chip Infrastructure",
+    "hashtags": [
+      "#ChipDesign",
+      "#AIHardware",
+      "#Samsung",
+      "#MistralAI"
+    ],
+    "source_name": "Evertiq",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The Samsung-Mistral chip partnership provides HK developers with advanced AI hardware, enabling on‑premise model deployment, reducing cloud costs and enhancing data sovereignty for local applications.",
+    "micro_personas": [
+      "AI startup engineer optimizing inference",
+      "Hardware developer integrating Mistral models"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Samsung + PartnerMistral",
+      "Developers + LeverageChip"
+    ]
+  },
+  {
+    "i": 123,
+    "category": "regulation_public",
+    "title": "Hong Kong IPO boom and Chinese AI race fuel frenzy of follow-on deals - Nikkei Asia",
+    "title_en": "Hong Kong IPO Boom and Chinese AI Race Fuel Frenzy of Follow‑On Deals",
+    "hashtags": [
+      "#IPO",
+      "#ChinaAI",
+      "#FinancialMarkets",
+      "#HongKong"
+    ],
+    "source_name": "Nikkei Asia",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The surge in HK IPOs linked to the Chinese AI race signals regulatory openness and capital availability, guiding local entrepreneurs and professionals on compliance and fundraising strategies.",
+    "micro_personas": [
+      "Fintech startup CFO planning IPO",
+      "Investment analyst monitoring AI sector"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "HKMarket + IPOTrend",
+      "AICompany + Funding"
+    ]
+  },
+  {
+    "i": 124,
+    "category": "safety_trust",
+    "title": "AI Development Pause Cited by Anthropic CEO for Safety - The Cryptonomist",
+    "title_en": "AI Development Pause Cited by Anthropic CEO for Safety",
+    "hashtags": [
+      "#AIethics",
+      "#SafetyFirst",
+      "#Anthropic",
+      "#ResponsibleAI"
+    ],
+    "source_name": "The Cryptonomist",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Anthropic’s pause highlights AI safety risks, prompting HK elderly‑care services and corporate professionals to implement stricter vetting, privacy safeguards, and trust frameworks for AI deployments.",
+    "micro_personas": [
+      "Elderly care provider evaluating AI tools",
+      "Corporate security officer reviewing AI vendor safety"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Anthropic + Pause",
+      "AI + SafetyReview"
+    ]
+  },
+  {
+    "i": 125,
+    "category": "tech_background",
+    "title": "Xi's open-source AI pitch: A reminder of why Delhi endorses a third way forward | Hindustan Times - Hindustan Times",
+    "title_en": "Xi’s Open‑Source AI Pitch: A Reminder of Why Delhi Supports a Third‑Way Approach",
+    "hashtags": [
+      "#OpenSourceAI",
+      "#IndiaPolicy",
+      "#TechInnovation"
+    ],
+    "source_name": "Hindustan Times",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Article focuses on Indian policy endorsement without technical details, offering no actionable AI tool or insight for Hong Kong developers or businesses."
+  },
+  {
+    "i": 126,
+    "category": "real_use",
+    "title": "EXCLUSIVE: IPO for humanoid robot maker Boston Dynamics unlikely in 2027, executive says - Reuters",
+    "title_en": "Boston Dynamics Says an IPO for Its Humanoid Robots Is Unlikely Before 2027",
+    "hashtags": [
+      "#BostonDynamics",
+      "#Robotics",
+      "#IPO"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "News discusses IPO timing rather than robot deployment, lacking concrete operational benefits or implementation guidance for Hong Kong office workers or SMEs."
+  },
+  {
+    "i": 127,
+    "category": "tech_background",
     "title": "Z.ai Plans $5 Billion Fundraising as Compute Cost Grows - The Information",
-    "title_en": "Z.ai Announces $5 Billion Fundraising Amid Rising Compute Costs",
+    "title_en": "Z.ai Announces a $5 Billion Fundraising Round Amid Rising Compute Costs",
     "hashtags": [
       "#ZAI",
       "#Fundraising",
@@ -844,14 +2598,24 @@
     ],
     "source_name": "The Information",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Fundraising announcement lacks concrete AI product details or deployment insights, offering no immediate operational benefit for Hong Kong businesses or developers."
+    "decision": "accept",
+    "reason": "HK developers and SMEs can anticipate higher compute expenses, prompting evaluation of cost‑effective on‑premise AI or alternative cloud providers to maintain budgets.",
+    "micro_personas": [
+      "Developer evaluating AI infrastructure costs",
+      "SME tech lead budgeting AI services"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Z.ai + Fundraising",
+      "ComputeCost + Impact"
+    ]
   },
   {
-    "i": 41,
+    "i": 128,
     "category": "learning_family",
     "title": "AI could make thinking cheap. What happens to jobs, education and human purpose? - YourStory.com",
-    "title_en": "How Cheap Thinking Powered by AI Impacts Jobs, Education, and Human Purpose",
+    "title_en": "If AI Makes Thinking Cheap, What Happens to Jobs, Education, and Human Purpose?",
     "hashtags": [
       "#AIImpact",
       "#FutureOfWork",
@@ -860,498 +2624,531 @@
     "source_name": "YourStory.com",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Article discusses speculative societal impacts without presenting actionable AI tools or methods, thus providing limited practical value for Hong Kong students, parents, or educators."
+    "reject_reason": "Speculative essay on AI’s societal impact provides no specific educational tools or family‑oriented applications usable by Hong Kong students or parents."
   },
   {
-    "i": 42,
-    "category": "tools_access",
+    "i": 129,
+    "category": "tech_background",
     "title": "Fujitsu Launches MONAKA CPU and Server for Sovereign AI - IT Voice Media",
-    "title_en": "Fujitsu Unveils MONAKA CPU and Server for Sovereign AI Applications",
+    "title_en": "Fujitsu Unveils MONAKA CPU and Server Designed for Sovereign AI Applications",
     "hashtags": [
       "#Fujitsu",
-      "#MONAKA",
-      "#SovereignAI"
+      "#SovereignAI",
+      "#Hardware"
     ],
     "source_name": "IT Voice Media",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Fujitsu’s MONAKA CPU and server enable Hong Kong developers and SMEs to host sovereign AI on‑premise, reducing cloud costs and enhancing data privacy, crucial for local compliance and rapid prototyping.",
+    "reason": "Fujitsu’s MONAKA CPU enables on‑site sovereign AI processing, allowing HK enterprises and developers to meet data‑localization rules while reducing latency for critical applications.",
     "micro_personas": [
-      "DevOps engineer deploying on‑prem AI models",
-      "SME IT manager evaluating private AI infrastructure"
+      "Enterprise AI architect deploying on‑prem models",
+      "Developer building privacy‑sensitive AI services"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Fujitsu + Launch MONAKA",
-      "MONAKA CPU + Deploy",
-      "SME + Adopt Sovereign AI"
+      "Fujitsu + MONAKA launch",
+      "SovereignAI + Hardware adoption"
     ]
   },
   {
-    "i": 43,
-    "category": "work_sme",
+    "i": 130,
+    "category": "real_use",
     "title": "SAP pushes value-first AI adoption in India, targets measurable ROI - ET Datacenters",
-    "title_en": "SAP Drives Value‑First AI Adoption in India with Focus on Measurable ROI",
+    "title_en": "SAP Promotes Value‑First AI Adoption in India, Aiming for Measurable ROI",
     "hashtags": [
-      "#SAP",
       "#AIAdoption",
-      "#India",
-      "#ROI"
+      "#ROI",
+      "#SAP",
+      "#IndiaTech",
+      "#ValueFirst"
     ],
     "source_name": "ET Datacenters",
-    "evidence_status": "case_or_test",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "SAP’s value‑first AI framework, demonstrated in India, offers Hong Kong SMEs a measurable ROI methodology, guiding HR and operations teams to prioritize high‑impact automation and cost‑effective AI integration.",
+    "reason": "HK enterprises and SMEs can adopt SAP’s AI‑enhanced ERP modules to achieve measurable ROI, streamlining finance, supply chain, and HR processes, aligning with local digital transformation goals.",
     "micro_personas": [
-      "SME owner implementing AI for finance",
-      "HR professional automating recruitment processes"
+      "Enterprise IT manager implementing AI‑driven finance automation",
+      "SME CFO evaluating AI‑enhanced ERP for cost efficiency"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 3,
     "history_queries": [
-      "SAP + Promote AI ROI",
-      "SME + Implement AI",
-      "HR + Automate Recruitment"
+      "SAP + Promote AI adoption",
+      "HK enterprises + Evaluate ROI"
     ]
   },
   {
-    "i": 44,
-    "category": "tech_background",
+    "i": 131,
+    "category": "work_sme",
     "title": "Coforge announces TechCon 2026 global event to drive enterprise AI adoption - scanx.trade",
     "title_en": "Coforge Announces TechCon 2026 Global Event to Accelerate Enterprise AI Adoption",
     "hashtags": [
-      "#EnterpriseAI",
       "#TechCon2026",
+      "#EnterpriseAI",
+      "#Coforge",
+      "#AIEvent",
       "#DigitalTransformation"
     ],
     "source_name": "scanx.trade",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Announcement lacks concrete AI tool or technical detail, offering no immediate utility for HK developers or businesses."
+    "reject_reason": "Event announcement provides no concrete AI tool or deployment detail, offering only promotional information without immediate operational benefit for Hong Kong SMEs or office workers."
   },
   {
-    "i": 45,
+    "i": 132,
     "category": "real_use",
     "title": "Tech leaders need to show value when scaling the cloud and AI - iTnews Asia",
-    "title_en": "Tech Leaders Must Demonstrate Value When Scaling Cloud and AI",
+    "title_en": "Tech Leaders Must Demonstrate Value When Scaling Cloud and AI Services",
     "hashtags": [
       "#CloudScaling",
       "#AIValue",
-      "#TechLeadership"
+      "#TechLeadership",
+      "#EnterpriseIT",
+      "#ScalableSolutions"
     ],
     "source_name": "iTnews Asia",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Shows how Hong Kong SMEs and office workers can benchmark cloud‑AI scaling strategies to cut latency and operational costs, enabling faster rollout of AI‑driven services across multiple departments today effectively.",
-    "micro_personas": [
-      "SME IT manager deploying cloud AI",
-      "Office worker optimizing AI‑enhanced workflow"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Coforge + HostEvent",
-      "CloudProviders + ScaleAI"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Article discusses strategic value of scaling cloud and AI but lacks specific tools or cost data, offering limited actionable insight for Hong Kong office workers or SMEs."
   },
   {
-    "i": 46,
+    "i": 133,
     "category": "safety_trust",
     "title": "AI is widening the identity security gap as machine identities surge - iTnews Asia",
-    "title_en": "AI Expands Identity Security Gap as Machine Identities Surge",
+    "title_en": "AI Expands Identity Security Gap as Machine Identities Multiply",
     "hashtags": [
       "#IdentitySecurity",
       "#MachineIdentity",
-      "#AIThreats"
+      "#AIThreats",
+      "#CyberRisk",
+      "#SecurityGap"
     ],
     "source_name": "iTnews Asia",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Highlights a surge in machine‑generated identities that can bypass traditional safeguards, urging Hong Kong enterprises and senior professionals to upgrade IAM solutions and train staff against AI‑crafted phishing attacks now.",
+    "reason": "Emerging AI‑driven machine identity proliferation raises security gaps; Hong Kong enterprises and professionals must strengthen IAM controls and adopt AI‑based monitoring to protect critical systems.",
     "micro_personas": [
-      "Chief Information Security Officer",
-      "Senior financial analyst concerned about phishing"
+      "Corporate security officer managing machine identities",
+      "Elderly user seeking protection against AI‑generated phishing attacks"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "MachineIdentity + Exploit",
-      "IAM + Upgrade"
+      "AI + Expand identity security gap",
+      "HK enterprises + Mitigate machine identity risks"
     ]
   },
   {
-    "i": 47,
+    "i": 134,
     "category": "regulation_public",
     "title": "OpenAI’s Altman Voices Support for ‘Pacing’ AI Development - Bloomberg.com",
-    "title_en": "OpenAI CEO Altman Voices Support for ‘Pacing’ AI Development",
+    "title_en": "OpenAI’s Sam Altman Calls for ‘Pacing’ in AI Development",
     "hashtags": [
       "#AIRegulation",
+      "#SamAltman",
       "#ResponsibleAI",
-      "#Altman"
+      "#TechPolicy",
+      "#DevelopmentPace"
     ],
     "source_name": "Bloomberg.com",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "OpenAI’s call for paced AI development signals potential regulatory tightening, prompting Hong Kong tech firms and developers to anticipate compliance requirements and embed governance checks into product pipelines early now.",
+    "reason": "OpenAI’s call for paced AI development signals possible stricter global regulations; Hong Kong policymakers and tech startups should anticipate compliance shifts and adjust product roadmaps accordingly.",
     "micro_personas": [
-      "Product manager preparing compliance roadmap",
-      "Developer integrating AI ethics checks"
+      "HK regulator drafting AI governance framework",
+      "Tech startup founder planning AI product compliance"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "OpenAI + AdvocateRegulation",
-      "HKTech + PrepareCompliance"
+      "OpenAI + Call for pacing",
+      "HK government + Assess AI policy impact"
     ]
   },
   {
-    "i": 48,
+    "i": 135,
     "category": "safety_trust",
     "title": "Djarum controls Narasi 🗞️. Xendit appoints new leader for expansion 💳. Scam trust crisis hits ASEAN consumers 🛡️ - RISE by DailySocial",
-    "title_en": "Djarum Controls Narasi; Xendit Names New Expansion Leader; Scam Trust Crisis Affects ASEAN Consumers",
+    "title_en": "Djarum Controls Narasi, Xendit Names New Expansion Leader, and Scam Trust Crisis Affects ASEAN Consumers – RISE by DailySocial",
     "hashtags": [
-      "#ASEANTrust",
-      "#FinTechScams",
-      "#MediaOwnership"
+      "#MediaControl",
+      "#FinTechExpansion",
+      "#ConsumerTrust"
     ],
     "source_name": "RISE by DailySocial",
-    "evidence_status": "official",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "The ASEAN scam surge underscores rising AI‑driven fraud, urging Hong Kong parents and elderly to adopt verification tools and educators to teach digital hygiene, reducing financial loss risk for households.",
+    "reason": "The ASEAN scam trust crisis highlights rising AI‑driven fraud, prompting Hong Kong’s elderly and professional users to strengthen vigilance, adopt anti‑phishing tools, and educate families about deceptive digital schemes.",
     "micro_personas": [
-      "Parent monitoring children's online payments",
-      "Elderly user receiving suspicious messages"
+      "Elderly retirees using online banking",
+      "Corporate professionals managing financial transactions"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "ScamCampaign + TargetElderly",
-      "VerificationTool + Deploy"
+      "Scam + Awareness",
+      "ConsumerTrust + Alert"
     ]
   },
   {
-    "i": 49,
-    "category": "tech_background",
-    "title": "Breakingviews - COMMENTARY: AI frontier slowdown could give second tier leg up - Reuters",
-    "title_en": "Breakingviews Commentary: Slowing AI Frontier May Benefit Smaller Players",
-    "hashtags": [
-      "#AI",
-      "#Innovation",
-      "#MarketDynamics"
-    ],
-    "source_name": "Reuters",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Commentary lacks concrete technical details or actionable insights for developers, offering only market speculation without measurable impact on Hong Kong AI projects."
-  },
-  {
-    "i": 50,
-    "category": "safety_trust",
-    "title": "AI Bosses Risk Clash With Wall Street and Trump Over Safety Call - Bloomberg.com",
-    "title_en": "AI Executives Face Potential Conflict with Wall Street and Trump Over Safety Regulations",
-    "hashtags": [
-      "#AI",
-      "#Safety",
-      "#Politics",
-      "#Finance"
-    ],
-    "source_name": "Bloomberg.com",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Article discusses political clash over safety policy but provides no specific security vulnerability or practical guidance for Hong Kong users, limiting direct utility."
-  },
-  {
-    "i": 51,
-    "category": "safety_trust",
-    "title": "SoftBank Shares Slide 13% After AI Chiefs Sound Alarm on Safety - Bloomberg.com",
-    "title_en": "SoftBank Shares Drop 13% After AI Leaders Raise Safety Concerns",
-    "hashtags": [
-      "#SoftBank",
-      "#AI",
-      "#Safety",
-      "#Stocks"
-    ],
-    "source_name": "Bloomberg.com",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Focuses on stock reaction to safety concerns without detailing concrete risk mitigations, offering minimal actionable information for Hong Kong enterprises or professionals."
-  },
-  {
-    "i": 52,
-    "category": "regulation_public",
-    "title": "AI jailbreakers test EU safety rules - euractiv.com",
-    "title_en": "AI Jailbreakers Test European Union Safety Regulations",
-    "hashtags": [
-      "#AI",
-      "#EU",
-      "#Regulation",
-      "#Security"
-    ],
-    "source_name": "euractiv.com",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "EU AI jailbreak tests highlight emerging safety regulations that could affect data handling and compliance for Hong Kong SMEs and professionals, prompting early policy alignment and risk assessment.",
-    "micro_personas": [
-      "Compliance Officer in a mid-sized tech firm",
-      "Legal Advisor for a fintech startup"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "EU + TestAIJailbreak",
-      "HK SME + AssessCompliance"
-    ]
-  },
-  {
-    "i": 53,
-    "category": "regulation_public",
-    "title": "China state newspaper blasts Anthropic's calls to slow AI as 'Cold War' tactic - Reuters",
-    "title_en": "Chinese State Newspaper Criticizes Anthropic's AI Slowdown Request as a Cold War Tactic",
-    "hashtags": [
-      "#AI",
-      "#China",
-      "#Policy",
-      "#Geopolitics"
-    ],
-    "source_name": "Reuters",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Chinese state media criticism of AI slowdown signals potential policy tightening, alerting Hong Kong entrepreneurs and developers to prepare for stricter domestic AI deployment guidelines.",
-    "micro_personas": [
-      "Entrepreneur launching AI SaaS in Hong Kong",
-      "Developer integrating large language models for local apps"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "China + AIPolicy",
-      "HK Developer + ModelCompliance"
-    ]
-  },
-  {
-    "i": 54,
-    "category": "regulation_public",
-    "title": "AI-Driven Pricing: How the U.S., China and Europe Are Tackling the Ethics of Charging More - Modaes",
-    "title_en": "AI-Driven Pricing: How the United States, China, and Europe Are Addressing the Ethics of Higher Charges",
-    "hashtags": [
-      "#AIethics",
-      "#PricingRegulation",
-      "#GlobalPolicy"
-    ],
-    "source_name": "Modaes",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Employers and SMEs can align pricing strategies with emerging global AI‑pricing ethics, helping Hong Kong firms avoid regulatory penalties and maintain customer trust across cross‑border transactions.",
-    "micro_personas": [
-      "SME Pricing Manager",
-      "Corporate Compliance Officer"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "AI Pricing + Regulation",
-      "Global Ethics + Pricing"
-    ]
-  },
-  {
-    "i": 55,
-    "category": "safety_trust",
-    "title": "Global AI stocks fall as industry chiefs call for slowing development - Reuters",
-    "title_en": "Global AI Stocks Decline as Industry Leaders Advocate Slowing Development",
-    "hashtags": [
-      "#AIStocks",
-      "#DevelopmentPause",
-      "#MarketImpact"
-    ],
-    "source_name": "Reuters",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Provides only market sentiment without concrete security or privacy threat, offering no actionable safety guidance for Hong Kong elderly or professional users."
-  },
-  {
-    "i": 56,
+    "i": 136,
     "category": "real_use",
-    "title": "Elevated error rates for Codex and ChatGPT Work - OpenAI Status",
-    "title_en": "Increased Error Rates Reported for Codex and ChatGPT Services",
+    "title": "Breakingviews - COMMENTARY: AI boom offers strained construction a lasting fix - Reuters",
+    "title_en": "Breakingviews Commentary: AI Boom Provides a Sustainable Solution for Strained Construction Industry",
     "hashtags": [
-      "#AIErrorRates",
-      "#Codex",
-      "#ChatGPT"
+      "#AIConstruction",
+      "#IndustryInnovation",
+      "#EconomicRecovery"
     ],
-    "source_name": "OpenAI Status",
+    "source_name": "Reuters",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Developers and office workers relying on Codex or ChatGPT must prepare fallback workflows due to reported error spikes, preserving productivity and avoiding project delays in Hong Kong enterprises.",
+    "reason": "AI‑driven design optimisation and predictive maintenance demonstrably cut project delays, offering Hong Kong construction SMEs and on‑site engineers measurable efficiency gains and cost savings in a tight market.",
     "micro_personas": [
-      "Software Developer using Codex",
-      "Content Writer dependent on ChatGPT"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "ChatGPT + Service Outage",
-      "Codex + Error Rate"
-    ]
-  },
-  {
-    "i": 57,
-    "category": "tech_background",
-    "title": "TDK to ramp up production of electronic components for AI servers - Nikkei Asia",
-    "title_en": "TDK Plans to Expand Production of Electronic Components for AI Servers",
-    "hashtags": [
-      "#AIHardware",
-      "#TDK",
-      "#ServerComponents"
-    ],
-    "source_name": "Nikkei Asia",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Local AI startups and cloud providers can anticipate steadier supply of AI‑server components, enabling faster hardware scaling and reducing procurement bottlenecks for Hong Kong data centers.",
-    "micro_personas": [
-      "Cloud Infrastructure Engineer",
-      "AI Startup Hardware Planner"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "AI Server Components + Supply",
-      "TDK + Production Ramp"
-    ]
-  },
-  {
-    "i": 58,
-    "category": "safety_trust",
-    "title": "China Spy Chief Warns of AI Risks as Anthropic CEO Urges Brakes - Bloomberg.com",
-    "title_en": "China’s Spy Chief Warns of AI Risks While Anthropic CEO Calls for Caution",
-    "hashtags": [
-      "#AIRisk",
-      "#Regulation",
-      "#Anthropic"
-    ],
-    "source_name": "Bloomberg.com",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Elderly and professional users receive high‑level warnings about AI misuse, prompting heightened vigilance against deep‑fake scams and informing risk‑assessment policies in Hong Kong.",
-    "micro_personas": [
-      "Elderly Internet User",
-      "Financial Analyst evaluating AI risk"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "AI Risk + Public Warning",
-      "Anthropic CEO + Caution"
-    ]
-  },
-  {
-    "i": 59,
-    "category": "price_free",
-    "title": "Z.AI’s Cash Burn Drives Alibaba-Like Hong Kong Fundraising Spree - Bloomberg.com",
-    "title_en": "Z.AI’s Cash Burn Drives Alibaba‑Like Hong Kong Fundraising Spree",
-    "hashtags": [
-      "#AIStartups",
-      "#Funding",
-      "#CashBurn"
-    ],
-    "source_name": "Bloomberg.com",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Article discusses fundraising and cash burn without detailing AI tool pricing or cost reductions for Hong Kong users."
-  },
-  {
-    "i": 60,
-    "category": "regulation_public",
-    "title": "Anthropic Strikes $13.7 Billion Deal With Trump-Linked Rum Group: Can It Drive IPO Valuation Higher? - TradingKey",
-    "title_en": "Anthropic Strikes $13.7 Billion Deal With Trump‑Linked Rum Group: Can It Drive IPO Valuation Higher?",
-    "hashtags": [
-      "#Anthropic",
-      "#IPO",
-      "#PoliticalFinance"
-    ],
-    "source_name": "TradingKey",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Focuses on political financing of Anthropic, offering no insight into AI regulation or compliance impacts relevant to Hong Kong."
-  },
-  {
-    "i": 61,
-    "category": "real_use",
-    "title": "India's data center boom creates new engine for renewable energy - Nikkei Asia",
-    "title_en": "India's Data Center Boom Creates New Engine for Renewable Energy",
-    "hashtags": [
-      "#DataCenters",
-      "#Renewables",
-      "#IndiaTech"
-    ],
-    "source_name": "Nikkei Asia",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Highlights India's data center growth for renewables, lacking specific AI application or operational benefit for Hong Kong stakeholders."
-  },
-  {
-    "i": 62,
-    "category": "tools_access",
-    "title": "ChatGPT Work and Codex - OpenAI Help Center",
-    "title_en": "ChatGPT Work and Codex – OpenAI Help Center",
-    "hashtags": [
-      "#ChatGPT",
-      "#Codex",
-      "#DeveloperTools"
-    ],
-    "source_name": "OpenAI Help Center",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "OpenAI’s ChatGPT Work and Codex provide immediate, cloud‑based coding assistance and document generation, enabling Hong Kong developers, office staff, and SMEs to boost productivity without local infrastructure.",
-    "micro_personas": [
-      "Software developer automating code reviews",
-      "Office administrator generating routine reports"
+      "Construction SME owner overseeing project timelines",
+      "Site engineer implementing AI maintenance tools"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "ChatGPT + Access",
-      "Codex + Integration"
+      "AIConstruction + Optimization",
+      "PredictiveMaintenance + Deployment"
     ]
   },
   {
-    "i": 63,
-    "category": "learning_family",
-    "title": "Malaysia Is Spending On AI Before Knowing What It’s Solving - TRP | The Rakyat Post",
-    "title_en": "Malaysia Is Spending On AI Before Knowing What It’s Solving",
+    "i": 137,
+    "category": "safety_trust",
+    "title": "SoftBank Shares Slide 13% After AI Chiefs Sound Alarm on Safety - Bloomberg.com",
+    "title_en": "SoftBank Shares Drop 13% After AI Executives Raise Safety Concerns",
     "hashtags": [
-      "#AIInvestment",
-      "#PolicyPlanning",
-      "#Malaysia"
+      "#SoftBank",
+      "#AISafety",
+      "#MarketReaction"
     ],
-    "source_name": "TRP | The Rakyat Post",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Examines Malaysia's AI spending strategy without presenting concrete educational tools or family‑oriented AI solutions for Hong Kong."
-  },
-  {
-    "i": 64,
-    "category": "tech_background",
-    "title": "Grok Build Explained: What It Is and How to Try It - BASENOR - Tesla Accessories",
-    "title_en": "Grok Build Explained: What It Is and How to Try It - BASENOR - Tesla Accessories",
-    "hashtags": [
-      "#GrokBuild",
-      "#TeslaAccessories",
-      "#TechGuide"
-    ],
-    "source_name": "BASENOR - Tesla Accessories",
+    "source_name": "Bloomberg.com",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Provides Hong Kong developers with in‑depth architectural details of Grok Build, allowing rapid prototyping, API integration, and creation of AI‑enhanced services for local SMEs and startups.",
+    "reason": "SoftBank’s share drop after AI safety alarms underscores systemic risk, urging Hong Kong professionals and senior executives to audit AI models, enforce robust testing, and prepare incident response protocols.",
     "micro_personas": [
-      "AI backend engineer prototyping AI services",
-      "Full‑stack developer integrating Grok Build into e‑commerce platform"
+      "Senior executive overseeing AI investments",
+      "IT security professional responsible for model validation"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Grok Build + Documentation",
-      "Grok Build + Integration"
+      "AI Safety + Alert",
+      "MarketReaction + RiskAssessment"
+    ]
+  },
+  {
+    "i": 138,
+    "category": "regulation_public",
+    "title": "AI jailbreakers test EU safety rules - Euractiv DE",
+    "title_en": "AI Jailbreakers Test European Union Safety Regulations",
+    "hashtags": [
+      "#AIJailbreak",
+      "#EUSafety",
+      "#RegulatoryTesting"
+    ],
+    "source_name": "Euractiv DE",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "EU AI jailbreak tests reveal regulatory gaps, prompting Hong Kong developers and compliance officers to align products with emerging standards, ensuring cross‑border data protection and avoiding legal penalties.",
+    "micro_personas": [
+      "Software developer integrating EU‑compliant AI APIs",
+      "Compliance officer managing cross‑border AI services"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AIRegulation + Testing",
+      "Compliance + Alignment"
+    ]
+  },
+  {
+    "i": 139,
+    "category": "regulation_public",
+    "title": "China state newspaper blasts Anthropic's calls to slow AI as 'Cold War' tactic - Reuters",
+    "title_en": "China State Newspaper Criticizes Anthropic’s Call to Slow AI Development as a ‘Cold War’ Tactic",
+    "hashtags": [
+      "#ChinaMedia",
+      "#Anthropic",
+      "#AIRegulation"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "China’s criticism of Anthropic’s slowdown call signals geopolitical tension, urging Hong Kong enterprises and developers to monitor policy shifts, diversify AI vendors, and safeguard supply‑chain continuity.",
+    "micro_personas": [
+      "Enterprise CTO evaluating AI vendor strategy",
+      "Developer selecting language model for local applications"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AIPolicy + Monitoring",
+      "VendorStrategy + Diversification"
+    ]
+  },
+  {
+    "i": 140,
+    "category": "regulation_public",
+    "title": "AI-Driven Pricing: How the U.S., China and Europe Are Tackling the Ethics of Charging More - modaes.com",
+    "title_en": "AI-Driven Pricing: How the United States, China, and Europe Are Addressing the Ethics of Higher Charges",
+    "hashtags": [
+      "#AIethics",
+      "#pricing",
+      "#regulation",
+      "#globalpolicy"
+    ],
+    "source_name": "modaes.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Provides Hong Kong SMEs and employers with emerging global regulatory guidance on AI-driven dynamic pricing, helping them design compliant pricing models and avoid legal penalties.",
+    "micro_personas": [
+      "SME owner setting product prices",
+      "HR professional managing employee compensation"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Regulators + IssueGuidelines",
+      "Businesses + AdjustPricing"
+    ]
+  },
+  {
+    "i": 141,
+    "category": "regulation_public",
+    "title": "Global AI stocks fall as industry chiefs call for slowing development - Reuters",
+    "title_en": "Global AI Stocks Decline as Industry Leaders Advocate Slowing Development",
+    "hashtags": [
+      "#AIstocks",
+      "#market",
+      "#development slowdown",
+      "#regulatoryconcern"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Pure market sentiment without concrete regulatory changes; offers limited actionable insight for Hong Kong businesses or policy makers."
+  },
+  {
+    "i": 142,
+    "category": "tech_background",
+    "title": "Elevated error rates for Codex and ChatGPT Work - OpenAI Status",
+    "title_en": "Increased Error Rates Reported for Codex and ChatGPT Services",
+    "hashtags": [
+      "#AIperformance",
+      "#errorrate",
+      "#OpenAI",
+      "#modelreliability"
+    ],
+    "source_name": "OpenAI Status",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Highlights increased error rates in Codex and ChatGPT APIs, prompting Hong Kong developers and office workers to implement fallback mechanisms and monitor service reliability for uninterrupted AI-assisted workflows.",
+    "micro_personas": [
+      "Backend developer integrating Codex",
+      "Office worker using ChatGPT for document drafting"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "OpenAI + ReportError",
+      "Developers + MitigateDowntime"
+    ]
+  },
+  {
+    "i": 143,
+    "category": "tech_background",
+    "title": "TDK to ramp up production of electronic components for AI servers - Nikkei Asia",
+    "title_en": "TDK Plans to Expand Production of Electronic Components for AI Servers",
+    "hashtags": [
+      "#AIhardware",
+      "#semiconductors",
+      "#TDK",
+      "#servercomponents"
+    ],
+    "source_name": "Nikkei Asia",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "TDK’s expanded AI server component production improves global supply, enabling Hong Kong data‑center engineers and SME CTOs to secure necessary hardware for scaling local AI workloads.",
+    "micro_personas": [
+      "Data‑center engineer sourcing AI server parts",
+      "SME CTO planning AI compute expansion"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "TDK + ExpandProduction",
+      "LocalBusinesses + SourceComponents"
+    ]
+  },
+  {
+    "i": 144,
+    "category": "work_sme",
+    "title": "Z.AI’s Cash Burn Drives Alibaba-Like Hong Kong Fundraising Spree - Bloomberg.com",
+    "title_en": "Z.AI’s High Cash Burn Fuels an Alibaba-Style Fundraising Surge in Hong Kong",
+    "hashtags": [
+      "#startupfunding",
+      "#AIstartup",
+      "#cashburn",
+      "#HongKong"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Z.AI’s high cash burn and subsequent fundraising surge signals a vibrant AI startup ecosystem in Hong Kong, offering entrepreneurs and SME leaders new capital sources and partnership opportunities.",
+    "micro_personas": [
+      "Entrepreneur seeking seed funding",
+      "SME CFO evaluating investment climate"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "Z.AI + RaiseFunds",
+      "Investors + AssessMarket"
+    ]
+  },
+  {
+    "i": 145,
+    "category": "tech_background",
+    "title": "Anthropic’s AI Warning May Weigh on Chips, But Trade Seen Intact - Bloomberg.com",
+    "title_en": "Anthropic’s AI Warning May Weigh on Chips, But Trade Seen Intact - Bloomberg.com",
+    "hashtags": [
+      "#AI",
+      "#Semiconductors",
+      "#MarketImpact"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK AI developers and startups can anticipate tighter GPU/ASIC supply and potential price hikes, allowing them to adjust compute budgeting and explore alternative hardware for model training.",
+    "micro_personas": [
+      "AI model developer planning compute resources",
+      "Startup CTO managing hardware costs"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Anthropic + ChipSupply",
+      "Hong Kong AI startups + ComputeBudgeting"
+    ]
+  },
+  {
+    "i": 146,
+    "category": "regulation_public",
+    "title": "Anthropic Strikes $13.7 Billion Deal With Trump-Linked Rum Group: Can It Drive IPO Valuation Higher? - TradingKey",
+    "title_en": "Anthropic Strikes $13.7 Billion Deal With Trump-Linked Rum Group: Can It Drive IPO Valuation Higher? - TradingKey",
+    "hashtags": [
+      "#MergersAndAcquisitions",
+      "#PoliticalInfluence",
+      "#IPO"
+    ],
+    "source_name": "TradingKey",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article focuses on US corporate finance and political ties, offering no actionable insight for Hong Kong regulatory compliance or data‑law considerations."
+  },
+  {
+    "i": 147,
+    "category": "real_use",
+    "title": "India's data center boom creates new engine for renewable energy - Nikkei Asia",
+    "title_en": "India's data center boom creates new engine for renewable energy - Nikkei Asia",
+    "hashtags": [
+      "#DataCenters",
+      "#RenewableEnergy",
+      "#India"
+    ],
+    "source_name": "Nikkei Asia",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Local data center operators and SMEs can learn India’s renewable‑energy integration model to reduce electricity costs and meet Hong Kong’s green‑IT targets, improving operational efficiency.",
+    "micro_personas": [
+      "Data center manager evaluating renewable power options",
+      "SME IT director planning sustainable cloud migration"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "India data centers + RenewableEnergy",
+      "Hong Kong enterprises + GreenIT"
+    ]
+  },
+  {
+    "i": 148,
+    "category": "tools_access",
+    "title": "Grok Build Explained: What It Is and How to Try It - BASENOR - Tesla Accessories",
+    "title_en": "Grok Build Explained: What It Is and How to Try It - BASENOR - Tesla Accessories",
+    "hashtags": [
+      "#GrokBuild",
+      "#Tesla",
+      "#DeveloperTools"
+    ],
+    "source_name": "BASENOR - Tesla Accessories",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Developers worldwide, including Hong Kong’s edge‑AI creators, can access Grok Build to prototype AI models on Tesla hardware, accelerating proof‑of‑concept cycles without extensive infrastructure investment.",
+    "micro_personas": [
+      "Edge AI developer testing models on Tesla platforms",
+      "Entrepreneur prototyping AI‑enabled vehicle features"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Grok Build + Prototype",
+      "Hong Kong developers + EdgeAI"
+    ]
+  },
+  {
+    "i": 149,
+    "category": "safety_trust",
+    "title": "Health in ChatGPT - OpenAI Help Center",
+    "title_en": "Health in ChatGPT - OpenAI Help Center",
+    "hashtags": [
+      "#ChatGPT",
+      "#HealthInfo",
+      "#UserSafety"
+    ],
+    "source_name": "OpenAI Help Center",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Elderly users and professionals in Hong Kong must treat ChatGPT health answers as non‑clinical, recognizing potential misinformation and privacy risks, to avoid unsafe medical decisions.",
+    "micro_personas": [
+      "Elderly person asking health queries to ChatGPT",
+      "Healthcare professional cross‑checking AI‑generated medical info"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "ChatGPT + HealthInfo",
+      "Hong Kong users + AI safety"
+    ]
+  },
+  {
+    "i": 150,
+    "category": "learning_family",
+    "title": "Hanoi teaches AI to students from grade 1, parents hope the program is suitable for each age group - news.laodong.vn",
+    "title_en": "Hanoi Introduces AI Curriculum to First-Grade Students, Parents Hope It Fits All Age Groups",
+    "hashtags": [
+      "#AIEducation",
+      "#EarlyLearning",
+      "#Hanoi"
+    ],
+    "source_name": "news.laodong.vn",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Enables Hong Kong primary students and their parents to adopt age‑appropriate AI concepts, supporting early digital literacy and providing teachers with ready‑made curriculum modules for classroom integration.",
+    "micro_personas": [
+      "Primary school teacher designing AI lessons",
+      "Parent guiding child's AI project at home"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "AI Curriculum + Adoption",
+      "Parents + AI Education"
     ]
   }
 ]
