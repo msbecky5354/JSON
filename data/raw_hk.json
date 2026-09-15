@@ -1,82 +1,898 @@
 [
   {
     "i": 1,
-    "category": "safety_trust",
-    "title": "Microsoft 發布人本 AI 守則 列明「人類比 AI 重要」 隔空質疑 Anthropic - unwire",
-    "title_en": "Microsoft Releases Human‑Centric AI Code of Conduct Emphasizing \"Humans Over AI\" and Criticizes Anthropic",
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "China is beating the US in consumer AI adoption, thanks to super apps: Morgan Stanley",
+    "title_en": "China Surpasses the US in Consumer AI Adoption Through Super Apps, Says Morgan Stanley",
     "hashtags": [
-      "#AIethics",
-      "#HumanFirst",
-      "#TechPolicy"
+      "#ConsumerAI",
+      "#SuperApps",
+      "#ChinaTech",
+      "#AIAdoption",
+      "#MarketTrends"
     ],
-    "source_name": "unwire",
+    "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Pure ethical policy announcement without specific security warnings or actionable measures for local users, offering limited practical safety utility."
+    "reject_reason": "The article offers market trends without specific AI tools, cost changes, or actionable insights for Hong Kong’s office workers, SMEs, or developers."
   },
   {
     "i": 2,
-    "category": "tech_background",
-    "title": "【智庫爭鳴】打造北都算力生態圈的三個關鍵 - 香港商报",
-    "title_en": "Think‑Tank Debate: Three Key Factors for Building a Northern Capital Computing Ecosystem",
+    "category": "regulation_public",
+    "ai1_suggestion": "Consider a more specific category like 'policy_innovation' to capture AI governance discussions.",
+    "title": "鳳凰灣區財經論壇2026開幕在即 共探人工智能與高水平開放新路徑 - 香港商报",
+    "title_en": "Phoenix Bay Area Financial Forum 2026 Opens Soon to Explore AI and High-Level Openness Paths",
     "hashtags": [
-      "#ComputingEcosystem",
-      "#InnovationPolicy",
-      "#TechStrategy"
+      "#AIForum",
+      "#OpenInnovation",
+      "#HongKong",
+      "#PolicyDialogue",
+      "#FutureTech"
     ],
     "source_name": "香港商报",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "High‑level discussion lacks concrete technical details or actionable insights for Hong Kong developers, providing minimal immediate utility."
-  },
-  {
-    "i": 3,
-    "category": "work_sme",
-    "title": "香港科技園杭州峰會 推動「場景共創」模式 促進初創早期投資 - Singtaousa",
-    "title_en": "Hong Kong Science Park Hangzhou Summit Promotes \"Co‑Creation\" Model to Boost Early‑Stage Startup Investment",
-    "hashtags": [
-      "#StartupFunding",
-      "#CoCreation",
-      "#TechHub"
-    ],
-    "source_name": "Singtaousa",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "The co‑creation model highlighted at the summit offers Hong Kong SMEs and entrepreneurs concrete partnership pathways and early‑stage funding opportunities, enabling faster product validation and market entry.",
+    "reason": "The AI forum announcement outlines upcoming policy dialogues on AI openness, providing Hong Kong professionals, policymakers, and enterprises with early insight to shape compliance strategies and leverage regulatory support.",
     "micro_personas": [
-      "Startup founder seeking seed funding",
-      "SME product manager exploring co‑creation partnerships"
+      "Policy analyst evaluating AI regulations",
+      "Legal counsel advising fintech firms"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "Hong Kong Science Park + Promote",
-      "Startup + SeekFunding"
+      "AI Forum + Discuss",
+      "Regulation + Draft"
+    ]
+  },
+  {
+    "i": 3,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "香港中小型企業聯合會提交2026年《施政報告》及《五年規劃》提交政策建議 - 香港商报",
+    "title_en": "Hong Kong SME Federation Submits 2026 Policy Recommendations in Government Report and Five-Year Plan",
+    "hashtags": [
+      "#SMEPolicy",
+      "#HongKongEconomy",
+      "#BusinessGrowth",
+      "#StrategicPlanning",
+      "#GovernmentReport"
+    ],
+    "source_name": "香港商报",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The SME federation’s policy recommendations target AI integration in daily operations, offering Hong Kong small businesses concrete guidance to adopt workflow automation, HR AI tools, and cost‑effective solutions.",
+    "micro_personas": [
+      "SME owner planning AI adoption",
+      "HR manager seeking AI‑driven recruitment"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "SME + Policy",
+      "AI + Integration"
     ]
   },
   {
     "i": 4,
-    "category": "safety_trust",
-    "title": "Anthropic 揭 AI 交友騙局 25,000 人對話七成半為機械人 - unwire",
-    "title_en": "Anthropic Exposes AI Dating Scam: 25,000 Users, Over 70% Interactions Were With Bots",
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "Forget AI KPIs: how China’s tech giants are rationing tokens for employees",
+    "title_en": "Forget AI KPIs: How China’s Tech Giants Ration Tokens for Employees",
     "hashtags": [
-      "#AIScams",
-      "#DigitalSafety",
-      "#ConsumerProtection"
+      "#AIProductivity",
+      "#TokenRationing",
+      "#WorkplaceAI",
+      "#ChinaTech",
+      "#EmployeeManagement"
     ],
-    "source_name": "unwire",
-    "evidence_status": "official",
+    "source_name": "Tech - South China Morning Post",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Anthropic’s disclosure of AI‑driven dating scams provides a clear warning for Hong Kong’s elderly and professionals, prompting immediate adoption of verification tools and user‑education to mitigate fraud.",
+    "reason": "China’s token‑rationing model for employee AI usage reveals practical limits and incentive structures, guiding Hong Kong employers and office workers on managing AI tool consumption and productivity metrics.",
     "micro_personas": [
-      "Elderly user receiving dating messages",
-      "Professional using AI chat for networking"
+      "Office manager implementing AI usage policies",
+      "Employee balancing AI tool access with workload"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Anthropic + ExposeScam",
-      "AI + DatingScam"
+      "AI Usage + Ration",
+      "Productivity + Management"
+    ]
+  },
+  {
+    "i": 5,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "入門「嗨」箱 ... !! HYTE Y50 RGB Mid-Tower 機箱 - 電腦領域HKEPC Hardware",
+    "title_en": "Introductory Review of the HYTE Y50 RGB Mid-Tower PC Case",
+    "hashtags": [
+      "#PCHardware",
+      "#GamingPC",
+      "#TechReview",
+      "#HYTEY50",
+      "#ComputerCase"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The piece reviews a PC case hardware product and contains no AI technology, tool access, or relevance to Hong Kong’s AI target groups."
+  },
+  {
+    "i": 6,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "WRISE Prestige Marks Two Years in Hong Kong with Strong Growth and Unveils the Evolution of the Intelligent Wealth Consultant - Macau Business",
+    "title_en": "WRISE Prestige Celebrates Two Years in Hong Kong with Strong Growth and Unveils the Evolution of the Intelligent Wealth Consultant",
+    "hashtags": [
+      "#WealthTech",
+      "#AIConsulting",
+      "#HongKongGrowth",
+      "#FinTech"
+    ],
+    "source_name": "Macau Business",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Enables Hong Kong wealth managers and SME owners to automate portfolio analysis, delivering faster client insights and reducing manual research effort.",
+    "micro_personas": [
+      "Wealth manager using AI advisor for client portfolios",
+      "SME owner leveraging AI for investment recommendations"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "WRISE + Launch",
+      "Intelligent Wealth Consultant + Deploy"
+    ]
+  },
+  {
+    "i": 7,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "AI Pro 免費送 YouTube Premium Lite，Gemini 4 Pro 十月殺到搶市場 - KONGGOK",
+    "title_en": "AI Pro Offers Free YouTube Premium Lite, Gemini 4 Pro Launches in October to Capture Market",
+    "hashtags": [
+      "#FreeAI",
+      "#YouTubePremium",
+      "#Gemini4",
+      "#MarketLaunch"
+    ],
+    "source_name": "KONGGOK",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Provides free Gemini 4 Pro and YouTube Premium Lite, allowing students and developers in Hong Kong to experiment with advanced generative models without cost.",
+    "micro_personas": [
+      "Student creating AI‑assisted essays",
+      "Developer prototyping with free Gemini 4 API"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Gemini 4 Pro + Release",
+      "AI Pro + FreeOffer"
+    ]
+  },
+  {
+    "i": 8,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "港大羅銳邦教授憑AI基因組分析技術榮獲2026年APEC科學創新唯一大獎- 教育科研 - 香港文匯報",
+    "title_en": "HKU Professor Luo Ruibang Wins the Sole 2026 APEC Science Innovation Award with AI Genomics Analysis Technology",
+    "hashtags": [
+      "#AIResearch",
+      "#Genomics",
+      "#APECAward",
+      "#HongKongScience"
+    ],
+    "source_name": "香港文匯報",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The award highlights research achievement but offers no direct educational tool or family‑focused AI application for Hong Kong learners."
+  },
+  {
+    "i": 9,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "RTX 5090 顯示卡供電接口燒毀 卡廠以「未使用原廠隨附線材」為由拒保 - 電腦領域HKEPC Hardware",
+    "title_en": "RTX 5090 Graphics Card Power Connector Burns Out; Manufacturer Refuses Warranty Claim Citing Use of Non‑Original Cable",
+    "hashtags": [
+      "#HardwareFailure",
+      "#RTX5090",
+      "#WarrantyIssue",
+      "#TechSupport"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focuses on GPU hardware warranty issue, unrelated to AI models or infrastructure relevant to Hong Kong developers."
+  },
+  {
+    "i": 10,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "Kuailu Tech: AI Office Tech’s 3-Year Sprint: Did We Start in the Wrong Direction? - Macau Business",
+    "title_en": "Kuailu Tech: AI Office Technology’s Three‑Year Sprint – Did We Start in the Wrong Direction?",
+    "hashtags": [
+      "#AIOffice",
+      "#ProductStrategy",
+      "#TechRoadmap",
+      "#BusinessInnovation"
+    ],
+    "source_name": "Macau Business",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Discusses strategic direction without presenting concrete AI office tool access or actionable deployment guidance for local users."
+  },
+  {
+    "i": 11,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "ASRock TempGuard 被指根本無效 過熱斷電沒觸發 RTX PRO 6000 接口熔毀 - 電腦領域HKEPC Hardware",
+    "title_en": "ASRock TempGuard Deemed Ineffective as Overheat Shutdown Failed and RTX PRO 6000 Port Melted",
+    "hashtags": [
+      "#HardwareSafety",
+      "#Overheating",
+      "#ASRock",
+      "#GPUFailure"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The TempGuard failure poses overheating risk for office workstations and SME IT assets, urging immediate monitoring or replacement to protect professionals and elderly users from hardware damage.",
+    "micro_personas": [
+      "Office worker using a high‑performance workstation",
+      "IT administrator in a small‑to‑medium enterprise"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "ASRock TempGuard + Failure",
+      "GPU Overheat + Safety"
+    ]
+  },
+  {
+    "i": 12,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "AI 巨頭籲立法強制設開關 英政府指禁都無用 難阻其他地方開發濫用 - unwire",
+    "title_en": "AI Giants Urge Legislation for Mandatory Kill Switches; UK Government Says Bans Are Ineffective",
+    "hashtags": [
+      "#AIRegulation",
+      "#KillSwitch",
+      "#Policy",
+      "#Ethics"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "AI kill‑switch legislation discussion signals upcoming regulatory pressure, helping Hong Kong compliance officers and tech startup founders prepare policies and safeguards for future AI deployments.",
+    "micro_personas": [
+      "Compliance officer at a multinational corporation",
+      "Founder of an AI‑focused startup"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "AI Kill Switch + Legislation",
+      "Regulation + AI Ethics"
+    ]
+  },
+  {
+    "i": 13,
+    "category": "tools_access",
+    "ai1_suggestion": "Consider 'real_use' to reflect the practical impact of new data‑center capacity on AI workloads",
+    "title": "軟銀集團股價反彈，數據中心子公司SB Energy推進IPO計劃 - Yahoo 財經",
+    "title_en": "SoftBank Group Shares Rebound as Data‑Center Subsidiary SB Energy Advances IPO Plans",
+    "hashtags": [
+      "#SoftBank",
+      "#DataCenter",
+      "#IPO",
+      "#Infrastructure"
+    ],
+    "source_name": "Yahoo 財經",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "SoftBank's SB Energy data‑center expansion could offer affordable compute resources for Hong Kong SMEs and freelance developers, enabling local AI projects once the facilities become operational.",
+    "micro_personas": [
+      "SME CTO seeking scalable cloud GPU capacity",
+      "Freelance AI developer looking for cost‑effective compute"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "SB Energy + IPO",
+      "Data Center + AI Compute"
+    ]
+  },
+  {
+    "i": 14,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "全港首套共融網安動畫《網安西遊記》登場 悟空、八戒教你防 AI 換臉騙案 - unwire",
+    "title_en": "Hong Kong’s First Inclusive Cyber‑Security Animation ‘Cyber‑Security Journey to the West’ Teaches AI Deep‑Fake Scam Prevention",
+    "hashtags": [
+      "#CyberSecurity",
+      "#AIDeepFake",
+      "#PublicEducation",
+      "#HongKong"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The inclusive cyber‑security animation equips parents and elderly Hong Kong residents with practical knowledge to spot AI deep‑fake scams, enhancing family safety and public trust.",
+    "micro_personas": [
+      "Parent teaching children online safety",
+      "Elderly citizen learning to detect deep‑fake scams"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "Cyber Security Animation + Deepfake",
+      "Public Education + AI Scam"
+    ]
+  },
+  {
+    "i": 16,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "GeForce RTX 5090 遊戲顯示卡 被中國公司大肆掃購 已淪為 AI 運算工具 - 電腦領域HKEPC Hardware",
+    "title_en": "GeForce RTX 5090 Graphics Cards Mass‑Purchased by Chinese Firms, Repurposed as AI Computing Tools",
+    "hashtags": [
+      "#RTX5090",
+      "#AICompute",
+      "#GPU",
+      "#ChinaTech"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Mass repurposing of RTX 5090 GPUs for AI workloads may tighten local GPU supply, prompting Hong Kong developers and university researchers to explore alternative hardware or cloud options.",
+    "micro_personas": [
+      "Game developer in Hong Kong needing high‑end graphics",
+      "University AI researcher requiring GPU compute"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "RTX5090 + AI Compute",
+      "GPU shortage + Hong Kong"
+    ]
+  },
+  {
+    "i": 17,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "借鏡北京市經驗提升北都交通規劃 ——隨立法會交通事務委員會北京職務考察後感 文：林銘鋒 - 堅料網",
+    "title_en": "Learning from Beijing's Experience to Improve Hong Kong's Transport Planning – Insights After Legislative Council Transport Committee's Beijing Visit",
+    "hashtags": [
+      "#TransportPlanning",
+      "#UrbanPolicy",
+      "#HKInfrastructure"
+    ],
+    "source_name": "堅料網",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "No AI content; focuses solely on transport policy, offering no actionable AI insight for Hong Kong stakeholders."
+  },
+  {
+    "i": 18,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "美 17 歲少年自資購買的 5070 主機 未有即時協助父親搬雜物 被父親狂砸 - 電腦領域HKEPC Hardware",
+    "title_en": "17-Year-Old in the US Buys a 5070 GPU Independently, Fails to Help Father Move Items, Father Reacts Violently",
+    "hashtags": [
+      "#HardwareAccess",
+      "#YouthTech",
+      "#FamilyConflict",
+      "#GPU"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Article discusses hardware purchase and family dispute, lacking AI relevance or tool access implications for Hong Kong audiences."
+  },
+  {
+    "i": 19,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Google 芬蘭起數據中心 特朗普公開炮轟 不滿千億 AI 項目離美",
+    "title_en": "Trump Slams Google for Building a Multi-Billion AI Data Center in Finland Instead of the United States",
+    "hashtags": [
+      "#AIInfrastructure",
+      "#Geopolitics",
+      "#TechPolicy",
+      "#Trump"
+    ],
+    "source_name": "香港 unwire.hk 玩生活．樂科技",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Highlights Google’s AI data‑center placement outside the US, prompting Hong Kong enterprises to assess data‑sovereignty, latency, and compliance when adopting Google AI services, influencing procurement decisions.",
+    "micro_personas": [
+      "Enterprise IT Manager evaluating cloud AI services",
+      "SME CTO assessing data residency for AI workloads"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Google + DataCenter",
+      "AI + DataResidency",
+      "Cloud + Compliance"
+    ]
+  },
+  {
+    "i": 20,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "歐巴馬罕見介入AI監管之爭 呼籲美國主動立法避免「潛在災難」 - Yahoo 財經",
+    "title_en": "Obama Rarely Intervenes in AI Regulation Debate, Urges U.S. Proactive Legislation to Prevent Potential Disasters",
+    "hashtags": [
+      "#AIRegulation",
+      "#Obama",
+      "#Policy",
+      "#TechSafety"
+    ],
+    "source_name": "Yahoo 財經",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Obama’s call for proactive AI legislation signals rising regulatory scrutiny, guiding Hong Kong policymakers and corporate legal teams to pre‑emptively align local AI frameworks with emerging international standards.",
+    "micro_personas": [
+      "Government Policy Analyst on technology regulation",
+      "FinTech Legal Counsel preparing compliance strategies"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "US + AIRegulation",
+      "Global + PolicyInfluence",
+      "Hong Kong + AICompliance"
+    ]
+  },
+  {
+    "i": 21,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "突破 NVIDIA CUDA 獨家生態 CUDA for AMD Windows 開源工具 - 電腦領域HKEPC Hardware",
+    "title_en": "Breakthrough: NVIDIA CUDA Ecosystem Expands with Exclusive CUDA for AMD on Windows – Open Source Tool Released",
+    "hashtags": [
+      "#CUDA",
+      "#AMD",
+      "#OpenSource",
+      "#GPUComputing"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Open‑source CUDA for AMD on Windows lets Hong Kong developers run NVIDIA‑optimized AI workloads on cheaper AMD GPUs, expanding compute options and reducing hardware costs for local startups.",
+    "micro_personas": [
+      "AI Research Engineer optimizing training pipelines",
+      "Startup Founder building GPU‑accelerated services"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "CUDA + AMD",
+      "GPU + OpenSource",
+      "AI + ComputeCost"
+    ]
+  },
+  {
+    "i": 22,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "黃仁勳大會突收特朗普電話 特朗普直斥AI接管是騙局 機械人不會接管世界 - unwire",
+    "title_en": "Nvidia CEO Receives Call from Trump Who Calls AI Takeover a Scam",
+    "hashtags": [
+      "#AI",
+      "#PublicPerception",
+      "#Regulation",
+      "#TechPolitics"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Highlights AI misinformation risk, urging Hong Kong elderly and professionals to verify claims and adopt safeguards against scams, enhancing trust and security in AI deployments.",
+    "micro_personas": [
+      "Elderly user concerned about AI scams",
+      "Professional risk manager evaluating AI trust"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Trump + AI claim",
+      "Nvidia CEO + public perception"
+    ]
+  },
+  {
+    "i": 23,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "買二手「過熱」電競 Notebook 拆開發現「散熱膏海」 風扇未插電 - 電腦領域HKEPC Hardware",
+    "title_en": "Second‑Hand Gaming Notebook Overheats Due to Missing Thermal Paste and Unplugged Fan",
+    "hashtags": [
+      "#Hardware",
+      "#GamingPC",
+      "#ConsumerIssues",
+      "#RealWorldUse"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The report discusses hardware overheating without any AI component, offering no actionable AI insight for Hong Kong target groups."
+  },
+  {
+    "i": 24,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "劉暢｜AI時代的「新水電煤」，香港如何分一杯羹？ - 橙新聞",
+    "title_en": "AI as the New ‘Water, Electricity, Gas’: How Hong Kong Can Grab a Share",
+    "hashtags": [
+      "#AI",
+      "#EconomicOpportunity",
+      "#HKTech",
+      "#SMEs",
+      "#Innovation"
+    ],
+    "source_name": "橙新聞",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Identifies AI-driven services that can automate core SME processes, offering cost‑effective tools for Hong Kong entrepreneurs and small businesses to boost productivity.",
+    "micro_personas": [
+      "SME owner automating inventory forecasting",
+      "Entrepreneur building AI‑powered customer support"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI + SME adoption",
+      "Hong Kong + AI market"
+    ]
+  },
+  {
+    "i": 25,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "銀行業 AI 風險演變超越預期 澳新 CEO 警告：不排除大裁員 警告失控恐致大規模失業與社會不安 - 經濟一週",
+    "title_en": "Banking AI Risks Exceed Expectations; CEO Warns of Possible Mass Layoffs and Social Unrest",
+    "hashtags": [
+      "#Banking",
+      "#AIrisk",
+      "#JobSecurity",
+      "#Regulation",
+      "#SocialImpact"
+    ],
+    "source_name": "經濟一週",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Details emerging AI risk regulations in banking, guiding Hong Kong compliance officers and HR professionals to mitigate job‑security impacts and align with new policy frameworks.",
+    "micro_personas": [
+      "Bank compliance officer assessing AI risk",
+      "HR professional planning workforce adjustments"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Banking AI risk",
+      "Regulation + workforce impact"
+    ]
+  },
+  {
+    "i": 26,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "iOS 27 與 macOS 27 正式推出 Siri AI 全面升級 兒童安全防護加強 - unwire",
+    "title_en": "iOS 27 and macOS 27 Launch with Full Siri AI Upgrade and Strengthened Child Safety Features",
+    "hashtags": [
+      "#iOS27",
+      "#macOS27",
+      "#SiriAI",
+      "#ChildSafety",
+      "#TechUpdates"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Apple’s Siri upgrade embeds child‑safety controls, giving Hong Kong parents and elderly users stronger privacy shields and trustworthy voice interactions on iOS and macOS devices.",
+    "micro_personas": [
+      "Parent configuring child safety on Siri",
+      "Elderly user relying on voice assistant privacy features"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Apple Siri + child safety",
+      "iOS 27 + privacy features"
+    ]
+  },
+  {
+    "i": 28,
+    "category": "tools_access",
+    "ai1_suggestion": "Consider a more specific category for extreme pricing pressure, e.g., 'price_high'",
+    "title": "GeForce RTX 5090 炒上近萬美金 Newegg、Amazon 被掃光 市場狀況失控 - 電腦領域HKEPC Hardware",
+    "title_en": "GeForce RTX 5090 Prices Surge Near $10,000, Newegg and Amazon Stock Depleted as Market Spirals Out of Control",
+    "hashtags": [
+      "#GPUShortage",
+      "#HighTechCost",
+      "#HardwareAccess",
+      "#MarketVolatility",
+      "#TechDemand"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK developers and SMEs face prohibitive GPU costs, limiting AI model training and generative tool usage; awareness of price spikes helps plan budgeting or seek alternative compute resources.",
+    "micro_personas": [
+      "AI startup founder needing GPU for model training",
+      "Office data analyst using AI visualization tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "GPU Market + Surge",
+      "Newegg Stock + Depletion"
+    ]
+  },
+  {
+    "i": 29,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "EUCLYD Raises Over €200 Million to Break the AI Efficiency Wall - etnet.com.hk",
+    "title_en": "EUCLYD Secures Over €200 Million to Break the AI Efficiency Barrier",
+    "hashtags": [
+      "#AIInvestment",
+      "#EfficiencyBreakthrough",
+      "#TechFunding",
+      "#AIStartup",
+      "#Innovation"
+    ],
+    "source_name": "etnet.com.hk",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Funding announcement lacks concrete AI model or tool details, offering no immediate operational benefit or cost impact for HK developers or businesses."
+  },
+  {
+    "i": 30,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "Win11 本機帳戶的最簡單方法 按下「Learn More」就能繞過微軟帳號 - 電腦領域HKEPC Hardware",
+    "title_en": "Simplest Way to Create a Local Account on Windows 11: Click “Learn More” to Bypass Microsoft Account",
+    "hashtags": [
+      "#Windows11",
+      "#LocalAccount",
+      "#Privacy",
+      "#SecurityBypass",
+      "#UserTips"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Bypassing Microsoft account exposes HK users, especially elderly and professionals, to privacy breaches and unsupported configurations, increasing risk of malware and data loss on Windows 11 devices.",
+    "micro_personas": [
+      "Elderly home user setting up new PC",
+      "Corporate IT manager configuring workstations"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Windows11 LocalAccount + Bypass",
+      "Microsoft Account + SecurityRisk"
+    ]
+  },
+  {
+    "i": 31,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "將 Tomb Raider 移植至 ESP32 晶片 功耗僅 1W 仍可暢玩經典 3D 大作 - 電腦領域HKEPC Hardware",
+    "title_en": "Tomb Raider Ported to ESP32 Chip, Running on Just 1W Power While Still Playing Classic 3D Game",
+    "hashtags": [
+      "#LowPowerGaming",
+      "#ESP32",
+      "#GamePorting",
+      "#TechDemo",
+      "#EnergyEfficient"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Demonstrates that complex 3D games run on 1W ESP32, proving edge AI workloads can be deployed on ultra‑low‑power chips, valuable for HK IoT developers and hobbyist makers.",
+    "micro_personas": [
+      "Embedded AI developer prototyping edge inference",
+      "SME hardware engineer building low‑power demo devices"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "ESP32 + LowPowerGaming",
+      "Tomb Raider + Porting"
+    ]
+  },
+  {
+    "i": 32,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "ACCA倡香港五年規劃善用AI 鞏固國金及專業服務中心地位 - on.cc東網",
+    "title_en": "ACCA Calls for a Five-Year Plan in Hong Kong to Leverage AI and Strengthen the City’s Position as a Financial and Professional Services Hub",
+    "hashtags": [
+      "#AIAdoption",
+      "#FinancialServices",
+      "#ProfessionalServices",
+      "#HongKongStrategy",
+      "#ACCA"
+    ],
+    "source_name": "on.cc東網",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Strategic AI plan proposal provides no specific workflow tools or cost changes, limiting direct actionable impact for HK SMEs or office workers."
+  },
+  {
+    "i": 33,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "第三台|Backchat|HKU launches Wealth Management Academy / Study on dementia and songs / Coul AI destroy humanity? / CityU v CUHK brain multitasking study - 香港電台",
+    "title_en": "HKU Launches Wealth Management Academy / Study on Dementia and Songs / Could AI Destroy Humanity? / CityU vs CUHK Brain Multitasking Study",
+    "hashtags": [
+      "#AI",
+      "#FutureTech",
+      "#Ethics",
+      "#HongKongMedia"
+    ],
+    "source_name": "香港電台",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Lacks concrete technical details on AI models or infrastructure; primarily media coverage without developer‑relevant substance."
+  },
+  {
+    "i": 34,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "《香港01》家長講座 青年耀進發展協會行政總監分享AI時代教養法 - 香港01",
+    "title_en": "Parent Seminar: AI Era Parenting Strategies Shared by Youth Development Association Executive Director",
+    "hashtags": [
+      "#AIParenting",
+      "#Education",
+      "#Family",
+      "#HongKong"
+    ],
+    "source_name": "香港01",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Provides Hong Kong parents with AI‑enabled parenting strategies, offering practical tools to guide children’s digital learning and safe AI use, directly benefiting the Parent micro‑persona in family education.",
+    "micro_personas": [
+      "Parents guiding primary‑school children",
+      "Family caregivers managing screen time"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Parenting + Seminar",
+      "HK Parents + AI Strategies"
+    ]
+  },
+  {
+    "i": 35,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "Microsoft 發布人本 AI 守則 列明「人類比 AI 重要」 隔空質疑 Anthropic - unwire",
+    "title_en": "Microsoft Publishes Human‑Centric AI Code of Conduct, Stating Humans Are More Important Than AI, Criticizes Anthropic",
+    "hashtags": [
+      "#AIethics",
+      "#HumanCentricAI",
+      "#Microsoft",
+      "#TrustAI"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Highlights Microsoft’s human‑centric AI code, emphasizing safety and trust, alerting Hong Kong professionals and elderly to prioritize human oversight and scrutinize AI vendor claims, reducing misuse risk.",
+    "micro_personas": [
+      "Senior professionals evaluating AI tools",
+      "Elderly users seeking trustworthy AI services"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Microsoft + AI Code",
+      "AI Trust + Hong Kong"
+    ]
+  },
+  {
+    "i": 37,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "【智庫爭鳴】打造北都算力生態圈的三個關鍵 - 香港商报",
+    "title_en": "Think‑Tank Debate: Three Key Factors for Building a Northern City Compute Power Ecosystem",
+    "hashtags": [
+      "#ComputeEcosystem",
+      "#TechInfrastructure",
+      "#AI",
+      "#HongKongBiz"
+    ],
+    "source_name": "香港商报",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Discusses three key factors for establishing a high‑performance compute ecosystem, offering Hong Kong developers strategic insights for local AI infrastructure planning and potential collaborations with mainland compute hubs.",
+    "micro_personas": [
+      "Developers designing AI workloads",
+      "Tech startups evaluating compute resources"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Compute Ecosystem + Strategy",
+      "AI Infrastructure + Hong Kong"
+    ]
+  },
+  {
+    "i": 38,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "雲知聲發布新一代U2-Flash大模型 編程基準翻倍超越DeepSeek 股價敏感技術突破全解析 - Minichart",
+    "title_en": "Yunzhisheng Unveils Next‑Gen U2‑Flash Large Model, Doubling Programming Benchmarks and Surpassing DeepSeek – Full Tech Breakthrough Analysis",
+    "hashtags": [
+      "#LargeModel",
+      "#AIInnovation",
+      "#Programming",
+      "#TechStocks"
+    ],
+    "source_name": "Minichart",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "Introduces the U2‑Flash large model with doubled programming benchmarks, offering Hong Kong developers and SMEs a high‑performance, potentially low‑cost AI coding assistant, enhancing local toolkits and productivity.",
+    "micro_personas": [
+      "Developers integrating code generation APIs",
+      "SME IT staff automating routine programming tasks"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "U2‑Flash + Release",
+      "AI Coding Model + Hong Kong"
+    ]
+  },
+  {
+    "i": 39,
+    "category": "tools_access",
+    "ai1_suggestion": "real_use (investment in AI compute tools and infrastructure)",
+    "title": "瑞和數智(3680)斥最多6000萬港元認購納真科技IPO股份 部署AI算力產業鏈 股價敏感須知 - Minichart",
+    "title_en": "Ruihe Digital Intelligence (3680) Allocates Up to HK$60 Million to Subscribe for Nazo Technology IPO Shares, Deploying AI Compute Industry Chain – Stock Sensitivity Notice",
+    "hashtags": [
+      "#AIInvestment",
+      "#ComputeInfrastructure",
+      "#HongKongStocks",
+      "#TechFunding",
+      "#AIIndustry"
+    ],
+    "source_name": "Minichart",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The entry reports investment funding without detailing any specific AI tool, offering no immediate access or usability for Hong Kong target groups."
+  },
+  {
+    "i": 40,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "Anthropic 揭 AI 交友騙局 25,000 人對話七成半為機械人 - unwire",
+    "title_en": "Anthropic Exposes AI Dating Scam: 25,000 Conversations, Over 70% Involving Bots",
+    "hashtags": [
+      "#AISafety",
+      "#ChatbotFraud",
+      "#DigitalTrust",
+      "#Anthropic",
+      "#OnlineScams"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Anthropic’s disclosure of AI‑driven dating scams warns elderly users and professionals about bot‑generated fraud, prompting stronger verification practices and security awareness in Hong Kong.",
+    "micro_personas": [
+      "Elderly individual receiving dating app messages",
+      "Corporate security analyst monitoring phishing attempts"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Anthropic + ScamReport",
+      "AI Dating + BotDetection"
     ]
   }
 ]
