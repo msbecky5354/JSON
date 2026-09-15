@@ -1,178 +1,1309 @@
 [
   {
     "i": 1,
-    "category": "tech_background",
-    "title": "Apple’s Siri AI Gambit, Moneyview Trims IPO Size & More - Inc42",
-    "title_en": "Apple’s Siri AI Strategy and Moneyview Reduces IPO Size",
+    "category": "regulation_public",
+    "ai1_suggestion": "funding_initiative",
+    "title": "Gates Foundation pledges $1 billion to drive AI equality globally - YourStory.com",
+    "title_en": "Gates Foundation Pledges $1 Billion to Drive AI Equality Globally",
     "hashtags": [
-      "#Apple",
-      "#SiriAI",
-      "#IPO",
-      "#FinTech"
+      "#AIEquality",
+      "#Philanthropy",
+      "#GlobalTech",
+      "#InclusiveAI"
     ],
-    "source_name": "Inc42",
+    "source_name": "YourStory.com",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Lacks concrete technical details on AI models or infrastructure; Apple’s Siri roadmap is closed and Moneyview IPO info is non‑technical, offering no actionable insight for HK developers."
+    "reject_reason": "The pledge is a funding announcement without concrete regulatory changes or actionable AI tools, offering no immediate compliance or cost impact for Hong Kong stakeholders."
   },
   {
     "i": 2,
-    "category": "tech_background",
-    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems - OpenAI",
-    "title_en": "Perplexity Integrates GPT-6 Astra for End-to-End System Capabilities",
-    "hashtags": [
-      "#Perplexity",
-      "#GPT6",
-      "#Astra",
-      "#AIIntegration"
-    ],
-    "source_name": "OpenAI",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "GPT‑6 Astra integration reveals next‑gen LLM architecture and API extensions, enabling HK developers to prototype end‑to‑end AI services with higher token limits and potential cost efficiencies for startups.",
-    "micro_personas": [
-      "AI SaaS developer building chatbots",
-      "Startup CTO evaluating LLM upgrades"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "OpenAI + Release",
-      "GPT-6 + Integration"
-    ]
-  },
-  {
-    "i": 3,
     "category": "safety_trust",
-    "title": "Who decides what counts as dangerous AI? Safety or Big Tech control over user data - Firstpost",
-    "title_en": "Who Determines What Constitutes Dangerous AI? Safety Concerns vs. Big Tech Data Control",
+    "ai1_suggestion": "",
+    "title": "From hallucinating AI chatbots to wiping out humanity: How did we get here? - Reuters",
+    "title_en": "From Hallucinating AI Chatbots to Wiping Out Humanity: How Did We Get Here?",
     "hashtags": [
       "#AISafety",
-      "#BigTech",
-      "#DataPrivacy",
-      "#Regulation"
+      "#ChatbotRisks",
+      "#EthicalAI",
+      "#TechFuture"
     ],
-    "source_name": "Firstpost",
-    "evidence_status": "thin_or_unclear",
+    "source_name": "Reuters",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Discussion highlights emerging safety standards and data‑privacy risks, prompting HK professionals and elderly users to scrutinize AI applications and demand stronger safeguards against misuse.",
+    "reason": "Highlights AI hallucination and deepfake threats, prompting Hong Kong elderly and professionals to adopt verification protocols and security tools, reducing fraud risk and preserving trust in AI interactions.",
     "micro_personas": [
-      "Elderly user concerned about voice‑assistant data",
-      "Corporate security officer reviewing AI vendor compliance"
+      "Elderly user receiving suspicious AI‑generated calls",
+      "Corporate professional evaluating AI vendor security"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "AI Safety + Regulation",
-      "Data Privacy + Risks"
+      "AI Chatbot + Safety Risks",
+      "Deepfake Scams + Elderly"
+    ]
+  },
+  {
+    "i": 3,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "Making sovereign, open-weight AI the technology frontier - mistral.ai",
+    "title_en": "Making Sovereign, Open-Weight AI the Technology Frontier",
+    "hashtags": [
+      "#OpenAI",
+      "#SovereignTech",
+      "#AIInnovation",
+      "#TechFrontier"
+    ],
+    "source_name": "mistral.ai",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Open‑weight sovereign AI models let Hong Kong developers self‑host large language models, cutting reliance on overseas APIs, lowering latency, and enabling compliance with local data regulations for startups.",
+    "micro_personas": [
+      "Backend developer deploying on‑prem LLM for local app",
+      "Startup CTO assessing cost‑effective AI infrastructure"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Open‑weight AI + Self‑host",
+      "Sovereign Model + Data Compliance"
     ]
   },
   {
     "i": 4,
     "category": "tech_background",
-    "title": "Jensen Huang took a call from Trump, and showed off something else, too",
-    "title_en": "Nvidia CEO Jensen Huang Takes Live Call from Trump and Demonstrates New Technology",
+    "ai1_suggestion": "gender_in_tech",
+    "title": "Women shaping India’s chip future take centre stage at Semicon India 2026 - YourStory.com",
+    "title_en": "Women Shaping India’s Chip Future Take Centre Stage at Semicon India 2026",
     "hashtags": [
-      "#Nvidia",
-      "#JensenHuang",
-      "#TrumpCall",
-      "#TechDemo"
+      "#WomenInTech",
+      "#ChipIndustry",
+      "#Semicon2026",
+      "#TechLeadership"
     ],
-    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "source_name": "YourStory.com",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Content is a political demo with no substantive model or infrastructure details, offering no practical guidance for HK developers or SMEs."
+    "reject_reason": "Focus on Indian chip talent and gender issues provides no direct AI capability, cost, or regulatory insight relevant to Hong Kong’s target groups."
   },
   {
     "i": 5,
-    "category": "tech_background",
-    "title": "OpenAI Acquires AI Camera Startup Glass Imaging in $300 Million Deal - finance.biggo.com",
-    "title_en": "OpenAI Acquires AI Camera Startup Glass Imaging in $300 Million Deal",
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "Beyond the hype: Practical Gemini Enterprise AI recipes for SMBs - YourStory.com",
+    "title_en": "Beyond the Hype: Practical Gemini Enterprise AI Recipes for SMBs",
     "hashtags": [
-      "#OpenAI",
-      "#GlassImaging",
-      "#Acquisition",
-      "#AICamera"
+      "#SMBTech",
+      "#EnterpriseAI",
+      "#GeminiAI",
+      "#PracticalAI"
     ],
-    "source_name": "finance.biggo.com",
-    "evidence_status": "official",
+    "source_name": "YourStory.com",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "OpenAI’s acquisition of Glass Imaging signals forthcoming vision‑AI APIs, giving HK developers and entrepreneurs early access to advanced camera‑based models for mobile and retail solutions.",
+    "reason": "Gemini Enterprise AI templates automate sales forecasting, document summarization, and customer support, delivering Hong Kong SMEs tangible productivity boosts, reduced manual effort, and measurable cost savings across office workflows.",
     "micro_personas": [
-      "Mobile app developer integrating AI camera",
-      "Retail tech entrepreneur building visual analytics"
+      "SME owner automating invoice processing",
+      "Office analyst generating AI‑assisted sales reports"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "OpenAI + Acquisition",
-      "AI Camera + Integration"
+      "Gemini AI + SMB Workflow",
+      "Enterprise AI + Process Automation"
     ]
   },
   {
     "i": 6,
-    "category": "safety_trust",
-    "title": "Pondero Brief: Anthropic, OpenAI, and Google built a safety-standards body in secret - Buttondown",
-    "title_en": "Pondero Brief: Anthropic, OpenAI, and Google Secretly Established a Safety‑Standards Body",
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "AI Restraint Debate Lifts Outlook for India Tech Services Stocks - Bloomberg.com",
+    "title_en": "AI Restraint Debate Boosts Outlook for Indian Tech Services Stocks",
     "hashtags": [
-      "#AIethics",
-      "#SafetyStandards",
-      "#IndustryCollaboration"
+      "#AIRegulation",
+      "#TechStocks",
+      "#IndiaTech",
+      "#MarketOutlook"
     ],
-    "source_name": "Buttondown",
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Provides only market outlook without concrete AI tool or operational impact for Hong Kong audiences."
+  },
+  {
+    "i": 7,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "From Jharkhand and Bihar to India’s chip lines: ISM chief on why semiconductor jobs are open to everyone - YourStory.com",
+    "title_en": "From Jharkhand and Bihar to India's Chip Lines: ISM Chief Explains Why Semiconductor Jobs Are Open to Everyone",
+    "hashtags": [
+      "#Semiconductors",
+      "#JobCreation",
+      "#IndiaTech",
+      "#SMEOpportunities"
+    ],
+    "source_name": "YourStory.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focuses on semiconductor job availability, not AI tool deployment or workflow automation relevant to local SMEs."
+  },
+  {
+    "i": 8,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "What must happen for AI’s trillion-dollar gamble to pay off - technologyreview.com",
+    "title_en": "What Must Happen for AI’s Trillion‑Dollar Gamble to Pay Off",
+    "hashtags": [
+      "#AIInvestment",
+      "#TechEconomics",
+      "#FutureTech",
+      "#RiskManagement"
+    ],
+    "source_name": "technologyreview.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Analytical essay lacks specific AI product or deployment details that Hong Kong users could directly apply."
+  },
+  {
+    "i": 9,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "What a $10,000 Investment in Amazon Now Would Be Worth if Its Anthropic Stake Gets Marked at $2 Trillion - The Motley Fool",
+    "title_en": "What a $10,000 Investment in Amazon Would Be Worth If Its Anthropic Stake Is Valued at $2 Trillion",
+    "hashtags": [
+      "#AIInvestment",
+      "#Amazon",
+      "#Anthropic",
+      "#Valuation"
+    ],
+    "source_name": "The Motley Fool",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Investment valuation piece offers financial speculation, not actionable AI technology or cost‑saving insight for Hong Kong stakeholders."
+  },
+  {
+    "i": 10,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "The Next AI Infrastructure Bottleneck Isn't the Model. It's the Machine. - Nasscom",
+    "title_en": "The Next AI Infrastructure Bottleneck Isn't the Model—It's the Machine",
+    "hashtags": [
+      "#AIHardware",
+      "#Infrastructure",
+      "#ComputeBottleneck",
+      "#TechScaling"
+    ],
+    "source_name": "Nasscom",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Highlights emerging industry safety governance, alerting Hong Kong professionals and elderly to potential privacy and deepfake risks, encouraging vigilance and demand for transparent standards.",
+    "reason": "Highlights that compute hardware, not model size, will limit AI adoption, guiding Hong Kong developers and SMEs to prioritize GPU/ASIC procurement and edge‑device planning for cost‑effective deployments.",
     "micro_personas": [
-      "Elderly user concerned about deepfake scams",
-      "Professional compliance officer evaluating AI vendor trustworthiness"
+      "AI startup CTO evaluating GPU procurement",
+      "DevOps engineer scaling inference services"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Infrastructure + Bottleneck",
+      "Compute Resources + Procurement"
+    ]
+  },
+  {
+    "i": 11,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "TotalEnergies Announces a Partnership with Mistral to Develop Frontier AI Models for Reservoir Exploration and Engineering - 01net",
+    "title_en": "TotalEnergies Announces a Partnership with Mistral to Develop Frontier AI Models for Reservoir Exploration and Engineering",
+    "hashtags": [
+      "#AIinEnergy",
+      "#ReservoirExploration",
+      "#FrontierModels",
+      "#IndustrialAI"
+    ],
+    "source_name": "01net",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The frontier AI models for reservoir exploration can be licensed by Hong Kong energy consultancies, enabling engineers to accelerate subsurface analysis and reduce project costs, benefiting SMEs and professional geoscientists.",
+    "micro_personas": [
+      "Energy consultancy engineer optimizing reservoir data",
+      "SME geoscientist automating exploration workflows"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "TotalEnergies + Partnership",
+      "Mistral + Model Development",
+      "Energy sector + AI adoption"
+    ]
+  },
+  {
+    "i": 12,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "Tech in Asia Conference returns to Singapore for 15th edition as enterprise AI takes centre stage - The Malaysian Reserve",
+    "title_en": "Tech in Asia Conference returns to Singapore for 15th edition as enterprise AI takes centre stage",
+    "hashtags": [
+      "#EnterpriseAI",
+      "#TechConference",
+      "#AsiaTech",
+      "#AITrends"
+    ],
+    "source_name": "The Malaysian Reserve",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The conference overview of enterprise AI architectures equips Hong Kong developers and startup founders with insights to adopt scalable cloud‑native models, fostering local innovation and integration into existing business systems.",
+    "micro_personas": [
+      "Cloud‑native AI developer evaluating platform options",
+      "Startup founder planning AI product roadmap"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "Tech in Asia + Conference",
+      "Enterprise AI + Trends",
+      "Singapore + AI event"
+    ]
+  },
+  {
+    "i": 13,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "AI content startup Flam raises $40M from QED Investors, Shah Rukh Khan, and others - YourStory.com",
+    "title_en": "AI content startup Flam raises $40M from QED Investors, Shah Rukh Khan, and others",
+    "hashtags": [
+      "#AIContent",
+      "#StartupFunding",
+      "#CreativeAI",
+      "#Investment"
+    ],
+    "source_name": "YourStory.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Pure funding announcement without disclosed product details offers no actionable AI capability for Hong Kong audiences."
+  },
+  {
+    "i": 14,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "GPT-6 Astra: The next generation in intelligence for work - OpenAI",
+    "title_en": "GPT-6 Astra: The next generation in intelligence for work",
+    "hashtags": [
+      "#GPT6",
+      "#WorkplaceAI",
+      "#Productivity",
+      "#FutureOfWork"
+    ],
+    "source_name": "OpenAI",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "GPT‑6 Astra delivers an AI co‑pilot that drafts emails, generates reports, and schedules tasks, directly boosting productivity for office workers, SMEs, and HR teams in Hong Kong.",
+    "micro_personas": [
+      "Office clerk automating daily correspondence",
+      "HR analyst summarizing recruitment data"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "OpenAI + GPT-6 launch",
+      "GPT-6 + Workplace integration",
+      "AI assistant + Productivity boost"
+    ]
+  },
+  {
+    "i": 16,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Open weights are not open source: Why AI's favorite label is under dispute - theregister.com",
+    "title_en": "Open weights are not open source: Why AI's favorite label is under dispute",
+    "hashtags": [
+      "#OpenAI",
+      "#ModelWeights",
+      "#AITransparency",
+      "#Regulation"
+    ],
+    "source_name": "theregister.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The discussion on non‑open model weights alerts Hong Kong developers and corporate legal teams to licensing risks, prompting stricter compliance checks before integrating third‑party AI models.",
+    "micro_personas": [
+      "Software engineer reviewing model licensing",
+      "Corporate counsel assessing AI procurement compliance"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "AI models + Licensing dispute",
+      "Regulation + Model weights",
+      "OpenAI + Transparency issues"
+    ]
+  },
+  {
+    "i": 17,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "ServiceNow bets on AI agents to reshape enterprise workflows - YourStory.com",
+    "title_en": "ServiceNow Bets on AI Agents to Reshape Enterprise Workflows",
+    "hashtags": [
+      "#AIAgents",
+      "#EnterpriseAutomation",
+      "#WorkflowTransformation",
+      "#ServiceNow"
+    ],
+    "source_name": "YourStory.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "AI agents in ServiceNow can auto‑route tickets, generate knowledge articles, and orchestrate approvals, giving Hong Kong SMEs and office workers up to 30% time savings in routine workflow tasks.",
+    "micro_personas": [
+      "SME IT manager automating service desk tickets",
+      "HR professional using AI agent for onboarding processes"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "ServiceNow + Launch AI agents",
+      "SMEs + Automate workflow processes"
+    ]
+  },
+  {
+    "i": 18,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Who Decides When an AI System is High-Risk? - Civil Liberties Union for Europe",
+    "title_en": "Who Decides When an AI System Is High‑Risk?",
+    "hashtags": [
+      "#AIRegulation",
+      "#HighRiskAI",
+      "#PolicyDebate",
+      "#CivilLiberties"
+    ],
+    "source_name": "Civil Liberties Union for Europe",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Understanding EU high‑risk AI definitions helps Hong Kong compliance officers and legal teams prepare policies, ensuring products meet upcoming regulatory standards and avoid penalties.",
+    "micro_personas": [
+      "Compliance officer evaluating AI products",
+      "Legal counsel advising startup on AI risk"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "Anthropic + FormSafetyBody",
-      "Google + EstablishSafetyStandards"
+      "EU regulators + Define high‑risk AI",
+      "HK businesses + Assess AI compliance"
     ]
   },
   {
-    "i": 7,
-    "category": "price_free",
-    "title": "Liner launches 'Model API' AI orchestration, cuts LLM costs by 50 percent - 디지털투데이",
-    "title_en": "Liner Introduces ‘Model API’ for AI Orchestration, Slashing LLM Costs by 50%",
+    "i": 19,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "NSFOCUS Receives Frost & Sullivan's 2026 Technology Innovation Leadership Recognition in the Chinese AI Security Industry - The Manila Times",
+    "title_en": "NSFOCUS Receives Frost & Sullivan’s 2026 Technology Innovation Leadership Recognition in the Chinese AI Security Industry",
     "hashtags": [
-      "#AIcosts",
-      "#ModelAPI",
-      "#LLMoptimization",
+      "#AISecurity",
+      "#InnovationAward",
+      "#NSFOCUS",
+      "#TechLeadership"
+    ],
+    "source_name": "The Manila Times",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Award announcement lacks concrete security details or actionable guidance for Hong Kong users, offering limited practical utility."
+  },
+  {
+    "i": 20,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "TotalEnergies and Mistral Launch Three-Year AI Programme for Oil and Gas Exploration - CXO Digitalpulse",
+    "title_en": "TotalEnergies and Mistral Launch Three‑Year AI Programme for Oil and Gas Exploration",
+    "hashtags": [
+      "#AIInEnergy",
+      "#OilAndGas",
+      "#ExplorationTech",
+      "#TotalEnergies",
+      "#MistralAI"
+    ],
+    "source_name": "CXO Digitalpulse",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "The TotalEnergies‑Mistral AI programme demonstrates successful drilling‑site data analysis, showing Hong Kong energy SMEs how AI can cut exploration costs and accelerate decision‑making.",
+    "micro_personas": [
+      "Energy analyst integrating AI for reservoir modeling",
+      "SME oil firm manager seeking cost‑effective exploration tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "TotalEnergies + Deploy AI for exploration",
+      "Mistral AI + Partner on energy project"
+    ]
+  },
+  {
+    "i": 21,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "AI Chip Darling Biren Said to Mull $1 Billion Share Sale - Bloomberg.com",
+    "title_en": "AI Chip Darling Biren Said to Mull $1 Billion Share Sale",
+    "hashtags": [
+      "#AIChip",
+      "#Biren",
+      "#FundingRound",
+      "#Semiconductor",
+      "#TechInvestment"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Biren’s potential $1 B share sale signals increased funding for AI chip production, likely expanding affordable high‑performance hardware options for Hong Kong developers and hardware startups.",
+    "micro_personas": [
+      "Hardware startup CTO sourcing AI accelerators",
+      "Cloud provider engineer evaluating on‑premise AI compute"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Biren + Consider share sale",
+      "AI chip market + Secure funding"
+    ]
+  },
+  {
+    "i": 24,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "LEAP 2026 was about more than AI. Here’s what unfolded - Fast Company Middle East",
+    "title_en": "LEAP 2026 Covered More Than AI: Key Highlights",
+    "hashtags": [
+      "#LEAP2026",
+      "#TechTrends",
+      "#Innovation",
+      "#MiddleEast"
+    ],
+    "source_name": "Fast Company Middle East",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Article provides broad tech trends without concrete AI tools or implementation details, offering limited actionable value for Hong Kong developers."
+  },
+  {
+    "i": 25,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "Multimodal ChatGPT 7 Rumors: Target Google Gemini Omni 1.1 Flash and Claude Opus 5 - Geeky Gadgets",
+    "title_en": "Multimodal ChatGPT 7 Rumors: Targeting Google Gemini Omni 1.1 Flash and Claude Opus 5",
+    "hashtags": [
+      "#ChatGPT",
+      "#MultimodalAI",
+      "#GoogleGemini",
+      "#Claude",
+      "#AIrumors"
+    ],
+    "source_name": "Geeky Gadgets",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Rumored multimodal models lack confirmed release or access information, so they cannot presently benefit Hong Kong users or developers."
+  },
+  {
+    "i": 28,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Trump Skewers AI Leaders’ Calls for Slowdown - The Information",
+    "title_en": "Trump Criticizes AI Leaders' Calls for a Slowdown",
+    "hashtags": [
+      "#AIRegulation",
+      "#Trump",
+      "#PolicyDebate",
+      "#TechGovernance"
+    ],
+    "source_name": "The Information",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "US political commentary on AI slowdown does not directly affect Hong Kong regulatory environment or provide actionable guidance for local businesses."
+  },
+  {
+    "i": 29,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "Brillio Joins Salesforces Forward Deployed Engineering Partner Network - thewire.in",
+    "title_en": "Brillio Joins Salesforce's Forward Deployed Engineering Partner Network",
+    "hashtags": [
+      "#Salesforce",
+      "#PartnerNetwork",
+      "#EnterpriseAI",
+      "#SMEgrowth"
+    ],
+    "source_name": "thewire.in",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Brillio’s partnership with Salesforce enables Hong Kong SMEs and office teams to adopt pre‑built AI solutions for sales automation, customer insights, and workflow optimization, accelerating digital transformation.",
+    "micro_personas": [
+      "SME IT manager deploying Salesforce AI sales automation",
+      "Office worker using AI‑enhanced CRM dashboards for client outreach"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Brillio + PartnerNetwork",
+      "Salesforce + AIAutomation"
+    ]
+  },
+  {
+    "i": 30,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "Musk admits Grok 4.7 has not surpassed rivals, teases AGI with Grok 5 - 디지털투데이",
+    "title_en": "Musk Says Grok 4.7 Falls Short of Rivals, Hints at AGI with Grok 5",
+    "hashtags": [
+      "#Musk",
+      "#GrokAI",
+      "#AGI",
+      "#AIPerformance"
+    ],
+    "source_name": "디지털투데이",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Statement about Grok model performance is speculative and lacks evidence of real-world deployment, offering little practical insight for Hong Kong enterprises."
+  },
+  {
+    "i": 31,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "COMMENTARY: AI is too big to slow in a geopolitical race - Reuters",
+    "title_en": "AI Is Too Big to Slow Down in a Geopolitical Race",
+    "hashtags": [
+      "#AI",
+      "#Geopolitics",
+      "#Regulation",
+      "#GlobalCompetition"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Highlights emerging global AI regulations, helping HK compliance officers and SME legal teams anticipate policy shifts and adjust data practices accordingly.",
+    "micro_personas": [
+      "Compliance Officer at a multinational corporation",
+      "Legal Advisor for local SMEs"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Regulation + Impact",
+      "Policy + Compliance"
+    ]
+  },
+  {
+    "i": 32,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "Musk Reveals Grok 4.8’s Pre-Training Stack is Written in C++ by ‘Humans’, Not AI - analyticsindiamag.com",
+    "title_en": "Musk Reveals Grok 4.8’s Pre‑Training Stack Is Written in C++ by Humans, Not AI",
+    "hashtags": [
+      "#AI",
+      "#Grok",
+      "#CPlusPlus",
+      "#TechStack",
+      "#DeveloperInsights"
+    ],
+    "source_name": "analyticsindiamag.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Reveals that Grok 4.8’s training stack uses C++, offering HK developers concrete insights for building high‑performance AI pipelines and optimizing resource usage.",
+    "micro_personas": [
+      "AI Engineer designing custom models",
+      "Software Architect evaluating training infrastructure"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "ModelTraining + Stack",
+      "DeveloperTools + Optimization"
+    ]
+  },
+  {
+    "i": 33,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "Ex-Google DeepMind researcher adds to warnings that AI could 'kill all humans' - Reuters",
+    "title_en": "Ex‑Google DeepMind Researcher Warns AI Could ‘Kill All Humans’",
+    "hashtags": [
+      "#AI",
+      "#ExistentialRisk",
+      "#Safety",
+      "#Ethics",
+      "#DeepMind"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Warns of extreme AI safety risks, prompting HK elderly users and professional security teams to review safeguards and adopt stricter monitoring of AI systems.",
+    "micro_personas": [
+      "Elderly user of smart home assistants",
+      "IT Security Manager overseeing AI deployments"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "Safety + Risk",
+      "Trust + Monitoring"
+    ]
+  },
+  {
+    "i": 34,
+    "category": "real_use",
+    "ai1_suggestion": "investment_sentiment",
+    "title": "Investors nervous about AI spending slowdown after industry warnings - Reuters",
+    "title_en": "Investors Nervous About AI Spending Slowdown After Industry Warnings",
+    "hashtags": [
+      "#AI",
+      "#Investment",
+      "#Spending",
+      "#MarketSentiment",
+      "#Risk"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focuses on investor sentiment without concrete AI deployment or cost impact for Hong Kong businesses, offering limited practical utility."
+  },
+  {
+    "i": 35,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "Cyber attacks? Bioterrorism? To ‘Pace the Frontier’ of AI effectively, we must improve our anticipatory thinking - downtoearth.org.in",
+    "title_en": "Cyber Attacks? Bioterrorism? To ‘Pace the Frontier’ of AI Effectively, We Must Improve Our Anticipatory Thinking",
+    "hashtags": [
+      "#AI",
+      "#Security",
+      "#AnticipatoryThinking",
+      "#FutureRisks",
+      "#Policy"
+    ],
+    "source_name": "downtoearth.org.in",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Emphasizes anticipatory security thinking for AI, guiding HK professionals and elderly caregivers to adopt proactive risk assessments and policy planning.",
+    "micro_personas": [
+      "Professional risk analyst in a fintech firm",
+      "Elderly caregiver using AI health monitoring devices"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Security + Anticipation",
+      "Policy + FutureRisks"
+    ]
+  },
+  {
+    "i": 36,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "AI Is Transforming Business. Now It’s Transforming the MBA Classroom - Bloomberg.com",
+    "title_en": "AI Is Transforming Business. Now It’s Transforming the MBA Classroom",
+    "hashtags": [
+      "#AIinEducation",
+      "#MBA",
+      "#BusinessTransformation",
+      "#FutureSkills"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "AI-powered teaching assistants and analytics can help Hong Kong MBA students and faculty personalize learning, improve case study analysis, and develop future‑skill competencies, enhancing classroom efficiency.",
+    "micro_personas": [
+      "MBA Student preparing case analyses",
+      "Business School Professor designing interactive modules"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "MBA Program + Adopt AI tools",
+      "Business School + Integrate AI analytics"
+    ]
+  },
+  {
+    "i": 37,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "Beyond AI pilots: The enterprise AI journey is entering a new phase in banking - FinTech Futures",
+    "title_en": "Beyond AI Pilots: The Enterprise AI Journey Is Entering a New Phase in Banking",
+    "hashtags": [
+      "#EnterpriseAI",
+      "#BankingInnovation",
+      "#AIAdoption",
+      "#DigitalTransformation"
+    ],
+    "source_name": "FinTech Futures",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "New AI deployment models in banking can be replicated by Hong Kong financial institutions, enabling office workers and professionals to automate compliance checks and improve customer insights, reducing operational costs.",
+    "micro_personas": [
+      "Bank Compliance Officer automating report generation",
+      "Retail Banker using AI chat assistants"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Bank + Deploy AI",
+      "Compliance Department + Automate reporting"
+    ]
+  },
+  {
+    "i": 38,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "China Responds to Calls by AI Leaders to Slow Technology Development - Tempo.co English",
+    "title_en": "China Responds to Calls by AI Leaders to Slow Technology Development",
+    "hashtags": [
+      "#AIRegulation",
+      "#ChinaTechPolicy",
+      "#ResponsibleAI",
+      "#TechGovernance"
+    ],
+    "source_name": "Tempo.co English",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "China's slowdown policy signals tighter AI governance, prompting Hong Kong enterprises and developers to anticipate stricter compliance, adjust data handling, and plan cross‑border AI collaborations accordingly.",
+    "micro_personas": [
+      "HK Tech Startup planning China market entry",
+      "Legal Counsel reviewing AI compliance"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "AI Company + Adjust roadmap",
+      "Legal Team + Review regulations"
+    ]
+  },
+  {
+    "i": 39,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "South Korea to develop new security guidelines for autonomous AI agents - Reuters",
+    "title_en": "South Korea to Develop New Security Guidelines for Autonomous AI Agents",
+    "hashtags": [
+      "#AISafety",
+      "#SecurityGuidelines",
+      "#AutonomousAgents",
+      "#SouthKoreaTech"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "South Korea's security guidelines for autonomous AI agents provide a benchmark for Hong Kong regulators and enterprises to strengthen AI safety protocols, protecting professionals and elderly users from malicious agents.",
+    "micro_personas": [
+      "HK Financial Institution security officer",
+      "Elderly user support manager implementing safe AI tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Agent + Secure deployment",
+      "Regulator + Draft guidelines"
+    ]
+  },
+  {
+    "i": 40,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "AI-Driven Asset Rally Prone to Correction, ECB’s Vujcic Warns - Bloomberg.com",
+    "title_en": "AI-Driven Asset Rally Prone to Correction, ECB’s Vujcic Warns",
+    "hashtags": [
+      "#AIFinance",
+      "#AssetRally",
+      "#MarketCorrection",
+      "#ECB"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "ECB's warning on AI‑driven market rallies alerts Hong Kong investors, retirees, and financial professionals to potential volatility, encouraging risk‑adjusted strategies and AI‑risk monitoring tools.",
+    "micro_personas": [
+      "Retiree managing portfolio",
+      "Investment Analyst using AI market signals"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Asset Management + Monitor AI signals",
+      "Investor + Adjust portfolio"
+    ]
+  },
+  {
+    "i": 41,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Elon Musk Asks for Apple's App Store Lawsuit to Be Stopped - VOI.id",
+    "title_en": "Elon Musk Requests Halting of Apple's App Store Lawsuit",
+    "hashtags": [
+      "#Apple",
+      "#AppStore",
+      "#Antitrust",
+      "#LegalBattle",
+      "#TechRegulation"
+    ],
+    "source_name": "VOI.id",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Highlights potential changes to App Store regulations that could affect Hong Kong iOS app developers and SMEs, enabling them to prepare compliance strategies and mitigate marketplace risks.",
+    "micro_personas": [
+      "Hong Kong iOS app developer",
+      "Hong Kong SME product manager"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Apple + Lawsuit",
+      "App Store + Regulation"
+    ]
+  },
+  {
+    "i": 42,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Governments worldwide are way behind on AI, says Bill Gates - Reuters",
+    "title_en": "Bill Gates Says Governments Worldwide Lag Behind on AI",
+    "hashtags": [
+      "#AI",
+      "#Policy",
+      "#Government",
+      "#BillGates",
+      "#TechStrategy"
+    ],
+    "source_name": "Reuters",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Bill Gates’ warning underscores global policy gaps in AI, prompting Hong Kong government advisors and corporate compliance officers to accelerate local AI governance frameworks and safeguard competitive positioning.",
+    "micro_personas": [
+      "Hong Kong government policy analyst",
+      "Hong Kong corporate compliance officer"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Governments + AI lag",
+      "Bill Gates + Policy warning"
+    ]
+  },
+  {
+    "i": 43,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "Gates Foundation praises UAE's AI approach and agricultural tech ambition - thenationalnews.com",
+    "title_en": "Gates Foundation Commends UAE's AI Strategy and Agricultural Technology Ambitions",
+    "hashtags": [
+      "#UAE",
+      "#AI",
+      "#Agritech",
+      "#GatesFoundation",
+      "#Innovation"
+    ],
+    "source_name": "thenationalnews.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "UAE’s AI‑driven agritech success offers a concrete model for Hong Kong farmers and agritech startups to adopt predictive analytics, boosting yields and resource efficiency.",
+    "micro_personas": [
+      "Hong Kong agritech startup founder",
+      "Hong Kong agricultural extension officer"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "UAE + AI agritech",
+      "Gates Foundation + Innovation"
+    ]
+  },
+  {
+    "i": 44,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "ChatGPT Work and Codex - OpenAI Help Center",
+    "title_en": "ChatGPT for Work and Codex – OpenAI Help Center",
+    "hashtags": [
+      "#ChatGPT",
+      "#Codex",
+      "#Productivity",
+      "#AItools",
+      "#OpenAI"
+    ],
+    "source_name": "OpenAI Help Center",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "OpenAI’s ChatGPT for Work guide provides Hong Kong office staff and developers with ready‑to‑use prompts and integration steps, accelerating daily productivity and code automation.",
+    "micro_personas": [
+      "Hong Kong office worker using AI for email drafting",
+      "Hong Kong software developer leveraging Codex"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "ChatGPT + Work integration",
+      "Codex + Developer tools"
+    ]
+  },
+  {
+    "i": 45,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "OpenAI Delays IPO, Revealing SoftBank’s $20 Billion Funding Gap - KuCoin",
+    "title_en": "OpenAI Delays IPO, Exposes SoftBank’s $20 Billion Funding Gap",
+    "hashtags": [
+      "#OpenAI",
+      "#IPO",
+      "#Funding",
+      "#SoftBank",
+      "#TechFinance"
+    ],
+    "source_name": "KuCoin",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "OpenAI’s delayed IPO and SoftBank funding shortfall signal market volatility, informing Hong Kong venture capitalists and fintech entrepreneurs about investment risk and potential shifts in AI funding landscapes.",
+    "micro_personas": [
+      "Hong Kong venture capital analyst",
+      "Hong Kong fintech entrepreneur"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "OpenAI + IPO delay",
+      "SoftBank + Funding gap"
+    ]
+  },
+  {
+    "i": 46,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "The Road Ahead: How Creators Are Combining OpenAI's GPT-6 Astra with Tripo AI for 3D Generation - PR Newswire",
+    "title_en": "The Road Ahead: How Creators Are Combining OpenAI's GPT-6 Astra with Tripo AI for 3D Generation",
+    "hashtags": [
+      "#AIcreativity",
+      "#3Dgeneration",
+      "#GPT6",
+      "#OpenAI",
+      "#TripoAI"
+    ],
+    "source_name": "PR Newswire",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Entrepreneurs and developers in Hong Kong can use GPT‑6 Astra with Tripo AI to instantly generate 3D assets for product prototypes, marketing visuals, and student design projects, cutting production time and cost.",
+    "micro_personas": [
+      "Startup founder creating product prototype",
+      "Freelance 3D designer producing client visuals"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "OpenAI + Release GPT-6 Astra",
+      "Tripo AI + Integrate 3D generation",
+      "HK startups + Adopt AI 3D tools"
+    ]
+  },
+  {
+    "i": 48,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "TSMC's 2nm and 3nm Capacity Expansion Gains Momentum; Monthly Output Projected to Rise Up to 22% by Mid-2027 - finance.biggo.com",
+    "title_en": "TSMC's 2nm and 3nm Capacity Expansion Gains Momentum; Monthly Output Projected to Rise Up to 22% by Mid-2027",
+    "hashtags": [
+      "#Semiconductor",
+      "#TSMC",
+      "#2nm",
+      "#3nm",
+      "#TechInfrastructure"
+    ],
+    "source_name": "finance.biggo.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focuses on semiconductor fab capacity expansion without direct AI tool impact for Hong Kong developers or businesses, offering limited immediate utility."
+  },
+  {
+    "i": 49,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "Apple’s Siri AI Gambit, Moneyview Trims IPO Size & More - inc42.com",
+    "title_en": "Apple’s Siri AI Gambit, Moneyview Trims IPO Size & More",
+    "hashtags": [
+      "#AppleAI",
+      "#Siri",
+      "#FinTech",
+      "#IPO",
+      "#AIstrategy"
+    ],
+    "source_name": "inc42.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Apple’s Siri AI upgrades give Hong Kong office workers, elderly users and professionals hands‑free scheduling, translation and information retrieval, enhancing productivity and accessibility in daily tasks.",
+    "micro_personas": [
+      "Elderly user managing medication reminders via Siri",
+      "Office professional automating meeting scheduling with voice commands"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Apple + Launch Siri AI enhancements",
+      "HK users + Adopt voice assistants",
+      "Productivity tools + Integrate Siri"
+    ]
+  },
+  {
+    "i": 50,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "Who decides what counts as dangerous AI? Safety or Big Tech control over user data - Firstpost",
+    "title_en": "Who decides what counts as dangerous AI? Safety or Big Tech control over user data",
+    "hashtags": [
+      "#AIsafety",
+      "#DataGovernance",
+      "#BigTech",
+      "#RiskManagement",
+      "#AIethics"
+    ],
+    "source_name": "Firstpost",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "The debate on defining dangerous AI alerts Hong Kong retirees and professionals to potential privacy and misuse risks, prompting them to scrutinize AI services and adopt safer practices.",
+    "micro_personas": [
+      "Retiree using AI chatbots for companionship",
+      "Data analyst evaluating AI vendor security"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "AI ethics groups + Discuss dangerous AI",
+      "Hong Kong regulators + Review AI safety standards",
+      "Public + Raise AI risk awareness"
+    ]
+  },
+  {
+    "i": 51,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+    "title_en": "Jensen Huang took a call from Trump, and showed off something else, too",
+    "hashtags": [
+      "#Nvidia",
+      "#JensenHuang",
+      "#TechPolicy",
+      "#USPolitics",
+      "#AIleadership"
+    ],
+    "source_name": "AI News & Artificial Intelligence | TechCrunch",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Jensen Huang’s US policy discussion signals possible regulatory shifts that Hong Kong SMEs and compliance officers must monitor to ensure AI deployments meet emerging international standards.",
+    "micro_personas": [
+      "SME compliance officer tracking AI regulation changes",
+      "Consultant advising clients on cross‑border AI policy compliance"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Nvidia + Engage with US policymakers",
+      "Global AI regulation + Impact Hong Kong businesses",
+      "Compliance teams + Update AI guidelines"
+    ]
+  },
+  {
+    "i": 52,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "OpenAI Acquires AI Camera Startup Glass Imaging in $300 Million Deal - finance.biggo.com",
+    "title_en": "OpenAI Acquires AI Camera Startup Glass Imaging in $300 Million Deal",
+    "hashtags": [
+      "#AI",
+      "#Acquisition",
+      "#CameraTech",
+      "#OpenAI"
+    ],
+    "source_name": "finance.biggo.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Office workers and SMEs can soon access OpenAI‑integrated AI camera tools for automated image capture and editing, streamlining visual content creation and reducing outsourcing costs in Hong Kong.",
+    "micro_personas": [
+      "Office worker creating visual reports",
+      "SME marketing manager producing product photos"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "OpenAI + Acquire",
+      "Glass Imaging + Integrate"
+    ]
+  },
+  {
+    "i": 53,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "Kernel fusion: AI Inference Definition - InferenceX",
+    "title_en": "Kernel Fusion: Defining AI Inference",
+    "hashtags": [
+      "#AIInference",
+      "#KernelFusion",
+      "#TechDeepDive",
+      "#MachineLearning"
+    ],
+    "source_name": "InferenceX",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Developers in Hong Kong can adopt kernel‑fusion techniques to accelerate AI inference, lowering latency and compute expenses for edge and cloud deployments, enhancing product performance locally.",
+    "micro_personas": [
+      "AI developer optimizing inference pipelines",
+      "Edge computing engineer deploying models on devices"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Kernel Fusion + Define",
+      "AI Inference + Optimize"
+    ]
+  },
+  {
+    "i": 54,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Obama Calls For AI Safety Measures, Rebuking Trump Approach - Bloomberg.com",
+    "title_en": "Obama Calls for AI Safety Measures, Rebuking Trump Approach",
+    "hashtags": [
+      "#AIRegulation",
+      "#Safety",
+      "#Policy",
+      "#Obama"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The statement is a US political commentary without direct regulatory impact on Hong Kong, offering no actionable guidance for local businesses or policy makers."
+  },
+  {
+    "i": 55,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "CometAPI Adds OpenAI’s GPT-6 Astra API to Its Multi-Model Developer Platform - StreetInsider",
+    "title_en": "CometAPI Adds OpenAI’s GPT-6 Astra API to Its Multi-Model Developer Platform",
+    "hashtags": [
+      "#GPT6",
+      "#DeveloperTools",
+      "#API",
+      "#MultiModel"
+    ],
+    "source_name": "StreetInsider",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "CometAPI’s GPT‑6 Astra addition gives Hong Kong developers and startups immediate multi‑model access, enabling cost‑effective advanced language applications and rapid prototyping for local market solutions.",
+    "micro_personas": [
+      "Startup founder building AI chatbot",
+      "Freelance developer integrating language model"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "CometAPI + Add GPT-6",
+      "Developers + Use Multi-Model Platform"
+    ]
+  },
+  {
+    "i": 56,
+    "category": "safety_trust",
+    "ai1_suggestion": "industry_selfregulation",
+    "title": "Pondero Brief: Anthropic, OpenAI, and Google built a safety-standards body in secret - Buttondown",
+    "title_en": "Pondero Brief: Anthropic, OpenAI, and Google Built a Safety-Standards Body in Secret",
+    "hashtags": [
+      "#AISafety",
+      "#IndustryStandards",
+      "#SecretCommittee",
+      "#Trust"
+    ],
+    "source_name": "Buttondown",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Revealed secret safety‑standards body raises trust concerns; Hong Kong professionals and elderly users should demand transparent AI safeguards to mitigate deepfake and privacy risks in everyday applications.",
+    "micro_personas": [
+      "Elderly user of AI voice assistants",
+      "Professional IT security officer"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Anthropic + Join Safety Body",
+      "Google + Secret Committee"
+    ]
+  },
+  {
+    "i": 57,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "Liner launches 'Model API' AI orchestration, cuts LLM costs by 50 percent - 디지털투데이",
+    "title_en": "Liner Launches 'Model API' AI Orchestration, Cutting LLM Costs by 50 Percent",
+    "hashtags": [
+      "#AIOrchestration",
+      "#CostReduction",
+      "#LLM",
+      "#APILaunch",
       "#TechInnovation"
     ],
     "source_name": "디지털투데이",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Provides 50% lower LLM costs via Model API, enabling Hong Kong SMEs and developers to integrate AI affordably, expanding prototypes and reducing operational expenses.",
+    "reason": "HK SMEs and local developers can halve LLM API expenses, enabling rapid prototyping of AI services such as customer‑support chatbots and internal data analysis, boosting productivity for office workers.",
     "micro_personas": [
-      "SME CTO evaluating AI integration",
-      "Freelance developer building chatbot services"
+      "SME owner automating customer support",
+      "Developer building internal analytics tool"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "Liner + LaunchModelAPI",
-      "LLM + CostReduction"
+      "Liner + Model API Launch",
+      "LLM + Cost Reduction"
     ]
   },
   {
-    "i": 8,
-    "category": "real_use",
-    "title": "Wall Street Delivers Verdict on AI Slowdown’s Winners and Losers - The Information",
-    "title_en": "Wall Street Issues Verdict on Winners and Losers of the AI Slowdown",
+    "i": 58,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Trump’s AI Defense Defies Voter Unease Heading Into Midterms - Bloomberg.com",
+    "title_en": "Trump’s AI Defense Defies Voter Unease Heading Into Midterms",
     "hashtags": [
-      "#AImarket",
-      "#InvestmentTrends",
-      "#TechEconomy"
+      "#AIRegulation",
+      "#PoliticalAI",
+      "#Election2024",
+      "#PublicTrust",
+      "#PolicyDebate"
+    ],
+    "source_name": "Bloomberg.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Focuses on US political AI regulation, offering no direct compliance or operational impact for Hong Kong businesses or target groups."
+  },
+  {
+    "i": 59,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "Ads in ChatGPT: The Basics - OpenAI Help Center",
+    "title_en": "Ads in ChatGPT: The Basics",
+    "hashtags": [
+      "#ChatGPTAds",
+      "#Monetization",
+      "#AIUsage",
+      "#UserExperience",
+      "#OpenAI"
+    ],
+    "source_name": "OpenAI Help Center",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Describes ad placement in ChatGPT, which does not provide actionable AI functionality or cost benefit for Hong Kong office workers, SMEs, or developers."
+  },
+  {
+    "i": 60,
+    "category": "real_use",
+    "ai1_suggestion": "Consider work_sme angle for SME impact analysis",
+    "title": "Wall Street Delivers Verdict on AI Slowdown’s Winners and Losers - The Information",
+    "title_en": "Wall Street Delivers Verdict on AI Slowdown’s Winners and Losers",
+    "hashtags": [
+      "#AIInvestment",
+      "#MarketImpact",
+      "#TechStocks",
+      "#EconomicTrends",
+      "#AI slowdown"
     ],
     "source_name": "The Information",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Provides only macro market commentary without specific AI tool or deployment details, offering no actionable operational benefit for Hong Kong target groups."
+    "reject_reason": "Provides macro market commentary without concrete AI tool or deployment detail, limiting practical relevance for Hong Kong SMEs or workflow automation needs."
   }
 ]
