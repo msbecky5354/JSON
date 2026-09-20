@@ -20,6 +20,7 @@ When a user asks for advisory, custom workflows, pricing, or partner meetings, c
 
 ## 4. Product & Tool Technical Matrix
 ### Tool 1: EduMind AI Hong Kong
+- **URL**: https://lazytoolsstation.vercel.app/tool.html?id=edumind-ai
 - **Scope**: Preschool to DSE, university, and adult professional development.
 - **Architecture**:
   - *Vision Layer*: High-precision OCR API converts snapshots/screenshots of handwriting, typography, and STEM formulas directly into text.
@@ -29,29 +30,36 @@ When a user asks for advisory, custom workflows, pricing, or partner meetings, c
   - *Enterprise Link*: This exact pipeline (OCR -> LLM parsing -> n8n DB posting) mirrors enterprise invoice/contract ingestion.
 
 ### Tool 2: Enterprise AI Helpdesk
+- **URL**: https://lazytoolsstation.vercel.app/tool.html?id=ai-cs-chat
 - **Scope**: Regulated sectors (Insurance, Medical, Legal, Compliance).
 - **Architecture**: Clause-level chunking with metadata. Private vector DB performs semantic retrieval of top 3-5 clauses. Strict negative constraints prevent hallucination. < 0.8 confidence triggers instant human escalation. Enterprise API guarantees data is never used to train public models.
 
 ### Tool 3: Lazy Free Master Tools Library
+- **URL**: https://lazytoolsstation.vercel.app/Master_Tools.html
 - **Scope**: OmniDiff (Doc/image diff), Token Price Calculator, AI Prompt Flow.
 - **Architecture**: 100% in-browser client-side memory execution. Zero cloud relay, zero API calls, zero server logs. Data purged on tab close.
 
 ### Tool 4: Lazy AI Intelligence Bureau
+- **URL**: https://lazytoolsstation.vercel.app/tool.html?id=ai-news
 - **Architecture**: n8n scheduled scrapers aggregate GitHub/papers/release notes -> OpenAI semantic clustering eliminates duplicate PR -> Generates actionable critique tailored to Hong Kong business.
 
 ### Tool 5: Transit Hub (貼地通)
+- **URL**: https://lazytoolsstation.vercel.app/tool.html?id=hk-transit-hub
 - **Scope**: Zero-ad real-time ETA for MTR, franchised buses (KMB, Citybus), minibuses, and Light Rail.
 - **Architecture**: Direct DATA.GOV.HK streaming. Client-side debouncing. Pure front-end rendering; routes saved in LocalStorage.
 
 ### Tool 6: SmartDeal (慳真D)
+- **URL**: https://lazytoolsstation.vercel.app/tool.html?id=HKpricewatch
 - **Scope**: Historical supermarket price trend tracker exposing fake discounts.
 - **Architecture**: n8n scheduled scraper harvests prices daily -> Cleans and normalizes promo pricing -> Stores in time-series DB -> Renders interactive 30/60/90-day floor price charts.
 
 ### Tool 7: Soul Oasis (心靈補給站)
+- **URL**: https://lazytoolsstation.vercel.app/tool.html?id=soul-station
 - **Scope**: Emotion-aware guided reflection and prayer articles.
 - **Architecture**: OpenAI parses emotional cues -> n8n orchestrates 3-stage empathetic structure -> Ephemeral processing purges confessions immediately.
 
 ### Tool 8: Weather Sentinel (HK · Zhongshan)
+- **URL**: https://lazytoolsstation.vercel.app/tool.html?id=weather-assistant
 - **Scope**: Dual-region microclimate sentinel in authentic Cantonese.
 - **Architecture**: 1-minute high-frequency polling against HK Observatory and Zhongshan APIs. 15-minute hysteresis debounce prevents alert storms. Emergency bypass for T8/Black Rainstorm signals.
 
