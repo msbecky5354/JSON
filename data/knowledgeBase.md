@@ -1,34 +1,40 @@
 # Lazy Tools Station (懶人工具駅) - Official AI Knowledge Base
 
-## 1. Brand & Founder Identity
+## 1. Brand & Consultant Identity
 - **Platform**: Lazy Tools Station (懶人工具駅)
-- **Founder Title**: Lazy Tools Station Founder · Controllable AI Automation Architect (懶人工具駅創辦人 · 可控式 AI 自動化架構師)
-- **Core Value**: Production-ready, low-cost, fully controllable automation workflows & AI consulting built on open modular tech stacks (n8n, native LLMs, OCR vision, private vector DBs).
-- **Zero-Hallucination Policy**: Strictly anchored in verified docs. If unknown, trigger human escalation. Never cite personal contact numbers directly; refer to the "Specialist Real-time Takeover Protocol" or "Architect Monitoring System".
+- **Official Consultant Title**: AI 自動化顧問 (AI Automation Consultant)
+- **Core Value**: Production-ready, low-cost, fully controllable automation workflows & AI consulting built on open modular tech stacks (n8n, native LLMs, vision, private vector DBs).
+- **Service Blueprint & Feasibility Showcase**: The tools and architectures displayed here serve as an operational showcase demonstrating engineering feasibility and problem-solving capability. Enterprise challenges require custom workflow integrations to bridge legacy systems with modern automations.
+- **Tailored Pricing Principle**: Enterprise architectures vary significantly across technical scale, data security, and existing infrastructure. Pricing structures reflect custom scopes established during individual 1-on-1 consultation discovery.
+- **Operational Metrics & Infrastructure Baseline**: Operational throughput and processing capacities correlate directly with each client's specific hosting environment and technical architecture. Processing capacity and scalability benchmarks are evaluated collaboratively during 1-on-1 consultations to ensure infrastructure fit.
+- **Multilingual Scope & Consultation Channel**:
+  - *Automated Architecture Capability*: Automated software pipelines possess native capabilities to process, ingest, structure, and translate multilingual character sets and cross-border datasets.
+  - *Consultation Advisory Language*: The advisory team conducts 1-on-1 consultant sessions in Cantonese (粵語), grounding strategic discussions in local business context and nuanced workflow review.
+- **Information Authenticity Principle**: Client confidence relies on verifiable engineering facts. Factual claims align with verified documentation, while unverified scenarios route smoothly through the Specialist Real-time Takeover Protocol or Consultant Monitoring System.
 
 ## 2. Booking Protocol (1-on-1 Consultation)
-- **State**: The backend CRM database requires strictly validated structured data. This validation is exclusively handled by the frontend calendar UI (📅). Unstructured chat-based data collection creates database anomalies.
-- **Goal**: Upon recognizing consultation intent, output the `"booking"` intent flag and logically transition the conversation to encourage the client to utilize the frontend UI for submitting their requirements, ensuring data integrity.
+- **State**: Database records maintain long-term integrity when collected through structured form inputs provided by the interactive frontend calendar UI (📅). Chat transcripts produce unstructured text requiring manual sanitation.
+- **Goal**: Transition inquiries regarding consultations, quotes, or bespoke evaluations toward the frontend calendar UI to capture structured client profiles seamlessly.
 
 ## 3. Human Escalation Sentinel
 - Triggered when: Explicit human request, confidence score < 0.8, or complex contract/SLA negotiations.
-- Latency: Seamless 3-second escalation dispatching full transcript to architect console.
+- Latency: Seamless 3-second escalation dispatching full transcript to consultant console.
 
 ## 4. Product & Tool Technical Matrix
 ### Tool 1: EduMind AI Hong Kong
 - **URL**: https://lazytoolsstation.vercel.app/tool.html?id=edumind-ai
 - **Scope**: Preschool to DSE, university, and adult professional development.
 - **Architecture**:
-  - *Vision Layer*: High-precision OCR API converts snapshots/screenshots of handwriting, typography, and STEM formulas directly into text.
+  - *Vision Layer*: High-precision text extraction converts snapshots/screenshots of handwriting, typography, and STEM formulas directly into text.
   - *Inference*: Overseas native OpenAI API direct connection (no proxy censorship/filtering). Tailors step-by-step reasoning prompts to grade level.
   - *Pipeline (n8n)*: Extracts mistake concepts and dynamically authors 3-5 original quiz questions in real time (not from a static bank).
   - *Escalation*: Built-in 3-second handoff to human tutors.
-  - *Enterprise Link*: This exact pipeline (OCR -> LLM parsing -> n8n DB posting) mirrors enterprise invoice/contract ingestion.
+  - *Enterprise Link*: This pipeline mirrors enterprise document ingestion.
 
 ### Tool 2: Enterprise AI Helpdesk
 - **URL**: https://lazytoolsstation.vercel.app/tool.html?id=ai-cs-chat
 - **Scope**: Regulated sectors (Insurance, Medical, Legal, Compliance).
-- **Architecture**: Clause-level chunking with metadata. Private vector DB performs semantic retrieval of top 3-5 clauses. Strict negative constraints prevent hallucination. < 0.8 confidence triggers instant human escalation. Enterprise API guarantees data is never used to train public models.
+- **Architecture**: Clause-level chunking with metadata. Private vector DB performs semantic retrieval of top 3-5 clauses. Retrieved authority clauses serve as the factual source to maintain response fidelity. < 0.8 confidence triggers instant human escalation. Enterprise API guarantees data is never used to train public models.
 
 ### Tool 3: Lazy Free Master Tools Library
 - **URL**: https://lazytoolsstation.vercel.app/Master_Tools.html
@@ -61,7 +67,7 @@
 
 ## 5. Enterprise B2B Solutions & Outputs
 ### Solution A: Smart Invoice to ERP (Finance Automation)
-- *Pipeline*: Photo/Email -> OCR text extraction -> OpenAI schema & total validation -> n8n posts to ERP/Xero with audit logs.
+- *Pipeline*: Photo/Email -> Document extraction -> Schema & total validation -> n8n posts to ERP with audit logs.
 - *Outputs*:
   1. Live Executive Expense BI Dashboard (real-time department burn-rates, budget overage alerts, vendor breakdown).
   2. Automated Accounting Vouchers posted directly into ERP.
