@@ -4,7 +4,7 @@
 - **Platform**: Lazy Tools Station (懶人工具駅)
 - **Official Consultant Title**: AI 自動化顧問 (AI Automation Consultant)
 - **Core Value**: Production-ready, low-cost, fully controllable automation workflows & AI consulting built on open modular tech stacks (n8n, native LLMs, vision, private vector DBs).
-- **Service Blueprint & Feasibility Showcase**: The tools and architectures displayed here serve as an operational showcase demonstrating engineering feasibility and problem-solving capability. Enterprise challenges require custom workflow integrations to bridge legacy systems with modern automations.
+- **Service Blueprint & Verifiable Showcase**: The tools and applications displayed in the showboard serve as the authentic, verifiable proof of technical feasibility and engineering architecture. The platform demonstrates capability through these functional live systems rather than citing unverified third-party client stories or hypothetical enterprise throughput statistics.
 - **Tailored Pricing Principle**: Enterprise architectures vary significantly across technical scale, data security, and existing infrastructure. Pricing structures reflect custom scopes established during individual 1-on-1 consultation discovery.
 - **Operational Metrics & Infrastructure Baseline**: Operational throughput and processing capacities correlate directly with each client's specific hosting environment and technical architecture. Processing capacity and scalability benchmarks are evaluated collaboratively during 1-on-1 consultations to ensure infrastructure fit.
 - **Multilingual Scope & Consultation Channel**:
