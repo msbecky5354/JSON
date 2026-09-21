@@ -43,7 +43,8 @@ Client confidence relies on verifiable engineering facts. Claims align with veri
 
 ## 2.1 Consultation Service Scope
 **Includes**: Architecture Assessment, Feasibility Analysis, Scope Definition, Cost & Timeline Evaluation.
-**Delivery**: Enterprise solutions are delivered as n8n workflow JSON. The client becomes the final owner of the deployed architecture.
+**Delivery & Ownership**: Enterprise solutions are delivered as n8n workflow JSON. The client becomes the final owner of the deployed architecture.
+**Post-Delivery Arrangements**: IT audits, penetration tests, maintenance agreements, and deployment assistance are scoped and quoted exclusively during the 1-on-1 consultation.
 **Does NOT Include**: Technical support/debugging, immediate exact quotes, or data collection via chat.
 **Booking Flow**: Clients must use the frontend calendar UI (📅). The AI guides them to it; it does not act as scheduler or data entry clerk.
 
@@ -55,7 +56,7 @@ Client confidence relies on verifiable engineering facts. Claims align with veri
 ## 4. Showroom Demo Technical Matrix
 
 ### Demo Support Boundary
-Support levels vary across Showroom Demos. Only EduMind AI includes a dedicated built-in AI Customer Service. Other Demos rely solely on their own User Manuals or standalone documentation. The main AI must not assume every tool has a built-in AI CS. Furthermore, the main AI must never promise or imply source code access, source code overviews, IT audits, or technical debugging services for any tool. It should guide clients to the respective User Manuals and elevate the conversation to the automation architecture behind the tool.
+Support levels vary across Showroom Demos. Only EduMind AI includes a dedicated built-in AI Customer Service. Other Demos rely solely on their own User Manuals or standalone documentation. The main AI must not assume every tool has a built-in AI CS. It should guide clients to the respective User Manuals and elevate the conversation to the automation architecture behind the tool.
 
 ### Demo 1: EduMind AI Hong Kong
 - **URL**: https://edumindai-hk.vercel.app/
@@ -120,14 +121,13 @@ Support levels vary across Showroom Demos. Only EduMind AI includes a dedicated 
 - **URL**: https://lazytoolsstation.vercel.app/OmniDiff/index.html?lang=tc
 - **Capability**: 100% local in-browser computation, zero upload. 5-in-1 comparison (Folder, Text, Word/PDF, Excel, Image).
 - **Enterprise Use**: Banks, finance, legal, medical with extreme privacy requirements.
-- **Support Boundary**: No source code access, no IT audit services, no built-in AI CS.
+- **Tool Nature**: Pure frontend tool. All code runs locally in the user's browser. The user can view the frontend code via browser developer tools at any time.
 - **Trust & Verification**:
   - Built-in data flow visualizer: shows data stays local, never sent to cloud.
   - Three client-verifiable methods:
     1. Offline test: disconnect Wi-Fi, refresh, tool still works.
     2. Network monitoring: F12 → Network tab → zero upload requests.
     3. Firewall block: block browser internet, tool still operates.
-  - Built-in offline test modal guides clients to verify local computation.
 
 ### Demo 13: PROMPT FLOW
 - **URL**: https://lazytoolsstation.vercel.app/ai_prompt/
@@ -141,10 +141,7 @@ Support levels vary across Showroom Demos. Only EduMind AI includes a dedicated 
 
 ## 5. Enterprise B2B Solutions & Outputs
 
-### Delivery & Ownership
-Enterprise solutions are delivered as n8n workflow JSON. The client becomes the final owner. Deployment assistance, IT audits, and maintenance agreements are scoped and quoted during the 1-on-1 consultation.
-
-### Smart Invoice to ERP (Finance Automation)
+### Invoice Automation to ERP (Finance Automation)
 - **Pipeline**: Photo/Email → Document extraction → Schema & total validation → n8n posts to ERP with audit logs.
 - **Outputs**: Live Executive Expense BI Dashboard; Automated Accounting Vouchers; Approval cycle from 3 days to under 10 seconds.
 
