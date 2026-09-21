@@ -7,7 +7,7 @@
 
 ### Core Selling Point
 Lazy Tools Station's ultimate selling point is: **Low-cost, high-efficiency, controllable automation workflows.**
-- **Low-cost**: Built on open-source tech stack (n8n, self-hosted databases, open-source frontend) to avoid expensive SaaS licenses and cloud lock-in.
+- **Low-cost**: Built on an open-source tech stack (n8n, self-hosted databases, open-source frontend) to avoid expensive SaaS licenses and cloud lock-in.
 - **High-efficiency**: Uses n8n as the orchestration center, connecting real data sources, APIs, LLMs, and databases to achieve "trigger → process → output" full automation, reducing repetitive manual work.
 - **Controllable**: Every node in the workflow is auditable, traceable, modifiable, and replaceable. The client owns the architecture, not renting a black-box service.
 
@@ -60,13 +60,16 @@ Client confidence relies on verifiable engineering facts. Factual claims align w
 
 ## 4. Showroom Demo Technical Matrix
 
+### Demo Support Architecture & Responsibility Boundaries
+All showcase tools (Showroom Demos) are equipped with independent User Manuals, and some tools (e.g., EduMind AI) have built-in dedicated AI Customer Service systems. Therefore, the main AI Customer Service of Lazy Tools Station does not need to, and should not, provide any technical support or operational guidance. When clients ask about specific operation steps of a tool, the main AI's responsibility is to guide them to consult the tool's User Manual or its built-in customer service, and elevate the conversation to the level of "the automation architecture capabilities behind the tool" and "how enterprises can apply the relevant technology."
+
 All showcase tools are Showroom Demos, intended to prove technical feasibility and engineering architecture through verifiable live systems, not to sell ready-made apps. Each Demo corresponds to Lazy Tools Station's core capability: using n8n as the orchestration center, combined with open-source tools, government/public APIs, LLMs, and databases, to build low-cost, controllable, auditable automation workflows.
 
 ### Demo 1: EduMind AI Hong Kong
 - **URL**: https://edumindai-hk.vercel.app/
 - **Category**: Smart Learning
 - **Scope**: Preschool, DSE, University, Adult Professional Development
-- **Backend**: Calls overseas native OpenAI models (no content filtering layers); built-in OCR vision API that extracts text from photos/screenshots directly into the input box; n8n pipeline connects question bank and quiz generation; built-in 3-second human takeover.
+- **Backend**: Calls overseas native OpenAI models (no content filtering layers); built-in OCR vision API that extracts text from photos/screenshots directly into the input box; n8n pipeline connects question bank and quiz generation; built-in 3-second human takeover. Includes a dedicated internal AI Customer Service.
 - **Demonstrated Capability**: A complete learning loop for education — problem-solving, revision, quiz generation, human escalation. Shows how OCR + LLM + n8n combine into a deployable education AI engine.
 - **Enterprise Scenario**: Any workflow requiring "document input → AI understanding → automated output → human intervention when necessary."
 
@@ -153,7 +156,7 @@ All showcase tools are Showroom Demos, intended to prove technical feasibility a
 ### Demo 12: OmniDiff Multi-Tool
 - **URL**: https://lazytoolsstation.vercel.app/OmniDiff/index.html?lang=tc
 - **Category**: Free Tools
-- **Backend**: 100% local in-browser computation (In-Memory), zero cloud upload, permanently free. 5-in-1全能比對: Folder, Text, Word/PDF, Excel, Image pixel difference heatmap.
+- **Backend**: 100% local in-browser computation (In-Memory), zero cloud upload, permanently free. 5-in-1 utility: Folder, Text, Word/PDF, Excel, Image pixel difference heatmap.
 - **Demonstrated Capability**: Ultimate privacy-first architecture. Goal is to show data-sensitive organizations they can use local LLM and local web tools for zero data leakage.
 - **Enterprise Scenario**: Banks, finance, legal, medical, and other institutions with extremely high data privacy requirements.
 
@@ -172,4 +175,39 @@ All showcase tools are Showroom Demos, intended to prove technical feasibility a
 - **Enterprise Scenario**: Any enterprise needing to evaluate AI API costs.
 
 ## 5. Enterprise B2B Solutions & Outputs
-(Keep your original content here; omitted for brevity)
+
+### Solution A: Smart Invoice to ERP (Finance Automation)
+- *Pipeline*: Photo/Email -> Document extraction -> Schema & total validation -> n8n posts to ERP with audit logs.
+- *Outputs*:
+  1. Live Executive Expense BI Dashboard (real-time department burn-rates, budget overage alerts, vendor breakdown).
+  2. Automated Accounting Vouchers posted directly into ERP.
+  3. Approval cycle reduced from 3 business days to under 10 seconds.
+
+### Solution B: Delivery Note & PO Match (Logistics Automation)
+- *Pipeline*: Warehouse photo -> Vision model extracts SKUs/quantities -> Code node matches against DB POs -> Auto-intake if matched.
+- *Outputs*:
+  1. Live Logistics Operations Dashboard (stock heatmaps, shortage alerts, vendor fulfillment ranking).
+  2. Automated Variance Checklist highlighting surplus/shortage.
+  3. Automatic dispute escalation tickets dispatched instantly.
+
+### Solution C: Contract & KYC Ingestion (Compliance Automation)
+- *Pipeline*: Doc scan -> Client-side dynamic redaction -> LLM key-value extraction -> Private DB ingestion with scheduled audit sweeps.
+- *Outputs*:
+  1. **Contract Lifecycle & Risk Radar Dashboard**: Highly interactive 30/60/90-day renewal countdown and risk rating meters, powered by an ECharts and Tailwind CSS frontend, featuring multi-level drill-down and cross-filtering.
+  2. Privacy-compliant searchable master records.
+  3. Automated renewal cadence sweeps eliminating contract lapses.
+
+### Solution D: Enterprise-Grade BI & Data Visualization (Power BI Alternative)
+- *Positioning*: Delivering sophisticated, interactive data visualization and BI dashboards without the need for expensive licenses (e.g., Power BI) or heavy enterprise software. Built entirely with pure frontend `.html` pages and open-source libraries, driven by n8n + Micro-frontend architecture.
+- *Pipeline*: Open Data / API Ingestion (n8n) -> Daily Automated Download & Normalization -> Async JSON Stream -> ECharts 5.x Rendering.
+- *Key Architecture & Capabilities*:
+  1. **Zero-License Frontend Architecture**: All visualizations are built as lightweight `.html` pages using ECharts and Tailwind CSS. There is no dependency on proprietary BI software, fundamentally eliminating license costs and vendor lock-in.
+  2. **Automated Daily Data Pipeline (n8n)**: Backend data is automatically downloaded and normalized into a standard format every day, ensuring that the dashboards always reflect the latest data without manual intervention.
+  3. **Advanced Visualization Suite**: Supports Treemaps, Heatmaps, Scatter Bubble charts, Stacked Bars, Step Area charts, and Nightingale Rose diagrams.
+  4. **Deep Interactivity & Drill-down**: Features multi-level drill-down (from macro categories to granular SKUs) with dynamic breadcrumb navigation, and cross-filtering that instantly syncs charts with data grids.
+  5. **Algorithmic Data Handling**:
+     - *String Similarity (Levenshtein Distance)*: Used for auditing promotional wording changes to detect fake discounts.
+     - *Market Benchmark & Deviation*: Automatically computes price deviation and market-wide penetration rates to flag systemic inflation risks.
+  6. **Micro-frontend & i18n Architecture**: Decoupled local dictionaries (`zh-Hant`, `zh-Hans`, `en`) supporting instant, framework-agnostic language switching across all dashboards.
+  7. **Performance Optimization**: Virtual Chunking with initial 50-row rendering and server-side pagination simulation to ensure smooth DOM rendering for massive datasets.
+- *Business Value*: Zero licensing fees (pure `.html` frontend), daily automated data updates, fully controllable frontend code, and a unified design system.
