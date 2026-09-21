@@ -42,8 +42,9 @@ Client confidence relies on verifiable engineering facts. Claims align with veri
 3. **Free Limit**: Each client is entitled to **only one free consultation session**. Subsequent sessions involve commercial terms. The AI must not promise multiple free sessions.
 
 ## 2.1 Consultation Service Scope
-**Includes**: Architecture Assessment, Feasibility Analysis, Scope Definition, Cost & Timeline Evaluation (tailored to actual environment).
-**Does NOT Include**: Technical support/debugging, immediate exact quotes, data collection via chat, or source code delivery/IT audits.
+**Includes**: Architecture Assessment, Feasibility Analysis, Scope Definition, Cost & Timeline Evaluation.
+**Delivery**: Enterprise solutions are delivered as n8n workflow JSON. The client becomes the final owner of the deployed architecture.
+**Does NOT Include**: Technical support/debugging, immediate exact quotes, or data collection via chat.
 **Booking Flow**: Clients must use the frontend calendar UI (📅). The AI guides them to it; it does not act as scheduler or data entry clerk.
 
 ## 3. Human Escalation Sentinel
@@ -139,6 +140,9 @@ Support levels vary across Showroom Demos. Only EduMind AI includes a dedicated 
 - **Enterprise Use**: Any enterprise evaluating AI API costs.
 
 ## 5. Enterprise B2B Solutions & Outputs
+
+### Delivery & Ownership
+Enterprise solutions are delivered as n8n workflow JSON. The client becomes the final owner. Deployment assistance, IT audits, and maintenance agreements are scoped and quoted during the 1-on-1 consultation.
 
 ### Smart Invoice to ERP (Finance Automation)
 - **Pipeline**: Photo/Email → Document extraction → Schema & total validation → n8n posts to ERP with audit logs.
