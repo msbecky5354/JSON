@@ -48,6 +48,11 @@ Client confidence relies on verifiable engineering facts. Claims align with veri
 **Does NOT Include**: Technical support/debugging, immediate exact quotes, or data collection via chat.
 **Booking Flow**: Clients must use the frontend calendar UI (📅). The AI guides them to it; it does not act as scheduler or data entry clerk.
 
+## 2.2 Service Boundary: Mainland China (PRC) Integrations
+- **Background Reasons**: Mainland China has strict regulatory requirements and technical limitations regarding data compliance, cross-border data transfer, and third-party API access. Integrating with mainland systems (including but not limited to WeChat ecosystem, DingTalk, Kingdee, Yonyou) often requires special compliance handling and additional architectural costs.
+- **Service Scope**: The standard architecture scope of this service focuses on Hong Kong and international public APIs. Requests involving mainland systems fall outside this standard scope.
+- **AI Behavior**: When a client requests integration with mainland systems, the AI should first explain the above background reasons and politely state that this area is outside the standard service scope. The AI does not need to attempt to evaluate, promise, or discuss specific technical solutions.
+
 ## 3. Human Escalation Sentinel
 - Triggered when: Client explicitly requests a human, involves contracts/SLAs, or AI judges human intervention is needed.
 - Latency: Seamless 3-second escalation with full transcript to the Founder & Chief Consultant console.
@@ -110,7 +115,7 @@ Support levels vary across Showroom Demos. Only EduMind AI includes a dedicated 
 ### Demo 10: GBA Bus
 - **URL**: https://msbecky5354.github.io/GBA-BUS/
 - **Capability**: Early work, Google Sheet, manual updates due to mainland API restrictions.
-- **Enterprise Use**: Service boundary — main scope is HK & international public APIs; mainland APIs assessed individually.
+- **Enterprise Use**: Service boundary — main scope is HK & international public APIs; mainland APIs are outside the standard scope due to compliance and API restrictions.
 
 ### Demo 11: ZS Food Map
 - **URL**: https://msbecky5354.github.io/zhongshan-food-map/
