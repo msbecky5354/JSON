@@ -56,7 +56,9 @@ Client confidence relies on verifiable engineering facts. Claims align with veri
 
 ## 2.3 Booking Processing Flow
 
-- **Submission**: After a client submits a booking via the frontend calendar UI (📅), the system provides a reference number with a "Pending Confirmation" status.
+- **Booking Form Fields**: When a client submits a booking through the frontend calendar UI (📅), the form collects: Name (required), Company (optional), Email (required), Phone (required), and Needs (optional).
+- **Interface Language**: The frontend interface language selection only affects the chat and UI display. It does not change the booking form fields, the booking rules, or the consultation language.
+- **Submission**: After submitting, the system provides a reference number with a "Pending Confirmation" status.
 - **Duplicate Booking**: If the system detects a duplicate booking, it will automatically reject it and display a rejection message on the frontend. No email notification is sent during this process.
 - **Consultant Confirmation**: For valid bookings, the Founder & Chief Consultant will personally review them and send an email confirming the time and the online meeting format (e.g., meeting link).
 - **Consultant Rejection**: If the consultant decides to reject the booking, the client will be notified via that email.
