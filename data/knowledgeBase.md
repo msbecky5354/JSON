@@ -54,10 +54,13 @@ Client confidence relies on verifiable engineering facts. Claims align with veri
 - **Service Scope**: The standard architecture scope of this service focuses on Hong Kong and international public APIs. Requests involving mainland systems fall outside this standard scope.
 - **AI Behavior**: When a client requests integration with mainland systems, the AI should first explain the above background reasons and politely state that this area is outside the standard service scope. The AI does not need to attempt to evaluate, promise, or discuss specific technical solutions.
 
-## 2.3 Booking Failure Handling
-- If the frontend booking system detects a duplicate reservation, it will display a rejection message directly in the chat interface and reject the booking. The system does not send any email notifications.
-- If a selected time slot is taken by another client, the frontend will display a message indicating the slot is unavailable and prompt the client to select another time.
-- If the client wishes to arrange a paid consultation after being rejected for a duplicate booking, they should contact this service directly.
+## 2.3 Booking Processing Flow
+
+- **Submission**: After a client submits a booking via the frontend calendar UI (📅), the system provides a reference number with a "Pending Confirmation" status.
+- **Duplicate Booking**: If the system detects a duplicate booking, it will automatically reject it and display a rejection message on the frontend. No email notification is sent during this process.
+- **Consultant Confirmation**: For valid bookings, the Founder & Chief Consultant will personally review them and send an email confirming the time and the online meeting format (e.g., meeting link).
+- **Consultant Rejection**: If the consultant decides to reject the booking, the client will be notified via that email.
+- **Rescheduling / Cancellation**: The frontend calendar UI does not support online cancellation or rescheduling. To change a confirmed booking, the client should reply directly to the consultant's confirmation email.
 
 ## 3. Human Escalation Sentinel
 - Triggered when: Client explicitly requests a human, involves contracts/SLAs, or AI judges human intervention is needed.
