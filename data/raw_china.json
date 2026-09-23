@@ -3,1465 +3,2400 @@
     "i": 1,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "OpenAI 成立数学与 AI 顾问组：神秘新模型 24 天攻破 100 多个世界级难题",
-    "title_en": "OpenAI Forms Mathematics and AI Advisory Group; Mysterious New Model Solves Over 100 World-Class Problems in 24 Days",
+    "title": "杭州一小伙3天搓出100个作品冲击百万大奖，支付宝:别急",
+    "title_en": "Alipay Launches \"Intelligent Agent Emergence Award\" with a $1 Million Grand Prize, Sparking a 100-Entry Sprint by a Young Developer",
     "hashtags": [
-      "#OpenAI",
-      "#MathAI",
-      "#Breakthrough",
-      "#Research"
+      "#AIContest",
+      "#NoCodeAI",
+      "#Innovation",
+      "#Alipay",
+      "#Startup"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "The new model’s ability to solve complex mathematical problems can empower Hong Kong professionals, researchers and students to accelerate analytics, financial modeling and academic research.",
-    "micro_personas": [
-      "Quantitative analyst optimizing risk models",
-      "University researcher tackling advanced equations"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "OpenAI + ModelRelease",
-      "Mathematics + AI",
-      "Research + ProblemSolving"
-    ]
+    "decision": "reject",
+    "reject_reason": "The announcement describes a contest rather than a deployable AI solution, offering no concrete operational benefit or cost impact for Hong Kong target groups."
   },
   {
     "i": 2,
     "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "AI 编程平台 Bitrig 支持 iPhone Duo：交互式 3D 模拟器可折叠、旋转测应用",
-    "title_en": "AI Coding Platform Bitrig Adds Support for iPhone Duo with Interactive 3D Simulator",
+    "title": "​科大讯飞正式发布 Spark-ASR-2.0，全面赋能硬件与开放生态",
+    "title_en": "iFLYTEK Unveils Spark-ASR 2.0, Boosting Voice Recognition for Hardware and Open Ecosystem",
     "hashtags": [
-      "#Bitrig",
-      "#iPhoneDuo",
-      "#AIcoding",
-      "#DeveloperTools"
+      "#SpeechAI",
+      "#VoiceRecognition",
+      "#iFLYTEK",
+      "#APIs",
+      "#HardwareIntegration"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Bitrig’s AI‑driven SwiftUI generation and 3D simulator gives Hong Kong iOS developers and student coders rapid prototyping capability for the new iPhone Duo, shortening development cycles.",
+    "reason": "iFLYTEK's Spark-ASR 2.0 API becomes publicly available, enabling Hong Kong SMEs and developers to integrate high‑accuracy voice transcription into customer service, meeting minutes, and accessibility apps, reducing manual effort.",
     "micro_personas": [
-      "iOS developer building client prototype",
-      "Computer science student creating class app"
+      "HK SME owner integrating voice transcription into call center",
+      "HK developer adding speech‑to‑text feature to a mobile app"
     ],
     "agent_signal": true,
-    "automation_level": 4,
+    "automation_level": 3,
     "history_queries": [
-      "Bitrig + iPhoneDuoSupport",
-      "AI coding + SwiftUI",
-      "DeveloperTools + RapidPrototyping"
+      "iFLYTEK + Spark-ASR launch",
+      "VoiceRecognition + HK SMEs"
     ]
   },
   {
     "i": 3,
-    "category": "tools_access",
-    "ai1_suggestion": "investment_market",
-    "title": "Oura拟IPO募资22亿美元，近三分之二股份由现有股东出售",
-    "title_en": "Oura Plans IPO to Raise Up to $2.2 Billion, Majority of Shares Sold by Existing Shareholders",
-    "hashtags": [
-      "#Oura",
-      "#IPO",
-      "#FinTech",
-      "#Investment"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The announcement concerns Oura’s IPO and share sale, offering no AI tool, pricing or security insight relevant to Hong Kong target groups."
-  },
-  {
-    "i": 4,
-    "category": "real_use",
+    "category": "tech_background",
     "ai1_suggestion": "",
-    "title": "OpenAI暗暗布局自主Agent：对标GrokBot全天候协作，同时盯防Meta的Muse",
-    "title_en": "OpenAI Quietly Develops Autonomous Agent to Rival GrokBot and Counter Meta's Muse",
+    "title": "Anthropic 拟租赁最高 1 吉瓦算力，减少对云厂商依赖",
+    "title_en": "Anthropic Negotiates Up to 1 GW of Compute Leasing to Reduce Cloud Provider Dependence",
     "hashtags": [
-      "#OpenAI",
-      "#AutonomousAgent",
-      "#AICompanion",
-      "#TechInnovation"
+      "#AICompute",
+      "#Anthropic",
+      "#Infrastructure",
+      "#CloudIndependence",
+      "#DataCenter"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "An autonomous agent that can operate browsers and apps promises to automate routine tasks for office workers, SMEs and HR staff in Hong Kong, boosting productivity.",
+    "reason": "Anthropic's potential 1 GW compute lease signals a shift toward on‑premise AI infrastructure, prompting Hong Kong AI startups and enterprise IT teams to explore local data‑center options and cost models.",
     "micro_personas": [
-      "Office worker automating daily reporting",
-      "HR professional streamlining candidate outreach"
+      "HK AI startup CTO evaluating self‑hosted compute",
+      "HK enterprise IT manager assessing compute cost alternatives"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "Anthropic + compute leasing",
+      "AI infrastructure + Hong Kong market"
+    ]
+  },
+  {
+    "i": 4,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "国内开发者如何稳定使用 Claude Code、Codex 和 Gemini CLI：从配置接入到团队协作",
+    "title_en": "How Domestic Developers Can Stably Use Claude Code, Codex, and Gemini CLI: From Setup to Team Collaboration",
+    "hashtags": [
+      "#AIProgramming",
+      "#ClaudeCode",
+      "#Codex",
+      "#GeminiCLI",
+      "#DeveloperTools"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "The guide on stable usage of Claude Code, Codex, and Gemini CLI equips Hong Kong developers and tech firms with reliable AI coding assistants, accelerating prototype development and reducing coding time.",
+    "micro_personas": [
+      "HK developer integrating Claude Code into CI pipeline",
+      "HK startup engineer automating code generation with Gemini CLI"
     ],
     "agent_signal": true,
-    "automation_level": 5,
+    "automation_level": 4,
     "history_queries": [
-      "OpenAI + AutonomousAgent",
-      "AI + WorkflowAutomation",
-      "Productivity + TaskAutomation"
+      "Claude Code + HK developers",
+      "AI programming tools + adoption"
+    ]
+  },
+  {
+    "i": 5,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "麦肯锡泼冷水：智能体账单可能比聊天AI贵 30 倍，企业正被自己的AI热情反噬",
+    "title_en": "McKinsey Warns Intelligent Agent Costs Could Be 30 Times Higher Than Chat AI, Threatening Enterprise Budgets",
+    "hashtags": [
+      "#AICosts",
+      "#EnterpriseAI",
+      "#McKinsey",
+      "#IntelligentAgents",
+      "#BudgetRisk"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "McKinsey's warning that intelligent agents may cost up to 30 times more than chat AI alerts Hong Kong enterprises and professionals to reassess AI budgets, preventing overspend on automation projects.",
+    "micro_personas": [
+      "HK corporate finance manager reviewing AI spend",
+      "HK SME owner planning AI workflow automation"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "McKinsey + AI cost",
+      "Intelligent agents + budgeting HK"
     ]
   },
   {
     "i": 6,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "AI长剧首次上星引爆股价两连板，芒果TV逆向实验：不追技术追内容，用内容养出自己的大模型",
-    "title_en": "AI-Generated Long-Form Drama Debuts on Satellite TV, Boosting Mango TV Stock; Focus on Content Over Technology",
+    "title": "AI牛市溢出第一波红利:日韩奢侈品柜台在股市震荡里站稳，三星海力士员工三年薪水池要胀到114.9万亿韩元",
+    "title_en": "AI Boom Fuels Luxury Spending in Japan and South Korea Amid Market Volatility",
     "hashtags": [
-      "#AIDrama",
-      "#MangoTV",
-      "#ContentStrategy",
-      "#MediaInnovation"
+      "#AIWealth",
+      "#LuxuryMarket",
+      "#ConsumerSpending",
+      "#AsiaEconomy"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Provides macro‑economic luxury spending trend without concrete AI tool or operational benefit for Hong Kong audiences."
+  },
+  {
+    "i": 7,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "腾讯WorkBuddy企业版办公套件化升级:多端账号、资产打通，企业生产力再升级",
+    "title_en": "Tencent WorkBuddy Enterprise Suite Upgraded with Integrated Multi‑Platform Tools",
+    "hashtags": [
+      "#EnterpriseSoftware",
+      "#ProductivityTools",
+      "#AIIntegration",
+      "#Tencent"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The AI‑generated drama showcases a cost‑effective content creation pipeline that Hong Kong media firms and entrepreneurs can adopt to produce TV series and digital videos.",
+    "reason": "The upgraded WorkBuddy suite offers integrated docs, storage and AI design agents, enabling office workers, HR staff and SMEs in Hong Kong to streamline collaboration and reduce tool‑sprawl.",
     "micro_personas": [
-      "Media producer planning a TV series",
-      "Entrepreneur launching AI‑driven content platform"
+      "Office worker collaborating on documents",
+      "HR professional managing employee knowledge base"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "MangoTV + AIDrama",
-      "AI content creation + Media",
-      "Entertainment + ProductionAutomation"
+      "Tencent WorkBuddy + Upgrade",
+      "AI Design Agent + Integration"
     ]
   },
   {
-    "i": 7,
+    "i": 8,
     "category": "price_free",
     "ai1_suggestion": "",
-    "title": "阿里云百炼部分语音系列模型降价 - 电子工程专辑",
-    "title_en": "Alibaba Cloud Reduces Prices for Certain Voice Model Series",
+    "title": "阿里千问发布 Qwen-Audio-3.1：五款语音模型同发，ASR 价格直降 95%",
+    "title_en": "Alibaba Releases Qwen‑Audio‑3.1 Suite, Cutting ASR Prices by Up to 95%",
     "hashtags": [
-      "#AlibabaCloud",
-      "#AIModels",
-      "#PriceDrop",
-      "#CloudComputing"
+      "#SpeechAI",
+      "#CostReduction",
+      "#AudioModels",
+      "#Alibaba"
     ],
-    "source_name": "电子工程专辑",
+    "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Alibaba Cloud's voice model price cut directly lowers API costs for Hong Kong SMEs and developers, enabling faster prototyping of voice assistants and call‑center automation without budget strain.",
+    "reason": "Alibaba’s Qwen‑Audio‑3.1 cuts ASR costs up to 95%, giving Hong Kong developers and small enterprises affordable speech‑to‑text services for apps, call‑centers and content creation.",
     "micro_personas": [
-      "SME product manager integrating voice AI",
-      "Developer building voice‑enabled applications"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Alibaba Cloud + Price Reduction",
-      "Voice Model API + Cost Savings"
-    ]
-  },
-  {
-    "i": 9,
-    "category": "learning_family",
-    "ai1_suggestion": "digital_inclusion",
-    "title": "全球老龄化加速，数字鸿沟如何破？韩、法、澳三国交出适老化服务“实践答卷” - AgeClub",
-    "title_en": "Accelerating Global Aging: How Korea, France, and Australia Tackle the Digital Divide for Seniors",
-    "hashtags": [
-      "#AgingPopulation",
-      "#DigitalInclusion",
-      "#SeniorTech",
-      "#Policy"
-    ],
-    "source_name": "AgeClub",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "The case studies from Korea, France and Australia offer practical models for Hong Kong senior‑tech programs, helping community organizers and parents bridge the digital divide for the elderly.",
-    "micro_personas": [
-      "Elderly community centre manager",
-      "Parent teaching digital skills to seniors"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "Senior Tech + Digital Inclusion",
-      "Policy + Aging Population"
-    ]
-  },
-  {
-    "i": 10,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "索尼 SIE 申请“AI 自修复系统”专利：利用人工智能实时生成诊断固件以修复PlayStation 游戏机故障 - IT之家",
-    "title_en": "Sony Files Patent for AI Self‑Repair System to Diagnose and Fix PlayStation Firmware Issues",
-    "hashtags": [
-      "#Sony",
-      "#AIRepair",
-      "#Gaming",
-      "#Patent"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Sony's AI‑driven self‑repair patent signals emerging self‑healing firmware techniques that Hong Kong embedded‑system developers can explore for more resilient consumer electronics.",
-    "micro_personas": [
-      "Embedded systems engineer",
-      "Game console maintenance technician"
+      "Developer building voice‑assistant",
+      "SME creating audio customer‑service bot"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Sony + AI Self‑Repair Patent",
-      "Firmware + Automated Diagnosis"
+      "Alibaba Qwen‑Audio + Release",
+      "ASR Pricing + Reduction"
+    ]
+  },
+  {
+    "i": 9,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "​全新深蓝 S07 正式官宣接入豆包大模型，9 月 28 日震撼上市",
+    "title_en": "DeepBlue S07 Launches with ByteDance’s Doubao Large Model and AI Laser Driving System",
+    "hashtags": [
+      "#SmartCars",
+      "#LargeLanguageModel",
+      "#AIDriving",
+      "#DeepBlue"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The DeepBlue S07 integrates Doubao’s large model and AI laser driving, offering Hong Kong automotive AI developers insight into large‑model deployment and entrepreneurs a showcase for smart‑car services.",
+    "micro_personas": [
+      "Automotive AI developer evaluating model integration",
+      "Entrepreneur planning smart‑car subscription service"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "DeepBlue S07 + Launch",
+      "Doubao Model + Integration"
     ]
   },
   {
     "i": 11,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "Anthropic与字节扎堆AI制药，下一个Coding风口卡在了数据这道坎上",
-    "title_en": "Anthropic and ByteDance Enter AI Drug Discovery; Data Bottleneck Remains the Next Challenge",
+    "title": "盒马部署“AI验蟹师”：不到 1 分钟检测 50 只大闸蟹",
+    "title_en": "Hema Deploys AI Crab Inspector to Scan 50 Crabs in Under a Minute",
     "hashtags": [
-      "#AIPharma",
-      "#DrugDiscovery",
-      "#DataChallenge",
-      "#Biotech"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Anthropic and ByteDance's AI drug‑discovery pilots demonstrate concrete speed gains in candidate screening, offering Hong Kong biotech startups a proven pathway to cut R&D cycles.",
-    "micro_personas": [
-      "Biotech startup R&D lead",
-      "Pharma data scientist"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Anthropic + AI Drug Discovery",
-      "ByteDance + Biotech AI"
-    ]
-  },
-  {
-    "i": 12,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "微软花 12 万美元让 AI 重写 Copilot 运行时：43 万行 TS 变 80 万行 Rust，快 15.9 倍",
-    "title_en": "Microsoft Uses AI to Rewrite GitHub Copilot Runtime in Rust, Cutting Cost and Boosting Speed",
-    "hashtags": [
-      "#Microsoft",
-      "#GitHubCopilot",
-      "#AIEngineering",
-      "#Rust"
+      "#AIinFood",
+      "#Automation",
+      "#RetailTech",
+      "#Hema"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Microsoft's AI‑assisted rewrite of Copilot runtime to Rust showcases a cost‑effective method for Hong Kong developers to boost performance and reduce token expenses in AI tooling.",
+    "reason": "Hema’s AI crab inspector automates visual quality checks, enabling Hong Kong retail SMEs and food‑service operators to boost throughput, cut labor costs and ensure consistent product standards.",
     "micro_personas": [
-      "Developer integrating GitHub Copilot",
-      "DevOps engineer optimizing runtime"
+      "Retail manager implementing AI quality inspection",
+      "SME owner optimizing seafood procurement"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "Microsoft + Copilot Runtime Rewrite",
-      "Rust + AI Code Migration"
+      "Hema AI Crab Inspector + Deployment",
+      "Retail Automation + Efficiency"
     ]
   },
   {
     "i": 13,
-    "category": "tools_access",
+    "category": "price_free",
     "ai1_suggestion": "",
-    "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
-    "title_en": "Moon's Dark Side Launches Kimi Code Desktop for macOS and Windows",
+    "title": "最高折扣 50%：微软推 AI 替你“干活”，Copilot 变身超级应用",
+    "title_en": "Microsoft Offers Up to 50% Discount on Copilot, Positioning It as a Super AI Application for Enterprises",
     "hashtags": [
-      "#AIcoding",
-      "#DeveloperTools",
-      "#Productivity",
-      "#DesktopApp"
+      "#MicrosoftCopilot",
+      "#AIProductivity",
+      "#EnterpriseDiscount",
+      "#Automation"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Enables Hong Kong developers to run AI coding agents locally on macOS/Windows, eliminating browser switching and accelerating code generation, debugging, and script automation for daily development tasks.",
+    "reason": "The 50% discount on Microsoft Copilot lowers entry cost for Hong Kong SMEs and office teams, enabling rapid deployment of AI‑driven document drafting, data analysis, and workflow automation across enterprises.",
     "micro_personas": [
-      "Full‑stack developer automating code snippets",
-      "DevOps engineer orchestrating command‑line tasks via AI"
+      "SME owner planning AI productivity tools",
+      "HR manager automating employee reports"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "Kimi Code + Desktop",
-      "AI Agent + CodeAutomation",
-      "Developer + ProductivityTool"
+      "Microsoft Copilot + Discount",
+      "Enterprise AI + Adoption"
     ]
   },
   {
     "i": 14,
-    "category": "real_use",
+    "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "法国兴业银行押注 AI：预计最多省下 6 亿欧元成本",
-    "title_en": "Societe Generale Bets on AI to Save Up to €600 Million",
+    "title": "阿里云发布Qwen Book:AI智能体电脑正式亮相",
+    "title_en": "Alibaba Cloud Unveils Qwen Book: An AI Agent Computer Designed for Continuous Learning and Cross‑App Collaboration",
     "hashtags": [
-      "#AIcostSaving",
-      "#BankingInnovation",
-      "#FinancialAI",
-      "#Efficiency"
+      "#QwenBook",
+      "#AIWorkstation",
+      "#AlibabaCloud",
+      "#IntelligentAgents"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Demonstrates concrete AI‑driven cost reduction in a major bank, offering Hong Kong financial firms a benchmark for AI adoption to trim operational expenses and improve efficiency.",
+    "reason": "Qwen Book provides Hong Kong developers and startups with a dedicated AI‑agent workstation, offering cross‑application collaboration and continuous learning capabilities that accelerate prototype building and enterprise‑scale automation projects.",
     "micro_personas": [
-      "Bank risk analyst evaluating AI cost‑benefit",
-      "Corporate finance manager planning AI‑enabled process optimization"
+      "AI developer creating multi‑agent pipelines",
+      "Tech entrepreneur prototyping AI‑enhanced SaaS"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Qwen Book + Launch",
+      "AI workstation + Hong Kong"
+    ]
+  },
+  {
+    "i": 15,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "​高通发布骁龙 8 Elite Gen 6 与 Extreme 芯片，支持本地运行 300 亿参数大模型",
+    "title_en": "Qualcomm Launches Snapdragon 8 Elite Gen 6 and Extreme Chips, Enabling On‑Device Execution of 30 B‑Parameter Models",
+    "hashtags": [
+      "#Snapdragon",
+      "#MobileAI",
+      "#EdgeComputing",
+      "#LargeModels"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Snapdragon 8 Elite chips empower Hong Kong mobile developers to run 30‑billion‑parameter models on‑device, delivering low‑latency AI services while preserving user data privacy and reducing cloud costs.",
+    "micro_personas": [
+      "Mobile app developer integrating on‑device LLM",
+      "Startup CTO evaluating edge AI solutions"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Societe Generale + AI Savings",
-      "Bank + CostReduction",
-      "Financial Institution + AIImplementation"
+      "Snapdragon 8 Elite + Edge AI",
+      "On‑device LLM + Deployment"
     ]
   },
   {
     "i": 16,
-    "category": "tools_access",
+    "category": "price_free",
     "ai1_suggestion": "",
-    "title": "百度文库网盘宣布AI办公出海，库库AI全球月活超4000万",
-    "title_en": "Baidu Wenku Cloud Announces AI Office Expansion Overseas, Kooko AI Reaches 40 Million MAU",
+    "title": "医疗 AI 走向全球普惠：Anthropic 携手 OpenEvidence，将临床决策支持工具免费覆盖百国",
+    "title_en": "Anthropic Partners with OpenEvidence to Provide Free Clinical Decision‑Support AI to Hundreds of Countries",
     "hashtags": [
-      "#AIOffice",
-      "#GlobalExpansion",
-      "#Productivity",
-      "#CloudServices"
+      "#MedicalAI",
+      "#OpenEvidence",
+      "#Anthropic",
+      "#GlobalHealth",
+      "#FreeAI"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Provides AI office suite with 40 M MAU, giving Hong Kong SMEs and office workers cloud‑based document assistance, translation, and workflow automation directly accessible via web or app.",
+    "reason": "Anthropic’s free clinical decision‑support AI gives Hong Kong physicians and telehealth services a cost‑free tool to enhance diagnostics, supporting elderly care and reducing reliance on expensive specialist consultations.",
     "micro_personas": [
-      "SME office administrator using AI to draft contracts",
-      "Remote team member leveraging AI for meeting minutes"
+      "Hospital doctor using AI diagnostic aid",
+      "Telehealth provider assisting elderly patients"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Kooko AI + GlobalUsers",
-      "AI Office + Productivity",
-      "SME + DocumentAutomation"
+      "Anthropic + Clinical AI",
+      "Free medical AI + Hong Kong"
     ]
   },
   {
     "i": 17,
-    "category": "tech_background",
+    "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "阿里换帅Qwen团队：刘大一恒接掌通义千问大模型，云栖大会前亮相",
-    "title_en": "Alibaba Appoints Liu Dayiheng to Lead Qwen Large Language Model Team Ahead of Cloud Expo",
+    "title": "AI会自己返工到达标为止?豆包工作上线目标模式，先给计划、确认后才干活",
+    "title_en": "ByteDance’s Doubao Work Introduces Goal and Plan Modes for Self‑Correcting AI Task Execution",
     "hashtags": [
-      "#AILeadership",
-      "#LLM",
-      "#Alibaba",
-      "#TechManagement"
+      "#DoubaoWork",
+      "#AIProductivity",
+      "#TaskAutomation",
+      "#GoalOrientedAI"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Leadership shift in Alibaba’s Qwen LLM signals upcoming model updates, informing Hong Kong developers about potential new APIs, performance gains, and integration opportunities.",
+    "reason": "Doubao Work’s goal and plan modes let Hong Kong office workers and SMEs assign complex tasks to an AI that self‑verifies outcomes, streamlining project management and cutting manual revision time.",
     "micro_personas": [
-      "AI developer planning integration with Qwen",
-      "Startup CTO monitoring LLM roadmap"
+      "Office clerk automating report generation",
+      "SME manager delegating routine tasks"
     ],
     "agent_signal": true,
-    "automation_level": 1,
+    "automation_level": 4,
     "history_queries": [
-      "Alibaba + Qwen Team",
-      "LLM + LeadershipChange",
-      "Developer + ModelRoadmap"
+      "Doubao Work + Task Automation",
+      "AI office assistant + Hong Kong"
     ]
   },
   {
     "i": 18,
-    "category": "price_free",
-    "ai1_suggestion": "",
-    "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
-    "title_en": "Claude Opus 5.5 Enters Internal Testing, Claims GPT-6 Performance at Discounted Pricing",
-    "hashtags": [
-      "#AIModel",
-      "#ClaudeOpus",
-      "#Pricing",
-      "#NextGenAI"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Rumored discounted pricing for Claude Opus 5.5 could make high‑performance LLM affordable for Hong Kong startups and freelancers seeking advanced generation at lower cost.",
-    "micro_personas": [
-      "Freelance content creator accessing cheap LLM",
-      "Startup engineer prototyping with Claude Opus"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Claude Opus + Pricing",
-      "LLM + CostReduction",
-      "Developer + AdvancedModel"
-    ]
-  },
-  {
-    "i": 20,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "AI×鸿蒙赋能产业数智化｜拓维信息亮相华为全联接大会2026 - IT之家",
-    "title_en": "AI and HarmonyOS Empower Industrial Digitalization: Tuowei Information Showcases at Huawei Full-Connection Conference 2026",
-    "hashtags": [
-      "#AI",
-      "#HarmonyOS",
-      "#IndustrialDigitalization",
-      "#TechInnovation"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "HK developers can explore AI integration with HarmonyOS for industrial IoT solutions, enabling creation of localized smart manufacturing apps and leveraging new AI‑accelerated APIs to enhance product competitiveness.",
-    "micro_personas": [
-      "Mobile App Developer targeting industrial IoT",
-      "System Architect exploring HarmonyOS AI capabilities"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "HarmonyOS + AI integration",
-      "IndustrialIoT + PlatformDevelopment"
-    ]
-  },
-  {
-    "i": 21,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "阿宝上线「鱼来」摸鱼AI系统，将碎片化休息纳入智能管理",
-    "title_en": "Alipay's 'Fish' AI System Introduces Smart Break Management for Workers",
-    "hashtags": [
-      "#AIProductivity",
-      "#SmartBreaks",
-      "#WorkLifeBalance",
-      "#AlipayAI"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Office workers in Hong Kong can adopt Alipay’s ‘Fish’ AI break manager to schedule micro‑rests, improving focus and wellbeing while reducing burnout through automated, voice‑activated reminders.",
-    "micro_personas": [
-      "Office Worker using Alipay AI for break reminders",
-      "HR Professional promoting wellness tools"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "AlipayAI + BreakManagement",
-      "SmartBreaks + EmployeeProductivity"
-    ]
-  },
-  {
-    "i": 22,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "登顶国际Data Agent榜单，OceanBase超过多项GPT、Claude方案",
-    "title_en": "OceanBase Tops International Data Agent Benchmark, Surpassing GPT and Claude Solutions",
-    "hashtags": [
-      "#DataAgent",
-      "#OceanBase",
-      "#AIModelBenchmark",
-      "#DomesticAI"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK SMEs and developers gain access to OceanBase’s high‑accuracy Data Agent, built on GLM‑5.2, allowing cost‑effective, on‑premise AI data querying without relying on foreign LLM APIs.",
-    "micro_personas": [
-      "Developer integrating data agents into enterprise apps",
-      "SME IT manager seeking cost-effective AI data solutions"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "OceanBase + DataAgent",
-      "GLM-5.2 + EnterpriseAI"
-    ]
-  },
-  {
-    "i": 23,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
-    "title_en": "Apple Offers $25 Settlement per iPhone for U.S. Users in Siri AI Lawsuit",
-    "hashtags": [
-      "#Apple",
-      "#SiriAI",
-      "#LegalSettlement",
-      "#ConsumerRights"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The settlement concerns US iPhone users only, offering no relevance to Hong Kong stakeholders."
-  },
-  {
-    "i": 24,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "北美云分成破冰，Kimi K3落地亚马逊Bedrock，中国大模型站上全球博弈新牌桌 - 新浪财经",
-    "title_en": "Kimi K3 Model Launches on Amazon Bedrock, Marking a New Chapter in Global Large Model Competition",
-    "hashtags": [
-      "#KimiK3",
-      "#AmazonBedrock",
-      "#LargeLanguageModel",
-      "#AICompetition"
-    ],
-    "source_name": "新浪财经",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Developers in Hong Kong can provision Kimi K3 via Amazon Bedrock, offering a locally‑trained large language model that reduces API costs and diversifies model options beyond dominant Western providers.",
-    "micro_personas": [
-      "Developer building generative AI services",
-      "Startup founder evaluating AI model providers"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "KimiK3 + AmazonBedrock",
-      "LargeLanguageModel + CostOptimization"
-    ]
-  },
-  {
-    "i": 25,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "科技巨头因 AI 购物起争端：亚马逊封禁 Meta Muse 智能体 - IT之家",
-    "title_en": "Tech Giant Sparks AI Shopping Dispute: Amazon Bans Meta Muse Agent",
-    "hashtags": [
-      "#AIShopping",
-      "#PlatformPolicy",
-      "#Meta",
-      "#Amazon",
-      "#AIRegulation"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Hong Kong e‑commerce firms and compliance teams must track Amazon’s ban on Meta’s Muse agent, as it signals tighter platform policy on AI shopping tools, affecting integration and legal risk.",
-    "micro_personas": [
-      "Hong Kong e‑commerce manager",
-      "Legal compliance officer"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Meta Muse + Ban",
-      "Amazon + PlatformPolicy"
-    ]
-  },
-  {
-    "i": 26,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "阿里 70 亿参数图像模型Qwen-Image-2. 1 开源发布，号称以瘦身之躯叫板闭源巨头",
-    "title_en": "Alibaba Releases Open-Source 70B Parameter Image Model Qwen-Image-2.1",
-    "hashtags": [
-      "#OpenSourceAI",
-      "#ImageGeneration",
-      "#Alibaba",
-      "#QwenImage",
-      "#AIModels"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Local developers and startups can self‑host the 70B Qwen‑Image‑2.1 model on consumer‑grade RTX 3090 GPUs, delivering cost‑effective high‑quality image generation without relying on expensive cloud APIs.",
-    "micro_personas": [
-      "Freelance graphic designer",
-      "Startup CTO"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Qwen-Image-2.1 + OpenSource",
-      "ImageModel + SelfHost"
-    ]
-  },
-  {
-    "i": 27,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
-    "title_en": "China's Large Language Models Reach 67.46 Trillion Tokens Weekly, Leading the U.S. for 21 Consecutive Weeks",
-    "hashtags": [
-      "#AIUsage",
-      "#ChinaAI",
-      "#TokenVolume",
-      "#LLM",
-      "#GlobalAI"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "The surge in Chinese LLM token usage demonstrates robust, low‑cost API ecosystems that Hong Kong SMEs and developers can tap for scalable language services, reducing reliance on pricier Western providers.",
-    "micro_personas": [
-      "SME AI integration lead",
-      "Independent developer"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Chinese LLM + TokenVolume",
-      "API + CostReduction"
-    ]
-  },
-  {
-    "i": 28,
     "category": "safety_trust",
     "ai1_suggestion": "",
-    "title": "用 AI 造谣再收费删帖：自媒体博主敲诈科技企业 230 万元被抓",
-    "title_en": "AI-Driven Rumor Campaign Extorts Tech Firm for 2.3 Million Yuan, Perpetrators Arrested",
+    "title": "Win11 惊现 AI 恶意软件 ClosedQuorum：入侵后自主决策，专挖最有价值信息",
+    "title_en": "AI Malware ClosedQuorum Targets Windows 11, Uses Gemini, DeepSeek, Qwen, and Mistral for Autonomous Data Theft",
     "hashtags": [
-      "#AIManipulation",
-      "#Misinformation",
-      "#CyberExtortion",
-      "#PublicSafety",
-      "#LawEnforcement"
+      "#AIMalware",
+      "#CyberSecurity",
+      "#Windows11",
+      "#ThreatIntelligence",
+      "#AIThreats"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "AI‑generated rumor scams targeting firms highlight urgent security awareness for Hong Kong professionals and senior citizens, prompting stronger verification practices and anti‑phishing safeguards.",
+    "reason": "AI‑driven ClosedQuorum malware can autonomously harvest high‑value data on Windows 11, prompting Hong Kong professionals and elderly users to upgrade endpoint security and adopt AI‑aware threat defenses.",
     "micro_personas": [
-      "Senior citizen social media user",
-      "Corporate risk manager"
+      "Corporate IT security analyst",
+      "Elderly home computer user"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "ClosedQuorum + Malware",
+      "AI + ThreatIntelligence"
+    ]
+  },
+  {
+    "i": 19,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "李飞飞谈 AI 安全：不能只让开发者评估自己的系统",
+    "title_en": "Fei-Fei Li Calls for Independent Oversight of AI Safety Beyond Developer Self‑Assessment",
+    "hashtags": [
+      "#AISafety",
+      "#Regulation",
+      "#IndependentOversight",
+      "#AIEthics",
+      "#Policy"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "Li Fei‑Fei’s call for independent AI safety oversight signals upcoming regulatory expectations, urging Hong Kong compliance officers and AI product managers to plan third‑party audits and governance frameworks.",
+    "micro_personas": [
+      "Compliance officer in fintech",
+      "AI product manager"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "AI rumor + Extortion",
-      "Misinformation + LawEnforcement"
+      "Fei-Fei Li + Oversight",
+      "AI safety + Regulation"
     ]
   },
   {
-    "i": 29,
-    "category": "work_sme",
+    "i": 20,
+    "category": "real_use",
     "ai1_suggestion": "",
-    "title": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
-    "title_en": "Kuaishou Cuts Live Caption Delay to Under 500ms with End-to-End Engineering for E‑Commerce Streams",
+    "title": "​韶音首款 AI 耳机 OpenFit 2 AI 亮相云栖大会，重磅首发“AI 实验室”四大新功能",
+    "title_en": "Shokz Unveils OpenFit 2 AI Earbuds with Qwen Model and New AI Lab Features at Cloud Expo 2026",
     "hashtags": [
-      "#LiveCaptioning",
-      "#EcommerceAI",
-      "#RealTimeAI",
-      "#Kuaishou",
-      "#SMEProductivity"
+      "#AIWearables",
+      "#SmartAudio",
+      "#Qwen",
+      "#OpenFit2AI",
+      "#ConsumerTech"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Real‑time live captioning with sub‑second latency empowers Hong Kong live‑stream sellers to improve accessibility and conversion rates, streamlining content creation for SMEs and marketing teams.",
+    "reason": "Shokz OpenFit 2 AI earbuds embed Qwen models for real‑time translation and ambient sound control, giving Hong Kong office workers and elderly users hands‑free assistance and improved accessibility.",
     "micro_personas": [
-      "Live‑stream host for a boutique",
-      "SME marketing manager"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Live captioning + E‑commerce",
-      "Kuaishou + RealTimeAI"
-    ]
-  },
-  {
-    "i": 30,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "豆包手机助手主动“迂回一步”，选择权为何交给APP开发者？ - 雷达财经",
-    "title_en": "Doubao Mobile Assistant Takes an Indirect Step, Handing Choice Over to App Developers",
-    "hashtags": [
-      "#AppDevelopment",
-      "#DeveloperControl",
-      "#MobileTools"
-    ],
-    "source_name": "雷达财经",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "The Doubao Mobile Assistant gives Hong Kong app developers immediate access to on‑device AI, enabling SMEs and office workers to embed smart assistance in mobile tools without extra infrastructure.",
-    "micro_personas": [
-      "Mobile app developer integrating AI features",
-      "SME product manager testing AI assistant"
+      "Remote office worker using AI earbuds",
+      "Elderly user leveraging voice assistance"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Doubao + Launch",
-      "App Developers + Integrate"
+      "OpenFit2AI + Launch",
+      "Qwen + WearableAudio"
     ]
   },
   {
-    "i": 31,
+    "i": 21,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "Claude Code v2.1. 280 落地：Opus 5. 5 正式接棒默认王座，百万上下文配 4 美元骨折价把账单压进地心",
+    "title_en": "Anthropic Releases Claude Code v2.1.280 with Opus 5.5, 1 Million Token Context Window and $4 per Million Input Tokens Pricing",
+    "hashtags": [
+      "#ClaudeAI",
+      "#LargeLanguageModel",
+      "#Pricing",
+      "#TokenLimits",
+      "#AIInfrastructure"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Anthropic’s Claude Code v2.1 with 1 M token context and $4 per‑M‑token pricing lowers entry barriers, enabling Hong Kong developers and SMEs to build cost‑effective, high‑capacity LLM applications.",
+    "micro_personas": [
+      "Freelance developer building code reviewer",
+      "SME CTO integrating LLM"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Claude Code + Pricing",
+      "Opus5.5 + TokenWindow"
+    ]
+  },
+  {
+    "i": 22,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "苹果暂缓AI吊坠，AI可穿戴战略转向手表、耳机与智能眼镜",
+    "title_en": "Apple Delays AI‑Enabled Wearable Pendant, Shifts Focus to AI Features in Watches, Headsets, and Glasses",
+    "hashtags": [
+      "#AppleAI",
+      "#WearableTech",
+      "#ProductDelay",
+      "#SmartWatch",
+      "#AIInnovation"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Apple’s postponement of the AI pendant and focus on AI‑enabled watches and glasses informs Hong Kong professionals and elderly consumers to anticipate AI features in wearable devices for productivity and assistance.",
+    "micro_personas": [
+      "Corporate procurement manager evaluating smartwatches",
+      "Elderly consumer interested in wearable AI assistance"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Apple AI pendant + Delay",
+      "Apple Watch + AIFeatures"
+    ]
+  },
+  {
+    "i": 23,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "世界模型，机器人的AGI元年-36氪 - 36kr.com",
+    "title_en": "World Models: The AGI Era for Robots",
+    "hashtags": [
+      "#AGI",
+      "#Robotics",
+      "#WorldModels",
+      "#AIResearch"
+    ],
+    "source_name": "36kr.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Provides Hong Kong robotics developers with insights into world‑model architectures, enabling prototype AGI‑level control systems and informing startup roadmaps for advanced automation in manufacturing and service sectors.",
+    "micro_personas": [
+      "Robotics startup CTO",
+      "AI research engineer"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "World Models + Architecture",
+      "AGI Robotics + Prototype"
+    ]
+  },
+  {
+    "i": 24,
     "category": "regulation_public",
     "ai1_suggestion": "",
-    "title": "联合国：不必等风险完全厘清，各国应提前管控 AI 智能体 - IT之家",
-    "title_en": "UN Calls for Pre‑emptive Governance of AI Agents Before Risks Are Fully Clarified",
+    "title": "OpenAI CEO 奥尔特曼将在联合国演讲，倡议建立全球 AI 标准 - IT之家",
+    "title_en": "OpenAI CEO Sam Altman to Speak at the UN, Calling for Global AI Standards",
     "hashtags": [
-      "#AIRegulation",
-      "#GlobalPolicy",
-      "#AITrust"
+      "#OpenAI",
+      "#AIStandards",
+      "#UN",
+      "#Governance"
     ],
     "source_name": "IT之家",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "UN pre‑emptive AI governance guidance alerts Hong Kong professionals, employers and regulators to upcoming policy trends, prompting early compliance planning for AI deployments.",
+    "reason": "Highlights forthcoming global AI standards discussed at the UN, guiding Hong Kong employers, HR professionals, and compliance teams to align data‑privacy practices and avoid regulatory penalties in cross‑border operations.",
     "micro_personas": [
-      "Corporate compliance officer preparing AI policy",
-      "Legal advisor for SMEs evaluating AI risk"
+      "Compliance officer in multinational firm",
+      "HR manager handling data privacy"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "OpenAI + Global Standards",
+      "UN AI Governance + Policy"
+    ]
+  },
+  {
+    "i": 25,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "OpenRouter发布 2026 嵌入模型选型指南：实测 19 款、 37 个目录条目，按场景把最佳候选摆上桌",
+    "title_en": "OpenRouter Releases 2026 Embedding Model Selection Guide: 19 Models Tested Across 37 Use‑Case Categories",
+    "hashtags": [
+      "#Embeddings",
+      "#RAG",
+      "#ModelSelection",
+      "#AIInfrastructure"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Offers a vetted comparison of 19 embedding models, giving Hong Kong developers and SME data teams concrete performance and cost metrics to select optimal APIs for semantic search, RAG, and multilingual indexing.",
+    "micro_personas": [
+      "Backend developer building semantic search",
+      "SME data analyst integrating RAG"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Embedding models + Performance",
+      "OpenRouter + API selection"
+    ]
+  },
+  {
+    "i": 26,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "AI｜从生产到经营，AI如何重塑出海竞争链路 - 36氪出海",
+    "title_en": "From Production to Operations: How AI Is Redesigning the Overseas Competitive Chain",
+    "hashtags": [
+      "#AITransformation",
+      "#GlobalBusiness",
+      "#SupplyChain",
+      "#CompetitiveEdge"
+    ],
+    "source_name": "36氪出海",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Demonstrates AI‑driven redesign of production‑to‑operations pipelines, providing Hong Kong exporters and local SMEs actionable use‑cases to boost efficiency, reduce costs, and stay competitive in overseas markets.",
+    "micro_personas": [
+      "Export manager of Hong Kong SME",
+      "Operations analyst in logistics firm"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI + Supply Chain",
+      "Overseas Competition + Automation"
+    ]
+  },
+  {
+    "i": 27,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "​DeepSeek 传将向联合国安理会闭门通报 AI 潜在风险与安全挑战",
+    "title_en": "DeepSeek to Brief the UN Security Council on AI Risks and Safety Challenges",
+    "hashtags": [
+      "#AIrisks",
+      "#SecurityCouncil",
+      "#DeepSeek",
+      "#AIethics"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Alerts Hong Kong elderly users and professional sectors to emerging AI safety threats, emphasizing deep‑fake scams and model misuse, prompting immediate adoption of verification tools and heightened cybersecurity awareness.",
+    "micro_personas": [
+      "Elderly community center coordinator",
+      "Financial analyst concerned about AI fraud"
     ],
     "agent_signal": true,
     "automation_level": 0,
     "history_queries": [
-      "UN + IssueGuidance",
-      "HK Regulators + Review"
+      "AI risks + UN briefing",
+      "DeepSeek + Safety challenges"
+    ]
+  },
+  {
+    "i": 28,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周” - 量子位",
+    "title_en": "Huizhi Intelligence Launches Hellome: China's First FDE Direct-Connect Intelligent Service Platform, Cutting AI Delivery Cycle to Weeks",
+    "hashtags": [
+      "#AIPlatform",
+      "#ToolAccess",
+      "#RapidDeployment",
+      "#Innovation"
+    ],
+    "source_name": "量子位",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Hellome’s fast‑track FDE direct‑connect platform lets Hong Kong SMEs and developers prototype AI services within weeks, accelerating product rollout and reducing time‑to‑market costs.",
+    "micro_personas": [
+      "HK startup founder prototyping AI features",
+      "HK software developer integrating AI APIs"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Hellome + Launch",
+      "FDE Platform + Deploy"
+    ]
+  },
+  {
+    "i": 29,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "世卫组织发布重磅报告，呼吁全面升级医疗 AI 研究伦理监管",
+    "title_en": "WHO Releases Major Report Urging Comprehensive Upgrade of Medical AI Research Ethics and Regulation",
+    "hashtags": [
+      "#AIethics",
+      "#HealthAI",
+      "#Regulation",
+      "#PublicTrust"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "WHO’s ethics and regulation report gives Hong Kong health‑tech firms, hospitals and policy makers clear guidelines to align AI medical research with local data protection and fairness standards.",
+    "micro_personas": [
+      "HK hospital compliance officer",
+      "HK health AI researcher"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "WHO + PublishReport",
+      "MedicalAI + Regulate"
+    ]
+  },
+  {
+    "i": 30,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "虎鲸文娱发布“鲸锐AI”，布局AI影视制作与管理平台",
+    "title_en": "Orca Entertainment Unveils \"JingRui AI\" Platform for AI-Powered Film Production and Management",
+    "hashtags": [
+      "#AIFilm",
+      "#CreativeTools",
+      "#SMEProductivity",
+      "#MediaTech"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "JingRui AI offers Hong Kong film SMEs a unified AI production workflow, cutting trial‑and‑error video generation and streamlining multi‑role collaboration for faster project delivery.",
+    "micro_personas": [
+      "HK indie filmmaker managing post‑production",
+      "HK media studio project manager"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Orca Entertainment + LaunchJingRuiAI",
+      "FilmProduction + Automate"
+    ]
+  },
+  {
+    "i": 31,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "谷歌前安全负责人警告：AI 对儿童的伤害恐超社交媒体",
+    "title_en": "Former Google Safety Chief Warns AI Could Harm Children More Than Social Media",
+    "hashtags": [
+      "#AIsafety",
+      "#ChildProtection",
+      "#Trust",
+      "#TechResponsibility"
+    ],
+    "source_name": "AI新闻资讯",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "The safety chief’s warning highlights AI‑related child‑harm risks, prompting Hong Kong parents, educators and child‑focused product teams to implement stricter monitoring and safeguards.",
+    "micro_personas": [
+      "HK parent monitoring child’s AI usage",
+      "HK school IT administrator"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "Google Safety Chief + Warn",
+      "AI + ChildSafety"
     ]
   },
   {
     "i": 32,
     "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "贾跃亭的 FF 一口气发布九款 EAI 机器人，最贵超 92 万元",
-    "title_en": "FF Unveils Nine EAI Robots, Top Model Priced Over 920,000 Yuan",
+    "ai1_suggestion": "industry_change",
+    "title": "消息称豆包调整Chat团队与后训练资源，对话模型业务进入结构优化阶段",
+    "title_en": "Doubao Adjusts Chat Team and Post-Training Resources, Entering Structural Optimization Phase",
     "hashtags": [
-      "#EAI",
-      "#Robotics",
-      "#EnterpriseAI",
-      "#EducationTech"
+      "#AIProduct",
+      "#TeamRestructure",
+      "#RealWorldUse",
+      "#IndustryShift"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The robots are ultra‑expensive and not yet available in Hong Kong, offering limited practical benefit to local SMEs, schools or professionals."
+    "reject_reason": "The news reports internal team cuts at Doubao without introducing new AI capabilities or deployment benefits for Hong Kong users, offering limited practical relevance."
   },
   {
     "i": 33,
-    "category": "real_use",
+    "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "特斯拉得州超级工厂钢结构接近完工，Optimus产线建设加速",
-    "title_en": "Tesla Texas Gigafactory Steel Structure Near Completion, Optimus Robot Line Accelerates",
+    "title": "​江西首个 Token 工厂正式落地南昌高新区，聚合超 300 款主流大模型",
+    "title_en": "Jiangxi's First Token Factory Launches in Nanchang High-Tech Zone, Aggregating Over 300 Major Large Models",
     "hashtags": [
-      "#Tesla",
-      "#Optimus",
-      "#RoboticsManufacturing",
-      "#IndustrialAI"
+      "#AIInfrastructure",
+      "#TokenFactory",
+      "#LargeModels",
+      "#SmartManufacturing",
+      "#DigitalTransformation"
     ],
     "source_name": "AI新闻资讯",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Tesla’s large‑scale Optimus robot production demonstrates feasible mass‑manufactured humanoid automation, informing Hong Kong manufacturers and SMEs about future robot adoption pathways.",
+    "reason": "The Token Factory offers low‑cost, high‑performance compute for large‑model training, enabling Hong Kong SMEs and freelance developers to prototype AI solutions without heavy capital outlay.",
     "micro_personas": [
-      "Factory automation manager evaluating robot adoption",
-      "SME owner exploring advanced robotics solutions"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Tesla + BuildFactory",
-      "HK Manufacturers + AssessRobotics"
-    ]
-  },
-  {
-    "i": 34,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "阶跃甩出 Step 5 Preview：600B 稀疏 MoE 只激活 27B，把开源旗舰的性价比边界往外推了一格",
-    "title_en": "Step 5 Preview Launches 600B Sparse MoE Model, Activating Only 27B Parameters",
-    "hashtags": [
-      "#SparseMoE",
-      "#AIModel",
-      "#Efficiency",
-      "#OpenSourceAI"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "The open‑source 600B Sparse MoE model offers Hong Kong developers a cost‑effective high‑capacity AI backbone, enabling local startups to launch advanced services without massive compute spend.",
-    "micro_personas": [
-      "AI researcher training large models",
-      "Startup engineer deploying AI services"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Step5Preview + Release",
-      "HK Developers + AdoptModel"
-    ]
-  },
-  {
-    "i": 35,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
-    "title_en": "OpenAI Releases Six Hallucination Reports Revealing Reproducible Model Overreach Mechanisms",
-    "hashtags": [
-      "#AITransparency",
-      "#ModelHallucination",
-      "#Safety",
-      "#OpenAI"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Highlights reproducible hallucination mechanisms, enabling HK elderly users and corporate professionals to recognize AI misbehavior and implement verification steps, reducing trust risks in daily assistant interactions.",
-    "micro_personas": [
-      "Elderly user relying on AI assistants",
-      "Corporate IT security officer"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "OpenAI + PublishHallucinationReport",
-      "AIModel + ExhibitHallucination"
-    ]
-  },
-  {
-    "i": 36,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "用《我的世界》测 GPT-6 Astra：141 小时直播，一只苦力怕让 AI 陷入“种土豆”循环",
-    "title_en": "Minecraft Marathon Tests GPT-6 Astra for 141 Hours, Uncovering Long‑Term Planning Behaviors",
-    "hashtags": [
-      "#GPT6",
-      "#MinecraftAI",
-      "#RealWorldTesting",
-      "#LongTermPlanning"
-    ],
-    "source_name": "AI新闻资讯",
-    "evidence_status": "independent_report",
-    "decision": "accept",
-    "reason": "Demonstrates GPT‑6 Astra’s long‑term planning in Minecraft, offering HK developers and student researchers concrete insights for building persistent AI agents in games and simulation environments.",
-    "micro_personas": [
-      "Game developer integrating AI NPCs",
-      "AI researcher studying planning"
+      "HK startup founder scaling AI model training",
+      "HK freelance AI developer prototyping generative models"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "GPT-6 + LongTermPlanningTest",
-      "Minecraft + AIBehaviorEvaluation"
+      "Token Factory + Launch",
+      "Large Model Compute + Access"
+    ]
+  },
+  {
+    "i": 34,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "什么？GPT比DeepSeek还便宜了？大模型价格战卷出新高度 - 新浪财经",
+    "title_en": "GPT Becomes Cheaper Than DeepSeek: Large Model Price War Reaches New Heights",
+    "hashtags": [
+      "#AIPriceWar",
+      "#GPT",
+      "#DeepSeek",
+      "#CostReduction",
+      "#ModelPricing"
+    ],
+    "source_name": "新浪财经",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Significant price drop for GPT APIs reduces operating expenses, allowing Hong Kong small businesses and developers to embed conversational AI in products and services affordably.",
+    "micro_personas": [
+      "HK e‑commerce owner integrating chat‑bot",
+      "HK SaaS developer building AI‑enhanced platform"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "GPT API + Pricing",
+      "AI Cost Reduction + Adoption"
+    ]
+  },
+  {
+    "i": 35,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "国产存储重大突破！兆芯ZX86 AI存储方案登顶国际权威评测 - news.mydrivers.com",
+    "title_en": "Domestic Storage Breakthrough: Zhaoxin ZX86 AI Storage Solution Tops International Benchmark Tests",
+    "hashtags": [
+      "#AIStorage",
+      "#Zhaoxin",
+      "#HardwareInnovation",
+      "#Benchmark",
+      "#TechAdvancement"
+    ],
+    "source_name": "news.mydrivers.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The ZX86 AI storage solution demonstrates high‑throughput, low‑latency storage, giving Hong Kong data‑center operators and AI engineers a benchmark for building efficient local AI infrastructure.",
+    "micro_personas": [
+      "HK cloud provider evaluating AI storage",
+      "HK AI researcher needing fast data pipelines"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "AI Storage + Benchmark",
+      "Zhaoxin ZX86 + Performance"
+    ]
+  },
+  {
+    "i": 36,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行 - IT之家",
+    "title_en": "World AI Open Competition (GOAI) Finals and Awards Ceremony Held in Hangzhou",
+    "hashtags": [
+      "#AICompetition",
+      "#GOAI",
+      "#OpenSource",
+      "#Hangzhou",
+      "#Innovation"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Open‑source models showcased at the GOAI finals can be downloaded and reused by Hong Kong developers and students, accelerating local experimentation without licensing barriers.",
+    "micro_personas": [
+      "HK university student accessing open‑source model",
+      "HK developer contributing to community projects"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "GOAI Competition + Open Source",
+      "AI Model + Community Release"
     ]
   },
   {
     "i": 37,
     "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "Aolani与英伟达合作，在东南亚扩建AI算力中心基础设施-36氪 - 36kr.com",
-    "title_en": "Aolani Partners with Nvidia to Expand AI Compute Infrastructure in Southeast Asia",
+    "title": "荣耀 YOYO Claw、小米 miclaw、阶跃终端 AI 三款手机端侧生成式 AI 服务通过网信部门备案 - IT之家",
+    "title_en": "Honor YOYO Claw, Xiaomi Miclaw, and Jietu Terminal AI Mobile Services Pass Cybersecurity Filings",
     "hashtags": [
-      "#AICompute",
-      "#Nvidia",
-      "#Infrastructure",
-      "#SoutheastAsia"
+      "#MobileAI",
+      "#RegulatoryApproval",
+      "#Honor",
+      "#Xiaomi",
+      "#AIApps"
     ],
-    "source_name": "36kr.com",
+    "source_name": "IT之家",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Announces new Nvidia‑backed compute nodes in Southeast Asia, giving HK SMEs and developers on‑demand GPU access to train and deploy models without relocating resources.",
+    "reason": "Regulatory‑cleared mobile AI services provide trusted on‑device generation, reassuring Hong Kong elderly and professionals about data privacy while enabling productivity apps.",
     "micro_personas": [
-      "Startup ML engineer needing GPU clusters",
-      "University researcher running large models"
+      "HK elderly using voice‑assistant on smartphone",
+      "HK office worker using AI note‑taking app"
     ],
     "agent_signal": true,
-    "automation_level": 1,
+    "automation_level": 2,
     "history_queries": [
-      "Nvidia + ExpandComputeInfrastructure",
-      "Aolani + PartnerWithNvidia"
+      "Mobile AI + Cybersecurity Filing",
+      "AI App + Trust"
     ]
   },
   {
     "i": 38,
-    "category": "real_use",
+    "category": "tech_background",
     "ai1_suggestion": "",
-    "title": "中国活跃智能体复合年均增长率将超150%-36氪 - 36kr.com",
-    "title_en": "China’s Active Intelligent Agents Project Over 150% Compound Annual Growth Rate",
+    "title": "AI 驱动能源电力行业智能化变革，彩讯股份打造五大专业能源智能体 - IT之家",
+    "title_en": "AI-Driven Intelligent Transformation in the Energy and Power Industry: Caixun Co. Launches Five Specialized Energy AI Agents",
     "hashtags": [
-      "#AIAgents",
-      "#GrowthRate",
-      "#ChinaAI",
-      "#MarketTrend"
+      "#EnergyAI",
+      "#IndustrialAutomation",
+      "#SmartGrid",
+      "#AIInnovation"
     ],
-    "source_name": "36kr.com",
+    "source_name": "IT之家",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Provides only market growth projection without concrete AI product or deployment details, offering limited actionable insight for HK target groups."
+    "decision": "accept",
+    "reason": "Provides HK energy‑sector developers and utility SMEs insight into modular AI agents for grid optimization, enabling them to prototype similar solutions and assess infrastructure requirements for local smart‑grid projects.",
+    "micro_personas": [
+      "Energy software developer designing predictive maintenance tools",
+      "Utility company IT manager evaluating AI agent integration"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Caixun + Launch",
+      "Energy AI + Deployment"
+    ]
   },
   {
     "i": 39,
-    "category": "safety_trust",
+    "category": "real_use",
     "ai1_suggestion": "",
-    "title": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线",
-    "title_en": "ZCode Issues Apology, Opens Source Code and Initiates Security Audit After Data Safety Concerns",
+    "title": "大力投入 AI 未必真能省钱，麦肯锡报告称智能体或让企业面临更高成本 - IT之家",
+    "title_en": "Heavy AI Investment May Not Cut Costs: McKinsey Report Warns Enterprises Could Face Higher Expenses",
     "hashtags": [
-      "#DataSecurity",
-      "#OpenSource",
-      "#AITrust",
-      "#ZCode"
+      "#AICost",
+      "#BusinessStrategy",
+      "#McKinseyInsights",
+      "#DigitalTransformation"
     ],
-    "source_name": "AI新闻资讯",
+    "source_name": "IT之家",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "ZCode’s open‑source release and third‑party security audit address data‑privacy concerns, allowing HK developers and enterprise IT teams to safely adopt the code‑generation tool.",
+    "reason": "Highlights that aggressive AI spending can raise operational costs, guiding HK SMEs, employers and professionals to conduct rigorous ROI analysis before large‑scale deployments, preventing budget overruns.",
     "micro_personas": [
-      "Developer using ZCode for code generation",
-      "Enterprise IT security manager"
+      "SME CFO assessing AI project ROI",
+      "HR manager planning AI‑driven recruitment automation"
     ],
-    "agent_signal": true,
-    "automation_level": 0,
+    "agent_signal": false,
+    "automation_level": 1,
     "history_queries": [
-      "ZCode + OpenSourceRelease",
-      "ZCode + SecurityAudit"
+      "McKinsey + AI Cost Report",
+      "Enterprise AI + ROI"
     ]
   },
   {
     "i": 40,
-    "category": "safety_trust",
+    "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅",
-    "title_en": "Google Confirms Gemini Model Accessed Real Company Systems During May Security Test",
+    "title": "最高折扣 50%：消息称微软推进 AI 替你“干活”，Copilot 同步变身超级应用 - IT之家",
+    "title_en": "Microsoft Accelerates AI Assistance: Copilot Becomes a Super App with Up to 50% Discount",
     "hashtags": [
-      "#AIsecurity",
-      "#Gemini",
-      "#Google",
-      "#DataBreach",
-      "#RiskManagement"
+      "#MicrosoftCopilot",
+      "#AIProductivity",
+      "#SuperApp",
+      "#DiscountDeal"
     ],
-    "source_name": "AI新闻资讯",
+    "source_name": "IT之家",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Elderly and professional users in Hong Kong must be warned of Gemini’s unauthorized data access, prompting immediate security reviews and stricter AI usage policies to protect personal and corporate information.",
+    "reason": "Microsoft’s 50% Copilot discount lowers entry barriers, allowing HK office workers and SMEs to adopt AI‑assisted writing, data analysis and workflow automation, boosting productivity without heavy upfront costs.",
     "micro_personas": [
-      "IT security manager in a multinational firm",
-      "Senior professional relying on AI productivity tools"
+      "Office employee using Copilot for document drafting",
+      "SME IT administrator provisioning Copilot licenses"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Microsoft + Copilot Discount",
+      "AI Productivity + Adoption"
+    ]
+  },
+  {
+    "i": 42,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "六大跨国银行联合发出警告：AI代理购物或成主流但信任危机仍待解决- 电子商务 - cnBeta.COM",
+    "title_en": "Six Global Banks Warn: AI Shopping Agents May Become Mainstream Amid Ongoing Trust Crisis",
+    "hashtags": [
+      "#AITrust",
+      "#EcommerceAI",
+      "#BankWarning",
+      "#ConsumerSafety"
+    ],
+    "source_name": "cnBeta.COM",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Bank consortium warning flags AI shopping agents’ trust gaps, urging HK elderly and professionals to verify authenticity, adopt security practices, and monitor for deep‑fake scams in e‑commerce transactions.",
+    "micro_personas": [
+      "Elderly consumer using voice‑assistant for online shopping",
+      "Financial compliance officer monitoring AI agent risks"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Google + SecurityTest",
-      "Gemini + DataBreach"
+      "Global Banks + AI Shopping Warning",
+      "Consumer Trust + AI Agents"
     ]
   },
   {
-    "i": 41,
+    "i": 43,
     "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "亚马逊Bedrock官宣接入Kimi K3，中国大模型首次以分成模式进入全球云渠道 - 搜狐网",
-    "title_en": "Amazon Bedrock Announces Integration of Kimi K3, First Chinese LLM Joined Global Cloud via Revenue‑Sharing Model",
+    "title": "【网经社AI科普】腾讯元宝：混元大模型助手 深度集成微信生态 - 潮新闻客户端",
+    "title_en": "Tencent Yuanbao: Mixed-Model AI Assistant Deeply Integrated into the WeChat Ecosystem",
     "hashtags": [
-      "#AmazonBedrock",
-      "#KimiK3",
-      "#LLM",
-      "#CloudAI",
-      "#RevenueSharing"
+      "#TencentAI",
+      "#WeChatIntegration",
+      "#AIAssistant",
+      "#DigitalEcosystem"
     ],
-    "source_name": "搜狐网",
+    "source_name": "潮新闻客户端",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Developers and SME leaders in Hong Kong can now access the Chinese Kimi K3 model via Amazon Bedrock’s revenue‑sharing cloud, enabling cost‑effective AI integration without upfront licensing fees.",
+    "reason": "Tencent Yuanbao’s deep WeChat integration offers HK users an on‑platform AI assistant for translation, scheduling and content creation, empowering office workers, parents and developers to streamline daily tasks within an ecosystem.",
     "micro_personas": [
-      "Full‑stack developer building AI‑enhanced features",
-      "SME CTO evaluating cloud AI services"
+      "WeChat power user leveraging Yuanbao for quick translations",
+      "Developer building mini‑programs that call Yuanbao APIs"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Amazon + BedrockIntegration",
-      "KimiK3 + RevenueSharing"
+      "Tencent + Yuanbao Integration",
+      "WeChat + AI Assistant"
     ]
   },
   {
     "i": 44,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "华为云码道上线鸿蒙编码大模型 面向鸿蒙开发者全面升级 - 雷峰网",
-    "title_en": "Huawei Cloud Launches CodeWay Harmony Coding Large Model for Developers",
-    "hashtags": [
-      "#HuaweiCloud",
-      "#CodeWay",
-      "#HarmonyOS",
-      "#DeveloperTools",
-      "#AIcoding"
-    ],
-    "source_name": "雷峰网",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Hong Kong HarmonyOS developers can leverage Huawei Cloud’s CodeWay model to auto‑generate code, accelerating app development cycles and reducing manual coding effort across enterprise projects.",
-    "micro_personas": [
-      "HarmonyOS mobile app developer",
-      "DevOps engineer automating code reviews"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "HuaweiCloud + CodeWayLaunch",
-      "HarmonyOS + AIcoding"
-    ]
-  },
-  {
-    "i": 45,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "欧洲央行官员：AI 收益怎么分配，会直接影响通胀走势 - IT之家",
-    "title_en": "ECB Official Says AI Profit Distribution Will Directly Influence Inflation Trends",
-    "hashtags": [
-      "#ECB",
-      "#AIRegulation",
-      "#ProfitSharing",
-      "#Inflation",
-      "#Policy"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "ECB’s AI profit‑distribution outlook is EU‑centric, offering limited direct impact or actionable guidance for Hong Kong businesses and local regulatory considerations."
-  },
-  {
-    "i": 46,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "Grok 4.7上线带来基准提升| AI快讯详情 - blockchain.news",
-    "title_en": "Grok 4.7 Released with Benchmark Improvements",
-    "hashtags": [
-      "#Grok",
-      "#AIUpdate",
-      "#Benchmark",
-      "#Performance",
-      "#AInews"
-    ],
-    "source_name": "blockchain.news",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "SMEs and content teams in Hong Kong can adopt Grok 4.7’s improved benchmarks to boost AI‑generated text quality, enhancing customer support and marketing efficiency with faster response times.",
-    "micro_personas": [
-      "Marketing content writer using AI for copy",
-      "SME owner deploying AI chat support"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Grok + BenchmarkUpdate",
-      "AIModel + PerformanceBoost"
-    ]
-  },
-  {
-    "i": 47,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "港科百创|\"香港科大-哇牛\"2026人工智能百万奖金国际创业大赛决赛隆重举行 - IT之家",
-    "title_en": "Hong Kong University of Science and Technology's \"WowCow\" Hosts the Grand Finale of the 2026 AI Million-Dollar International Startup Competition",
-    "hashtags": [
-      "#AICompetition",
-      "#StartupFunding",
-      "#HongKongTech",
-      "#Innovation",
-      "#Entrepreneurship"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Primarily a competition announcement lacking concrete AI product details and immediate local utility."
-  },
-  {
-    "i": 48,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "预训练Token消耗直接腰斩！上海AI Lab&上交大提出全新预训练任务，开源首个8.9B隐空间大模型NCP-ArchPreview - 新浪财经",
-    "title_en": "Token Consumption Halved in Pre‑training: Shanghai AI Lab & Shanghai Jiao Tong University Release New Pre‑training Task and Open‑source 8.9B Parameter NCP‑ArchPreview Model",
-    "hashtags": [
-      "#OpenSourceAI",
-      "#Pretraining",
-      "#TokenEfficiency",
-      "#LargeModel",
-      "#AIResearch"
-    ],
-    "source_name": "新浪财经",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Open‑source 8.9B NCP‑ArchPreview model halves token consumption, enabling Hong Kong developers and SMEs to build cost‑effective generative AI services.",
-    "micro_personas": [
-      "AI developer creating a SaaS chatbot",
-      "SME tech lead prototyping AI‑enhanced product"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "NCP‑ArchPreview + Release",
-      "Shanghai AI Lab + Publish"
-    ]
-  },
-  {
-    "i": 49,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "AI 帮银行省钱：法国兴业银行预计最多可省下 6 亿欧元成本 - IT之家",
-    "title_en": "AI Helps Banks Cut Costs: Société Générale Projects Up to €600 Million Savings",
-    "hashtags": [
-      "#AICostSaving",
-      "#BankingAI",
-      "#FinancialEfficiency",
-      "#AIImpact",
-      "#BusinessOptimization"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Société Générale’s AI‑driven cost‑saving case shows banks can cut millions, offering Hong Kong financial institutions a proven efficiency blueprint.",
-    "micro_personas": [
-      "Bank operations manager implementing AI workflow",
-      "Risk analyst evaluating AI cost‑reduction tools"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Société Générale + Project Savings",
-      "Banking AI + Deploy"
-    ]
-  },
-  {
-    "i": 50,
     "category": "safety_trust",
     "ai1_suggestion": "",
-    "title": "长三角安全人工智能安徽省实验室发布星界、星驭、星鉴三大AI安全解决方案 - 量子位",
-    "title_en": "Yangtze River Delta AI Safety Lab in Anhui Unveils Three AI Safety Solutions: StarRealm, StarDrive, and StarInsight",
+    "title": "有爱无碍 数智同行 湖北移动持续完善无障碍通信服务 - 搜狐网",
+    "title_en": "Love Without Barriers: Hubei Mobile Continues to Improve Accessible Communication Services",
     "hashtags": [
-      "#AISafety",
-      "#TrustworthyAI",
-      "#SecuritySolutions",
-      "#AIRegulation",
-      "#TechInnovation"
+      "#Accessibility",
+      "#InclusiveTech",
+      "#DigitalEquality",
+      "#HubeiMobile"
     ],
-    "source_name": "量子位",
+    "source_name": "搜狐网",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The new AI safety suite (StarRealm, StarDrive, StarInsight) addresses trust and security, critical for Hong Kong elderly users and professionals handling sensitive data.",
+    "reason": "The accessible communication service model can be adopted by Hong Kong telecoms to provide real‑time captioning and voice‑to‑text calls, directly benefiting elderly and disabled users in daily interactions.",
     "micro_personas": [
-      "Elderly‑care technology manager",
-      "Corporate compliance officer overseeing AI use"
+      "Elderly user relying on voice‑to‑text call service",
+      "Disabled office worker needing real‑time captioning"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "AI Safety Lab + Launch Solutions",
-      "StarInsight + Publish"
+      "Hubei Mobile + Accessibility",
+      "HK Telecom + InclusiveTech"
     ]
   },
   {
-    "i": 51,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "亚马逊Bedrock接入Kimi K3 月之暗面分成模式落地 - guandian.cn",
-    "title_en": "Amazon Bedrock Integrates Kimi K3 with Revenue‑Sharing Model Implementation",
-    "hashtags": [
-      "#AmazonBedrock",
-      "#AIPlatform",
-      "#KimiK3",
-      "#RevenueSharing",
-      "#CloudAI"
-    ],
-    "source_name": "guandian.cn",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Amazon Bedrock’s integration of Kimi K3 with a revenue‑share model gives Hong Kong developers affordable access to advanced language models.",
-    "micro_personas": [
-      "Startup founder building AI‑driven SaaS",
-      "Cloud engineer deploying AI services on Bedrock"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Amazon Bedrock + Integrate Kimi",
-      "Kimi K3 + Revenue Sharing"
-    ]
-  },
-  {
-    "i": 53,
-    "category": "work_sme",
-    "ai1_suggestion": "",
-    "title": "自治区工商联人工智能委员会面向中小微企业首场普惠AI培训在乌市举办 - 手机新浪网",
-    "title_en": "First Inclusive AI Training for Small and Micro Enterprises Held in Urumqi by the AI Committee of the Regional Federation of Industry and Commerce",
-    "hashtags": [
-      "#AITraining",
-      "#SMEs",
-      "#DigitalInclusion",
-      "#HongKongImpact"
-    ],
-    "source_name": "手机新浪网",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Provides Hong Kong SMEs and office workers with practical AI training methods, enabling immediate workflow automation, cost‑saving tools, and digital inclusion strategies directly applicable to local micro‑enterprise operations.",
-    "micro_personas": [
-      "SME owner seeking AI-driven marketing automation",
-      "Office manager implementing AI workflow tools"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "SME + Attend AI Training",
-      "AI Committee + Deliver Workshops"
-    ]
-  },
-  {
-    "i": 54,
+    "i": 45,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "合规保供、降本增效 京东工业携手合作伙伴让工业大模型落地创造价值 - 驱动之家",
-    "title_en": "JD Industrial Partners with Allies to Deploy Large-Scale Industrial AI Models for Cost Reduction and Efficiency",
+    "title": "以“Token经营”普惠千家万户天翼数字生活公司亮相2026年中国国际信息通信展-AI云资讯 - icloudnews.net",
+    "title_en": "Token-Based Business Model Brings Affordable Digital Life Services to Millions at 2026 China International ICT Expo",
     "hashtags": [
-      "#IndustrialAI",
-      "#CostReduction",
-      "#AIImplementation",
-      "#RealWorldUse"
+      "#TokenEconomy",
+      "#DigitalInclusion",
+      "#AffordableTech",
+      "#AICloud"
     ],
-    "source_name": "驱动之家",
+    "source_name": "icloudnews.net",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Token‑based affordable digital life services demonstrate a scalable model for Hong Kong SMEs and families to access AI tools at low cost, encouraging broader digital inclusion.",
+    "micro_personas": [
+      "SME owner deploying token‑priced AI CRM",
+      "Parent using token‑based AI tutoring platform"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "TokenEconomy + AffordableTech",
+      "HK SMEs + DigitalInclusion"
+    ]
+  },
+  {
+    "i": 46,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "Anthropic发布Claude Opus 5.5 性能超前代API价降60% - 亿邦动力网",
+    "title_en": "Anthropic Launches Claude Opus 5.5 with Superior Performance and Cuts API Prices by 60%",
+    "hashtags": [
+      "#Anthropic",
+      "#ClaudeOpus",
+      "#AIPriceDrop",
+      "#API",
+      "#TechInnovation"
+    ],
+    "source_name": "亿邦动力网",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Demonstrates a proven large‑scale industrial AI deployment that Hong Kong manufacturers can replicate to cut production costs, improve efficiency, and integrate AI‑driven predictive maintenance into existing factories.",
+    "reason": "Anthropic’s 60% API price cut makes high‑performance Claude Opus 5.5 financially viable for Hong Kong developers and small enterprises, accelerating AI integration across local products.",
     "micro_personas": [
-      "Manufacturing plant manager optimizing scheduling",
-      "Industrial engineer implementing AI predictive maintenance"
+      "Developer integrating Claude Opus into a mobile app",
+      "SME using Claude for automated customer support"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "JD Industrial + Deploy AI Models",
-      "Partner + Reduce Costs"
+      "Anthropic + API price drop",
+      "Claude Opus + HK developers"
+    ]
+  },
+  {
+    "i": 47,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "软件企业AI产品降价，留住客户以防转投Anthropic、OpenAI - 新浪财经",
+    "title_en": "Software Companies Slash AI Product Prices to Retain Customers and Prevent Migration to Anthropic or OpenAI",
+    "hashtags": [
+      "#AIProduct",
+      "#PriceCut",
+      "#CustomerRetention",
+      "#CompetitivePricing"
+    ],
+    "source_name": "新浪财经",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Domestic software firms’ AI price reductions help Hong Kong businesses retain AI services, preventing migration to larger providers and preserving budget for continued automation projects.",
+    "micro_personas": [
+      "HR professional using AI recruiting tool",
+      "Professional analyst relying on AI analytics platform"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "AI product price cut + CustomerRetention",
+      "HK enterprises + AI cost reduction"
+    ]
+  },
+  {
+    "i": 48,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "消费者起诉平台：App订房比线下贵1倍多 - 新浪财经",
+    "title_en": "Consumers Sue Platform Over Hotel Booking Apps Charging More Than Offline Prices",
+    "hashtags": [
+      "#ConsumerRights",
+      "#PriceTransparency",
+      "#LegalAction",
+      "#TravelApps"
+    ],
+    "source_name": "新浪财经",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The lawsuit over hotel‑booking app price inflation highlights regulatory scrutiny on platform pricing, urging Hong Kong consumer protection agencies and users to demand transparent pricing practices.",
+    "micro_personas": [
+      "Parent booking family travel via app",
+      "Corporate travel manager comparing platform rates"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Platform pricing + ConsumerRights",
+      "HK regulators + TravelApp transparency"
+    ]
+  },
+  {
+    "i": 49,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "火山引擎Seedance2.5上线Draft模式:480P试错、1080P成片，成本最高省77% - AIBase",
+    "title_en": "Volcano Engine Seedance 2.5 Launches Draft Mode: 480p Trial, 1080p Final, Up to 77% Cost Savings",
+    "hashtags": [
+      "#AIProduction",
+      "#CostEfficiency",
+      "#VideoEditing",
+      "#VolcanoEngine"
+    ],
+    "source_name": "AIBase",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK SMEs and office staff can leverage the Draft mode to produce 480p drafts and 1080p final videos, cutting production costs up to 77%, accelerating marketing and internal training content creation.",
+    "micro_personas": [
+      "SME marketing manager creating promotional videos",
+      "Office employee producing internal training clips"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Volcano Engine + Draft Mode Launch",
+      "Video Editing Tool + Cost Savings"
+    ]
+  },
+  {
+    "i": 50,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "GPT-6 Sol与Claude Opus 5.5同日开打，谁是「性价比之王」 - 36kr.com",
+    "title_en": "GPT-6 Sol vs Claude Opus 5.5 Debut Same Day: Who Is the Best Value Champion?",
+    "hashtags": [
+      "#AIComparison",
+      "#CostPerformance",
+      "#GPT6",
+      "#ClaudeOpus"
+    ],
+    "source_name": "36kr.com",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The halved pricing of GPT‑6 Sol and Luna makes high‑performance LLMs affordable for Hong Kong developers and SMEs, enabling cost‑effective AI integration in products and services.",
+    "micro_personas": [
+      "Hong Kong startup founder integrating LLM into SaaS product",
+      "Freelance developer building AI chatbot for local clients"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "OpenAI + GPT‑6 Sol Pricing",
+      "Claude + Opus 5.5 Release"
+    ]
+  },
+  {
+    "i": 51,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "协和长沙湾新校长郑家宝谈价值观教育：家长非旁观者须携手同行 - 香港01",
+    "title_en": "New Principal Zheng Jiabao on Value Education: Parents Must Join the Journey, Not Remain Spectators",
+    "hashtags": [
+      "#ValueEducation",
+      "#ParentEngagement",
+      "#LearningFamily",
+      "#HongKongSchools"
+    ],
+    "source_name": "香港01",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "No AI technology or tool is described; the article focuses solely on educational philosophy, offering no actionable AI utility for Hong Kong families."
+  },
+  {
+    "i": 52,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "消息称苹果搁置研发 AI 吊坠，曾设想以摄像头拓展 Siri 能力 - IT之家",
+    "title_en": "Report: Apple Shelves AI Pendant Project, Previously Planned to Extend Siri via Camera",
+    "hashtags": [
+      "#AppleAI",
+      "#Siri",
+      "#TechShift",
+      "#AIHardware"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The AI pendant project was cancelled, providing no available hardware or software for Hong Kong developers, thus lacking immediate technical relevance or implementation potential."
+  },
+  {
+    "i": 53,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "OpenAI再推两款GPT-6模型：Sol、Luna定价腰斩，Astra能力加速下沉 - 华尔街见闻",
+    "title_en": "OpenAI Introduces Two GPT-6 Models: Sol and Luna with Halved Prices, Astra Accelerates Down‑stream Capabilities",
+    "hashtags": [
+      "#GPT6",
+      "#PriceCut",
+      "#AIAccessibility",
+      "#OpenAI"
+    ],
+    "source_name": "华尔街见闻",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "OpenAI’s new GPT‑6 Sol and Luna models, now at 50% lower prices, give Hong Kong developers and enterprises access to cutting‑edge language capabilities, boosting productivity and downstream AI applications.",
+    "micro_personas": [
+      "Hong Kong AI developer deploying GPT‑6 for content generation",
+      "Enterprise data analyst automating report drafting with new LLM"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "OpenAI + GPT‑6 Model Release",
+      "Astra + Downstream Acceleration"
     ]
   },
   {
     "i": 55,
     "category": "tech_background",
     "ai1_suggestion": "",
-    "title": "硬氪首发｜清华博士团队给机器人大脑换了套新架构，已完成千万级天使融资 - 36kr.com",
-    "title_en": "Tsinghua Doctoral Team Redesigns Robot Brain Architecture, Secures Tens of Millions in Angel Funding",
+    "title": "香港和长三角AI产业加速发展| 香港贸易发展局经贸研究 - HKTDC Research",
+    "title_en": "Hong Kong and the Yangtze River Delta Accelerate AI Industry Development",
     "hashtags": [
-      "#Robotics",
-      "#AIArchitecture",
-      "#TechInnovation",
-      "#Funding"
+      "#AIIndustry",
+      "#HongKongTech",
+      "#YangtzeDelta",
+      "#Innovation",
+      "#EconomicGrowth"
     ],
-    "source_name": "36kr.com",
+    "source_name": "HKTDC Research",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Reveals a novel robot brain architecture offering developers in Hong Kong a fresh neural‑control blueprint, fostering advanced robotics projects and potential open‑source contributions despite early funding stage.",
+    "reason": "Provides HK developers insight into emerging AI infrastructure collaborations with the Yangtze Delta, opening potential access to shared compute resources and talent pipelines.",
     "micro_personas": [
-      "Robotics developer building autonomous drones",
-      "AI researcher prototyping robot cognition"
+      "HK startup developer exploring cross‑regional cloud AI services",
+      "HK research engineer evaluating partnership with Yangtze Delta AI labs"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Tsinghua team + Redesign Robot Brain",
-      "Angel investors + Fund Robotics AI"
+      "AI Industry + Collaboration",
+      "Developers + Infrastructure"
     ]
   },
   {
     "i": 56,
-    "category": "tools_access",
+    "category": "real_use",
     "ai1_suggestion": "",
-    "title": "开源Top2！实测阶跃Step 5 Preview，真有点猛啊… - 量子位",
-    "title_en": "Open‑Source Top‑2 Benchmark: Step 5 Preview Shows Remarkable Performance Gains",
+    "title": "GPT‑6 Astra“杀”入3D世界：AI会创造空间，但不会替代3D设计师 - 36kr.com",
+    "title_en": "GPT-6 Astra Enters the 3D World: AI Will Create Spaces but Won’t Replace 3D Designers",
     "hashtags": [
-      "#OpenSource",
-      "#Benchmark",
-      "#AIModels",
-      "#ToolsAccess"
-    ],
-    "source_name": "量子位",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Highlights an open‑source benchmark that Hong Kong developers can directly download, test, and integrate, delivering immediate performance gains for local AI products and accelerating time‑to‑market.",
-    "micro_personas": [
-      "ML engineer selecting high‑performance model",
-      "Data scientist evaluating open‑source AI for startup"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Open‑source community + Publish Benchmark",
-      "Developers + Test Step 5"
-    ]
-  },
-  {
-    "i": 57,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "国资委：指导推动中央企业加速人工智能在制造业各领域普及应用-36氪 - 36kr.com",
-    "title_en": "State Asset Supervision Commission Directs Central Enterprises to Accelerate AI Adoption Across Manufacturing Sectors",
-    "hashtags": [
-      "#AIRegulation",
-      "#Manufacturing",
-      "#PolicyGuidance",
-      "#ChinaAI"
+      "#GPT6",
+      "#3DDesign",
+      "#AIInnovation",
+      "#CreativeTech",
+      "#DesignFuture"
     ],
     "source_name": "36kr.com",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Outlines new mainland AI adoption directives for state‑owned manufacturers, signaling compliance requirements that Hong Kong subsidiaries must address to align with cross‑border regulatory expectations and secure government incentives.",
+    "reason": "Demonstrates GPT‑6 Astra’s ability to auto‑generate 3D spaces, enabling HK office workers and SMEs to accelerate design drafts and reduce manual modeling time.",
     "micro_personas": [
-      "Compliance officer tracking AI policy",
-      "Strategic planner aligning HK subsidiary AI roadmap"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "State Asset Commission + Issue AI Guidance",
-      "Central enterprises + Accelerate AI Adoption"
-    ]
-  },
-  {
-    "i": 58,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "2026年大模型API聚合平台如何过等保？合规是关键 - CSDN",
-    "title_en": "How Large-Model API Aggregation Platforms Pass Security Compliance: Compliance Is Key",
-    "hashtags": [
-      "#AICompliance",
-      "#SecurityStandards",
-      "#APIPlatform",
-      "#DataProtection"
-    ],
-    "source_name": "CSDN",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Provides concrete compliance checklist for AI API aggregation, enabling HK office workers, SMEs and security officers to safely adopt large‑model services while meeting local data protection expectations.",
-    "micro_personas": [
-      "IT security manager implementing AI APIs in a mid‑size firm",
-      "Senior professional evaluating AI tools for data‑sensitive projects"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "API Platform + PassCompliance",
-      "Large‑Model Provider + SecureIntegration"
-    ]
-  },
-  {
-    "i": 59,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "IDC评估中国AI算力管理平台:范式智能四项维度获满分，综合评分第一 - 量子位",
-    "title_en": "IDC Evaluates China's AI Compute Management Platforms: Paradigm Intelligence Scores Perfectly Across Four Dimensions, Ranking First Overall",
-    "hashtags": [
-      "#AICompute",
-      "#PlatformEvaluation",
-      "#TechBenchmark",
-      "#IDCReport"
-    ],
-    "source_name": "量子位",
-    "evidence_status": "independent_report",
-    "decision": "accept",
-    "reason": "IDC’s benchmark reveals top AI compute management platforms, giving HK developers and startup CTOs clear criteria to select infrastructure that scales cost‑effectively for local AI projects.",
-    "micro_personas": [
-      "Cloud infrastructure engineer assessing compute platforms",
-      "AI startup CTO choosing a management solution"
+      "HK interior designer using AI for concept renders",
+      "HK product manager automating 3D mockups for prototypes"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Compute Platform + ScoreEvaluation",
-      "AI Provider + InfrastructureSelection"
+      "GPT-6 + 3DDesign",
+      "AI + SpaceCreation"
     ]
   },
   {
-    "i": 60,
-    "category": "real_use",
+    "i": 57,
+    "category": "safety_trust",
     "ai1_suggestion": "",
-    "title": "汽车行业首个AI超级智能体「迪迪虾」来了！腾势多款车型即将OTA - 量子位",
-    "title_en": "The Automotive Industry's First AI Super-Intelligent Agent \"Didi Shrimp\" Arrives! Multiple Tengshi Models to Receive OTA Updates",
+    "title": "消息称 DeepSeek 本周参加联合国安理会，讲解 AI 安全风险 - IT之家",
+    "title_en": "DeepSeek to Address AI Safety Risks at United Nations Security Council Meeting",
     "hashtags": [
-      "#AIAgent",
-      "#AutomotiveAI",
-      "#OTAUpdate",
-      "#SmartVehicles"
+      "#AI Safety",
+      "#DeepSeek",
+      "#UNSC",
+      "#RiskManagement",
+      "#GlobalAI"
     ],
-    "source_name": "量子位",
-    "evidence_status": "case_or_test",
+    "source_name": "IT之家",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "The OTA‑delivered ‘Didi Shrimp’ agent demonstrates real‑world vehicle AI integration, offering HK automotive professionals and fleet operators a template for deploying intelligent agents in local car models.",
+    "reason": "Highlights DeepSeek’s UN briefing on AI safety, alerting HK professionals and elderly users to emerging deep‑fake and misinformation threats requiring heightened vigilance.",
     "micro_personas": [
-      "Automotive software engineer integrating AI agents",
-      "Fleet manager planning AI‑enhanced vehicle upgrades"
+      "HK financial analyst monitoring AI‑generated market rumors",
+      "HK senior citizen using AI chat assistants"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "DeepSeek + Safety",
+      "UNSC + AI Risk"
+    ]
+  },
+  {
+    "i": 58,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "后摩智能确认其下代大模型端边 AI 芯片采用 3D CIM 存算一体架构 - IT之家",
+    "title_en": "HouMo Intelligence Confirms Next-Gen AI Chip Uses 3D CIM Compute-in-Memory Architecture",
+    "hashtags": [
+      "#AIChip",
+      "#3DCIM",
+      "#HardwareInnovation",
+      "#EdgeAI",
+      "#TechAdvancement"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Announces a next‑gen edge AI chip with 3D CIM architecture, giving HK developers and SMEs a path to lower latency and power‑efficient inference for on‑device AI.",
+    "micro_personas": [
+      "HK edge‑AI startup engineer evaluating new chip",
+      "HK hardware developer integrating 3D‑CIM memory into products"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "AI Agent + OTAUpdate",
-      "Vehicle Model + IntelligentFeatureDeployment"
+      "AI Chip + 3DCIM",
+      "EdgeAI + Hardware"
+    ]
+  },
+  {
+    "i": 59,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "逾七成美国人担忧 AI 公司防控不力，超半数支持放缓开发 - IT之家",
+    "title_en": "Over 70% of Americans Concerned About AI Companies' Safety Measures, Majority Support Slowing Development",
+    "hashtags": [
+      "#AITrust",
+      "#PublicOpinion",
+      "#AIRegulation",
+      "#SafetyConcerns",
+      "#TechPolicy"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The poll only reports US public sentiment without concrete safety vulnerabilities or actionable guidance for HK elderly or professionals."
+  },
+  {
+    "i": 60,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "软件企业降价推销AI产品，防止客户转投Anthropic、OpenAI - 新浪财经",
+    "title_en": "Software Companies Slash Prices on AI Products to Prevent Customers Switching to Anthropic and OpenAI",
+    "hashtags": [
+      "#AIPriceWar",
+      "#CompetitivePricing",
+      "#CustomerRetention",
+      "#AIProducts"
+    ],
+    "source_name": "新浪财经",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The price cuts lower AI API costs, enabling Hong Kong SMEs and freelance developers to adopt advanced models without budget strain, accelerating automation of routine tasks and product innovation.",
+    "micro_personas": [
+      "HK SME owner evaluating AI SaaS",
+      "Freelance developer integrating AI APIs"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Software Companies + Slash Prices",
+      "HK SMEs + Adopt AI"
     ]
   },
   {
     "i": 61,
-    "category": "real_use",
+    "category": "regulation_public",
     "ai1_suggestion": "",
-    "title": "精彩抢先看！天翼数字生活公司将携多项成果亮相2026年PT展 - 新浪财经",
-    "title_en": "Preview Highlights: Tianyi Digital Life Company to Showcase Multiple Innovations at the 2026 PT Expo",
+    "title": "联合国秘书长古特雷斯呼吁全球监管人工智能，避免出现杀人机器人 - IT之家",
+    "title_en": "UN Secretary-General Calls for Global AI Regulation to Prevent Killer Robots",
     "hashtags": [
-      "#DigitalLife",
-      "#TechExpo",
-      "#InnovationShowcase",
-      "#PT2026"
+      "#AIRegulation",
+      "#GlobalGovernance",
+      "#AI Ethics",
+      "#Safety"
     ],
-    "source_name": "新浪财经",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The preview lacks specific AI product details or measurable impact, offering no actionable insight for Hong Kong target groups."
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Global regulatory push signals upcoming stricter AI compliance, prompting Hong Kong enterprises and compliance officers to prepare governance frameworks, ensuring data protection and alignment with future local policies.",
+    "micro_personas": [
+      "HK government policy analyst",
+      "Corporate compliance officer in a multinational"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "UN Secretary-General + Call for Regulation",
+      "HK businesses + Prepare Compliance"
+    ]
   },
   {
     "i": 62,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "中国大模型调用量连续20周超美国：AI竞赛进入“成本、调用与智能体”拐点 - 搜狐网",
-    "title_en": "China's Large-Model Call Volume Surpasses the U.S. for 20 Consecutive Weeks: AI Competition Hits a Turning Point in Cost, Calls, and Agents",
+    "title": "体验价 499 元：OPPO 推出“AI 心力球”可穿戴新品，主打“AI 成长教练” - IT之家",
+    "title_en": "OPPO Launches Wearable 'AI Heartball' at 499 Yuan as an AI Growth Coach",
     "hashtags": [
-      "#AIUsage",
-      "#ModelCalls",
-      "#ChinaAI",
-      "#CostTrends"
+      "#AIWearable",
+      "#TechInnovation",
+      "#PersonalGrowth",
+      "#ConsumerAI"
     ],
-    "source_name": "搜狐网",
-    "evidence_status": "thin_or_unclear",
+    "source_name": "IT之家",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Shows sustained surge in large‑model call volume and cost dynamics, alerting HK developers and SMEs to upcoming pricing pressures and encouraging early optimisation of API usage.",
+    "reason": "OPPO’s AI‑powered wearable offers a personal growth coach, giving Hong Kong students and professionals a portable tool for habit tracking and skill development, enhancing daily productivity and learning outcomes.",
     "micro_personas": [
-      "Developer monitoring API cost trends",
-      "SME owner planning AI service budgeting"
+      "University student using AI coach for study planning",
+      "Young professional leveraging wearable for productivity"
     ],
-    "agent_signal": false,
-    "automation_level": 1,
+    "agent_signal": true,
+    "automation_level": 2,
     "history_queries": [
-      "Model Call Volume + TrendAnalysis",
-      "AI Service + CostOptimization"
+      "OPPO + Launch AI Wearable",
+      "HK users + Adopt Personal Growth Tool"
     ]
   },
   {
     "i": 63,
-    "category": "tools_access",
+    "category": "safety_trust",
     "ai1_suggestion": "",
-    "title": "2026年国内商用大模型中转平台盘点：选型必读攻略 - CSDN",
-    "title_en": "2026 Domestic Commercial Large Model Intermediary Platforms Review: A Must-Read Guide for Selection",
+    "title": "首批！奇安信率先获得国家级人工智能安全服务资质 - 同花顺财经",
+    "title_en": "Qihoo 360 Becomes First to Obtain National AI Security Service Qualification",
     "hashtags": [
-      "#AIPlatforms",
-      "#LargeModels",
-      "#EnterpriseAI",
-      "#TechGuide",
-      "#ChinaAI"
+      "#AISafety",
+      "#SecurityCertification",
+      "#AITrust",
+      "#NationalStandard"
     ],
-    "source_name": "CSDN",
+    "source_name": "同花顺财经",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The platform guide details access methods, pricing tiers, and integration steps for commercial large‑model services, enabling Hong Kong developers, SMEs and entrepreneurs to quickly adopt AI APIs for product and workflow automation.",
+    "reason": "Qihoo 360’s national AI security certification validates its services, allowing Hong Kong enterprises and elderly‑focused app providers to trust its safeguards, reducing risk of data breaches and deep‑fake scams.",
     "micro_personas": [
-      "Startup founder evaluating AI APIs for a new SaaS product",
-      "Mid‑size enterprise IT manager integrating large‑model services into internal tools"
+      "IT security manager at a Hong Kong SME",
+      "Product manager for elderly‑focused AI app"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Qihoo 360 + Obtain AI Security Qualification",
+      "HK firms + Evaluate Trusted AI Providers"
+    ]
+  },
+  {
+    "i": 64,
+    "category": "safety_trust",
+    "ai1_suggestion": "public_perception",
+    "title": "路透社民调：近四分之三美国人认为 AI 公司在防止灾难方面做得不够 - IT之家",
+    "title_en": "Reuters Poll: Nearly Three-Quarters of Americans Say AI Companies Aren’t Doing Enough to Prevent Disasters",
+    "hashtags": [
+      "#AITrust",
+      "#PublicConcern",
+      "#AIResponsibility",
+      "#RiskManagement"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The poll reflects US public opinion only and offers no concrete security vulnerability or actionable guidance for Hong Kong stakeholders, thus limited local utility."
+  },
+  {
+    "i": 65,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "智谱，榜单登顶！马斯克“点赞” - 同花顺财经",
+    "title_en": "Zhipu Tops Rankings, Elon Musk Gives a 'Like' – Tonghuashun Finance",
+    "hashtags": [
+      "#AILeaderboard",
+      "#ZhipuAI",
+      "#ElonMusk",
+      "#TechTrends",
+      "#AIAdoption"
+    ],
+    "source_name": "同花顺财经",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Zhipu AI’s top ranking signals broader API availability, enabling Hong Kong developers and SMEs to trial a high‑performance Chinese language model with immediate cloud access.",
+    "micro_personas": [
+      "Hong Kong developer building multilingual chatbot",
+      "SME owner integrating AI customer support"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Zhipu AI + Access",
+      "Hong Kong developers + API trial"
+    ]
+  },
+  {
+    "i": 66,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "GPT-6 Sol对决Claude Opus 5.5 同日上线AI大模型谁是真正性价比之王 - eu.36kr.com",
+    "title_en": "GPT-6 vs Claude Opus 5.5 Launched Same Day: Who Offers the Best Value?",
+    "hashtags": [
+      "#GPT6",
+      "#ClaudeOpus",
+      "#AIComparison",
+      "#CostPerformance",
+      "#LargeModels"
+    ],
+    "source_name": "eu.36kr.com",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "The cost‑performance comparison of GPT‑6 and Claude Opus 5.5 gives Hong Kong startups clear pricing benchmarks, helping them select a cheaper yet powerful model for product development.",
+    "micro_personas": [
+      "Startup founder evaluating AI model costs",
+      "Freelance developer choosing API for SaaS tool"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Large Model Platform + Selection",
-      "AI API + Pricing"
+      "GPT‑6 pricing + Evaluation",
+      "Claude Opus + Cost analysis"
+    ]
+  },
+  {
+    "i": 67,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "联合国 AI 专家反对 AI 末日论，呼吁理性讨论 - IT之家",
+    "title_en": "UN AI Experts Reject Apocalyptic Narratives, Call for Rational Discussion",
+    "hashtags": [
+      "#AIethics",
+      "#UN",
+      "#RationalDebate",
+      "#AIRegulation",
+      "#TechPolicy"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "UN experts’ call for rational AI discourse highlights emerging global regulatory sentiment, guiding Hong Kong policy makers and corporate compliance teams in future rule‑making.",
+    "micro_personas": [
+      "Government policy analyst monitoring AI standards",
+      "Corporate compliance officer preparing for new regulations"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "UN AI + Regulation",
+      "Hong Kong policy + AI governance"
+    ]
+  },
+  {
+    "i": 68,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "美银等多家银行警告：“AI 代购”或增加诈骗、欺诈和数据隐私泄露风险 - IT之家",
+    "title_en": "Banking Giants Warn AI‑Powered Shopping May Boost Fraud, Scams, and Data Leaks",
+    "hashtags": [
+      "#AIFraud",
+      "#DataPrivacy",
+      "#BankWarnings",
+      "#AIrisks",
+      "#ConsumerProtection"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Bank warnings about AI‑driven shopping scams expose a direct fraud risk for Hong Kong elderly and professionals, prompting immediate security awareness and protective measures.",
+    "micro_personas": [
+      "Elderly consumer using online marketplaces",
+      "Financial advisor advising clients on digital safety"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "AI shopping + Fraud warning",
+      "Hong Kong elderly + Scam prevention"
+    ]
+  },
+  {
+    "i": 69,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "极光 GPTBots.ai 接入 Jev：给企业 AI 装上「快思考」层 - 手机新浪网",
+    "title_en": "Aurora GPTBots.ai Integrates with Jev to Give Enterprises a ‘Fast‑Thinking’ Layer",
+    "hashtags": [
+      "#EnterpriseAI",
+      "#GPTBots",
+      "#JevIntegration",
+      "#BusinessProductivity",
+      "#AIInnovation"
+    ],
+    "source_name": "手机新浪网",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Aurora GPTBots integration offers a fast‑thinking AI layer that Hong Kong SMEs can embed to automate routine decisions, boosting office worker productivity and HR workflow speed.",
+    "micro_personas": [
+      "SME manager automating internal reports",
+      "HR professional using AI for candidate shortlisting"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "GPTBots + Enterprise integration",
+      "Hong Kong SMEs + Workflow automation"
+    ]
+  },
+  {
+    "i": 70,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "AI 助力古籍修复：Apollo 大语言模型问世，专门用于解读古希腊莎草纸残片 - IT之家",
+    "title_en": "AI Assists Ancient Book Restoration: Apollo Large Language Model Launched to Decode Greek Papyrus Fragments",
+    "hashtags": [
+      "#AIHeritage",
+      "#DigitalRestoration",
+      "#AncientTexts",
+      "#LLM",
+      "#CulturalPreservation"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Enables Hong Kong university researchers and museum curators to automatically transcribe and interpret fragmented Greek papyri, accelerating heritage studies and supporting academic curricula without needing specialist linguists.",
+    "micro_personas": [
+      "University researcher analyzing ancient texts",
+      "Museum curator digitizing heritage artifacts"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Apollo Model + Decode Papyrus",
+      "HK University + Heritage Research"
+    ]
+  },
+  {
+    "i": 71,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "30 余年历史太空媒体 Space Daily 被 AI“接管”，虚构 NASA 工程师批量生成垃圾内容 - IT之家",
+    "title_en": "30-Year-Old Space Media 'Space Daily' Hijacked by AI, Mass-Generating Fake NASA Engineer Content",
+    "hashtags": [
+      "#AIgeneratedFake",
+      "#Misinformation",
+      "#SpaceMedia",
+      "#ContentIntegrity",
+      "#AIethics"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Highlights a new AI‑generated misinformation vector that could deceive Hong Kong elderly internet users and professional journalists, prompting immediate verification protocols and deep‑fake detection safeguards.",
+    "micro_personas": [
+      "Elderly social media user",
+      "Professional journalist"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Space Daily + Hijack",
+      "HK Media Outlet + Misinformation"
+    ]
+  },
+  {
+    "i": 72,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "10万美元的DGX Station有多猛？700B大模型跑到100 token/s - zhiding.cn",
+    "title_en": "How Powerful Is a $100,000 DGX Station? Runs a 700B Model at 100 Tokens per Second",
+    "hashtags": [
+      "#AIHardware",
+      "#DGXStation",
+      "#HighPerformance",
+      "#LargeModels",
+      "#ComputePower"
+    ],
+    "source_name": "zhiding.cn",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Shows the performance of a $100k DGX workstation capable of running 700B models, informing Hong Kong AI startups and university labs about hardware investment thresholds for large‑scale inference.",
+    "micro_personas": [
+      "AI startup CTO evaluating hardware",
+      "University lab researcher"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "DGX Station + Benchmark",
+      "HK AI Startup + Hardware Evaluation"
+    ]
+  },
+  {
+    "i": 73,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "AI 也搞“同行评审”？曝 OpenAI 与 Anthropic 曾讨论互测彼此模型 - IT之家",
+    "title_en": "AI Peer Review? Reports Reveal OpenAI and Anthropic Discussed Mutual Model Testing",
+    "hashtags": [
+      "#AIcollaboration",
+      "#ModelEvaluation",
+      "#OpenAI",
+      "#Anthropic",
+      "#AIResearch"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "Reveals OpenAI‑Anthropic peer‑review talks, offering Hong Kong developers insight into emerging model‑testing standards and collaborative safety frameworks that can be adopted in local AI pipelines.",
+    "micro_personas": [
+      "Developer building AI safety pipelines",
+      "Researcher studying model benchmarking"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "OpenAI + Model Peer Review",
+      "HK Developer + Safety Framework Adoption"
+    ]
+  },
+  {
+    "i": 74,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "首部演员授权 AI 长剧：爱奇艺网剧《不羡鸳鸯只羡仙》官宣，沈羽洁、陈鹤一主演，网友直呼诡异 - IT之家",
+    "title_en": "First Actor-Authorized AI Long-Form Drama Announced: iQIYI's Series 'Not Envying Ducks, Only Envying Immortals'",
+    "hashtags": [
+      "#AICreative",
+      "#AIDrama",
+      "#iQIYI",
+      "#ActorAuthorization",
+      "#ContentInnovation"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Demonstrates a fully actor‑authorized AI‑generated drama, giving Hong Kong streaming services and independent creators a practical example of AI‑assisted scriptwriting and virtual performance production.",
+    "micro_personas": [
+      "Streaming platform content manager",
+      "Independent filmmaker using AI actors"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "iQIYI + AI Drama Launch",
+      "HK Content Creator + AI Production"
+    ]
+  },
+  {
+    "i": 75,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "艺无形教育：打造 AI 技能综合服务平台助力人才职业升级 - 手机新浪网",
+    "title_en": "Art Without Form Education: Building an Integrated AI Skills Service Platform to Support Talent Career Advancement",
+    "hashtags": [
+      "#AIUpskilling",
+      "#CareerDevelopment",
+      "#TalentPlatform",
+      "#HongKongWorkforce"
+    ],
+    "source_name": "手机新浪网",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "The AI skills service platform offers online, self‑paced courses and career pathways that Hong Kong students, office workers and parents can use to upskill for AI‑driven jobs, enhancing local talent pipelines.",
+    "micro_personas": [
+      "University student seeking AI certification",
+      "Mid‑career office worker planning AI skill transition"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Skills Platform + Launch",
+      "Talent Upskilling + Adoption"
+    ]
+  },
+  {
+    "i": 76,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "OpenAI 呼吁美国牵头联合其他国家为前沿 AI 制定全球性标准 - IT之家",
+    "title_en": "OpenAI Urges the United States to Lead Global Efforts in Setting Frontier AI Standards",
+    "hashtags": [
+      "#AIRegulation",
+      "#GlobalStandards",
+      "#OpenAI",
+      "#Policy"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "OpenAI’s call for global AI standards signals forthcoming compliance requirements that Hong Kong enterprises and legal teams must monitor to align with international data‑privacy and safety norms.",
+    "micro_personas": [
+      "Compliance officer in multinational corporation",
+      "Legal advisor for fintech startup"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "OpenAI + Advocacy",
+      "AI Regulation + Impact"
+    ]
+  },
+  {
+    "i": 77,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "美媒：DeepSeek押注华为晶片训练大模型 - 早晨报",
+    "title_en": "Media Reports: DeepSeek Bets on Huawei Chips to Train Large‑Scale Models",
+    "hashtags": [
+      "#AIHardware",
+      "#Huawei",
+      "#DeepSeek",
+      "#ModelTraining"
+    ],
+    "source_name": "早晨报",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "DeepSeek’s partnership with Huawei chips shows a cost‑effective hardware route for training large models, giving Hong Kong developers and AI startups a viable alternative to Western GPUs.",
+    "micro_personas": [
+      "AI startup CTO evaluating hardware",
+      "ML researcher building large‑scale model"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "DeepSeek + Chip Partnership",
+      "Large Model Training + Hardware Choice"
+    ]
+  },
+  {
+    "i": 78,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "美国加州出手严管 AI 数据中心，州长一口气签署 7 项法案 - IT之家",
+    "title_en": "California Cracks Down on AI Data Centers, Governor Signs Seven Restrictive Bills",
+    "hashtags": [
+      "#AIRegulation",
+      "#DataCenters",
+      "#CaliforniaLaw",
+      "#Privacy"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "California’s strict AI data‑center laws highlight privacy risks and data‑residency concerns that Hong Kong cloud providers and enterprises must address to avoid regulatory pitfalls.",
+    "micro_personas": [
+      "Data protection officer in cloud services firm",
+      "IT manager of multinational corporation"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "California + AI Data Center Regulation",
+      "Privacy Law + Enforcement"
+    ]
+  },
+  {
+    "i": 79,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "Palantir AIP国内有对标产品吗？五类企业AI平台怎么选 - 手机新浪网",
+    "title_en": "Palantir AIP in China: Are There Domestic Counterparts? How to Choose an AI Platform for Five Types of Enterprises",
+    "hashtags": [
+      "#AIPlatforms",
+      "#EnterpriseAI",
+      "#Palantir",
+      "#ToolSelection"
+    ],
+    "source_name": "手机新浪网",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "The comparison of Palantir AIP with domestic alternatives gives Hong Kong SMEs and larger enterprises concrete criteria for selecting AI platforms, streamlining procurement and implementation.",
+    "micro_personas": [
+      "SME owner evaluating AI tools",
+      "Enterprise IT manager selecting platform"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Palantir AIP + Comparison",
+      "AI Platform + Selection"
+    ]
+  },
+  {
+    "i": 80,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "应对美国晶片出口管制DeepSeek据报押注华为晶片训练AI模型｜即时新闻｜产经｜on.cc东网 - on.cc東網",
+    "title_en": "DeepSeek Bets on Huawei Chips to Train AI Models Amid US Export Controls",
+    "hashtags": [
+      "#AITraining",
+      "#ChipSupply",
+      "#Huawei",
+      "#DeepSeek",
+      "#TechInfrastructure"
+    ],
+    "source_name": "on.cc東網",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "HK AI developers can leverage Huawei’s newly supported chips for cost‑effective model training, provided they navigate US export restrictions, enabling faster prototyping for startups and research labs.",
+    "micro_personas": [
+      "AI startup engineer evaluating hardware",
+      "Research lab data scientist prototyping models"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Huawei + Chip Procurement",
+      "AI Model Training + Cost Reduction"
+    ]
+  },
+  {
+    "i": 81,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "习近平特朗普峰会 面临5大AI难题 - 财经 - 即时财经 - Sin Chew Daily",
+    "title_en": "Xi and Trump Summit Confronts Five Major AI Challenges",
+    "hashtags": [
+      "#AIPolicy",
+      "#USChina",
+      "#Regulation",
+      "#GlobalAI",
+      "#Summit"
+    ],
+    "source_name": "Sin Chew Daily",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The summit outlines five cross‑border AI regulatory challenges, giving HK compliance teams early insight to adjust data‑handling policies and align with emerging US‑China AI governance frameworks.",
+    "micro_personas": [
+      "Compliance officer at multinational corporation",
+      "Legal advisor for fintech startup"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "US-China AI Policy + Impact",
+      "HK Data Protection + Regulation Update"
+    ]
+  },
+  {
+    "i": 82,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市 - IT之家",
+    "title_en": "Alibaba's Pingtouge Launches Zhenwu V900 AI Chip and Announces New Server for Q1 Next Year",
+    "hashtags": [
+      "#AICodec",
+      "#ChipLaunch",
+      "#Alibaba",
+      "#ServerHardware",
+      "#TechInnovation"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Alibaba’s Zhenwu V900 chip and upcoming server provide HK SMEs with locally produced high‑performance AI accelerators, reducing reliance on imported GPUs and lowering total cost of ownership for edge AI services.",
+    "micro_personas": [
+      "SME data scientist evaluating on‑prem AI server",
+      "Developer building edge inference solution"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Alibaba Chip + Market Entry",
+      "AI Server + Cost Analysis"
+    ]
+  },
+  {
+    "i": 83,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "人工智能促进健康全球倡议2026年会召开，讯飞医疗以数智实践助力全球医疗AI治理体系共建 - 雷峰网",
+    "title_en": "Global AI Health Initiative 2026: iFlytek Medical Advances Digital Governance of Healthcare AI",
+    "hashtags": [
+      "#AIHealth",
+      "#DigitalGovernance",
+      "#MedicalAI",
+      "#GlobalInitiative",
+      "#iFlytek"
+    ],
+    "source_name": "雷峰网",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "The global AI health initiative highlights governance standards and potential deep‑fake diagnostic risks, prompting HK elderly users and healthcare professionals to demand transparent AI validation and stronger data privacy safeguards.",
+    "micro_personas": [
+      "Elderly user of AI health monitoring app",
+      "Healthcare professional evaluating AI diagnostic tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "AI Health Governance + Standards",
+      "Deepfake Risks + Medical AI"
+    ]
+  },
+  {
+    "i": 84,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石 - 量子位",
+    "title_en": "Alibaba Commits to AI Model, Chip, and Cloud Foundations in the Machine Intelligence Era",
+    "hashtags": [
+      "#AIInvestment",
+      "#Alibaba",
+      "#AIChip",
+      "#AICloud",
+      "#MachineIntelligence"
+    ],
+    "source_name": "量子位",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Alibaba’s triple‑pillar AI strategy signals expanded cloud AI services and chip availability, enabling HK developers to integrate scalable models and on‑prem hardware without leaving the domestic ecosystem.",
+    "micro_personas": [
+      "Developer planning SaaS on Alibaba Cloud",
+      "Startup founder assessing AI infrastructure investment"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Alibaba Cloud + AI Service Expansion",
+      "AI Chip Availability + HK Market"
+    ]
+  },
+  {
+    "i": 86,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW - IT之家",
+    "title_en": "Alibaba's Wu Yongming: Fully Investing in AI Infrastructure, Aiming for Over 20GW Global Data Center Capacity by 2032",
+    "hashtags": [
+      "#AIInfrastructure",
+      "#CloudComputing",
+      "#AlibabaCloud",
+      "#DataCenter",
+      "#TechInvestment"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Lacks concrete AI tool availability details; only outlines future infrastructure investment without immediate utility for HK users."
+  },
+  {
+    "i": 87,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "我国活跃智能体已近500 万个，到 2030 年中国AI 算力市场规模或暴增300% - IT之家",
+    "title_en": "China's Active AI Agents Near 5 Million; AI Compute Market Could Surge 300% by 2030",
+    "hashtags": [
+      "#AICompute",
+      "#MarketGrowth",
+      "#ChinaTech",
+      "#ArtificialIntelligence",
+      "#FutureForecast"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Provides market forecast rather than specific technical changes; offers no actionable insight for HK developers or businesses."
+  },
+  {
+    "i": 88,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "百度智能云忻舟：产业智能体驱动AI成为真正经济力量 - 通信世界网",
+    "title_en": "Baidu Smart Cloud's Xin Zhou: Industrial AI Agents Driving AI into Real Economic Power",
+    "hashtags": [
+      "#IndustrialAI",
+      "#BaiduCloud",
+      "#EconomicImpact",
+      "#AIAdoption",
+      "#SmartEnterprise"
+    ],
+    "source_name": "通信世界网",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Baidu Cloud's industrial AI agents demonstrate measurable productivity gains in manufacturing, enabling HK SMEs to automate quality inspection and predictive maintenance, reducing labor costs and boosting output efficiency.",
+    "micro_personas": [
+      "SME manufacturing manager automating quality checks",
+      "Operations engineer implementing predictive maintenance"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Baidu Cloud + Industrial AI",
+      "HK SMEs + Automation"
+    ]
+  },
+  {
+    "i": 89,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "从《AI安全治理框架3.0》看产业趋势：数据“不解密、不暴露”成大模型入局刚需 - 新浪财经",
+    "title_en": "Insights from AI Safety Governance Framework 3.0: Data Must Remain Unencrypted and Unexposed as a Core Requirement for Large Models",
+    "hashtags": [
+      "#AISafety",
+      "#Governance",
+      "#DataPrivacy",
+      "#LargeModels",
+      "#Regulation"
+    ],
+    "source_name": "新浪财经",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The AI Safety Governance Framework 3.0 mandates that large models handle data without decryption or exposure, alerting HK professionals and elderly users to privacy risks when using AI services.",
+    "micro_personas": [
+      "Financial analyst evaluating AI vendor compliance",
+      "Elderly user concerned about personal data in AI chatbots"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "AI Governance + Data Privacy",
+      "HK Professionals + Compliance"
+    ]
+  },
+  {
+    "i": 90,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」 - 量子位",
+    "title_en": "Inspur Breaks the AI Compute Ceiling, Easing Capacity Anxiety Without Relying on Stacking GPUs",
+    "hashtags": [
+      "#AICompute",
+      "#Inspur",
+      "#TechBreakthrough",
+      "#CapacityAnxiety",
+      "#HardwareInnovation"
+    ],
+    "source_name": "量子位",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Inspur's new AI accelerator architecture eliminates the need for GPU stacking, lowering hardware costs and latency, enabling HK developers and SMEs to deploy AI models more affordably and at scale.",
+    "micro_personas": [
+      "Startup AI engineer optimizing model inference costs",
+      "SME IT manager evaluating affordable AI hardware"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Inspur + AI accelerator",
+      "HK Developers + Cost reduction"
+    ]
+  },
+  {
+    "i": 91,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "亚马逊开始成为Kimi的印钞机 - 投资界",
+    "title_en": "Amazon Becomes Kimi's Money Printer",
+    "hashtags": [
+      "#Amazon",
+      "#KimiAI",
+      "#AIInfrastructure",
+      "#CloudComputing"
+    ],
+    "source_name": "投资界",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK office workers and SMEs can instantly access Amazon‑hosted Kimi AI via cloud APIs, enabling low‑code automation and rapid prototyping without local hardware investment.",
+    "micro_personas": [
+      "HK SME founder automating product demos",
+      "HK office analyst generating summary reports with Kimi"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Amazon + Kimi API",
+      "HK SMEs + AI compute"
+    ]
+  },
+  {
+    "i": 92,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "Snapchat 社交平台更新 Lens+ 订阅服务，新增“聊天消息转歌曲”等多项生成式 AI 功能 - IT之家",
+    "title_en": "Snapchat Updates Lens+ Subscription with New Generative AI Features",
+    "hashtags": [
+      "#Snapchat",
+      "#LensPlus",
+      "#GenerativeAI",
+      "#SocialMedia"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Snapchat Lens+ generative features let HK creators and marketers embed AI‑driven audio content directly into chats, boosting engagement for local campaigns and student projects.",
+    "micro_personas": [
+      "HK social media marketer creating AI‑enhanced ads",
+      "HK university student turning chat messages into music for presentations"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Snapchat + Lens+ subscription",
+      "HK creators + generative AI"
+    ]
+  },
+  {
+    "i": 93,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽 - IT之家",
+    "title_en": "FuriosaAI Unveils Next-Gen Inference Accelerator with 32× Compute and Bandwidth",
+    "hashtags": [
+      "#FuriosaAI",
+      "#AIChip",
+      "#InferenceAccelerator",
+      "#Hardware"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "FuriosaAI’s high‑throughput accelerator offers HK developers a locally hostable inference solution, reducing latency for edge AI services in fintech and smart city apps.",
+    "micro_personas": [
+      "HK AI hardware startup evaluating inference chips",
+      "HK research lab deploying low‑latency models"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "FuriosaAI + inference accelerator",
+      "HK developers + edge AI"
+    ]
+  },
+  {
+    "i": 94,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "阿里云百炼部分语音系列模型降价 - 电子工程专辑",
+    "title_en": "Alibaba Cloud Bailei Voice Models Price Reduction",
+    "hashtags": [
+      "#AlibabaCloud",
+      "#Bailei",
+      "#VoiceAI",
+      "#Pricing"
+    ],
+    "source_name": "电子工程专辑",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Alibaba Cloud’s Bailei voice model price cut gives HK SMEs and app developers affordable speech‑AI, enabling cost‑effective customer‑service bots and multilingual voice features.",
+    "micro_personas": [
+      "HK call‑center manager integrating voice AI",
+      "HK app developer adding voice commands"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Alibaba Cloud + Bailei pricing",
+      "HK developers + voice AI"
+    ]
+  },
+  {
+    "i": 96,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "全球老龄化加速，数字鸿沟如何破？韩、法、澳三国交出适老化服务“实践答卷” - AgeClub",
+    "title_en": "Accelerating Global Aging: Korea, France, and Australia Showcase Age-Friendly Digital Services",
+    "hashtags": [
+      "#AgingPopulation",
+      "#DigitalInclusion",
+      "#AgeFriendly",
+      "#TechForElderly"
+    ],
+    "source_name": "AgeClub",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article describes service models without specific security or privacy risks, offering limited actionable safety guidance for HK elderly or professionals."
+  },
+  {
+    "i": 97,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "黄仁勋回应或缴税540亿：我不怕缴税，只怕变穷；马斯克深夜放大招，新模型Grok 4.7上线；特斯拉机器人团队在长三角审厂，多家企业获订单 - 雷峰网",
+    "title_en": "NVIDIA CEO Jensen Huang Responds to Possible 54 Billion Tax Payment: ‘I’m Not Afraid of Paying Taxes, Only of Becoming Poor’; Elon Musk Launches New Model Grok 4.7 Late at Night; Tesla Robot Team Inspects Factories in the Yangtze River Delta, Multiple Companies Secure Orders",
+    "hashtags": [
+      "#TaxPolicy",
+      "#AIModelRelease",
+      "#RoboticsIndustry",
+      "#BusinessAdoption",
+      "#TechNews"
+    ],
+    "source_name": "雷峰网",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The launch of Grok 4.7 and Tesla’s factory‑robot deployments provide Hong Kong SMEs and developers with ready‑to‑use AI models and automation hardware, enabling cost‑effective process optimization and advanced language services.",
+    "micro_personas": [
+      "SME manufacturing manager implementing robot inspection",
+      "Developer building AI‑enhanced customer support with Grok 4.7"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Grok 4.7 + Integration",
+      "Tesla Robots + Factory Inspection"
     ]
   }
 ]
