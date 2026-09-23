@@ -55,7 +55,7 @@ Client confidence relies on verifiable engineering facts. Claims align with veri
 
 ## 2.3 Duplicate Booking Handling
 - Each client or enterprise organization is entitled to only one free consultation session.
-- If the booking system detects a duplicate reservation, the system will automatically reject the booking.
+- If the booking system detects a duplicate reservation, the frontend calendar interface will display a rejection message and automatically reject the booking.
 - If the client wishes to arrange a paid consultation, they should contact this service directly.
 
 ## 3. Human Escalation Sentinel
