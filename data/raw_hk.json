@@ -4,53 +4,43 @@
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "住宅區「電動自行車」停放處起火劣質鋰電池成隱患 熱失控問題防不勝防 - 電腦領域HKEPC Hardware",
-    "title_en": "Residential Area Electric Bike Parking Fires Due to Poor-Quality Lithium Batteries, Thermal Runaway Risks",
+    "title_en": "Fire Breaks Out at Residential E‑Bike Parking Area Due to Poor‑Quality Lithium Batteries, Highlighting Thermal Runaway Risks",
     "hashtags": [
-      "#BatterySafety",
+      "#EVSafety",
+      "#LithiumBattery",
       "#FireRisk",
-      "#ConsumerProtection",
-      "#LithiumIssues"
+      "#ConsumerProtection"
     ],
     "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Highlights thermal‑runaway risk of low‑quality e‑bike batteries in residential blocks, prompting building managers and elderly residents to enforce stricter storage policies and adopt fire‑safety monitoring solutions.",
-    "micro_personas": [
-      "Building manager overseeing fire safety",
-      "Elderly resident concerned about apartment safety"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "Hong Kong Housing Authority + Issue Safety Guidelines",
-      "Battery Suppliers + Recall Alerts"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The incident concerns lithium‑battery fire safety and contains no AI component, offering no actionable AI insight for Hong Kong audiences."
   },
   {
     "i": 2,
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "本地｜沙嶺數據園區啟航 香港加快布局AI算力基建 - Yahoo 財經",
-    "title_en": "Local: Sha Ling Data Park Launches, Hong Kong Accelerates AI Compute Infrastructure Deployment",
+    "title_en": "Local: Shaling Data Park Launches, Hong Kong Accelerates AI Compute Infrastructure Deployment",
     "hashtags": [
       "#AIInfrastructure",
-      "#ComputePower",
+      "#DataCenter",
       "#HongKongTech",
-      "#DataPark"
+      "#ComputePower"
     ],
     "source_name": "Yahoo 財經",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Sha Ling Data Park’s new AI compute facilities give Hong Kong SMEs and developers on‑premise GPU clusters, reducing reliance on overseas cloud and cutting project costs for local AI initiatives.",
+    "reason": "Provides Hong Kong SMEs and office workers immediate access to high‑performance AI GPUs, enabling faster model training, data analytics, and cost‑effective cloud alternatives for daily operations.",
     "micro_personas": [
-      "Startup CTO needing scalable GPU resources",
-      "University AI researcher requiring local high‑performance compute"
+      "SME data analyst automating reports",
+      "Office IT manager provisioning AI workloads"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 3,
     "history_queries": [
-      "Sha Ling Data Park + Launch",
-      "Hong Kong Government + AI Infrastructure Support"
+      "Shaling Data Park + Launch",
+      "AI Compute Infrastructure + Hong Kong"
     ]
   },
   {
@@ -60,59 +50,59 @@
     "title": "Citi Engages Future Leaders Through Mastercard AI Digital Safari Program in New York #Citibank - Media OutReach Newswire",
     "title_en": "Citi Engages Future Leaders Through Mastercard AI Digital Safari Program in New York",
     "hashtags": [
-      "#AITraining",
       "#FutureLeaders",
-      "#DigitalSafari",
+      "#AIProgram",
+      "#CareerDevelopment",
       "#Citi"
     ],
     "source_name": "Media OutReach Newswire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The program is an overseas training event with no immediate deployment or cost impact for Hong Kong businesses, offering limited practical value to local target groups."
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Connects Hong Kong students and young professionals with real‑world AI use cases, enhancing career prospects and fostering entrepreneurship through exposure to multinational fintech AI solutions.",
+    "micro_personas": [
+      "University senior studying data science",
+      "Junior fintech analyst seeking AI certification"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Citi + AI Digital Safari",
+      "Mastercard + Future Leaders"
+    ]
   },
   {
     "i": 4,
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "淘寶買 Toshiba 蒸焗爐 開箱一插即壞送修 拆機驚見零件變沙樽 - unwire",
-    "title_en": "Unboxing a Faulty Toshiba Steam Oven Bought on Taobao – Immediate Failure and Broken Parts Revealed",
+    "title_en": "Unboxing a Faulty Toshiba Steam Oven Bought on Taobao: Device Breaks Instantly, Inside Reveals Sand‑Filled Components",
     "hashtags": [
       "#ProductFailure",
-      "#ConsumerAlert",
-      "#Toshiba",
-      "#Unboxing"
+      "#ConsumerReview",
+      "#ECommerce",
+      "#QualityControl"
     ],
     "source_name": "unwire",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "A faulty Toshiba steam oven sold on Taobao failed instantly, exposing consumers to fire hazards; parents and elderly shoppers should verify product authenticity and prefer certified local retailers.",
-    "micro_personas": [
-      "Parent purchasing kitchen appliances online",
-      "Elderly homeowner concerned about product safety"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "Taobao Marketplace + Quality Issues",
-      "Consumer Protection Agency + Product Safety Alerts"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Product failure review lacks AI relevance; it does not involve artificial intelligence, thus provides no AI‑related utility for local stakeholders."
   },
   {
     "i": 5,
     "category": "tech_background",
     "ai1_suggestion": "",
     "title": "「ROG 20 週年慶典 」活動完滿結束邀請 100 位 ROG 香港粉絲 共襄盛舉 - 電腦領域HKEPC Hardware",
-    "title_en": "ROG 20th Anniversary Celebration Concludes, 100 ROG Fans in Hong Kong Joined the Event",
+    "title_en": "ROG 20th Anniversary Celebration Concludes, Bringing Together 100 ROG Fans in Hong Kong",
     "hashtags": [
       "#ROGAnniversary",
       "#GamingCommunity",
-      "#HongKongFans",
-      "#TechEvent"
+      "#HongKongEvents",
+      "#TechFans"
     ],
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article reports a gaming fan event without technical details on AI models or infrastructure, offering no actionable insight for developers or other Hong Kong target audiences."
+    "reject_reason": "The ROG anniversary event focuses on gaming community activities without AI content, offering no AI‑centric value to Hong Kong target groups."
   },
   {
     "i": 8,
@@ -127,18 +117,18 @@
       "#DigitalTransformation"
     ],
     "source_name": "香港01",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "AI-powered e‑commerce tools let Hong Kong SMEs automate product listings, pricing, and customer service, while flexible financing accelerates online expansion, directly benefiting owners and marketing staff.",
+    "reason": "HK SMEs can immediately adopt AI-driven cataloguing and dynamic pricing to boost online sales, reducing manual effort and leveraging flexible funding for rapid digital expansion.",
     "micro_personas": [
-      "SME owner managing online store",
-      "Marketing manager automating product listings"
+      "SME owner managing online storefront",
+      "Office worker handling product uploads"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "SME + AI E-commerce",
-      "Funding + Online Business"
+      "SME + Adopt AI e‑commerce",
+      "SME + Secure funding"
     ]
   },
   {
@@ -150,13 +140,13 @@
     "hashtags": [
       "#ProductSafety",
       "#ConsumerProtection",
-      "#Liability",
-      "#Taobao"
+      "#Taobao",
+      "#CarbonMonoxide"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "No AI technology involved; purely a product safety incident lacking relevance to AI security or trust concerns for Hong Kong audience."
+    "reject_reason": "The incident concerns product safety without any AI component, offering no AI‑related insight for Hong Kong audiences."
   },
   {
     "i": 10,
@@ -166,23 +156,23 @@
     "title_en": "Yidou’s SuFeng Info Supports Launch of Fudan‑PolyU Hong Kong‑Shanghai AI Medical Lab, Partnering with Prof. Zhang Wenhong’s Team",
     "hashtags": [
       "#AIMedicine",
-      "#ComputePower",
+      "#ComputingPower",
       "#HealthcareInnovation",
-      "#Collaboration"
+      "#ChinaTech"
     ],
     "source_name": "Macau Business",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The AI medical lab provides Hong Kong clinicians with real‑time diagnostic models and data‑driven treatment recommendations, improving patient outcomes and streamlining hospital workflows for doctors and researchers.",
+    "reason": "HK hospitals and researchers can leverage the new AI‑medical lab to process imaging data faster, improving patient outcomes and enabling local clinicians to adopt cutting‑edge diagnostic tools.",
     "micro_personas": [
-      "Hospital AI specialist deploying diagnostic models",
-      "Clinician using AI decision‑support tools"
+      "Clinical researcher integrating AI diagnostics",
+      "Hospital IT manager deploying AI compute resources"
     ],
     "agent_signal": true,
-    "automation_level": 4,
+    "automation_level": 3,
     "history_queries": [
-      "AI Medical Lab + Deployment",
-      "Healthcare + Compute Power"
+      "Healthcare + AI imaging",
+      "Research + Compute power"
     ]
   },
   {
@@ -190,53 +180,53 @@
     "category": "regulation_public",
     "ai1_suggestion": "",
     "title": "國慶論壇聚焦AI算力與產業落地 張曼莉深入解讀十五五創科藍圖 - 香港01",
-    "title_en": "National Day Forum Highlights AI Compute and Industry Deployment; Zhang Manli Interprets the 15‑Year Innovation Blueprint",
+    "title_en": "National Day Forum Highlights AI Computing Power and Industry Deployment; Zhang Manli Interprets the 15‑Year Innovation Blueprint",
     "hashtags": [
-      "#AICompute",
-      "#IndustryPolicy",
-      "#InnovationBlueprint",
-      "#TechStrategy"
+      "#AIPolicy",
+      "#ComputingPower",
+      "#Industry4.0",
+      "#InnovationPlan"
     ],
     "source_name": "香港01",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Insights from the forum outline new AI compute regulations and funding schemes, helping Hong Kong startups and SMEs plan compliant infrastructure investments and leverage government incentives for AI projects.",
+    "reason": "HK enterprises must monitor new AI computing‑power regulations to align investments, ensuring compliance and accessing government incentives that support AI integration across manufacturing and services.",
     "micro_personas": [
-      "Compliance officer monitoring AI policy",
-      "Startup founder planning AI infrastructure"
+      "Corporate strategy officer evaluating AI incentives",
+      "Compliance manager tracking AI regulation"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "AI Regulation + Hong Kong",
-      "SME + Compliance Planning"
+      "Industry + AI policy",
+      "Business + Compliance AI"
     ]
   },
   {
     "i": 12,
-    "category": "tools_access",
+    "category": "real_use",
     "ai1_suggestion": "",
     "title": "人形機械人變身攝影師 稱可到火山邊緣洞穴拍攝 真人攝影師免冒險 - unwire",
-    "title_en": "Humanoid Robot Becomes Photographer, Able to Capture Shots at Volcanic Edge Caves, Replacing Human Risk‑Takers",
+    "title_en": "Humanoid Robot Becomes Photographer, Able to Capture Shots at Volcanic Edge Caves, Replacing Human Photographers in Hazardous Situations",
     "hashtags": [
       "#Robotics",
       "#AIPhotography",
-      "#RiskFree",
+      "#HazardousWork",
       "#Innovation"
     ],
     "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "The humanoid robot photographer can be deployed to hazardous locations, offering Hong Kong media crews and freelance shooters safe, high‑quality image capture without exposing personnel to danger.",
+    "reason": "HK media and tourism firms can deploy AI‑enabled robots for dangerous shoots, cutting human risk and lowering costs while delivering unique visual content for marketing.",
     "micro_personas": [
-      "Freelance photographer needing remote shoots",
-      "Media production manager automating risky location coverage"
+      "Creative director planning extreme location shoot",
+      "Robotics technician operating AI camera robot"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "Humanoid Robot + Photography",
-      "Media Crew + Hazardous Shoot"
+      "Photography + AI robot",
+      "Media + Hazardous shooting"
     ]
   },
   {
@@ -244,27 +234,27 @@
     "category": "regulation_public",
     "ai1_suggestion": "",
     "title": "有片｜法律AI助力跨境合規 天工閱卷賦能中國—東盟法治互通 - 香港商报",
-    "title_en": "Legal AI Boosts Cross‑Border Compliance, Empowering China‑ASEAN Judicial Cooperation",
+    "title_en": "Legal AI Boosts Cross-Border Compliance, Enhancing China-ASEAN Judicial Connectivity",
     "hashtags": [
       "#LegalAI",
-      "#CrossBorder",
-      "#Compliance",
+      "#CrossBorderCompliance",
       "#ChinaASEAN",
-      "#JudicialTech"
+      "#RegTech",
+      "#JudicialCooperation"
     ],
     "source_name": "香港商报",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Legal AI platform streamlines cross‑border compliance for Hong Kong firms engaging with China‑ASEAN markets, reducing manual review time and helping HR and compliance officers ensure regulatory alignment.",
+    "reason": "Provides Hong Kong law firms, corporate legal teams, and compliance officers a ready‑to‑use AI tool to streamline China‑ASEAN regulatory checks, reducing manual review time and error risk for faster cross‑border transactions.",
     "micro_personas": [
-      "Compliance Officer handling China‑ASEAN contracts",
-      "Legal counsel for SME expanding into ASEAN"
+      "Corporate legal analyst reviewing ASEAN contracts",
+      "Compliance officer managing cross‑border regulatory filings"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "Legal AI + Deploy",
-      "Compliance Team + Review"
+      "Legal AI + Compliance",
+      "Regulators + CrossBorder"
     ]
   },
   {
@@ -272,64 +262,64 @@
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "阿里雲拓海外布局，擴建歐洲與中東等數據中心- 新聞 - MoneyDJ",
-    "title_en": "Alibaba Cloud Expands Overseas, Building New Data Centers in Europe and the Middle East",
+    "title_en": "Alibaba Cloud Expands Overseas, Building Data Centers in Europe and the Middle East",
     "hashtags": [
       "#AlibabaCloud",
       "#DataCenter",
-      "#CloudInfrastructure",
       "#GlobalExpansion",
-      "#TechInfrastructure"
+      "#CloudInfrastructure",
+      "#TechGrowth"
     ],
     "source_name": "MoneyDJ",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Alibaba Cloud’s new European and Middle‑East data centres give Hong Kong developers and SMEs low‑latency access to global AI compute, enabling faster model training and reliable multi‑region services.",
-    "micro_personas": [
-      "Full‑stack developer building AI SaaS",
-      "IT manager of a Hong Kong SME seeking multi‑region hosting"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Cloud Service + Expand",
-      "DevOps Team + Deploy"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The announcement concerns cloud infrastructure expansion without specific AI tool or capability, offering no direct AI utility for Hong Kong target groups."
   },
   {
     "i": 16,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
+    "category": "tools_access",
+    "ai1_suggestion": "Consider a dedicated category for media and information freedom",
     "title": "| 獨立媒體 - 獨立媒體",
-    "title_en": "Independent Media Platform Launches New Reporting Initiative",
+    "title_en": "Independent Media Platform Launches New Content Initiative",
     "hashtags": [
       "#IndependentMedia",
       "#PressFreedom",
       "#DigitalNews",
-      "#MediaInnovation",
-      "#PublicInfo"
+      "#ContentCreation",
+      "#MediaLandscape"
     ],
     "source_name": "獨立媒體",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The announcement lacks AI content; it focuses on media reporting initiatives without any AI tool, pricing change, or security implication for Hong Kong audiences."
+    "reject_reason": "The media platform launch focuses on content distribution, lacking any AI component, thus providing no AI‑related value to the defined Hong Kong audiences."
   },
   {
     "i": 17,
     "category": "regulation_public",
     "ai1_suggestion": "",
     "title": "特朗普下令廢除 AI 稱呼 官方文件全面改叫 SI 拒絕全球監管加速發展 - unwire",
-    "title_en": "Trump Orders Removal of ‘AI’ Terminology, Calls It ‘SI’ and Rejects Global Regulation to Accelerate Development",
+    "title_en": "Trump Orders Removal of 'AI' Terminology, Renames to 'SI' and Rejects Global Regulation to Accelerate Development",
     "hashtags": [
-      "#AIRebranding",
+      "#AIRegulation",
       "#PolicyShift",
-      "#RegulationDebate",
       "#TechGovernance",
-      "#USPolitics"
+      "#SI",
+      "#USPolicy"
     ],
     "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "US political rename of AI provides no actionable AI technology or cost impact for Hong Kong stakeholders, offering only policy rhetoric irrelevant to local implementation."
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Alerts Hong Kong professionals, regulators, and senior executives to potential shifts in global AI governance, prompting local policy reviews and heightened vigilance against unchecked AI deployments.",
+    "micro_personas": [
+      "Compliance officer monitoring international AI regulations",
+      "Senior manager evaluating AI governance impact"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Regulation AI + Renaming",
+      "Policy Shift + Governance"
+    ]
   },
   {
     "i": 18,
@@ -340,31 +330,21 @@
     "hashtags": [
       "#Alibaba",
       "#InternationalDataCenter",
-      "#CloudGrowth",
+      "#CloudServices",
       "#TechInfrastructure",
       "#GlobalTech"
     ],
     "source_name": "Macau Business",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Alibaba’s international data‑centre expansion broadens cloud infrastructure options for Hong Kong developers, allowing edge‑located AI workloads and cost‑effective scaling across Europe and the Middle East.",
-    "micro_personas": [
-      "AI engineer optimizing inference latency",
-      "Startup CTO planning global AI service rollout"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Cloud Provider + Launch",
-      "Startup Team + Scale"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The data‑center initiative describes infrastructure expansion without mentioning AI services, offering no actionable AI benefit for Hong Kong users."
   },
   {
     "i": 19,
     "category": "regulation_public",
     "ai1_suggestion": "",
     "title": "慶祝中華人民共和國成立七十七周年香港科技創新界舉辦國慶論壇暨晚宴冠蓋雲集共慶華誕聚焦AI變革深入解讀國家「十五五」規劃及施政報告創科方針 - 香港經濟日報HKET",
-    "title_en": "National Day Forum and Gala Celebrates China's 77th Anniversary, Highlighting AI Transformation and In‑Depth Analysis of the 15th‑5th Five‑Year Plan and Innovation Policies",
+    "title_en": "National Day Forum and Gala Celebrating the 77th Anniversary of the PRC Highlights AI Transformation and In-depth Analysis of the 15th Five-Year Plan and Innovation Policies",
     "hashtags": [
       "#AIPolicy",
       "#NationalDay",
@@ -374,16 +354,16 @@
     "source_name": "香港經濟日報HKET",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Hong Kong compliance officers and policy analysts can align business strategies with China’s 15‑5 AI roadmap, ensuring regulatory conformity and leveraging new innovation incentives.",
+    "reason": "Employers and SMEs can anticipate upcoming regulatory changes, enabling proactive compliance planning and strategic AI investments aligned with the 15‑Year Plan, safeguarding operations in Hong Kong.",
     "micro_personas": [
-      "Compliance Officer in a multinational corporation",
-      "Policy analyst at a Hong Kong fintech firm"
+      "Compliance Officer preparing AI governance reports",
+      "SME owner evaluating AI‑enabled product development"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 1,
     "history_queries": [
-      "Regulation + Impact",
-      "Policy + Compliance"
+      "Hong Kong Government + Publish AI Policy",
+      "SMEs + Adjust Compliance Procedures"
     ]
   },
   {
@@ -391,26 +371,26 @@
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "屯門公路首試無人機配雷射槍偵速 一日內發27張超速告票 - unwire",
-    "title_en": "Tuen Mun Highway Pilots Drone‑Based Laser Speed Enforcement, Issuing 27 Tickets in One Day",
+    "title_en": "Tuen Mun Highway Pilots Drone with Laser Speed Gun, Issuing 27 Speeding Tickets in One Day",
     "hashtags": [
+      "#SmartTraffic",
       "#DroneEnforcement",
       "#RoadSafety",
-      "#SmartTransport",
-      "#PublicSafety"
+      "#TechInTransport"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "The drone‑based laser enforcement raises privacy considerations for Hong Kong’s elderly commuters and professionals, prompting need for data‑security safeguards and public‑trust protocols.",
+    "reason": "Elderly commuters gain safer roads as AI‑driven drone enforcement reduces speeding, while professionals in transport agencies can integrate real‑time data for traffic management in Hong Kong.",
     "micro_personas": [
-      "Traffic enforcement officer overseeing automated tickets",
-      "Privacy‑concerned commuter using personal vehicle"
+      "Traffic Operations Analyst monitoring speed violations",
+      "Community safety officer coordinating road safety campaigns"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "Drone + Enforcement",
-      "Privacy + Surveillance"
+      "Tuen Mun Highway + Deploy Drone",
+      "Transport Department + Issue Speed Tickets"
     ]
   },
   {
@@ -418,7 +398,7 @@
     "category": "work_sme",
     "ai1_suggestion": "",
     "title": "Keeta向香港商戶推出AI經營助手，助降低操作成本及提升經營效率 - 香港商报",
-    "title_en": "Keeta Launches AI Business Assistant for Hong Kong Merchants to Cut Operating Costs and Boost Efficiency",
+    "title_en": "Keeta Launches AI Business Assistant for Hong Kong Merchants to Reduce Operating Costs and Boost Efficiency",
     "hashtags": [
       "#AIBusiness",
       "#SMEProductivity",
@@ -428,16 +408,16 @@
     "source_name": "香港商报",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "HK merchants can deploy Keeta’s AI assistant to automate inventory, pricing, and customer outreach, cutting operating costs and boosting SME productivity.",
+    "reason": "SME retailers can cut operating expenses by 15% using AI‑driven inventory forecasting and automated marketing, boosting profitability for Hong Kong merchants.",
     "micro_personas": [
-      "Small retail shop owner managing stock",
-      "Store manager handling daily promotions"
+      "Retail shop owner managing stock levels",
+      "Marketing manager scheduling AI‑generated promotions"
     ],
     "agent_signal": true,
-    "automation_level": 4,
+    "automation_level": 3,
     "history_queries": [
-      "AI Assistant + CostReduction",
-      "SME + Efficiency"
+      "Keeta + Launch AI Assistant",
+      "Hong Kong merchants + Adopt automation"
     ]
   },
   {
@@ -445,41 +425,41 @@
     "category": "tech_background",
     "ai1_suggestion": "",
     "title": "iPhone 貼保護貼？ Apple 高層坦言渾身不自在 新玻璃抗刮升 3 倍叫停貼膜 - unwire",
-    "title_en": "Apple Execs Admit Discomfort with Screen Protectors as New Glass Is Three Times More Scratch‑Resistant, Reducing Need for Films",
+    "title_en": "Apple Exec Says Protective Film Feels Uncomfortable; New Glass Increases Scratch Resistance Threefold, Reducing Need for Film",
     "hashtags": [
       "#Apple",
-      "#ScreenTech",
       "#DurableGlass",
-      "#ConsumerElectronics"
+      "#ConsumerTech",
+      "#ProductDesign"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article discusses glass durability, lacking AI relevance or implications for developers, thus offering no actionable AI utility for Hong Kong."
+    "reject_reason": "The article discusses new glass durability without any AI component, offering no AI‑related utility for Hong Kong audiences."
   },
   {
     "i": 23,
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "Chinese maker of robot-vacuum sensors launches Hong Kong IPO, undeterred by US ban",
-    "title_en": "Shenzhen Camsense Technologies, Maker of Spatial Sensors for Robot Vacuums, Launches HK IPO Raising About HK$680 Million Despite US Ban",
+    "title_en": "Shenzhen Camsense Technologies, Maker of Robot-Vacuum Sensors, Launches Hong Kong IPO Amid US Ban",
     "hashtags": [
       "#RobotVacuum",
       "#SensorTech",
       "#HKIPO",
-      "#HardwareInnovation"
+      "#TechInvestment"
     ],
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Focuses on sensor IPO and hardware financing, without AI tool access or developer relevance for Hong Kong’s ecosystem."
+    "reject_reason": "The IPO focuses on sensor hardware for robot vacuums, lacking AI relevance and providing no actionable AI insight for Hong Kong stakeholders."
   },
   {
     "i": 24,
-    "category": "tools_access",
+    "category": "tech_background",
     "ai1_suggestion": "",
     "title": "新 Mac 正式開賣 Mac Studio 支援 512GB RAM Mac mini 升級 M6 晶片 - unwire",
-    "title_en": "New Mac Launches with Mac Studio Supporting 512GB RAM and Mac mini Upgraded to M6 Chip",
+    "title_en": "New Mac Officially Launches: Mac Studio Supports 512GB RAM, Mac mini Upgraded with M6 Chip",
     "hashtags": [
       "#Apple",
       "#MacStudio",
@@ -488,20 +468,9 @@
       "#TechNews"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Hong Kong office workers and developers can immediately leverage the new Mac Studio with 512 GB RAM and M6‑chip mini for AI model training, high‑resolution design, and intensive data processing, boosting local productivity.",
-    "micro_personas": [
-      "Senior software engineer running local AI inference",
-      "Office manager using graphic‑design tools"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Apple + Launch",
-      "Mac Studio + Support",
-      "Mac mini + Upgrade"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The announcement concerns hardware upgrades without any AI component, offering no AI‑related utility for Hong Kong target groups."
   },
   {
     "i": 25,
@@ -519,16 +488,16 @@
     "source_name": "City University of Hong Kong",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The conference insight equips Hong Kong IP lawyers, content creators, and entrepreneurs with concrete guidance on AI‑generated content copyright, helping them navigate legal risk and protect intellectual property.",
+    "reason": "Provides Hong Kong employers, HR professionals and entrepreneurs clear guidance on AI‑generated works’ copyright, helping shape compliance policies and risk‑management strategies.",
     "micro_personas": [
-      "IP lawyer advising tech startups",
-      "Content creator evaluating AI‑generated works"
+      "HR manager reviewing AI‑created marketing copy",
+      "Startup founder assessing AI‑driven content licensing"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "Professor He + Discuss",
-      "IP Law Conference + Address"
+      "Professor He + Discusses AI Copyright",
+      "HKIP Law Conference + AI Content"
     ]
   },
   {
@@ -536,127 +505,127 @@
     "category": "learning_family",
     "ai1_suggestion": "",
     "title": "HKGAI推出AI教與學助理HKLearn：本地大模型HKGAI V3驅動首站科大3,000學生註冊、上載24萬份教材 - techapple.com",
-    "title_en": "HKGAI Launches AI Teaching and Learning Assistant HKLearn Powered by Local Large Model HKGAI V3, Registering 3,000 Students and Uploading 240,000 Teaching Materials",
+    "title_en": "HKGAI Launches AI Teaching Assistant HKLearn: Local Large Model HKGAI V3 Powers 3,000 Student Registrations and 240,000 Uploaded Materials",
     "hashtags": [
       "#AIinEducation",
       "#HKLearn",
-      "#LargeModel",
+      "#LargeLanguageModel",
       "#EdTech",
-      "#HongKong"
+      "#StudentSupport"
     ],
     "source_name": "techapple.com",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "HKLearn, powered by a local large model, offers Hong Kong students, parents, and teachers AI‑driven tutoring and curriculum support, directly enhancing learning outcomes and family education workflows.",
+    "reason": "Enables Hong Kong students, parents and teachers to access AI‑driven tutoring and resource organization, reducing study time and supporting personalized learning at scale.",
     "micro_personas": [
-      "High‑school student using HKLearn for math practice",
-      "Parent monitoring child’s study progress"
+      "High‑school student using HKLearn for homework help",
+      "Parent monitoring child’s progress via AI tutoring"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "HKGAI + Launch",
-      "HKLearn + Register"
+      "HKGAI + Launch HKLearn",
+      "Student + AI Tutoring"
     ]
   },
   {
     "i": 27,
-    "category": "safety_trust",
-    "ai1_suggestion": "labor_relations",
+    "category": "work_sme",
+    "ai1_suggestion": "",
     "title": "「機房綠色乖乖」面臨供應危機 乖乖工會以 94% 高票取得罷工權 - 電腦領域HKEPC Hardware",
-    "title_en": "Data Center Workers' Union Secures Strike Rights with 94% Vote Amid Green Energy Supply Crisis",
+    "title_en": "Data Center 'Green Gai Gai' Faces Supply Crisis; Union Secures Strike Rights with 94% Vote",
     "hashtags": [
-      "#DataCenter",
       "#LaborRights",
-      "#GreenEnergy",
-      "#Strike",
+      "#DataCenter",
+      "#SupplyChain",
+      "#UnionVote",
       "#HKTech"
     ],
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The event focuses on labor union strike rights and green‑energy supply, lacking AI security, privacy, or trust relevance for Hong Kong elderly or professional audiences."
+    "reject_reason": "The story focuses on labor union actions and data‑center supply issues, lacking any AI element relevant to Hong Kong audiences."
   },
   {
     "i": 29,
-    "category": "work_sme",
+    "category": "real_use",
     "ai1_suggestion": "",
     "title": "China’s Premier Li Qiang calls for harnessing AI to propel manufacturing advances",
-    "title_en": "China's Premier Li Qiang Calls for Harnessing AI to Accelerate Manufacturing Advancement",
+    "title_en": "China's Premier Li Qiang Calls for Harnessing AI to Accelerate Manufacturing Advances",
     "hashtags": [
       "#AIManufacturing",
       "#IndustrialAI",
       "#ChinaPolicy",
-      "#AdvancedManufacturing",
-      "#AIIntegration"
+      "#TechInnovation",
+      "#SmartFactories"
     ],
     "source_name": "Tech - South China Morning Post",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Premier Li’s call signals upcoming AI incentives for manufacturing, giving Hong Kong SMEs strategic foresight to plan workflow automation and AI‑driven production upgrades.",
+    "reason": "Guides Hong Kong manufacturers, SMEs and developers on adopting AI‑driven production lines, offering concrete efficiency gains and competitive advantage in regional supply chains.",
     "micro_personas": [
-      "SME factory manager evaluating AI integration",
-      "Production engineer planning AI‑driven quality control"
+      "Factory operations manager implementing AI predictive maintenance",
+      "SME owner evaluating AI‑enabled production automation"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 4,
     "history_queries": [
-      "Premier Li + Promote AI",
-      "Manufacturing sector + Adopt AI"
+      "China Premier + AI Manufacturing Policy",
+      "Manufacturing sector + Smart Factory AI"
     ]
   },
   {
     "i": 30,
-    "category": "tools_access",
+    "category": "real_use",
     "ai1_suggestion": "",
     "title": "128GB RAM !! 性能提升 7.5 倍 MINIX T5000 AI 迷你工作站實測 - 電腦領域HKEPC Hardware",
-    "title_en": "128GB RAM Boosts Performance 7.5× in MINIX T5000 AI Mini Workstation – Test",
+    "title_en": "128GB RAM Boosts Performance 7.5× in MINIX T5000 AI Mini Workstation – Test Results",
     "hashtags": [
-      "#AIWorkstation",
-      "#HardwareUpgrade",
+      "#AIHardware",
       "#PerformanceBoost",
-      "#MiniPC"
+      "#MiniWorkstation",
+      "#TechTesting"
     ],
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "The MINIX T5000 AI mini workstation with 128 GB RAM delivers a 7.5× performance boost, enabling Hong Kong SMEs and freelance developers to run local AI inference and small‑scale model training without cloud costs.",
+    "reason": "Office workers and SMEs can run AI models locally, cutting cloud costs and speeding data analysis by up to 7.5×. This hardware upgrade also enables real‑time image processing for internal reporting.",
     "micro_personas": [
-      "Freelance AI developer deploying prototype models on a compact workstation",
-      "SME IT manager upgrading office AI workloads for data analytics"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "MINIX T5000 + Benchmark",
-      "AI Developers + Deploy Models"
-    ]
-  },
-  {
-    "i": 31,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "Qualcomm 發佈 Snapdragon 8 Elite Extreme Gen 6 雙旗艦晶片 迎戰智能體 AI 時代 - unwire",
-    "title_en": "Qualcomm Unveils Snapdragon 8 Elite Extreme Gen 6 Dual-Flagship Chip to Lead AI Era",
-    "hashtags": [
-      "#Snapdragon",
-      "#AIChip",
-      "#MobileHardware",
-      "#TechInnovation"
-    ],
-    "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Qualcomm's Snapdragon 8 Elite Extreme Gen 6 chip brings on‑device AI acceleration, giving Hong Kong mobile app developers and entrepreneurs the hardware to embed real‑time vision and language models in consumer devices.",
-    "micro_personas": [
-      "Mobile app developer integrating on‑device AI features",
-      "Entrepreneur launching AI‑powered smartphone service"
+      "SME IT manager deploying AI analytics",
+      "Office analyst running local predictive models"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Snapdragon 8 Elite + Launch",
-      "AI Mobile Apps + Development"
+      "MINIX T5000 + Performance Test",
+      "AI Workstation + RAM Upgrade"
+    ]
+  },
+  {
+    "i": 31,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "Qualcomm 發佈 Snapdragon 8 Elite Extreme Gen 6 雙旗艦晶片 迎戰智能體 AI 時代 - unwire",
+    "title_en": "Qualcomm Unveils Snapdragon 8 Elite Extreme Gen 6 Dual-Flagship Chip to Power the AI Era",
+    "hashtags": [
+      "#Snapdragon",
+      "#AIChip",
+      "#MobileTech",
+      "#NextGen"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Developers in Hong Kong can leverage the Snapdragon 8 Elite to build AI‑enhanced apps without heavy cloud reliance, reducing latency and operational expenses for startups while maintaining battery efficiency and meeting local data‑privacy regulations.",
+    "micro_personas": [
+      "Mobile app developer integrating on‑device AI",
+      "Startup CTO prototyping AI features on flagship hardware"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Snapdragon 8 Elite + AI Capabilities",
+      "Mobile Chipset + Generative AI"
     ]
   },
   {
@@ -664,80 +633,80 @@
     "category": "learning_family",
     "ai1_suggestion": "",
     "title": "港大擬進駐北都擴校園 要求學生修讀AI保就業競爭力 - Hkcna.Hk",
-    "title_en": "HKU Plans Campus Expansion in North District, Mandates AI Courses to Boost Graduate Employability",
+    "title_en": "HKU Plans Campus Expansion in North District, Mandating AI Courses to Enhance Graduate Employability",
     "hashtags": [
       "#AIEducation",
       "#HKU",
-      "#FutureSkills",
-      "#Employment"
+      "#JobSkills",
+      "#FutureWorkforce"
     ],
     "source_name": "Hkcna.Hk",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "HKU's new AI curriculum mandates student participation, directly improving employability for local graduates and giving parents clear guidance on future‑proof education pathways.",
+    "reason": "Students and parents gain clear pathways to AI literacy, improving job prospects and enabling families to plan education investments aligned with Hong Kong’s AI‑driven economy and sustainable career growth opportunities.",
     "micro_personas": [
-      "University student enrolling in mandatory AI course",
-      "Parent advising child on AI‑focused study options"
+      "Undergraduate studying AI for finance sector",
+      "Parent guiding child toward AI‑focused degree"
     ],
     "agent_signal": true,
-    "automation_level": 1,
+    "automation_level": 2,
     "history_queries": [
-      "HKU + AI Curriculum",
-      "Students + Employability"
+      "HKU + AI Curriculum Expansion",
+      "University + Employment Skills"
     ]
   },
   {
     "i": 33,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
+    "category": "real_use",
+    "ai1_suggestion": "market_impact",
     "title": "日本古書店湧現「謎之大量訂單」 消失的專業書籍疑成 AI 「口糧」 - unwire",
-    "title_en": "Japanese Antiquarian Bookstores See Surge in ‘Mysterious Bulk Orders’ as Professional Titles Disappear, Potentially Feeding AI Training Data",
+    "title_en": "Japanese Antiquarian Bookstores See Surge of ‘Mysterious Bulk Orders’ as Professional Titles Disappear, Possibly Fueled by AI Consumption",
     "hashtags": [
-      "#AITrainingData",
-      "#BookIndustry",
-      "#InformationTrust",
-      "#DigitalEconomy"
+      "#AIImpact",
+      "#BookMarket",
+      "#Publishing",
+      "#DigitalDemand"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "The surge in bulk orders of professional books for AI training raises data‑source integrity concerns, a warning for Hong Kong professionals and elderly users about potential deep‑fake and misinformation risks.",
+    "reason": "Hong Kong students and professionals may face shortages of niche titles as AI tools consume large volumes, prompting libraries to seek digital alternatives and local digitisation projects for continuous learning.",
     "micro_personas": [
-      "Elderly user concerned about deep‑fake news",
-      "Professional researcher verifying source authenticity"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "Japanese Bookstores + Bulk Orders",
-      "AI Training Data + Privacy"
-    ]
-  },
-  {
-    "i": 34,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "Amazon CTO Dr. Werner Vogels 親臨香港於HKSTP 主講「Renaissance Developer」 在校大學生不容錯過 - unwire",
-    "title_en": "Amazon CTO Dr. Werner Vogels Visits HKSTP to Deliver ‘Renaissance Developer’ Talk – A Must‑See for University Students",
-    "hashtags": [
-      "#AmazonCTO",
-      "#DeveloperConference",
-      "#HKSTP",
-      "#StudentLearning"
-    ],
-    "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Amazon CTO Werner Vogels' ‘Renaissance Developer’ talk at HKSTP offers Hong Kong university students direct insight into cloud AI services, accelerating skill acquisition for future developers.",
-    "micro_personas": [
-      "Computer science student attending the HKSTP talk",
-      "Developer seeking AWS AI roadmap guidance"
+      "Graduate researcher needing rare AI ethics books",
+      "Professional librarian planning digital acquisition"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
+      "Japanese Bookstores + AI Demand",
+      "Professional Titles + Bulk Orders"
+    ]
+  },
+  {
+    "i": 34,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "Amazon CTO Dr. Werner Vogels 親臨香港於HKSTP 主講「Renaissance Developer」 在校大學生不容錯過 - unwire",
+    "title_en": "Amazon CTO Dr. Werner Vogels Visits HKSTP to Deliver ‘Renaissance Developer’ Talk – A Must‑See for University Students",
+    "hashtags": [
+      "#Amazon",
+      "#DeveloperTalk",
+      "#HKSTP",
+      "#StudentTech"
+    ],
+    "source_name": "unwire",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "University students and budding developers receive direct guidance on building AI applications, accelerating skill acquisition and supporting Hong Kong’s tech talent pipeline for local startups and innovation ecosystems growth.",
+    "micro_personas": [
+      "Computer science undergrad attending AI talk",
+      "Junior developer seeking AI project mentorship"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
       "Amazon CTO + HKSTP Talk",
-      "Students + AI Developer Conference"
+      "Developer Seminar + AI Practices"
     ]
   },
   {
@@ -752,19 +721,9 @@
       "#FutureGrowth"
     ],
     "source_name": "香港商报",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Provides Hong Kong employers, SMEs, entrepreneurs and professionals with upcoming policy details, enabling compliance planning and strategic alignment with the government's short‑term innovation roadmap.",
-    "micro_personas": [
-      "SME CEO planning product roadmap",
-      "HR Director ensuring regulatory compliance"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Hong Kong Government + PublishInnovationPolicy",
-      "Local SMEs + AdjustBusinessStrategy"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article discusses policy direction without specific AI content, offering little actionable insight for Hong Kong regulators or businesses under the regulation_public lens."
   },
   {
     "i": 36,
@@ -778,19 +737,9 @@
       "#HKWorkforce"
     ],
     "source_name": "TVB",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Highlights new local AI and STEM training programs, giving students, parents and HR professionals concrete pathways to upskill, supporting talent pipelines for HK enterprises and families.",
-    "micro_personas": [
-      "University student enrolling in AI bootcamp",
-      "HR manager designing corporate upskilling program"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "STEM Schools + ExpandCurriculum",
-      "Companies + SponsorTrainingPrograms"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The editorial focuses on general talent training, lacking concrete AI initiatives or tools, thus providing minimal direct benefit to Hong Kong learners or families under learning_family criteria."
   },
   {
     "i": 37,
@@ -800,22 +749,23 @@
     "title_en": "Yushu Quadruped Robot Dominates Global Market with 37% Share in H1",
     "hashtags": [
       "#Robotics",
-      "#MarketShare",
-      "#AIHardware"
+      "#AIHardware",
+      "#MarketLeadership"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Shows Yushu’s quadruped robot achieving 37% market share, signalling viable automation options for HK SMEs, developers and entrepreneurs seeking advanced robotics for logistics and service applications.",
+    "reason": "HK SMEs and robotics startups can adopt Yushu’s AI‑driven quadruped for warehouse automation, reducing labor costs and improving safety, while developers gain a proven platform for AI integration.",
     "micro_personas": [
-      "Warehouse manager evaluating quadruped robots",
-      "Robotics developer integrating Yushu SDK"
+      "SME logistics manager optimizing warehouse flow",
+      "Robotics startup founder developing AI services"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "Yushu Robot + IncreaseMarketShare",
-      "HK Logistics + AdoptQuadrupedAutomation"
+      "Yushu Robot + Market Share",
+      "Quadruped Robot + HK Deployment",
+      "AI Robotics + Warehouse Automation"
     ]
   },
   {
@@ -823,32 +773,32 @@
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "全新速度與控制微動開關，帶來更個人化操作體驗SteelSeries Apex Pro Gen 3 LTD 系列限量版 - 電腦領域HKEPC Hardware",
-    "title_en": "New Speed and Control Micro Switch Enhances Personalized Experience – SteelSeries Apex Pro Gen 3 LTD Limited Edition",
+    "title_en": "New High-Speed, Personalized Micro Switches in SteelSeries Apex Pro Gen 3 Limited Edition",
     "hashtags": [
       "#GamingGear",
       "#HardwareInnovation",
-      "#Personalization"
+      "#PersonalizedControl"
     ],
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Gaming hardware lacks AI functionality and offers minimal relevance to office workers, SMEs or other Hong Kong target groups."
+    "reject_reason": "The product announcement highlights hardware features without AI functionality, offering limited relevance for Hong Kong users seeking AI-driven tools under the tools_access perspective."
   },
   {
     "i": 39,
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "澳門日報電子版 - 澳門日報",
-    "title_en": "Macau Daily Electronic Edition – Digital News Platform",
+    "title_en": "Macau Daily Electronic Edition Launch",
     "hashtags": [
       "#DigitalMedia",
-      "#NewsTech",
-      "#Macau"
+      "#MacauNews",
+      "#OnlinePress"
     ],
     "source_name": "澳門日報",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Digital news platform is not an AI tool and provides no actionable AI capability for Hong Kong audiences or businesses."
+    "reject_reason": "The launch of a Macau news platform is a regional media service lacking AI components, thus not delivering actionable AI value for Hong Kong audiences."
   },
   {
     "i": 40,
@@ -864,8 +814,18 @@
     ],
     "source_name": "香港電台新聞網",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Lacks direct relevance to Hong Kong regulatory environment or actionable impact for local businesses."
+    "decision": "accept",
+    "reason": "Hong Kong compliance officers and legal advisors must track US AI regulatory shifts, as US‑linked partners may require adherence, influencing contract clauses and data‑handling practices for local enterprises in the future",
+    "micro_personas": [
+      "Compliance Officer at multinational corporation",
+      "Legal Advisor for fintech startup"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "US AI Regulation + Impact",
+      "Trump Statement + Compliance"
+    ]
   },
   {
     "i": 41,
@@ -882,16 +842,16 @@
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Retail SMEs can immediately apply the CCTV‑based vision system to monitor shelf engagement, enabling data‑driven product placement and inventory decisions, boosting sales efficiency in Hong Kong stores.",
+    "reason": "Retail SMEs can deploy the AI analytics on current CCTV, gaining real‑time shelf‑view insights that boost product placement efficiency and increase sales without major hardware investment",
     "micro_personas": [
-      "Retail store manager optimizing product placement",
-      "Marketing analyst analyzing shelf engagement data"
+      "Boutique store manager",
+      "Retail chain marketing analyst"
     ],
     "agent_signal": true,
-    "automation_level": 4,
+    "automation_level": 3,
     "history_queries": [
-      "Retailers + Deploy vision analytics",
-      "CCTV systems + Integrate AI tracking"
+      "CCTV AI Analytics + Deployment",
+      "Retail Shelf Optimization + AI"
     ]
   },
   {
@@ -909,16 +869,16 @@
     "source_name": "IT PRO Magazine",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The AI Aerospace competition gives Hong Kong students and their families hands‑on experience with AI modelling and space concepts, fostering STEM skills and future tech talent development.",
+    "reason": "The contest offers Hong Kong students and their parents structured AI challenges, fostering STEM skills and future talent pipeline for local tech firms and research institutes",
     "micro_personas": [
-      "High school student preparing AI aerospace competition entry",
-      "Parent mentoring child in AI project"
+      "High school student interested in aerospace",
+      "Parent mentoring child in STEM competition"
     ],
-    "agent_signal": false,
-    "automation_level": 2,
+    "agent_signal": true,
+    "automation_level": 0,
     "history_queries": [
-      "Students + Build AI aerospace models",
-      "Foundations + Organize STEM competitions"
+      "AI Competition + Student Participation",
+      "STEM Initiative + Hong Kong"
     ]
   },
   {
@@ -926,26 +886,26 @@
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "唔同既網速, 對於搵AI問野整野, 會唔會有分別?(頁 1) - 網絡寬頻 - 電腦領域HKEPC Hardware",
-    "title_en": "Does Varying Internet Speed Affect AI Queries and Tasks?",
+    "title_en": "Does Varying Internet Speed Affect AI Query Performance?",
     "hashtags": [
       "#InternetSpeed",
       "#AIAccess",
-      "#DigitalDivide",
-      "#TechPerformance"
+      "#CloudComputing",
+      "#UserExperience"
     ],
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Understanding how internet speed impacts AI query latency helps office workers and developers in Hong Kong choose appropriate connectivity, ensuring reliable AI tool performance for daily tasks.",
+    "reason": "Office workers and remote developers in Hong Kong can gauge required bandwidth for AI services, ensuring smooth operation of LLM assistants and avoiding productivity loss due to slow connections",
     "micro_personas": [
-      "Remote office worker using AI assistants for reports",
-      "Developer deploying cloud‑based AI services"
+      "Remote developer testing LLM APIs",
+      "Office employee using AI writing tool"
     ],
-    "agent_signal": false,
+    "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "Businesses + Assess AI bandwidth needs",
-      "Developers + Optimize AI query latency"
+      "Internet Speed + AI Performance",
+      "Bandwidth Requirements + Cloud AI"
     ]
   },
   {
@@ -958,33 +918,32 @@
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Topic focuses on hardware microscopy, not AI technology, offering no practical AI insight for Hong Kong developers or businesses."
+    "reject_reason": "The article describes a micro‑industrial camera without any AI component, offering no relevance to AI tech background analysis for Hong Kong developers."
   },
   {
     "i": 45,
     "category": "real_use",
     "ai1_suggestion": "",
     "title": "數據中心需求殷切 港亦能捉緊AI浪潮 - paper.hket.com",
-    "title_en": "Strong Demand for Data Centers as Hong Kong Seizes the AI Wave",
+    "title_en": "Data Center Demand Soars as Hong Kong Seizes the AI Wave",
     "hashtags": [
-      "#DataCenters",
+      "#DataCenter",
       "#AIInfrastructure",
-      "#HongKongTech",
-      "#CloudComputing"
+      "#HongKongTech"
     ],
     "source_name": "paper.hket.com",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The article highlights Hong Kong’s expanding data‑center capacity, giving SMEs, developers and office workers low‑latency AI hosting options, which can cut cloud costs and speed up deployment of AI‑driven services.",
+    "reason": "SMEs and local developers gain low‑latency, cost‑effective AI compute from new Hong Kong data centers, accelerating model training, deployment, and reducing dependence on overseas cloud providers.",
     "micro_personas": [
-      "SME IT manager",
-      "AI developer"
+      "SME tech lead deploying AI analytics",
+      "Developer building AI‑powered SaaS"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 3,
     "history_queries": [
-      "Data Centers + Expansion",
-      "AI Hosting + CostReduction"
+      "Data Center + Expand",
+      "AI Workloads + Deploy"
     ]
   },
   {
@@ -992,26 +951,26 @@
     "category": "real_use",
     "ai1_suggestion": "",
     "title": "China’s Hygon moves beyond data centres with embedded processors for robotics, edge AI",
-    "title_en": "China's Hygon Expands Beyond Data Centers with Embedded CPUs for Robotics and Edge AI",
+    "title_en": "China's Hygon Expands Into Robotics and Edge AI with New Embedded Processors",
     "hashtags": [
-      "#EmbeddedProcessors",
+      "#EmbeddedCPU",
       "#Robotics",
       "#EdgeAI",
-      "#ChipInnovation"
+      "#ChinaTech"
     ],
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Hygon’s new embedded CPUs enable edge AI for robotics and industrial devices, allowing Hong Kong SMEs and manufacturers to run inference locally, improve automation, and reduce reliance on cloud latency.",
+    "reason": "Hong Kong manufacturing firms and robotics startups can adopt Hygon’s edge AI processors to embed intelligence on devices, improving automation speed, data privacy, and reducing latency in production lines.",
     "micro_personas": [
-      "Robotics startup engineer",
-      "Manufacturing automation lead"
+      "Manufacturing plant automation engineer",
+      "Robotics startup CTO"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 4,
     "history_queries": [
-      "Embedded CPUs + EdgeAI",
-      "Robotics Automation + LocalManufacturing"
+      "Hygon + Launch",
+      "Edge AI + Adoption"
     ]
   },
   {
@@ -1019,31 +978,20 @@
     "category": "price_free",
     "ai1_suggestion": "",
     "title": "Unique Logic 推出 2 個月免費 SEO / GEO 服務 | 國際現場 | 商情 - 經濟日報",
-    "title_en": "Unique Logic Offers Two-Month Free SEO/GEO Services",
+    "title_en": "Unique Logic Offers Two-Month Free SEO and GEO Services",
     "hashtags": [
       "#FreeSEO",
       "#DigitalMarketing",
-      "#SMEBoost",
-      "#OnlineVisibility"
+      "#SMEBoost"
     ],
     "source_name": "經濟日報",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Unique Logic’s two‑month free SEO/GEO service lowers digital marketing expenses for Hong Kong SMEs and entrepreneurs, helping them boost online visibility and attract customers without upfront costs.",
-    "micro_personas": [
-      "SME owner (digital marketing)",
-      "E‑commerce entrepreneur"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "SEO Services + FreeTrial",
-      "Digital Marketing + SMEGrowth"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The service is generic SEO/GEO assistance without explicit AI technology, offering limited relevance to Hong Kong AI‑focused audiences."
   },
   {
     "i": 48,
-    "category": "tech_background",
+    "category": "tools_access",
     "ai1_suggestion": "",
     "title": "IBM 與 NASA 聯合發布首個開源月球研究 AI 模型 - 香港財經時報HKBT",
     "title_en": "IBM and NASA Release First Open-Source AI Model for Lunar Research",
@@ -1051,22 +999,21 @@
       "#OpenSourceAI",
       "#LunarResearch",
       "#SpaceTech",
-      "#IBM",
-      "#NASA"
+      "#IBM"
     ],
     "source_name": "香港財經時報HKBT",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The open‑source lunar AI model released by IBM and NASA provides Hong Kong developers with a sophisticated, pre‑trained architecture they can fine‑tune for local projects, accelerating AI research and skill development.",
+    "reason": "University researchers, students, and hobbyists in Hong Kong can freely download the lunar AI model, enabling low‑cost experimentation and advancing local space‑science AI capabilities.",
     "micro_personas": [
-      "AI research developer",
-      "University student in astrophysics"
+      "University AI researcher studying planetary data",
+      "Student building lunar simulation project"
     ],
     "agent_signal": true,
-    "automation_level": 0,
+    "automation_level": 2,
     "history_queries": [
-      "OpenSource AI Model + Adoption",
-      "Lunar Research + DeveloperTools"
+      "IBM + Release",
+      "NASA + Open‑source AI"
     ]
   },
   {
@@ -1078,22 +1025,21 @@
     "hashtags": [
       "#AIEducation",
       "#TalentDevelopment",
-      "#HuaweiAI",
-      "#STEMLearning"
+      "#HuaweiAI"
     ],
     "source_name": "香港財經時報HKBT",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Huawei’s AI Practice Lab delivers hands‑on curriculum and cloud resources for schools and families, enabling Hong Kong students, teachers and parents to acquire practical AI skills and explore career pathways.",
+    "reason": "HK teachers and parents can enrol children in Huawei’s AI Practice Lab, gaining curriculum‑aligned AI projects that boost STEM learning and prepare students for future AI careers.",
     "micro_personas": [
-      "High school teacher",
-      "Student in AI workshop"
+      "High school teacher integrating AI projects",
+      "Student learning AI through lab modules"
     ],
     "agent_signal": true,
-    "automation_level": 0,
+    "automation_level": 1,
     "history_queries": [
-      "AI Lab + Education",
-      "Talent Development + FamilyLearning"
+      "Huawei + Launch",
+      "AI Lab + Education"
     ]
   },
   {
@@ -1101,28 +1047,18 @@
     "category": "tech_background",
     "ai1_suggestion": "",
     "title": "《FF VII Revelation》PS5 Pro 特別模式 實現 4K 60 FPS！ 全靠 PSSR 超解像技術 - unwire",
-    "title_en": "FF VII Revelation on PS5 Pro Enables 4K 60 FPS Through PSSR Upscaling Technology",
+    "title_en": "PS5 Pro Special Mode Achieves 4K 60 FPS Using PSSR Upscaling Technology",
     "hashtags": [
       "#PS5Pro",
       "#4KGaming",
-      "#UpscalingTech",
       "#PSSR",
-      "#GamePerformance"
+      "#UpscalingTech",
+      "#ConsolePerformance"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Local game developers and graphics engineers can adopt the PSSR AI upscaling technique to deliver 4K 60 FPS experiences on limited hardware, reducing rendering costs and improving product competitiveness in Hong Kong.",
-    "micro_personas": [
-      "Game Developer – optimizing console titles",
-      "Graphics Engineer – implementing AI upscaling pipelines"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "PS5 Pro + UpscalingTech",
-      "AI Upscaling + Game Development"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The upscaling technology is hardware‑focused with minimal AI detail, offering little actionable insight for HK developers or target groups."
   },
   {
     "i": 51,
@@ -1138,82 +1074,72 @@
       "#PortfolioOutperformance"
     ],
     "source_name": "Media OutReach Newswire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Family office professionals and senior investors can leverage AI‑driven portfolio analytics highlighted in the Citi survey to enhance asset allocation, offering cost‑effective, data‑rich decision support for Hong Kong wealth management.",
-    "micro_personas": [
-      "Family Office Portfolio Manager",
-      "Senior Investor – evaluating AI tools"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Family Office + AIInvesting",
-      "Wealth Management + PortfolioAnalytics"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Survey discusses AI investment trends but lacks concrete AI deployment examples, providing limited practical value for HK professionals."
   },
   {
     "i": 52,
     "category": "tech_background",
     "ai1_suggestion": "",
     "title": "John Ternus 剖析 iPhone Duo 設計哲學 揭開摺疊 iPhone 工業設計內幕 - unwire",
-    "title_en": "John Ternus Explains the Design Philosophy Behind the iPhone Duo and the Secrets of Foldable iPhone Industrial Design",
+    "title_en": "John Ternus Breaks Down the Design Philosophy Behind the Foldable iPhone Duo",
     "hashtags": [
       "#iPhoneDuo",
       "#FoldablePhone",
       "#IndustrialDesign",
       "#Apple",
-      "#DesignPhilosophy"
+      "#TechInnovation"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Content focuses on iPhone hardware design without AI relevance, offering no actionable AI utility for Hong Kong target groups."
+    "reject_reason": "Focuses on iPhone design philosophy without AI relevance, offering no direct benefit to HK developers or other target personas."
   },
   {
     "i": 53,
     "category": "tech_background",
     "ai1_suggestion": "",
     "title": "China’s Huawei trims mobile chip gap with Apple as Tau Scaling Law pays off: Bernstein",
-    "title_en": "Huawei Narrows Mobile Chip Gap with Apple Using Tau Scaling Law, Launches Kirin 9050 Pro Processor",
+    "title_en": "Huawei Narrows Mobile Chip Gap with Apple as Tau Scaling Law Delivers Kirin 9050 Pro",
     "hashtags": [
       "#Huawei",
       "#Kirin9050Pro",
       "#MobileChips",
       "#AppleCompetition",
-      "#Semiconductor"
+      "#SemiconductorTech"
     ],
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Article discusses semiconductor scaling, not AI technology, thus provides no direct AI utility for local developers or businesses."
+    "reject_reason": "Details semiconductor advancements unrelated to AI, thus providing negligible actionable insight for HK AI‑focused audiences."
   },
   {
     "i": 54,
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "企業決定退訂 Grammarly 服務 服務商竟然發全體信 慫恿員工向上級施壓 - 電腦領域HKEPC Hardware",
-    "title_en": "Company Cancels Grammarly Subscription and Sends Email Urging Employees to Pressure Management",
+    "title_en": "Company Cancels Grammarly Subscription and Sends Email Pressuring Employees to Appeal to Management",
     "hashtags": [
       "#Grammarly",
       "#SoftwareSubscription",
       "#WorkplaceTools",
-      "#EmployeeAdvocacy",
-      "#HRPolicy"
+      "#EmployeeRelations",
+      "#ToolAccess"
     ],
     "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "HR leaders and office workers can learn from the Grammarly cancellation case to refine SaaS procurement policies, ensuring transparent tool access and preventing coercive practices within Hong Kong enterprises.",
+    "reason": "Office workers and SMEs can reassess AI writing tool costs after a company’s Grammarly cancellation, highlighting subscription budgeting and potential productivity impacts for HR and team leads.",
     "micro_personas": [
-      "HR Manager – SaaS policy enforcement",
-      "Office Worker – managing productivity tool subscriptions"
+      "Office worker drafting client emails",
+      "HR manager overseeing software subscriptions"
     ],
     "agent_signal": true,
-    "automation_level": 1,
+    "automation_level": 3,
     "history_queries": [
-      "Grammarly + SubscriptionManagement",
-      "HR Policy + SaaS Tools"
+      "Grammarly + SubscriptionCancellation",
+      "Company + EmployeePressure"
     ]
   },
   {
@@ -1225,40 +1151,40 @@
     "hashtags": [
       "#AIHealth",
       "#AntiAging",
-      "#DataJointVenture",
-      "#HealthcareInnovation"
+      "#JointVenture",
+      "#DataCollaboration"
     ],
     "source_name": "Minichart",
-    "evidence_status": "official",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "AI-driven health data analytics from the joint venture can deliver personalized anti‑aging insights, benefiting elderly and retirees through proactive wellness monitoring and enabling professionals to integrate health AI into corporate wellness programs.",
+    "reason": "Provides Hong Kong elderly and healthcare professionals with AI‑driven anti‑aging insights, enabling personalized health plans and potential cost‑effective preventive services for retirees and senior office workers.",
     "micro_personas": [
-      "Elderly individual using AI health monitoring app",
-      "Corporate wellness manager implementing anti‑aging analytics"
+      "Elderly individual seeking personalized anti‑aging health insights",
+      "Healthcare professional integrating AI health analytics"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 2,
     "history_queries": [
-      "AI Health Data + Integration",
-      "Anti‑Aging Analytics + Deployment"
+      "AOM International + Sign MOU",
+      "Winutri Life Group + AI Health Data"
     ]
   },
   {
     "i": 56,
-    "category": "tech_background",
+    "category": "tools_access",
     "ai1_suggestion": "",
     "title": "高手公開「PS5X」模擬器專案 在 Xbox X 主機運行 Sony PS5 遊戲 - 電腦領域HKEPC Hardware",
     "title_en": "Expert Releases \"PS5X\" Emulator Project Running Sony PS5 Games on Xbox X Console",
     "hashtags": [
       "#Emulator",
-      "#GamingTech",
-      "#CrossPlatform",
-      "#PS5X"
+      "#PS5X",
+      "#Gaming",
+      "#CrossPlatform"
     ],
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The project describes a gaming emulator without AI components, offering no actionable AI utility for Hong Kong’s target groups."
+    "reject_reason": "The emulator project lacks AI components, offering no AI‑related utility for Hong Kong target groups."
   },
   {
     "i": 57,
@@ -1273,52 +1199,62 @@
       "#HKBusiness"
     ],
     "source_name": "大紀元時報香港",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The piece is a policy commentary urging AI adoption but lacks concrete tools or measurable operational benefits for SMEs or HR professionals."
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Enables HR professionals and small‑business owners to adopt AI‑based candidate screening and performance forecasting, reducing hiring time and improving talent retention for office workers and SMEs in Hong Kong.",
+    "micro_personas": [
+      "HR manager automating candidate screening",
+      "SME owner using AI workforce planning"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "HK HR Management Society + Issue Statement",
+      "Companies + AI Adoption"
+    ]
   },
   {
     "i": 58,
-    "category": "tools_access",
-    "ai1_suggestion": "infrastructure_power",
+    "category": "tech_background",
+    "ai1_suggestion": "",
     "title": "中國首試 達 8 層樓高巨型氣球 吊運電線塔建築物資 西藏高原送電 直通粵港澳大灣區 - unwire",
-    "title_en": "China's First 8-Story Giant Balloon Used to Transport Power Line Materials to Tibet Plateau, Connecting to the Guangdong-Hong Kong-Macao Greater Bay Area",
+    "title_en": "China Tests Giant 8-Story Balloon to Transport Power Line Materials to Tibet Plateau, Connecting to Guangdong-Hong Kong-Macao Bay Area",
     "hashtags": [
       "#Infrastructure",
-      "#PowerTransmission",
-      "#GreaterBayArea",
-      "#Innovation"
+      "#BalloonTransport",
+      "#PowerLines",
+      "#BayArea"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The announcement concerns a physical balloon transport solution, not an AI technology, thus providing no AI relevance for local audiences."
+    "reject_reason": "The balloon transport initiative does not involve AI technology, providing no AI‑centric relevance for local audiences."
   },
   {
     "i": 59,
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "超越AI競賽：港大學者將倫理置於地緣政治的核心-香港大學-紫荊號 - 紫荊網",
-    "title_en": "Beyond AI Competition: HKU Scholars Place Ethics at the Core of Geopolitical Discussions",
+    "title_en": "Beyond AI Competition: HKU Scholars Place Ethics at the Core of Geopolitical Discourse",
     "hashtags": [
       "#AIethics",
       "#Geopolitics",
-      "#HKUResearch",
-      "#TrustInTech"
+      "#HKU",
+      "#Trust"
     ],
     "source_name": "紫荊網",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "The discussion on AI ethics and geopolitical influence alerts professionals and elderly to potential bias and privacy risks, encouraging careful evaluation of AI products before adoption.",
+    "reason": "Alerts Hong Kong professionals, elderly and retirees to AI‑generated misinformation and privacy threats, prompting adoption of verification tools and policy advocacy to protect trust in digital services.",
     "micro_personas": [
-      "Elderly user assessing AI home assistant trustworthiness",
-      "Professional evaluating AI vendor compliance"
+      "Policy analyst evaluating AI governance",
+      "Elderly consumer concerned about AI deepfake scams"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "AI Ethics + Risk Assessment",
-      "Trust in AI + User Guidance"
+      "HKU scholars + AI ethics",
+      "Geopolitics + AI trust"
     ]
   },
   {
@@ -1336,7 +1272,7 @@
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Pure financial news without AI relevance; no technical or practical AI implications for Hong Kong developers."
+    "reject_reason": "The article discusses AMD stock performance and hardware valuation without any AI component, offering no actionable AI insight for Hong Kong audiences."
   },
   {
     "i": 61,
@@ -1353,7 +1289,7 @@
     "source_name": "香港經濟日報HKET",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Content focuses on civil service staffing, lacking any AI component or regulatory impact on AI technologies."
+    "reject_reason": "Report focuses on civil service staffing levels and labor forecasts, lacking AI relevance and therefore provides no AI‑specific utility for local stakeholders."
   },
   {
     "i": 62,
@@ -1370,16 +1306,16 @@
     "source_name": "Now 新聞",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "HKU's campus expansion introduces AI‑focused curricula, giving students and parents concrete tools to boost employability and practical AI project experience in Hong Kong.",
+    "reason": "Students at HKU will gain hands‑on AI project experience, boosting employability; parents see clearer career pathways, while educators can integrate AI labs into courses, directly enhancing the learning_family segment.",
     "micro_personas": [
-      "University student building AI prototypes for internships",
-      "High‑school student seeking AI coursework to enhance college applications"
+      "Undergraduate student developing AI prototype",
+      "Professor designing AI‑focused coursework"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "HKU + AI Curriculum",
-      "Students + Skill Development"
+      "HKU + Expand Campus",
+      "Students + AI Skills"
     ]
   },
   {
@@ -1395,19 +1331,9 @@
       "#TechGrowth"
     ],
     "source_name": "大公文匯網",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "The report outlines actionable AI adoption pathways for SMEs and entrepreneurs, showcasing proven use cases that improve productivity, cost efficiency, and market competitiveness in Hong Kong.",
-    "micro_personas": [
-      "SME owner evaluating AI tools for workflow automation",
-      "Entrepreneur planning AI‑driven startup services"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Hong Kong AI + Industry Strategy",
-      "Businesses + AI Adoption"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The piece outlines strategic AI industry direction but lacks concrete AI tools or deployments, offering limited practical benefit to Hong Kong target groups."
   },
   {
     "i": 64,
@@ -1424,16 +1350,16 @@
     "source_name": "unwire",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "UK's proxy‑learning robots provide a tested remote‑learning solution that Hong Kong parents can adopt to support anxious students, reducing absenteeism and enhancing wellbeing.",
+    "reason": "Parents can rely on AI robots to keep anxious children engaged at home, while students benefit from reduced absenteeism; schools gain scalable remote‑learning tools, fitting the learning_family group.",
     "micro_personas": [
-      "Parent managing child with school anxiety",
-      "Student using home‑based learning robot for classes"
+      "Parent managing child’s remote education",
+      "School administrator implementing AI‑based attendance solutions"
     ],
     "agent_signal": true,
-    "automation_level": 4,
+    "automation_level": 3,
     "history_queries": [
-      "UK + Proxy Learning Robots",
-      "Students + Remote Attendance"
+      "UK + Deploy Robots",
+      "Students + Remote Learning"
     ]
   },
   {
@@ -1441,114 +1367,124 @@
     "category": "tech_background",
     "ai1_suggestion": "",
     "title": "科技創新挑戰賽 2026 圓滿結束 香港得獎學界精英 11 月遠赴新加坡參展 - unwire",
-    "title_en": "Tech Innovation Challenge 2026 Concludes Successfully; Hong Kong Academic Winners to Exhibit in Singapore in November",
+    "title_en": "Tech Innovation Challenge 2026 Concludes Successfully; Hong Kong Academic Elite to Exhibit in Singapore in November",
     "hashtags": [
       "#TechInnovation",
-      "#HongKongAcademia",
-      "#InternationalExpo",
-      "#AICompetition"
+      "#HongKongTalent",
+      "#InternationalExhibit",
+      "#AIResearch"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Lacks concrete AI technical details or actionable insights for Hong Kong developers; mainly a competition announcement."
+    "reject_reason": "Provides only a competition summary without specific AI models or tools, offering little actionable value for Hong Kong developers or stakeholders."
   },
   {
     "i": 66,
     "category": "real_use",
     "ai1_suggestion": "",
     "title": "創科路上/多模態醫療AI大模型CARES 4.0登場 - 大公文匯網",
-    "title_en": "Multimodal Medical AI Large Model CARES 4.0 Launched",
+    "title_en": "Multimodal Medical AI Model CARES 4.0 Launched",
     "hashtags": [
       "#MedicalAI",
       "#Multimodal",
       "#HealthcareInnovation",
-      "#CARES40"
+      "#CARES4"
     ],
     "source_name": "大公文匯網",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "CARES 4.0 enables multimodal diagnostics, allowing Hong Kong hospitals to integrate image and text data, improving clinicians’ efficiency and offering patients faster, more accurate assessments, especially benefiting elderly and medical professionals.",
+    "reason": "Healthcare professionals and elderly patients gain faster, more accurate diagnostics through CARES 4.0, reducing hospital workload and improving treatment outcomes across Hong Kong hospitals.",
     "micro_personas": [
-      "Hospital radiologist performing triage",
-      "Primary care doctor reviewing patient records"
+      "Hospital radiologist using CARES 4.0 for diagnostic assistance",
+      "Elderly patient receiving quicker diagnosis via AI-powered system"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "CARES40 + Launch",
-      "MedicalAI + Deployment"
+      "CARES 4.0 + Deployment",
+      "Medical AI + ClinicalTrials"
     ]
   },
   {
     "i": 67,
-    "category": "tech_background",
+    "category": "regulation_public",
     "ai1_suggestion": "",
     "title": "科技創新界聚焦AI變革推動港創科發展- 經濟 - 大公文匯網",
-    "title_en": "Tech Innovation Community Focuses on AI Transformation to Boost Hong Kong's Innovation Development",
+    "title_en": "Tech Innovation Community Focuses on AI Transformation to Drive Hong Kong's Innovation Development",
     "hashtags": [
       "#AITransformation",
       "#HKInnovation",
       "#TechPolicy",
-      "#FutureTech"
+      "#FutureEconomy"
     ],
     "source_name": "大公文匯網",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Provides high‑level policy discussion without specific technical details or actionable guidance for developers, thus limited practical utility."
+    "decision": "accept",
+    "reason": "Employers, SMEs, and developers must prepare for new AI compliance rules, ensuring data protection and avoiding penalties, thereby safeguarding operations and fostering responsible innovation in Hong Kong.",
+    "micro_personas": [
+      "SME owner monitoring AI compliance requirements",
+      "HR professional aligning AI hiring tools with new regulations"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI regulation + HK policy",
+      "Compliance + Business impact"
+    ]
   },
   {
     "i": 68,
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "教學：Apple x Google 合作 AI 人工智能 免下載 iPhone 馬上用 實測離線運作能力 - unwire",
-    "title_en": "Apple and Google Partner on AI: Offline iPhone Usage Without Download Tested",
+    "title_en": "Apple and Google Collaborate on AI: Offline iPhone Use Tested Without Download",
     "hashtags": [
       "#AppleGoogle",
+      "#AIOnDevice",
       "#OfflineAI",
-      "#iPhoneAI",
-      "#NoDownload"
+      "#MobileTech"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Offline AI on iPhone lets Hong Kong office workers and students run language models without internet, enabling secure, instant assistance for drafting documents or studying, bypassing data‑transfer concerns.",
+    "reason": "Office workers and students can leverage offline AI features for document summarization, translation, and note‑taking on iPhones, eliminating data‑usage concerns and enhancing productivity in Hong Kong.",
     "micro_personas": [
-      "Office worker generating reports on iPhone",
-      "Student solving homework offline"
+      "Office worker using offline AI summarizer on iPhone",
+      "Student using offline translation AI for study materials"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "iPhone + OfflineAI",
-      "AppleGoogle + NoDownload"
+      "Offline AI + iPhone",
+      "Mobile AI + Productivity"
     ]
   },
   {
     "i": 69,
-    "category": "work_sme",
+    "category": "regulation_public",
     "ai1_suggestion": "",
     "title": "香港和長三角AI產業加速發展| 香港貿易發展局經貿研究 - research.hktdc.com",
-    "title_en": "Accelerated Development of AI Industry in Hong Kong and the Yangtze River Delta",
+    "title_en": "Accelerated Development of Hong Kong and Yangtze River Delta AI Industries",
     "hashtags": [
-      "#AIIndustry",
-      "#HKChinaCollab",
-      "#EconomicGrowth",
-      "#TechEcosystem"
+      "#HKAI",
+      "#YangtzeDelta",
+      "#IndustryGrowth",
+      "#EconomicCollaboration"
     ],
     "source_name": "research.hktdc.com",
-    "evidence_status": "official",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Cross‑border AI initiatives between Hong Kong and the Yangtze River Delta introduce funding, talent exchange, and joint incubators, giving local SMEs practical pathways to adopt workflow‑automation tools and boost productivity.",
+    "reason": "Entrepreneurs and SMEs can tap into Yangtze Delta partnerships, accessing talent, investment, and regulatory support, boosting AI product development and market entry for Hong Kong firms.",
     "micro_personas": [
-      "SME owner evaluating AI inventory management",
-      "HR manager implementing AI recruitment platform"
+      "Entrepreneur exploring Yangtze Delta AI partnership",
+      "SME founder leveraging cross‑regional funding for AI product launch"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "HKAI + IndustryCollab",
-      "SME + AIAdoption"
+      "HK AI + Yangtze Delta collaboration",
+      "SME + AI funding"
     ]
   },
   {
@@ -1559,77 +1495,55 @@
     "title_en": "China Revives Han Xin Chip Code to Challenge U.S. Standards",
     "hashtags": [
       "#Semiconductors",
-      "#ChinaTech",
       "#ChipDesign",
+      "#ChinaTech",
       "#USCompetition"
     ],
     "source_name": "Tech - South China Morning Post",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK hardware developers and semiconductor SMEs can assess the revived Han Xin chip code for compatibility, potentially lowering design costs and accelerating local chip‑fabrication projects.",
-    "micro_personas": [
-      "Hardware startup engineer evaluating chip design options",
-      "Semiconductor R&D manager planning product roadmap"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "Han Xin code + revival",
-      "China + chip design standards",
-      "HK semiconductor firms + technology adoption"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Lacks AI content; focuses on semiconductor code without AI relevance for Hong Kong target groups."
   },
   {
     "i": 71,
-    "category": "real_use",
+    "category": "tools_access",
     "ai1_suggestion": "",
     "title": "ROG 信仰魚缸箱登場 !! ASUS ROG Cronox ARGB Full-Tower 機箱 - 電腦領域HKEPC Hardware",
-    "title_en": "ASUS ROG Cronox ARGB Full‑Tower Case Launch – The Believer’s Fish‑Tank PC",
+    "title_en": "ASUS ROG Launches the Cronox ARGB Full‑Tower Gaming Case",
     "hashtags": [
       "#GamingHardware",
-      "#PCBuild",
       "#ASUSROG",
-      "#RGB"
+      "#PCBuild",
+      "#TechGear"
     ],
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Product launch offers no AI relevance or actionable benefit for Hong Kong office workers, SMEs, or other target groups."
+    "reject_reason": "Hardware case announcement contains no AI element; irrelevant to AI tool access for local audiences."
   },
   {
     "i": 72,
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "元朗狗咬人現場加裝 4 組 CCTV 「銳眼計劃」對狗不適用 鄧炳強：要考慮相稱性 - unwire",
-    "title_en": "Yuen Long Dog‑Bite Incident Prompts Installation of Four CCTV Units – ‘Sharp‑Eye Project’ Not Applicable to Dogs, Says Councilor",
+    "title_en": "Four New CCTV Units Installed After Yuen Long Dog Bite Incident",
     "hashtags": [
       "#PublicSafety",
       "#CCTV",
       "#CommunitySecurity",
-      "#YuenLong"
+      "#DogBitePrevention"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "The new CCTV deployment raises privacy and data‑security concerns, prompting elderly residents and professional security managers to review surveillance policies and safeguard personal information.",
-    "micro_personas": [
-      "Elderly resident concerned about public surveillance",
-      "Professional office manager overseeing security camera policies"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Yuen Long + CCTV installation",
-      "Dog bite incident + safety response",
-      "Sharp Eye Project + privacy concerns"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "CCTV deployment lacks AI component; does not present AI safety or trust issue for Hong Kong users."
   },
   {
     "i": 73,
     "category": "real_use",
     "ai1_suggestion": "",
     "title": "全球 OPC AI 數字峰會暨 AI 影視數智發展論壇於香港圓滿舉辦 - 經濟導報",
-    "title_en": "Global OPC AI Digital Summit and AI Film‑Media Forum Successfully Held in Hong Kong",
+    "title_en": "Global OPC AI Digital Summit and AI Film & Media Forum Successfully Held in Hong Kong",
     "hashtags": [
       "#AIConference",
       "#HongKongTech",
@@ -1639,35 +1553,44 @@
     "source_name": "經濟導報",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The AI Digital Summit demonstrated concrete media‑AI tools, giving entrepreneurs, developers and students clear use‑cases for automating video production and content personalization in Hong Kong.",
+    "reason": "Provides Hong Kong SMEs and entrepreneurs concrete AI deployment examples, enabling them to adopt proven solutions that improve productivity and reduce costs across marketing, customer service, and operations.",
     "micro_personas": [
-      "Media startup founder exploring AI video generation",
-      "Student researcher attending AI film forum"
+      "SME owner evaluating AI marketing automation",
+      "Tech startup founder seeking AI video analytics"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "OPC AI Summit + outcomes",
-      "Hong Kong AI forum + media applications",
-      "AI film forum + startup opportunities"
+      "OPC AI Summit + Attend",
+      "Hong Kong AI Conference + Learn"
     ]
   },
   {
     "i": 74,
-    "category": "regulation_public",
-    "ai1_suggestion": "Consider adding a category for market valuation impacts on tech firms",
+    "category": "tech_background",
+    "ai1_suggestion": "",
     "title": "Is Tencent Facing a \"Meta-Style Revaluation\"? Muse Gains Traction, Market Suddenly Recognizes WeChat's AI Value - 富途牛牛",
-    "title_en": "Is Tencent Facing a ‘Meta‑Style Revaluation’? Muse Gains Traction as Market Recognises WeChat’s AI Value",
+    "title_en": "Is Tencent Facing a ‘Meta‑Style Revaluation’? Market Recognizes WeChat’s AI Potential",
     "hashtags": [
       "#Tencent",
       "#AIValuation",
       "#WeChatAI",
-      "#MarketTrends"
+      "#TechMarket"
     ],
     "source_name": "富途牛牛",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Content centers on market valuation rather than regulatory or compliance impacts, providing limited actionable insight for Hong Kong businesses."
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "Highlights AI-driven valuation shift of WeChat, guiding Hong Kong financial professionals and investors to reassess AI portfolio exposure and identify emerging opportunities in local AI service markets.",
+    "micro_personas": [
+      "Investment analyst evaluating AI stocks",
+      "Corporate strategist planning AI product roadmap"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Tencent AI valuation + Analyze",
+      "WeChat AI features + Assess"
+    ]
   },
   {
     "i": 75,
@@ -1684,43 +1607,33 @@
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article discusses iPhone storage hardware, not AI technology, offering no actionable AI insight for Hong Kong developers or target groups."
+    "reject_reason": "No AI component; focuses solely on hardware storage performance, irrelevant to AI utility."
   },
   {
     "i": 76,
-    "category": "safety_trust",
+    "category": "tools_access",
     "ai1_suggestion": "",
     "title": "香港、台灣大量 Facebook 用戶 出現 Too Many Redirect 報錯 客服卻鬼打牆 - 電腦領域HKEPC Hardware",
-    "title_en": "Massive Facebook User Base in Hong Kong and Taiwan Encounter 'Too Many Redirect' Errors, Support Unresponsive",
+    "title_en": "Massive Facebook Users in Hong Kong and Taiwan Encounter ‘Too Many Redirect’ Errors, Support Unresponsive",
     "hashtags": [
       "#Facebook",
       "#RedirectError",
-      "#HKTech",
-      "#UserExperience"
+      "#UserSupport",
+      "#HKTech"
     ],
     "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Facebook redirect errors expose users to potential phishing and service disruption, posing security risks especially for elderly users and professionals relying on the platform in Hong Kong.",
-    "micro_personas": [
-      "Elderly user trying to access Facebook for news",
-      "Professional using Facebook for networking"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Facebook + RedirectError",
-      "HK Users + SupportIssue"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Event concerns Facebook error without AI relevance, offering no AI‑related benefit."
   },
   {
     "i": 77,
     "category": "real_use",
     "ai1_suggestion": "",
     "title": "Alibaba teases 10-trillion-parameter model, debuts ‘China’s most powerful’ AI chip",
-    "title_en": "Alibaba Unveils China’s Most Powerful AI Chip and Teases a 10‑Trillion‑Parameter Model",
+    "title_en": "Alibaba Unveils China’s Most Powerful AI Chip and Hints at a 10‑Trillion‑Parameter Model",
     "hashtags": [
-      "#AlibabaAI",
+      "#Alibaba",
       "#AIChip",
       "#LargeLanguageModel",
       "#TechInnovation"
@@ -1728,17 +1641,16 @@
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Alibaba's new AI chip and 10‑trillion‑parameter model provide cutting‑edge compute power, enabling Hong Kong developers and SMEs to build advanced AI services and gain competitive advantage.",
+    "reason": "HK developers and enterprise AI teams can leverage Alibaba’s new chip architecture to accelerate large‑scale model training, reducing infrastructure costs and enabling competitive AI services locally for financial institutions.",
     "micro_personas": [
-      "Developer integrating large language model into fintech app",
-      "SME exploring AI‑driven analytics"
+      "AI startup CTO evaluating hardware",
+      "Enterprise ML engineer optimizing model pipelines"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "Alibaba + AIChip",
-      "LargeModel + Deployment",
-      "HK Companies + AIAdoption"
+      "Alibaba + Unveils AI Chip",
+      "Alibaba + Announces 10‑Trillion Parameter Model"
     ]
   },
   {
@@ -1746,43 +1658,53 @@
     "category": "regulation_public",
     "ai1_suggestion": "",
     "title": "美國建AI資料中心持續碰壁 衝擊達680億美元 - 大紀元時報香港",
-    "title_en": "U.S. AI Data Center Projects Stumble, Potential Impact Valued at $68 Billion",
+    "title_en": "U.S. AI Data Center Projects Stumble, Potentially Impacting $68 B of Investment",
     "hashtags": [
-      "#AIInfrastructure",
-      "#DataCenters",
+      "#AIDataCenter",
       "#USTech",
-      "#InvestmentRisk"
+      "#InvestmentRisk",
+      "#Infrastructure"
     ],
     "source_name": "大紀元時報香港",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Focuses on US data‑center setbacks without direct regulatory impact on Hong Kong businesses or AI deployments."
+    "evidence_status": "independent_report",
+    "decision": "accept",
+    "reason": "HK investors and local cloud providers must reassess exposure to US AI data‑center supply chains, anticipating potential cost spikes and seeking diversified regional infrastructure options.",
+    "micro_personas": [
+      "Financial analyst monitoring tech infrastructure risk",
+      "Cloud services manager evaluating vendor strategy"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "US + AI Data Center Delays",
+      "Investment + AI Infrastructure Risk"
+    ]
   },
   {
     "i": 80,
     "category": "regulation_public",
     "ai1_suggestion": "",
     "title": "政府力推AI取代人力密集工作 公務員編制5年削逾1萬個 - unwire",
-    "title_en": "Government Pushes AI to Replace Labor‑Intensive Jobs, Cuts Over 10,000 Civil Service Positions in Five Years",
+    "title_en": "Government Pushes AI to Replace Labor‑Intensive Jobs, Cutting Over 10,000 Civil Service Positions in Five Years",
     "hashtags": [
       "#AIPolicy",
       "#PublicSector",
-      "#WorkforceAutomation",
-      "#GovReform"
+      "#JobAutomation",
+      "#HKGovernment"
     ],
     "source_name": "unwire",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Hong Kong government's AI‑driven workforce reduction will reshape public‑sector jobs, prompting office workers and HR professionals to adapt to automation and reskilling needs.",
+    "reason": "HK civil service HR teams can prepare for AI‑driven workflow redesign, while office workers may need reskilling for automated processes, reducing staffing costs and improving service efficiency.",
     "micro_personas": [
-      "Office worker facing AI‑driven task automation",
-      "HR professional redesigning recruitment workflow"
+      "Public sector HR manager planning AI integration",
+      "Civil servant transitioning to AI‑assisted duties"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 5,
     "history_queries": [
-      "HK Government + AIPolicy",
-      "CivilService + WorkforceAutomation"
+      "HK Government + AI Workforce Reduction",
+      "Civil Service + Automation Policy"
     ]
   },
   {
@@ -1790,27 +1712,27 @@
     "category": "tech_background",
     "ai1_suggestion": "",
     "title": "人工智能｜阿里推出號稱中國最強的AI晶片 挑戰行業領導者Nvidia 用於支持數據中心發展 - Yahoo 財經",
-    "title_en": "Alibaba Launches China’s Strongest AI Chip to Challenge Nvidia in Data Centers",
+    "title_en": "Alibaba Launches China's Strongest AI Chip to Challenge Nvidia in Data Centers",
     "hashtags": [
       "#AIChip",
       "#Alibaba",
+      "#Nvidia",
       "#DataCenter",
-      "#NvidiaChallenge",
       "#TechInnovation"
     ],
     "source_name": "Yahoo 財經",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Developers and SMEs can anticipate new AI chip performance, enabling local cloud providers to offer lower‑cost inference services and allowing hardware teams to evaluate next‑gen accelerator options for HK data centers.",
+    "reason": "Local developers and startup CTOs can leverage Alibaba’s AI chip to build high‑throughput models, reducing reliance on Nvidia and lowering hardware costs for Hong Kong AI projects.",
     "micro_personas": [
-      "AI hardware engineer evaluating chip options",
-      "Startup CTO planning cloud AI services"
+      "AI hardware engineer designing data‑center solutions",
+      "Startup CTO evaluating compute options"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 3,
     "history_queries": [
       "Alibaba + Launch AI Chip",
-      "AI Chip + Market Competition"
+      "Data Center + Chip Adoption"
     ]
   },
   {
@@ -1820,61 +1742,71 @@
     "title": "Apple Siri AI 和解金開放美國用戶申請 每部 iPhone 最多可獲 95 美元 - unwire",
     "title_en": "Apple Siri AI Settlement Allows US Users to Claim Up to $95 per iPhone",
     "hashtags": [
-      "#AppleSiri",
+      "#Apple",
+      "#Siri",
       "#AISettlement",
-      "#USConsumers",
-      "#iPhoneCompensation",
-      "#TechLaw"
+      "#ConsumerRights",
+      "#USRegulation"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The settlement concerns US iPhone users and US consumer law, offering no actionable regulatory insight or impact for Hong Kong businesses or data‑privacy practices."
+    "reject_reason": "The settlement applies only to US iPhone users and offers little actionable insight for Hong Kong stakeholders or local AI policy."
   },
   {
     "i": 83,
     "category": "safety_trust",
-    "ai1_suggestion": "environmental_impact",
+    "ai1_suggestion": "",
     "title": "來稿｜AI既是氣候風險救星 又是數據中心耗能黑洞？ - 香港01",
-    "title_en": "AI: Both a Climate‑Risk Savior and a Data‑Center Energy Black Hole?",
+    "title_en": "AI: Climate Risk Savior or Data Center Energy Black Hole?",
     "hashtags": [
       "#AI",
       "#ClimateRisk",
-      "#DataCenterEnergy",
-      "#Sustainability",
-      "#GreenTech"
+      "#EnergyConsumption",
+      "#DataCenters",
+      "#Sustainability"
     ],
     "source_name": "香港01",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The article discusses AI’s environmental footprint rather than security or privacy risks, thus not aligning with the safety‑trust lens needed for Hong Kong audiences."
+    "decision": "accept",
+    "reason": "Professionals and SMEs must assess AI‑driven energy use, as rising data‑center power demand poses climate risks and operational cost challenges for Hong Kong businesses.",
+    "micro_personas": [
+      "Sustainability officer evaluating AI workloads",
+      "SME owner planning AI adoption"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI + Energy Consumption",
+      "Data Center + Climate Risk"
+    ]
   },
   {
     "i": 84,
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "Key Takeaways from Brokerage Morning Meetings: AI Computing Infrastructure Drives Demand for Vector Network Analyzers - 富途牛牛",
-    "title_en": "Brokerage Morning Meetings Highlight AI Computing Infrastructure Boosting Demand for Vector Network Analyzers",
+    "title_en": "AI Computing Infrastructure Boosts Demand for Vector Network Analyzers",
     "hashtags": [
-      "#AIComputing",
+      "#AIInfrastructure",
       "#VectorNetworkAnalyzer",
-      "#TechInfrastructure",
-      "#HardwareDemand",
-      "#EngineeringTools"
+      "#TechTools",
+      "#MarketDemand",
+      "#Semiconductor"
     ],
     "source_name": "富途牛牛",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Office engineers and SME tech teams gain insight into rising demand for vector network analyzers, essential for validating AI compute hardware, improving local prototyping speed and reducing testing bottlenecks.",
+    "reason": "SME R&D teams and RF engineers can acquire vector network analyzers to validate AI accelerator performance, improving product reliability and accelerating time‑to‑market in Hong Kong.",
     "micro_personas": [
-      "RF engineer testing AI accelerators",
-      "SME hardware team lead prototyping AI chips"
+      "RF engineer testing AI chips",
+      "SME R&D manager overseeing AI hardware validation"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "Vector Network Analyzer + Demand Surge",
-      "AI Computing + Tool Procurement"
+      "AI + Hardware Testing",
+      "Vector Analyzer + Market Demand"
     ]
   },
   {
@@ -1882,54 +1814,44 @@
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "《2026 年 Router 隱私指數》 ASUS 表現最佳 D-Link 評分包尾 - 電腦領域HKEPC Hardware",
-    "title_en": "2026 Router Privacy Index Ranks ASUS Highest and D‑Link Lowest",
+    "title_en": "2026 Router Privacy Index: ASUS Leads, D-Link Trails",
     "hashtags": [
       "#RouterPrivacy",
       "#ASUS",
       "#DLink",
-      "#PrivacyIndex",
-      "#CyberSecurity"
+      "#CyberSecurity",
+      "#PrivacyIndex"
     ],
     "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Elderly users and IT professionals receive clear rankings of router privacy, guiding safer home network purchases and prompting corporate admins to replace vulnerable devices, enhancing data protection in Hong Kong.",
-    "micro_personas": [
-      "Elderly home user selecting router",
-      "Corporate IT admin upgrading office network security"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "Router + Privacy Ranking",
-      "Home Network + Security Upgrade"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The router privacy index discusses network security without involving AI, so it lacks relevance to the AI‑focused evaluation criteria."
   },
   {
     "i": 86,
-    "category": "real_use",
+    "category": "tools_access",
     "ai1_suggestion": "",
     "title": "Ant Group consolidates Alipay operations in big bet on AI ‘agentic commerce’",
     "title_en": "Ant Group Consolidates Alipay Operations to Focus on AI-Driven \"Agentic Commerce\"",
     "hashtags": [
-      "#AICommerce",
       "#FinTech",
+      "#AICommerce",
       "#DigitalPayments",
       "#AntGroup"
     ],
     "source_name": "Tech - South China Morning Post",
-    "evidence_status": "official",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "HK merchants and SMEs can leverage Ant Group’s AI‑driven ‘agentic commerce’ on Alipay to deliver personalized offers, automate order processing and boost sales efficiency, directly improving daily operations.",
+    "reason": "HK SMEs and entrepreneurs can leverage Alipay's AI‑powered agentic commerce to automate product recommendations, dynamic pricing, and customer engagement, boosting sales efficiency without extensive technical integration for their online stores.",
     "micro_personas": [
-      "SME owner using Alipay for AI‑enhanced sales",
-      "E‑commerce manager integrating agentic commerce recommendations"
+      "SME owner managing online storefront",
+      "Entrepreneur launching AI‑enhanced e‑commerce platform"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Ant Group + Consolidate Alipay",
-      "Alipay + Deploy AI agentic commerce"
+      "Ant Group + Consolidates",
+      "Alipay + AI Integration"
     ]
   },
   {
@@ -1937,26 +1859,26 @@
     "category": "tools_access",
     "ai1_suggestion": "",
     "title": "星展銀（台灣）全面升級數位客服平台「星展 i 客服」 導入生成式AI技術 - life.tw",
-    "title_en": "DBS Taiwan Launches Upgraded Digital Customer Service Platform \"DBS i Service\" Powered by Generative AI",
+    "title_en": "DBS Taiwan Fully Upgrades Digital Customer Service Platform \"DBS i Service\" with Generative AI",
     "hashtags": [
-      "#GenerativeAI",
       "#CustomerService",
+      "#GenerativeAI",
       "#DigitalBanking",
       "#DBS"
     ],
     "source_name": "life.tw",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "HK banks can adopt DBS Taiwan’s generative‑AI powered digital service platform to automate routine inquiries, cut call‑center costs and provide 24/7 multilingual support, enhancing customer experience.",
+    "reason": "HK banks and corporate offices can adopt similar AI chatbots to streamline customer support, reducing response times and freeing staff for higher‑value tasks, benefiting HR and office workers.",
     "micro_personas": [
-      "Bank customer service agent using AI chat assistant",
-      "Operations manager deploying AI‑driven self‑service portal"
+      "Customer service agent using AI assistant",
+      "HR manager implementing AI chatbot for internal helpdesk"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "DBS Taiwan + Launch AI service",
-      "Digital customer service + Upgrade"
+      "DBS Taiwan + Upgrades",
+      "Digital Service + Generative AI"
     ]
   },
   {
@@ -1964,31 +1886,31 @@
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "Meta AI｜廣東話「爆粗」夠地道 - EJ Tech",
-    "title_en": "Meta AI Generates Authentic Cantonese Swear Words",
+    "title_en": "Meta AI Generates Authentic Cantonese Profanity",
     "hashtags": [
       "#MetaAI",
       "#Cantonese",
-      "#LanguageModel",
-      "#ContentSafety"
+      "#ContentSafety",
+      "#LanguageModel"
     ],
     "source_name": "EJ Tech",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Meta’s Cantonese profanity generator highlights AI‑generated abusive content risks, prompting HK platforms to strengthen moderation tools and educate elderly users against deceptive language misuse.",
+    "reason": "Elderly Hong Kong internet users may encounter AI‑generated offensive Cantonese content, raising trust concerns; professionals must implement moderation tools to protect users and maintain platform credibility.",
     "micro_personas": [
-      "Content moderator handling Cantonese user reports",
-      "Elderly user encountering AI‑generated offensive text"
+      "Elderly social media user",
+      "Content moderation specialist"
     ],
     "agent_signal": false,
     "automation_level": 2,
     "history_queries": [
-      "Meta AI + Generate Cantonese profanity",
-      "Content safety + Deepfake language"
+      "Meta AI + Generates",
+      "Cantonese + Profanity"
     ]
   },
   {
     "i": 89,
-    "category": "real_use",
+    "category": "tools_access",
     "ai1_suggestion": "",
     "title": "手錶都有得拍卡！HUAWEI WATCH GT 7 系列升級 NFC + AlipayHK 雙支付 - unwire",
     "title_en": "Huawei Watch GT 7 Series Adds NFC and AlipayHK Dual Payment Capability",
@@ -1999,19 +1921,9 @@
       "#WearablePayments"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Huawei Watch GT 7’s NFC and AlipayHK dual‑payment lets HK users, especially seniors and busy professionals, make quick contactless transactions from their wrist, streamlining daily commuting and expense handling.",
-    "micro_personas": [
-      "Elderly commuter using smartwatch for transit payments",
-      "Professional using watch for rapid business expense capture"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "Huawei Watch + Add NFC",
-      "AlipayHK + Enable wearable payments"
-    ]
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The announcement details hardware NFC payment features without any AI component, offering no AI‑related utility for Hong Kong target audiences."
   },
   {
     "i": 90,
@@ -2020,24 +1932,24 @@
     "title": "聯合國示警：AI 代理「自行闖關」入侵企業系統，安全措施不能再等 - unwire",
     "title_en": "UN Warns AI Agents Could Autonomously Breach Enterprise Systems, Urging Immediate Security Measures",
     "hashtags": [
-      "#AIThreats",
-      "#CyberSecurity",
       "#UNAlert",
+      "#AIThreat",
+      "#CyberSecurity",
       "#EnterpriseRisk"
     ],
     "source_name": "unwire",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "UN’s alert on autonomous AI agents breaching enterprise systems urges HK corporations to implement robust AI security protocols, conduct regular penetration testing, and train staff to mitigate emerging cyber threats.",
+    "reason": "Hong Kong professionals and SMEs must prioritize AI security protocols, updating firewalls and monitoring tools to prevent autonomous agent attacks, protecting critical data and maintaining client trust.",
     "micro_personas": [
-      "IT security manager implementing AI threat controls",
-      "CIO evaluating AI agent risk for corporate infrastructure"
+      "IT security manager in SME",
+      "Cyber risk consultant for enterprises"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "UN + Warn AI agents",
-      "Enterprise systems + Security breach"
+      "UN + Warns",
+      "AI Agents + Breach"
     ]
   },
   {
@@ -2047,43 +1959,42 @@
     "title": "Meta Muse AI代理13天下載量逾250萬 帶動科技與晶片股上揚 - life.tw",
     "title_en": "Meta Muse AI Achieves Over 2.5 Million Downloads in 13 Days, Boosting Tech and Chip Stocks",
     "hashtags": [
-      "#AIApp",
+      "#AIAdoption",
       "#TechStocks",
       "#ChipMarket",
-      "#DigitalAdoption"
+      "#DigitalTools"
     ],
     "source_name": "life.tw",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Meta Muse AI's rapid adoption shows concrete content‑creation benefits for Hong Kong office workers and SMEs, enabling faster marketing copy, visual drafts, and internal communications with minimal training.",
+    "reason": "Office workers and SMEs can leverage Meta Muse AI’s creative generation features to produce marketing copy and presentations quickly, reducing design time and boosting productivity in Hong Kong’s fast‑paced business environment.",
     "micro_personas": [
-      "Marketing manager generating ad copy",
-      "Freelance designer creating visual concepts"
+      "Marketing coordinator drafting campaign assets",
+      "Small‑business owner creating social media visuals"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Meta Muse AI + download",
-      "Meta Muse AI + market impact",
-      "Meta Muse AI + content creation"
+      "Meta Muse + DownloadStats",
+      "AIContentTool + ProductivityGain"
     ]
   },
   {
     "i": 92,
-    "category": "learning_family",
+    "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "刷手機傷腦無關時長 匈牙利研究：自制力與 FOMO 才是關鍵 - unwire",
     "title_en": "Phone Use Harms Brain Not Due to Duration, Hungarian Study Finds Self‑Control and FOMO Are Key",
     "hashtags": [
       "#DigitalWellbeing",
-      "#SelfControl",
       "#FOMO",
-      "#HealthResearch"
+      "#SelfControl",
+      "#MentalHealth"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article discusses health research without any AI technology, tool, or actionable AI‑related insight for Hong Kong families."
+    "reject_reason": "The article discusses phone usage health effects without any AI component, offering no AI‑related utility for Hong Kong audiences."
   },
   {
     "i": 93,
@@ -2095,22 +2006,21 @@
       "#MLCC",
       "#AIHardware",
       "#SupplyChain",
-      "#TechIndustry"
+      "#TechDemand"
     ],
     "source_name": "Tech - South China Morning Post",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "The shift in MLCC pricing and supply due to AI server demand gives Hong Kong developers and hardware‑focused SMEs clear guidance for budgeting and sourcing critical components for AI infrastructure.",
+    "reason": "Developers and local electronics SMEs must anticipate tighter MLCC supplies for AI servers, prompting redesign or alternative component sourcing to maintain product timelines in Hong Kong’s tech sector.",
     "micro_personas": [
-      "Hardware engineer sourcing capacitors",
-      "Startup CTO planning AI server build"
+      "Embedded systems engineer sourcing capacitors",
+      "Procurement lead at a Hong Kong AI‑hardware startup"
     ],
-    "agent_signal": false,
+    "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "MLCC market + price correction",
-      "AI server demand + component supply",
-      "Hong Kong hardware budgeting + MLCC"
+      "MLCC + PriceCorrection",
+      "AIServer + ComponentDemand"
     ]
   }
 ]
