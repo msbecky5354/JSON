@@ -75,76 +75,80 @@ const TOOLS = {
     "related": []
   },
   "ai-cs-chat": {
-    "name": {
-      "tc": "專屬企業 AI 客服｜高合規零幻覺 RAG 知識庫與真人轉駁流程",
-      "sc": "专属企业 AI 客服｜高合规零幻觉 RAG 知识库与人工转接流程",
-      "en": "Enterprise AI Helpdesk | High-Compliance Zero-Hallucination RAG & Live Escalation"
-    },
-    "cat": {
-      "tc": "企業 AI 客服 · RAG 架構",
-      "sc": "企业 AI 客服 · RAG 架构",
-      "en": "Enterprise AI Helpdesk · RAG Architecture"
-    },
+    "name": "專屬企業 AI 客服｜高合規零幻覺 RAG 知識庫與真人轉駁流程",
+    "cat": "企業 AI 客服 · RAG 架構",
     "icon": "https://lazytoolsstation.vercel.app/ai-cs-chat.jpg",
     "link": "https://lazytoolsstation.vercel.app/ai_CS_chats/vhis-web-chat.html",
-    "short": {
-      "tc": "零幻覺保單解答系統！結合 n8n、OpenAI 及 RAG 向量檢索技術，嚴格鎖定內部官方條款精準對答，內建低置信度 3 秒即時轉駁專人接管機制。",
-      "sc": "零幻觉保单解答系统！结合 n8n、OpenAI 及 RAG 向量检索技术，严格锁定内部官方条款精准对答，内置低置信度 3 秒即时转接人工接管机制。",
-      "en": "Zero-hallucination policy Q&A system! Powered by n8n, OpenAI, and RAG vector retrieval, strictly grounded on official clauses with 3-second instant human escalation."
-    },
-    "about": {
-      "tc": "懶人工具駅 (Lazy Tools Station) 專注於發掘與實踐超低成本、高實用性的 Web 應用及 AI 自動化工作流。\n\n本系統為一個技術概念驗證 (PoC) 項目，旨在展示如何透過 n8n 與 RAG (檢索增強生成) 技術，構建適用於高合規要求行業（如保險、金融）的零幻覺解答架構。",
-      "sc": "懒人工具驿 (Lazy Tools Station) 专注于发掘与实践超低成本、高实用性的 Web 应用及 AI 自动化工作流。\n\n本系统为一个技术概念验证 (PoC) 项目，旨在展示如何通过 n8n 与 RAG (检索增强生成) 技术，构建适用于高合规要求行业（如保险、金融）的零幻觉解答架构。",
-      "en": "Lazy Tools Station focuses on practical, low-cost automation pipelines.\n\nThis PoC showroom demo showcases how n8n and RAG vector search construct zero-hallucination customer support tailored for strictly compliant sectors like insurance and finance."
-    },
+    "short": "零幻覺保單解答系統！結合 n8n、OpenAI 及 RAG 向量檢索技術，嚴格鎖定內部官方條款精準對答，內建低置信度 3 秒即時轉駁專人接管機制。",
+    "about": "懶人工具駅 (Lazy Tools Station) 專注於發掘與實踐超低成本、高實用性的 Web 應用及 AI 自動化工作流。\n\n本系統為一個技術概念驗證 (PoC) 項目，旨在展示如何透過 n8n 與 RAG (檢索增強生成) 技術，構建適用於高合規要求行業（如保險、金融）的零幻覺解答架構。",
     "videos": [
       {
         "type": "facebook",
         "date": "2026-09-01",
         "title": "出面99%都係假Agent？我自製專屬AI保單顧問：絕不吹水、真查條款實測！ #AIAgent #ChatGPT #自願醫保 ",
         "url": "https://www.facebook.com/reel/1597721341724597",
-        "desc": "市面上 99% 聲稱的 AI Agent，本質只是「猜下一個字」的聊天對話框。我作為保單持有人，自製了一隻真正「有手有腳、真查條款、超出範圍識收口」的專屬 AI 保單顧問！ 本片完全不燒錢自訓大模型，拆解如何利用「現成 AI API ＋ n8n 自動化流程 ＋ 雲端保單庫」，把單向問答做成可控的作業系統，並現場實測 3 大刁鑽保險場景。 📌 **影片章節時間軸** * 00:00 神棍 vs 法官：點解出面咁多假 Agent？ * 00:05 Chatbot 淨係得張嘴，真 Agent 係點運作？ * 01:15 租現成黑盒 vs 自建控得住的系統 * 02:20 破解迷思：0 參數訓練，外購大腦＋自製手與閘 * 03:30 4 步人話流程：步步有據，絕不老作 * 04:45 現場實測：拒絕話術／查定義／體檢割瘜肉賠唔賠？ * 06:10 總結：4 句說話即刻拆穿市面假 Agent #AIAgent #n8n #保單顧問 #自願醫保 #AI落地 #自動化流程 #ChatGPT"
+        "desc": "市面上 99% 聲稱的 AI Agent，本質只是「猜下一個字」的聊天對話框。我作為保單持有人，自製了一隻真正「有手有腳、真查條款、超出範圍識收口」的專屬 AI 保單顧問！ 本片完全不燒錢自訓大模型，拆解如何利用「現成 AI API ＋ n8n 自動化流程 ＋ 雲端保單庫」，把單向問答做成可控的作業系統，並現場實測 3 大刁鑽保險場景。 📌 **影片章節時間軸** * 00:00 神棍 vs 法官：點解出面咁多假 Agent？ * 00:05 Chatbot 淨係得張嘴，真 Agent 係點運作？ * 01:15 租現成黑盒 vs 自建控得住的系統 * 02:20 破解迷思：0 參數訓練，外購大腦＋自製手與閘 * 03:30 4 步人話流程：步步有據，絕不老作 * 04:45 現場實測：拒絕話術／查定義／體檢割瘜肉賠唔賠？ * 06:10 總結：4 句說話即刻拆穿市面假 Agent #AIAgent #n8n #保單顧問 #自願醫保 #AI落地 #自動化流程 #ChatGPT",
+        "pinned": false
       },
       {
         "type": "youtube",
         "date": "2026-09-01",
         "title": "出面99%都係假Agent？我自製專屬AI保單顧問：絕不吹水、真查條款實測！ #AIAgent #ChatGPT #自願醫保 ",
         "url": "https://youtu.be/1W0JQS72WCE",
-        "desc": "市面上 99% 聲稱的 AI Agent，本質只是「猜下一個字」的聊天對話框。我作為保單持有人，自製了一隻真正「有手有腳、真查條款、超出範圍識收口」的專屬 AI 保單顧問！\n\n本片完全不燒錢自訓大模型，拆解如何利用「現成 AI API ＋ n8n 自動化流程 ＋ 雲端保單庫」，把單向問答做成可控的作業系統，並現場實測 3 大刁鑽保險場景。\n📌 影片章節時間軸\n\n 00:00 神棍 vs 法官：點解出面咁多假 Agent？\n 00:05 Chatbot 淨係得張嘴，真 Agent 係點運作？\n 01:15 租現成黑盒 vs 自建控得住的系統\n 02:20 破解迷思：0 參數訓練，外購大腦＋自製手與閘\n 03:30 4 步人話流程：步步有據，絕不老作\n 04:45 現場實測：拒絕話術／查定義／體檢割瘜肉賠唔賠？\n\n 06:10 總結：4 句說話即刻拆穿市面假 Agent\n\n\n#AIAgent #n8n #保單顧問 #自願醫保 #AI落地 #自動化流程 #ChatGPT"
+        "desc": "市面上 99% 聲稱的 AI Agent，本質只是「猜下一個字」的聊天對話框。我作為保單持有人，自製了一隻真正「有手有腳、真查條款、超出範圍識收口」的專屬 AI 保單顧問！\n\n本片完全不燒錢自訓大模型，拆解如何利用「現成 AI API ＋ n8n 自動化流程 ＋ 雲端保單庫」，把單向問答做成可控的作業系統，並現場實測 3 大刁鑽保險場景。\n📌 影片章節時間軸\n\n 00:00 神棍 vs 法官：點解出面咁多假 Agent？\n 00:05 Chatbot 淨係得張嘴，真 Agent 係點運作？\n 01:15 租現成黑盒 vs 自建控得住的系統\n 02:20 破解迷思：0 參數訓練，外購大腦＋自製手與閘\n 03:30 4 步人話流程：步步有據，絕不老作\n 04:45 現場實測：拒絕話術／查定義／體檢割瘜肉賠唔賠？\n\n 06:10 總結：4 句說話即刻拆穿市面假 Agent\n\n\n#AIAgent #n8n #保單顧問 #自願醫保 #AI落地 #自動化流程 #ChatGPT",
+        "pinned": false
       },
       {
         "type": "facebook",
         "date": "2026-09-01",
         "title": "平時買份尊貴版/高端醫療保險，本保單厚過本字典，啲字又密又難明，到底邊個會真係逐字睇？🤔",
         "url": "https://www.facebook.com/reel/1092972870358650",
-        "desc": "為咗唔好每次有頭暈身㷫都去煩住個 Agent，我最近手痕寫咗個**「個人專屬 AI 保單顧問」！我直接將自己份真實高端醫療保單嘅 PDF 餵晒畀個系統，配合 n8n 同 RAG 技術，寫咗一套「只講真話、零幻覺」**嘅自動回覆架構。\n系統會嚴格根據我份保單條文去解答，如果條款冇寫，佢會直接答唔知，絕對唔會亂咁作數據！\n為咗測試個系統嘅極限同準確度，我想邀請大家入去瘋狂刁難吓個 AI！👇\n🔗 點擊即玩 Live Demo： https://lazytoolsstation.vercel.app/ai_CS_chats/vhis-web-chat.html\n💡 溫馨提示：系統入面已經整好咗一個「體驗題庫」，大家可以直接撳啲預設問題考佢，又或者親自打字問佢以下呢類刁鑽問題（尤其係大家最關心嘅癌症保障）都得：\n 「如果醫生建議打最新嘅標靶藥或者免疫治療，喺診所打同喺醫院打，賠償計法有冇分別？」\n 「不幸確診，想飛去外地做『質子治療』，保單包唔包醫療費？會唔會連機票食宿都有得 Claim？」\n 「『原位癌』喺呢份保單入面算唔算癌症？有冇賠償上限？」\n 「去東京旅行做體檢，順便割埋大腸瘜肉賠唔賠？」\n 「指定日間手術現金一千，即係嗰單腸鏡最多只賠一千？」\n如果你係做保險、合規或者做 IT 嘅朋友，歡迎順便交流吓呢套底層自動化架構點樣做到 100% 防幻覺！\n(⚠️ 利申：純技術開發分享與系統壓力測試，非賣保險，系統對答亦不構成任何真實理賠建議 😂)\n#懶人工具駅 #LazyToolsStation #AI客服 #自動化客服 #n8n #RAG #零幻覺AI #保險科技 #技術分享 #系統測試 #獨立開發者"
+        "desc": "為咗唔好每次有頭暈身㷫都去煩住個 Agent，我最近手痕寫咗個**「個人專屬 AI 保單顧問」！我直接將自己份真實高端醫療保單嘅 PDF 餵晒畀個系統，配合 n8n 同 RAG 技術，寫咗一套「只講真話、零幻覺」**嘅自動回覆架構。\n系統會嚴格根據我份保單條文去解答，如果條款冇寫，佢會直接答唔知，絕對唔會亂咁作數據！\n為咗測試個系統嘅極限同準確度，我想邀請大家入去瘋狂刁難吓個 AI！👇\n🔗 點擊即玩 Live Demo： https://lazytoolsstation.vercel.app/ai_CS_chats/vhis-web-chat.html\n💡 溫馨提示：系統入面已經整好咗一個「體驗題庫」，大家可以直接撳啲預設問題考佢，又或者親自打字問佢以下呢類刁鑽問題（尤其係大家最關心嘅癌症保障）都得：\n 「如果醫生建議打最新嘅標靶藥或者免疫治療，喺診所打同喺醫院打，賠償計法有冇分別？」\n 「不幸確診，想飛去外地做『質子治療』，保單包唔包醫療費？會唔會連機票食宿都有得 Claim？」\n 「『原位癌』喺呢份保單入面算唔算癌症？有冇賠償上限？」\n 「去東京旅行做體檢，順便割埋大腸瘜肉賠唔賠？」\n 「指定日間手術現金一千，即係嗰單腸鏡最多只賠一千？」\n如果你係做保險、合規或者做 IT 嘅朋友，歡迎順便交流吓呢套底層自動化架構點樣做到 100% 防幻覺！\n(⚠️ 利申：純技術開發分享與系統壓力測試，非賣保險，系統對答亦不構成任何真實理賠建議 😂)\n#懶人工具駅 #LazyToolsStation #AI客服 #自動化客服 #n8n #RAG #零幻覺AI #保險科技 #技術分享 #系統測試 #獨立開發者",
+        "pinned": false
       }
     ],
     "articles": [
       {
         "date": "2026-09-01",
         "title": "最近砌咗個好玩嘅實驗項目：一套專為高合規要求行業（例如保險、金融）設計嘅「零幻覺」AI 客服 Web App 展示。",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0smUk671zySm9yZAMT4hY7G6tC7JjSSQ9uBn6gd9QH5cmifjDPosz6wvENBtmgmokl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"773\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0smUk671zySm9yZAMT4hY7G6tC7JjSSQ9uBn6gd9QH5cmifjDPosz6wvENBtmgmokl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"773\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": false
       },
       {
         "date": "2026-09-07",
         "title": "📰 最新調查：78% 港人用 AI 客服要「重複說明」，73% 因為 AI「失憶」而直接放棄互動！",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02yhbrSu8HsYtBqdQPqW8B4do3S3A2kz45DiKBBn3M6Sywp99rYqriV27CxcupZgBml%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"473\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02yhbrSu8HsYtBqdQPqW8B4do3S3A2kz45DiKBBn3M6Sywp99rYqriV27CxcupZgBml%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"473\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": false
       },
       {
         "date": "2026-09-09",
         "title": "🚨 【AI 壓力測試報告】當「雙腦 AI 客服」遇上最難搞嘅醫療保險條款，結果會點？",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid021vUNoSp1yedW97ywCmqYzuA4uuHCKTGUEmtXeKy14m1vVBkXysWSHvuhdde2zPSal%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"709\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid021vUNoSp1yedW97ywCmqYzuA4uuHCKTGUEmtXeKy14m1vVBkXysWSHvuhdde2zPSal%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"709\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": false
       },
       {
         "date": "2026-09-05",
         "title": "玩 AI 自動化（例如 n8n），千祈唔好當隻 AI 係一部「文字過濾機」。",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02Z1K6hrLTfFqMSMhH14R9sQPzhPJnyehMfqPhUDe5gaDFizr6bLu2dTF7aLdBfZpVl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"500\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02Z1K6hrLTfFqMSMhH14R9sQPzhPJnyehMfqPhUDe5gaDFizr6bLu2dTF7aLdBfZpVl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"500\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": false
       },
       {
         "date": "2026-09-15",
         "title": "可控AI Agent ",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid037e348w8E7NYfB3LyxF25owWxVbLc9iwscABynZq3X3YtHWfVSJbNVGHDYWyvgiBfl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"831\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid037e348w8E7NYfB3LyxF25owWxVbLc9iwscABynZq3X3YtHWfVSJbNVGHDYWyvgiBfl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"831\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": false
+      },
+      {
+        "date": "2026-09-27",
+        "title": "別再怪 AI 失控：與其落 100 條禁令，不如教 AI 按章工作 🛡️⚙️",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02GxxiAVpdMRz3saWwJMRxJzPehz2s36hdsUv8qdCnEE8DLfnc1tcifSsB8xz1ZbjDl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"698\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": true
+      },
+      {
+        "date": "2026-09-27",
+        "title": "Stop Blaming \"Rogue AI\": Why 100 Bans Won’t Work—and What Real AI Governance Looks Like 🛡️⚙️",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02CzJw7hTiUV2M3MET9qAuTxpdd9TagQqwA9E3c4uDyZDY2EwjbDPQMwtGJFfWvzxNl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"717\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": true
       }
     ],
     "related": [
