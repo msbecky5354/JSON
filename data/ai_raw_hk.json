@@ -13,16 +13,16 @@
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "HK developers and SMEs can benefit from a surge in GPU supply, potentially lowering rental costs and enabling model training, which accelerates AI product rollout for office workers and startups.",
+    "reason": "Local developers and SMEs can anticipate lower GPU costs and greater compute access, enabling faster AI prototype deployment and reducing cloud expenses for Hong Kong tech projects.",
     "micro_personas": [
-      "AI Startup Founder training models",
-      "Freelance ML Engineer renting GPU cloud"
+      "Freelance AI developer building generative models",
+      "Startup CTO seeking in‑house training infrastructure"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 3,
     "history_queries": [
-      "Elon Musk + Deploy GPUs",
-      "GPU Market + Expand"
+      "Elon Musk + GPU",
+      "GPU supply + Hong Kong"
     ]
   },
   {
@@ -37,18 +37,18 @@
       "#Policy"
     ],
     "source_name": "unwire",
-    "evidence_status": "official",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "HK policymakers can use Gates’ warning to draft robust AI oversight laws, protecting professionals and the elderly from unsafe systems, and aligning local regulation with global safety standards.",
+    "reason": "Highlights growing global pressure for AI oversight, prompting Hong Kong regulators and corporate compliance teams to prepare monitoring frameworks, protecting enterprises and the public from unchecked AI risks.",
     "micro_personas": [
-      "Government Policy Advisor shaping AI safety law",
-      "Corporate Compliance Officer implementing monitoring tools"
+      "HK government policy analyst drafting AI oversight rules",
+      "Corporate compliance officer implementing AI risk controls"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "Bill Gates + Advocate Regulation",
-      "HK Government + Review AI Policy"
+      "Bill Gates + AI regulation",
+      "AI monitoring + Hong Kong"
     ]
   },
   {
@@ -65,16 +65,16 @@
     "source_name": "Yahoo 財經",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "HK data center operators and SME tech leaders may face component shortages, prompting them to seek alternative suppliers or redesign AI workloads, affecting cost and service reliability.",
+    "reason": "Signals possible supply constraints for AI‑focused data centers in Hong Kong, urging local SMEs and cloud providers to diversify vendors and mitigate hardware shortages.",
     "micro_personas": [
-      "Data Center Manager evaluating hardware supply",
-      "SME CTO planning AI infrastructure"
+      "Data center operations manager evaluating hardware vendors",
+      "SME IT procurement lead seeking alternative optical components"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "US Congress + Pass Optical Module Bill",
-      "HK Data Centers + Assess Supply Impact"
+      "US bill + optical modules",
+      "AI data center supply + Hong Kong"
     ]
   },
   {
@@ -91,14 +91,14 @@
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The announcement concerns gaming emulation technology without any AI component, offering no AI‑related value to Hong Kong audiences."
+    "reject_reason": "The announcement concerns gaming emulation technology without AI components, offering no AI‑related value to Hong Kong target audiences."
   },
   {
     "i": 7,
     "category": "work_sme",
     "ai1_suggestion": "",
     "title": "孫東稱年底前啟動100億「創科產業引導基金」 期望能掀業界投入300億元 - 堅料網",
-    "title_en": "Sun Dong Announces HK$10 Billion ‘Innovation Industry Guidance Fund’ to Spur HK$30 Billion Industry Investment by Year-End",
+    "title_en": "Sun Dong Announces HK$10 Billion ‘Innovation and Technology Industry Guidance Fund’ to Spur HK$30 Billion Industry Investment",
     "hashtags": [
       "#InnovationFunding",
       "#SMEGrowth",
@@ -107,50 +107,51 @@
     "source_name": "堅料網",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Funding initiative focuses on general innovation investment and lacks specific AI content, providing limited direct AI utility for local target groups."
+    "reject_reason": "The fund announcement focuses on general innovation financing and lacks specific AI content, providing limited AI‑centric utility for the defined Hong Kong groups."
   },
   {
     "i": 8,
     "category": "tech_background",
     "ai1_suggestion": "",
     "title": "微軟低調放棄「Copilot+ PC」品牌 副總裁證實：符合規格但不再冠名 - 電腦領域HKEPC Hardware",
-    "title_en": "Microsoft Quietly Abandons the \"Copilot+ PC\" Brand, Vice President Confirms: Meets Specs but No Longer Branded",
+    "title_en": "Microsoft quietly abandons 'Copilot+ PC' brand, VP confirms: meets specs but no longer named",
     "hashtags": [
       "#Microsoft",
-      "#Copilot",
+      "#AI",
       "#BrandStrategy",
       "#TechNews"
     ],
     "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Brand change offers no new AI capability or cost benefit for Hong Kong users, thus lacking practical AI utility."
+    "reject_reason": "Brand change offers no new AI capability or local utility for Hong Kong target groups."
   },
   {
     "i": 9,
     "category": "real_use",
     "ai1_suggestion": "",
     "title": "對標OpenAI！不會程式碼，也能跑Claude API - 鉅亨號",
-    "title_en": "Benchmarking OpenAI: Run Claude API Without Writing Code",
+    "title_en": "Benchmarking OpenAI: Run Claude API without coding",
     "hashtags": [
-      "#ClaudeAPI",
+      "#Claude",
+      "#API",
       "#NoCode",
-      "#AIIntegration",
-      "#DeveloperTools"
+      "#AI",
+      "#OpenAI"
     ],
     "source_name": "鉅亨號",
     "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Enables non‑technical developers and SME owners in Hong Kong to integrate Claude’s conversational AI into workflows without coding, reducing development time and cost while expanding customer‑service automation.",
+    "reason": "HK SMEs, entrepreneurs and developers can integrate Claude’s LLM without coding, reducing development cost and speeding AI‑driven service rollout.",
     "micro_personas": [
-      "SME owner automating FAQ responses",
-      "Product manager prototyping AI chat features"
+      "SME owner building a chatbot",
+      "HR professional automating FAQ responses"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Claude API + No‑Code Integration",
-      "AI Service + Business Automation"
+      "Claude API + NoCode",
+      "HK SME + AI Integration"
     ]
   },
   {
@@ -158,26 +159,27 @@
     "category": "learning_family",
     "ai1_suggestion": "",
     "title": "PolyU CPCE舉辦AI Solutions Week 2026 推動學生善用人工智能提升學習、創意及職涯發展 - 堅料網",
-    "title_en": "PolyU CPCE Hosts AI Solutions Week 2026 to Help Students Leverage AI for Learning, Creativity, and Career Development",
+    "title_en": "PolyU CPCE hosts AI Solutions Week 2026 to empower students in leveraging AI for learning, creativity, and career development",
     "hashtags": [
-      "#AIWeek2026",
       "#PolyU",
-      "#StudentInnovation",
-      "#AIinEducation"
+      "#AIWeek",
+      "#Education",
+      "#Innovation",
+      "#Career"
     ],
     "source_name": "堅料網",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "PolyU’s AI Solutions Week equips Hong Kong students with hands‑on AI applications, fostering skills for future careers and enabling parents to guide learning through accessible workshops and project showcases.",
+    "reason": "PolyU’s AI Solutions Week equips Hong Kong students and parents with practical AI skills, enhancing learning outcomes and future career prospects.",
     "micro_personas": [
-      "University student developing AI‑driven prototypes",
-      "High‑school student exploring AI‑enhanced study tools"
+      "University student exploring AI projects",
+      "High‑school student attending career fair"
     ],
     "agent_signal": false,
     "automation_level": 0,
     "history_queries": [
-      "PolyU + AI Solutions Week",
-      "Students + AI Learning"
+      "PolyU + AI Week",
+      "Student + AI Learning"
     ]
   },
   {
@@ -185,26 +187,27 @@
     "category": "learning_family",
     "ai1_suggestion": "",
     "title": "想學AI Agent但唔識寫程式？Gemini CLI免費短課 網站、CSV、內容創作一次睇 - ezone.hk",
-    "title_en": "Want to Learn AI Agents Without Coding? Free Gemini CLI Mini‑Course Covers Websites, CSVs, and Content Creation",
+    "title_en": "Want to learn AI Agents but can't code? Gemini CLI free short course covers website, CSV, content creation in one go",
     "hashtags": [
       "#GeminiCLI",
-      "#AIAgent",
-      "#NoCodeAI",
-      "#FreeCourse"
+      "#AI",
+      "#NoCode",
+      "#FreeCourse",
+      "#ContentCreation"
     ],
     "source_name": "ezone.hk",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "The Gemini CLI course gives Hong Kong learners a zero‑code path to create AI agents for web scraping, CSV handling, and content generation, supporting students and parents in AI adoption.",
+    "reason": "Hong Kong learners and small business owners can quickly adopt AI agents for content creation and data tasks, lowering entry barriers and operational costs.",
     "micro_personas": [
-      "Adult learner building AI content tools",
-      "Parent guiding child’s AI project"
+      "Content creator generating AI‑written articles",
+      "Small business owner automating CSV data extraction"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Gemini CLI + No‑Code AI",
-      "Learning + AI Agent Development"
+      "Gemini CLI + NoCode",
+      "HK Entrepreneur + AI Content"
     ]
   }
 ]
