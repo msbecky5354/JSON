@@ -408,6 +408,18 @@ const TOOLS = {
         "title": "🤖【零成本AI 新聞 Automation Workflow】🆓",
         "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0trHAzE2X22s89RnvYiSpddwWCXydST7uUz4xE2ypYYLBdmk4zWTkqWYjm3hjcVmEl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"453\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
         "pinned": false
+      },
+      {
+        "date": "2026-09-27",
+        "title": "別再怪 AI 失控：與其落 100 條禁令，不如教 AI 按章工作 🛡️⚙️",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02GxxiAVpdMRz3saWwJMRxJzPehz2s36hdsUv8qdCnEE8DLfnc1tcifSsB8xz1ZbjDl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"698\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": true
+      },
+      {
+        "date": "2026-09-27",
+        "title": "Stop Blaming \"Rogue AI\": Why 100 Bans Won’t Work—and What Real AI Governance Looks Like 🛡️⚙️",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02CzJw7hTiUV2M3MET9qAuTxpdd9TagQqwA9E3c4uDyZDY2EwjbDPQMwtGJFfWvzxNl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"717\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": true
       }
     ],
     "related": []
