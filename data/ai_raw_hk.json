@@ -1,467 +1,210 @@
 [
   {
     "i": 1,
-    "category": "price_free",
+    "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "想學AI Agent但唔識寫程式？Gemini CLI免費短課 網站、CSV、內容創作一次睇 - ezone.hk",
-    "title_en": "Want to Learn AI Agents Without Coding? Free Gemini CLI Short Course Covers Websites, CSV, and Content Creation",
+    "title": "Elon Musk 豪擲 121 萬顆 GPU 半年內追上 OpenAI - unwire",
+    "title_en": "Elon Musk Throws 1.21 Million GPUs, Aiming to Catch Up with OpenAI Within Six Months",
     "hashtags": [
-      "#AIlearning",
-      "#NoCode",
-      "#FreeCourse",
-      "#GeminiCLI"
-    ],
-    "source_name": "ezone.hk",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "HK office workers and SMEs can quickly adopt AI agents for website, CSV and content tasks using the free Gemini CLI course, reducing tool costs.",
-    "micro_personas": [
-      "SME owner automating content creation",
-      "Office worker building no‑code AI workflows"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Gemini CLI + Learn",
-      "AI Agents + NoCode"
-    ]
-  },
-  {
-    "i": 2,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "RTX 5090 實測 DLSS 5 極限負載 功耗衝上 647W 16-pin 接口 91.7°C - 電腦領域HKEPC Hardware",
-    "title_en": "RTX 5090 Stress Test Shows DLSS 5 Extreme Load Power Consumption Peaks at 647W, 16‑Pin Interface Reaches 91.7°C",
-    "hashtags": [
-      "#RTX5090",
-      "#DLSS5",
-      "#PowerConsumption",
-      "#HardwareTesting"
-    ],
-    "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The article focuses on hardware performance; AI relevance is indirect and not essential for local target groups."
-  },
-  {
-    "i": 3,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "RTX 5090 燒毀拒保引發爭議 PNY︰用 PSU 附連的線材會喪失保固 - 電腦領域HKEPC Hardware",
-    "title_en": "RTX 5090 Burnout Sparks Warranty Dispute: PNY States PSU Cable Damage Void Warranty",
-    "hashtags": [
-      "#WarrantyIssue",
-      "#GPUFailure",
-      "#ConsumerSafety",
-      "#PNY"
-    ],
-    "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "GPU burnout issue concerns hardware warranty, lacking AI content or implications for safety/trust of AI systems."
-  },
-  {
-    "i": 4,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "美陪審團裁定 Meta 誤導消費者 涉 4,380 萬次違規 罰款將逐次累計 - 電腦領域HKEPC Hardware",
-    "title_en": "U.S. Jury Finds Meta Misled Consumers in 43.8 Million Violations, Fines to Accumulate Sequentially",
-    "hashtags": [
-      "#Meta",
-      "#ConsumerProtection",
-      "#RegulatoryFine",
-      "#LegalVerdict"
-    ],
-    "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Meta consumer‑misleading fine pertains to legal matters, not specific AI technology or local AI policy impact."
-  },
-  {
-    "i": 5,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "Microsoft 悄悄棄用 Copilot+ PC 品牌 新 Surface 符合規格卻不再稱為 Copilot+ PC - unwire",
-    "title_en": "Microsoft Quietly Drops Copilot+ Branding from PCs; New Surface Models Meet Specs but No Longer Labeled Copilot+",
-    "hashtags": [
-      "#Microsoft",
-      "#CopilotPlus",
-      "#ProductBranding",
-      "#Surface"
+      "#GPUAccess",
+      "#AIHardware",
+      "#TechCompetition"
     ],
     "source_name": "unwire",
     "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "HK office workers and professionals lose clear Copilot+ branding, prompting them to verify AI assistance availability on new Surface devices for productivity tasks.",
+    "reason": "HK developers and SMEs can benefit from a surge in GPU supply, potentially lowering rental costs and enabling model training, which accelerates AI product rollout for office workers and startups.",
     "micro_personas": [
-      "Corporate employee evaluating AI features on new laptop",
-      "IT manager assessing AI tool licensing for staff"
+      "AI Startup Founder training models",
+      "Freelance ML Engineer renting GPU cloud"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Copilot+ + Branding",
-      "Surface PC + AI features"
+      "Elon Musk + Deploy GPUs",
+      "GPU Market + Expand"
     ]
   },
   {
-    "i": 7,
-    "category": "tech_background",
+    "i": 3,
+    "category": "regulation_public",
     "ai1_suggestion": "",
-    "title": "微軟推出 Developer Config 指令 單行指令將 Windows 11 變純淨開發模式 - 電腦領域HKEPC Hardware",
-    "title_en": "Microsoft Launches Developer Config Command to Turn Windows 11 into a Pure Development Mode",
+    "title": "Bill Gates 呼籲立法強制監察 AI 警告或釀成大災難達 10 億人死亡 - unwire",
+    "title_en": "Bill Gates Calls for Legislation to Mandate AI Monitoring, Warning of Potential Disaster Killing 1 Billion People",
     "hashtags": [
-      "#Windows11",
-      "#DeveloperTools",
-      "#DevMode",
-      "#Microsoft"
-    ],
-    "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The announcement describes a Windows developer mode command without any AI component, offering no AI‑related utility for Hong Kong target groups."
-  },
-  {
-    "i": 8,
-    "category": "work_sme",
-    "ai1_suggestion": "",
-    "title": "全球工業機械人繼續普及 中國佔 2025 新安裝近六成 - unwire",
-    "title_en": "Global Industrial Robots Continue to Expand, China to Account for Nearly 60% of New Installations by 2025",
-    "hashtags": [
-      "#IndustrialRobots",
-      "#Automation",
-      "#ChinaManufacturing",
-      "#SmartFactories"
+      "#AIRegulation",
+      "#SafetyTrust",
+      "#Policy"
     ],
     "source_name": "unwire",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The piece reports robot deployment trends but lacks explicit AI content, providing limited AI‑specific relevance for Hong Kong SMEs or office workers."
-  },
-  {
-    "i": 10,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "微軟宣布推出全新 OS 系統 整合 Copilot AI、Office 及自動化 Agent - 電腦領域HKEPC Hardware",
-    "title_en": "Microsoft Announces New OS Integrating Copilot AI, Office, and Automated Agents",
-    "hashtags": [
-      "#WindowsOS",
-      "#CopilotAI",
-      "#Productivity",
-      "#Microsoft"
-    ],
-    "source_name": "電腦領域HKEPC Hardware",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Hong Kong office workers and SMEs can leverage the integrated Copilot AI to automate routine tasks, while developers gain a unified platform for building AI‑enhanced applications, boosting productivity.",
+    "reason": "HK policymakers can use Gates’ warning to draft robust AI oversight laws, protecting professionals and the elderly from unsafe systems, and aligning local regulation with global safety standards.",
     "micro_personas": [
-      "Office worker using AI‑assisted email drafting",
-      "Developer creating plugins with built‑in Copilot agents"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Microsoft + Launch new OS",
-      "Copilot AI + Integration"
-    ]
-  },
-  {
-    "i": 11,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "群益攜台鋼大巨蛋品牌日，AI金融科技走進球場 | MoneyDJ理財網 - LINE TODAY",
-    "title_en": "Quanzhi Partners with Taiwan Steel's Dome Stadium for AI FinTech Experience at the Venue",
-    "hashtags": [
-      "#AIFinTech",
-      "#StadiumTech",
-      "#DigitalPayments",
-      "#Innovation"
-    ],
-    "source_name": "LINE TODAY",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Hong Kong event-goers, including professionals and families, can use AI‑driven contactless payment and personalized offers at the venue, demonstrating tangible fintech benefits and enhancing the fan experience.",
-    "micro_personas": [
-      "Stadium attendee using AI‑powered payment kiosk",
-      "Event staff monitoring AI‑based crowd analytics"
-    ],
-    "agent_signal": false,
-    "automation_level": 3,
-    "history_queries": [
-      "Quanzhi + AI FinTech partnership",
-      "Stadium + AI payment rollout"
-    ]
-  },
-  {
-    "i": 12,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "Gmail 星號通通變藍   用戶嫌收件匣更雜亂",
-    "title_en": "Gmail Replaces Yellow Stars with Blue Icons, Users Report a Messier Inbox",
-    "hashtags": [
-      "#GmailUpdate",
-      "#UIChange",
-      "#EmailManagement",
-      "#Google"
-    ],
-    "source_name": "香港 unwire.hk 玩生活．樂科技",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Gmail’s UI icon change is a product UI update without AI features, thus offering no AI‑centric benefit to the defined Hong Kong audiences."
-  },
-  {
-    "i": 13,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "1-Bit Bonsai 小型 AI 模型成功登陸智能眼鏡 細小裝置都可執行強大本地 AI - unwire",
-    "title_en": "1-Bit Bonsai Tiny AI Model Successfully Runs on Smart Glasses, Enabling Powerful Local AI on Small Devices",
-    "hashtags": [
-      "#TinyAI",
-      "#EdgeComputing",
-      "#SmartGlasses",
-      "#AIModel"
-    ],
-    "source_name": "unwire",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Developers in Hong Kong can adopt the 1‑Bit Bonsai model to create edge AI applications for smart glasses, enabling low‑latency, on‑device inference and reducing reliance on cloud services for wearable projects.",
-    "micro_personas": [
-      "AI Edge Engineer building wearable prototypes",
-      "IoT Developer integrating low‑power AI models"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "1-Bit Bonsai + Edge Deployment",
-      "Smart Glasses + Local AI Inference"
-    ]
-  },
-  {
-    "i": 14,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "中環親子好去處｜香港海事博物館古畫變 AI 動畫 HONOR 限定體驗至 9 月 28 日 - ezone.hk",
-    "title_en": "Family-Friendly Spot in Central: Hong Kong Maritime Museum Turns Ancient Paintings into AI Animations, HONOR Experience Until September 28",
-    "hashtags": [
-      "#AIArt",
-      "#FamilyLearning",
-      "#HongKongMuseums",
-      "#KidsTech"
-    ],
-    "source_name": "ezone.hk",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Parents and children can explore the maritime museum’s AI‑generated animated paintings, turning cultural heritage into interactive learning experiences that reinforce art history concepts and spark curiosity among Hong Kong families.",
-    "micro_personas": [
-      "Parent guiding child through interactive museum exhibit",
-      "Student using AI‑enhanced visuals for art history study"
+      "Government Policy Advisor shaping AI safety law",
+      "Corporate Compliance Officer implementing monitoring tools"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "Maritime Museum + AI Animation",
-      "Family + Interactive Learning"
+      "Bill Gates + Advocate Regulation",
+      "HK Government + Review AI Policy"
     ]
   },
   {
-    "i": 15,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "澳門海關加強機場及口岸執法 截獲大量 AirPods 耳機及 RTX 5090 顯示卡 - 電腦領域HKEPC Hardware",
-    "title_en": "Macau Customs Tighten Airport and Port Enforcement, Seizing Large Quantities of AirPods and RTX 5090 Graphics Cards",
-    "hashtags": [
-      "#CustomsEnforcement",
-      "#IllicitTech",
-      "#Security",
-      "#CounterfeitGoods"
-    ],
-    "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The seizure of hardware by Macau customs contains no AI component, offering no relevance to safety or trust concerns for Hong Kong audiences."
-  },
-  {
-    "i": 17,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "切勿關閉 Windows 的 8.3 舊檔案格式 雖然效能顯著提升 但恐引發系統崩潰 - 電腦領域HKEPC Hardware",
-    "title_en": "Do Not Disable Windows 8.3 Legacy File Format: Performance Gains May Come at the Cost of System Crashes",
-    "hashtags": [
-      "#WindowsTips",
-      "#LegacySupport",
-      "#SystemStability",
-      "#ITAdvice"
-    ],
-    "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The Windows 8.3 file‑format tip is purely a legacy OS issue without AI relevance, thus not useful for Hong Kong AI‑focused analysis."
-  },
-  {
-    "i": 18,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "用 AI 幫部舊Router 加功能(頁 1) - 網絡寬頻 - 電腦領域HKEPC Hardware",
-    "title_en": "Using AI to Add New Functions to an Old Router (Page 1)",
-    "hashtags": [
-      "#AIUpgrade",
-      "#RouterHack",
-      "#SmartHome",
-      "#DIYTech"
-    ],
-    "source_name": "電腦領域HKEPC Hardware",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "SME IT managers can use AI‑driven scripts to retrofit legacy routers with new functions, enhancing network security and performance without costly hardware upgrades, benefiting Hong Kong small businesses seeking cost‑effective solutions.",
-    "micro_personas": [
-      "Network admin retrofitting router with AI scripts",
-      "SME IT manager adding AI features to existing hardware"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Old Router + AI Upgrade",
-      "DIY Network + Custom Firmware"
-    ]
-  },
-  {
-    "i": 19,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "Grok Bot 是什麼？功能、價格與 AI Agent 比較一次看 - Grenade 手榴彈",
-    "title_en": "What Is Grok Bot? Features, Pricing, and Comparison with AI Agents",
-    "hashtags": [
-      "#AItools",
-      "#GrokBot",
-      "#Pricing",
-      "#AIagents",
-      "#TechComparison"
-    ],
-    "source_name": "Grenade 手榴彈",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Office workers can trial Grok Bot’s affordable plans to automate email drafting, while SMEs gain a cost‑effective AI assistant for customer support, boosting productivity without large upfront investment.",
-    "micro_personas": [
-      "Office worker automating emails",
-      "SME owner handling customer queries"
-    ],
-    "agent_signal": false,
-    "automation_level": 3,
-    "history_queries": [
-      "Grok Bot + Features",
-      "AI Tool + Pricing Comparison"
-    ]
-  },
-  {
-    "i": 20,
+    "i": 5,
     "category": "regulation_public",
     "ai1_suggestion": "",
-    "title": "法改會正檢視法例規管AI 林定國指會平衡發展與風險 - Now 新聞",
-    "title_en": "Lawmakers Review AI Regulations, Balancing Development and Risks",
+    "title": "美國兩黨推法案限制中國光模組！新易盛、中際旭創列管 AI資料中心恐受衝擊 - Yahoo 財經",
+    "title_en": "U.S. Bipartisan Bill Seeks to Restrict Chinese Optical Modules; AI Data Centers May Be Impacted",
     "hashtags": [
-      "#AIregulation",
-      "#Policy",
-      "#RiskManagement",
-      "#HongKong",
-      "#TechLaw"
-    ],
-    "source_name": "Now 新聞",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Employers, HR professionals and SME owners must monitor the new AI regulatory proposals to ensure data‑privacy compliance, adjust AI deployment policies, and avoid penalties under Hong Kong’s evolving legal framework.",
-    "micro_personas": [
-      "HR manager ensuring data compliance",
-      "SME founder updating AI policy"
-    ],
-    "agent_signal": false,
-    "automation_level": 0,
-    "history_queries": [
-      "Hong Kong + AI Regulation",
-      "Legislators + Policy Review"
-    ]
-  },
-  {
-    "i": 21,
-    "category": "work_sme",
-    "ai1_suggestion": "",
-    "title": "微軟變身企業導入AI入口！切入協調層解鎖需求 股價自低點大漲32%重返今年高點 - Yahoo 財經",
-    "title_en": "Microsoft Turns Into an Enterprise AI Gateway, Unlocking Coordination Layer Demand; Shares Surge 32% to Year‑High",
-    "hashtags": [
-      "#MicrosoftAI",
-      "#EnterpriseTech",
-      "#DigitalTransformation",
-      "#StockRise",
-      "#BusinessAI"
+      "#TechPolicy",
+      "#SupplyChain",
+      "#AIInfrastructure"
     ],
     "source_name": "Yahoo 財經",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Office staff can leverage Microsoft’s AI gateway to automate report generation, while SMEs can integrate AI‑driven coordination tools into existing workflows, reducing manual effort and accelerating digital transformation.",
+    "reason": "HK data center operators and SME tech leaders may face component shortages, prompting them to seek alternative suppliers or redesign AI workloads, affecting cost and service reliability.",
     "micro_personas": [
-      "Office employee using AI report generator",
-      "SME IT admin deploying AI workflow tools"
-    ],
-    "agent_signal": false,
-    "automation_level": 4,
-    "history_queries": [
-      "Microsoft + Enterprise AI",
-      "AI Gateway + Workflow Automation"
-    ]
-  },
-  {
-    "i": 22,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "Meta 鑰匙圈 AI 代理 Muse Charm 曝光 12 月假期前出貨 - unwire",
-    "title_en": "Meta’s AI Agent ‘Muse Charm’ Keychain Revealed, Shipping Before December Holiday",
-    "hashtags": [
-      "#MetaAI",
-      "#MuseCharm",
-      "#AIhardware",
-      "#ConsumerTech",
-      "#ProductLaunch"
-    ],
-    "source_name": "unwire",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Parents can use the Muse Charm keychain as a voice‑activated reminder assistant, and elderly users gain a simple AI companion for daily tasks, enhancing safety and independence at home.",
-    "micro_personas": [
-      "Parent setting voice reminders via AI keychain",
-      "Elderly user receiving medication alerts from AI device"
+      "Data Center Manager evaluating hardware supply",
+      "SME CTO planning AI infrastructure"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Meta + Muse Charm",
-      "AI Keychain + Consumer Device"
+      "US Congress + Pass Optical Module Bill",
+      "HK Data Centers + Assess Supply Impact"
     ]
   },
   {
-    "i": 24,
+    "i": 6,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "開源專案 AnyPS5 強勢登場以二進位轉譯讓 PC 直跑 PS5 遊戲 - 電腦領域HKEPC Hardware",
+    "title_en": "Open-Source Project AnyPS5 Enables PC to Run PS5 Games via Binary Translation",
+    "hashtags": [
+      "#OpenSource",
+      "#GamingTech",
+      "#RealUse"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The announcement concerns gaming emulation technology without any AI component, offering no AI‑related value to Hong Kong audiences."
+  },
+  {
+    "i": 7,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "孫東稱年底前啟動100億「創科產業引導基金」 期望能掀業界投入300億元 - 堅料網",
+    "title_en": "Sun Dong Announces HK$10 Billion ‘Innovation Industry Guidance Fund’ to Spur HK$30 Billion Industry Investment by Year-End",
+    "hashtags": [
+      "#InnovationFunding",
+      "#SMEGrowth",
+      "#TechInvestment"
+    ],
+    "source_name": "堅料網",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Funding initiative focuses on general innovation investment and lacks specific AI content, providing limited direct AI utility for local target groups."
+  },
+  {
+    "i": 8,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "微軟低調放棄「Copilot+ PC」品牌 副總裁證實：符合規格但不再冠名 - 電腦領域HKEPC Hardware",
+    "title_en": "Microsoft Quietly Abandons the \"Copilot+ PC\" Brand, Vice President Confirms: Meets Specs but No Longer Branded",
+    "hashtags": [
+      "#Microsoft",
+      "#Copilot",
+      "#BrandStrategy",
+      "#TechNews"
+    ],
+    "source_name": "電腦領域HKEPC Hardware",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Brand change offers no new AI capability or cost benefit for Hong Kong users, thus lacking practical AI utility."
+  },
+  {
+    "i": 9,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "對標OpenAI！不會程式碼，也能跑Claude API - 鉅亨號",
+    "title_en": "Benchmarking OpenAI: Run Claude API Without Writing Code",
+    "hashtags": [
+      "#ClaudeAPI",
+      "#NoCode",
+      "#AIIntegration",
+      "#DeveloperTools"
+    ],
+    "source_name": "鉅亨號",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Enables non‑technical developers and SME owners in Hong Kong to integrate Claude’s conversational AI into workflows without coding, reducing development time and cost while expanding customer‑service automation.",
+    "micro_personas": [
+      "SME owner automating FAQ responses",
+      "Product manager prototyping AI chat features"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Claude API + No‑Code Integration",
+      "AI Service + Business Automation"
+    ]
+  },
+  {
+    "i": 10,
     "category": "learning_family",
     "ai1_suggestion": "",
-    "title": "立法會議員．鄧飛｜如何紓緩AI教育與AI淘汰崗位之間張力 - 香港01",
-    "title_en": "Legislator Deng Fei Discusses Easing Tension Between AI Education and AI‑Driven Job Displacement",
+    "title": "PolyU CPCE舉辦AI Solutions Week 2026 推動學生善用人工智能提升學習、創意及職涯發展 - 堅料網",
+    "title_en": "PolyU CPCE Hosts AI Solutions Week 2026 to Help Students Leverage AI for Learning, Creativity, and Career Development",
     "hashtags": [
-      "#AIeducation",
-      "#JobFuture",
-      "#SkillUpgrading",
-      "#HongKongPolicy",
-      "#Workforce"
+      "#AIWeek2026",
+      "#PolyU",
+      "#StudentInnovation",
+      "#AIinEducation"
     ],
-    "source_name": "香港01",
+    "source_name": "堅料網",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Students receive guidance on emerging AI curricula, while parents learn strategies to support reskilling, helping families navigate job market shifts and ensure future employability in an AI‑driven economy.",
+    "reason": "PolyU’s AI Solutions Week equips Hong Kong students with hands‑on AI applications, fostering skills for future careers and enabling parents to guide learning through accessible workshops and project showcases.",
     "micro_personas": [
-      "High‑school student planning AI‑focused coursework",
-      "Parent guiding child’s skill development for AI jobs"
+      "University student developing AI‑driven prototypes",
+      "High‑school student exploring AI‑enhanced study tools"
     ],
     "agent_signal": false,
     "automation_level": 0,
     "history_queries": [
-      "Legislator + AI Education",
-      "Policy + Job Displacement"
+      "PolyU + AI Solutions Week",
+      "Students + AI Learning"
+    ]
+  },
+  {
+    "i": 11,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "想學AI Agent但唔識寫程式？Gemini CLI免費短課 網站、CSV、內容創作一次睇 - ezone.hk",
+    "title_en": "Want to Learn AI Agents Without Coding? Free Gemini CLI Mini‑Course Covers Websites, CSVs, and Content Creation",
+    "hashtags": [
+      "#GeminiCLI",
+      "#AIAgent",
+      "#NoCodeAI",
+      "#FreeCourse"
+    ],
+    "source_name": "ezone.hk",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The Gemini CLI course gives Hong Kong learners a zero‑code path to create AI agents for web scraping, CSV handling, and content generation, supporting students and parents in AI adoption.",
+    "micro_personas": [
+      "Adult learner building AI content tools",
+      "Parent guiding child’s AI project"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Gemini CLI + No‑Code AI",
+      "Learning + AI Agent Development"
     ]
   }
 ]
