@@ -156,28 +156,12 @@ const TOOLS = {
     ]
   },
   "edumind-ai": {
-    "name": {
-      "tc": "EduMind AI｜OCR 視覺提取與自動化測驗題庫生成引擎",
-      "sc": "EduMind AI｜OCR 视觉提取与自动化测验题库生成引擎",
-      "en": "EduMind AI | OCR Vision Ingestion & Automated Quiz Generation Engine"
-    },
-    "cat": {
-      "tc": "教育科技 · OCR + LLM 自動化",
-      "sc": "教育科技 · OCR + LLM 自动化",
-      "en": "EdTech · OCR + LLM Automation"
-    },
+    "name": "EduMind AI｜OCR 視覺提取與自動化測驗題庫生成引擎",
+    "cat": "教育科技 · OCR + LLM 自動化",
     "icon": "https://edumindai-hk.vercel.app/assets/icon-512.png",
     "link": "https://edumindai-hk.vercel.app/",
-    "short": {
-      "tc": "調用原生海外 OpenAI 模型，結合 OCR 視覺題目提取、動態教學 Persona 與測驗練習卷 (Quiz) 自動生成，串接 n8n 客服管線實現解題、自測與真人支援閉環。",
-      "sc": "调用原生海外 OpenAI 模型，结合 OCR 视觉题目提取、动态教学 Persona 与测验练习卷 (Quiz) 自动生成，串接 n8n 客服管线实现解题、自测与人工支援闭环。",
-      "en": "Leverages native overseas OpenAI models, OCR vision question extraction, dynamic tutor personas, and automated quiz generation with built-in n8n escalation."
-    },
-    "about": {
-      "tc": "⭐ 核心功能與系統優勢\n🧠 注入教學靈魂 (動態 Persona)\n⚡ 無縫消化資訊 (靈活輸入)\n🎯 雙核學習模式 (Quiz & Tutor)\n☁️ 雲端進度追蹤 (SaaS 數據同步)",
-      "sc": "⭐ 核心功能与系统优势\n🧠 注入教学灵魂 (动态 Persona)\n⚡ 无缝消化资讯 (灵活输入)\n🎯 双核学习模式 (Quiz & Tutor)\n☁️ 云端进度追踪 (SaaS 数据同步)",
-      "en": "⭐ Core Capabilities & System Highlights\n🧠 Dynamic Teaching Persona\n⚡ Seamless Multi-Modal Ingestion (OCR Vision)\n🎯 Dual Learning Modes (Quiz & Tutor)\n☁️ Cloud Sync & Progress Tracking"
-    },
+    "short": "調用原生海外 OpenAI 模型，結合 OCR 視覺題目提取、動態教學 Persona 與測驗練習卷 (Quiz) 自動生成，串接 n8n 客服管線實現解題、自測與真人支援閉環。",
+    "about": "⭐ 核心功能與系統優勢\n🧠 注入教學靈魂 (動態 Persona)\n⚡ 無縫消化資訊 (靈活輸入)\n🎯 雙核學習模式 (Quiz & Tutor)\n☁️ 雲端進度追蹤 (SaaS 數據同步)",
     "videos": [
       {
         "type": "facebook",
@@ -285,6 +269,18 @@ const TOOLS = {
         "date": "2026-07-27",
         "title": "以下係我最新 App \"EduMind AI\" 嘅知識庫。我試吓問咗一條問題：「有幾多個 AI 老師？」",
         "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02NpA9aoxQPu7rwerA5PDeUBf7zM9gCpk98dN9GhfjkSi2zrWvTwQPQgLtyLaYErkbl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"850\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": false
+      },
+      {
+        "date": "2026-09-27",
+        "title": "Stop Blaming \"Rogue AI\": Why 100 Bans Won’t Work—and What Real AI Governance Looks Like 🛡️⚙️",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02CzJw7hTiUV2M3MET9qAuTxpdd9TagQqwA9E3c4uDyZDY2EwjbDPQMwtGJFfWvzxNl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"717\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": false
+      },
+      {
+        "date": "2026-09-27",
+        "title": "別再怪 AI 失控：與其落 100 條禁令，不如教 AI 按章工作 🛡️⚙️",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02GxxiAVpdMRz3saWwJMRxJzPehz2s36hdsUv8qdCnEE8DLfnc1tcifSsB8xz1ZbjDl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"698\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
         "pinned": false
       }
     ],
