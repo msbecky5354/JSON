@@ -1,247 +1,213 @@
 [
   {
     "i": 1,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件 - IT之家",
-    "title_en": "Reports Say OpenAI and Anthropic Are Investigating Tens of Thousands of AI Safety Incidents",
-    "hashtags": [
-      "#AISafety",
-      "#IncidentInvestigation",
-      "#OpenAI",
-      "#Anthropic",
-      "#RiskManagement"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Hong Kong professionals and elderly should be alerted to the surge in AI safety incidents, enabling them to adopt stricter verification practices and protect against deepfake scams and malicious outputs.",
-    "micro_personas": [
-      "Elderly user concerned about deepfake scams",
-      "Corporate risk manager overseeing AI deployments"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "OpenAI + Incident Investigation",
-      "Anthropic + Safety Review"
-    ]
-  },
-  {
-    "i": 3,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "韩国生成式AI服务年内付费规模或破1万亿韩元，用户保护与平台责任受关注 - 디지털투데이",
-    "title_en": "South Korea's Generative AI Services May Reach 1 Trillion Won in Paid Revenue This Year, Raising User Protection and Platform Responsibility Concerns",
-    "hashtags": [
-      "#GenerativeAI",
-      "#SouthKorea",
-      "#PaidAI",
-      "#UserProtection",
-      "#PlatformResponsibility"
-    ],
-    "source_name": "디지털투데이",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Policymakers and local SMEs can anticipate rapid growth in paid generative AI usage, prompting the need for consumer‑protection regulations and compliance frameworks to safeguard Hong Kong users.",
-    "micro_personas": [
-      "Policy analyst drafting AI consumer protection guidelines",
-      "SME owner evaluating paid AI service compliance"
-    ],
-    "agent_signal": true,
-    "automation_level": 0,
-    "history_queries": [
-      "South Korea + AI Revenue",
-      "Regulators + Platform Responsibility"
-    ]
-  },
-  {
-    "i": 4,
     "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "从代码分析到授权争议：一用户用 AI 破解 IDM 引发争议 - IT之家",
-    "title_en": "From Code Analysis to Licensing Dispute: A User’s AI-Powered Crack of IDM Sparks Controversy",
+    "title": "AI可见度监测系统推荐：DZOS监测什么、多平台怎么测 - sohu.com",
+    "title_en": "AI Visibility Monitoring System Recommendation: What DZOS Monitors and How to Measure Across Multiple Platforms",
     "hashtags": [
-      "#AICracking",
-      "#IDM",
-      "#DigitalRights",
-      "#ToolAccess",
-      "#LegalDispute"
+      "#AItools",
+      "#Monitoring",
+      "#MultiPlatform",
+      "#TechInnovation"
     ],
-    "source_name": "IT之家",
+    "source_name": "sohu.com",
     "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The story focuses on illegal AI cracking of software, offering no legitimate tool access or practical benefit for Hong Kong audiences."
-  },
-  {
-    "i": 5,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "让 AI 学会“挑刺”：根据说明书+ 照片指出家具是否装错，OpenAI GPT-6 Astra 准确率已达80% - IT之家",
-    "title_en": "Teaching AI to ‘Spot Mistakes’: GPT‑6 Astra Achieves 80% Accuracy in Identifying Mis‑assembled Furniture from Manuals and Photos",
-    "hashtags": [
-      "#AIInspection",
-      "#GPT6",
-      "#FurnitureAssembly",
-      "#ComputerVision",
-      "#PracticalAI"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "HK furniture retailers and DIY homeowners can employ GPT‑6 Astra to automatically verify assembly correctness, reducing returns, injuries, and service calls for both businesses and elderly users.",
+    "reason": "HK office workers and SMEs can adopt the DZOS AI monitor to track campaign reach, quickly adjust content, and improve marketing ROI without heavy IT investment or additional resource costs.",
     "micro_personas": [
-      "Homeowner verifying furniture setup",
-      "Furniture retailer offering AI inspection service"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "GPT-6 + Furniture Inspection",
-      "AI + Assembly Error Detection"
-    ]
-  },
-  {
-    "i": 6,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "Claude Code 新机制：AI 任务中途触发 5 小时上限将优雅收尾 - IT之家",
-    "title_en": "Claude Code Introduces New Mechanism: AI Tasks Hitting a 5‑Hour Limit Will Gracefully Terminate",
-    "hashtags": [
-      "#ClaudeAI",
-      "#TaskTimeout",
-      "#AIEngineering",
-      "#TechUpdate",
-      "#OperationalLimits"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Developers in Hong Kong integrating Claude will need to design jobs within the new five‑hour limit, improving resource budgeting and preventing unexpected cost overruns in AI deployments.",
-    "micro_personas": [
-      "Developer integrating Claude API",
-      "DevOps engineer managing AI job scheduling"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Claude + Task Timeout",
-      "AI + Runtime Management"
-    ]
-  },
-  {
-    "i": 7,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "美团上线 LongCat-2.5-Preview 模型：1.6T 参数，主打 AI 长程任务与多模态能力 - IT之家",
-    "title_en": "Meituan launches LongCat-2.5-Preview model: 1.6T parameters, focusing on long-range tasks and multimodal capabilities",
-    "hashtags": [
-      "#MeituanAI",
-      "#Multimodal",
-      "#LargeModel",
-      "#AIInnovation"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Model is currently limited to Meituan’s internal ecosystem with no public API, offering little immediate utility for Hong Kong users."
-  },
-  {
-    "i": 8,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "英伟达获批 AI 工具专利：缩短游戏优化周期，让游戏体验更稳定 - IT之家",
-    "title_en": "Nvidia granted AI tool patent: shortening game optimization cycles for more stable gaming experience",
-    "hashtags": [
-      "#NvidiaAI",
-      "#GameOptimization",
-      "#PatentedTech",
-      "#AItools"
-    ],
-    "source_name": "IT之家",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Patent describes future tool but no released product or access, so Hong Kong developers cannot benefit now."
-  },
-  {
-    "i": 9,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "2026年AI大模型聚合平台实测：这5个入口让你告别反复切换 - CSDN",
-    "title_en": "2026 AI Large Model Aggregation Platform Test: 5 portals to eliminate repetitive switching",
-    "hashtags": [
-      "#ModelHub",
-      "#AIPlatform",
-      "#Productivity",
-      "#TechIntegration"
-    ],
-    "source_name": "CSDN",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Hong Kong developers and SMEs can use the unified platform to switch between large models without manual integration, saving time and reducing operational complexity for rapid prototyping and product development.",
-    "micro_personas": [
-      "Junior Developer integrating APIs",
-      "SME product manager evaluating AI services"
+      "Marketing analyst in a local SME",
+      "Corporate communications officer"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Developer + EvaluatePlatform",
-      "SME + IntegrateModel"
+      "DZOS + Monitor",
+      "AI Visibility + Adoption",
+      "HK Brands + PlatformMetrics"
     ]
   },
   {
-    "i": 10,
-    "category": "work_sme",
+    "i": 2,
+    "category": "real_use",
     "ai1_suggestion": "",
-    "title": "为工作而生的 AI：微软纳德拉称正将 Copilot 打造成全新工作操作系统 - IT之家",
-    "title_en": "AI built for work: Microsoft CEO Satya Nadella says Copilot is being turned into a new operating system for work",
+    "title": "研究：美国医院用 AI 写病历，保险公司两年多掏 9.42 亿美元 - IT之家",
+    "title_en": "Study: U.S. Hospitals Use AI to Write Medical Records, Insurance Companies Spend $942 Million Over Two Years",
     "hashtags": [
-      "#MicrosoftCopilot",
-      "#WorkOS",
-      "#AIProductivity",
-      "#EnterpriseAI"
+      "#AIinHealthcare",
+      "#MedicalRecords",
+      "#InsuranceCosts",
+      "#RealWorldUse"
     ],
     "source_name": "IT之家",
-    "evidence_status": "official",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Microsoft Copilot’s integration as a work‑OS enables Hong Kong office workers and HR teams to automate routine tasks, schedule meetings, and generate documents, boosting productivity across SMEs.",
+    "reason": "HK healthcare professionals and retirees can benefit from AI‑generated medical records, shortening paperwork, lowering insurance claim processing costs, and improving patient data accuracy in local clinics and enhancing overall care coordination.",
     "micro_personas": [
-      "HR analyst drafting employee contracts",
-      "Office worker generating weekly reports"
+      "Hospital medical scribe",
+      "Clinic administrator"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "HR + AutomateContractCreation",
-      "OfficeWorker + GenerateReport"
+      "AI + MedicalRecordGeneration",
+      "US Hospitals + CostSavings",
+      "Insurance + AIImpact"
     ]
   },
   {
-    "i": 11,
-    "category": "safety_trust",
+    "i": 3,
+    "category": "tech_background",
     "ai1_suggestion": "",
-    "title": "赵静谊：用AI搭一座“无障碍”的桥，让科技温柔地接住每一个人 - 搜狐网",
-    "title_en": "Zhao Jingyi: Using AI to build an 'accessible' bridge, letting technology gently catch everyone",
+    "title": "消息称 OpenAI 将推出常驻 AI 助手「O」，预计 9 月 29 日发布 - IT之家",
+    "title_en": "Report: OpenAI to Launch Resident AI Assistant “O”, Expected Release on September 29",
     "hashtags": [
-      "#AIAccessibility",
-      "#InclusiveTech",
-      "#DigitalInclusion",
-      "#TechForAll"
+      "#OpenAI",
+      "#AIAssistant",
+      "#ProductLaunch",
+      "#TechNews"
     ],
-    "source_name": "搜狐网",
-    "evidence_status": "official",
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "The AI accessibility initiative highlights potential privacy and bias risks, prompting Hong Kong elderly users and professionals to demand transparent safeguards when adopting assistive AI applications.",
+    "reason": "HK developers and entrepreneurs can prototype integrations with OpenAI’s resident assistant, preparing local apps for seamless conversational features once “O” launches, gaining early‑market advantage and positioning their services for premium pricing.",
     "micro_personas": [
-      "Elderly user relying on voice assistants",
-      "Professional evaluating inclusive AI tools"
+      "AI‑powered chatbot developer",
+      "Startup product manager"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Elderly + UseVoiceAssistant",
-      "Professional + AssessAccessibilityTool"
+      "OpenAI + ResidentAssistant",
+      "AI Assistant + Release",
+      "HK Startups + Integration"
+    ]
+  },
+  {
+    "i": 4,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "医保系统遭 AI 智能体入侵，澳大利亚传唤 OpenAI 与 Anthropic CEO 接受质询 - IT之家",
+    "title_en": "Medicare System Breached by AI Agent; Australia Summons OpenAI and Anthropic CEOs for Inquiry",
+    "hashtags": [
+      "#AICybersecurity",
+      "#Medicare",
+      "#Regulation",
+      "#Trust"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK elderly and professional users must be warned about AI‑driven fraud; local insurers should tighten verification, and IT teams need to patch AI agent exploits promptly to protect public health data integrity.",
+    "micro_personas": [
+      "Senior citizen using health portal",
+      "Corporate IT security officer"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "Medicare + Breach",
+      "AI Agent + Security",
+      "Australia + RegulatoryInquiry"
+    ]
+  },
+  {
+    "i": 5,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层 - sohu.com",
+    "title_en": "Quantum AI Startup Forms a “Tsinghua Dream Team”: Valued at 1 Billion, Using Quantum to Transform Large Model Foundations",
+    "hashtags": [
+      "#QuantumAI",
+      "#Startup",
+      "#Valuation",
+      "#TechInnovation"
+    ],
+    "source_name": "sohu.com",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "HK developers and quantum research teams can monitor this venture for potential GPU‑free model acceleration, informing future proof‑of‑concept projects and investment decisions while assessing scalability within Hong Kong’s data‑center ecosystem.",
+    "micro_personas": [
+      "AI research engineer",
+      "Venture capital analyst"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "QuantumAI + StartupFunding",
+      "LargeModel + QuantumAcceleration",
+      "HK Tech + Investment"
+    ]
+  },
+  {
+    "i": 6,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "“我们不是美国”：澳大利亚政界商界称民众抵制 AI 数据中心是受美国舆论影响 - IT之家",
+    "title_en": "\"We Are Not the United States\": Australian Politicians and Business Leaders Say Public Resistance to AI Data Centers Is Influenced by US Opinion",
+    "hashtags": [
+      "#AIRegulation",
+      "#AustraliaTech",
+      "#Geopolitics",
+      "#DataCenters"
+    ],
+    "source_name": "IT之家",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article discusses Australian political sentiment, offering no actionable AI insight or cost/utility impact for Hong Kong audiences."
+  },
+  {
+    "i": 7,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "2026年工作流自动化选哪家大模型API？实测6款主流方案 - csdn.net",
+    "title_en": "Which Large Model API Provider to Choose for 2026 Workflow Automation? Testing Six Mainstream Solutions",
+    "hashtags": [
+      "#WorkflowAutomation",
+      "#LargeModelAPI",
+      "#TechComparison",
+      "#Productivity"
+    ],
+    "source_name": "csdn.net",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Office workers and SMEs in Hong Kong can adopt the top‑ranked API to automate routine tasks, cutting processing time and boosting productivity.",
+    "micro_personas": [
+      "HK office worker automating report generation",
+      "HK SME IT manager integrating AI workflow"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "Large Model API + Benchmark",
+      "Workflow Automation + Provider Selection"
+    ]
+  },
+  {
+    "i": 8,
+    "category": "price_free",
+    "ai1_suggestion": "",
+    "title": "2026年大模型API平台对公付款实测：哪家支持最省心？ - csdn.net",
+    "title_en": "2026 Corporate Payment Test of Large Model API Platforms: Which Provider Is the Most Hassle-Free?",
+    "hashtags": [
+      "#AIAPIPayment",
+      "#CostEfficiency",
+      "#EnterpriseAI",
+      "#PlatformReview"
+    ],
+    "source_name": "csdn.net",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Developers and finance teams in Hong Kong can choose the most cost‑effective API, reducing transaction fees and simplifying billing for AI services.",
+    "micro_personas": [
+      "HK fintech developer optimizing API expenses",
+      "HK corporate finance officer reviewing AI service invoices"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "API Platform + Payment Test",
+      "Corporate AI + Cost Efficiency"
     ]
   }
 ]
