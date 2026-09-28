@@ -1,126 +1,361 @@
 [
   {
     "i": 1,
-    "category": "real_use",
+    "category": "safety_trust",
     "ai1_suggestion": "",
-    "title": "全球AI使用率升至18.8% 台灣33.8%躍居第19名 - 壹蘋新聞網",
-    "title_en": "Global AI Usage Rate Rises to 18.8%, Taiwan Jumps to 33.8% and Ranks 19th",
+    "title": "亞太地區勒索軟體事件月增近27%，臺灣事件數排名第三",
+    "title_en": "Ransomware incidents in the Asia-Pacific region rise by nearly 27% month‑over‑month, Taiwan ranks third",
     "hashtags": [
-      "#AIAdoption",
-      "#TechStatistics",
-      "#AsiaTech"
+      "#Ransomware",
+      "#CyberSecurity",
+      "#AsiaPacific",
+      "#Taiwan"
     ],
-    "source_name": "壹蘋新聞網",
+    "source_name": "iThome 新聞",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "Provides only statistical overview without actionable AI tool or impact for Hong Kong audiences."
+    "reject_reason": "The report discusses ransomware trends without AI components, offering no actionable AI‑related safety or trust guidance for Hong Kong audiences."
   },
   {
     "i": 2,
-    "category": "tools_access",
+    "category": "real_use",
     "ai1_suggestion": "",
-    "title": "才兩年就退燒了？微軟 Surface 正淡化 Copilot Plus PC 標籤",
-    "title_en": "Microsoft Surface Phases Out Copilot Plus PC Label After Two Years",
+    "title": "MIND募資7,200萬美元，以AI代理強化企業資料外洩防護",
+    "title_en": "MIND raises $72 million to strengthen AI‑driven data loss prevention for enterprises",
     "hashtags": [
-      "#Microsoft",
-      "#AIIntegration",
-      "#Hardware"
+      "#DataLeakPrevention",
+      "#AI",
+      "#EnterpriseSecurity",
+      "#Funding"
     ],
-    "source_name": "TechNews 科技新報",
+    "source_name": "iThome 新聞",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Hong Kong office workers and SMEs considering Surface laptops should note the discontinuation of Copilot Plus, limiting built‑in AI assistance and prompting evaluation of alternative AI productivity tools.",
+    "reason": "AI‑driven DLP platform funded to accelerate deployment, enabling Hong Kong SMEs, enterprises, and HR teams to detect and block sensitive data leaks, complying with privacy rules and cutting breach costs.",
     "micro_personas": [
-      "Office worker using Surface for daily reports",
-      "SME IT manager evaluating laptop purchases"
+      "IT security manager implementing DLP",
+      "SME owner evaluating data protection solutions"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 4,
     "history_queries": [
-      "Microsoft + PhaseOutCopilot",
-      "Surface Users + AssessAlternatives"
+      "MIND + Funding",
+      "DLP + Adoption"
     ]
   },
   {
     "i": 3,
-    "category": "safety_trust",
+    "category": "tech_background",
     "ai1_suggestion": "",
-    "title": "中國首座「AI 眼科門診」實測，直擊醫療 AI 落地的三大痛點",
-    "title_en": "China's First AI Ophthalmology Clinic Reveals Three Major Implementation Challenges",
+    "title": "代理式 AI 與量子運算聯手開啟自主決策新紀元，企業如何迎戰「Q-Day」資安威脅？",
+    "title_en": "Agentic AI meets quantum computing, ushering a new era of autonomous decision‑making and the looming ‘Q‑Day’ security threat",
     "hashtags": [
-      "#AIMedicine",
-      "#Ophthalmology",
-      "#HealthcareAI"
+      "#AgenticAI",
+      "#QuantumComputing",
+      "#CyberThreats",
+      "#TechTrends"
     ],
     "source_name": "TechNews 科技新報",
-    "evidence_status": "case_or_test",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Hong Kong elderly patients and healthcare professionals should note privacy and accuracy concerns from China's AI eye clinic, urging stricter data safeguards and validation before local AI diagnostic adoption.",
+    "reason": "Emerging agentic AI‑quantum frameworks signal future autonomous decision systems, prompting Hong Kong developers and fintech professionals to prototype secure models now, mitigating Q‑Day threats and staying ahead of regulatory expectations.",
     "micro_personas": [
-      "Elderly patient using AI eye screening",
-      "Hospital IT security officer evaluating AI diagnostics"
+      "AI researcher prototyping quantum‑agentic models",
+      "Software architect evaluating security implications"
     ],
     "agent_signal": true,
-    "automation_level": 3,
+    "automation_level": 2,
     "history_queries": [
-      "AI Ophthalmology + Implementation",
-      "China + SafetyChallenges"
+      "Agentic AI + Quantum",
+      "Security + Q-Day"
     ]
   },
   {
     "i": 4,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "Muse 擄獲大眾的秘方？推手 Alexandr Wang 談 AI 代理讓每個人都有一個打理大小事的「第二大腦」 - inside.com.tw",
-    "title_en": "Muse Secures Public Attention as Founder Discusses AI Agents as a Personal ‘Second Brain’",
+    "title": "人型機器人進入量產期，從零件到系統，供應商搶占關鍵位置",
+    "title_en": "Humanoid robots enter mass‑production phase, suppliers scramble for key components and systems",
     "hashtags": [
-      "#AIAssistant",
-      "#Productivity",
-      "#AIInnovation"
+      "#HumanoidRobots",
+      "#Manufacturing",
+      "#SupplyChain",
+      "#Robotics"
     ],
-    "source_name": "inside.com.tw",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Hong Kong professionals and entrepreneurs can leverage Muse's AI agent as a personal assistant to organize projects, schedule meetings, and synthesize information, boosting productivity without extensive setup.",
-    "micro_personas": [
-      "Entrepreneur managing multiple startup tasks",
-      "Office worker automating meeting notes"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Muse + Launch",
-      "AI Assistant + Adoption"
-    ]
+    "source_name": "TechNews 科技新報",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The piece focuses on robot manufacturing without explicit AI content, offering limited AI‑related utility for Hong Kong stakeholders."
   },
   {
     "i": 5,
-    "category": "tools_access",
+    "category": "real_use",
     "ai1_suggestion": "",
-    "title": "Google AI Pro 用戶雲端算力開起來！每月200 Colab 運算單元可跑A100，再搭CLI 直接從終端機叫GPU - inside.com.tw",
-    "title_en": "Google AI Pro Unlocks Cloud Compute Power: 200 Monthly Colab Units with A100 GPUs via CLI",
+    "title": "電池材料大廠康普收服特斯拉與豐田，跨足半導體化學品三箭齊發大啖非紅商機",
+    "title_en": "Battery material giant Conp secures Tesla and Toyota, expands into semiconductor chemicals to capture non‑red‑chip opportunities",
     "hashtags": [
-      "#GoogleAI",
-      "#CloudCompute",
-      "#GPU"
+      "#BatteryMaterials",
+      "#Automotive",
+      "#Semiconductors",
+      "#SupplyChain"
     ],
-    "source_name": "inside.com.tw",
-    "evidence_status": "official",
+    "source_name": "TechNews 科技新報",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "Article describes battery material diversification without AI aspects, providing no actionable AI insight for Hong Kong's industry or policy makers."
+  },
+  {
+    "i": 6,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "從供需失衡到高壓規格戰，解析全球 PMIC 市場新格局",
+    "title_en": "From Supply-Demand Imbalance to High-Pressure Specification War: Analyzing the New Global PMIC Market Landscape",
+    "hashtags": [
+      "#PMIC",
+      "#ChipPower",
+      "#SupplyDemand",
+      "#TechTrends"
+    ],
+    "source_name": "TechNews 科技新報",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Hong Kong developers and startup teams can access high‑performance A100 GPUs through Google AI Pro’s free monthly quota, enabling rapid model prototyping and reducing cloud cost barriers.",
+    "reason": "HK hardware developers and AI startup CTOs can leverage insights on power‑draw limits to select or co‑design low‑power PMICs, reducing server energy costs and improving product competitiveness.",
     "micro_personas": [
-      "Developer training large language models",
-      "Startup CTO scaling AI experiments"
+      "Hardware Engineer designing AI accelerators",
+      "Startup CTO evaluating power solutions"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "PMIC + Design",
+      "AI Chip + Power Management"
+    ]
+  },
+  {
+    "i": 7,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "Vera Rubin來了EMS四強啖大餅- 日報 - 工商時報",
+    "title_en": "Vera Rubin Arrives, EMS Top Four Grab Big Orders – Daily Report",
+    "hashtags": [
+      "#VeraRubin",
+      "#EMS",
+      "#Manufacturing",
+      "#IndustryNews"
+    ],
+    "source_name": "工商時報",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The article lacks AI content; it only reports EMS orders, offering no AI‑related utility for Hong Kong’s target groups."
+  },
+  {
+    "i": 8,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "科學家揭蚜蟲隱藏藍圖 人為介入突破AI瓶頸 - ENN台灣電報",
+    "title_en": "Scientists Reveal Aphid's Hidden Blueprint; Human Intervention Breaks AI Bottleneck",
+    "hashtags": [
+      "#AphidResearch",
+      "#AIInnovation",
+      "#BioInspiration",
+      "#TechBreakthrough"
+    ],
+    "source_name": "ENN台灣電報",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "While mentioning AI, the piece describes a research breakthrough without concrete deployment, providing limited actionable value for Hong Kong audiences."
+  },
+  {
+    "i": 9,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "AI建置擴到伺服器與封裝材料，誰先把訂單變成獲利？-跟著大資走 澤明 - CMoney投資網誌",
+    "title_en": "AI Deployment Expands to Servers and Packaging Materials: Who Will Turn Orders into Profits First?",
+    "hashtags": [
+      "#AIExpansion",
+      "#ServerTech",
+      "#PackagingMaterials",
+      "#ProfitOpportunity"
+    ],
+    "source_name": "CMoney投資網誌",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "SME manufacturers and office managers in Hong Kong can adopt AI‑driven production scheduling and quality inspection to boost throughput and cut material waste, directly improving profit margins.",
+    "micro_personas": [
+      "Factory Operations Manager implementing AI scheduling",
+      "Office Worker using AI‑enabled inventory dashboard"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Google AI Pro + Release",
-      "Colab + GPUQuota"
+      "AI + Server Deployment",
+      "AI + Packaging Automation"
     ]
   },
   {
-    "i": 6,
+    "i": 10,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "全球AI使用率升至18.8% 台灣33.8%躍居第19名 - 壹蘋新聞網",
+    "title_en": "Global AI Adoption Rises to 18.8%; Taiwan at 33.8% Ranks 19th",
+    "hashtags": [
+      "#AIAdoption",
+      "#GlobalStats",
+      "#TaiwanTech",
+      "#AIUsage"
+    ],
+    "source_name": "壹蘋新聞網",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Employers and professionals in Hong Kong gain benchmark data to justify AI investment, helping HR and strategy teams prioritize training and budget allocation.",
+    "micro_personas": [
+      "HR Professional planning AI upskilling",
+      "Business Analyst evaluating AI ROI"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Adoption + Benchmarking",
+      "AI Usage + Business Strategy"
+    ]
+  },
+  {
+    "i": 11,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "才兩年就退燒了？微軟 Surface 正淡化 Copilot Plus PC 標籤",
+    "title_en": "Microsoft Surface Phases Out Copilot Plus PC Label After Two Years",
+    "hashtags": [
+      "#Microsoft",
+      "#Surface",
+      "#CopilotPlus",
+      "#AIHardware"
+    ],
+    "source_name": "TechNews 科技新報",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK developers need to know Microsoft is removing the Copilot Plus PC label, affecting AI‑accelerated app compatibility and future hardware procurement decisions for enterprise and startup projects.",
+    "micro_personas": [
+      "Software developer building AI‑enabled Windows applications",
+      "IT architect evaluating AI hardware platforms for enterprise deployment"
+    ],
+    "agent_signal": false,
+    "automation_level": 1,
+    "history_queries": [
+      "Microsoft + CopilotPlus",
+      "Surface + AIHardware"
+    ]
+  },
+  {
+    "i": 12,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "高雄大學藝創系副教授王政弘團隊 AI沉浸教學系統 獲國科會2026未來科技獎 - 阿蓮區崗山社區發展協會",
+    "title_en": "AI Immersive Teaching System Wins 2026 Future Technology Award from Taiwan's National Science Council",
+    "hashtags": [
+      "#AIinEducation",
+      "#ImmersiveLearning",
+      "#FutureTechAward",
+      "#Taiwan"
+    ],
+    "source_name": "阿蓮區崗山社區發展協會",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "The award‑winning AI immersive teaching platform offers Hong Kong educators and families concrete tools to boost student engagement, supporting remote labs and personalized curriculum for primary and secondary learners.",
+    "micro_personas": [
+      "High school teacher integrating immersive AI lessons",
+      "Student using AI‑driven virtual laboratory"
+    ],
+    "agent_signal": false,
+    "automation_level": 2,
+    "history_queries": [
+      "AIImmersiveTeaching + Award",
+      "Education + AIPlatform"
+    ]
+  },
+  {
+    "i": 13,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "中國首座「AI 眼科門診」實測，直擊醫療 AI 落地的三大痛點",
+    "title_en": "China's First AI Ophthalmology Clinic Reveals Three Major Implementation Challenges",
+    "hashtags": [
+      "#AIHealthcare",
+      "#Ophthalmology",
+      "#MedicalAI",
+      "#Safety"
+    ],
+    "source_name": "TechNews 科技新報",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "The report highlights safety and privacy gaps in AI medical diagnostics, warning Hong Kong elderly patients and healthcare professionals to scrutinise data handling and reliability before adopting similar AI eye‑care services.",
+    "micro_personas": [
+      "Elderly patient considering AI eye screening",
+      "Healthcare professional evaluating AI diagnostic tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "China + AIOphthalmology",
+      "MedicalAI + SafetyChallenges"
+    ]
+  },
+  {
+    "i": 14,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "Muse 擄獲大眾的秘方？推手 Alexandr Wang 談 AI 代理讓每個人都有一個打理大小事的「第二大腦」 - inside.com.tw",
+    "title_en": "Muse's Founder Discusses AI Agents as a Personal ‘Second Brain’ for Managing Daily Tasks",
+    "hashtags": [
+      "#AIAgents",
+      "#Productivity",
+      "#SecondBrain",
+      "#MuseAI"
+    ],
+    "source_name": "inside.com.tw",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "The AI agent concept provides Hong Kong office workers and entrepreneurs a practical ‘second brain’ to automate routine tasks, schedule management, and information synthesis, improving daily efficiency.",
+    "micro_personas": [
+      "Office worker automating email triage",
+      "Entrepreneur managing project tasks with AI assistant"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "MuseAI + PersonalAssistant",
+      "AIAgents + Productivity"
+    ]
+  },
+  {
+    "i": 15,
+    "category": "tools_access",
+    "ai1_suggestion": "",
+    "title": "Google AI Pro 用戶雲端算力開起來！每月200 Colab 運算單元可跑A100，再搭CLI 直接從終端機叫GPU - inside.com.tw",
+    "title_en": "Google AI Pro Unlocks Cloud Compute: 200 Monthly Colab Units with A100 GPU via CLI",
+    "hashtags": [
+      "#GoogleAI",
+      "#ColabPro",
+      "#GPUCompute",
+      "#AItools"
+    ],
+    "source_name": "inside.com.tw",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK developers and SMEs gain affordable, on‑demand GPU resources for model training and inference, reducing infrastructure costs and accelerating AI product prototyping within local startups and research labs.",
+    "micro_personas": [
+      "Developer running large language model training",
+      "SME data scientist prototyping AI service"
+    ],
+    "agent_signal": false,
+    "automation_level": 4,
+    "history_queries": [
+      "GoogleAI + ColabPro",
+      "GPUCompute + CloudAI"
+    ]
+  },
+  {
+    "i": 16,
     "category": "price_free",
     "ai1_suggestion": "",
     "title": "a16z 創辦矽谷 AI 學院：免學費、無考試，以「實作成果」取代成績單",
@@ -134,95 +369,85 @@
     "source_name": "TechNews 科技新報",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "HK students and early‑career professionals can access tuition‑free AI training, reducing skill‑upgrading costs and enabling hands‑on project experience, supporting the local talent pipeline and tech workforce development.",
+    "reason": "Students and aspiring developers in Hong Kong can access a tuition‑free AI academy, saving education costs and gaining hands‑on project experience, accelerating entry into the local AI talent pool.",
     "micro_personas": [
-      "University student seeking AI skills",
-      "Junior developer preparing for AI roles"
+      "University student learning generative AI tools",
+      "Startup founder upskilling technical team"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 1,
     "history_queries": [
-      "a16z + AI Academy",
-      "TuitionFree + AI Training"
+      "a16z + LaunchAcademy",
+      "Hong Kong Students + EnrollFreeAIProgram"
     ]
   },
   {
-    "i": 7,
+    "i": 17,
     "category": "work_sme",
     "ai1_suggestion": "",
     "title": "簡化M365組態與資安防護，網達先進推微軟雲端服務代管方案",
-    "title_en": "Simplifying M365 Configuration and Security: Logicalis Offers Managed Microsoft 365 Services Powered by CoreView",
+    "title_en": "Simplifying M365 Configuration and Security: NetEase Advances Managed Microsoft 365 Services Powered by CoreView",
     "hashtags": [
       "#Microsoft365",
       "#CloudManagement",
-      "#SMESolutions",
-      "#CyberSecurity"
+      "#Security",
+      "#SMESolutions"
     ],
     "source_name": "iThome 新聞",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The service announcement lacks explicit AI components, offering limited AI‑specific relevance for Hong Kong SMEs and office workers."
+    "reject_reason": "The announcement lacks AI components; it describes a cloud management service without AI relevance for Hong Kong SMEs."
   },
   {
-    "i": 8,
+    "i": 18,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "剛剛，OpenAI神秘「o」程式碼曝光！ChatGPT要變24小時員工 - 鉅亨號",
+    "title_en": "OpenAI’s Mysterious ‘O’ Code Leaked: ChatGPT Set to Become a 24‑Hour Employee",
+    "hashtags": [
+      "#OpenAI",
+      "#ChatGPT",
+      "#AIInnovation",
+      "#TechNews"
+    ],
+    "source_name": "鉅亨號",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Hong Kong AI developers and security analysts can study the leaked code to assess self‑hosting feasibility and potential vulnerabilities, informing local AI project strategies.",
+    "micro_personas": [
+      "AI developer evaluating model architecture",
+      "Security analyst assessing code leak impact"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "OpenAI + LeakCode",
+      "Hong Kong Developers + AssessModelRisk"
+    ]
+  },
+  {
+    "i": 19,
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "家長禁聊天！美國中學生把 Spotify 留言區當秘密聊天室，工作人員誤以為機器人入侵 - inside.com.tw",
     "title_en": "Parents Ban Chatting! U.S. High Schoolers Use Spotify Comment Section as Secret Chatroom, Staff Mistake It for Bot Intrusion",
     "hashtags": [
       "#OnlineSafety",
-      "#YouthDigitalUse",
-      "#PlatformAbuse",
-      "#TrustIssues"
+      "#YouthPrivacy",
+      "#DigitalTrust",
+      "#SocialMedia"
     ],
     "source_name": "inside.com.tw",
     "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "The incident shows AI‑driven bot detection can produce false positives, warning HK parents and elderly users to scrutinize platform interactions and adopt safer digital practices against automated scams.",
-    "micro_personas": [
-      "Parent monitoring teen online activity",
-      "Elderly user concerned about bot scams"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Spotify + SecretChat",
-      "BotDetection + Misfire"
-    ]
+    "decision": "reject",
+    "reject_reason": "Event focuses on social media misuse without substantive AI technology or risk, offering limited safety‑trust insight for Hong Kong audiences."
   },
   {
-    "i": 9,
+    "i": 21,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "原始碼曝光ChatGPT Pro Max 月費500 美元方案，傳 OpenAI 將於9 月 29 日 DevDay 正式發表 - inside.com.tw",
-    "title_en": "ChatGPT Pro Max Source Code Leaked; $500 Monthly Plan Expected to Be Announced at OpenAI DevDay on September 29",
-    "hashtags": [
-      "#ChatGPT",
-      "#AIPricing",
-      "#OpenAI",
-      "#TechNews"
-    ],
-    "source_name": "inside.com.tw",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "The leaked ChatGPT Pro Max code signals a premium $500 tier, prompting HK developers and corporate users to reassess AI budgeting, explore cost‑effective alternatives, and prepare for higher subscription expenses.",
-    "micro_personas": [
-      "Freelance developer integrating ChatGPT API",
-      "Corporate analyst evaluating AI tool subscriptions"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "ChatGPT + PricingLeak",
-      "OpenAI + ProMax"
-    ]
-  },
-  {
-    "i": 10,
-    "category": "tech_background",
-    "ai1_suggestion": "",
     "title": "AI 越成功硬體越稀缺：晶片、能源成 AI 擴張瓶頸，創投重新看好硬科技",
-    "title_en": "AI Success Increases Hardware Scarcity: Chips and Energy Become Bottlenecks, Venture Capital Shifts Focus to Hard Tech",
+    "title_en": "AI Success Increases Hardware Scarcity: Chips and Energy Become Bottlenecks, VCs Renew Focus on Hard Tech",
     "hashtags": [
       "#AIHardware",
       "#ChipShortage",
@@ -232,178 +457,172 @@
     "source_name": "TechNews 科技新報",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "AI hardware scarcity due to chip and energy constraints forces HK hardware firms and developers to plan resource allocation carefully, consider energy‑efficient models, and diversify supply chains for sustainable AI growth.",
+    "reason": "Hong Kong SMEs and entrepreneurs face rising AI hardware costs and supply limits, prompting them to plan budgets and consider alternative compute strategies for AI projects.",
     "micro_personas": [
-      "Hardware startup CTO planning AI product",
-      "Cloud engineer optimizing compute resources"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "AI + ChipShortage",
-      "VentureCapital + HardTech"
-    ]
-  },
-  {
-    "i": 11,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "台積電麥寮外海祕密計畫獨家曝光，全新台灣能源之路隱然成形",
-    "title_en": "TSMC's Secret Offshore Project Revealed: A New Path for Taiwan's Energy",
-    "hashtags": [
-      "#TSMC",
-      "#EnergyInnovation",
-      "#AIImpact",
-      "#SupplyChain"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "HK developers and data‑center operators gain insight into Taiwan’s offshore energy plan, helping anticipate power availability for AI workloads and plan local capacity.",
-    "micro_personas": [
-      "Data center engineer planning AI infrastructure",
-      "Cloud services architect evaluating compute power costs"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "TSMC + EnergyPlan",
-      "AICompute + PowerSupply"
-    ]
-  },
-  {
-    "i": 12,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "自由開講》AI三部曲之一）AI開始會做事：你的工作正在被重新定義 - talk.ltn.com.tw",
-    "title_en": "AI Is Starting to Do Tasks: Your Job Is Being Redefined",
-    "hashtags": [
-      "#AIWorkplace",
-      "#JobRedefinition",
-      "#FutureOfWork"
-    ],
-    "source_name": "talk.ltn.com.tw",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Office workers and HR professionals in HK can adopt AI assistants to streamline repetitive tasks, boosting productivity and allowing HR to redesign roles for higher‑value activities.",
-    "micro_personas": [
-      "Office employee using AI task manager",
-      "HR manager redesigning workflows"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "AI + TaskAutomation",
-      "HR + RoleRedefinition"
-    ]
-  },
-  {
-    "i": 13,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "科技巨頭搶攻 AI 穿戴裝置，偷拍疑慮與雲端資安成最大絆腳石",
-    "title_en": "Tech Giants Rush into AI Wearables Amid Privacy and Cloud Security Concerns",
-    "hashtags": [
-      "#AIWearables",
-      "#Privacy",
-      "#CloudSecurity",
-      "#TechGiants"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Elderly Hong Kong users considering smart glasses receive a clear warning about data leakage, while corporate professionals must assess cloud‑based wearable security before deployment.",
-    "micro_personas": [
-      "Senior citizen evaluating smart glasses",
-      "IT security officer reviewing wearable policies"
-    ],
-    "agent_signal": false,
-    "automation_level": 1,
-    "history_queries": [
-      "WearableTech + PrivacyConcern",
-      "CloudSecurity + AI"
-    ]
-  },
-  {
-    "i": 14,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "AI 做決策可靠嗎？同一段指令跑 3 次排序都不同，我用這段提示詞讓它先列出判斷規則 - fc.bnext.com.tw",
-    "title_en": "Is AI Decision-Making Reliable? Inconsistent Sorting Results and Prompt Strategies",
-    "hashtags": [
-      "#AIDecision",
-      "#Reliability",
-      "#PromptEngineering",
-      "#AIResearch"
-    ],
-    "source_name": "fc.bnext.com.tw",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Developers and prompt engineers in Hong Kong can use the demonstrated sorting inconsistency to refine prompts, ensuring reliable AI decision‑making for business applications.",
-    "micro_personas": [
-      "Prompt engineer optimizing AI queries",
-      "Data scientist validating model outputs"
+      "SME CTO evaluating AI infrastructure",
+      "Startup founder budgeting GPU acquisition"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "AIModel + InconsistentOutput",
-      "PromptEngineering + Reliability"
+      "AI + HardwareShortage",
+      "Hong Kong Startups + PlanComputeResources"
     ]
   },
   {
-    "i": 15,
+    "i": 22,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "台積電麥寮外海祕密計畫獨家曝光，全新台灣能源之路隱然成形",
+    "title_en": "TSMC's Secret Offshore Project Reveals a New Taiwanese Energy Path Amid AI-Driven Power Demand",
+    "hashtags": [
+      "#TSMC",
+      "#EnergyTransition",
+      "#AIImpact",
+      "#SupplyChain",
+      "#HongKong"
+    ],
+    "source_name": "TechNews 科技新報",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Developers and cloud architects in Hong Kong can gauge upcoming power constraints for AI workloads, enabling smarter data‑center site selection and budgeting for energy‑intensive models.",
+    "micro_personas": [
+      "AI infrastructure engineer evaluating server locations",
+      "Cloud service architect planning data center capacity"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "TSMC + Energy Demand",
+      "AI Servers + Power Supply"
+    ]
+  },
+  {
+    "i": 23,
     "category": "real_use",
     "ai1_suggestion": "",
+    "title": "自由開講》AI三部曲之一）AI開始會做事：你的工作正在被重新定義 - 自由評論網",
+    "title_en": "AI Is Starting to Do Work: How Your Job Is Being Redefined",
+    "hashtags": [
+      "#AIWorkforce",
+      "#JobRedefinition",
+      "#FutureOfWork",
+      "#HongKong"
+    ],
+    "source_name": "自由評論網",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The piece offers only conceptual commentary without specific AI tools or measurable impact for Hong Kong audiences, limiting actionable value."
+  },
+  {
+    "i": 24,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "科技巨頭搶攻 AI 穿戴裝置，偷拍疑慮與雲端資安成最大絆腳石",
+    "title_en": "Tech Giants Rush Into AI Wearables; Privacy and Cloud Security Become Major Hurdles",
+    "hashtags": [
+      "#AIWearables",
+      "#Privacy",
+      "#CyberSecurity",
+      "#TechInnovation",
+      "#HongKong"
+    ],
+    "source_name": "TechNews 科技新報",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Elderly users and corporate professionals are alerted to privacy leaks and cloud‑data exposure from AI wearables, guiding safer device choices and stronger organizational policies.",
+    "micro_personas": [
+      "Senior citizen using health monitoring smartwatch",
+      "Corporate IT security manager evaluating employee wearables"
+    ],
+    "agent_signal": true,
+    "automation_level": 0,
+    "history_queries": [
+      "AI Wearables + Privacy",
+      "Cloud Security + Wearable Devices"
+    ]
+  },
+  {
+    "i": 25,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "AI 做決策可靠嗎？同一段指令跑 3 次排序都不同，我用這段提示詞讓它先列出判斷規則 - 未來商務",
+    "title_en": "Can AI Make Reliable Decisions? Testing Consistency Across Repeated Runs",
+    "hashtags": [
+      "#AIDecisionMaking",
+      "#Reliability",
+      "#PromptEngineering",
+      "#AIResearch",
+      "#HongKong"
+    ],
+    "source_name": "未來商務",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "Professionals relying on AI decision tools gain insight into output variability, prompting implementation of verification steps and reducing risk of inconsistent recommendations in critical business processes.",
+    "micro_personas": [
+      "Data analyst validating AI model outputs",
+      "Business manager assessing AI decision tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "AI Consistency + Prompt Engineering",
+      "Decision Making + Reliability Test"
+    ]
+  },
+  {
+    "i": 26,
+    "category": "tech_background",
+    "ai1_suggestion": "",
     "title": "AI伺服器供應鏈啟動1700億大籌資，液冷與矽光子長單帶動鴻海等廠擴產-財經焦點情報站 - CMoney投資網誌",
-    "title_en": "AI Server Supply Chain Launches $170 Billion Funding Drive, Boosting Liquid Cooling and Silicon Photonics Production",
+    "title_en": "AI Server Supply Chain Launches $170 Billion Funding Drive; Liquid Cooling and Silicon Photonics Spur Expansion",
     "hashtags": [
       "#AIServers",
       "#SupplyChain",
       "#LiquidCooling",
       "#SiliconPhotonics",
-      "#Investment"
+      "#HongKong"
     ],
     "source_name": "CMoney投資網誌",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "HK startups and SMEs gain early visibility into next‑gen AI server components, enabling strategic procurement and competitive edge in AI product development.",
+    "reason": "SMEs and startup founders planning AI projects can anticipate hardware cost trends and cooling requirements, allowing informed budgeting and early adoption of efficient silicon‑photonics servers.",
     "micro_personas": [
-      "Startup CTO sourcing AI servers",
-      "Hardware vendor planning product roadmap"
+      "Startup CTO evaluating AI compute hardware",
+      "SME IT manager planning server upgrades"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 1,
     "history_queries": [
-      "AIServers + Funding",
-      "SiliconPhotonics + ProductionScale"
+      "AI Server Funding + Infrastructure",
+      "Silicon Photonics + Data Center Cooling"
     ]
   },
   {
-    "i": 17,
+    "i": 28,
     "category": "safety_trust",
     "ai1_suggestion": "",
     "title": "AI 研發生化武器消滅人類？專家：比起末日幻想，現有病原體威脅性更高",
-    "title_en": "AI Research on Biochemical Weapons Threatening Humanity? Experts Say Existing Pathogens Pose Greater Risk Than Apocalyptic Scenarios",
+    "title_en": "AI Developing Biological Weapons to Eradicate Humanity? Experts Say Existing Pathogens Pose Greater Threat Than Apocalyptic Scenarios",
     "hashtags": [
       "#AIethics",
-      "#BioweaponRisk",
+      "#Biosecurity",
       "#PublicSafety",
-      "#HongKongScience"
+      "#TechRisks"
     ],
     "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Hong Kong elderly and corporate professionals should be alerted to AI‑driven bioweapon design risks, prompting heightened vigilance, education, and policy advocacy to safeguard public health and data security.",
+    "reason": "Highlights AI‑driven bio‑weapon design risks, prompting Hong Kong elderly and professional communities to strengthen vigilance, adopt security protocols, and demand stricter regulatory oversight to protect public safety.",
     "micro_personas": [
-      "Elderly community members concerned about health scams",
-      "Corporate security officers monitoring AI threats"
+      "Elderly community members concerned about misinformation",
+      "Corporate security officers managing risk"
     ],
     "agent_signal": true,
-    "automation_level": 0,
+    "automation_level": 4,
     "history_queries": [
-      "AI + Weaponization",
-      "Biotech + ThreatAssessment"
+      "AI + Biosecurity",
+      "Biotech + Threat"
     ]
   }
 ]
