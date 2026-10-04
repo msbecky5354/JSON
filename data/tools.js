@@ -707,13 +707,29 @@ const TOOLS = {
       "weather-assistant"
     ]
   },
-  "wts": {
-    "name": "WhatsApp Business Platform 官方費率預算知識庫",
-    "cat": "企業營運 · 預算評估",
+ "wts": {
+    "name": {
+      "tc": "WhatsApp Business Platform 官方費率預算知識庫",
+      "sc": "WhatsApp Business Platform 官方费率预算知识库",
+      "en": "WhatsApp Business Platform Official Pricing & Budget Estimator"
+    },
+    "cat": {
+      "tc": "企業營運 · 預算評估",
+      "sc": "企业营运 · 预算评估",
+      "en": "Business Operations · Budget Estimation"
+    },
     "icon": "https://lazytoolsstation.vercel.app/WTS/wts_logo.jpg",
     "link": "https://lazytoolsstation.vercel.app/WTS/index.html",
-    "short": "Meta 官方新制通訊費精算工具，圖像化拆解 4 大類別開支、國碼價差與客服免費額度，杜絕預算超支。",
-    "about": "專為香港及跨境商戶、診所、美容及預約服務業打造的 WhatsApp 官方通訊費精算工具。全面對齊 Meta 官方最新定價架構，一鍵圖像化拆解 4 大訊息類別開支，以及「香港本地客 vs 內地旅客」高達 56% 的跨區差價。特設 3 分鐘視覺化避坑指南，教你用盡每月首 1,000 條全免客服對話、防範範本被強制重分類罰貴近 3 倍，並精算發信階梯折扣。零門檻即開即用，清晰看透每一分通訊預算。",
+    "short": {
+      "tc": "Meta 官方新制通訊費精算工具，圖像化拆解 4 大類別開支、國碼價差與客服免費額度，杜絕預算超支。",
+      "sc": "Meta 官方新制通讯费精算工具，图像化拆解 4 大类别开支、区号价差与客服免费额度，杜绝预算超支。",
+      "en": "Official Meta WhatsApp Business Platform rate calculator. Visual breakdowns of 4 message categories, country code price gaps, and free customer service quota to prevent budget overruns."
+    },
+    "about": {
+      "tc": "專為香港及跨境商戶、診所、美容及預約服務業打造的 WhatsApp 官方通訊費精算工具。全面對齊 Meta 官方最新定價架構，一鍵圖像化拆解 4 大訊息類別開支，以及「香港本地客 vs 內地旅客」高達 56% 的跨區差價。特設 3 分鐘視覺化避坑指南，教你用盡每月首 1,000 條全免客服對話、防範範本被強制重分類罰貴近 3 倍，並精算發信階梯折扣。零門檻即開即用，清晰看透每一分通訊預算。",
+      "sc": "专为香港及跨境商户、诊所、美容及预约服务业打造的 WhatsApp 官方通讯费精算工具。全面对齐 Meta 官方最新定价架构，一键图像化拆解 4 大消息类别开支，以及“香港本地客 vs 内地旅客”高达 56% 的跨区差价。特设 3 分钟视觉化避坑指南，教你用尽每月首 1,000 条全免客服对话、防范模板被强制重分类罚贵近 3 倍，并精算发信阶梯折扣。零门槛即开即用，清晰看透每一分通讯预算。",
+      "en": "A WhatsApp official messaging cost estimator tailored for Hong Kong and cross-border businesses, clinics, beauty, and appointment services. Fully aligned with Meta's official pricing model, visually breaking down expenses across 4 message categories and the 56% rate disparity between HK local users and mainland visitors. Features a 3-minute visual optimization guide on utilizing the 1,000 free monthly service conversations, preventing template reclassification penalties (up to 3x price hikes), and calculating volume tier discounts. Ready to use with zero friction, giving you complete clarity over every cent of your messaging budget."
+    },
     "videos": [],
     "articles": [],
     "related": [
