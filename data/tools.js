@@ -712,7 +712,7 @@ const TOOLS = {
     "cat": "企業營運 · 預算評估",
     "icon": "https://lazytoolsstation.vercel.app/WTS/wts_logo.jpg",
     "link": "https://lazytoolsstation.vercel.app/WTS/index.html",
-    "short": "Meta 2026 官方新制通訊費精算工具，圖像化拆解 4 大類別開支、國碼價差與客服免費額度，杜絕預算超支。",
+    "short": "Meta 官方新制通訊費精算工具，圖像化拆解 4 大類別開支、國碼價差與客服免費額度，杜絕預算超支。",
     "about": "專為香港及跨境商戶、診所、美容及預約服務業打造的 WhatsApp 官方通訊費精算工具。全面對齊 Meta 官方最新定價架構，一鍵圖像化拆解 4 大訊息類別開支，以及「香港本地客 vs 內地旅客」高達 56% 的跨區差價。特設 3 分鐘視覺化避坑指南，教你用盡每月首 1,000 條全免客服對話、防範範本被強制重分類罰貴近 3 倍，並精算發信階梯折扣。零門檻即開即用，清晰看透每一分通訊預算。",
     "videos": [],
     "articles": [],
