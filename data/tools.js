@@ -714,7 +714,16 @@ const TOOLS = {
     "link": "https://lazytoolsstation.vercel.app/WTS/index.html",
     "short": "Meta 官方新制通訊費精算工具，圖像化拆解 4 大類別開支、國碼價差與客服免費額度，杜絕預算超支。",
     "about": "專為香港及跨境商戶、診所、美容及預約服務業打造的 WhatsApp 官方通訊費精算工具。全面對齊 Meta 官方最新定價架構，一鍵圖像化拆解 4 大訊息類別開支，以及「香港本地客 vs 內地旅客」高達 56% 的跨區差價。特設 3 分鐘視覺化避坑指南，教你用盡每月首 1,000 條全免客服對話、防範範本被強制重分類罰貴近 3 倍，並精算發信階梯折扣。零門檻即開即用，清晰看透每一分通訊預算。",
-    "videos": [],
+    "videos": [
+      {
+        "type": "youtube",
+        "date": "2026-10-05",
+        "title": "WhatsApp Business Platform 費率點樣計？預約、通知、Promotion 預算快速估算",
+        "url": "https://www.youtube.com/shorts/4xhI80oEQ8Q?feature=share",
+        "desc": "做 WhatsApp Business Platform 預約、通知或 Promotion，成本唔一定係一個固定單價。\n\n訊息類別、客戶電話國碼、每月發送數量，以及 Promotion 發送量，都可能影響整體預算。\n\n我製作咗一個簡單嘅費率與預算評估工具，方便你快速了解：\n\n • 預約及通知訊息數量\n • Utility、Service、Marketing 等類別\n • 香港、內地及海外客戶比例\n • 每月預算估算\n • 不同發送情境下的成本變化\n\n本工具以 Meta 公開費率作為估算參考，並不代表 Meta 或任何 WhatsApp 服務商。實際費用會受當期費率、訊息分類、收件人市場、發送數量及帳戶設定影響，最終應以相關帳戶實際帳單為準。\n\n#WhatsAppBusinessPlatform #WhatsApp自動化 #WhatsApp預約 #WhatsAppMarketing #企業通訊 #費率計算 #預算評估 #香港中小企",
+        "pinned": false
+      }
+    ],
     "articles": [
       {
         "date": "2026-10-04",
