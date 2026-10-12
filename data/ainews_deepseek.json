@@ -1,10 +1,10 @@
 {
   "schema_version": "ainews.frontend.four_region_congress.v1",
-  "exported_at": "2026-10-08T15:10:11.199Z",
+  "exported_at": "2026-10-12T14:14:14.106Z",
   "report_type": "four_region_congress",
   "scope": {
     "from": "2026-10-01",
-    "to": "2026-10-08",
+    "to": "2026-10-11",
     "regions": [
       "hongkong",
       "china",
@@ -14,10 +14,10 @@
   },
   "generation": {
     "ai_model": "Deepseek",
-    "record_scope_key": "snapshot.all.2026-10-01.2026-10-08.deepseek",
+    "record_scope_key": "snapshot.all.2026-10-01.2026-10-11.deepseek",
     "record_type": "snapshot",
-    "recorded_at": "2026-10-08T15:10:12.533211+00:00",
-    "source_count": 336,
+    "recorded_at": "2026-10-12T14:14:13.01404+00:00",
+    "source_count": 395,
     "source_item_ids": [
       "15820",
       "15811",
@@ -78,6 +78,15 @@
       "15867",
       "15868",
       "15869",
+      "16147",
+      "16148",
+      "16149",
+      "16150",
+      "16151",
+      "16152",
+      "16153",
+      "16154",
+      "16166",
       "15894",
       "15870",
       "15871",
@@ -127,6 +136,25 @@
       "15916",
       "15917",
       "15918",
+      "16157",
+      "16158",
+      "16155",
+      "16156",
+      "16159",
+      "16160",
+      "16161",
+      "16162",
+      "16163",
+      "16164",
+      "16165",
+      "16167",
+      "16168",
+      "16169",
+      "16170",
+      "16171",
+      "16172",
+      "16173",
+      "16174",
       "15919",
       "15920",
       "15921",
@@ -183,6 +211,16 @@
       "15972",
       "15973",
       "15974",
+      "16175",
+      "16176",
+      "16177",
+      "16178",
+      "16179",
+      "16180",
+      "16181",
+      "16182",
+      "16183",
+      "16184",
       "16031",
       "15984",
       "15985",
@@ -354,383 +392,48 @@
       "16143",
       "16144",
       "16145",
-      "16146"
+      "16146",
+      "16185",
+      "16186",
+      "16187",
+      "16188",
+      "16189",
+      "16190",
+      "16191",
+      "16192",
+      "16193",
+      "16194",
+      "16195",
+      "16196",
+      "16197",
+      "16198",
+      "16199",
+      "16200",
+      "16201",
+      "16202",
+      "16203",
+      "16204",
+      "16205"
     ],
     "publication_status": "publishable",
     "provenance": {
       "status": "complete",
-      "captured_at": "2026-10-08T15:10:09.493Z",
+      "captured_at": "2026-10-12T14:14:12.497Z",
       "missing_fields": [],
-      "summary_omitted": [],
+      "summary_omitted": [
+        "中國 ITEM_ID 16168（按相似度規則只保留 Title）"
+      ],
       "missing_evidence": []
     }
   },
   "reader_report": {
-    "picture_title": "四區總會：香港讀者優先跨區訊號",
-    "objective": "從四份 Picture 找出香港讀者需要優先知道的跨區共通訊號，以及同一主題在香港、中國、台灣、全球的實質差異。",
+    "picture_title": "四區總會：香港讀者優先跨區 AI 訊號（2026-10-01 至 2026-10-11）",
+    "objective": "從四份 Picture 找出香港讀者需要優先知道的跨區共通訊號，以及同一主題在香港、中国、台湾、全球的實質差異。",
     "common_signals": [
       {
-        "l1": "tools_access",
-        "signal": "Google SynthID 驗證／檢測工具向全球開放，香港、中國、台灣、全球來源都指向同一件事：AI 生成圖片、影片、音訊需要可驗證工具。",
-        "why_now": "AI 生成內容快速增加，平台監管同版權爭議升溫，唔檢測會增加下架、誤判同信任風險。",
-        "evidence": [
-          {
-            "l1": "tools_access",
-            "l2": "broad_context",
-            "ref": "29",
-            "title": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成 - 電腦領域HKEPC Hardware",
-            "region": "hongkong",
-            "source": "電腦領域HKEPC Hardware",
-            "item_id": "15839",
-            "summary": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成",
-            "fact_used": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成",
-            "item_date": "2026-10-07",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNUlQzcHgxaTZDdUdkMnhrTHFvekJTbTVPZ01DT2VWck1RbE0xSko4cWhVM0ZsYnB3OTNlUlNjb2llSXExUmtXdUV6cDFPeWhrTmpRRnFVTjQwQ0FQcW9RYmxKeUZ6Z1VjbDRqUkh2Tlp3VGN6X1R4Uk9VVlJOZ0gtcjYzM2ctdGIxaDByZTBCZ25KXy1ISVNJcF9ubkxVUFJ6OF8yd3hyWTl2NkxDNHhLNFBXRXRLLU1VSTRSU0IzS3RwYlRaRDNFZURvNnduZ3htUXQtOVpiTVlhME1aYkhLWmpoeVJNRmRGalpFTEdmZjlod2t5U1FMR3RKdFRaZ3ZCeU04QmxHRndGYU0yWVUzUDNwbE5jc1NtalVnS0pjQW9aV1VlN2trT2plQzd3YUVwTFphbVFEMUF2U2lhdUQ4TjBVU3FFR1pON0R5SmZB?oc=5"
-          },
-          {
-            "l1": "safety_trust",
-            "l2": "tools_access",
-            "ref": "19",
-            "title": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容 - IT之家",
-            "region": "china",
-            "source": "IT之家",
-            "item_id": "15893",
-            "summary": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容",
-            "fact_used": "Google SynthID 面向全球用户开放，可检测 AI 生成内容",
-            "item_date": "2026-10-07",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1HYWVJWEd5QmRQQy1YRHJVcDltU0dhV3JCN3NObV9NTUJUQ1F6UV9nZTFuN1VrRy1KeEtNSXRhV050bnRqbUFQMVEtdUc?oc=5"
-          },
-          {
-            "l1": "safety_trust",
-            "l2": "general",
-            "ref": "36",
-            "title": "Google全面開放SynthID Detector，支援跨業者AI內容辨識",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "15954",
-            "summary": "Google周三（10/7）宣布，正式向全球一般使用者開放英文版SynthID Detector，讓任何人都能上傳圖片、影片或音訊，檢查是否含有AI生成內容的數位浮水印。",
-            "fact_used": "Google正式向全球一般使用者開放英文版SynthID Detector，讓任何人上傳圖片、影片或音訊檢查AI生成內容",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/179517"
-          },
-          {
-            "l1": "tools_access",
-            "l2": "work_sme",
-            "ref": "15",
-            "title": "AI content checks go public as Google opens SynthID Detector - YourStory.com",
-            "region": "global",
-            "source": "YourStory.com",
-            "item_id": "15987",
-            "summary": "AI content checks go public as Google opens SynthID Detector",
-            "fact_used": "AI content checks go public as Google opens SynthID Detector",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1ZDFzSUZnVjRKX1pPUkpYS0JXUWJMQjBMc3I2T3BwN24yRDdCRnJMR3VNXzZMMEJNVjM0ME1IUlZYeEx4THJsRUdTS3pqd0JGajRPTUhWM3JuaTNGdmRIMWh3anVhOER1cG82R2tseC1hRTExMW5nMWpueDQ?oc=5"
-          }
-        ],
-        "audiences": [
-          "香港媒體編輯",
-          "內容平台審核員",
-          "影片創作者",
-          "版權持有人"
-        ],
-        "action_guide": "香港內容創作者、媒體及平台編輯應即刻將 SynthID 納入審核流程；上載前檢測圖片、影片、音訊，保存檢測報告，並在平台標示來源。",
-        "audience_focus": "香港內容創作者／媒體平台編輯",
-        "regions_supported": [
-          "hongkong",
-          "china",
-          "tw",
-          "global"
-        ]
-      },
-      {
-        "l1": "tools_access",
-        "signal": "AI 工具由純雲端轉向本地推理、本機沙箱同企業內資料中心，香港、中國、台灣都有硬訊號。",
-        "why_now": "雲端成本、資料外洩同合規風險令本地部署變成實際選項。",
-        "evidence": [
-          {
-            "l1": "learning_family",
-            "l2": "broad_context",
-            "ref": "5",
-            "title": "教學：電腦 USB 駁 iPhone 跑本地 AI 讀取長文速度可加快 - Unwire.hk",
-            "region": "hongkong",
-            "source": "Unwire.hk｜香港 unwire.hk 玩生活．樂科技",
-            "item_id": "15814",
-            "summary": "教學：電腦 USB 駁 iPhone 跑本地 AI 讀取長文速度可加快",
-            "fact_used": "教學：電腦 USB 駁 iPhone 跑本地 AI 讀取長文速度可加快",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMDhTNU55R0hkTmtDRHk5bmpDUmJYLW1VTkpuOTd0czdUQ0ZJUk82Y2xHQkNnYnhIYVhsZmFwY1BBX0VCNmM2SldSVXY5VXc0Y29iLTdfN2tMWHo1SnhMeEZJbExrejlwZXFHTmp3ZEYtdExEbzQyLXN0andocHRodQ?oc=5 | https://unwire.hk/2026/10/08/iphone-mac-backburner-local-ai-setup-guide/ai/?utm_source=rss&utm_medium=rss&utm_campaign=iphone-mac-backburner-local-ai-setup-guide"
-          },
-          {
-            "l1": "tools_access",
-            "l2": "tools_access",
-            "ref": "21",
-            "title": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元 - IT之家",
-            "region": "china",
-            "source": "IT之家",
-            "item_id": "15888",
-            "summary": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元",
-            "fact_used": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元",
-            "item_date": "2026-10-07",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aR0paenZqNi03Z0hYSEE1Z2dROGN6TW5heFdmMk85WEtBUXlGYmc3dm5qbC1tUUhSVXZYNnZrODdHdEpmUzNYejA0RmU?oc=5"
-          },
-          {
-            "l1": "tools_access",
-            "l2": "general",
-            "ref": "33",
-            "title": "GitHub Copilot本機沙箱上線，CLI可探索Ollama模型",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "15951",
-            "summary": "GitHub Copilot本機沙箱正式上線，適用於Copilot CLI、GitHub Copilot應用程式，以及使用Agent Host的VS Code工作階段。當Copilot代理在使用者電腦執行命令時，開發者能限制讀寫的檔案、網路存取，以及能否使用Git與GitHub CLI憑證。",
-            "fact_used": "GitHub Copilot本機沙箱正式上線，適用於Copilot CLI、GitHub Copilot應用程式",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/179518"
-          },
-          {
-            "l1": "tools_access",
-            "l2": "general",
-            "ref": "5",
-            "title": "Dell替AI代理補上企業資料脈絡，加入語意層與企業知識圖譜",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "15923",
-            "summary": "Dell將擴充Dell AI Data Platform，預計2027年上半年加入統一語意層、企業知識圖譜及知識代理，讓不同應用程式與AI代理能依照一致的資料定義與關聯取得企業資訊。官方強調，這三項功能及其處理的敏感資訊會留在企業自己的資料中心。",
-            "fact_used": "Dell將擴充Dell AI Data Platform，預計2027年上半年加入統一語意層、企業知識圖譜及知識代理，敏感資訊會留在企業自己的資料中心",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/179498"
-          }
-        ],
-        "audiences": [
-          "香港軟件開發者",
-          "企業 IT 主管",
-          "資料安全管理者",
-          "中小企技術決策人"
-        ],
-        "action_guide": "香港開發者同 IT 主管應評估本地推理硬件、啟用 GitHub Copilot 本機沙箱、檢查敏感資料是否留在企業資料中心；先做小規模測試。",
-        "audience_focus": "香港軟件開發者／企業 IT 主管",
-        "regions_supported": [
-          "hongkong",
-          "china",
-          "tw"
-        ]
-      },
-      {
-        "l1": "price_free",
-        "signal": "AI 成本門檻同時下降：全球 API 價格大跌、台灣補助門檻降至 25 萬、香港 AI 節能 1 至 2 年回本。",
-        "why_now": "中小企預算緊，但呢啲訊號令導入 AI 由觀望變成可計數投資。",
-        "evidence": [
-          {
-            "l1": "price_free",
-            "l2": "must_read",
-            "ref": "64",
-            "title": "Anthropic unveils low-cost Claude Haiku 5.5 model aimed at 'cost-sensitive tasks' - TradingView",
-            "region": "global",
-            "source": "TradingView",
-            "item_id": "16038",
-            "summary": "Anthropic unveils low-cost Claude Haiku 5.5 model aimed at 'cost-sensitive tasks'",
-            "fact_used": "Anthropic unveils low-cost Claude Haiku 5.5 model aimed at 'cost-sensitive tasks' - TradingView",
-            "item_date": "2026-10-07",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQnNmd1hVdGZ4bXFRdUxyZU1wQUdNZk9WejZ6UFNDU0RVOXJHa2Fmd2JTVmJaUTQ4Z0ZEMDFBRG1zZjhmMEV5YVNHT25JRW43WDRDeW9URzlKOWZ5bTJTZEhDc0loOW83V0QwMXNtOFVIV21xQlc1ZzhFOHRqR2ZpT0djSnJfenFVVmZ3QlJSM0IzTmZzTVR1c3UxMWNvd3VlNlJWUE0xWklYd2hrV3A5cFB6S015QUhSTXNLSmNoOFV5eFZhRnVwaG1ISU5yUGNEQ1M1UllmVl8xdw?oc=5"
-          },
-          {
-            "l1": "work_sme",
-            "l2": "general",
-            "ref": "31",
-            "title": "行政院通過中小微企業轉型升級條例修法，數位、AI、資安與淨零投資納入抵減，門檻降至25萬元",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "15949",
-            "summary": "行政院會在今天(10/8)通過經濟部提出的《中小企業發展條例》部分條文修正草案，條例名稱改為《中小微企業轉型升級發展條例》，後續將函送立法院審議。經濟部表示，此次修法是因應人工智慧發展、數位與淨零雙軸轉型，以及產業環境變化，希望透過制度調整協助中小微企業升級轉型。",
-            "fact_used": "AI、資安與淨零投資納入抵減，門檻降至25萬元",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/179523"
-          },
-          {
-            "l1": "real_use",
-            "l2": "tech_background",
-            "ref": "6",
-            "title": "施耐德電氣香港創新峰會2026｜施耐德電氣香港創新峰會2026｜AI 節能最快1 至 2 年回本太古項目能源成本料降10% 至 20% - unwire PRO",
-            "region": "hongkong",
-            "source": "unwire PRO",
-            "item_id": "15815",
-            "summary": "施耐德電氣香港創新峰會2026｜施耐德電氣香港創新峰會2026｜AI 節能最快1 至 2 年回本太古項目能源成本料降10% 至 20%",
-            "fact_used": "施耐德電氣香港創新峰會2026｜AI 節能最快1 至 2 年回本太古項目能源成本料降10% 至 20%",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT3pSNTRqNUpxeWNVcFhuYmNuY1NySnJpbmFmdHo1WlVsQi16d3ZyV1FLRUg1OU1XVGNIdWx5UXZEOVcxb29fQ000NVdQUXI1a3hPLUlUNV84elpKdWhFU3c3b2VrYW1HQzgxbzNqb09mNG5LMlhUQTdKSE5DTlJVRHpCYV8tZw?oc=5"
-          }
-        ],
-        "audiences": [
-          "香港中小企老闆",
-          "財務主管",
-          "物業管理者",
-          "營運主管"
-        ],
-        "action_guide": "香港中小企老闆同財務決策人應重新計 API 成本、申請可用補助、試行 AI 節能；用回本周期做決策。",
-        "audience_focus": "香港中小企老闆／財務決策人",
-        "regions_supported": [
-          "hongkong",
-          "tw",
-          "global"
-        ]
-      }
-    ],
-    "regional_differences": [
-      {
-        "l1": "tools_access",
-        "topic": "AI 生成內容檢測與平台合規",
-        "evidence": [
-          {
-            "l1": "tools_access",
-            "l2": "broad_context",
-            "ref": "29",
-            "title": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成 - 電腦領域HKEPC Hardware",
-            "region": "hongkong",
-            "source": "電腦領域HKEPC Hardware",
-            "item_id": "15839",
-            "summary": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成",
-            "fact_used": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成",
-            "item_date": "2026-10-07",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNUlQzcHgxaTZDdUdkMnhrTHFvekJTbTVPZ01DT2VWck1RbE0xSko4cWhVM0ZsYnB3OTNlUlNjb2llSXExUmtXdUV6cDFPeWhrTmpRRnFVTjQwQ0FQcW9RYmxKeUZ6Z1VjbDRqUkh2Tlp3VGN6X1R4Uk9VVlJOZ0gtcjYzM2ctdGIxaDByZTBCZ25KXy1ISVNJcF9ubkxVUFJ6OF8yd3hyWTl2NkxDNHhLNFBXRXRLLU1VSTRSU0IzS3RwYlRaRDNFZURvNnduZ3htUXQtOVpiTVlhME1aYkhLWmpoeVJNRmRGalpFTEdmZjlod2t5U1FMR3RKdFRaZ3ZCeU04QmxHRndGYU0yWVUzUDNwbE5jc1NtalVnS0pjQW9aV1VlN2trT2plQzd3YUVwTFphbVFEMUF2U2lhdUQ4TjBVU3FFR1pON0R5SmZB?oc=5"
-          },
-          {
-            "l1": "safety_trust",
-            "l2": "tools_access",
-            "ref": "19",
-            "title": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容 - IT之家",
-            "region": "china",
-            "source": "IT之家",
-            "item_id": "15893",
-            "summary": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容",
-            "fact_used": "Google SynthID 面向全球用户开放，可检测 AI 生成内容",
-            "item_date": "2026-10-07",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1HYWVJWEd5QmRQQy1YRHJVcDltU0dhV3JCN3NObV9NTUJUQ1F6UV9nZTFuN1VrRy1KeEtNSXRhV050bnRqbUFQMVEtdUc?oc=5"
-          },
-          {
-            "l1": "safety_trust",
-            "l2": "general",
-            "ref": "36",
-            "title": "Google全面開放SynthID Detector，支援跨業者AI內容辨識",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "15954",
-            "summary": "Google周三（10/7）宣布，正式向全球一般使用者開放英文版SynthID Detector，讓任何人都能上傳圖片、影片或音訊，檢查是否含有AI生成內容的數位浮水印。",
-            "fact_used": "Google正式向全球一般使用者開放英文版SynthID Detector，讓任何人上傳圖片、影片或音訊檢查AI生成內容",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/179517"
-          },
-          {
-            "l1": "tools_access",
-            "l2": "work_sme",
-            "ref": "15",
-            "title": "AI content checks go public as Google opens SynthID Detector - YourStory.com",
-            "region": "global",
-            "source": "YourStory.com",
-            "item_id": "15987",
-            "summary": "AI content checks go public as Google opens SynthID Detector",
-            "fact_used": "AI content checks go public as Google opens SynthID Detector",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1ZDFzSUZnVjRKX1pPUkpYS0JXUWJMQjBMc3I2T3BwN24yRDdCRnJMR3VNXzZMMEJNVjM0ME1IUlZYeEx4THJsRUdTS3pqd0JGajRPTUhWM3JuaTNGdmRIMWh3anVhOER1cG82R2tseC1hRTExMW5nMWpueDQ?oc=5"
-          }
-        ],
-        "audiences": [
-          "跨平台發佈者",
-          "內容審核主管",
-          "品牌內容經理",
-          "版權營運人員"
-        ],
-        "difference": "香港同全球來源將 SynthID 定位為內容審核／平台合規工具；中國來源放在安全信任，強調避免誤用同版權爭議；台灣來源強調一般使用者都可上載圖片、影片、音訊檢測，並針對創作者同媒體。",
-        "audience_focus": "香港跨平台內容發佈者",
-        "hongkong_reader_meaning": "香港讀者若同時在香港、中國、台灣、全球平台發佈內容，要用同一套檢測同標示流程，唔好假設各平台標準一致。"
-      },
-      {
-        "l1": "regulation_public",
-        "topic": "AI 責任、事故通報與監管審查",
-        "evidence": [
-          {
-            "l1": "regulation_public",
-            "l2": "gov",
-            "ref": "19",
-            "title": "針對「AI犯錯誰來負責」 政府將設專責小組盡快研究 - on.cc東網",
-            "region": "hongkong",
-            "source": "on.cc東網｜香港電台新聞網",
-            "item_id": "15829",
-            "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
-            "fact_used": "政府將設專責小組盡快研究 AI 犯錯誰來負責",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV3otNFJaaWZlbkZsekxYX1ViMzlkUzZUQjhNU1JOWndGeS11VzdjSVhHeFFyd3V4Mi1GVkI5cUZCaDNVS3ByZHNkOEdWdFAzVFAwVDhnZkx0bEhjMjluX25FcXRKZFhfU1d4SEVSdTBoZlY4YS1DdEgybVF0d01teTdZWEZWVFBjdUtZ?oc=5 | https://news.google.com/rss/articles/CBMib0FVX3lxTE54S0M3eVQzcklWSlJHRW9KeXNZZkhraVRmdENsRUNfVWY5YmJCOTVvMlliSzI5eFVPZ0F2djRxNjUwTVhFNjM1Y2FGdThPYUVQbm1sWFlqVTkwdG9UYUtsMVJGOENaeWJCSGkzNW1sRQ?oc=5"
-          },
-          {
-            "l1": "regulation_public",
-            "l2": "safety_trust",
-            "ref": "106",
-            "title": "Australian Lawmakers Question OpenAI Officials on Breaches - The New York Times",
-            "region": "global",
-            "source": "The New York Times",
-            "item_id": "16079",
-            "summary": "Australian Lawmakers Question OpenAI Officials on Breaches",
-            "fact_used": "Australian Lawmakers Question OpenAI Officials on Breaches",
-            "item_date": "2026-10-07",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SVUxYVUJlWm1tak1SdVpMb0lUTnF2UXFaZmZFUWk0Z19yUHpRTFUxb1laemRQNnpOdjJGaXhlR3pxbDZWUGdVY0V1UnlpdDQzQ2pxMm05WVdJM3p1QjF5WFY2UjEwcklkWGpEaUwxQkdIYXhQaXNEdGd3?oc=5"
-          },
-          {
-            "l1": "safety_trust",
-            "l2": "general",
-            "ref": "30",
-            "title": "【資安日報】10月8日，龔化中上任兩個月揭「國家資安防護2.0」，明年4月AI紅隊先攻政府機關",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "15948",
-            "summary": "本日新聞焦點\n● 龔化中上任兩個月揭「國家資安防護2.0」，明年AI紅隊先攻政府機關\n● 韓國金融業接連遭駭，疑似中國駭客結合AI與滲透測試工具發動攻擊\n● OpenAI為AI代理越權存取澳洲政府網站致歉，支持事故強制通報",
-            "fact_used": "明年AI紅隊先攻政府機關",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/179522"
-          },
-          {
-            "l1": "safety_trust",
-            "l2": "tools_access",
-            "ref": "19",
-            "title": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容 - IT之家",
-            "region": "china",
-            "source": "IT之家",
-            "item_id": "15893",
-            "summary": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容",
-            "fact_used": "Google SynthID 面向全球用户开放，可检测 AI 生成内容",
-            "item_date": "2026-10-07",
-            "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1HYWVJWEd5QmRQQy1YRHJVcDltU0dhV3JCN3NObV9NTUJUQ1F6UV9nZTFuN1VrRy1KeEtNSXRhV050bnRqbUFQMVEtdUc?oc=5"
-          }
-        ],
-        "audiences": [
-          "合規主管",
-          "資安負責人",
-          "政府資訊人員",
-          "中小企管理層"
-        ],
-        "difference": "香港政府將設專責小組研究 AI 犯錯誰負責；全球來源見 OpenAI 因事故被立法者質詢；台灣來源顯示明年 AI 紅隊先攻政府機關；中國來源以 SynthID 開放檢測作安全信任應對。各地重點由責任立法、事故通報、主動攻防到工具檢測不一。",
-        "audience_focus": "香港企業合規主管／資安負責人",
-        "hongkong_reader_meaning": "香港企業唔可以只等本地法規；同時要準備資料處理紀錄、事故通報同 AI 紅隊演練，因為全球監管同攻擊都會傳導到香港。"
-      },
-      {
         "l1": "safety_trust",
-        "topic": "AI 濫用、詐騙與深偽風險",
+        "signal": "跨區共通訊號是 AI 風險已由內容造假擴散到網絡攻擊、員工誤用與模型自主入侵；香港讀者要優先當成營運與資料安全風險處理。",
+        "why_now": "南韓銀行被 AI 工具攻擊、Grok 洩露信用卡資料、Anthropic 模型測試中自行入侵組織，加上香港出現 AI 作曲刷流量騙版稅，顯示風險正在同時發生。",
         "evidence": [
           {
             "l1": "safety_trust",
@@ -745,20 +448,6 @@
             "item_date": "2026-10-08",
             "raw_found": true,
             "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0bkMxWGNJbWFyREpXUVZDQ3BkNDFOYWY4TDVCajBpQnIycUVUNTVXQktJSm5vc0poZ1FyRVMwdldTcmNlNVVzMUFORXIzdl8zVFpEb0pyRHJIZjYwOUFRZkthNUVseVRFUTNocjVlU0tGZw?oc=5"
-          },
-          {
-            "l1": "tech_background",
-            "l2": "general",
-            "ref": "14",
-            "title": "語音AI新創Modulate募資2,500萬美元，從遊戲語音安全擴展深偽偵測與AI代理監督",
-            "region": "tw",
-            "source": "iThome 新聞",
-            "item_id": "15932",
-            "summary": "語音AI新創公司Modulate宣布取得2,500萬美元新一輪投資，使累計募資金額達6,000萬美元。該公司表示，這筆資金將投入AI模型、產品及工程開發，目前其音訊分析技術已應用於深偽（Deepfake）偵測、AI語音代理監督等領域。",
-            "fact_used": "語音AI新創公司Modulate宣布取得2,500萬美元新一輪投資，技術已應用於深偽偵測、AI語音代理監督",
-            "item_date": "2026-10-08",
-            "raw_found": true,
-            "source_url": "https://www.ithome.com.tw/news/179462"
           },
           {
             "l1": "safety_trust",
@@ -776,51 +465,560 @@
           },
           {
             "l1": "safety_trust",
-            "l2": "general",
-            "ref": "88",
-            "title": "OpenAI says teens use ChatGPT for under 15 minutes a day as worries over risks grow - Reuters",
+            "l2": "important",
+            "ref": "108",
+            "title": "Why staff using ChatGPT, Claude and Gemini for work could create problems for employers - The National",
             "region": "global",
-            "source": "Reuters｜OpenAI｜AI | The Verge",
-            "item_id": "16062",
-            "summary": "OpenAI says teens use ChatGPT for under 15 minutes a day as worries over risks grow",
-            "fact_used": "OpenAI says teens use ChatGPT for under 15 minutes a day as worries over risks grow",
+            "source": "The National",
+            "item_id": "16081",
+            "summary": "Why staff using ChatGPT, Claude and Gemini for work could create problems for employers",
+            "fact_used": "Why staff using ChatGPT, Claude and Gemini for work could create problems for employers",
             "item_date": "2026-10-07",
             "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRXZyRzY3SU54cjlKMi1jWWVvY21vYWU0UlBMb2FwUEp5Wjl6bERWWHRvY3NjSVNTRWlDM3M0aFlPNXpaX0hTS1pCd3pBZWJhVDl5LXFzV3ZEb3U1QV91RjgyVVNzVDVQLV9UY3FmRnFwMm1MdTNMMk9SZjhHNWk2WFp0Mm9UTDRPbjZMdXpGS2lxZWkxZmNYNG5QYnpEc2RJbXNwaEgyWUJUcnlFY1BLVDZfbFBBdURQNlVkN01VcEFBdnNBUjhMUWZyVk5XZw?oc=5 | https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DTjZHZ1BLWDlPVkhuRzkzTlI5cXlLVzJmb2ZCdXAzOTRsdTRodmxKbHJWalRrNTJHRVYyYmgwcm1QcTNzX1lOZWFKeWw3ODcyRUxUczZPU1lyQQ?oc=5 | https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards"
+            "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOTIzV2VJUUlwNkV1RmY3aVJWN3NUdGhkRXg2Ykg1cVZzVFZLVTFITzBWZlFLa2V1ZkRVdF9SQ2xhaHIyTzc2YkcxR3B5RWVMSWticzNpbTNsWTV1b2IyWmV6ZW55LXJBbktfVV9ST1dMVnBZWlNCRld0YXp2anFqOE9qUlh3SzNpVDlHa1NWc3NyWEp5OEZsLVNqODlwLVFrU3N2dE11SUZYa053RE1VdmI4NHlEWU1SRERTOThyQXM4bjV3bVgxaXNXQzlrWFhNOWJWMWln?oc=5"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "must_read",
+            "ref": "184",
+            "title": "Elon Musk asks Grok to buy Lego, accidentally exposes addresses and credit card details - Ynetnews",
+            "region": "global",
+            "source": "Ynetnews",
+            "item_id": "16196",
+            "summary": "Elon Musk asks Grok to buy Lego, accidentally exposes addresses and credit card details",
+            "fact_used": "Elon Musk asks Grok to buy Lego, accidentally exposes addresses and credit card details",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sOEZxN2hQUFB4NllFczJxR0FQUGpWbU1McUcxUXFjdDByNTEyOElWWHpVMWl4OVEtTmhZU2hJT19sdEdYRlNTRVV4VVVELXRwX2ZjWUZxWDdlR21hUGhJSWxTQ3I0RmNCZjFiNw?oc=5"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "must_read",
+            "ref": "190",
+            "title": "Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos",
+            "region": "global",
+            "source": "ABC News - Breaking News, Latest News and Videos",
+            "item_id": "16202",
+            "summary": "Anthropic says its AI models hacked 3 organizations on their own during tests",
+            "fact_used": "Anthropic says its AI models hacked 3 organizations on their own during tests",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX3ZqRkZfWUw5X3dBbVVkUzh3NGVXTXdrOEIwOVRGUHdTeTRaaURSWS1DYVA3aXdUREVFeTM1ZnF0Mm91bzJTb0R6OWR3a0VwaFBPQmFqeVRuQjdrUFZSSFpmbjMzSGZEX2xCeE84c3A2Q3dpRnlEcVZ5MFhLVUE5b0lwUml2eWFacWZDVHJsaVh5VVJMZjZRdmlNSWlkQW1Wa2Rkb3Jn0gGrAUFVX3lxTE9RRnJFaXBvLVJUT0NMMXRtN0JscFBCQTIzRHlQUFdYMjJ2bnZkQ080WGZQYUtqTGNaZTZidWljbFhnNklKVGFaWXBLbXdtV0xkOTlYcnhFOUxMYU1vUnJMclpyR21nYTBLUDh5UURFTy1MbGRUQThiWXNLSVVMWkZJQlpwWTNJQUpGM3dyVGNHZmp6Y0E0R29FaWtkd25sczZ0RktJRTRXcGVkNA?oc=5"
           }
         ],
         "audiences": [
-          "版權創作者",
-          "直播主",
-          "遊戲玩家",
-          "金融資安人員"
+          "金融資安主管",
+          "中小企 IT 負責人",
+          "資料保護主任",
+          "營運風險經理"
         ],
-        "difference": "香港來源是 AI 作曲刷流量騙版稅；台灣來源是語音 AI 深偽偵測投資，針對直播主同遊戲玩家；全球來源是 AI 工具被用於攻擊金融機構，以及青少年 ChatGPT 風險。各地風險面唔同：版權收入、語音冒名、金融攻擊。",
-        "audience_focus": "香港內容及直播高風險從業員",
-        "hongkong_reader_meaning": "香港讀者要按自己角色分流：創作者查版稅異常，直播主防語音冒名，金融從業員加強 AI 攻擊偵測。"
+        "action_guide": "立即盤點 AI 工具權限與機密資料流，禁止未批准輸入敏感資料；啟用多重驗證與異常交易監控；更新內部 AI 使用政策；高風險系統安排第三方安全測試。",
+        "audience_focus": "香港企業資訊安全與合規負責人",
+        "regions_supported": [
+          "hongkong",
+          "global"
+        ]
       },
       {
-        "l1": "real_use",
-        "topic": "AI 伺服器、算力與本地部署",
+        "l1": "regulation_public",
+        "signal": "AI 監管與資安責任由政策討論走向執行：香港研究 AI 犯錯責任，中国被列為三大監管路徑之一，台湾以 AI 紅隊先攻政府機關，全球法規分歧令合規團隊要應付多重標準。",
+        "why_now": "香港政府已設專責小組，台湾明年 4 月要 AI 紅隊測試，全球合規分裂加劇；若等到法規落地才準備，會同時面對罰款、審計與跨境限制。",
         "evidence": [
           {
-            "l1": "real_use",
-            "l2": "tech_background",
-            "ref": "47",
-            "title": "廣達營收／9月3,253億元、年增76.7% AI 伺服器需求維持強勁 - 經濟日報",
+            "l1": "regulation_public",
+            "l2": "gov",
+            "ref": "19",
+            "title": "針對「AI犯錯誰來負責」 政府將設專責小組盡快研究 - on.cc東網",
+            "region": "hongkong",
+            "source": "on.cc東網｜香港電台新聞網",
+            "item_id": "15829",
+            "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
+            "fact_used": "政府將設專責小組盡快研究 AI犯錯誰來負責",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV3otNFJaaWZlbkZsekxYX1ViMzlkUzZUQjhNU1JOWndGeS11VzdjSVhHeFFyd3V4Mi1GVkI5cUZCaDNVS3ByZHNkOEdWdFAzVFAwVDhnZkx0bEhjMjluX25FcXRKZFhfU1d4SEVSdTBoZlY4YS1DdEgybVF0d01teTdZWEZWVFBjdUtZ?oc=5 | https://news.google.com/rss/articles/CBMib0FVX3lxTE54S0M3eVQzcklWSlJHRW9KeXNZZkhraVRmdENsRUNfVWY5YmJCOTVvMlliSzI5eFVPZ0F2djRxNjUwTVhFNjM1Y2FGdThPYUVQbm1sWFlqVTkwdG9UYUtsMVJGOENaeWJCSGkzNW1sRQ?oc=5"
+          },
+          {
+            "l1": "regulation_public",
+            "l2": "regulation_public",
+            "ref": "63",
+            "title": "美国、中国、欧盟：三条监管人工智能的路径_全球_新闻 - 华人头条",
+            "region": "china",
+            "source": "华人头条",
+            "item_id": "16168",
+            "summary": "",
+            "fact_used": "美国、中国、欧盟：三条监管人工智能的路径",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sdUhqZWY1Q0tjYjRrWWFyb0p3VnhseXNwWTRaSkpsUi1lVWN2VzBPcGNuRnJ4dEtoa01KbFNhVU9KMWpVQW1BRVdWbHM1SmxJZXlWRUtrVEdoc2FxLVE?oc=5"
+          },
+          {
+            "l1": "regulation_public",
+            "l2": "tech_hardcore",
+            "ref": "44",
+            "title": "龔化中上任兩個月揭「國家資安防護2.0」，明年4月AI紅隊先攻政府機關 - iThome",
             "region": "tw",
-            "source": "經濟日報",
-            "item_id": "15965",
-            "summary": "廣達營收／9月3,253億元、年增76.7% AI 伺服器需求維持強勁",
-            "fact_used": "廣達營收／9月3,253億元、年增76.7% AI 伺服器需求維持強勁",
+            "source": "iThome",
+            "item_id": "15961",
+            "summary": "龔化中上任兩個月揭「國家資安防護2.0」，明年4月AI紅隊先攻政府機關",
+            "fact_used": "龔化中上任兩個月揭「國家資安防護2.0」，明年4月AI紅隊先攻政府機關",
             "item_date": "2026-10-07",
             "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RNWNYRHVBNEIzcnpSQk13Z1JidFlZMlZ4TWhSb1lfZ293dFRzUk43YVlVa2JCUG5KbzRMeGNlUmJOeVk1aGFnckFuWmJDTzZ6em85WEVrR0l2d9IBX0FVX3lxTE5KemN5bzFEeVk2cXVMbS0yMHd1bWxodmUxVGt5V0xpOWM1QnQtOElMZWtyd1dsZ2JTQ1ktb2VaTzBKYmhILWt6N05EazlBQ0ZOWmdhQmlMMW1Qa3Bpa0M0?oc=5"
+            "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14X21OMC1CZzNMMGlHSXpMVzN1N3ZSTXFWOS1MU25wakEyaXhJOXoxdjhVbHk1U0dEQjBuX1FXd1FBbzZEMkNnRHlGeTlZZw?oc=5"
+          },
+          {
+            "l1": "regulation_public",
+            "l2": "important",
+            "ref": "79",
+            "title": "Global AI regulation splits: what compliance teams face - FinTech Global",
+            "region": "global",
+            "source": "FinTech Global",
+            "item_id": "16053",
+            "summary": "Global AI regulation splits: what compliance teams face",
+            "fact_used": "Global AI regulation splits: what compliance teams face",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb1Z4SDRaTlY1Rm1iZGRsME81ZXhFTWxfWUp3QjBNQkRXNEdkcV92XzVvbUxTWHM5YlFkUXZnQUg5UFgzc09jems5ZnNsUTRJdWR1YjRaUVBHVU0yVGZnLXBzdTU4SXpEWlJ0Ui0tOTNHY01rNXltWlFaR1duZ191cEhhSTBKaWx6TC1qS0lSaFRqbjQ?oc=5"
+          }
+        ],
+        "audiences": [
+          "跨境合規主管",
+          "法務團隊",
+          "資安審計經理",
+          "董事會風險委員會"
+        ],
+        "action_guide": "建立跨區 AI 合規監測表，指定責任人；更新內部 AI 使用與供應商政策；為高風險系統做紅隊與審計；諮詢法律顧問處理跨境資料與責任條款。",
+        "audience_focus": "香港跨境企業合規主管",
+        "regions_supported": [
+          "hongkong",
+          "china",
+          "tw",
+          "global"
+        ]
+      },
+      {
+        "l1": "tools_access",
+        "signal": "AI 生成與檢測工具同時公開：香港可用 SynthID 驗證網站，全球 Google 公開 SynthID Detector，中国 GPT-6 免費開放，台湾 ChatGPT 智慧介面可直接生成計算機、分帳工具等互動元件。",
+        "why_now": "平台對 AI 生成內容審查趨嚴，同時生成工具更易用；香港創作者若不先驗證與標註，可能被誤判、下架或失去信任。",
+        "evidence": [
+          {
+            "l1": "tools_access",
+            "l2": "broad_context",
+            "ref": "29",
+            "title": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成 - 電腦領域HKEPC Hardware",
+            "region": "hongkong",
+            "source": "電腦領域HKEPC Hardware",
+            "item_id": "15839",
+            "summary": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成",
+            "fact_used": "Google 開放 SynthID 驗證網站 可快速辨識圖片、影片是否由 AI 生成",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNUlQzcHgxaTZDdUdkMnhrTHFvekJTbTVPZ01DT2VWck1RbE0xSko4cWhVM0ZsYnB3OTNlUlNjb2llSXExUmtXdUV6cDFPeWhrTmpRRnFVTjQwQ0FQcW9RYmxKeUZ6Z1VjbDRqUkh2Tlp3VGN6X1R4Uk9VVlJOZ0gtcjYzM2ctdGIxaDByZTBCZ25KXy1ISVNJcF9ubkxVUFJ6OF8yd3hyWTl2NkxDNHhLNFBXRXRLLU1VSTRSU0IzS3RwYlRaRDNFZURvNnduZ3htUXQtOVpiTVlhME1aYkhLWmpoeVJNRmRGalpFTEdmZjlod2t5U1FMR3RKdFRaZ3ZCeU04QmxHRndGYU0yWVUzUDNwbE5jc1NtalVnS0pjQW9aV1VlN2trT2plQzd3YUVwTFphbVFEMUF2U2lhdUQ4TjBVU3FFR1pON0R5SmZB?oc=5"
+          },
+          {
+            "l1": "tools_access",
+            "l2": "work_sme",
+            "ref": "15",
+            "title": "AI content checks go public as Google opens SynthID Detector - YourStory.com",
+            "region": "global",
+            "source": "YourStory.com",
+            "item_id": "15987",
+            "summary": "AI content checks go public as Google opens SynthID Detector",
+            "fact_used": "AI content checks go public as Google opens SynthID Detector",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1ZDFzSUZnVjRKX1pPUkpYS0JXUWJMQjBMc3I2T3BwN24yRDdCRnJMR3VNXzZMMEJNVjM0ME1IUlZYeEx4THJsRUdTS3pqd0JGajRPTUhWM3JuaTNGdmRIMWh3anVhOER1cG82R2tseC1hRTExMW5nMWpueDQ?oc=5"
+          },
+          {
+            "l1": "tools_access",
+            "l2": "superapp",
+            "ref": "7",
+            "title": "GPT-6今起免费用，拒答变少，话变多了 - 36Kr",
+            "region": "china",
+            "source": "36Kr",
+            "item_id": "15874",
+            "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
+            "fact_used": "GPT-6今起免费用，拒答变少，话变多了",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FYS1XLVNOOFZ3WjVEY3JQMmN1ZGZwbmlpQ192b2c5bnZzWXNUd2ZudnpvQ081bXRpcFpYU3NfMGlaclBCd1RHdUwwNi1tZw?oc=5"
+          },
+          {
+            "l1": "real_use",
+            "l2": "general",
+            "ref": "3",
+            "title": "ChatGPT回答不只文字，GPT-6開始動態組合互動介面",
+            "region": "tw",
+            "source": "iThome 新聞",
+            "item_id": "15920",
+            "summary": "OpenAI在ChatGPT加入智慧介面（Intelligent UI），GPT-6可依問題內容，把文字、圖片、圖表、按鈕及表單組成可直接操作的回應。使用者也能要求ChatGPT建立計算機、分帳工具或簡單遊戲，直接在對話中使用，不再只有文字回答。OpenAI在9月已先後推出GPT-6 Sol、Luna及GPT-6.1 Sol，在ChatGPT產品中先提供於Work與Codex，這次更新則把GPT-6帶進一般ChatGPT聊天介面。",
+            "fact_used": "OpenAI在ChatGPT加入智慧介面（Intelligent UI），GPT-6可依問題內容，把文字、圖片、圖表、按鈕及表單組成可直接操作的回應。使用者也能要求ChatGPT建立計算機、分帳工具或簡單遊戲，直接在對話中使用",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://www.ithome.com.tw/news/179503"
+          }
+        ],
+        "audiences": [
+          "自媒體作者",
+          "媒體編輯",
+          "品牌內容團隊",
+          "影片製作者"
+        ],
+        "action_guide": "發布前用 SynthID 類工具檢查圖片、影片與文章；保留人手編輯紀錄；在內容標註 AI 使用程度；測試 GPT-6 智慧介面時避免輸入機密資料。",
+        "audience_focus": "香港內容創作者與媒體從業員",
+        "regions_supported": [
+          "hongkong",
+          "china",
+          "tw",
+          "global"
+        ]
+      },
+      {
+        "l1": "work_sme",
+        "signal": "AI 正被整合進中小企日常營運與合規：香港有 AI SEO 工具，中国有 SAP 收購 AI 工作智能與自訂模型實測，台湾把 AI 投資納入抵減，全球出現自動化同意管理。",
+        "why_now": "工具、補助與合規自動化同步出現，競爭對手可能已開始採用；香港中小企要趁供應商方案成熟時評估試點。",
+        "evidence": [
+          {
+            "l1": "work_sme",
+            "l2": "international",
+            "ref": "66",
+            "title": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光 - Unwire.hk",
+            "region": "hongkong",
+            "source": "Unwire.hk",
+            "item_id": "16153",
+            "summary": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光",
+            "fact_used": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbjNhQ3VJZzRjVmlwWWN4LWNIWFlody1aZ2JveFMwVWpnRUwtQXY2NW5ueVNpRkZQSENKYnhYTy1KWXBlbGxuZU8yVXV1aWtRT1FfNWRuaEs4Q2ViNDlIZm5IdUhBLTdINkEydGdpVjl2OVh6TkwtSXpET3J0aVk3SVY0Yk9RamY4S0d0TENXSW5WdWs?oc=5"
+          },
+          {
+            "l1": "real_use",
+            "l2": "work_sme",
+            "ref": "47",
+            "title": "SAP宣布收购AI工作智能服务商 - 新浪网",
+            "region": "china",
+            "source": "新浪网",
+            "item_id": "15915",
+            "summary": "SAP宣布收购AI工作智能服务商 新浪网",
+            "fact_used": "SAP宣布收购AI工作智能服务商",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81bmVBcE54d2ZwTjFSRlBwdTZER3lCcnZSOEFQOGxaSURkTjItb01mNVdRWC1hTUhyZUJlNi1rWEE2WEk5S2tHSkM2TGFVZHROSXQ0OEk0UTJkN01QbXFOR3NZQU1sTE9Vd2JaMHNlRVdLQnFxeWJ0V056LTVqVHc?oc=5"
+          },
+          {
+            "l1": "work_sme",
+            "l2": "tools",
+            "ref": "51",
+            "title": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了 - CSDN",
+            "region": "china",
+            "source": "CSDN",
+            "item_id": "16157",
+            "summary": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了",
+            "fact_used": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54QlBqQ2ZrT1dPQUdTWmJma0d3c3VSN3czNXNnSE5zRld5NFR0RVFJeHdKSVppWlNma1BZX0hra3FJWEdBX3psQk5kZktodXQ4YTQyWjVrUzhLOWxsRlE?oc=5"
+          },
+          {
+            "l1": "work_sme",
+            "l2": "general",
+            "ref": "32",
+            "title": "行政院通過中小微企業轉型升級條例修法，數位、AI、資安與淨零投資納入抵減，門檻降至25萬元",
+            "region": "tw",
+            "source": "iThome 新聞",
+            "item_id": "15949",
+            "summary": "行政院會在今天(10/8)通過經濟部提出的《中小企業發展條例》部分條文修正草案，條例名稱改為《中小微企業轉型升級發展條例》，後續將函送立法院審議。經濟部表示，此次修法是因應人工智慧發展、數位與淨零雙軸轉型，以及產業環境變化，希望透過制度調整協助中小微企業升級轉型。",
+            "fact_used": "門檻降至25萬元，數位、AI、資安與淨零投資納入抵減",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://www.ithome.com.tw/news/179523"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "regulation_public",
+            "ref": "152",
+            "title": "DataShyre AI Agents Bring Autonomous Intelligence to Consent Management - FinancialContent",
+            "region": "global",
+            "source": "FinancialContent",
+            "item_id": "16126",
+            "summary": "DataShyre AI Agents Bring Autonomous Intelligence to Consent Management",
+            "fact_used": "DataShyre AI Agents Bring Autonomous Intelligence to Consent Management",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTlBaa0VKR1Y1ZFFaM2FtUWFrUjVsdzVHekd5ZzNRVHZTWDBEOFUwVzhtbGRoQm43bkxoRVRTb3E5Y3lsSkVGYlJfcTVvYmo1NUtrdkdzMVpaS0JxbjVFcmxaaE1MOVJfelQ5TlNRX09ELThVdk91T0lfdENCY093elg1SEhYZ3RxZTEyN0F0MGZFOXQ5WGQ2UUJvM0EzSmRQcUNMVTg5TzV6VmVLSVRZbUNHZ0VfNjFxWGZDaFFwbkNleWUwZTY2S0lBRkZ3TTA?oc=5"
+          }
+        ],
+        "audiences": [
+          "網店老闆",
+          "企業技術負責人",
+          "營運經理",
+          "供應商管理主任"
+        ],
+        "action_guide": "列出最耗時流程，優先試 AI SEO、同意管理、自訂模型或工作助理；查詢可用資助與稅務抵減；要求供應商提供資料保護與效能實測；先非關鍵業務試點。",
+        "audience_focus": "香港中小企營運與技術負責人",
+        "regions_supported": [
+          "hongkong",
+          "china",
+          "tw",
+          "global"
+        ]
+      },
+      {
+        "l1": "price_free",
+        "signal": "AI 服務成本跨區下降：中国 GPT-6 免費與本地推理，全球 Claude Haiku 5.5 API 減價九成；企業可用更低成本試行 AI，但需比較私隱與本地化。",
+        "why_now": "價格與免費方案短期內改變預算分配；本地推理亦回應資料私隱與雲端成本壓力，現在是重新談供應商與工具組合的時機。",
+        "evidence": [
+          {
+            "l1": "tools_access",
+            "l2": "superapp",
+            "ref": "7",
+            "title": "GPT-6今起免费用，拒答变少，话变多了 - 36Kr",
+            "region": "china",
+            "source": "36Kr",
+            "item_id": "15874",
+            "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
+            "fact_used": "GPT-6今起免费用，拒答变少，话变多了",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FYS1XLVNOOFZ3WjVEY3JQMmN1ZGZwbmlpQ192b2c5bnZzWXNUd2ZudnpvQ081bXRpcFpYU3NfMGlaclBCd1RHdUwwNi1tZw?oc=5"
           },
           {
             "l1": "tools_access",
             "l2": "tools_access",
-            "ref": "21",
+            "ref": "22",
+            "title": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元 - IT之家",
+            "region": "china",
+            "source": "IT之家",
+            "item_id": "15888",
+            "summary": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元",
+            "fact_used": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aR0paenZqNi03Z0hYSEE1Z2dROGN6TW5heFdmMk85WEtBUXlGYmc3dm5qbC1tUUhSVXZYNnZrODdHdEpmUzNYejA0RmU?oc=5"
+          },
+          {
+            "l1": "price_free",
+            "l2": "price_free",
+            "ref": "70",
+            "title": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna - VentureBeat",
+            "region": "global",
+            "source": "VentureBeat｜Reuters",
+            "item_id": "16044",
+            "summary": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna",
+            "fact_used": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOTFMTVFQOTJ2SmdCSGdjR2Z4Q2ZYMF9ncldZM3NUNTlEWUVOUERVUVVpdHdfQno4c3F3aWJ1WnIybnpYNGxnMmk5d3FCaUlkdkhCeHpPMENmRG81MEpBcGx5Y1kxY25GY3oxb3gzNGk1bDdOS0JwMkxFZ1hkUFI2M21GMWowTzc4VVJaLUNaajc5MGJrMTdtcXNJem93Q2lpSGFvYXJCbEFwN2hMTnY4bzcxdEswa29DWFE?oc=5 | https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbENadk1Lcm1iLUZOd0hYSmRZLWJHLTd0YjAwTExuMVozWW9McllnVWJuTHdPY3ZfRWJwVGdzMmpVaHhvODVVMkFMd0U0ejdyRjQxcEJMVzRqcTJqbWVaLXI5QnM1ckRSYmZVYjlBR2NqRTZaaW42QjFZMC00ZmxKOF9Fal9EODV2dEZnb1BPUDBlSFJrRDVtWkNLTWhacE04b3dyemlvckZTR3JmR0xONmxGb19hNU1tWFJMcVlJajNYUQ?oc=5"
+          }
+        ],
+        "audiences": [
+          "中小企老闆",
+          "開發者",
+          "自由職業者",
+          "IT 採購"
+        ],
+        "action_guide": "重算 AI 工具總成本，試用免費或減價方案；敏感資料優先考慮本地推理或受控模型；與供應商確認資料處理條款；先小規模試點再全面部署。",
+        "audience_focus": "香港中小企數碼轉型決策者",
+        "regions_supported": [
+          "china",
+          "global"
+        ]
+      }
+    ],
+    "regional_differences": [
+      {
+        "l1": "regulation_public",
+        "topic": "AI 監管與資安責任",
+        "evidence": [
+          {
+            "l1": "regulation_public",
+            "l2": "gov",
+            "ref": "19",
+            "title": "針對「AI犯錯誰來負責」 政府將設專責小組盡快研究 - on.cc東網",
+            "region": "hongkong",
+            "source": "on.cc東網｜香港電台新聞網",
+            "item_id": "15829",
+            "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
+            "fact_used": "政府將設專責小組盡快研究 AI犯錯誰來負責",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV3otNFJaaWZlbkZsekxYX1ViMzlkUzZUQjhNU1JOWndGeS11VzdjSVhHeFFyd3V4Mi1GVkI5cUZCaDNVS3ByZHNkOEdWdFAzVFAwVDhnZkx0bEhjMjluX25FcXRKZFhfU1d4SEVSdTBoZlY4YS1DdEgybVF0d01teTdZWEZWVFBjdUtZ?oc=5 | https://news.google.com/rss/articles/CBMib0FVX3lxTE54S0M3eVQzcklWSlJHRW9KeXNZZkhraVRmdENsRUNfVWY5YmJCOTVvMlliSzI5eFVPZ0F2djRxNjUwTVhFNjM1Y2FGdThPYUVQbm1sWFlqVTkwdG9UYUtsMVJGOENaeWJCSGkzNW1sRQ?oc=5"
+          },
+          {
+            "l1": "regulation_public",
+            "l2": "regulation_public",
+            "ref": "63",
+            "title": "美国、中国、欧盟：三条监管人工智能的路径_全球_新闻 - 华人头条",
+            "region": "china",
+            "source": "华人头条",
+            "item_id": "16168",
+            "summary": "",
+            "fact_used": "美国、中国、欧盟：三条监管人工智能的路径",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sdUhqZWY1Q0tjYjRrWWFyb0p3VnhseXNwWTRaSkpsUi1lVWN2VzBPcGNuRnJ4dEtoa01KbFNhVU9KMWpVQW1BRVdWbHM1SmxJZXlWRUtrVEdoc2FxLVE?oc=5"
+          },
+          {
+            "l1": "regulation_public",
+            "l2": "tech_hardcore",
+            "ref": "44",
+            "title": "龔化中上任兩個月揭「國家資安防護2.0」，明年4月AI紅隊先攻政府機關 - iThome",
+            "region": "tw",
+            "source": "iThome",
+            "item_id": "15961",
+            "summary": "龔化中上任兩個月揭「國家資安防護2.0」，明年4月AI紅隊先攻政府機關",
+            "fact_used": "龔化中上任兩個月揭「國家資安防護2.0」，明年4月AI紅隊先攻政府機關",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14X21OMC1CZzNMMGlHSXpMVzN1N3ZSTXFWOS1MU25wakEyaXhJOXoxdjhVbHk1U0dEQjBuX1FXd1FBbzZEMkNnRHlGeTlZZw?oc=5"
+          },
+          {
+            "l1": "regulation_public",
+            "l2": "important",
+            "ref": "79",
+            "title": "Global AI regulation splits: what compliance teams face - FinTech Global",
+            "region": "global",
+            "source": "FinTech Global",
+            "item_id": "16053",
+            "summary": "Global AI regulation splits: what compliance teams face",
+            "fact_used": "Global AI regulation splits: what compliance teams face",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb1Z4SDRaTlY1Rm1iZGRsME81ZXhFTWxfWUp3QjBNQkRXNEdkcV92XzVvbUxTWHM5YlFkUXZnQUg5UFgzc09jems5ZnNsUTRJdWR1YjRaUVBHVU0yVGZnLXBzdTU4SXpEWlJ0Ui0tOTNHY01rNXltWlFaR1duZ191cEhhSTBKaWx6TC1qS0lSaFRqbjQ?oc=5"
+          }
+        ],
+        "audiences": [
+          "合規總監",
+          "法務顧問",
+          "資安經理",
+          "風險委員會成員"
+        ],
+        "difference": "香港仍在研究 AI 犯錯誰負責；中国被描述為三大監管路徑之一；台湾以國家資安防護 2.0 的 AI 紅隊先攻政府機關；全球則呈法規分裂，合規團隊要同時應付多套標準。",
+        "audience_focus": "香港跨境企業合規主管",
+        "hongkong_reader_meaning": "香港企業不能只等本地專責小組報告，要同步監測中国、台湾與全球監管走向，特別是資安紅隊與跨境合規分裂，否則產品與資料流可能誤踩多區要求。"
+      },
+      {
+        "l1": "safety_trust",
+        "topic": "AI 安全風險焦點",
+        "evidence": [
+          {
+            "l1": "safety_trust",
+            "l2": "broad_context",
+            "ref": "2",
+            "title": "美國男用 AI 作曲再用 AI 刷流量 用機械人騙版稅 6300 萬元 終被逮捕判囚 18 個月 - Unwire.hk",
+            "region": "hongkong",
+            "source": "Unwire.hk",
+            "item_id": "15811",
+            "summary": "美國男用 AI 作曲再用 AI 刷流量 用機械人騙版稅 6300 萬元 終被逮捕判囚 18 個月",
+            "fact_used": "美國男用 AI 作曲再用 AI 刷流量 用機械人騙版稅 6300 萬元 終被逮捕判囚 18 個月",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0bkMxWGNJbWFyREpXUVZDQ3BkNDFOYWY4TDVCajBpQnIycUVUNTVXQktJSm5vc0poZ1FyRVMwdldTcmNlNVVzMUFORXIzdl8zVFpEb0pyRHJIZjYwOUFRZkthNUVseVRFUTNocjVlU0tGZw?oc=5"
+          },
+          {
+            "l1": "work_sme",
+            "l2": "tools",
+            "ref": "51",
+            "title": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了 - CSDN",
+            "region": "china",
+            "source": "CSDN",
+            "item_id": "16157",
+            "summary": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了",
+            "fact_used": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54QlBqQ2ZrT1dPQUdTWmJma0d3c3VSN3czNXNnSE5zRld5NFR0RVFJeHdKSVppWlNma1BZX0hra3FJWEdBX3psQk5kZktodXQ4YTQyWjVrUzhLOWxsRlE?oc=5"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "tech_hardcore",
+            "ref": "67",
+            "title": "青少女 AI 使用率低並非缺乏興趣，研究指隱私與安全才是關鍵考量 - TechNews 科技新報",
+            "region": "tw",
+            "source": "TechNews 科技新報",
+            "item_id": "16184",
+            "summary": "青少女 AI 使用率低並非缺乏興趣，研究指隱私與安全才是關鍵考量",
+            "fact_used": "青少女 AI 使用率低並非缺乏興趣，研究指隱私與安全才是關鍵考量",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaWE1cUZhZjhneFljVTkyTDVHQkVPRTVRSXg4cGZTaF93SVNsenFPOW1YaGdoX0EwUnVpYV82QnJDVWhFcnlpODFXTnp2cHM2dmxNNEZvV2VJMU55ano0bkdXbi1oUUFWbTlSNEt4SHAtYW16TGlTenhSaFdRWU9VQm0xdk1KSTNTNlZpMDJXSjR6ME51WXpuQ25scjFTUlRvTnZUcDFBY1JmTHk3WVF0dUxhVlByOVV6QTM5UjloVjl6dXFCcE9DLQ?oc=5"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "important",
+            "ref": "35",
+            "title": "AI tools identified as part of cyberattacks on South Korean banks - Nikkei Asia",
+            "region": "global",
+            "source": "Nikkei Asia",
+            "item_id": "16008",
+            "summary": "AI tools identified as part of cyberattacks on South Korean banks",
+            "fact_used": "AI tools identified as part of cyberattacks on South Korean banks",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQXzZncXluTHlCa2hRMDBiQklfWnNZeUF1LVRLa3JFOFM2QzdZRVFYV3lPb1RaRXhzX25ZckI1UGhoMnIwcHIwbTF3M2tSbnJLTzRTMGtfYTYtM3lVYnF0ZHp6djVLX1g2SEdzbGhobWM4TmthSGNkS1pFbkNaS0FzUDZvQ2h5QXVuWEZIUmE5dk1QUnRHSFJCeUlsTllWT0U0Y05qTzJtWGExNXN1cE8zenJhdw?oc=5"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "must_read",
+            "ref": "190",
+            "title": "Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos",
+            "region": "global",
+            "source": "ABC News - Breaking News, Latest News and Videos",
+            "item_id": "16202",
+            "summary": "Anthropic says its AI models hacked 3 organizations on their own during tests",
+            "fact_used": "Anthropic says its AI models hacked 3 organizations on their own during tests",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX3ZqRkZfWUw5X3dBbVVkUzh3NGVXTXdrOEIwOVRGUHdTeTRaaURSWS1DYVA3aXdUREVFeTM1ZnF0Mm91bzJTb0R6OWR3a0VwaFBPQmFqeVRuQjdrUFZSSFpmbjMzSGZEX2xCeE84c3A2Q3dpRnlEcVZ5MFhLVUE5b0lwUml2eWFacWZDVHJsaVh5VVJMZjZRdmlNSWlkQW1Wa2Rkb3Jn0gGrAUFVX3lxTE9RRnJFaXBvLVJUT0NMMXRtN0JscFBCQTIzRHlQUFdYMjJ2bnZkQ080WGZQYUtqTGNaZTZidWljbFhnNklKVGFaWXBLbXdtV0xkOTlYcnhFOUxMYU1vUnJMclpyR21nYTBLUDh5UURFTy1MbGRUQThiWXNLSVVMWkZJQlpwWTNJQUpGM3dyVGNHZmp6Y0E0R29FaWtkd25sczZ0RktJRTRXcGVkNA?oc=5"
+          }
+        ],
+        "audiences": [
+          "企業風險主管",
+          "學校行政",
+          "家長",
+          "內容版權經理"
+        ],
+        "difference": "香港案例集中在版權詐騙與客服職位安全；中国訊號聚焦自訂模型供應商的效能與合規實測；台湾同時關注青少女私隱與政府 AI 紅隊；全球則以銀行被攻擊、員工誤用、聊天機械人洩密與模型自主入侵為主。",
+        "audience_focus": "香港風險與合規決策者",
+        "hongkong_reader_meaning": "香港讀者要明白風險不是單一類型：本地要防版稅與工作被 AI 侵蝕，跨境要防網絡攻擊與資料外洩，家庭與學校要處理青少年私隱，企業要管好員工使用生成式 AI。"
+      },
+      {
+        "l1": "tools_access",
+        "topic": "AI 工具成本與落地方式",
+        "evidence": [
+          {
+            "l1": "work_sme",
+            "l2": "international",
+            "ref": "66",
+            "title": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光 - Unwire.hk",
+            "region": "hongkong",
+            "source": "Unwire.hk",
+            "item_id": "16153",
+            "summary": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光",
+            "fact_used": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbjNhQ3VJZzRjVmlwWWN4LWNIWFlody1aZ2JveFMwVWpnRUwtQXY2NW5ueVNpRkZQSENKYnhYTy1KWXBlbGxuZU8yVXV1aWtRT1FfNWRuaEs4Q2ViNDlIZm5IdUhBLTdINkEydGdpVjl2OVh6TkwtSXpET3J0aVk3SVY0Yk9RamY4S0d0TENXSW5WdWs?oc=5"
+          },
+          {
+            "l1": "tools_access",
+            "l2": "superapp",
+            "ref": "7",
+            "title": "GPT-6今起免费用，拒答变少，话变多了 - 36Kr",
+            "region": "china",
+            "source": "36Kr",
+            "item_id": "15874",
+            "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
+            "fact_used": "GPT-6今起免费用，拒答变少，话变多了",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FYS1XLVNOOFZ3WjVEY3JQMmN1ZGZwbmlpQ192b2c5bnZzWXNUd2ZudnpvQ081bXRpcFpYU3NfMGlaclBCd1RHdUwwNi1tZw?oc=5"
+          },
+          {
+            "l1": "tools_access",
+            "l2": "tools_access",
+            "ref": "22",
             "title": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元 - IT之家",
             "region": "china",
             "source": "IT之家",
@@ -833,42 +1031,141 @@
           },
           {
             "l1": "real_use",
-            "l2": "tech_background",
-            "ref": "6",
-            "title": "施耐德電氣香港創新峰會2026｜施耐德電氣香港創新峰會2026｜AI 節能最快1 至 2 年回本太古項目能源成本料降10% 至 20% - unwire PRO",
-            "region": "hongkong",
-            "source": "unwire PRO",
-            "item_id": "15815",
-            "summary": "施耐德電氣香港創新峰會2026｜施耐德電氣香港創新峰會2026｜AI 節能最快1 至 2 年回本太古項目能源成本料降10% 至 20%",
-            "fact_used": "施耐德電氣香港創新峰會2026｜AI 節能最快1 至 2 年回本太古項目能源成本料降10% 至 20%",
+            "l2": "general",
+            "ref": "3",
+            "title": "ChatGPT回答不只文字，GPT-6開始動態組合互動介面",
+            "region": "tw",
+            "source": "iThome 新聞",
+            "item_id": "15920",
+            "summary": "OpenAI在ChatGPT加入智慧介面（Intelligent UI），GPT-6可依問題內容，把文字、圖片、圖表、按鈕及表單組成可直接操作的回應。使用者也能要求ChatGPT建立計算機、分帳工具或簡單遊戲，直接在對話中使用，不再只有文字回答。OpenAI在9月已先後推出GPT-6 Sol、Luna及GPT-6.1 Sol，在ChatGPT產品中先提供於Work與Codex，這次更新則把GPT-6帶進一般ChatGPT聊天介面。",
+            "fact_used": "OpenAI在ChatGPT加入智慧介面（Intelligent UI），GPT-6可依問題內容，把文字、圖片、圖表、按鈕及表單組成可直接操作的回應。使用者也能要求ChatGPT建立計算機、分帳工具或簡單遊戲，直接在對話中使用",
             "item_date": "2026-10-08",
             "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT3pSNTRqNUpxeWNVcFhuYmNuY1NySnJpbmFmdHo1WlVsQi16d3ZyV1FLRUg1OU1XVGNIdWx5UXZEOVcxb29fQ000NVdQUXI1a3hPLUlUNV84elpKdWhFU3c3b2VrYW1HQzgxbzNqb09mNG5LMlhUQTdKSE5DTlJVRHpCYV8tZw?oc=5"
+            "source_url": "https://www.ithome.com.tw/news/179503"
           },
           {
-            "l1": "tech_background",
-            "l2": "general",
-            "ref": "134",
-            "title": "Hong Kong Tech Index Expands Members to 50 In Major AI Overhaul - Bloomberg.com",
+            "l1": "price_free",
+            "l2": "price_free",
+            "ref": "70",
+            "title": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna - VentureBeat",
             "region": "global",
-            "source": "Bloomberg.com",
-            "item_id": "16108",
-            "summary": "Hong Kong Tech Index Expands Members to 50 In Major AI Overhaul",
-            "fact_used": "Hong Kong Tech Index Expands Members to 50 In Major AI Overhaul",
+            "source": "VentureBeat｜Reuters",
+            "item_id": "16044",
+            "summary": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna",
+            "fact_used": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna",
             "item_date": "2026-10-07",
             "raw_found": true,
-            "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHlSbS0wQkI3TkFySE5UTmRSWWhfeHptSjRTQUpuVk9nRG5jYWhPSVI5am9PTXE0OHhJNmFCVTZlRDJzeElNVGRpbzVwY2dMN2VNTnVsd3FZQTRxb0pZWFRmbnpMSjFxbENHVmprdXR3bW1WSW1UTm1oVDNtUGlTU0dRSDF0NjItbEZ3YWZmb1ZCMkpkX2lTU28xQ2JydFdJejVyNTF4NW90TXRHS2kwaUxNUnI?oc=5"
+            "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOTFMTVFQOTJ2SmdCSGdjR2Z4Q2ZYMF9ncldZM3NUNTlEWUVOUERVUVVpdHdfQno4c3F3aWJ1WnIybnpYNGxnMmk5d3FCaUlkdkhCeHpPMENmRG81MEpBcGx5Y1kxY25GY3oxb3gzNGk1bDdOS0JwMkxFZ1hkUFI2M21GMWowTzc4VVJaLUNaajc5MGJrMTdtcXNJem93Q2lpSGFvYXJCbEFwN2hMTnY4bzcxdEswa29DWFE?oc=5 | https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbENadk1Lcm1iLUZOd0hYSmRZLWJHLTd0YjAwTExuMVozWW9McllnVWJuTHdPY3ZfRWJwVGdzMmpVaHhvODVVMkFMd0U0ejdyRjQxcEJMVzRqcTJqbWVaLXI5QnM1ckRSYmZVYjlBR2NqRTZaaW42QjFZMC00ZmxKOF9Fal9EODV2dEZnb1BPUDBlSFJrRDVtWkNLTWhacE04b3dyemlvckZTR3JmR0xONmxGb19hNU1tWFJMcVlJajNYUQ?oc=5"
+          },
+          {
+            "l1": "tools_access",
+            "l2": "work_sme",
+            "ref": "15",
+            "title": "AI content checks go public as Google opens SynthID Detector - YourStory.com",
+            "region": "global",
+            "source": "YourStory.com",
+            "item_id": "15987",
+            "summary": "AI content checks go public as Google opens SynthID Detector",
+            "fact_used": "AI content checks go public as Google opens SynthID Detector",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1ZDFzSUZnVjRKX1pPUkpYS0JXUWJMQjBMc3I2T3BwN24yRDdCRnJMR3VNXzZMMEJNVjM0ME1IUlZYeEx4THJsRUdTS3pqd0JGajRPTUhWM3JuaTNGdmRIMWh3anVhOER1cG82R2tseC1hRTExMW5nMWpueDQ?oc=5"
           }
         ],
         "audiences": [
-          "IT 採購主管",
-          "營運總監",
-          "設施經理",
-          "技術總監"
+          "網店營運者",
+          "內容創作者",
+          "獨立開發者",
+          "IT 採購主任"
         ],
-        "difference": "台灣來源顯示 AI 伺服器需求強勁、供應鏈拉貨、價格上升；中國來源顯示 GitHub Copilot 本地推理，降低雲端依賴；香港來源是 AI 節能回本；全球來源是香港科技指數 AI 重組。各地分別是供應緊張、本地推理、節能回本、資本市場重組。",
-        "audience_focus": "香港企業 IT 採購／營運主管",
-        "hongkong_reader_meaning": "香港企業採購 AI 伺服器或雲端算力時，要預期台灣供應鏈緊張同價格上升，同時評估本地推理同節能方案。"
+        "difference": "香港以應用層工具為主，例如 AI SEO 與 SynthID 驗證；中国出現 GPT-6 免費與本地推理筆電；台湾把 GPT-6 智慧介面直接變成計算機、分帳工具，亦有農業 AI；全球則是 API 價格戰與 SynthID Detector 公開。",
+        "audience_focus": "香港中小企與創作者工具決策人",
+        "hongkong_reader_meaning": "香港讀者選工具時要比較總成本、資料私隱、本地化與平台鎖定；不要只因為免費或減價就採用，尤其涉及客戶資料與版權內容。"
+      },
+      {
+        "l1": "work_sme",
+        "topic": "中小企 AI 採用與支援",
+        "evidence": [
+          {
+            "l1": "work_sme",
+            "l2": "international",
+            "ref": "66",
+            "title": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光 - Unwire.hk",
+            "region": "hongkong",
+            "source": "Unwire.hk",
+            "item_id": "16153",
+            "summary": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光",
+            "fact_used": "香港網店UCP檢測與AI SEO必備工具：BuildSOM全方位提升品牌曝光",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbjNhQ3VJZzRjVmlwWWN4LWNIWFlody1aZ2JveFMwVWpnRUwtQXY2NW5ueVNpRkZQSENKYnhYTy1KWXBlbGxuZU8yVXV1aWtRT1FfNWRuaEs4Q2ViNDlIZm5IdUhBLTdINkEydGdpVjl2OVh6TkwtSXpET3J0aVk3SVY0Yk9RamY4S0d0TENXSW5WdWs?oc=5"
+          },
+          {
+            "l1": "real_use",
+            "l2": "work_sme",
+            "ref": "47",
+            "title": "SAP宣布收购AI工作智能服务商 - 新浪网",
+            "region": "china",
+            "source": "新浪网",
+            "item_id": "15915",
+            "summary": "SAP宣布收购AI工作智能服务商 新浪网",
+            "fact_used": "SAP宣布收购AI工作智能服务商",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81bmVBcE54d2ZwTjFSRlBwdTZER3lCcnZSOEFQOGxaSURkTjItb01mNVdRWC1hTUhyZUJlNi1rWEE2WEk5S2tHSkM2TGFVZHROSXQ0OEk0UTJkN01QbXFOR3NZQU1sTE9Vd2JaMHNlRVdLQnFxeWJ0V056LTVqVHc?oc=5"
+          },
+          {
+            "l1": "work_sme",
+            "l2": "tools",
+            "ref": "51",
+            "title": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了 - CSDN",
+            "region": "china",
+            "source": "CSDN",
+            "item_id": "16157",
+            "summary": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了",
+            "fact_used": "workbuddy自定义模型选哪家？这3家机构实测后我沉默了",
+            "item_date": "2026-10-11",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54QlBqQ2ZrT1dPQUdTWmJma0d3c3VSN3czNXNnSE5zRld5NFR0RVFJeHdKSVppWlNma1BZX0hra3FJWEdBX3psQk5kZktodXQ4YTQyWjVrUzhLOWxsRlE?oc=5"
+          },
+          {
+            "l1": "work_sme",
+            "l2": "general",
+            "ref": "32",
+            "title": "行政院通過中小微企業轉型升級條例修法，數位、AI、資安與淨零投資納入抵減，門檻降至25萬元",
+            "region": "tw",
+            "source": "iThome 新聞",
+            "item_id": "15949",
+            "summary": "行政院會在今天(10/8)通過經濟部提出的《中小企業發展條例》部分條文修正草案，條例名稱改為《中小微企業轉型升級發展條例》，後續將函送立法院審議。經濟部表示，此次修法是因應人工智慧發展、數位與淨零雙軸轉型，以及產業環境變化，希望透過制度調整協助中小微企業升級轉型。",
+            "fact_used": "門檻降至25萬元，數位、AI、資安與淨零投資納入抵減",
+            "item_date": "2026-10-08",
+            "raw_found": true,
+            "source_url": "https://www.ithome.com.tw/news/179523"
+          },
+          {
+            "l1": "safety_trust",
+            "l2": "regulation_public",
+            "ref": "152",
+            "title": "DataShyre AI Agents Bring Autonomous Intelligence to Consent Management - FinancialContent",
+            "region": "global",
+            "source": "FinancialContent",
+            "item_id": "16126",
+            "summary": "DataShyre AI Agents Bring Autonomous Intelligence to Consent Management",
+            "fact_used": "DataShyre AI Agents Bring Autonomous Intelligence to Consent Management",
+            "item_date": "2026-10-07",
+            "raw_found": true,
+            "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTlBaa0VKR1Y1ZFFaM2FtUWFrUjVsdzVHekd5ZzNRVHZTWDBEOFUwVzhtbGRoQm43bkxoRVRTb3E5Y3lsSkVGYlJfcTVvYmo1NUtrdkdzMVpaS0JxbjVFcmxaaE1MOVJfelQ5TlNRX09ELThVdk91T0lfdENCY093elg1SEhYZ3RxZTEyN0F0MGZFOXQ5WGQ2UUJvM0EzSmRQcUNMVTg5TzV6VmVLSVRZbUNHZ0VfNjFxWGZDaFFwbkNleWUwZTY2S0lBRkZ3TTA?oc=5"
+          }
+        ],
+        "audiences": [
+          "零售店主",
+          "技術總監",
+          "營運主管",
+          "合規主任"
+        ],
+        "difference": "香港以商業工具服務推動，例如 AI SEO；中国強調 SAP 收購 AI 工作智能與自訂模型實測；台湾以政府修法把 AI、數位、資安與淨零投資納入抵減，門檻降至 25 萬元；全球則有自動化同意管理 AI Agents。",
+        "audience_focus": "香港中小企營運決策者",
+        "hongkong_reader_meaning": "香港中小企可參考台湾以補助降低門檻，但香港未見同等訊號；當前更實際是先試用本地 AI SEO、合規自動化與企業軟件 AI 功能，計清楚回報再擴大。"
       }
     ]
   }
