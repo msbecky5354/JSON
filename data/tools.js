@@ -752,7 +752,14 @@ const TOOLS = {
     "short": "結合恒指波幅指數（VHSI）與牛熊證街貨分佈，實時計算大市預期波幅通道、支持阻力邊界及歷史回測命中率，助你精準捕捉港股藍籌低吸與止賺時機。",
     "about": "HSI Quant Pro 是一套專為港股及恒生指數投資者設計的量化波幅分析工具，透過統計學常態分佈模型與衍生工具市場流動性數據，將抽象的「恐慌指數（VHSI）」轉化為直觀實用的支持與阻力點數區間：   實時波幅通道與街貨流動性雷達：統一以當日高低平均價為基準，支援多週期（一日至一年）及多段置信通道（68% / 80% / 90% / 95%）自由切換，並自動錨定上下方牛熊證重貨區與即市收回（打靶）狀態，掌握市場止蝕盤釋放後的轉向契機。   即時預測計算器：支援實時數據同步及離線手動試算，一眼看清大市關鍵支持底線與阻力頂線，輔助重磅藍籌分批低吸或高位鎖利部署。   歷史波幅回測系統：提供多段歷史樣本區間（1個月至全部歷史）真實交易數據回測，即時檢視不同置信通道的實際命中率與破位日明細，科學化驗證防守邊界保護力。   ",
     "videos": [],
-    "articles": [],
+    "articles": [
+      {
+        "date": "2026-11-14",
+        "title": "📌 新手必讀：點樣用 HSI Quant Pro 捉實恒指支持底線與阻力頂線",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02cnkcBEcLxaqSntaH9j9cGwrj8hakY4xX3MCk12E2LoKzfPTPHLMRjfSUXR5AzodBl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"250\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": true
+      }
+    ],
     "related": []
   }
 };
