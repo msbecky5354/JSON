@@ -758,6 +758,12 @@ const TOOLS = {
         "title": "📌 新手必讀：點樣用 HSI Quant Pro 捉實恒指支持底線與阻力頂線",
         "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02cnkcBEcLxaqSntaH9j9cGwrj8hakY4xX3MCk12E2LoKzfPTPHLMRjfSUXR5AzodBl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"250\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
         "pinned": true
+      },
+      {
+        "date": "2026-11-17",
+        "title": "📢 指標工具升級｜HSI Quant Pro 牛熊證雷達：盤面「止蝕盤流動性指示燈 💡」",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02YMEhGHWBDtbyxcuphLqL7vAMKBs3iR2sMXTGFwMwCw9Daa9FTXPcSXuwMsoT8utWl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"250\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": false
       }
     ],
     "related": []
