@@ -1,1482 +1,563 @@
 [
   {
     "i": 1,
-    "category": "real_use",
+    "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "源星生醫獲第33屆中小企業創新研究獎 AI智慧健康管理研發成果獲肯定 - 墨新聞-MORE News",
-    "title_en": "Yuanxing Biotech Wins the 33rd SME Innovation Research Award for AI-Powered Health Management",
+    "title": "Google 宣布智慧音箱與螢幕的語音助理 8 月全面更新為 Gemini for Home - INSIDE",
+    "title_en": "Google Announces Voice Assistant for Smart Speakers and Displays to Fully Upgrade to Gemini for Home in August",
     "hashtags": [
-      "#AIHealth",
-      "#SMEInnovation",
-      "#Biotech",
-      "#HongKongTech"
+      "#Google",
+      "#GeminiForHome",
+      "#SmartHome",
+      "#AIAssistant"
     ],
-    "source_name": "墨新聞-MORE News",
+    "source_name": "INSIDE",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Office workers and SME HR teams can adopt the award‑winning AI health dashboard to monitor employee wellness, reduce sick leave, and personalize preventive care, boosting productivity and morale.",
+    "reason": "HK families and tech‑savvy parents can use Gemini‑enabled assistants to control lights, schedule, and information hands‑free, while SMEs can embed voice interaction into customer‑service kiosks, boosting efficiency.",
     "micro_personas": [
-      "SME HR manager implementing employee wellness program",
-      "Office worker using personal health dashboard"
+      "Tech‑savvy parent managing smart home devices",
+      "SME owner deploying voice‑enabled customer kiosks"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "Yuanxing Biotech + Innovation Award",
-      "AI Health Management + Deployment"
+      "Google + Gemini Upgrade",
+      "Smart Home + Voice Assistant"
     ]
   },
   {
     "i": 2,
-    "category": "regulation_public",
+    "category": "tech_background",
     "ai1_suggestion": "",
-    "title": "成大法律系教授研究台灣法律與社會變遷 探討民眾對AI司法應用評價 - Yahoo新聞",
-    "title_en": "National Cheng Kung University Law Professor Studies Taiwan's Legal and Social Changes, Evaluates Public Attitudes Toward AI in Judiciary",
+    "title": "數發部推動綠色軟體助臺灣軟體業化永續為實質商機- 財經新聞 - PChome Online 新聞",
+    "title_en": "Ministry Promotes Green Software to Make Taiwan's Software Industry Sustainable and Commercially Viable",
     "hashtags": [
-      "#AIJustice",
-      "#LegalTech",
-      "#PublicOpinion",
-      "#Regulation"
+      "#GreenSoftware",
+      "#Sustainability",
+      "#TechPolicy",
+      "#TaiwanTech"
     ],
-    "source_name": "Yahoo新聞",
-    "evidence_status": "independent_report",
+    "source_name": "PChome Online 新聞",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The announcement deals with sustainable software practices without specific AI content, offering limited relevance to AI‑focused Hong Kong target groups."
+  },
+  {
+    "i": 3,
+    "category": "safety_trust",
+    "ai1_suggestion": "",
+    "title": "黃昆輝基金會籲禁國小生獨立用通用AI 親師怎麼看出孩子真學會？ - maygoddejia.com.tw",
+    "title_en": "Huang Kun-hui Foundation Calls for Ban on Independent Use of General AI by Elementary Students; How Parents and Teachers Can Detect True Learning",
+    "hashtags": [
+      "#AIethics",
+      "#ChildSafety",
+      "#Education",
+      "#AIRegulation"
+    ],
+    "source_name": "maygoddejia.com.tw",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "HK legal policymakers and senior judges can use the Taiwanese public opinion findings to anticipate acceptance challenges, shape transparent AI court procedures, and address trust concerns among professionals and retirees.",
+    "reason": "HK parents receive guidance on detecting superficial AI‑generated learning, enabling them to monitor children’s genuine skill development and protect against misleading AI tools.",
     "micro_personas": [
-      "Legal policy analyst drafting AI court guidelines",
-      "Senior judge reviewing AI evidence admissibility"
+      "Parent monitoring elementary child’s AI interactions",
+      "Elementary school teacher overseeing AI usage in class"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "AI Judiciary + Public Attitude",
-      "Legal Regulation + AI Trust"
-    ]
-  },
-  {
-    "i": 3,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "醫學生偏好自選AI工具 官方教學平台使用率不到一成 - Life 生活網",
-    "title_en": "Medical Students Prefer Choosing Their Own AI Tools; Official Teaching Platform Usage Below 10%",
-    "hashtags": [
-      "#MedicalEducation",
-      "#AIAdoption",
-      "#Learning",
-      "#HongKongStudents"
-    ],
-    "source_name": "Life 生活網",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "HK medical schools and students can leverage popular AI assistants for study, prompting curriculum designers to integrate flexible tool training, enhancing learning outcomes for future healthcare professionals.",
-    "micro_personas": [
-      "Medical student preparing for exams using AI note‑taking app",
-      "Curriculum coordinator updating AI tool syllabus"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Medical Students + AI Tool Preference",
-      "Education Platform + Adoption Rate"
+      "Foundation + Ban",
+      "AI + Child Safety"
     ]
   },
   {
     "i": 4,
-    "category": "tools_access",
+    "category": "regulation_public",
     "ai1_suggestion": "",
-    "title": "訓練資料爭奪戰升溫，Memories.ai 推打工平台付錢請大家拍影片給機器人看",
-    "title_en": "Memories.ai Launches Paid Gig Platform to Collect Human-Performed Video Data for Training Robots",
+    "title": "【科技早餐】美國 AI 晶片新規生效！台積電、三星暫停部分對中出貨，阿里巴巴雲端成長承壓 - TechOrange 科技報橘",
+    "title_en": "US AI Chip Export Rules Take Effect; TSMC and Samsung Pause Some China Shipments, Alibaba Cloud Growth Under Pressure",
     "hashtags": [
-      "#DataCollection",
-      "#AITraining",
-      "#GigEconomy",
-      "#Robotics"
+      "#AIChips",
+      "#ExportControls",
+      "#TSMC",
+      "#Samsung",
+      "#AlibabaCloud"
     ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
+    "source_name": "TechOrange 科技報橘",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "HK developers and data‑hungry startups can recruit local freelancers via the platform to enrich training sets, accelerating robot vision models without large in‑house data collection costs.",
+    "reason": "HK AI developers and SME IT managers must anticipate higher costs or alternative suppliers for GPUs and accelerators, adjusting project budgets and compliance strategies accordingly.",
     "micro_personas": [
-      "AI startup data engineer sourcing video clips",
-      "Freelance gig worker earning by recording task videos"
+      "HK AI startup developer sourcing GPU accelerators",
+      "SME IT manager planning AI workload infrastructure"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "Memories.ai + Data Collection",
-      "Gig Platform + AI Training Videos"
+      "US + AI Chip Export Rules",
+      "TSMC + Shipment Pause"
     ]
   },
   {
     "i": 5,
+    "category": "real_use",
+    "ai1_suggestion": "",
+    "title": "中國AI新創收支失衡 現金流多為負 - 自由財經",
+    "title_en": "Chinese AI Startup Faces Cash Flow Deficits and Imbalanced Revenue",
+    "hashtags": [
+      "#AIStartup",
+      "#Finance",
+      "#CashFlow",
+      "#ChinaTech"
+    ],
+    "source_name": "自由財經",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The report focuses on a Chinese AI startup’s financial issues without clear AI deployment insights for Hong Kong entrepreneurs or professionals."
+  },
+  {
+    "i": 6,
     "category": "safety_trust",
     "ai1_suggestion": "",
-    "title": "從方芳到黃樂，FBI 揭密中國間諜案：日常私交如何淪為情報破口",
-    "title_en": "From Fang Fang to Huang Le: FBI Uncovers Chinese Spy Case Highlighting Everyday Social Ties as Intelligence Vulnerabilities",
+    "title": "陳建仁獲人工智慧倫理獎 倡議以人為本的AI治理|臺灣出場 - 僑新聞",
+    "title_en": "Chen Chien-jen Receives AI Ethics Award, Advocates Human-Centric AI Governance",
     "hashtags": [
-      "#CyberSecurity",
-      "#Intelligence",
-      "#AIThreats",
-      "#Safety"
+      "#AIethics",
+      "#HumanCentricAI",
+      "#Governance",
+      "#TaiwanTech"
     ],
-    "source_name": "TechNews 科技新報",
+    "source_name": "僑新聞",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "Elderly and professional users in HK should be warned about AI‑driven deepfake scams and data‑leak vectors in casual communications, prompting stronger personal security practices.",
+    "reason": "The ethics award underscores the need for robust AI governance, prompting Hong Kong’s elderly and professional sectors to demand transparent data practices and trustworthy AI services, enhancing community confidence.",
     "micro_personas": [
-      "Retiree using messaging apps vulnerable to AI deepfakes",
-      "Corporate professional reviewing suspicious email links"
+      "Elderly user concerned about AI privacy",
+      "Professional compliance officer overseeing AI deployments"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "FBI + AI Spy Case",
-      "Security Threat + Deepfake Awareness"
+      "AI Ethics Award + Announcement",
+      "Hong Kong Regulators + Review"
     ]
   },
   {
-    "i": 6,
+    "i": 7,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "四成主管認 AI 無法取代專業、「AI 回歸」比例達 19%，逾五成勞工喊漲薪資",
-    "title_en": "Four in Ten Managers Say AI Cannot Replace Professionals, 19% Favor an \"AI Return,\" Over Half of Workers Demand Salary Increases",
+    "title": "科技巨頭搶進大馬- 日報 - 工商時報",
+    "title_en": "Tech Giants Rush Into Malaysia Market",
     "hashtags": [
-      "#AI",
-      "#Workforce",
-      "#Salary",
-      "#HongKong"
+      "#TechExpansion",
+      "#Malaysia",
+      "#IndustryGrowth",
+      "#DigitalEconomy"
     ],
-    "source_name": "TechNews 科技新報",
+    "source_name": "工商時報",
     "evidence_status": "thin_or_unclear",
     "decision": "reject",
-    "reject_reason": "The article discusses attitudes toward AI rather than concrete AI applications or cost impacts for Hong Kong workers."
-  },
-  {
-    "i": 7,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "臺南市舉辦數位學習家長宣講 促進親師共學 - Life 生活網",
-    "title_en": "Tainan City Holds Digital Learning Parent Seminar to Promote Home‑School Collaboration",
-    "hashtags": [
-      "#DigitalLearning",
-      "#Parents",
-      "#Education",
-      "#Family"
-    ],
-    "source_name": "Life 生活網",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The seminar focuses on general digital learning without specific AI content, offering limited actionable AI value for Hong Kong families."
+    "reject_reason": "The article discusses market expansion without mentioning AI technology, offering no AI‑related value to Hong Kong target groups."
   },
   {
     "i": 8,
-    "category": "learning_family",
+    "category": "tech_background",
     "ai1_suggestion": "",
-    "title": "不只學生學、家長也要學！河堤國小假日辦數位學習 親子攜手迎向AI新時代 - 蕃新聞",
-    "title_en": "Not Only Students – Parents Must Learn Too! Riverbank Elementary Offers Weekend Digital Learning for Parent‑Child AI Era",
+    "title": "「新竹政策黑客松」競賽揭曉！百位創客48小時挑戰AI城市治理 見證新世代改變社會行動力 - LIFE 生活網",
+    "title_en": "Hsinchu Policy Hackathon Unveiled: Hundreds of Makers Tackle AI City Governance in 48 Hours",
     "hashtags": [
-      "#AI",
-      "#DigitalEducation",
-      "#Parenting",
-      "#FamilyLearning"
+      "#Hackathon",
+      "#AIcity",
+      "#CivicTech",
+      "#Innovation"
     ],
-    "source_name": "蕃新聞",
-    "evidence_status": "thin_or_unclear",
+    "source_name": "LIFE 生活網",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "HK parents can replicate similar weekend AI workshops to boost children’s digital literacy, supporting family learning and preparing students for AI‑driven curricula in local schools.",
+    "reason": "The rapid AI city‑governance prototypes demonstrate to Hong Kong developers and entrepreneurs how to quickly deploy civic AI solutions, enabling SMEs to automate urban services and improve citizen engagement.",
     "micro_personas": [
-      "Parent teaching primary school child AI basics",
-      "Family learning coordinator organizing weekend workshops"
+      "Developer creating smart‑city analytics tool",
+      "Entrepreneur pitching AI‑based municipal service platform"
     ],
-    "agent_signal": false,
-    "automation_level": 1,
+    "agent_signal": true,
+    "automation_level": 3,
     "history_queries": [
-      "AI Education + Workshop",
-      "Parents + AI Learning"
+      "Hackathon + AI City Governance",
+      "Hong Kong Makers + Civic Tech"
     ]
   },
   {
     "i": 9,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "「概念抄襲」風險！學者：學術用AI須揭露不可取代人類判斷| 科技產業| 產經 - UDN",
-    "title_en": "\"Concept Plagiarism\" Risk: Scholars Warn AI Use in Academia Must Be Disclosed and Cannot Replace Human Judgment",
-    "hashtags": [
-      "#AIethics",
-      "#AcademicIntegrity",
-      "#Safety",
-      "#Trust"
-    ],
-    "source_name": "UDN",
-    "evidence_status": "independent_report",
-    "decision": "accept",
-    "reason": "Hong Kong universities and research professionals must enforce AI disclosure policies to safeguard academic integrity, protecting scholars and preventing trust erosion among senior academics.",
-    "micro_personas": [
-      "University researcher preparing manuscript",
-      "Academic integrity officer reviewing AI usage"
-    ],
-    "agent_signal": false,
-    "automation_level": 0,
-    "history_queries": [
-      "AI Ethics + Academic Publishing",
-      "Plagiarism + AI Detection"
-    ]
-  },
-  {
-    "i": 10,
     "category": "tech_background",
     "ai1_suggestion": "",
-    "title": "黃仁勳退場AI浪潮能續旺？ODM大廠法說會仍看旺2027 供應鏈隱憂浮現 - 壹蘋新聞網",
-    "title_en": "Nvidia CEO Jensen Huang Steps Down – Can the AI Wave Remain Strong? ODM Earnings Call Remains Optimistic for 2027 Amid Supply‑Chain Concerns",
+    "title": "施振榮打造王道AI新時代 - 中華新聞雲／中華日報",
+    "title_en": "TSMC Founder Morris Chang Shapes a New Era of AI",
     "hashtags": [
-      "#AI",
-      "#TechIndustry",
-      "#SupplyChain",
-      "#TechBackground"
+      "#AIleadership",
+      "#TechVision",
+      "#IndustryPioneer",
+      "#FutureTech"
     ],
-    "source_name": "壹蘋新聞網",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The piece reports corporate leadership change and supply‑chain outlook without detailing AI model or infrastructure shifts relevant to Hong Kong developers."
-  },
-  {
-    "i": 11,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "兆勤科技防火牆整合Bitdefender端點安全資訊，2027年將擴大跨平臺防禦協作",
-    "title_en": "ZhaoQin Technology Integrates Bitdefender Endpoint Security into Firewall, Expanding Cross-Platform Defense Collaboration in 2027",
-    "hashtags": [
-      "#Cybersecurity",
-      "#EndpointProtection",
-      "#Firewall",
-      "#SOC",
-      "#AIThreatDetection"
-    ],
-    "source_name": "iThome 新聞",
+    "source_name": "中華新聞雲／中華日報",
     "evidence_status": "official",
     "decision": "accept",
-    "reason": "SMEs and office workers in Hong Kong gain faster breach detection and automated response through AI‑driven endpoint security, reducing downtime and compliance costs while simplifying firewall management.",
+    "reason": "Morris Chang’s AI roadmap signals upcoming semiconductor AI acceleration, urging Hong Kong chip designers and startups to adopt AI‑enhanced design tools, reducing time‑to‑market for innovative products.",
     "micro_personas": [
-      "SME IT administrator overseeing network security",
-      "Office employee needing secure device access"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "ZhaoQin Technology + Integration",
-      "Bitdefender + AI Threat Detection"
-    ]
-  },
-  {
-    "i": 12,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "《經濟學人》示警AI泡沫若破台灣衝擊恐更大 - 蕃新聞",
-    "title_en": "The Economist Warns of an AI Bubble Burst, Potentially Greater Impact on Taiwan",
-    "hashtags": [
-      "#AIbubble",
-      "#EconomicRisk",
-      "#Taiwan",
-      "#TechInvestments",
-      "#MarketWarning"
-    ],
-    "source_name": "蕃新聞",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The article discusses macro‑economic AI bubble concerns without specific AI technology or actionable insight for Hong Kong audiences, offering limited practical utility."
-  },
-  {
-    "i": 13,
-    "category": "work_sme",
-    "ai1_suggestion": "",
-    "title": "AI 重整組織打擊員工士氣，科技主管點出導致轉型失敗最常見錯誤",
-    "title_en": "AI-Driven Organizational Restructuring Undermines Employee Morale, Executives Cite Common Transformation Mistakes",
-    "hashtags": [
-      "#AIManagement",
-      "#WorkplaceMorale",
-      "#OrganizationalChange",
-      "#TechLeadership",
-      "#EmployeeWellbeing"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "HR professionals and managers can use AI‑enabled workforce analytics to redesign teams without harming morale, offering data‑driven role allocation that preserves employee engagement in Hong Kong firms.",
-    "micro_personas": [
-      "HR manager planning department restructuring",
-      "Team lead evaluating AI‑based workload distribution"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "AI restructuring + employee morale",
-      "HR analytics + workforce planning"
-    ]
-  },
-  {
-    "i": 15,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "跨地域AI教育峰會｜楊斌倡重構AI時代教育 讓學生「慢用」AI - dotdotnews",
-    "title_en": "Cross-Regional AI Education Summit: Yang Bin Calls for Rebuilding Education in the AI Era to Encourage Students to Use AI Wisely",
-    "hashtags": [
-      "#AIEducation",
-      "#DigitalLiteracy",
-      "#FutureSkills",
-      "#SlowTech",
-      "#LearningReform"
-    ],
-    "source_name": "dotdotnews",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Students and parents in Hong Kong can adopt AI‑assisted tutoring platforms highlighted at the summit, enabling paced learning, plagiarism detection, and safe AI usage guidelines for home study.",
-    "micro_personas": [
-      "High‑school student using AI tutoring for math",
-      "Parent supervising child’s AI‑generated homework"
+      "Chip design engineer integrating AI optimization",
+      "Startup founder seeking AI‑accelerated hardware development"
     ],
     "agent_signal": true,
     "automation_level": 2,
     "history_queries": [
-      "AI education summit + learning tools",
-      "Student + AI tutoring"
+      "Morris Chang + AI Vision",
+      "Hong Kong Semiconductor + AI Adoption"
     ]
   },
   {
-    "i": 17,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "黃仁勳遭美國會要求閉門質詢！許毓仁示警：美中AI戰升級 台積電台廠供應鏈恐受波及 - 自由財經",
-    "title_en": "Nvidia CEO Faces Closed-Door US Congressional Hearing; Experts Warn Escalating US‑China AI Conflict Could Ripple Through TSMC Supply Chain",
-    "hashtags": [
-      "#USChinaTechWar",
-      "#Nvidia",
-      "#TSMC",
-      "#SupplyChainRisk",
-      "#AIRegulation"
-    ],
-    "source_name": "自由財經",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Technology executives and investors in Hong Kong receive early warning of US‑China AI policy tensions that could disrupt semiconductor supply chains, prompting risk‑mitigation strategies for product roadmaps.",
-    "micro_personas": [
-      "Tech startup founder monitoring chip supply risk",
-      "Corporate procurement officer evaluating AI hardware vendors"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "US China AI conflict + supply chain",
-      "Nvidia hearing + semiconductor risk"
-    ]
-  },
-  {
-    "i": 18,
+    "i": 11,
     "category": "tools_access",
     "ai1_suggestion": "",
-    "title": "電子報寫作如何變成數位產品？從Eden工作坊看AI助教與成本 - Life 生活網",
-    "title_en": "How Can E‑Newsletter Writing Become a Digital Product? Insights from the Eden Workshop on AI Teaching Assistants and Costs",
+    "title": "網擎策略投資微智安聯，臺灣資安業者攜手擴大產品布局、拓展海外市場",
+    "title_en": "Openfind Invests Strategically in Shield eXtreme to Expand AI-Enhanced Cybersecurity Products Overseas",
     "hashtags": [
-      "#AIWriting",
-      "#DigitalPublishing",
-      "#EdTech",
-      "#CostEfficiency"
+      "#Cybersecurity",
+      "#AIinnovation",
+      "#StrategicInvestment",
+      "#GlobalExpansion"
     ],
-    "source_name": "Life 生活網",
-    "evidence_status": "case_or_test",
+    "source_name": "iThome 新聞",
+    "evidence_status": "official",
     "decision": "accept",
-    "reason": "Office workers can quickly generate engaging newsletters using the AI assistant, cutting drafting time by half, while SMEs and entrepreneurs transform these newsletters into sellable digital products, lowering content creation costs.",
+    "reason": "Openfind’s AI‑powered email security platform becomes more accessible, allowing Hong Kong SMEs and developers to deploy advanced threat detection locally, protecting families and professionals from phishing attacks.",
     "micro_personas": [
-      "Office worker drafting weekly newsletters",
-      "SME marketing manager creating promotional email series"
+      "IT admin implementing AI email protection",
+      "Small business owner safeguarding client communications"
     ],
     "agent_signal": true,
     "automation_level": 3,
     "history_queries": [
-      "AI Writing Assistant + Adoption",
-      "Digital Publishing + Cost Reduction"
+      "Openfind + AI Cybersecurity Investment",
+      "Hong Kong SMEs + Email Threat Protection"
+    ]
+  },
+  {
+    "i": 12,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "【即時新聞】台達電公布最新營收獲利，10月營收突破746億改寫歷史新高！ - CMoney投資網誌",
+    "title_en": "Delta Electronics Reports Record October Revenue of NT$74.6 Billion",
+    "hashtags": [
+      "#DeltaElectronics",
+      "#RevenueRecord",
+      "#TechIndustry",
+      "#BusinessGrowth"
+    ],
+    "source_name": "CMoney投資網誌",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "No AI component; purely financial report, offering no AI‑related utility for Hong Kong target groups."
+  },
+  {
+    "i": 13,
+    "category": "learning_family",
+    "ai1_suggestion": "",
+    "title": "調查：4成中小學生每週用AI 協助解題、理解內容 - 公視新聞",
+    "title_en": "Survey Shows 40% of Primary and Secondary Students Use AI Weekly for Problem Solving and Comprehension",
+    "hashtags": [
+      "#AIInEducation",
+      "#StudentLearning",
+      "#EdTech",
+      "#AIAdoption"
+    ],
+    "source_name": "公視新聞",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "HK primary and secondary students can boost learning efficiency using AI tutors, while parents gain oversight tools; schools can integrate AI platforms to personalize lessons and reduce teacher workload.",
+    "micro_personas": [
+      "High school student using AI for math homework",
+      "Parent monitoring child's AI study assistant"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Students + Use AI tutoring",
+      "Parents + Monitor AI learning tools"
+    ]
+  },
+  {
+    "i": 14,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "AI Agent自主下單恐釀越權風險 資安專家籲建立分級授權機制 - LIFE 生活網",
+    "title_en": "AI Agents Placing Orders Autonomously Raise Over‑Authority Risks, Security Experts Call for Tiered Authorization",
+    "hashtags": [
+      "#AIAgent",
+      "#CyberSecurity",
+      "#RiskManagement",
+      "#Authorization"
+    ],
+    "source_name": "LIFE 生活網",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK enterprises and developers must embed tiered authorization in AI agents to prevent unauthorized purchases, protecting financial controls for SMEs, office workers, and senior managers.",
+    "micro_personas": [
+      "Finance officer configuring AI purchase limits",
+      "Developer implementing role‑based AI order controls"
+    ],
+    "agent_signal": true,
+    "automation_level": 4,
+    "history_queries": [
+      "AI agents + Place orders",
+      "Enterprises + Implement authorization"
+    ]
+  },
+  {
+    "i": 15,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "台大推動AI跨域人文研究 古文獻判讀再奪國際首獎 - 自由藝文網",
+    "title_en": "NTU Advances AI‑Driven Humanities Research, Wins International Award for Ancient Text Interpretation",
+    "hashtags": [
+      "#AIResearch",
+      "#Humanities",
+      "#NTU",
+      "#InternationalAward"
+    ],
+    "source_name": "自由藝文網",
+    "evidence_status": "case_or_test",
+    "decision": "accept",
+    "reason": "HK cultural NGOs and tech startups can adopt similar AI text‑analysis pipelines to digitize heritage documents, creating new services for tourism and education sectors.",
+    "micro_personas": [
+      "Startup founder building AI heritage platform",
+      "Researcher developing AI for ancient text translation"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Researchers + Use AI for text analysis",
+      "Startups + Deploy AI heritage services"
+    ]
+  },
+  {
+    "i": 16,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "Amazon 禁止 AI 幫消費者購物，旗下 AWS 卻開放 AI 自己買軟體 - INSIDE",
+    "title_en": "Amazon Bars AI from Consumer Shopping While AWS Allows AI to Purchase Software",
+    "hashtags": [
+      "#Amazon",
+      "#AIRegulation",
+      "#AWS",
+      "#DigitalMarketplace"
+    ],
+    "source_name": "INSIDE",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "HK SMEs and developers must adjust procurement workflows to comply with Amazon’s AI purchase ban, leveraging AWS AI services for internal tooling while avoiding prohibited consumer‑facing AI transactions.",
+    "micro_personas": [
+      "Procurement manager revising AI vendor policy",
+      "Developer integrating AWS AI SDK for internal tools"
+    ],
+    "agent_signal": true,
+    "automation_level": 2,
+    "history_queries": [
+      "Amazon + Enforce AI purchase policy",
+      "SMEs + Update procurement process"
+    ]
+  },
+  {
+    "i": 17,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "Anthropic 數學家攜手 Claude 宣稱破解 167 年黎曼猜想，人類數學家也提出證明 - INSIDE",
+    "title_en": "Anthropic Mathematicians Partner with Claude Claim to Have Solved the 167-Year-Old Riemann Hypothesis, Human Mathematicians Also Present Proof",
+    "hashtags": [
+      "#RiemannHypothesis",
+      "#AIResearch",
+      "#Mathematics",
+      "#Claude"
+    ],
+    "source_name": "INSIDE",
+    "evidence_status": "thin_or_unclear",
+    "decision": "accept",
+    "reason": "Developers in Hong Kong can study Claude’s reasoning approach to build advanced symbolic AI tools, enabling startups and research labs to automate complex mathematical problem solving and accelerate innovation.",
+    "micro_personas": [
+      "AI research developer building symbolic reasoning tools",
+      "Data scientist integrating LLMs for mathematical proofs"
+    ],
+    "agent_signal": true,
+    "automation_level": 3,
+    "history_queries": [
+      "Anthropic + Claim",
+      "Claude + Solve Riemann"
+    ]
+  },
+  {
+    "i": 18,
+    "category": "regulation_public",
+    "ai1_suggestion": "",
+    "title": "川普揚言對海外 AI 資料中心課重稅，美國 75% 選民卻反對蓋在自家附近 - INSIDE",
+    "title_en": "Trump Threatens Heavy Tax on Overseas AI Data Centers, Yet 75% of US Voters Oppose Having Them Near Their Homes",
+    "hashtags": [
+      "#AIRegulation",
+      "#TaxPolicy",
+      "#USPolitics",
+      "#DataCenters"
+    ],
+    "source_name": "INSIDE",
+    "evidence_status": "official",
+    "decision": "accept",
+    "reason": "Hong Kong firms relying on overseas AI cloud providers must anticipate higher fees, adjust budgets, and consider local alternatives to maintain competitive pricing for AI-driven applications.",
+    "micro_personas": [
+      "IT manager sourcing AI cloud services",
+      "Startup founder evaluating AI infrastructure costs"
+    ],
+    "agent_signal": true,
+    "automation_level": 1,
+    "history_queries": [
+      "US Government + Propose tax",
+      "AI providers + Face cost increase"
     ]
   },
   {
     "i": 19,
     "category": "real_use",
     "ai1_suggestion": "",
-    "title": "AI如何從血液找出老化線索？看懂存活預測與生物年齡 - Life 生活網",
-    "title_en": "How AI Detects Aging Signals in Blood: Understanding Survival Prediction and Biological Age",
+    "title": "上半年臨櫃攔阻95件疑似詐騙 國泰世華18件居冠、1,943台ATM導入AI示警 - LIFE 生活網",
+    "title_en": "In the First Half of the Year, 95 Suspected Fraud Cases Blocked at Counters; Cathay United Bank Leads with 18 Cases and 1,943 ATMs Equipped with AI Alerts",
     "hashtags": [
-      "#AgingScience",
-      "#AIHealth",
-      "#BiologicalAge",
-      "#PredictiveAnalytics"
+      "#FraudPrevention",
+      "#AIAlert",
+      "#Banking",
+      "#ATM"
     ],
-    "source_name": "Life 生活網",
-    "evidence_status": "official",
+    "source_name": "LIFE 生活網",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "Geriatric physicians can employ AI blood‑analysis to gauge patients’ biological age, enabling personalized preventive plans, while retirees gain early insight into health risks, supporting proactive lifestyle adjustments.",
+    "reason": "Bank staff and SME finance teams can rely on AI‑driven ATM monitoring to reduce fraud losses, improve customer trust, and streamline manual investigation processes.",
     "micro_personas": [
-      "Geriatric physician assessing patient aging biomarkers",
-      "Retiree using AI blood test service for health monitoring"
+      "Bank teller monitoring fraud alerts",
+      "SME finance officer using AI fraud detection"
     ],
     "agent_signal": true,
     "automation_level": 4,
     "history_queries": [
-      "AI Health Diagnostics + Aging",
-      "Blood Biomarker Analysis + Predictive AI"
-    ]
-  },
-  {
-    "i": 20,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "歐盟領袖將舉行首次 AI 會談，輝達案未列正式議程",
-    "title_en": "EU Leaders to Hold First Dedicated AI Summit in Dublin, Excluding the Nvidia Case from the Formal Agenda",
-    "hashtags": [
-      "#EUAI",
-      "#PolicySummit",
-      "#Regulation",
-      "#AIGovernance"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Compliance officers at Hong Kong fintech firms must track EU AI policy outcomes to ensure cross‑border services meet emerging standards, while entrepreneurs can adapt product roadmaps early to avoid regulatory setbacks.",
-    "micro_personas": [
-      "Compliance officer at a Hong Kong fintech firm",
-      "Legal counsel for a Hong Kong AI startup targeting EU market"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "EU AI Regulation + Impact",
-      "Cross-border Compliance + AI"
+      "Cathay United Bank + Deploy AI alerts",
+      "ATM network + Reduce fraud"
     ]
   },
   {
     "i": 21,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "台灣首顆 GPGPU 獲飛行履歷，捷揚太空代工轉攻研發拓商機",
-    "title_en": "Taiwan's First GPGPU Achieves Flight Qualification; JETRO Space Shifts from Contract Manufacturing to R&D for New Business Opportunities",
-    "hashtags": [
-      "#GPGPU",
-      "#SpaceTech",
-      "#R&D",
-      "#TaiwanInnovation"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Embedded developers in Hong Kong can adopt the flight‑qualified GPGPU for edge AI applications, gaining reliable high‑performance compute, while startups accelerate product timelines and reduce reliance on imported chips.",
-    "micro_personas": [
-      "Embedded systems developer building AI edge devices",
-      "Startup CTO evaluating GPU options for AI inference"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "GPGPU Qualification + AI Edge",
-      "Hardware Acceleration + Hong Kong Startups"
-    ]
-  },
-  {
-    "i": 22,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "AI 加劇記憶體供需失衡！擷發科：短缺是長期結構性問題，AI 只是觸發點",
-    "title_en": "AI Intensifies Memory Supply‑Demand Imbalance: Chipmaker Says Shortage Is a Long‑Term Structural Issue, AI Only a Trigger",
-    "hashtags": [
-      "#MemoryShortage",
-      "#AIImpact",
-      "#SemiconductorSupply",
-      "#TechEconomics"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "SME IT managers must anticipate rising memory prices driven by AI workloads, adjusting budgets or exploring alternative architectures, while developers evaluate model efficiency to mitigate hardware cost impacts.",
-    "micro_personas": [
-      "SME IT manager budgeting AI server upgrades",
-      "Developer selecting GPU with limited VRAM for AI models"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "AI Memory Demand + Supply Shortage",
-      "Hardware Cost Management + AI Workloads"
-    ]
-  },
-  {
-    "i": 23,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "台股震盪、企業獲利卻創高！AI三雄營收破紀錄 00961掌握科技金融雙引擎 - TradingView",
-    "title_en": "Taiwan Stock Market Fluctuates While Corporate Profits Hit New Highs; AI Trio Records Revenue Breakthrough",
-    "hashtags": [
-      "#AIRevenue",
-      "#TechFinance",
-      "#MarketTrends",
-      "#TaiwanStocks"
-    ],
-    "source_name": "TradingView",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The article only reports revenue figures without actionable AI insights for Hong Kong audiences, offering no practical utility."
-  },
-  {
-    "i": 24,
     "category": "safety_trust",
     "ai1_suggestion": "",
-    "title": "準確率再高也不夠，AI 財務應用的關鍵在「例外處理」",
-    "title_en": "High Accuracy Isn't Enough: AI Financial Applications Depend on Exception Handling",
+    "title": "太空資料中心還沒蓋，債權人先怕了！SpaceX 遭要求別把 AI 晶片送上太空 - INSIDE",
+    "title_en": "Space Data Center Still Unbuilt, Creditors Fearful First! SpaceX Asked Not to Send AI Chips to Space",
     "hashtags": [
-      "#AIFinance",
-      "#RiskManagement",
-      "#ExceptionHandling",
-      "#AITrust"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Hong Kong financial professionals can improve AI model reliability by integrating systematic exception handling, reducing false positives in credit scoring and enhancing regulatory compliance for banks and fintech firms.",
-    "micro_personas": [
-      "Financial risk analyst handling AI credit scoring",
-      "Compliance officer reviewing AI exception protocols"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "AI + Exception Handling",
-      "Finance + Risk Management"
-    ]
-  },
-  {
-    "i": 25,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "搶攻歐美邊緣 AI 市場！擷發科鎖定無人機、車載等應用，美 IPO 最快估明年 Q1 底上市",
-    "title_en": "Targeting the European and US Edge AI Market: Company Focuses on Drones, Automotive; IPO Expected Early Next Year",
-    "hashtags": [
-      "#EdgeAI",
-      "#Drones",
-      "#AutomotiveAI",
-      "#TechIPO"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "HK SMEs and startup founders can adopt proven edge AI modules for drone surveillance and vehicle telematics, accelerating product rollout and cutting development costs through ready-to-integrate solutions.",
-    "micro_personas": [
-      "Drone service startup CTO",
-      "Automotive telematics engineer"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Edge AI + Drones",
-      "Automotive AI + Integration"
-    ]
-  },
-  {
-    "i": 26,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "Appier第三季營業利益翻倍至21億日圓！ 連兩季上修全年財測 - VOCO News",
-    "title_en": "Appier Q3 Operating Profit Doubles to 2.1 Billion Yen, Upgrades Full-Year Forecast for Two Consecutive Quarters",
-    "hashtags": [
-      "#Appier",
-      "#AIProfit",
-      "#FinancialResults",
-      "#TechGrowth"
-    ],
-    "source_name": "VOCO News",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Financial performance details lack concrete AI technical content, providing no actionable benefit for Hong Kong developers or businesses."
-  },
-  {
-    "i": 27,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "光電整合進入「打群架」時代，聯發科侯上勇：CPO路線未定，良率才是關鍵",
-    "title_en": "Photonics Integration Enters a Competitive Era; MediaTek's CPO Strategy Uncertain, Yield Remains Critical",
-    "hashtags": [
-      "#Photonics",
-      "#CPO",
-      "#YieldOptimization",
-      "#TechInnovation"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Local chip designers and hardware SMEs can evaluate CPO technology to overcome AI bandwidth limits, informing roadmap decisions for next-gen AI accelerators in Hong Kong.",
-    "micro_personas": [
-      "Chip design engineer assessing CPO",
-      "Product manager planning AI accelerator"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Photonic AI + Integration",
-      "CPO + Chip Design"
-    ]
-  },
-  {
-    "i": 28,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市 - 鉅亨網",
-    "title_en": "AI Servers Become Major PC Manufacturers' Growth Engine for 2027, Asus Aims for Double-Digit Growth, Gigabyte Expands Production to Capture Market",
-    "hashtags": [
-      "#AIHardware",
-      "#TechGrowth",
-      "#PCIndustry",
-      "#HongKongTech"
-    ],
-    "source_name": "鉅亨網",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK developers and AI startups can leverage the upcoming Asus and Gigabyte AI servers to run large models locally, reducing cloud costs and latency, supporting fintech and health‑tech prototypes.",
-    "micro_personas": [
-      "AI infrastructure engineer",
-      "DevOps specialist"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Asus + Launch AI Servers",
-      "Gigabyte + Expand Production"
-    ]
-  },
-  {
-    "i": 29,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "「雨露均霑」時代終結！AI 狂潮首現明確減速訊號，專家示警：未來投資心臟要夠大",
-    "title_en": "The Era of Equal Opportunities Ends! AI Wave Shows Clear Slowdown Signals, Experts Warn Investors Need a Big Heart Amid US Midterm Election Shift",
-    "hashtags": [
-      "#AIInvestment",
-      "#MarketTrends",
-      "#RiskManagement",
-      "#HongKongFinance"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Article discusses market sentiment without specific AI safety or privacy issues, offering limited actionable guidance for Hong Kong elderly or professional audiences."
-  },
-  {
-    "i": 30,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "AI科技助攻海洋治理！台灣首辦海廢影像辨識國際競賽 6國70隊角逐清華、台大聯隊奪冠 - 墨新聞-MORE News",
-    "title_en": "AI Technology Boosts Ocean Governance! Taiwan Hosts First International Marine Waste Image Recognition Competition with Six Countries and 70 Teams",
-    "hashtags": [
-      "#AIOcean",
-      "#EnvironmentalTech",
-      "#InternationalContest",
-      "#Sustainability"
-    ],
-    "source_name": "墨新聞-MORE News",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Local environmental NGOs and SMEs can adopt the proven AI image‑recognition tool to automate marine debris monitoring, cutting manual survey time and enabling data‑driven cleanup strategies in Hong Kong waters.",
-    "micro_personas": [
-      "Environmental data analyst",
-      "SME startup founder"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Taiwan + Host Marine AI Contest",
-      "AI + Image Recognition Deployment"
-    ]
-  },
-  {
-    "i": 31,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "AI給答案還是給提示？高中生關掉AI後，數學成績有何差別 - Life 生活網",
-    "title_en": "Does AI Provide Answers or Hints? How High School Students' Math Scores Change After Turning Off AI",
-    "hashtags": [
-      "#AIEducation",
-      "#MathPerformance",
-      "#StudentLearning",
-      "#EdTech"
-    ],
-    "source_name": "Life 生活網",
-    "evidence_status": "independent_report",
-    "decision": "accept",
-    "reason": "Parents and teachers in Hong Kong can use the findings to balance AI tutoring tools with traditional study methods, ensuring students develop problem‑solving skills while benefiting from supplemental AI support.",
-    "micro_personas": [
-      "High school math teacher",
-      "Parent of secondary student"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Study + Measure AI Impact",
-      "Students + Math Performance"
-    ]
-  },
-  {
-    "i": 32,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "施俊輝：AI無法取代教師善用科技因材施教- 香港 - 香港文匯報",
-    "title_en": "Shi Junhui: AI Cannot Replace Teachers; Effective Use of Technology Enables Personalized Teaching",
-    "hashtags": [
-      "#AIinEducation",
-      "#TeacherRole",
-      "#PersonalizedLearning",
-      "#HongKongSchools"
-    ],
-    "source_name": "香港文匯報",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Hong Kong educators can apply the article’s insights to integrate AI‑assisted resources while preserving teacher guidance, enhancing personalized learning without replacing the essential human element in classrooms.",
-    "micro_personas": [
-      "Secondary school teacher",
-      "Curriculum designer"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Shi Junhui + Discuss AI in Education",
-      "Hong Kong Schools + AI Integration"
-    ]
-  },
-  {
-    "i": 33,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "曾經的雙A為何漸行漸遠？華碩宏碁年化報酬差 6 倍，定位決定差異，AI 放大差距 - 理財周刊",
-    "title_en": "Why Have the Former Dual A-List Companies Drifted Apart? Asus vs. Acer Annual Returns Differ by Sixfold, Positioning Determines the Gap, AI Amplifies the Difference",
-    "hashtags": [
-      "#AIImpact",
-      "#TechFinance",
-      "#MarketPositioning",
-      "#InvestmentReturns"
-    ],
-    "source_name": "理財周刊",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The article mentions AI only as a vague amplifier of market gaps, lacking concrete AI details or actionable insights for Hong Kong developers or businesses."
-  },
-  {
-    "i": 34,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "AI 問診漸成主流但侵蝕大眾信任感，醫病關係仍是最重要核心",
-    "title_en": "AI Diagnosis Becomes Mainstream but Erodes Public Trust; Doctor-Patient Relationship Remains the Core",
-    "hashtags": [
-      "#AIMedical",
-      "#Trust",
-      "#HealthcareAI",
-      "#PatientSafety"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Focus is on trust issues rather than technical AI specifics, offering limited practical guidance for Hong Kong developers or policy makers."
-  },
-  {
-    "i": 35,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "AI成為全校基本功高科大培育產業新戰力| 封面故事 - newsworld.com.tw",
-    "title_en": "AI Becomes a Core Competency Across Campus: Cultivating New Industrial Forces at High-Tech University",
-    "hashtags": [
-      "#AIEducation",
-      "#TalentDevelopment",
-      "#Industry4.0",
-      "#UniversityInnovation"
-    ],
-    "source_name": "newsworld.com.tw",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "HK students and parents benefit from the university's AI program, which provides hands‑on projects and certifications, preparing graduates for local tech jobs and fostering family support for AI learning.",
-    "micro_personas": [
-      "University student developing AI prototypes",
-      "Parent guiding child's AI coursework"
-    ],
-    "agent_signal": false,
-    "automation_level": 2,
-    "history_queries": [
-      "University + Launch AI curriculum",
-      "Students + Complete AI projects"
-    ]
-  },
-  {
-    "i": 36,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "陳力俊／AI對科學研究的衝擊 - UDN",
-    "title_en": "The Impact of AI on Scientific Research",
-    "hashtags": [
-      "#AIResearch",
-      "#ScienceInnovation",
-      "#DigitalTransformation",
-      "#ResearchTools"
-    ],
-    "source_name": "UDN",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK developers and research professionals can adopt the highlighted AI models to accelerate data analysis, reduce experiment cycles, and increase publication output, aligning with local innovation incentives.",
-    "micro_personas": [
-      "Research developer integrating AI analytics",
-      "Scientific analyst automating experiment data pipelines"
-    ],
-    "agent_signal": false,
-    "automation_level": 3,
-    "history_queries": [
-      "Research institutes + Adopt AI tools",
-      "Scientists + Accelerate data processing"
-    ]
-  },
-  {
-    "i": 37,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "AI趨勢周報第294期：AI Agent不只要會看圖，Google新Benchmark直接考專業工作實戰 - iThome",
-    "title_en": "AI Trend Weekly Issue 294: AI Agents Must See Images; Google’s New Benchmark Tests Professional Work Skills",
-    "hashtags": [
-      "#AIAgents",
-      "#GoogleBenchmark",
-      "#ProfessionalAI",
-      "#TechTrends"
-    ],
-    "source_name": "iThome",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK office workers and SME managers can use Google's image‑understanding benchmark to evaluate AI agents, ensuring selected tools effectively automate visual inspection tasks and improve productivity.",
-    "micro_personas": [
-      "Office worker assessing AI image‑analysis tools",
-      "SME manager selecting AI agents for visual inspection"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Google + Release AI benchmark",
-      "Companies + Test AI agents"
-    ]
-  },
-  {
-    "i": 38,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "新北攜手國北教大簽署合作備忘錄 成立AI教育學術辦公室 - 台灣好新聞",
-    "title_en": "New Taipei Partners with National Taiwan University of Education to Sign MOU, Establish AI Education Academic Office",
-    "hashtags": [
-      "#AIEducation",
-      "#AcademicCollaboration",
-      "#EdTech",
-      "#LearningInnovation"
-    ],
-    "source_name": "台灣好新聞",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK schools can adopt the AI curriculum resources to enhance digital literacy, giving teachers ready-made lesson plans and parents access to guided learning modules for their children.",
-    "micro_personas": [
-      "Primary school teacher designing AI‑enhanced lessons",
-      "Parent facilitating AI learning activities at home"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "AI Education + Curriculum Development",
-      "AI Tools + Teacher Training"
-    ]
-  },
-  {
-    "i": 39,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "廢非核家園公投／陳中舜稱核電是AI用電救命丸 賴建信：核電與經濟發展無關 - 公視新聞",
-    "title_en": "Anti-Nuclear Home Referendum: Chen Zhongshun Calls Nuclear Power an AI Energy Lifesaver; Lai Jiashin Says Nuclear Power Is Unrelated to Economic Development",
-    "hashtags": [
-      "#NuclearEnergy",
-      "#AI",
-      "#PublicPolicy",
-      "#EnergyDebate"
-    ],
-    "source_name": "公視新聞",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "AI mention is peripheral; the article focuses on nuclear policy, offering no actionable AI insight for Hong Kong stakeholders."
-  },
-  {
-    "i": 40,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "哈佛與MIT跨校研究：AI工具無法取代人類心理評估 - 商傳媒",
-    "title_en": "Harvard and MIT Joint Study: AI Tools Cannot Replace Human Psychological Assessment",
-    "hashtags": [
-      "#AI",
-      "#Psychology",
-      "#HumanAssessment",
-      "#Research"
-    ],
-    "source_name": "商傳媒",
-    "evidence_status": "independent_report",
-    "decision": "accept",
-    "reason": "HK mental health clinics and corporate HR can use the findings to balance AI screening with human judgment, improving diagnostic accuracy while maintaining patient trust.",
-    "micro_personas": [
-      "Corporate HR analyst reviewing employee wellbeing surveys",
-      "Clinical psychologist integrating AI triage tools"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "AI MentalHealth + Diagnostic Support",
-      "AI Screening + Human Oversight"
-    ]
-  },
-  {
-    "i": 41,
-    "category": "work_sme",
-    "ai1_suggestion": "",
-    "title": "臺拉立科技合作走向AI 邀入國科會智慧機器人專案計畫- 要聞 - 工商時報",
-    "title_en": "TalaLi Technology Collaborates on AI, Joining the Ministry of Science and Technology's Smart Robotics Project",
-    "hashtags": [
-      "#Robotics",
-      "#AI",
-      "#TechCollaboration",
-      "#Innovation"
-    ],
-    "source_name": "工商時報",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK SMEs can adopt the smart robotics platform to streamline assembly lines, reducing labor costs and increasing production consistency, aligning with local innovation incentives.",
-    "micro_personas": [
-      "Factory floor manager optimizing robot workflow",
-      "SME owner evaluating automation ROI"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Smart Robotics + SME Automation",
-      "AI Manufacturing + Process Optimization"
-    ]
-  },
-  {
-    "i": 42,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "史丹佛最新研究曝警訊 AI教案省備課時間卻打擊學生學習動機 - Yahoo股市",
-    "title_en": "Stanford Study Warns AI Lesson Plans Save Preparation Time but Undermine Student Motivation",
-    "hashtags": [
-      "#AIinEducation",
-      "#StudentMotivation",
-      "#TeachingTools",
-      "#LearningImpact"
-    ],
-    "source_name": "Yahoo股市",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "HK educators should weigh time savings against engagement risks, using AI tools selectively and supplementing with interactive activities to keep students motivated.",
-    "micro_personas": [
-      "High school teacher preparing weekly lessons",
-      "Parent monitoring AI‑generated homework assignments"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "AI LessonPlanning + Teacher Efficiency",
-      "AI Education + Student Engagement"
-    ]
-  },
-  {
-    "i": 44,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "中研院南院開放日登場 量子實驗室與AI互動體驗吸睛 - 自由時報",
-    "title_en": "Academia Sinica Southern Campus Open Day Showcases Quantum Lab and AI Interactive Experience",
-    "hashtags": [
-      "#QuantumTech",
-      "#AIInteraction",
-      "#ScienceOpenDay",
-      "#HongKongTech"
-    ],
-    "source_name": "自由時報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "HK developers and startup founders can explore quantum‑AI integration, gaining insights for prototype design and future service differentiation.",
-    "micro_personas": [
-      "AI developer prototyping quantum‑AI applications",
-      "Tech startup founder evaluating quantum‑AI demos"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Quantum Lab + Visit",
-      "AI Interactive Experience + Demo"
-    ]
-  },
-  {
-    "i": 45,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "中共AI統戰平台曝光 盯上台灣芯片人才 - 大紀元",
-    "title_en": "Chinese Communist AI United Front Platform Exposed, Targeting Taiwan Chip Talent",
-    "hashtags": [
-      "#AIRegulation",
-      "#TalentPoaching",
-      "#CrossStraitTech",
-      "#Security"
-    ],
-    "source_name": "大紀元",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK enterprises and security teams must monitor AI‑driven talent‑poaching platforms to safeguard data compliance and protect professional recruitment processes.",
-    "micro_personas": [
-      "Corporate security officer assessing AI‑based espionage risk",
-      "HR professional screening candidates for political influence"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "AI United Front Platform + Exposure",
-      "Talent Poaching + Monitoring"
-    ]
-  },
-  {
-    "i": 46,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "微軟全球當機，傳真機、電話、藍牙成企業救命三寶",
-    "title_en": "Microsoft Global Outage Highlights Fax, Phone, and Bluetooth as Critical Backup Tools for Enterprises",
-    "hashtags": [
-      "#CloudReliability",
-      "#LegacyTech",
-      "#BusinessContinuity",
-      "#AIInfrastructure"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Main focus is legacy backup tools; AI aspect is peripheral and not essential to the event’s value."
-  },
-  {
-    "i": 47,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "宛如 40 年前賈伯斯遭逼宮重演：黃仁勳深陷地緣政治風暴，輝達帝國面臨權力危機",
-    "title_en": "Nvidia CEO Jensen Huang Faces Geopolitical Storm, Echoing the 1985 Apple Crisis",
-    "hashtags": [
-      "#Geopolitics",
-      "#TechLeadership",
-      "#Nvidia",
-      "#IndustryRisk"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Content centers on executive geopolitics; AI relevance is minimal and does not affect local operational utility."
-  },
-  {
-    "i": 48,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "【影音】AI教育走進家庭！百位家長親子共學數位學習｜全國家長會長多元領域協進會-高市河堤國小 - 蕃新聞",
-    "title_en": "AI Education Enters Homes: Hundreds of Parents Engage in Digital Learning with Their Children",
-    "hashtags": [
-      "#AIinEducation",
-      "#FamilyLearning",
-      "#DigitalLiteracy",
-      "#EdTech"
-    ],
-    "source_name": "蕃新聞",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "HK parents can adopt AI tutoring apps to support children’s curriculum, improving home learning outcomes and reducing tutoring costs.",
-    "micro_personas": [
-      "Parent using AI tutoring app for primary school child",
-      "Student engaging with AI‑guided homework assistance"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "AI Education + Home Learning",
-      "Digital Literacy + Parent Participation"
-    ]
-  },
-  {
-    "i": 49,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "商周-黃仁勳33年傳奇執行長生涯，改變全世界的五件事- 商業周刊 - 商業周刊",
-    "title_en": "Jensen Huang’s 33-Year Legendary Tenure as CEO Transformed Five Aspects of the World",
-    "hashtags": [
-      "#Nvidia",
-      "#Leadership",
-      "#TechInnovation",
-      "#AI"
-    ],
-    "source_name": "商業周刊",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "HK developers and startup CTOs can align product roadmaps with Nvidia’s AI hardware roadmap, ensuring optimal GPU selection and cost‑effective scaling for local AI projects.",
-    "micro_personas": [
-      "AI/ML Engineer planning GPU procurement",
-      "Startup CTO evaluating compute infrastructure"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "Nvidia + ReleaseRoadmap",
-      "HK AI Startup + GPUSelection"
-    ]
-  },
-  {
-    "i": 50,
-    "category": "learning_family",
-    "ai1_suggestion": "",
-    "title": "AI助攻教育治理 新北與國北教大簽MOU深化學術合作 - Life 生活網",
-    "title_en": "AI Boosts Education Governance: New Taipei City and National Taipei University Sign MOU for Deeper Academic Collaboration",
-    "hashtags": [
-      "#AIinEducation",
-      "#Governance",
-      "#AcademicPartnership",
-      "#EdTech"
-    ],
-    "source_name": "Life 生活網",
-    "evidence_status": "case_or_test",
-    "decision": "accept",
-    "reason": "Local schools and parents can adopt AI‑driven scheduling and performance analytics, improving student outcomes and easing administrative burdens for HK educators and families.",
-    "micro_personas": [
-      "School administrator implementing AI scheduling",
-      "Parent using AI tutoring platform"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "New Taipei City + AIEducationMOU",
-      "HK School + AIAnalytics"
-    ]
-  },
-  {
-    "i": 51,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "黃仁勳風暴扯出中國間諜網！華爾街日報揭60萬情報大軍鎖定AI晶片 - 自由財經",
-    "title_en": "Jensen Huang Storm Uncovers Chinese Spy Network: WSJ Reveals 600,000‑Strong Intel Force Targeting AI Chips",
-    "hashtags": [
-      "#CyberSecurity",
+      "#SpaceAI",
+      "#Safety",
       "#AIChip",
-      "#Espionage",
-      "#China"
+      "#SpaceX"
     ],
-    "source_name": "自由財經",
-    "evidence_status": "official",
+    "source_name": "INSIDE",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "HK enterprises and senior professionals must audit supply chains and enforce hardware security measures to protect against AI chip espionage threats highlighted in the report.",
+    "reason": "Professionals and risk officers should monitor emerging AI hardware safety issues, ensuring supply‑chain compliance and preparing contingency plans for potential regulatory restrictions.",
     "micro_personas": [
-      "Corporate IT security manager safeguarding hardware",
-      "Elderly user concerned about device privacy"
+      "Hardware security analyst assessing AI chip risks",
+      "Corporate risk officer planning compliance for AI hardware"
     ],
     "agent_signal": true,
     "automation_level": 0,
     "history_queries": [
-      "WSJ + AIChipEspionage",
-      "HK Corp + SecurityAudit"
+      "SpaceX + Request chip hold",
+      "Creditors + Express concern"
     ]
   },
   {
-    "i": 52,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "馬斯克也要簽！黃仁勳辭去 NVIDIA 執行長，逾 2 萬人連署要求董事會讓他回任 - INSIDE",
-    "title_en": "Even Elon Musk Signs On: Jensen Huang Resigns as Nvidia CEO, Over 20,000 Petition for Board to Reinstate Him",
-    "hashtags": [
-      "#Nvidia",
-      "#LeadershipChange",
-      "#CorporateGovernance",
-      "#TechIndustry"
-    ],
-    "source_name": "INSIDE",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "The article focuses on corporate leadership change without substantive AI content or local operational impact."
-  },
-  {
-    "i": 55,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "AI 加速長壽研究，科學家從血液與基因中找出延緩老化的線索",
-    "title_en": "AI Accelerates Longevity Research: Scientists Identify Blood and Gene Markers to Slow Aging",
-    "hashtags": [
-      "#Longevity",
-      "#AIResearch",
-      "#Biotech",
-      "#Aging"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "independent_report",
-    "decision": "accept",
-    "reason": "HK biotech firms and healthcare providers can leverage AI‑driven aging marker discovery to develop anti‑aging therapies, benefiting retirees and senior patients with personalized interventions.",
-    "micro_personas": [
-      "Biomedical researcher using AI for aging studies",
-      "Healthcare startup founder developing anti‑aging solutions"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Longevity Research + AIAnalysis",
-      "HK Health Startup + AntiAgingTech"
-    ]
-  },
-  {
-    "i": 56,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "廣達梁次震看 AI 後市：無懼黃仁勳風波與政策變數，投資建設「箭在弦上」",
-    "title_en": "Quanta Vice Chairman Liang Cizhen on AI Outlook: Unfazed by Jensen Huang Turmoil and Policy Variables, Investment Ready",
-    "hashtags": [
-      "#AI",
-      "#Investment",
-      "#SupplyChain",
-      "#TaiwanTech"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Hong Kong AI hardware buyers and tech entrepreneurs can gauge Taiwan's supply‑chain stability, ensuring reliable component sourcing and strategic investment decisions amid global market fluctuations for local AI projects.",
-    "micro_personas": [
-      "AI hardware procurement manager at a Hong Kong startup",
-      "Tech entrepreneur evaluating server vendors"
-    ],
-    "agent_signal": true,
-    "automation_level": 2,
-    "history_queries": [
-      "Quanta + Investment Outlook",
-      "Taiwan + AI Supply Chain"
-    ]
-  },
-  {
-    "i": 57,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "Rockwell Automation 推出 LogixEdge 控制器，加速軟體定義自動化",
-    "title_en": "Rockwell Automation Launches LogixEdge Controller to Accelerate Software-Defined Automation",
-    "hashtags": [
-      "#Automation",
-      "#IndustrialIoT",
-      "#SoftwareDefined",
-      "#ControlSystems"
-    ],
-    "source_name": "TechNews 科技新報",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK manufacturing SMEs gain immediate access to Rockwell’s LogixEdge AI‑enabled controller, enabling rapid deployment of software‑defined automation, reducing downtime and boosting production efficiency without extensive hardware overhaul.",
-    "micro_personas": [
-      "Factory floor engineer in a Hong Kong SME",
-      "Operations manager seeking automation solutions"
-    ],
-    "agent_signal": true,
-    "automation_level": 4,
-    "history_queries": [
-      "Rockwell + Launch LogixEdge",
-      "Industrial Automation + Software‑Defined"
-    ]
-  },
-  {
-    "i": 58,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "AI伺服器迎高層震撼彈！外資下修目標價至200美元，台廠供應鏈洗牌-財經焦點情報站 - CMoney投資網誌",
-    "title_en": "AI Server Sector Shock: Foreign Investors Cut Target Price to $200, Taiwan Supply Chain Reshuffles",
-    "hashtags": [
-      "#AIServers",
-      "#MarketShift",
-      "#TaiwanTech",
-      "#Investment"
-    ],
-    "source_name": "CMoney投資網誌",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "The price cut to $200 for AI servers signals cheaper compute for Hong Kong developers and SMEs, allowing budget‑friendly AI model training and faster adoption of AI services.",
-    "micro_personas": [
-      "DevOps engineer assessing AI server costs",
-      "SME CTO planning AI infrastructure budget"
-    ],
-    "agent_signal": true,
-    "automation_level": 1,
-    "history_queries": [
-      "AI Servers + Price Cut",
-      "Taiwan + Supply Chain Reshuffle"
-    ]
-  },
-  {
-    "i": 59,
-    "category": "tech_background",
-    "ai1_suggestion": "",
-    "title": "台灣深化波羅的海科技合作 聚焦智慧機器人商機 - UDN",
-    "title_en": "Taiwan Deepens Baltic Sea Tech Cooperation, Focusing on Smart Robotics Opportunities",
-    "hashtags": [
-      "#Robotics",
-      "#InternationalCooperation",
-      "#SmartTech",
-      "#Taiwan"
-    ],
-    "source_name": "UDN",
-    "evidence_status": "thin_or_unclear",
-    "decision": "accept",
-    "reason": "Collaboration with Baltic partners opens pathways for Hong Kong robotics firms to integrate AI‑driven smart robot technologies, fostering joint R&D and access to European markets.",
-    "micro_personas": [
-      "Robotics startup founder in Hong Kong",
-      "R&D engineer exploring AI‑driven robot platforms"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Taiwan + Baltic Robotics Cooperation",
-      "Smart Robotics + International Collaboration"
-    ]
-  },
-  {
-    "i": 62,
-    "category": "tools_access",
-    "ai1_suggestion": "",
-    "title": "模型更新，指令也要更新！Claude Code 可用 /doctor prompt-audit 檢查 CLAUDE.md 與 skills 裡過時的舊提示詞 - INSIDE",
-    "title_en": "Model Updates Require Prompt Updates! Claude Code Usable /doctor prompt-audit Checks for Outdated Prompts in CLAUDE.md and Skills",
-    "hashtags": [
-      "#PromptEngineering",
-      "#AIModels",
-      "#Claude",
-      "#DeveloperTools"
-    ],
-    "source_name": "INSIDE",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "Claude’s prompt‑audit tool helps Hong Kong AI developers keep prompts current, reducing errors in deployed models and streamlining maintenance for enterprise AI applications.",
-    "micro_personas": [
-      "AI product developer in Hong Kong",
-      "Prompt engineer maintaining large language model pipelines"
-    ],
-    "agent_signal": true,
-    "automation_level": 5,
-    "history_queries": [
-      "Claude + Prompt Audit Release",
-      "Developer Tools + Prompt Management"
-    ]
-  },
-  {
-    "i": 63,
-    "category": "safety_trust",
-    "ai1_suggestion": "",
-    "title": "華南銀行傳盜轉爭議之際 金管會資安長會議籲金融業優先落實六大防護 - 蕃新聞",
-    "title_en": "Bank of China South Calls for Financial Industry to Prioritize Six Key Cybersecurity Measures Amid Transfer Fraud Controversy",
-    "hashtags": [
-      "#CyberSecurity",
-      "#FinancialRegulation",
-      "#HKBanking",
-      "#DataProtection",
-      "#FinTech"
-    ],
-    "source_name": "蕃新聞",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "No AI component; purely cybersecurity policy, offering no AI‑specific utility for Hong Kong audiences."
-  },
-  {
-    "i": 64,
-    "category": "real_use",
-    "ai1_suggestion": "",
-    "title": "Gemini 購物功能在台上線！AI 看規格、價格、評價與庫存，品牌想被推薦先做 3 件事 - 未來商務",
-    "title_en": "Gemini Launches Shopping Feature in Taiwan: AI Reviews Specs, Prices, Ratings and Stock, Brands Must Do Three Things to Get Recommended",
-    "hashtags": [
-      "#AIShopping",
-      "#ECommerce",
-      "#GeminiAI",
-      "#ConsumerTech",
-      "#RetailInnovation"
-    ],
-    "source_name": "未來商務",
-    "evidence_status": "official",
-    "decision": "accept",
-    "reason": "HK SMEs and entrepreneurs can integrate Gemini's AI‑driven product recommendation into their e‑commerce sites, instantly improving conversion rates and reducing manual cataloguing effort for office workers managing online sales.",
-    "micro_personas": [
-      "SME e‑commerce manager automating product listings",
-      "Entrepreneur launching online retail platform"
-    ],
-    "agent_signal": true,
-    "automation_level": 3,
-    "history_queries": [
-      "Gemini + Shopping Feature Launch",
-      "AI Shopping + HK Retail Adoption"
-    ]
-  },
-  {
-    "i": 65,
+    "i": 22,
     "category": "learning_family",
     "ai1_suggestion": "",
-    "title": "AI時代文科沒用了？ 頂大新設人文博士學程私校卻連理工科也停招- 產業 - 工商時報",
-    "title_en": "Is the Humanities Obsolete in the AI Era? Top University Introduces New Humanities PhD Program While Cutting Engineering Admissions",
+    "title": "創20年僅750人畢業撐起AI全球半壁江山 揭清華｢姚班｣人才煉成術 - 香港01",
+    "title_en": "In 20 Years Only 750 Graduates Have Supported Half of the Global AI Landscape – Unveiling Tsinghua’s ‘Yao Class’ Talent‑Forging Method",
     "hashtags": [
       "#AIEducation",
-      "#HumanitiesVsSTEM",
-      "#CurriculumReform",
-      "#FutureSkills",
-      "#HigherEd"
+      "#Tsinghua",
+      "#TalentDevelopment",
+      "#YaoClass"
     ],
-    "source_name": "工商時報",
-    "evidence_status": "thin_or_unclear",
-    "decision": "reject",
-    "reject_reason": "Lacks concrete AI tool or policy impact; provides only academic opinion without actionable AI benefit."
-  },
-  {
-    "i": 66,
-    "category": "regulation_public",
-    "ai1_suggestion": "",
-    "title": "OpenAI 傳向國會表態支持 3 項對中管制法案，限制中國取得 AI 晶片與製造設備 - INSIDE",
-    "title_en": "OpenAI Signals Support for Three US Congressional Bills Restricting China’s Access to AI Chips and Manufacturing Equipment",
-    "hashtags": [
-      "#AIRegulation",
-      "#USChinaTechWar",
-      "#OpenAIPolicy",
-      "#ChipExportControls",
-      "#TechSecurity"
-    ],
-    "source_name": "INSIDE",
-    "evidence_status": "official",
+    "source_name": "香港01",
+    "evidence_status": "case_or_test",
     "decision": "accept",
-    "reason": "HK developers and hardware‑dependent startups must anticipate tighter AI‑chip export rules, prompting early sourcing strategies or migration to alternative architectures to avoid project delays and cost spikes.",
+    "reason": "Parents and students in Hong Kong can model curriculum pathways after Tsinghua’s program, encouraging early AI specialization and boosting local talent pipelines for tech firms.",
     "micro_personas": [
-      "AI model trainer evaluating GPU procurement",
-      "Tech lead of a fintech startup planning hardware roadmap"
+      "High school student preparing for AI university",
+      "Parent guiding child’s AI career decisions"
     ],
     "agent_signal": true,
     "automation_level": 1,
     "history_queries": [
-      "OpenAI + Policy Support",
-      "AI Chip Export + Regulation Impact"
+      "Tsinghua + Produce AI talent",
+      "Yao Class + Influence education"
     ]
   },
   {
-    "i": 67,
-    "category": "safety_trust",
+    "i": 23,
+    "category": "regulation_public",
     "ai1_suggestion": "",
-    "title": "AI 測試驚傳失控越界 自主嘗試存取研究機構官網 - 商傳媒",
-    "title_en": "AI Test Goes Rogue, Attempting Unauthorized Access to Research Institution’s Website",
+    "title": "避免學生「大腦外包」！專家籲訂AI規範：國小生禁單獨使用 - ETtoday新聞雲",
+    "title_en": "Experts Call for AI Regulations to Prevent Primary Students from \"Outsourcing Their Brains\"",
     "hashtags": [
-      "#AISafety",
-      "#CyberAttack",
-      "#ResearchSecurity",
-      "#AIControl",
-      "#TechRisk"
+      "#AIRegulation",
+      "#ChildSafety",
+      "#EducationPolicy"
     ],
-    "source_name": "商傳媒",
-    "evidence_status": "case_or_test",
+    "source_name": "ETtoday新聞雲",
+    "evidence_status": "thin_or_unclear",
     "decision": "accept",
-    "reason": "Elderly users of AI assistants and professionals handling sensitive data should be warned of rogue AI behaviors, prompting immediate security audits and stricter sandboxing in HK enterprises.",
+    "reason": "HK parents, teachers and policymakers can use this to shape local AI education guidelines, protecting students from unsupervised AI reliance.",
     "micro_personas": [
-      "IT security officer safeguarding research data",
-      "Professional using AI‑enhanced research tools"
+      "Primary school teacher designing AI‑aware curricula",
+      "Parent monitoring child's AI tool usage at home"
     ],
     "agent_signal": true,
-    "automation_level": 2,
+    "automation_level": 1,
     "history_queries": [
-      "AI + Unauthorized Access Incident",
-      "Research Institution + Security Breach"
+      "AI Regulation + Education",
+      "Child Safety + Policy"
     ]
+  },
+  {
+    "i": 24,
+    "category": "tech_background",
+    "ai1_suggestion": "",
+    "title": "尼泊爾揭19家公立醫院開源電子病歷導入經驗，採6階段流程、中央統一開發與更新",
+    "title_en": "Nepal Deploys Open-Source Electronic Medical Records in 19 Public Hospitals Using a Six‑Stage Process",
+    "hashtags": [
+      "#OpenSource",
+      "#DigitalHealth",
+      "#EMR",
+      "#HealthcareInnovation"
+    ],
+    "source_name": "iThome 新聞",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "The event focuses on open‑source EMR deployment without AI relevance for Hong Kong audiences."
+  },
+  {
+    "i": 25,
+    "category": "work_sme",
+    "ai1_suggestion": "",
+    "title": "昇恆昌總經理、前光泉副董事長攜手代購新創HELPnBUY！簽署MOU，協助拓展海外市場 - Meet創業小聚",
+    "title_en": "Former Lightwave Executive Teams Up with HELPnBUY to Expand Overseas Markets via MOU",
+    "hashtags": [
+      "#StartupGrowth",
+      "#SME",
+      "#MarketExpansion",
+      "#Innovation"
+    ],
+    "source_name": "Meet創業小聚",
+    "evidence_status": "thin_or_unclear",
+    "decision": "reject",
+    "reject_reason": "No AI component is presented; the MOU concerns market expansion, not applicable to HK AI utility."
   }
 ]
