@@ -762,7 +762,7 @@ const TOOLS = {
     "name": "VPN 通道與測速檢測",
     "cat": "網絡工具",
     "icon": "🛡️",
-    "link": "https://lazytoolsstation.vercel.app/vpn_testing.htm",
+    "link": "https://lazytoolsstation.vercel.app/vpn_testing.html",
     "short": "實測 VPN 出口地點與 IP、驗證境外網站真實連通，並附境外／境內測速與清 DNS 救亡指引",
     "about": "專為跨境上網與日常網絡排錯設計的純前端檢測工具，100% 本地瀏覽器運行、無需登入：\n1. 出口地點與通道檢測：即時查詢實際出口國家、地區與 IP，透過圖片像素驗證分辨真實連通與 DNS 污染／劫持假象，並支援 3 個自訂網址檢測與本地自動記憶。\n2. 境外／境內頻寬測速：分別提供境外（Cloudflare）與中國境內（npmmirror、360 CDN 及 Speedtest.cn）測速節點，快速判斷慢速原因。\n3. VPN 救亡與清 DNS 指南：內置一鍵複製指令，針對「虛擬網卡甩線」與「舊 DNS 快取殘留」提供逐步排錯與瀏覽器 Socket 清理教學。",
     "videos": [],
