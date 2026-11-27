@@ -766,7 +766,14 @@ const TOOLS = {
     "short": "實測 VPN 出口地點與 IP、驗證境外網站真實連通，並附境外／境內測速與清 DNS 救亡指引",
     "about": "專為跨境上網與日常網絡排錯設計的純前端檢測工具，100% 本地瀏覽器運行、無需登入：\n1. 出口地點與通道檢測：即時查詢實際出口國家、地區與 IP，透過圖片像素驗證分辨真實連通與 DNS 污染／劫持假象，並支援 3 個自訂網址檢測與本地自動記憶。\n2. 境外／境內頻寬測速：分別提供境外（Cloudflare）與中國境內（npmmirror、360 CDN 及 Speedtest.cn）測速節點，快速判斷慢速原因。\n3. VPN 救亡與清 DNS 指南：內置一鍵複製指令，針對「虛擬網卡甩線」與「舊 DNS 快取殘留」提供逐步排錯與瀏覽器 Socket 清理教學。",
     "videos": [],
-    "articles": [],
+    "articles": [
+      {
+        "date": "2026-11-27",
+        "title": "開咗 VPN 顯示「已連線」，但 Google、YouTube 依然轉圈圈 load 唔郁？定係唔知自己其實行緊「中國直連」定真正出咗境外？🤔",
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0UEWa26NBCEpJUdjWE3yqxukvNzc4CW11eYFkNc1MGnNwCmz4LNw7U6seqY1wiqK7l%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"250\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
+        "pinned": true
+      }
+    ],
     "related": []
   }
 };
