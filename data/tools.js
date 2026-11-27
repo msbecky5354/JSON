@@ -329,19 +329,34 @@ const TOOLS = {
     "related": []
   },
   "master-tools": {
-    "name": "懶人免費工具庫｜100% 瀏覽器記憶體運算與零數據上載特區",
-    "cat": "純本地運算 · 零上傳安全",
+    "name": {
+      "tc": "懶人免費工具庫｜100% 瀏覽器記憶體運算與零數據上載特區",
+      "sc": "懒人免费工具库｜100% 浏览器内存运算与零数据上传特区",
+      "en": "Lazy Free Tools Library | 100% In-Memory Air-Gapped Utilities"
+    },
+    "cat": {
+      "tc": "純本地運算 · 零上傳安全",
+      "sc": "纯本地运算 · 零上传安全",
+      "en": "Client-Side Computing · Privacy Safe"
+    },
     "icon": "🧰",
     "link": "",
-    "short": "100% 本地端瀏覽器記憶體運算 (In-Memory)、零數據上傳雲端、開箱即用之極限私隱工具箱。",
-    "about": "所有工具 100% 喺本地瀏覽器運算，零數據上傳，開箱即用，私隱安心。包含 OmniDiff 檔案差異比對、Token 價格精算及 Prompt Flow 指令工程工具。",
+    "short": {
+      "tc": "100% 本地端瀏覽器記憶體運算 (In-Memory)、零數據上傳雲端、開箱即用之極限私隱工具箱。",
+      "sc": "100% 本地端浏览器内存运算 (In-Memory)、零数据上传云端、开箱即用之极限隐私工具箱。",
+      "en": "100% client-side browser execution with zero cloud uploads. Out-of-the-box local privacy utilities."
+    },
+    "about": {
+      "tc": "所有工具 100% 喺本地瀏覽器運算，零數據上傳，開箱即用，私隱安心。包含 OmniDiff 檔案差異比對、Token 價格精算及 Prompt Flow 指令工程工具。",
+      "sc": "所有工具 100% 在本地浏览器运算，零数据上传，开箱即用，隐私安心。包含 OmniDiff 档案差异比对、Token 价格精算及 Prompt Flow 指令工程工具。",
+      "en": "All utilities run 100% client-side inside browser memory with zero cloud transfer. Includes OmniDiff file diffing, Token Cost Calculator, and AI Prompt Flow engineering tools."
+    },
     "videos": [],
     "articles": [],
     "related": [
       "OmniDiff",
       "ai-prompt",
-      "ai-token",
-      "wts"
+      "ai-token"
     ]
   },
   "ai-news": {
@@ -562,64 +577,89 @@ const TOOLS = {
     "related": []
   },
   "ai-prompt": {
-    "name": "Prompt Flow｜企業 AI 指令標準化與長對話上下文交接系統",
-    "cat": "AI 工作流 · 指令工程",
+    "name": {
+      "tc": "Prompt Flow｜企業 AI 指令標準化與長對話上下文交接系統",
+      "sc": "Prompt Flow｜企业 AI 指令标准化与长对话上下文交接系统",
+      "en": "Prompt Flow | AI Prompt Standardization & Context Handoff"
+    },
+    "cat": {
+      "tc": "AI 工作流 · 指令工程",
+      "sc": "AI 工作流 · 指令工程",
+      "en": "AI Workflows · Prompt Engineering"
+    },
     "icon": "https://lazytoolsstation.vercel.app/ai_prompt/ai_prompt_icon.jpeg",
     "link": "https://lazytoolsstation.vercel.app/ai_prompt/",
-    "short": "協助建立標準化清晰 AI 指令、梳理已完成工序與關鍵決策，生成交接報告於新對話無縫承接上下文。",
-    "about": "Prompt Flow Studio 為「懶人工具駅」準備的 AI 指令與對話整理學習工具。本頁協助使用者建立清楚的 AI 指令、整理已完成工作與待處理事項，並在新對話中帶同已確認背景繼續工作，解決大模型長對話失憶與混淆痛點。",
+    "short": {
+      "tc": "協助建立標準化清晰 AI 指令、梳理已完成工序與關鍵決策，生成交接報告於新對話無縫承接上下文。",
+      "sc": "协助建立标准化清晰 AI 指令、梳理已完成工序与关键决策，生成交接报告于新对话无缝承接上下文。",
+      "en": "Standardizes clear AI prompting, summarizes executed tasks and decisions, and creates structured handoff documentation across sessions."
+    },
+    "about": {
+      "tc": "Prompt Flow Studio 為「懶人工具駅」準備的 AI 指令與對話整理學習工具。本頁協助使用者建立清楚的 AI 指令、整理已完成工作與待處理事項，並在新對話中帶同已確認背景繼續工作，解決大模型長對話失憶與混淆痛點。",
+      "sc": "Prompt Flow Studio 为“懒人工具驿”准备的 AI 指令与对话整理学习工具。本页协助使用者建立清楚的 AI 指令、整理已完成工作与待处理事项，并在新对话中带同已确认背景继续工作，解决大模型长对话遗忘与混淆痛点。",
+      "en": "An educational and productivity workflow designed to enforce structured prompting, prevent LLM context-rot, and facilitate clean handoffs across extended AI conversations."
+    },
     "videos": [],
     "articles": [
       {
         "date": "2026-08-27",
         "title": "😵 Ever had a long AI chat that started out helpful — then the AI forgot the context, mixed up earlier decisions, or br",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02vQA9ZoGsdx9q8ZoL6Up1uDXeJKYTjZwtTfxKeJbK6vdYVg6YwoFA3xBywcFhHj7ol%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"500\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": false
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02vQA9ZoGsdx9q8ZoL6Up1uDXeJKYTjZwtTfxKeJbK6vdYVg6YwoFA3xBywcFhHj7ol%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"500\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
       },
       {
         "date": "2026-08-27",
         "title": "😵‍💫 你有沒有試過：同 AI 傾咗一段長對話，本來已經講清楚背景、要求、做過甚麼、下一步要甚麼；但傾到後來，AI 開始漏記前文、混淆舊決定，甚至根據已經不適用的資料再給答案？",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0ZkTAP8MboMdx92N72kX5yLzWnSDsACGRDYesc84x56PRRifQ2DaGAKYYBrUnE6Pfl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"481\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": false
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0ZkTAP8MboMdx92N72kX5yLzWnSDsACGRDYesc84x56PRRifQ2DaGAKYYBrUnE6Pfl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"481\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
       }
     ],
     "related": [
-      "wts",
-      "ai-prompt"
+      "OmniDiff"
     ]
   },
   "ai-token": {
-    "name": "Token 價格教室｜企業級 AI API 成本精算與模型選型工具",
-    "cat": "成本精算 · 模型評估",
+    "name": {
+      "tc": "Token 價格教室｜企業級 AI API 成本精算與模型選型工具",
+      "sc": "Token 价格教室｜企业级 AI API 成本精算与模型选型工具",
+      "en": "Token Price Classroom | AI API Cost Auditing & Selection"
+    },
+    "cat": {
+      "tc": "成本精算 · 模型評估",
+      "sc": "成本精算 · 模型评估",
+      "en": "Cost Auditing · Model Benchmarking"
+    },
     "icon": "https://lazytoolsstation.vercel.app/AI_Tokens/ai_tokens_icon.jpeg",
     "link": "https://lazytoolsstation.vercel.app/AI_Tokens/",
-    "short": "以香港真實工作情境拆解 Input/Output Token、每百萬單價與匯率，精準核算各主流大模型 API 每月實質成本。",
-    "about": "Token 價格教室係「懶人工具駅」為企業與開發者準備的 AI API 成本學習與精算工具。拆解上下文 Token 消耗、單價與匯率影響，幫助企業在採購與架構搭建前完成嚴謹的成本核對與選型評估。",
+    "short": {
+      "tc": "以香港真實工作情境拆解 Input/Output Token、每百萬單價與匯率，精準核算各主流大模型 API 每月實質成本。",
+      "sc": "以香港真实工作情境拆解 Input/Output Token、每百万单价与汇率，精准核算各主流大模型 API 每月实质成本。",
+      "en": "Calculates monthly AI API costs using real Hong Kong work scenarios, factoring in input/output tokens, per-million pricing, and exchange rates."
+    },
+    "about": {
+      "tc": "Token 價格教室係「懶人工具駅」為企業與開發者準備的 AI API 成本學習與精算工具。拆解上下文 Token 消耗、單價與匯率影響，幫助企業在採購與架構搭建前完成嚴謹的成本核對與選型評估。",
+      "sc": "Token 价格教室是“懒人工具驿”为企业与开发者准备的 AI API 成本学习与精算工具。拆解上下文 Token 消耗、单价与汇率影响，帮助企业在采购与架构搭建前完成严谨的成本核对与选型评估。",
+      "en": "Enterprise-grade API token calculator and benchmarking tool, mapping real-world business workloads to exact monthly operational costs across LLM providers."
+    },
     "videos": [],
     "articles": [
       {
         "date": "2026-08-27",
         "title": "AI Agent costs are about more than the price per million tokens.",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0yxnVJU8dYVKT1MHLJ3NyWuXv7syV1Ak1geHR9NLdqSqEyekaS3MzsdLBekpFR4A8l%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"520\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": false
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0yxnVJU8dYVKT1MHLJ3NyWuXv7syV1Ak1geHR9NLdqSqEyekaS3MzsdLBekpFR4A8l%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"520\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
       },
       {
         "date": "2026-08-24",
         "title": "AI Agent 用 Token 接近人手 5 倍？ 但真正重點，唔係淨係睇「邊個平台平幾多」",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid022dKLY1SdM3WtyuYyvm2HyaPXDFNzAcPjMs4bCn38Xn7YUqsxysBwErBoTXATyAM7l%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"475\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": false
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid022dKLY1SdM3WtyuYyvm2HyaPXDFNzAcPjMs4bCn38Xn7YUqsxysBwErBoTXATyAM7l%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"475\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
       },
       {
         "date": "2026-08-23",
         "title": "AI 廠商成日劈價話「平咗 21 倍」——但你張 API 單，未必真係平咗咁多 📉",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid037E1PJwFCqCBJntFgcL4VwW5Rpdcjgg9L3aafXi6Xf3tvB9E8KZBz7oGH9tjF3dCnl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"718\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": false
+        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid037E1PJwFCqCBJntFgcL4VwW5Rpdcjgg9L3aafXi6Xf3tvB9E8KZBz7oGH9tjF3dCnl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"718\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
       }
     ],
     "related": [
       "OmniDiff",
-      "ai-prompt",
-      "wts"
+      "ai-prompt"
     ]
   },
   "gba-bus": {
@@ -712,60 +752,21 @@ const TOOLS = {
     "cat": "企業營運 · 預算評估",
     "icon": "https://lazytoolsstation.vercel.app/WTS/wts_logo.jpg",
     "link": "https://lazytoolsstation.vercel.app/WTS/index.html",
-    "short": "Meta 官方新制通訊費精算工具，圖像化拆解 4 大類別開支、國碼價差與客服免費額度，杜絕預算超支。",
+    "short": "Meta 2026 官方新制通訊費精算工具，圖像化拆解 4 大類別開支、國碼價差與客服免費額度，杜絕預算超支。",
     "about": "專為香港及跨境商戶、診所、美容及預約服務業打造的 WhatsApp 官方通訊費精算工具。全面對齊 Meta 官方最新定價架構，一鍵圖像化拆解 4 大訊息類別開支，以及「香港本地客 vs 內地旅客」高達 56% 的跨區差價。特設 3 分鐘視覺化避坑指南，教你用盡每月首 1,000 條全免客服對話、防範範本被強制重分類罰貴近 3 倍，並精算發信階梯折扣。零門檻即開即用，清晰看透每一分通訊預算。",
-    "videos": [
-      {
-        "type": "youtube",
-        "date": "2026-10-05",
-        "title": "WhatsApp Business Platform 費率點樣計？預約、通知、Promotion 預算快速估算",
-        "url": "https://www.youtube.com/shorts/4xhI80oEQ8Q?feature=share",
-        "desc": "做 WhatsApp Business Platform 預約、通知或 Promotion，成本唔一定係一個固定單價。\n\n訊息類別、客戶電話國碼、每月發送數量，以及 Promotion 發送量，都可能影響整體預算。\n\n我製作咗一個簡單嘅費率與預算評估工具，方便你快速了解：\n\n • 預約及通知訊息數量\n • Utility、Service、Marketing 等類別\n • 香港、內地及海外客戶比例\n • 每月預算估算\n • 不同發送情境下的成本變化\n\n本工具以 Meta 公開費率作為估算參考，並不代表 Meta 或任何 WhatsApp 服務商。實際費用會受當期費率、訊息分類、收件人市場、發送數量及帳戶設定影響，最終應以相關帳戶實際帳單為準。\n\n#WhatsAppBusinessPlatform #WhatsApp自動化 #WhatsApp預約 #WhatsAppMarketing #企業通訊 #費率計算 #預算評估 #香港中小企",
-        "pinned": false
-      }
-    ],
-    "articles": [
-      {
-        "date": "2026-10-04",
-        "title": "【企業 WhatsApp 自動化規劃：如何精準掌握 Meta 官方通訊成本？】📊",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02zjaEhs9HcKforkjR4g7KT6nJMUNEvrGcof6ZG9ALwdheLBsJDDK43m9qi5YdwKXsl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"250\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": false
-      },
-      {
-        "date": "2026-10-04",
-        "title": "【Enterprise WhatsApp Automation: How to Accurately Forecast Meta’s Wholesale Pass-Through Rates】📊",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0381TB3Y3a4Zq8dJXRvuMQyXvaDWr8u1Jx5E2wpditpfkyx1VDdiREnLA32Z2evEdul%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"847\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": false
-      }
-    ],
-    "related": [
-      "ai-token",
-      "ai-prompt",
-      "OmniDiff"
-    ]
-  },
-  "vhsi": {
-    "name": "HSI QUANT PRO - VHSI 恒指波幅量化模型",
-    "cat": "金融量化 / 港股分析",
-    "icon": "📊",
-    "link": "https://lazytoolsstation.vercel.app/VHSI/main.html",
-    "short": "結合恒指波幅指數（VHSI）與牛熊證街貨分佈，實時計算大市預期波幅通道、支持阻力邊界及歷史回測命中率，助你精準捕捉港股藍籌低吸與止賺時機。",
-    "about": "HSI Quant Pro 是一套專為港股及恒生指數投資者設計的量化波幅分析工具，透過統計學常態分佈模型與衍生工具市場流動性數據，將抽象的「恐慌指數（VHSI）」轉化為直觀實用的支持與阻力點數區間：   實時波幅通道與街貨流動性雷達：統一以當日高低平均價為基準，支援多週期（一日至一年）及多段置信通道（68% / 80% / 90% / 95%）自由切換，並自動錨定上下方牛熊證重貨區與即市收回（打靶）狀態，掌握市場止蝕盤釋放後的轉向契機。   即時預測計算器：支援實時數據同步及離線手動試算，一眼看清大市關鍵支持底線與阻力頂線，輔助重磅藍籌分批低吸或高位鎖利部署。   歷史波幅回測系統：提供多段歷史樣本區間（1個月至全部歷史）真實交易數據回測，即時檢視不同置信通道的實際命中率與破位日明細，科學化驗證防守邊界保護力。   ",
     "videos": [],
-    "articles": [
-      {
-        "date": "2026-11-14",
-        "title": "📌 新手必讀：點樣用 HSI Quant Pro 捉實恒指支持底線與阻力頂線",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02cnkcBEcLxaqSntaH9j9cGwrj8hakY4xX3MCk12E2LoKzfPTPHLMRjfSUXR5AzodBl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"250\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": true
-      },
-      {
-        "date": "2026-11-17",
-        "title": "📢 指標工具升級｜HSI Quant Pro 牛熊證雷達：盤面「止蝕盤流動性指示燈 💡」",
-        "content": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02YMEhGHWBDtbyxcuphLqL7vAMKBs3iR2sMXTGFwMwCw9Daa9FTXPcSXuwMsoT8utWl%26id%3D61590310737697&show_text=true&width=500\" width=\"500\" height=\"250\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>",
-        "pinned": false
-      }
-    ],
+    "articles": [],
+    "related": []
+  },
+  "vpn": {
+    "name": "VPN 通道與測速檢測",
+    "cat": "網絡工具",
+    "icon": "🛡️",
+    "link": "https://lazytoolsstation.vercel.app/vpn_testing.htm",
+    "short": "實測 VPN 出口地點與 IP、驗證境外網站真實連通，並附境外／境內測速與清 DNS 救亡指引",
+    "about": "專為跨境上網與日常網絡排錯設計的純前端檢測工具，100% 本地瀏覽器運行、無需登入：\n1. 出口地點與通道檢測：即時查詢實際出口國家、地區與 IP，透過圖片像素驗證分辨真實連通與 DNS 污染／劫持假象，並支援 3 個自訂網址檢測與本地自動記憶。\n2. 境外／境內頻寬測速：分別提供境外（Cloudflare）與中國境內（npmmirror、360 CDN 及 Speedtest.cn）測速節點，快速判斷慢速原因。\n3. VPN 救亡與清 DNS 指南：內置一鍵複製指令，針對「虛擬網卡甩線」與「舊 DNS 快取殘留」提供逐步排錯與瀏覽器 Socket 清理教學。",
+    "videos": [],
+    "articles": [],
     "related": []
   }
 };
